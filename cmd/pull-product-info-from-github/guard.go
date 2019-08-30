@@ -37,7 +37,7 @@ func addGuard() {
 		md, _ := description.GetContent()
 		guard.Description = map[string]string{
 			"markdown": md,
-			"html":     string(blackfriday.Run([]byte(md))),
+			"html":     string(blackfriday.MarkdownCommon([]byte(md))),
 		}
 	}
 }

@@ -37,7 +37,7 @@ func addSwift() {
 		md, _ := description.GetContent()
 		swift.Description = map[string]string{
 			"markdown": md,
-			"html":     string(blackfriday.Run([]byte(md))),
+			"html":     string(blackfriday.MarkdownCommon([]byte(md))),
 		}
 	}
 }

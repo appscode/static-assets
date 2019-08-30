@@ -37,7 +37,7 @@ func addServiceBroker() {
 		md, _ := description.GetContent()
 		serviceBroker.Description = map[string]string{
 			"markdown": md,
-			"html":     string(blackfriday.Run([]byte(md))),
+			"html":     string(blackfriday.MarkdownCommon([]byte(md))),
 		}
 	}
 }
