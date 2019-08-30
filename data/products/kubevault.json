@@ -1,0 +1,116 @@
+{
+  "key": "kubevault",
+  "name": "KubeVault",
+  "tagline": "Tools for running HashiCorp Vault on Kubernetes",
+  "summary": "",
+  "website": {
+    "domainKey": "domain_kubevault",
+    "path": ""
+  },
+  "heroImage": {
+    "src": "https://cdn.appscode.com/images/products/kubevault/kubevault-hero.png",
+    "alt": "KubeVault"
+  },
+  "logo": {
+    "src": "https://cdn.appscode.com/images/products/kubevault/kubevault-logo.png",
+    "alt": "KubeVault"
+  },
+  "logoWhite": {
+    "src": "https://cdn.appscode.com/images/products/kubevault/kubevault-logo-white.png",
+    "alt": "KubeVault"
+  },
+  "icon": {
+    "src": "https://cdn.appscode.com/images/products/kubevault/kubevault-icon.png",
+    "alt": "KubeVault"
+  },
+  "repoURL": "https://github.com/kubevault/docs",
+  "starRepo": "kubevault/operator",
+  "docRepo": "kubevault/docs",
+  "datasheetFormID": "88a60e55c210a9789b1760b3be1b61860a84c626df4fa3019227034be1e0b92f",
+  "features": [
+    {
+      "title": "Automatic Initialization & Unsealing",
+      "image": {
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-1.png",
+        "alt": "http"
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/http.png",
+        "alt": "http"
+      },
+      "summary": "",
+      "description": "When a Vault server is started, it starts in a sealed state. In a sealed state, almost no operation is possible with a Vault server. So, you will need to unseal Vault. Vault operator provides automatic initialization and unsealing facility. When you deploy or scale up a Vault server, you don't have worry about unsealing new Vault pods. Vault operator will do it for you. Also, it provides a secure way to store unseal keys and root token."
+    },
+    {
+      "title": "Manage Vault Policy",
+      "image": {
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-2.png",
+        "alt": "http"
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/http.png",
+        "alt": "http"
+      },
+      "summary": "",
+      "description": "Policies in Vault provide a declarative way to grant or forbid access to certain paths and operations in Vault. You can create, delete and update policy in Vault in a Kubernetes native way using Vault operator. Vault operator also provides a way to bind Vault policy with Kubernetes service accounts. ServiceAccounts will have the permissions that are specified in the policy."
+    },
+    {
+      "title": "AWS Secret Engine",
+      "image": {
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-3.png",
+        "alt": "http"
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/http.png",
+        "alt": "http"
+      },
+      "summary": "",
+      "description": "AWS secret engine in Vault generates AWS access credentials dynamically based on IAM policies. This makes AWS IAM user management easier. Using Vault operator, you can configure AWS secret engine and issue AWS access credential via Vault. A User can request AWS credential and after it's been approved Vault operator will create a Kubernetes Secret containing the AWS credential and also creates RBAC Role and RoleBinding so that the user can access the secret."
+    },
+    {
+      "title": "Azure Secret Engine",
+      "image": {
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-4.png",
+        "alt": "http"
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/http.png",
+        "alt": "http"
+      },
+      "summary": "",
+      "description": "The Azure secrets engine dynamically generates Azure service principals and role assignments. Vault roles can be mapped to one or more Azure roles, providing a simple, flexible way to manage the permissions granted to generated service principals. By using vault operator, one can easily configure vault azure secret engine and make request to generate service principals. Once the request is approved, the operator will get the credentials from vault and create kubernetes secret for storing those credentials. The operator also creates RBAC role and RoleBinding so that user can access the secret."
+    },
+    {
+      "title": "GCP Secret Engine",
+      "image": {
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-5.png",
+        "alt": "http"
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/http.png",
+        "alt": "http"
+      },
+      "summary": "",
+      "description": "The Google Cloud Vault secrets engine dynamically generates Google Cloud service account keys and OAuth tokens based on IAM policies. This enables users to gain access to Google Cloud resources without needing to create or manage a dedicated service account. By using vault operator, one can easily configure vault gcp secret engine and make request to generate Google Cloud account keys and OAuth tokens based on IAM policies. Once the request is approved, the operator will get the credentials from vault and create kubernetes secret for storing those credentials. The operator also creates RBAC role and RoleBinding so that user can access the secret."
+    },
+    {
+      "title": "Database Secret Engine",
+      "image": {
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-6.png",
+        "alt": "http"
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/http.png",
+        "alt": "http"
+      },
+      "summary": "",
+      "description": "PostgreSQL, MySQL & MongoDB database secret engine in Vault generates MongoDB database credentials dynamically based on configured roles. Using Vault operator, you can configure secret engine, create role and issue credential from Vault. A User can request credential and after it's been approved Vault operator will create a Kubernetes Secret containing the credential and also creates RBAC Role and RoleBinding so that the user can access the Secret."
+    }
+  ],
+  "versions": [
+      { "branch": "master", "hostDocs": false, "v-dropdown": true },
+      { "branch": "0.1.0", "hostDocs": true, "v-dropdown": true },
+      { "branch": "0.2.0", "hostDocs": true, "v-dropdown": true }
+  ],
+  "latestVersion": "0.2.0"
+}

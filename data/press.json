@@ -1,0 +1,38 @@
+[
+  {
+    "title": "3 open source projects that make Kubernetes easier",
+    "summary": "From cluster state management to snapshots and DR, companion tools from Heptio, Kubed, and Kubicorn aim to fill the gaps in Kubernetes.",
+    "link": "https://www.infoworld.com/article/3214627/3-open-source-projects-that-make-kubernetes-easier.html",
+    "timeToRead": "5 mins to Read",
+    "image": {
+      "src": "/assets/images/press/1.png"
+    }
+  },
+  {
+    "title": "Running Your Database On Kubernetes With KubeDB",
+    "summary": "Kubernetes is a driving force in the renaissance around deploying and running applications. However, managing the database layer is still a separate concern. The KubeDB project was created as a way of providing a simple mechanism for running your storage system in the same platform as your application.",
+    "link": "https://www.dataengineeringpodcast.com/kubedb-kubernetes-database-episode-79/",
+    "timeToRead": "50 mins to Listen",
+    "image": {
+      "src": "/assets/images/press/2.png"
+    }
+  },
+  {
+    "title": "CNCF Ensures Kubernetes Inter-operability with a Cert Program",
+    "summary": "The Cloud Native Computing Foundation has introduced the new certification program to help ensure cloud providers and other services vendors remain compatible with one another as the popular container orchestration project takes hold of the industry.",
+    "link": "https://thenewstack.io/cncf-introduces-c/",
+    "timeToRead": "5 mins to Read",
+    "image": {
+      "src": "/assets/images/press/3.png"
+    }
+  },
+  {
+    "title": "Kubernetes application packaging from first principles",
+    "summary": "Helm is the most popular way for packaging applications for Kubernetes. In this talk, Tamal Saha, Founder of AppsCode explores how Helm 2 can be simplified.",
+    "link": "https://www.youtube.com/watch?v=7NDU7KkWolE",
+    "timeToRead": "10 mins to Watch",
+    "image": {
+      "src": "/assets/images/press/4.png"
+    }
+  }
+]

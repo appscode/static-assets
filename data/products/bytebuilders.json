@@ -1,0 +1,249 @@
+{
+  "key": "bytebuilders",
+  "name": "ByteBuilders",
+  "tagline": "Cloud reimagined for the age of Kubernetes",
+  "summary": "",
+  "website": {
+    "domainKey": "domain_bytebuilders",
+    "path": ""
+  },
+  "heroImage": {
+    "src": "https://cdn.appscode.com/images/products/bytebuilders/bytebuilders-hero.png",
+    "alt": "ByteBuilders"
+  },
+  "logo": {
+    "src": "https://cdn.appscode.com/images/products/bytebuilders/bytebuilders-logo.png",
+    "alt": "ByteBuilders"
+  },
+  "logoWhite": {
+    "src": "https://cdn.appscode.com/images/products/bytebuilders/bytebuilders-logo-white.png",
+    "alt": "ByteBuilders"
+  },
+  "icon": {
+    "src": "https://cdn.appscode.com/images/products/bytebuilders/bytebuilders-icon.png",
+    "alt": "ByteBuilders"
+  },
+  "repoURL": "https://github.com/bytebuilders",
+  "starRepo": "bytebuilders/community",
+  "docRepo": "bytebuilders/community",
+  "features": [
+    {
+      "title": "Find the right tools",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/bytebuilders/features/dribble.png",
+        "alt": ""
+      },
+      "summary": "Your news feed helps you keep up with recent activity on repositories you watch and",
+      "description": ""
+    },
+    {
+      "title": "Find the right tools",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/bytebuilders/features/fire.png",
+        "alt": ""
+      },
+      "summary": "Your news feed helps you keep up with recent activity on repositories you watch and",
+      "description": ""
+    },
+    {
+      "title": "Find the right tools",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/bytebuilders/features/home.png",
+        "alt": ""
+      },
+      "summary": "Your news feed helps you keep up with recent activity on repositories you watch and",
+      "description": ""
+    },
+    {
+      "title": "Find the right tools",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/bytebuilders/features/leave.png",
+        "alt": ""
+      },
+      "summary": "Your news feed helps you keep up with recent activity on repositories you watch and",
+      "description": ""
+    },
+    {
+      "title": "Find the right tools",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/bytebuilders/features/rocket.png",
+        "alt": ""
+      },
+      "summary": "Your news feed helps you keep up with recent activity on repositories you watch and",
+      "description": ""
+    },
+    {
+      "title": "Find the right tools",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/bytebuilders/features/send.png",
+        "alt": ""
+      },
+      "summary": "Your news feed helps you keep up with recent activity on repositories you watch and",
+      "description": ""
+    },
+    {
+      "title": "Find the right tools",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/bytebuilders/features/sheild.png",
+        "alt": ""
+      },
+      "summary": "Your news feed helps you keep up with recent activity on repositories you watch and",
+      "description": ""
+    },
+    {
+      "title": "Find the right tools",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/bytebuilders/features/user.png",
+        "alt": ""
+      },
+      "summary": "Your news feed helps you keep up with recent activity on repositories you watch and",
+      "description": ""
+    }
+  ],
+  "solutions": [
+    {
+      "title": "Machine Learning",
+      "link": "https://appscode-v3-hugo.web.app/products/stash/v0.9.0-rc.0/guides/latest/platforms/eks/",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/bytebuilders/solutions/leave-2.png",
+        "alt": ""
+      },
+      "summary": "Build self-managed multi-host cloud contianer in minutes just with a single",
+      "description": ""
+    },
+    {
+      "title": "Data Analytics",
+      "link": "https://appscode-v3-hugo.web.app/products/stash/v0.9.0-rc.0/guides/latest/platforms/eks/",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/bytebuilders/solutions/dribble.png",
+        "alt": ""
+      },
+      "summary": "Build self-managed multi-host cloud contianer in minutes just with a single",
+      "description": ""
+    },
+    {
+      "title": "Internet of Things",
+      "link": "https://appscode-v3-hugo.web.app/products/stash/v0.9.0-rc.0/guides/latest/platforms/eks/",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/bytebuilders/solutions/telegram.png",
+        "alt": ""
+      },
+      "summary": "Build self-managed multi-host cloud contianer in minutes just with a single",
+      "description": ""
+    },
+    {
+      "title": "Serverless Computing",
+      "link": "https://appscode-v3-hugo.web.app/products/stash/v0.9.0-rc.0/guides/latest/platforms/eks/",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/bytebuilders/solutions/shield-1.png",
+        "alt": ""
+      },
+      "summary": "Build self-managed multi-host cloud contianer in minutes just with a single",
+      "description": ""
+    },
+    {
+      "title": "Storage Windows",
+      "link": "https://appscode-v3-hugo.web.app/products/stash/v0.9.0-rc.0/guides/latest/platforms/eks/",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/bytebuilders/solutions/trending.png",
+        "alt": ""
+      },
+      "summary": "Build self-managed multi-host cloud contianer in minutes just with a single",
+      "description": ""
+    },
+    {
+      "title": "Enterprise Applications",
+      "link": "https://appscode-v3-hugo.web.app/products/stash/v0.9.0-rc.0/guides/latest/platforms/eks/",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/bytebuilders/solutions/friends.png",
+        "alt": ""
+      },
+      "summary": "Build self-managed multi-host cloud contianer in minutes just with a single",
+      "description": ""
+    },
+    {
+      "title": "Containers",
+      "link": "https://appscode-v3-hugo.web.app/products/stash/v0.9.0-rc.0/guides/latest/platforms/eks/",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/bytebuilders/solutions/start-up.png",
+        "alt": ""
+      },
+      "summary": "Build self-managed multi-host cloud contianer in minutes just with a single",
+      "description": ""
+    },
+    {
+      "title": "Workloads",
+      "link": "https://appscode-v3-hugo.web.app/products/stash/v0.9.0-rc.0/guides/latest/platforms/eks/",
+      "image": {
+        "src": "",
+        "alt": ""
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/bytebuilders/solutions/home.png",
+        "alt": ""
+      },
+      "summary": "Build self-managed multi-host cloud contianer in minutes just with a single",
+      "description": ""
+    }
+  ]
+}
