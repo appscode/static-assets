@@ -23,6 +23,7 @@ func main() {
 	addVoyager()
 	addKubeShield()
 	addKubeCI()
+	addKubeVault()
 
 	for _, name := range products.AssetNames() {
 		key := strings.ReplaceAll(name, ".json", "")
@@ -59,6 +60,11 @@ func main() {
 			p.SupportLinks = kubeshield.SupportLinks
 			p.Description = kubeshield.Description
 			p.StripeProductID = kubeshield.StripeProductID
+		case "kubevault":
+			p.SocialLinks = kubevault.SocialLinks
+			p.SupportLinks = kubevault.SupportLinks
+			p.Description = kubevault.Description
+			p.StripeProductID = kubevault.StripeProductID
 		case "pharmer":
 			p.SocialLinks = pharmer.SocialLinks
 			p.SupportLinks = pharmer.SupportLinks
