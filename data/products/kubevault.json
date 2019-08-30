@@ -112,5 +112,18 @@
       { "branch": "0.1.0", "hostDocs": true, "v-dropdown": true },
       { "branch": "0.2.0", "hostDocs": true, "v-dropdown": true }
   ],
-  "latestVersion": "0.2.0"
+  "latestVersion": "0.2.0",
+  "socialLinks": {
+    "facebook": "https://facebook.com/appscode",
+    "forum": "discourse.appscode.com",
+    "github": "https://github.com/kubevault",
+    "linkedin": "https://www.linkedin.com/company/appscode",
+    "twitter": "https://twitter.com/kubevault",
+    "youtube": "https://www.youtube.com/channel/UCxObRDZ0DtaQe_cCP-dN-xg"
+  },
+  "supportLinks": {
+    "Support URL": "https://appscode.freshdesk.com",
+    "Website URL": "https://kubevault.com"
+  },
+  "stripeProductID": "prod_FiawKtgLGy6R9v"
 }
