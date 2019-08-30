@@ -165,5 +165,6 @@
   "supportLinks": {
     "Support URL": "https://appscode.freshdesk.com",
     "Website URL": "https://www.kubedb.com"
-  }
+  },
+  "stripeProductID": "prod_FARWKSytMzmLb9"
 }

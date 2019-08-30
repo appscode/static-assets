@@ -96,5 +96,6 @@
   "supportLinks": {
     "Support URL": "https://appscode.freshdesk.com",
     "Website URL": "https://www.appscode.com/products/searchlight"
-  }
+  },
+  "stripeProductID": "prod_FARWHv38XFKlXL"
 }

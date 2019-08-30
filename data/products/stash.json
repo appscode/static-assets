@@ -145,5 +145,6 @@
   "supportLinks": {
     "Support URL": "https://appscode.freshdesk.com",
     "Website URL": "https://www.appscode.com/products/stash"
-  }
+  },
+  "stripeProductID": "prod_FARXQdMCCvjfZw"
 }

@@ -98,5 +98,6 @@
   "supportLinks": {
     "Support URL": "https://appscode.freshdesk.com",
     "Website URL": "https://www.appscode.com/products/guard"
-  }
+  },
+  "stripeProductID": "prod_FARVnkJx8nelJk"
 }

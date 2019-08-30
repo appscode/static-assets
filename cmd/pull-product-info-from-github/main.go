@@ -38,46 +38,57 @@ func main() {
 			p.SocialLinks = guard.SocialLinks
 			p.SupportLinks = guard.SupportLinks
 			p.Description = guard.Description
+			p.StripeProductID = guard.StripeProductID
 		case "kubeci":
 			p.SocialLinks = kubeci.SocialLinks
 			p.SupportLinks = kubeci.SupportLinks
 			p.Description = kubeci.Description
+			p.StripeProductID = kubeci.StripeProductID
 		case "kubed":
 			p.SocialLinks = kubed.SocialLinks
 			p.SupportLinks = kubed.SupportLinks
 			p.Description = kubed.Description
+			p.StripeProductID = kubed.StripeProductID
 		case "kubedb":
 			p.SocialLinks = kubedb.SocialLinks
 			p.SupportLinks = kubedb.SupportLinks
 			p.Description = kubedb.Description
+			p.StripeProductID = kubedb.StripeProductID
 		case "kubeshield":
 			p.SocialLinks = kubeshield.SocialLinks
 			p.SupportLinks = kubeshield.SupportLinks
 			p.Description = kubeshield.Description
+			p.StripeProductID = kubeshield.StripeProductID
 		case "pharmer":
 			p.SocialLinks = pharmer.SocialLinks
 			p.SupportLinks = pharmer.SupportLinks
 			p.Description = pharmer.Description
+			p.StripeProductID = pharmer.StripeProductID
 		case "searchlight":
 			p.SocialLinks = searchlight.SocialLinks
 			p.SupportLinks = searchlight.SupportLinks
 			p.Description = searchlight.Description
+			p.StripeProductID = searchlight.StripeProductID
 		case "service-broker":
 			p.SocialLinks = serviceBroker.SocialLinks
 			p.SupportLinks = serviceBroker.SupportLinks
 			p.Description = serviceBroker.Description
+			p.StripeProductID = serviceBroker.StripeProductID
 		case "stash":
 			p.SocialLinks = stash.SocialLinks
 			p.SupportLinks = stash.SupportLinks
 			p.Description = stash.Description
+			p.StripeProductID = stash.StripeProductID
 		case "swift":
 			p.SocialLinks = swift.SocialLinks
 			p.SupportLinks = swift.SupportLinks
 			p.Description = swift.Description
+			p.StripeProductID = swift.StripeProductID
 		case "voyager":
 			p.SocialLinks = voyager.SocialLinks
 			p.SupportLinks = voyager.SupportLinks
 			p.Description = voyager.Description
+			p.StripeProductID = voyager.StripeProductID
 		}
 
 		var buf bytes.Buffer

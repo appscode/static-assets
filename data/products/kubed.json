@@ -139,5 +139,6 @@
   "supportLinks": {
     "Support URL": "https://appscode.freshdesk.com",
     "Website URL": "https://www.appscode.com/products/kubed"
-  }
+  },
+  "stripeProductID": "prod_FARVnpFkkXyggO"
 }
