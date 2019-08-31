@@ -3,6 +3,7 @@
   "name": "Guard",
   "tagline": "Kubernetes Authentication WebHook Server",
   "summary": "",
+  "published": true,
   "website": {
     "domainKey": "domain_appscode",
     "path": "/products/guard/"

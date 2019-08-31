@@ -3,6 +3,7 @@
   "name": "Voyager",
   "tagline": "Secure HAProxy Ingress Controller for<br /> <strong>Kubernetes</strong>",
   "summary": "",
+  "published": true,
   "website": {
     "domainKey": "domain_appscode",
     "path": "/products/voyager/"

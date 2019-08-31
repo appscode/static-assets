@@ -3,6 +3,7 @@
   "name": "KubeDB",
   "tagline": "Run production-grade databases <br />easily on <strong>Kubernetes</strong>",
   "summary": "",
+  "published": true,
   "website": {
     "domainKey": "domain_kubedb",
     "path": ""

@@ -45,6 +45,7 @@ type Product struct {
 	Name            string            `json:"name"`
 	Tagline         string            `json:"tagline"`
 	Summary         string            `json:"summary"`
+	Published       bool              `json:"published"`
 	Website         URLRef            `json:"website"`
 	HeroImage       Image             `json:"heroImage"`
 	Logo            Image             `json:"logo"`

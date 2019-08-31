@@ -3,6 +3,7 @@
   "name": "Pharmer",
   "tagline": "Kubernetes Cluster Manager using Kubeadm & Cluster API",
   "summary": "",
+  "published": true,
   "website": {
     "domainKey": "domain_appscode",
     "path": "/products/pharmer/"

@@ -3,6 +3,7 @@
   "name": "Kubed",
   "tagline": "Kubernetes cluster manager daemon",
   "summary": "",
+  "published": true,
   "website": {
     "domainKey": "domain_appscode",
     "path": "/products/kubed/"

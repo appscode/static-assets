@@ -3,6 +3,7 @@
   "name": "Searchlight",
   "tagline": "Alerts for Kubernetes",
   "summary": "",
+  "published": true,
   "website": {
     "domainKey": "domain_appscode",
     "path": "/products/searchlight/"

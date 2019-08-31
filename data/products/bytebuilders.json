@@ -3,6 +3,7 @@
   "name": "ByteBuilders",
   "tagline": "Cloud reimagined for the age of Kubernetes",
   "summary": "",
+  "published": true,
   "website": {
     "domainKey": "domain_bytebuilders",
     "path": ""

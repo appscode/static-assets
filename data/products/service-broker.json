@@ -3,6 +3,7 @@
   "name": "ServiceBroker",
   "tagline": "Open Service Broker for AppsCode Kubernetes Operators",
   "summary": "",
+  "published": true,
   "website": {
     "domainKey": "domain_appscode",
     "path": "/products/service-broker/"

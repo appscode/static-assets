@@ -3,6 +3,7 @@
   "name": "Swift",
   "tagline": "Ajax friendly Helm Tiller Proxy",
   "summary": "",
+  "published": true,
   "website": {
     "domainKey": "domain_appscode",
     "path": "/products/swift/"
