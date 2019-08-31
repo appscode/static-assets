@@ -32,10 +32,10 @@ func addKubeVault() {
 
 	description, _, err := client.Repositories.GetReadme(ctx, "kubevault", "docs", nil)
 	if err != nil {
-		kubeshield.Description = nil
+		kubevault.Description = nil
 	} else {
 		md, _ := description.GetContent()
-		kubeshield.Description = map[string]string{
+		kubevault.Description = map[string]string{
 			"markdown": md,
 			"html":     string(blackfriday.MarkdownCommon([]byte(md))),
 		}
