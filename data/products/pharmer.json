@@ -5,8 +5,8 @@
   "summary": "",
   "published": true,
   "website": {
-    "domainKey": "domain_appscode",
-    "path": "/products/pharmer/"
+    "domainKey": "domain_pharmer",
+    "path": ""
   },
   "heroImage": {
     "src": "https://cdn.appscode.com/images/products/pharmer/pharmer-hero.png",
