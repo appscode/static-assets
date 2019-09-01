@@ -14,12 +14,11 @@ func addKubed() {
 	kubed = &api.Product{
 		Name: "Kubed",
 		SocialLinks: map[string]string{
-			"forum":    "discourse.appscode.com",
 			"twitter":  "https://twitter.com/AppsCodeHQ",
 			"facebook": "https://facebook.com/appscode",
 			"linkedin": "https://www.linkedin.com/company/appscode",
 			"github":   "https://github.com/appscode/kubed",
-			"youtube":  "https://www.youtube.com/channel/UCxObRDZ0DtaQe_cCP-dN-xg",
+			"youtube":  "https://www.youtube.com/c/appscodeinc",
 		},
 		SupportLinks: map[string]string{
 			"Support URL": `https://appscode.freshdesk.com`,
