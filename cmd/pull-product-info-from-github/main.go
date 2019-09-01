@@ -24,6 +24,7 @@ func main() {
 	addKubeShield()
 	addKubeCI()
 	addKubeVault()
+	addKubeform()
 
 	for _, name := range products.AssetNames() {
 		key := strings.ReplaceAll(name, ".json", "")
