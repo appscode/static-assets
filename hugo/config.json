@@ -1,0 +1,24 @@
+{
+  "assets": {
+    "repoURL": "https://github.com/appscode/static-assets",
+    "branch": "master",
+    "dirs": {
+      "data": "data",
+      "images": "static/assets/images",
+      "files": "static/files"
+    }
+  },
+  "mainMenu": {
+    "c0": ["kubedb", "stash", "kubevault", "guard"],
+    "c1": ["voyager", "swift", "searchlight", "service-broker"],
+    "c2": ["pharmer", "kubed"]
+  },
+  "footerLinks": [
+    "kubedb",
+    "stash",
+    "kubevault",
+    "voyager",
+    "guard",
+    "pharmer"
+  ]
+}
