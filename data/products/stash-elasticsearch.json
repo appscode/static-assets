@@ -7,8 +7,8 @@
   "starRepo": "stashed/stash",
   "docRepo": "stashed/elasticsearch",
   "versions": [
-    { "branch": "master", "hostDocs": false, "show": true },
-    { "branch": "6.8", "hostDocs": true, "show": true }
+    { "version": "master", "hostDocs": false, "show": true },
+    { "version": "6.8", "hostDocs": true, "show": true }
   ],
   "latestVersion": "6.8"
 }

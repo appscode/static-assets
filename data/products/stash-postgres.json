@@ -7,12 +7,12 @@
   "starRepo": "stashed/stash",
   "docRepo": "stashed/postgres",
   "versions": [
-    { "branch": "master", "hostDocs": false, "show": true },
-    { "branch": "9.6", "hostDocs": true, "show": true },
-    { "branch": "10.2", "hostDocs": true, "show": true },
-    { "branch": "10.6", "hostDocs": true, "show": true },
-    { "branch": "11.1", "hostDocs": true, "show": true },
-    { "branch": "11.2", "hostDocs": true, "show": true }
+    { "version": "master", "hostDocs": false, "show": true },
+    { "version": "9.6", "hostDocs": true, "show": true },
+    { "version": "10.2", "hostDocs": true, "show": true },
+    { "version": "10.6", "hostDocs": true, "show": true },
+    { "version": "11.1", "hostDocs": true, "show": true },
+    { "version": "11.2", "hostDocs": true, "show": true }
   ],
   "latestVersion": "11.2"
 }

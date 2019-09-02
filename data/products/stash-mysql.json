@@ -7,8 +7,8 @@
   "starRepo": "stashed/stash",
   "docRepo": "stashed/mysql",
   "versions": [
-    { "branch": "master", "hostDocs": false, "show": true },
-    { "branch": "5.7", "hostDocs": true, "show": true }
+    { "version": "master", "hostDocs": false, "show": true },
+    { "version": "5.7", "hostDocs": true, "show": true }
   ],
   "latestVersion": "5.7"
 }

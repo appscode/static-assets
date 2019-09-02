@@ -70,8 +70,8 @@
     }
   ],
   "versions": [
-    { "branch": "master", "hostDocs": false, "show": true },
-    { "branch": "0.3.1", "hostDocs": true, "show": true }
+    { "version": "master", "hostDocs": false, "show": true },
+    { "version": "0.3.1", "hostDocs": true, "show": true }
   ],
   "latestVersion": "0.3.1",
   "socialLinks": {

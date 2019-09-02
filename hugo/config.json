@@ -1,7 +1,7 @@
 {
   "assets": {
     "repoURL": "https://github.com/appscode/static-assets",
-    "branch": "master",
+    "version": "master",
     "dirs": {
       "data": "data",
       "images": "static/assets/images",

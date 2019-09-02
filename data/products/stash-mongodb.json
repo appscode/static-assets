@@ -7,8 +7,8 @@
   "starRepo": "stashed/stash",
   "docRepo": "stashed/postgres",
   "versions": [
-    { "branch": "master", "hostDocs": false, "show": true },
-    { "branch": "3.4", "hostDocs": true, "show": true }
+    { "version": "master", "hostDocs": false, "show": true },
+    { "version": "3.4", "hostDocs": true, "show": true }
   ],
   "latestVersion": "3.4"
 }
