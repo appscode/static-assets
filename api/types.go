@@ -19,10 +19,11 @@ type URLRef struct {
 }
 
 type ProductVersion struct {
-	Branch   string `json:"branch"`
+	Version  string `json:"version"`
 	HostDocs bool   `json:"hostDocs"`
 	Show     bool   `json:"show,omitempty"`
 	DocsDir  string `json:"docsDir,omitempty"` // default: "docs"
+	Branch   string `json:"branch,omitempty"`
 }
 
 type Solution struct {
@@ -68,4 +69,15 @@ type ProjectRef struct {
 type Mapping struct {
 	Versions           []string `json:"versions"`
 	SubProjectVersions []string `json:"subProjectVersions"`
+}
+
+type AssetListing struct {
+	RepoURL string            `json:"repoURL"`
+	Version string            `json:"version"`
+	Dirs    map[string]string `json:"dirs"`
+}
+
+type Listing struct {
+	Products []string     `json:"products"`
+	Assets   AssetListing `json:"assets"`
 }
