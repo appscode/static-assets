@@ -1,0 +1,14 @@
+{
+  "key": "stash-postgres",
+  "name": "PostgreSQL",
+  "tagline": "Postgres backup and restore plugin for Stash by AppsCode",
+  "published": true,
+  "repoURL": "https://github.com/stashed/postgres",
+  "starRepo": "stashed/stash",
+  "docRepo": "stashed/postgres",
+  "versions": [
+    { "branch": "master", "hostDocs": false, "show": true },
+    { "branch": "3.4", "hostDocs": true, "show": true }
+  ],
+  "latestVersion": "3.4"
+}

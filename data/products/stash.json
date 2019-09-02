@@ -240,7 +240,7 @@
   ],
   "versions": [
     { "branch": "master", "hostDocs": false, "show": true },
-    { "branch": "v0.9.0-rc.0", "hostDocs": true, "show": true },
+    { "branch": "v0.9.0-rc.0", "hostDocs": true, "show": true, "subProjects": true },
     { "branch": "0.8.3", "hostDocs": true, "show": true },
     { "branch": "0.8.2", "hostDocs": true, "show": true },
     { "branch": "0.8.1", "hostDocs": true, "show": true },
@@ -276,5 +276,19 @@
     "Support URL": "https://appscode.freshdesk.com",
     "Website URL": "https://www.appscode.com/products/stash"
   },
-  "stripeProductID": "prod_FARXQdMCCvjfZw"
+  "stripeProductID": "prod_FARXQdMCCvjfZw",
+  "subProjects": {
+    "stash-elasticsearch": {
+      "dir": "{{.Version}}/addons/elasticsearch/guides"
+    },
+    "stash-mongodb": {
+      "dir": "{{.Version}}/addons/mongodb/guides"
+    },
+    "stash-mysql": {
+      "dir": "{{.Version}}/addons/mysql/guides"
+    },
+    "stash-postgres": {
+      "dir": "{{.Version}}/addons/postgres/guides"
+    }
+  }
 }
