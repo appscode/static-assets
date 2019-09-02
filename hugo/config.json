@@ -8,6 +8,17 @@
       "files": "static/files"
     }
   },
+  "clouds": [
+    "aws",
+    "azure",
+    "gce",
+    "digitalocean",
+    "linode",
+    "openstack",
+    "packet",
+    "baremetal",
+    "docker"
+  ],
   "mainMenu": {
     "c0": ["kubedb", "stash", "kubevault", "guard"],
     "c1": ["voyager", "swift", "searchlight", "service-broker"],
