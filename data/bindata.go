@@ -213,7 +213,7 @@ func productsGuardJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "products/guard.json", size: 10509, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "products/guard.json", size: 10509, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -233,7 +233,7 @@ func productsKubeciJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "products/kubeci.json", size: 14254, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "products/kubeci.json", size: 14254, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -253,7 +253,7 @@ func productsKubedJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "products/kubed.json", size: 13591, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "products/kubed.json", size: 13591, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -273,7 +273,7 @@ func productsKubedbJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "products/kubedb.json", size: 19201, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "products/kubedb.json", size: 19201, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -293,7 +293,7 @@ func productsKubeformJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "products/kubeform.json", size: 17568, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "products/kubeform.json", size: 17568, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -313,7 +313,7 @@ func productsKubeshieldJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "products/kubeshield.json", size: 13196, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "products/kubeshield.json", size: 13196, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -333,7 +333,7 @@ func productsKubevaultJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "products/kubevault.json", size: 12282, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "products/kubevault.json", size: 12282, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -353,7 +353,7 @@ func productsPharmerJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "products/pharmer.json", size: 15964, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "products/pharmer.json", size: 15964, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -373,7 +373,7 @@ func productsSearchlightJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "products/searchlight.json", size: 13515, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "products/searchlight.json", size: 13515, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -393,7 +393,7 @@ func productsServiceBrokerJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "products/service-broker.json", size: 9007, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "products/service-broker.json", size: 9007, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -413,7 +413,7 @@ func productsStashElasticsearchJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "products/stash-elasticsearch.json", size: 453, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "products/stash-elasticsearch.json", size: 453, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -433,7 +433,7 @@ func productsStashMysqlJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "products/stash-mysql.json", size: 413, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "products/stash-mysql.json", size: 413, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -453,7 +453,7 @@ func productsStashPostgresJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "products/stash-postgres.json", size: 667, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "products/stash-postgres.json", size: 667, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -473,7 +473,7 @@ func productsStashJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "products/stash.json", size: 22905, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "products/stash.json", size: 22905, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -493,7 +493,7 @@ func productsSwiftJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "products/swift.json", size: 12218, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "products/swift.json", size: 12218, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -513,7 +513,7 @@ func productsVoyagerJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "products/voyager.json", size: 18424, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "products/voyager.json", size: 18424, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }

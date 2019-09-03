@@ -149,7 +149,7 @@ func guardJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "guard.json", size: 10509, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "guard.json", size: 10509, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -169,7 +169,7 @@ func kubeciJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "kubeci.json", size: 14254, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "kubeci.json", size: 14254, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -189,7 +189,7 @@ func kubedJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "kubed.json", size: 13591, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "kubed.json", size: 13591, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -209,7 +209,7 @@ func kubedbJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "kubedb.json", size: 19201, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "kubedb.json", size: 19201, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -229,7 +229,7 @@ func kubeformJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "kubeform.json", size: 17568, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "kubeform.json", size: 17568, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -249,7 +249,7 @@ func kubeshieldJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "kubeshield.json", size: 13196, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "kubeshield.json", size: 13196, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -269,7 +269,7 @@ func kubevaultJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "kubevault.json", size: 12282, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "kubevault.json", size: 12282, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -289,7 +289,7 @@ func pharmerJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "pharmer.json", size: 15964, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "pharmer.json", size: 15964, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -309,7 +309,7 @@ func searchlightJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "searchlight.json", size: 13515, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "searchlight.json", size: 13515, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -329,7 +329,7 @@ func serviceBrokerJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "service-broker.json", size: 9007, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "service-broker.json", size: 9007, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -349,7 +349,7 @@ func stashElasticsearchJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "stash-elasticsearch.json", size: 453, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "stash-elasticsearch.json", size: 453, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -369,7 +369,7 @@ func stashMysqlJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "stash-mysql.json", size: 413, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "stash-mysql.json", size: 413, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -389,7 +389,7 @@ func stashPostgresJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "stash-postgres.json", size: 667, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "stash-postgres.json", size: 667, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -409,7 +409,7 @@ func stashJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "stash.json", size: 22905, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "stash.json", size: 22905, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -429,7 +429,7 @@ func swiftJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "swift.json", size: 12218, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "swift.json", size: 12218, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -449,7 +449,7 @@ func voyagerJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "voyager.json", size: 18424, mode: os.FileMode(420), modTime: time.Unix(1567463006, 0)}
+	info := bindataFileInfo{name: "voyager.json", size: 18424, mode: os.FileMode(420), modTime: time.Unix(1567464113, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
