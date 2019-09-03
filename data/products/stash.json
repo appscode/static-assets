@@ -279,7 +279,7 @@
   "stripeProductID": "prod_FARXQdMCCvjfZw",
   "subProjects": {
     "stash-elasticsearch": {
-      "dir": "{{.Version}}/addons/elasticsearch/guides",
+      "dir": "addons/elasticsearch/guides",
       "mappings": [
         {
           "versions": [
@@ -292,7 +292,7 @@
       ]
     },
     "stash-mongodb": {
-      "dir": "{{.Version}}/addons/mongodb/guides",
+      "dir": "addons/mongodb/guides",
       "mappings": [
         {
           "versions": [
@@ -305,7 +305,7 @@
       ]
     },
     "stash-mysql": {
-      "dir": "{{.Version}}/addons/mysql/guides",
+      "dir": "addons/mysql/guides",
       "mappings": [
         {
           "versions": [
@@ -318,7 +318,7 @@
       ]
     },
     "stash-postgres": {
-      "dir": "{{.Version}}/addons/postgres/guides",
+      "dir": "addons/postgres/guides",
       "mappings": [
         {
           "versions": [
