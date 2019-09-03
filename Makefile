@@ -47,11 +47,11 @@ gen-bindata:
 		$(BUILD_IMAGE)                                          \
 		/bin/bash -c "                                          \
 			cd /src/data;                                                                                \
-			go-bindata -ignore=\\.go -ignore=\\.DS_Store -mode=0644 -o bindata.go -pkg data ./...;       \
+			go-bindata -ignore='\\.go$$' -ignore=\\.DS_Store -mode=0644 -o bindata.go -pkg data .;       \
 			cd /src/data/products;                                                                       \
-			go-bindata -ignore=\\.go -ignore=\\.DS_Store -mode=0644 -o bindata.go -pkg products ./...;   \
+			go-bindata -ignore='\\.go$$' -ignore=\\.DS_Store -mode=0644 -o bindata.go -pkg products .;   \
 			cd /src/hugo;                                                                                \
-			go-bindata -ignore=\\.go -ignore=\\.DS_Store -mode=0644 -o bindata.go -pkg hugo ./...;       \
+			go-bindata -ignore='\\.go$$' -ignore=\\.DS_Store -mode=0644 -o bindata.go -pkg hugo .;       \
 		"
 
 publish:
