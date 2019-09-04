@@ -1,8 +1,8 @@
 {
   "key": "appscode",
   "name": "AppsCode",
-  "tagline": "The Kubernetes Company",
-  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+  "tagline": "GitHub for Kubernetes",
+  "summary": "Accelerating the transition to Containers by building a Kubernetes-native Cloud",
   "published": false,
   "website": {
     "domainKey": "domain_appscode",
