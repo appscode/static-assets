@@ -36,7 +36,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/http.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/dumbbell.png",
         "alt": "http"
       },
       "summary": "",
@@ -49,7 +49,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/http.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/kubernetes.png",
         "alt": "http"
       },
       "summary": "",
@@ -62,7 +62,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/http.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/muscle.png",
         "alt": "http"
       },
       "summary": "",
@@ -75,7 +75,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/http.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/last-24-hours.png",
         "alt": "http"
       },
       "summary": "",
@@ -88,7 +88,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/http.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/security-lock.png",
         "alt": "http"
       },
       "summary": "",
@@ -101,7 +101,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/http.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/prometheus.svg",
         "alt": "http"
       },
       "summary": "",
@@ -114,7 +114,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/http.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/low-price.png",
         "alt": "http"
       },
       "summary": "",
@@ -127,7 +127,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/http.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/teamwork.png",
         "alt": "http"
       },
       "summary": "",
