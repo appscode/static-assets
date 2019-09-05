@@ -27,7 +27,7 @@
   "repoURL": "https://github.com/kubevault/docs",
   "starRepo": "kubevault/operator",
   "docRepo": "kubevault/docs",
-  "datasheetFormID": "88a60e55c210a9789b1760b3be1b61860a84c626df4fa3019227034be1e0b92f",
+  "datasheetFormID": "",
   "features": [
     {
       "title": "Automatic Initialization & Unsealing",
