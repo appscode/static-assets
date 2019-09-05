@@ -9,8 +9,9 @@ type Feature struct {
 }
 
 type Image struct {
-	Src string `json:"src"`
-	Alt string `json:"alt"`
+	Src   string            `json:"src"`
+	Alt   string            `json:"alt"`
+	Sizes map[string]string `json:"sizes,omitempty"`
 }
 
 type URLRef struct {
