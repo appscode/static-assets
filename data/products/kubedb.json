@@ -22,7 +22,10 @@
   },
   "icon": {
     "src": "https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png",
-    "alt": "KubeDB"
+    "alt": "KubeDB",
+    "sizes": {
+      "192x192": "https://cdn.appscode.com/images/products/kubedb/icons/android-icon-192x192.png"
+    }
   },
   "repoURL": "https://github.com/kubedb/docs",
   "starRepo": "kubedb/cli",

@@ -22,7 +22,10 @@
   },
   "icon": {
     "src": "https://cdn.appscode.com/images/products/kubevault/kubevault-icon.png",
-    "alt": "KubeVault"
+    "alt": "KubeVault",
+    "sizes": {
+      "192x192": "https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png"
+    }
   },
   "repoURL": "https://github.com/kubevault/docs",
   "starRepo": "kubevault/operator",

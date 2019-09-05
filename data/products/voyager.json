@@ -22,7 +22,10 @@
   },
   "icon": {
     "src": "https://cdn.appscode.com/images/products/voyager/voyager-icon.png",
-    "alt": "Voyager"
+    "alt": "Voyager",
+    "sizes": {
+      "192x192": "https://cdn.appscode.com/images/products/voyager/icons/android-icon-192x192.png"
+    }
   },
   "repoURL": "https://github.com/appscode/voyager",
   "starRepo": "appscode/voyager",

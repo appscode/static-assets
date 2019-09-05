@@ -22,7 +22,10 @@
   },
   "icon": {
     "src": "https://cdn.appscode.com/images/products/kubed/kubed-icon.png",
-    "alt": "Kubed"
+    "alt": "Kubed",
+    "sizes": {
+      "192x192": "https://cdn.appscode.com/images/products/kubed/icons/android-icon-192x192.png"
+    }
   },
   "repoURL": "https://github.com/appscode/kubed",
   "starRepo": "appscode/kubed",

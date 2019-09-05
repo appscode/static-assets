@@ -22,7 +22,10 @@
   },
   "icon": {
     "src": "https://cdn.appscode.com/images/products/searchlight/searchlight-icon.png",
-    "alt": "Searchlight"
+    "alt": "Searchlight",
+    "sizes": {
+      "192x192": "https://cdn.appscode.com/images/products/searchlight/icons/android-icon-192x192.png"
+    }
   },
   "repoURL": "https://github.com/searchlight/searchlight",
   "starRepo": "searchlight/searchlight",

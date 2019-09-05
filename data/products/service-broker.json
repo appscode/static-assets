@@ -22,7 +22,10 @@
   },
   "icon": {
     "src": "https://cdn.appscode.com/images/products/service-broker/service-broker-icon.png",
-    "alt": "ServiceBroker"
+    "alt": "ServiceBroker",
+    "sizes": {
+      "192x192": "https://cdn.appscode.com/images/products/service-broker/icons/android-icon-192x192.png"
+    }
   },
   "repoURL": "https://github.com/appscode/service-broker",
   "starRepo": "appscode/service-broker",

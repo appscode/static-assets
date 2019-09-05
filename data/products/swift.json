@@ -22,7 +22,10 @@
   },
   "icon": {
     "src": "https://cdn.appscode.com/images/products/swift/swift-icon.png",
-    "alt": "Swift"
+    "alt": "Swift",
+    "sizes": {
+      "192x192": "https://cdn.appscode.com/images/products/swift/icons/android-icon-192x192.png"
+    }
   },
   "repoURL": "https://github.com/kubepack/swift",
   "starRepo": "kubepack/swift",

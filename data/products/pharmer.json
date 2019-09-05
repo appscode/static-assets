@@ -22,7 +22,10 @@
   },
   "icon": {
     "src": "https://cdn.appscode.com/images/products/pharmer/pharmer-icon.png",
-    "alt": "Pharmer"
+    "alt": "Pharmer",
+    "sizes": {
+      "192x192": "https://cdn.appscode.com/images/products/pharmer/icons/android-icon-192x192.png"
+    }
   },
   "repoURL": "https://github.com/pharmer/docs",
   "starRepo": "pharmer/pharmer",

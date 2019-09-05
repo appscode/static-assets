@@ -22,7 +22,10 @@
   },
   "icon": {
     "src": "https://cdn.appscode.com/images/products/bytebuilders/bytebuilders-icon.png",
-    "alt": "ByteBuilders"
+    "alt": "ByteBuilders",
+    "sizes": {
+      "192x192": "https://cdn.appscode.com/images/products/bytebuilders/icons/android-icon-192x192.png"
+    }
   },
   "repoURL": "https://github.com/bytebuilders",
   "starRepo": "bytebuilders/community",
