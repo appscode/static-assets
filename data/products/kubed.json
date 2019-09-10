@@ -31,10 +31,18 @@
   "starRepo": "appscode/kubed",
   "docRepo": "appscode/kubed",
   "datasheetFormID": "",
-  "badges": {
-    "GitHub Stars": "github/stars/appscode/kubed",
-    "Docker Pulls": "docker/pulls/appscode/kubed"
-  },
+  "badges": [
+    {
+      "url" : "github/stars/appscode/kubed",
+      "alt": "GitHub Stars",
+      "logo": "github"
+    },
+    {
+      "url" : "docker/pulls/appscode/kubed",
+      "alt": "Docker Pulls",
+      "logo": "docker"
+    }
+  ],
   "features": [
     {
       "title": "Disaster Recovery",

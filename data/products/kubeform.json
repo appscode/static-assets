@@ -30,10 +30,18 @@
   "repoURL": "https://github.com/kubeform/docs",
   "starRepo": "kubeform/kubeform",
   "docRepo": "kubeform/docs",
-  "badges": {
-    "GitHub Stars": "github/stars/kubeform/kubeform",
-    "Docker Pulls": "docker/pulls/kubeform/kfc"
-  },
+  "badges": [
+    {
+      "url" : "github/stars/kubeform/kubeform",
+      "alt": "GitHub Stars",
+      "logo": "github"
+    },
+    {
+      "url" : "docker/pulls/kubeform/kfc",
+      "alt": "Docker Pulls",
+      "logo": "docker"
+    }
+  ],
   "features": [
     {
       "title": "Native Kubernetes Support",
