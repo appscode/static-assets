@@ -21,8 +21,8 @@
   ],
   "mainMenu": {
     "c0": ["kubedb", "stash", "kubevault", "guard"],
-    "c1": ["voyager", "swift", "searchlight", "service-broker"],
-    "c2": ["pharmer", "kubeform", "kubed"]
+    "c1": ["voyager", "swift", "searchlight", "kubed"],
+    "c2": ["pharmer", "kubeform"]
   },
   "footerLinks": [
     "kubedb",
