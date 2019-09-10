@@ -31,6 +31,10 @@
   "starRepo": "appscode/service-broker",
   "docRepo": "appscode/service-broker",
   "datasheetFormID": "",
+  "badges": {
+    "GitHub Stars": "github/stars/appscode/service-broker",
+    "Docker Pulls": "docker/pulls/appscode/service-broker"
+  },
   "features": [
     {
       "title": "KubeDB Support",

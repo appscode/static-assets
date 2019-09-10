@@ -6,6 +6,10 @@
   "repoURL": "https://github.com/stashed/elasticsearch",
   "starRepo": "stashed/stash",
   "docRepo": "stashed/elasticsearch",
+  "badges": {
+    "GitHub Stars": "github/stars/stashed/elasticsearch",
+    "Docker Pulls": "docker/pulls/stashed/elasticsearch"
+  },
   "versions": [
     { "version": "master", "hostDocs": false, "show": true },
     { "version": "6.8", "hostDocs": true, "show": true }

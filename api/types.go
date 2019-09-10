@@ -51,6 +51,7 @@ type Product struct {
 	StarRepo        string                `json:"starRepo,omitempty"`
 	DocRepo         string                `json:"docRepo,omitempty"`
 	DatasheetFormID string                `json:"datasheetFormID,omitempty"`
+	Badges          map[string]string     `json:"badges,omitempty"`
 	Features        []Feature             `json:"features,omitempty"`
 	Solutions       []Solution            `json:"solutions,omitempty"`
 	Versions        []ProductVersion      `json:"versions,omitempty"`

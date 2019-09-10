@@ -31,6 +31,10 @@
   "starRepo": "kubevault/operator",
   "docRepo": "kubevault/docs",
   "datasheetFormID": "",
+  "badges": {
+    "GitHub Stars": "github/stars/kubevault/operator",
+    "Docker Pulls": "docker/pulls/kubevault/operator"
+  },
   "features": [
     {
       "title": "Automatic Initialization & Unsealing",

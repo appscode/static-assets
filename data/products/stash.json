@@ -31,6 +31,10 @@
   "starRepo": "stashed/stash",
   "docRepo": "stashed/docs",
   "datasheetFormID": "",
+  "badges": {
+    "GitHub Stars": "github/stars/appscode/stash",
+    "Docker Pulls": "docker/pulls/appscode/stash"
+  },
   "features": [
     {
       "title": "Declarative API",

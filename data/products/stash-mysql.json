@@ -6,6 +6,10 @@
   "repoURL": "https://github.com/stashed/mysql",
   "starRepo": "stashed/stash",
   "docRepo": "stashed/mysql",
+  "badges": {
+    "GitHub Stars": "github/stars/stashed/mysql",
+    "Docker Pulls": "docker/pulls/stashed/mysql"
+  },
   "versions": [
     { "version": "master", "hostDocs": false, "show": true },
     { "version": "5.7", "hostDocs": true, "show": true }
