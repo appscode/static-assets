@@ -58,6 +58,7 @@ type Product struct {
 	DocRepo         string                `json:"docRepo,omitempty"`
 	DatasheetFormID string                `json:"datasheetFormID,omitempty"`
 	Badges          []Badge               `json:"badges,omitempty"`
+	Videos          map[string]string     `json:"videos,omitempty"`
 	Features        []Feature             `json:"features,omitempty"`
 	Solutions       []Solution            `json:"solutions,omitempty"`
 	Versions        []ProductVersion      `json:"versions,omitempty"`

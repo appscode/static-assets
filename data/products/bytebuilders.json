@@ -30,6 +30,9 @@
   "repoURL": "https://github.com/bytebuilders",
   "starRepo": "bytebuilders/community",
   "docRepo": "bytebuilders/community",
+  "videos": {
+    "intro": "8az5rYUxyGs"
+  },
   "features": [
     {
       "title": "Kubernetes anywhere",
