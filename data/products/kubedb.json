@@ -50,7 +50,7 @@
     {
       "title": "Lower administrative burden",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/feature-1.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/easy-lg.png",
         "alt": "http"
       },
       "icon": {
@@ -63,7 +63,7 @@
     {
       "title": "Native Kubernetes Support",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/feature-2.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/multi-cloud-lg.png",
         "alt": "http"
       },
       "icon": {
@@ -89,7 +89,7 @@
     {
       "title": "Availability and durability",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/feature-3.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/availability-lg.png",
         "alt": "http"
       },
       "icon": {
@@ -115,7 +115,7 @@
     {
       "title": "Manageability",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/feature-1.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/monitoring-lg.png",
         "alt": "http"
       },
       "icon": {
@@ -141,7 +141,7 @@
     {
       "title": "Open Source",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/feature-2.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/open-source-lg.png",
         "alt": "http"
       },
       "icon": {
