@@ -20,7 +20,7 @@
   ],
   "versions": [
     { "version": "master", "hostDocs": false, "show": true },
-    { "version": "5.7", "hostDocs": true, "show": true },
+    { "version": "5.7.25", "hostDocs": true, "show": true },
     { "version": "8.0.3", "hostDocs": true, "show": true },
     { "version": "8.0.14", "hostDocs": true, "show": true }
   ],
