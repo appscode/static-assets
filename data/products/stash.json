@@ -294,6 +294,19 @@
   },
   "stripeProductID": "prod_FARXQdMCCvjfZw",
   "subProjects": {
+    "stash-cli": {
+      "dir": "guides/latest/cli/reference",
+      "mappings": [
+        {
+          "versions": [
+            "v0.9.0-rc.1"
+          ],
+          "subProjectVersions": [
+            "v0.1.0"
+          ]
+        }
+      ]
+    },
     "stash-elasticsearch": {
       "dir": "addons/elasticsearch/guides",
       "mappings": [
