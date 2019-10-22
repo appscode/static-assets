@@ -33,12 +33,12 @@
   "datasheetFormID": "",
   "badges": [
     {
-      "url" : "github/stars/appscode/stash",
+      "url": "github/stars/appscode/stash",
       "alt": "GitHub Stars",
       "logo": "github"
     },
     {
-      "url" : "docker/pulls/appscode/stash",
+      "url": "docker/pulls/appscode/stash",
       "alt": "Docker Pulls",
       "logo": "docker"
     }
@@ -294,6 +294,23 @@
     "Website URL": "https://www.appscode.com/products/stash"
   },
   "stripeProductID": "prod_FARXQdMCCvjfZw",
+  "plans": {
+    "Community": {
+      "price": "0"
+    },
+    "Standard_M2M": {
+      "price": "499"
+    },
+    "Standard_Y2Y": {
+      "price": "299"
+    },
+    "Golden_M2M": {
+      "price": "899"
+    },
+    "Golden_Y2Y": {
+      "price": "699"
+    }
+  },
   "subProjects": {
     "stash-cli": {
       "dir": "guides/latest/cli/reference",

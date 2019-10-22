@@ -33,12 +33,12 @@
   "datasheetFormID": "",
   "badges": [
     {
-      "url" : "github/stars/appscode/swift",
+      "url": "github/stars/appscode/swift",
       "alt": "GitHub Stars",
       "logo": "github"
     },
     {
-      "url" : "docker/pulls/appscode/swift",
+      "url": "docker/pulls/appscode/swift",
       "alt": "Docker Pulls",
       "logo": "docker"
     }
@@ -122,5 +122,10 @@
     "Support URL": "https://appscode.freshdesk.com",
     "Website URL": "https://www.appscode.com/products/swift"
   },
-  "stripeProductID": "prod_FARXloMWkxsKvP"
+  "stripeProductID": "prod_FARXloMWkxsKvP",
+  "plans": {
+    "Community": {
+      "price": "0"
+    }
+  }
 }
