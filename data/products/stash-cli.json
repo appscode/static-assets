@@ -15,7 +15,8 @@
   ],
   "versions": [
     { "version": "master", "hostDocs": false, "show": true },
+    { "version": "v0.2.0", "hostDocs": true, "show": true },
     { "version": "v0.1.0", "hostDocs": true, "show": true }
   ],
-  "latestVersion": "v0.1.0"
+  "latestVersion": "v0.2.0"
 }
