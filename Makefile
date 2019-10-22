@@ -12,7 +12,7 @@ SRC_DIRS := $(SRC_PKGS) data # directories which hold app source (not vendored)
 OS   := $(if $(GOOS),$(GOOS),$(shell go env GOOS))
 ARCH := $(if $(GOARCH),$(GOARCH),$(shell go env GOARCH))
 
-GO_VERSION       ?= 1.12.9
+GO_VERSION       ?= 1.12.12
 BUILD_IMAGE      ?= appscode/golang-dev:$(GO_VERSION)-stretch
 
 fmt: $(BUILD_DIRS)
