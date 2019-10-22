@@ -255,7 +255,7 @@
   ],
   "versions": [
     { "version": "master", "hostDocs": false, "show": true },
-    { "version": "v0.9.0-rc.2", "branch": "master", "hostDocs": true, "show": true },
+    { "version": "v0.9.0-rc.2", "hostDocs": true, "show": true },
     { "version": "v0.9.0-rc.1", "hostDocs": true, "show": true },
     { "version": "v0.9.0-rc.0", "hostDocs": true, "show": true },
     { "version": "0.8.3", "hostDocs": true, "show": true },
