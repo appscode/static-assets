@@ -1,5 +1,7 @@
 package api
 
+import "encoding/json"
+
 type Feature struct {
 	Title       string `json:"title"`
 	Image       Image  `json:"image"`
@@ -67,7 +69,12 @@ type Product struct {
 	Description     map[string]string     `json:"description,omitempty"`
 	SupportLinks    map[string]string     `json:"supportLinks,omitempty"`
 	StripeProductID string                `json:"stripeProductID,omitempty"`
+	Plans           map[string]Plan       `json:"plans,omitempty"`
 	SubProjects     map[string]ProjectRef `json:"subProjects"`
+}
+
+type Plan struct {
+	Price json.Number `json:"price"`
 }
 
 type ProjectRef struct {

@@ -33,12 +33,12 @@
   "datasheetFormID": "",
   "badges": [
     {
-      "url" : "github/stars/appscode/voyager",
+      "url": "github/stars/appscode/voyager",
       "alt": "GitHub Stars",
       "logo": "github"
     },
     {
-      "url" : "docker/pulls/appscode/voyager",
+      "url": "docker/pulls/appscode/voyager",
       "alt": "Docker Pulls",
       "logo": "docker"
     }
@@ -173,5 +173,22 @@
     "Support URL": "https://appscode.freshdesk.com",
     "Website URL": "https://appscode.com/products/voyager"
   },
-  "stripeProductID": "prod_FARYkUPIIB0Ocx"
+  "stripeProductID": "prod_FARYkUPIIB0Ocx",
+  "plans": {
+    "Community": {
+      "price": "0"
+    },
+    "Standard_M2M": {
+      "price": "599"
+    },
+    "Standard_Y2Y": {
+      "price": "399"
+    },
+    "Golden_M2M": {
+      "price": "999"
+    },
+    "Golden_Y2Y": {
+      "price": "799"
+    }
+  }
 }
