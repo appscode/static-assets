@@ -259,10 +259,10 @@ type bintree struct {
 }
 
 var _bintree = &bintree{nil, map[string]*bintree{
-	"clouds.json":       {cloudsJson, map[string]*bintree{}},
-	"customers.json":    {customersJson, map[string]*bintree{}},
-	"press.json":        {pressJson, map[string]*bintree{}},
-	"testimonials.json": {testimonialsJson, map[string]*bintree{}},
+	"clouds.json":       &bintree{cloudsJson, map[string]*bintree{}},
+	"customers.json":    &bintree{customersJson, map[string]*bintree{}},
+	"press.json":        &bintree{pressJson, map[string]*bintree{}},
+	"testimonials.json": &bintree{testimonialsJson, map[string]*bintree{}},
 }}
 
 // RestoreAsset restores an asset under the given directory
