@@ -3,7 +3,7 @@
   "name": "Kubeform",
   "tagline": "Provision cloud resources <br /> using <strong>Kubernetes</strong> CRDs <br />& <strong>Terraform</strong>",
   "summary": "",
-  "published": true,
+  "published": false,
   "website": {
     "domainKey": "domain_kubeform",
     "path": ""
@@ -142,7 +142,7 @@
     "Support URL": "https://appscode.freshdesk.com",
     "Website URL": "https://www.kubeform.com"
   },
-  "stripeProductID": "prod_FARWKSytMzmLb9",
+  "stripeProductID": "",
   "plans": {
     "Community": {
       "price": "0"

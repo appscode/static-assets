@@ -94,7 +94,7 @@ func configJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "config.json", size: 642, mode: os.FileMode(420), modTime: time.Unix(1568100601, 0)}
+	info := bindataFileInfo{name: "config.json", size: 642, mode: os.FileMode(420), modTime: time.Unix(1572861521, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -114,7 +114,7 @@ func paramsDevJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "params.dev.json", size: 889, mode: os.FileMode(420), modTime: time.Unix(1567650441, 0)}
+	info := bindataFileInfo{name: "params.dev.json", size: 889, mode: os.FileMode(420), modTime: time.Unix(1572861521, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -134,7 +134,7 @@ func paramsJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "params.json", size: 801, mode: os.FileMode(420), modTime: time.Unix(1567658838, 0)}
+	info := bindataFileInfo{name: "params.json", size: 801, mode: os.FileMode(420), modTime: time.Unix(1572861521, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }

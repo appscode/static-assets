@@ -96,6 +96,11 @@ func main() {
 			p.SupportLinks = voyager.SupportLinks
 			p.Description = voyager.Description
 			p.StripeProductID = voyager.StripeProductID
+		case "kubeform":
+			p.SocialLinks = kubeform.SocialLinks
+			p.SupportLinks = kubeform.SupportLinks
+			p.Description = kubeform.Description
+			p.StripeProductID = kubeform.StripeProductID
 		}
 
 		var buf bytes.Buffer
