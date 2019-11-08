@@ -1,7 +1,7 @@
 {
   "key": "kubeci",
   "name": "KubeCI",
-  "tagline": "Run production-grade databases <br />easily on <strong>Kubernetes</strong>",
+  "tagline": "Run production-grade databases easily on <strong>Kubernetes</strong>",
   "summary": "",
   "published": false,
   "website": {

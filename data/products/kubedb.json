@@ -1,7 +1,7 @@
 {
   "key": "kubedb",
   "name": "KubeDB",
-  "tagline": "Run production-grade databases <br />easily on <strong>Kubernetes</strong>",
+  "tagline": "Run production-grade databases easily on <strong>Kubernetes</strong>",
   "summary": "KubeDB by AppsCode simplifies and automates routine database tasks such as provisioning, patching, backup, recovery, failure detection, and repair for various popular databases on private and public clouds",
   "published": true,
   "website": {
