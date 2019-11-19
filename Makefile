@@ -13,7 +13,7 @@ OS   := $(if $(GOOS),$(GOOS),$(shell go env GOOS))
 ARCH := $(if $(GOARCH),$(GOARCH),$(shell go env GOARCH))
 
 GO_VERSION       ?= 1.12.12
-BUILD_IMAGE      ?= appscode/golang-dev:$(GO_VERSION)-stretch
+BUILD_IMAGE      ?= appscode/golang-dev:$(GO_VERSION)
 
 fmt: $(BUILD_DIRS)
 	@docker run                                                 \
