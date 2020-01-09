@@ -8,8 +8,10 @@
   "author": "AppsCode Inc.",
   "website": {
     "domainKey": "domain_kubedb",
-    "path": ""
+    "path": "",
+    "themeColor": "#4D4DCB"
   },
+  "keywords": "kubernetes appscode databsse high availability postgres elasticsearch etcd memecached mongodb mysql percona xtradb redis",
   "heroImage": {
     "src": "https://cdn.appscode.com/images/products/kubedb/kubedb-hero.png",
     "alt": "KubeDB"
