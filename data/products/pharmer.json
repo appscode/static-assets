@@ -8,8 +8,10 @@
   "author": "AppsCode Inc.",
   "website": {
     "domainKey": "domain_pharmer",
-    "path": ""
+    "path": "",
+     "themeColor": "#8E44AD"
   },
+  "keywords": "kubernetes appscode cluster management upgrades",
   "heroImage": {
     "src": "https://cdn.appscode.com/images/products/pharmer/pharmer-hero.png",
     "alt": "Pharmer"
