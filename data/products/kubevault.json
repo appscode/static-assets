@@ -8,8 +8,10 @@
   "author": "AppsCode Inc.",
   "website": {
     "domainKey": "domain_kubevault",
-    "path": ""
+    "path": "",
+    "themeColor": "#326CE5"
   },
+  "keywords": "kubernetes appscode vault secret csi security",
   "heroImage": {
     "src": "https://cdn.appscode.com/images/products/kubevault/kubevault-hero.png",
     "alt": "KubeVault"
