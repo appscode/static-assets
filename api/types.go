@@ -17,8 +17,9 @@ type Image struct {
 }
 
 type URLRef struct {
-	DomainKey string `json:"domainKey"`
-	Path      string `json:"path"`
+	DomainKey  string `json:"domainKey"`
+	Path       string `json:"path"`
+	ThemeColor string `json:"themeColor"`
 }
 
 type ProductVersion struct {
@@ -48,10 +49,13 @@ type Badge struct {
 type Product struct {
 	Key             string                `json:"key"`
 	Name            string                `json:"name"`
+	Fullname        string                `json:"fullname"`
 	Tagline         string                `json:"tagline"`
 	Summary         string                `json:"summary"`
 	Published       bool                  `json:"published"`
+	Author          string                `json:"author"`
 	Website         URLRef                `json:"website"`
+	Keyword         string                `json:"keyword"`
 	HeroImage       Image                 `json:"heroImage"`
 	Logo            Image                 `json:"logo"`
 	LogoWhite       Image                 `json:"logoWhite"`

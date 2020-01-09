@@ -1,13 +1,17 @@
 {
   "key": "stash",
   "name": "Stash",
+  "fullname": "Stash by AppsCode",
   "tagline": "Backup your Kubernetes Stateful Applications",
   "summary": "",
   "published": true,
+  "author": "AppsCode Inc.",
   "website": {
     "domainKey": "domain_stash",
-    "path": ""
+    "path": "",
+    "themeColor": "#5E2DEA"
   },
+  "keyword": "kubernetes appscode backup disaster recovery volume",
   "heroImage": {
     "src": "https://cdn.appscode.com/images/products/stash/stash-hero.png",
     "alt": "Stash"

@@ -1,9 +1,11 @@
 {
   "key": "pharmer",
   "name": "Pharmer",
+  "fullname": "Pharmer by AppsCode",
   "tagline": "Kubernetes Cluster Manager using Kubeadm & Cluster API",
   "summary": "",
   "published": true,
+  "author": "AppsCode Inc.",
   "website": {
     "domainKey": "domain_pharmer",
     "path": ""
