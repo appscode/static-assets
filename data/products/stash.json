@@ -465,6 +465,19 @@
           ]
         }
       ]
+    },
+    "stash-percona-xtradb": {
+      "dir": "addons/percona-xtradb/guides",
+      "mappings": [
+        {
+          "versions": [
+            "v0.9.0-rc.4"
+          ],
+          "subProjectVersions": [
+            "5.7"
+          ]
+        }
+      ]
     }
   }
 }
