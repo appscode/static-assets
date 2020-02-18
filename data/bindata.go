@@ -135,7 +135,7 @@ func pressJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "press.json", size: 2034, mode: os.FileMode(420), modTime: time.Unix(1574154018, 0)}
+	info := bindataFileInfo{name: "press.json", size: 2034, mode: os.FileMode(420), modTime: time.Unix(1579817821, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -155,7 +155,7 @@ func testimonialsJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "testimonials.json", size: 3407, mode: os.FileMode(420), modTime: time.Unix(1574154018, 0)}
+	info := bindataFileInfo{name: "testimonials.json", size: 3407, mode: os.FileMode(420), modTime: time.Unix(1579817821, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
