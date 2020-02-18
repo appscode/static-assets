@@ -55,7 +55,7 @@ type Product struct {
 	Published       bool                  `json:"published"`
 	Author          string                `json:"author"`
 	Website         URLRef                `json:"website"`
-	Keyword         string                `json:"keyword"`
+	Keywords        string                `json:"keywords"`
 	HeroImage       Image                 `json:"heroImage"`
 	Logo            Image                 `json:"logo"`
 	LogoWhite       Image                 `json:"logoWhite"`
