@@ -127,6 +127,7 @@
   ],
   "versions": [
     { "version": "master", "hostDocs": false, "show": true },
+    { "version": "v12.0.0-rc.2", "hostDocs": true, "show": true },
     { "version": "v12.0.0-rc.1", "hostDocs": true, "show": true },
     { "version": "v12.0.0-rc.0", "hostDocs": true, "show": true },
     { "version": "v11.0.1", "hostDocs": true, "show": true },
@@ -161,7 +162,7 @@
     { "version": "3.1.0", "hostDocs": false },
     { "version": "3.0.0", "hostDocs": false }
   ],
-  "latestVersion": "v12.0.0-rc.1",
+  "latestVersion": "v12.0.0-rc.2",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/appscode/voyager",
