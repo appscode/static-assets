@@ -7,8 +7,9 @@
   "published": true,
   "author": "AppsCode Inc.",
   "website": {
-    "domainKey": "domain_appscode",
-    "path": "/products/voyager/"
+    "domainKey": "domain_voyagermesh",
+    "path": "",
+    "themeColor": "#F1C40F"
   },
   "heroImage": {
     "src": "https://cdn.appscode.com/images/products/voyager/voyager-hero.png",
