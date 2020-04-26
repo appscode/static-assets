@@ -3,13 +3,13 @@
   "name": "Voyager",
   "fullname": "Voyager by AppsCode",
   "tagline": "Secure HAProxy Ingress Controller for<br /> <strong>Kubernetes</strong>",
-  "summary": "Secure HAProxy Ingress Controller for<br /> <strong>Kubernetes</strong>",
+  "summary": "Secure HAProxy Ingress Controller for Kubernetes",
   "published": true,
   "author": "AppsCode Inc.",
   "website": {
     "domainKey": "domain_voyagermesh",
     "path": "",
-    "themeColor": "#F1C40F"
+    "themeColor": "#4d4dcb"
   },
   "heroImage": {
     "src": "https://cdn.appscode.com/images/products/voyager/voyager-hero.png",
