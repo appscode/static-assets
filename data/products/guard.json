@@ -88,6 +88,7 @@
   ],
   "versions": [
     { "version": "master", "hostDocs": false, "show": true },
+    { "version": "v0.6.1", "hostDocs": true, "show": true },
     { "version": "v0.6.0", "hostDocs": true, "show": true },
     { "version": "v0.6.0-rc.0", "hostDocs": true, "show": true },
     { "version": "v0.5.0", "hostDocs": true, "show": true },
@@ -105,7 +106,7 @@
     { "version": "0.1.0-rc.5", "hostDocs": true },
     { "version": "0.1.0-rc.4", "hostDocs": false }
   ],
-  "latestVersion": "v0.6.0",
+  "latestVersion": "v0.6.1",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/appscode/guard",
