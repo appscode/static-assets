@@ -33,7 +33,6 @@
   "repoURL": "https://github.com/voyagermesh/docs",
   "starRepo": "voyagermesh/voyager",
   "docRepo": "voyagermesh/docs",
-  "datasheetFormID": "",
   "badges": [
     {
       "url": "github/stars/voyagermesh/voyager",
@@ -127,44 +126,175 @@
     }
   ],
   "versions": [
-    { "version": "master", "hostDocs": false, "show": true },
-    { "version": "v13.0.0-beta.1", "hostDocs": true, "show": true },
-    { "version": "v13.0.0-beta.0", "hostDocs": true, "show": true },
-    { "version": "v12.0.0", "hostDocs": true, "show": true },
-    { "version": "v12.0.0-rc.2", "hostDocs": true, "show": false },
-    { "version": "v12.0.0-rc.1", "hostDocs": true, "show": false },
-    { "version": "v12.0.0-rc.0", "hostDocs": true, "show": false },
-    { "version": "v11.0.1", "hostDocs": true, "show": true },
-    { "version": "v11.0.0", "hostDocs": true, "show": true },
-    { "version": "10.0.0", "hostDocs": true, "show": true },
-    { "version": "9.0.0", "hostDocs": true, "show": true },
-    { "version": "8.0.1", "hostDocs": true, "show": true },
-    { "version": "8.0.0", "hostDocs": true },
-    { "version": "7.4.0", "hostDocs": true, "show": true },
-    { "version": "7.3.0", "hostDocs": true, "show": true },
-    { "version": "7.2.0", "hostDocs": true, "show": true },
-    { "version": "7.1.1", "hostDocs": true, "show": true },
-    { "version": "7.1.0", "hostDocs": true },
-    { "version": "7.0.0", "hostDocs": true, "show": true },
-    { "version": "7.0.0-rc.3", "hostDocs": true },
-    { "version": "7.0.0-rc.2", "hostDocs": true },
-    { "version": "7.0.0-rc.1", "hostDocs": true },
-    { "version": "7.0.0-rc.0", "hostDocs": true },
-    { "version": "6.0.0", "hostDocs": true, "show": true },
-    { "version": "6.0.0-rc.2", "hostDocs": true },
-    { "version": "6.0.0-rc.1", "hostDocs": true },
-    { "version": "6.0.0-rc.0", "hostDocs": true },
-    { "version": "5.0.0", "hostDocs": true, "show": true },
-    { "version": "5.0.0-rc.11", "hostDocs": true },
-    { "version": "3.2.2", "hostDocs": false, "show": true },
-    { "version": "3.2.1", "hostDocs": false },
-    { "version": "3.2.0", "hostDocs": false },
-    { "version": "3.1.4", "hostDocs": false },
-    { "version": "3.1.3", "hostDocs": false },
-    { "version": "3.1.2", "hostDocs": false },
-    { "version": "3.1.1", "hostDocs": false },
-    { "version": "3.1.0", "hostDocs": false },
-    { "version": "3.0.0", "hostDocs": false }
+    {
+      "version": "master",
+      "hostDocs": false,
+      "show": true
+    },
+    {
+      "version": "v13.0.0-beta.1",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "v13.0.0-beta.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "v12.0.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "v12.0.0-rc.2",
+      "hostDocs": true
+    },
+    {
+      "version": "v12.0.0-rc.1",
+      "hostDocs": true
+    },
+    {
+      "version": "v12.0.0-rc.0",
+      "hostDocs": true
+    },
+    {
+      "version": "v11.0.1",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "v11.0.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "10.0.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "9.0.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "8.0.1",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "8.0.0",
+      "hostDocs": true
+    },
+    {
+      "version": "7.4.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "7.3.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "7.2.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "7.1.1",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "7.1.0",
+      "hostDocs": true
+    },
+    {
+      "version": "7.0.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "7.0.0-rc.3",
+      "hostDocs": true
+    },
+    {
+      "version": "7.0.0-rc.2",
+      "hostDocs": true
+    },
+    {
+      "version": "7.0.0-rc.1",
+      "hostDocs": true
+    },
+    {
+      "version": "7.0.0-rc.0",
+      "hostDocs": true
+    },
+    {
+      "version": "6.0.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "6.0.0-rc.2",
+      "hostDocs": true
+    },
+    {
+      "version": "6.0.0-rc.1",
+      "hostDocs": true
+    },
+    {
+      "version": "6.0.0-rc.0",
+      "hostDocs": true
+    },
+    {
+      "version": "5.0.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "5.0.0-rc.11",
+      "hostDocs": true
+    },
+    {
+      "version": "3.2.2",
+      "hostDocs": false,
+      "show": true
+    },
+    {
+      "version": "3.2.1",
+      "hostDocs": false
+    },
+    {
+      "version": "3.2.0",
+      "hostDocs": false
+    },
+    {
+      "version": "3.1.4",
+      "hostDocs": false
+    },
+    {
+      "version": "3.1.3",
+      "hostDocs": false
+    },
+    {
+      "version": "3.1.2",
+      "hostDocs": false
+    },
+    {
+      "version": "3.1.1",
+      "hostDocs": false
+    },
+    {
+      "version": "3.1.0",
+      "hostDocs": false
+    },
+    {
+      "version": "3.0.0",
+      "hostDocs": false
+    }
   ],
   "latestVersion": "v12.0.0",
   "socialLinks": {
@@ -185,19 +315,19 @@
   "stripeProductID": "prod_FARYkUPIIB0Ocx",
   "plans": {
     "Community": {
-      "price": "0"
-    },
-    "Standard_M2M": {
-      "price": "599"
-    },
-    "Standard_Y2Y": {
-      "price": "399"
+      "price": 0
     },
     "Golden_M2M": {
-      "price": "999"
+      "price": 999
     },
     "Golden_Y2Y": {
-      "price": "799"
+      "price": 799
+    },
+    "Standard_M2M": {
+      "price": 599
+    },
+    "Standard_Y2Y": {
+      "price": 399
     }
   }
 }

@@ -5,6 +5,7 @@
   "tagline": "Percona XtraDB backup and restore plugin for Stash by AppsCode",
   "summary": "Percona XtraDB backup and restore plugin for Stash by AppsCode",
   "published": true,
+  "author": "",
   "repoURL": "https://github.com/stashed/percona-xtradb",
   "starRepo": "stashed/stash",
   "docRepo": "stashed/percona-xtradb",
@@ -21,8 +22,16 @@
     }
   ],
   "versions": [
-    { "version": "master", "hostDocs": false, "show": true },
-    { "version": "5.7", "hostDocs": true, "show": true }
+    {
+      "version": "master",
+      "hostDocs": false,
+      "show": true
+    },
+    {
+      "version": "5.7",
+      "hostDocs": true,
+      "show": true
+    }
   ],
   "latestVersion": "5.7"
 }
