@@ -34,7 +34,6 @@
   "repoURL": "https://github.com/stashed/docs",
   "starRepo": "stashed/stash",
   "docRepo": "stashed/docs",
-  "datasheetFormID": "",
   "badges": [
     {
       "url": "github/stars/appscode/stash",
@@ -284,30 +283,131 @@
     }
   ],
   "versions": [
-    { "version": "master", "hostDocs": false, "show": true },
-    { "version": "v0.9.0-rc.6", "hostDocs": true, "show": true, "info": { "catalog": "v0.3.0", "cli": "v0.3.1" } },
-    { "version": "v0.9.0-rc.4", "hostDocs": true, "show": true, "info": { "catalog": "v0.2.0", "cli": "v0.3.0" } },
-    { "version": "v0.9.0-rc.2", "hostDocs": true, "show": true, "info": { "catalog": "v0.1.0", "cli": "v0.2.0" } },
-    { "version": "v0.9.0-rc.1", "hostDocs": true, "show": true, "info": { "catalog": "v0.1.0", "cli": "v0.1.0" } },
-    { "version": "v0.9.0-rc.0", "hostDocs": true, "show": true },
-    { "version": "0.8.3", "hostDocs": true, "show": true },
-    { "version": "0.8.2", "hostDocs": true, "show": true },
-    { "version": "0.8.1", "hostDocs": true, "show": true },
-    { "version": "0.8.0", "hostDocs": true, "show": true },
-    { "version": "0.7.0", "hostDocs": true, "show": true },
-    { "version": "0.7.0-rc.5", "hostDocs": true },
-    { "version": "0.7.0-rc.4", "hostDocs": true },
-    { "version": "0.7.0-rc.3", "hostDocs": true },
-    { "version": "0.7.0-rc.2", "hostDocs": true },
-    { "version": "0.7.0-rc.1", "hostDocs": true },
-    { "version": "0.7.0-rc.0", "hostDocs": true },
-    { "version": "0.6.4", "hostDocs": true, "show": true },
-    { "version": "0.6.3", "hostDocs": true },
-    { "version": "0.6.2", "hostDocs": true },
-    { "version": "0.6.1", "hostDocs": true },
-    { "version": "0.6.0", "hostDocs": true },
-    { "version": "0.5.1", "hostDocs": false },
-    { "version": "0.4.2", "hostDocs": false, "show": true }
+    {
+      "version": "master",
+      "hostDocs": false,
+      "show": true
+    },
+    {
+      "version": "v0.9.0-rc.6",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "catalog": "v0.3.0",
+        "cli": "v0.3.1"
+      }
+    },
+    {
+      "version": "v0.9.0-rc.4",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "catalog": "v0.2.0",
+        "cli": "v0.3.0"
+      }
+    },
+    {
+      "version": "v0.9.0-rc.2",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "catalog": "v0.1.0",
+        "cli": "v0.2.0"
+      }
+    },
+    {
+      "version": "v0.9.0-rc.1",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "catalog": "v0.1.0",
+        "cli": "v0.1.0"
+      }
+    },
+    {
+      "version": "v0.9.0-rc.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "0.8.3",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "0.8.2",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "0.8.1",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "0.8.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "0.7.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "0.7.0-rc.5",
+      "hostDocs": true
+    },
+    {
+      "version": "0.7.0-rc.4",
+      "hostDocs": true
+    },
+    {
+      "version": "0.7.0-rc.3",
+      "hostDocs": true
+    },
+    {
+      "version": "0.7.0-rc.2",
+      "hostDocs": true
+    },
+    {
+      "version": "0.7.0-rc.1",
+      "hostDocs": true
+    },
+    {
+      "version": "0.7.0-rc.0",
+      "hostDocs": true
+    },
+    {
+      "version": "0.6.4",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "0.6.3",
+      "hostDocs": true
+    },
+    {
+      "version": "0.6.2",
+      "hostDocs": true
+    },
+    {
+      "version": "0.6.1",
+      "hostDocs": true
+    },
+    {
+      "version": "0.6.0",
+      "hostDocs": true
+    },
+    {
+      "version": "0.5.1",
+      "hostDocs": false
+    },
+    {
+      "version": "0.4.2",
+      "hostDocs": false,
+      "show": true
+    }
   ],
   "latestVersion": "v0.9.0-rc.6",
   "socialLinks": {
@@ -328,19 +428,19 @@
   "stripeProductID": "prod_FARXQdMCCvjfZw",
   "plans": {
     "Community": {
-      "price": "0"
-    },
-    "Standard_M2M": {
-      "price": "499"
-    },
-    "Standard_Y2Y": {
-      "price": "349"
+      "price": 0
     },
     "Golden_M2M": {
-      "price": "899"
+      "price": 899
     },
     "Golden_Y2Y": {
-      "price": "699"
+      "price": 699
+    },
+    "Standard_M2M": {
+      "price": 499
+    },
+    "Standard_Y2Y": {
+      "price": 349
     }
   },
   "subProjects": {
@@ -461,6 +561,20 @@
         }
       ]
     },
+    "stash-percona-xtradb": {
+      "dir": "addons/percona-xtradb/guides",
+      "mappings": [
+        {
+          "versions": [
+            "v0.9.0-rc.4",
+            "v0.9.0-rc.6"
+          ],
+          "subProjectVersions": [
+            "5.7"
+          ]
+        }
+      ]
+    },
     "stash-postgres": {
       "dir": "addons/postgres/guides",
       "mappings": [
@@ -477,20 +591,6 @@
             "10.6",
             "11.1",
             "11.2"
-          ]
-        }
-      ]
-    },
-    "stash-percona-xtradb": {
-      "dir": "addons/percona-xtradb/guides",
-      "mappings": [
-        {
-          "versions": [
-            "v0.9.0-rc.4",
-            "v0.9.0-rc.6"
-          ],
-          "subProjectVersions": [
-            "5.7"
           ]
         }
       ]
