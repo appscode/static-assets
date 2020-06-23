@@ -6,28 +6,47 @@ on:
       - master
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
+      - uses: actions/checkout@v1
 
-    - name: Install gcloud
-      env:
-        GOOGLE_SERVICE_ACCOUNT_JSON_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON_KEY }}
-      run: |
-        echo "install gcloud cli"
-        echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
-        curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
-        sudo apt-get -qq update || true
-        sudo apt-get install -y google-cloud-sdk
-        echo
-        echo "configure gcloud auth"
-        echo "$GOOGLE_SERVICE_ACCOUNT_JSON_KEY" > "$HOME"/gcloud.json
-        gcloud auth activate-service-account --key-file=$HOME/gcloud.json
+      - name: Install gcloud
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON_KEY }}
+        run: |
+          echo "install gcloud cli"
+          echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+          curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+          sudo apt-get -qq update || true
+          sudo apt-get install -y google-cloud-sdk
+          echo
+          echo "configure gcloud auth"
+          echo "$GOOGLE_SERVICE_ACCOUNT_JSON_KEY" > "$HOME"/gcloud.json
+          gcloud auth activate-service-account --key-file=$HOME/gcloud.json
 
-    - name: Publish
-      run: |
-        make publish
+      - name: Prepare git
+        env:
+          GITHUB_USER: 1gtm
+          GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "${GITHUB_USER}"
+          git config --global user.email "${GITHUB_USER}@appscode.com"
+          git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+
+      - name: Install GitHub CLI
+        run: |
+          curl -fsSL https://github.com/github/hub/raw/master/script/get | bash -s 2.14.1
+          sudo mv bin/hub /usr/local/bin
+
+      - name: Update release tracker
+        env:
+          GITHUB_USER: 1gtm
+          GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
+        run: |
+          ./hack/scripts/update-release-tracker.sh
+
+      - name: Publish
+        run: |
+          make publish
