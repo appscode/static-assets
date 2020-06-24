@@ -40,13 +40,13 @@ jobs:
           curl -fsSL https://github.com/github/hub/raw/master/script/get | bash -s 2.14.1
           sudo mv bin/hub /usr/local/bin
 
+      - name: Publish
+        run: |
+          make publish
+
       - name: Update release tracker
         env:
           GITHUB_USER: 1gtm
           GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
         run: |
           ./hack/scripts/update-release-tracker.sh
-
-      - name: Publish
-        run: |
-          make publish
