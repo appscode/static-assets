@@ -28,11 +28,6 @@
       "show": true
     },
     {
-      "version": "3.4",
-      "hostDocs": true,
-      "show": true
-    },
-    {
       "version": "3.4.17",
       "hostDocs": true,
       "show": true
@@ -43,22 +38,12 @@
       "show": true
     },
     {
-      "version": "3.6",
-      "hostDocs": true,
-      "show": true
-    },
-    {
       "version": "3.6.8",
       "hostDocs": true,
       "show": true
     },
     {
       "version": "3.6.13",
-      "hostDocs": true,
-      "show": true
-    },
-    {
-      "version": "4.0",
       "hostDocs": true,
       "show": true
     },
@@ -78,11 +63,6 @@
       "show": true
     },
     {
-      "version": "4.1",
-      "hostDocs": true,
-      "show": true
-    },
-    {
       "version": "4.1.4",
       "hostDocs": true,
       "show": true
@@ -94,11 +74,6 @@
     },
     {
       "version": "4.1.13",
-      "hostDocs": true,
-      "show": true
-    },
-    {
-      "version": "4.2",
       "hostDocs": true,
       "show": true
     },
