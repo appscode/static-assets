@@ -1,5 +1,6 @@
 {
   "domain_appscode": "https://appscode.com",
+  "domain_stash": "https://stash.run",
   "domain_kubedb": "https://kubedb.com",
   "domain_kubevault": "https://kubevault.com",
   "domain_kubeform": "https://kubeform.com",
