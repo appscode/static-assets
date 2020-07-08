@@ -31,6 +31,10 @@
       "version": "5.7",
       "hostDocs": true,
       "show": true
+    },
+    {
+      "version": "5.7-beta.20200708",
+      "hostDocs": true
     }
   ],
   "latestVersion": "5.7"
