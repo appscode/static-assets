@@ -33,6 +33,10 @@
       "show": true
     },
     {
+      "version": "8.0.14-beta.20200709",
+      "hostDocs": true
+    },
+    {
       "version": "8.0.14-beta.20200708",
       "hostDocs": true
     },
@@ -42,6 +46,10 @@
       "show": true
     },
     {
+      "version": "8.0.3-beta.20200709",
+      "hostDocs": true
+    },
+    {
       "version": "8.0.3-beta.20200708",
       "hostDocs": true
     },
@@ -49,6 +57,10 @@
       "version": "5.7.25",
       "hostDocs": true,
       "show": true
+    },
+    {
+      "version": "5.7.25-beta.20200709",
+      "hostDocs": true
     },
     {
       "version": "5.7.25-beta.20200708",
