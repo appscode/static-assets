@@ -23,6 +23,10 @@
       "show": true
     },
     {
+      "version": "v0.10.0-beta.1",
+      "hostDocs": true
+    },
+    {
       "version": "v0.10.0-beta.0",
       "hostDocs": true
     },
