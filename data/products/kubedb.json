@@ -163,6 +163,10 @@
       "show": true
     },
     {
+      "version": "v2020.07.10-beta.0",
+      "hostDocs": true
+    },
+    {
       "version": "v0.13.0-rc.0",
       "hostDocs": true,
       "show": true
