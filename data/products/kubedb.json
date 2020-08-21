@@ -169,7 +169,8 @@
     {
       "version": "v0.13.0-rc.0",
       "hostDocs": true,
-      "show": true
+      "show": true,
+      "branch": "mongodbopsreq"
     },
     {
       "version": "0.12.0",
