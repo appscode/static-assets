@@ -291,6 +291,7 @@
     {
       "version": "v2020.07.09-beta.0",
       "hostDocs": true,
+      "branch": "update-setup-docs",
       "info": {
         "catalog": "v2020.07.09-beta.0",
         "cli": "v0.10.0-beta.1"
