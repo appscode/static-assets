@@ -291,7 +291,7 @@
     {
       "version": "v2020.07.09-beta.0",
       "hostDocs": true,
-      "branch": "update-setup-docs",
+      "branch": "master",
       "show": true,
       "info": {
         "catalog": "v2020.07.09-beta.0",
