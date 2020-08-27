@@ -289,6 +289,17 @@
       "show": true
     },
     {
+      "version": "v2020.08.27",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "catalog": "v2020.08.27",
+        "cli": "v0.10.0",
+        "community": "v0.10.0",
+        "enterprise": "v0.10.0"
+      }
+    },
+    {
       "version": "v2020.08.27-rc.0",
       "hostDocs": true,
       "show": true,
@@ -454,7 +465,7 @@
       "show": true
     }
   ],
-  "latestVersion": "v2020.08.27-rc.0",
+  "latestVersion": "v2020.08.27",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/stashed/stash",
@@ -529,6 +540,21 @@
     "stash-elasticsearch": {
       "dir": "addons/elasticsearch/guides",
       "mappings": [
+        {
+          "versions": [
+            "v2020.08.27"
+          ],
+          "subProjectVersions": [
+            "5.6.4-v1",
+            "6.2.4-v1",
+            "6.3.0-v1",
+            "6.4.0-v1",
+            "6.5.3-v1",
+            "6.8.0-v1",
+            "7.2.0-v1",
+            "7.3.2-v1"
+          ]
+        },
         {
           "versions": [
             "v2020.08.27-rc.0"
@@ -627,6 +653,24 @@
     "stash-mongodb": {
       "dir": "addons/mongodb/guides",
       "mappings": [
+        {
+          "versions": [
+            "v2020.08.27"
+          ],
+          "subProjectVersions": [
+            "3.4.1-v1",
+            "3.4.2-v1",
+            "3.6.1-v1",
+            "3.6.8-v1",
+            "4.0.3-v1",
+            "4.0.5-v1",
+            "4.0.11-v1",
+            "4.1.1-v1",
+            "4.1.4-v1",
+            "4.1.7-v1",
+            "4.2.3-v1"
+          ]
+        },
         {
           "versions": [
             "v2020.08.27-rc.0"
@@ -745,6 +789,16 @@
       "mappings": [
         {
           "versions": [
+            "v2020.08.27"
+          ],
+          "subProjectVersions": [
+            "5.7.25-v1",
+            "8.0.3-v1",
+            "8.0.14-v1"
+          ]
+        },
+        {
+          "versions": [
             "v2020.08.27-rc.0"
           ],
           "subProjectVersions": [
@@ -813,6 +867,14 @@
       "mappings": [
         {
           "versions": [
+            "v2020.08.27"
+          ],
+          "subProjectVersions": [
+            "5.7-v1"
+          ]
+        },
+        {
+          "versions": [
             "v2020.08.27-rc.0"
           ],
           "subProjectVersions": [
@@ -865,6 +927,18 @@
     "stash-postgres": {
       "dir": "addons/postgres/guides",
       "mappings": [
+        {
+          "versions": [
+            "v2020.08.27"
+          ],
+          "subProjectVersions": [
+            "9.6-v1",
+            "10.2-v1",
+            "10.6-v1",
+            "11.1-v1",
+            "11.2-v1"
+          ]
+        },
         {
           "versions": [
             "v2020.08.27-rc.0"
