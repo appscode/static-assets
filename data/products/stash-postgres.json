@@ -33,6 +33,11 @@
       "show": true
     },
     {
+      "version": "11.2-rc.20200826",
+      "hostDocs": true,
+      "show": true
+    },
+    {
       "version": "11.2-beta.20200826",
       "hostDocs": true
     },
@@ -46,6 +51,11 @@
     },
     {
       "version": "11.1",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "11.1-rc.20200826",
       "hostDocs": true,
       "show": true
     },
@@ -67,6 +77,11 @@
       "show": true
     },
     {
+      "version": "10.6-rc.20200826",
+      "hostDocs": true,
+      "show": true
+    },
+    {
       "version": "10.6-beta.20200826",
       "hostDocs": true
     },
@@ -84,6 +99,11 @@
       "show": true
     },
     {
+      "version": "10.2-rc.20200826",
+      "hostDocs": true,
+      "show": true
+    },
+    {
       "version": "10.2-beta.20200826",
       "hostDocs": true
     },
@@ -97,6 +117,11 @@
     },
     {
       "version": "9.6",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "9.6-rc.20200826",
       "hostDocs": true,
       "show": true
     },

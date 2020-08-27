@@ -33,6 +33,11 @@
       "show": true
     },
     {
+      "version": "5.7-rc.20200826",
+      "hostDocs": true,
+      "show": true
+    },
+    {
       "version": "5.7-beta.20200826",
       "hostDocs": true
     },
