@@ -25,12 +25,12 @@ type URLRef struct {
 }
 
 type ProductVersion struct {
-	Version  string            `json:"version"`
-	HostDocs bool              `json:"hostDocs"`
-	Show     bool              `json:"show,omitempty"`
-	DocsDir  string            `json:"docsDir,omitempty"` // default: "docs"
-	Branch   string            `json:"branch,omitempty"`
-	Info     map[string]string `json:"info,omitempty"`
+	Version  string                 `json:"version"`
+	HostDocs bool                   `json:"hostDocs"`
+	Show     bool                   `json:"show,omitempty"`
+	DocsDir  string                 `json:"docsDir,omitempty"` // default: "docs"
+	Branch   string                 `json:"branch,omitempty"`
+	Info     map[string]interface{} `json:"info,omitempty"`
 }
 
 type Solution struct {
