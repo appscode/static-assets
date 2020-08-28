@@ -302,7 +302,7 @@
     {
       "version": "v2020.08.27-rc.0",
       "hostDocs": true,
-      "show": true,
+      "show": false,
       "info": {
         "catalog": "v2020.08.27-rc.0",
         "cli": "v0.10.0-rc.2",
@@ -313,7 +313,7 @@
     {
       "version": "v2020.08.26-rc.1",
       "hostDocs": true,
-      "show": true,
+      "show": false,
       "info": {
         "catalog": "v2020.08.26-rc.1",
         "cli": "v0.10.0-rc.1"
@@ -322,7 +322,7 @@
     {
       "version": "v2020.08.26-rc.0",
       "hostDocs": true,
-      "show": true,
+      "show": false,
       "info": {
         "catalog": "v2020.08.26-rc.0",
         "cli": "v0.10.0-rc.0"
@@ -356,7 +356,7 @@
     {
       "version": "v0.9.0-rc.4",
       "hostDocs": true,
-      "show": true,
+      "show": false,
       "info": {
         "catalog": "v0.2.0",
         "cli": "v0.3.0"
@@ -365,7 +365,7 @@
     {
       "version": "v0.9.0-rc.2",
       "hostDocs": true,
-      "show": true,
+      "show": false,
       "info": {
         "catalog": "v0.1.0",
         "cli": "v0.2.0"
@@ -374,7 +374,7 @@
     {
       "version": "v0.9.0-rc.1",
       "hostDocs": true,
-      "show": true,
+      "show": false,
       "info": {
         "catalog": "v0.1.0",
         "cli": "v0.1.0"
@@ -383,7 +383,7 @@
     {
       "version": "v0.9.0-rc.0",
       "hostDocs": true,
-      "show": true
+      "show": false
     },
     {
       "version": "0.8.3",
