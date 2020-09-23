@@ -36,8 +36,8 @@
   "docRepo": "kubevault/docs",
   "badges": [
     {
-      "url": "github/stars/kubevault/operator",
-      "alt": "GitHub Stars",
+      "url": "kubevault",
+      "alt": "GitHub",
       "logo": "github"
     },
     {

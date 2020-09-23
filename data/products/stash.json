@@ -36,8 +36,8 @@
   "docRepo": "stashed/docs",
   "badges": [
     {
-      "url": "github/stars/appscode/stash",
-      "alt": "GitHub Stars",
+      "url": "stashed",
+      "alt": "GitHub",
       "logo": "github"
     },
     {
