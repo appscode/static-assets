@@ -19,17 +19,17 @@
     "baremetal",
     "docker"
   ],
-  "mainMenu": {
-    "c0": ["kubedb", "stash", "kubevault", "guard"],
-    "c1": ["voyager", "swift", "searchlight", "kubed"],
-    "c2": ["pharmer", "kubeform"]
+  "productMenu": {
+    "c0": ["kubedb", "stash", "kubevault", "kubeform"]
+  },
+  "ossMenu": {
+    "c0": ["voyager", "guard", "kubed"],
+    "c1": ["pharmer", "swift", "searchlight"]
   },
   "footerLinks": [
     "kubedb",
     "stash",
     "kubevault",
-    "voyager",
-    "guard",
-    "pharmer"
+    "kubeform"
   ]
 }
