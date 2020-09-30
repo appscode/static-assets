@@ -20,7 +20,8 @@
     "docker"
   ],
   "productMenu": {
-    "c0": ["kubedb", "stash", "kubevault", "kubeform"]
+    "c0": ["kubedb", "stash", "kubevault"],
+    "c1": ["kubeform"]
   },
   "ossMenu": {
     "c0": ["voyager", "guard", "kubed"],
