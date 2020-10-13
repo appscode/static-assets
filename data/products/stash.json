@@ -12,10 +12,20 @@
     "themeColor": "#5E2DEA"
   },
   "keywords": "kubernetes appscode backup disaster recovery volume",
-  "heroImage": {
-    "src": "https://cdn.appscode.com/images/products/stash/stash-hero.png",
-    "alt": "Stash"
-  },
+  "heroSlider": [
+    {
+      "src": "https://cdn.appscode.com/images/products/stash/slider/applications.png",
+      "alt": "Supported Applications"
+    },
+    {
+      "src": "https://cdn.appscode.com/images/products/stash/slider/platforms.jpg",
+      "alt": "Supported Platforms"
+    },
+    {
+      "src": "https://cdn.appscode.com/images/products/stash/slider/storage.jpg",
+      "alt": "Supported Storage"
+    }
+  ],
   "logo": {
     "src": "https://cdn.appscode.com/images/products/stash/stash.png",
     "alt": "Stash"
