@@ -59,6 +59,7 @@ type Product struct {
 	Website         *URLRef               `json:"website,omitempty"`
 	Keywords        string                `json:"keywords,omitempty"`
 	HeroImage       *Image                `json:"heroImage,omitempty"`
+	HeroSlider      []Image               `json:"heroSlider,omitempty"`
 	Logo            *Image                `json:"logo,omitempty"`
 	LogoWhite       *Image                `json:"logoWhite,omitempty"`
 	Icon            *Image                `json:"icon,omitempty"`
