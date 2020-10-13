@@ -56,8 +56,8 @@ gen-bindata:
 
 publish:
 	@echo "publishing files"
-	gsutil rsync -d -r $$(pwd)/files gs://appscode-cdn/files
-	gsutil acl ch -u AllUsers:R -r gs://appscode-cdn/files
+	gsutil -m rsync -d -r $$(pwd)/files gs://appscode-cdn/files
+	gsutil -m acl ch -u AllUsers:R -r gs://appscode-cdn/files
 	@echo "publishing images"
-	gsutil rsync -d -r $$(pwd)/images gs://appscode-cdn/images
-	gsutil acl ch -u AllUsers:R -r gs://appscode-cdn/images
+	gsutil -m rsync -d -r $$(pwd)/images gs://appscode-cdn/images
+	gsutil -m acl ch -u AllUsers:R -r gs://appscode-cdn/images
