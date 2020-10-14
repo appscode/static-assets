@@ -137,7 +137,8 @@
       "hostDocs": true,
       "show": true,
       "info": {
-        "community": "v0.2.0"
+        "community": "v0.2.0",
+        "installer": "v0.2.0"
       }
     },
     {
