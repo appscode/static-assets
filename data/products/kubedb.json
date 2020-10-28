@@ -153,7 +153,7 @@
         "alt": "http"
       },
       "summary": "",
-      "description": "KubeDB is an open core project. KubeDB Community edition is open source and free to use for both commercial and non-commercial purposes. It comes with the cluster provisioning functionalities. KubeDB Enterprise edition includes the features of the Community Edition and extends it by automating Day 2 operations like database backup/recovery, upgrading version, horizontal and vertical scaling, TLS/SSL support via cert-manager, updating configuration post provisioning, connection pooling, etc."
+      "description": "KubeDB is an open core project. KubeDB Community edition is open source and free to use for both commercial and non-commercial purposes. It comes with the cluster provisioning functionalities. KubeDB Enterprise edition includes the features of the Community Edition and extends it by automating Day 2 operations like database backup/recovery, upgrading version, horizontal and vertical scaling, TLS/SSL support via cert-manager, connection pooling, etc."
     }
   ],
   "versions": [
