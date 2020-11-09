@@ -301,7 +301,7 @@
     {
       "version": "v2020.11.06",
       "hostDocs": true,
-      "show": false,
+      "show": true,
       "info": {
         "catalog": "v2020.11.06",
         "cli": "v0.11.6",
@@ -753,7 +753,7 @@
       "hostDocs": false
     }
   ],
-  "latestVersion": "v2020.10.30",
+  "latestVersion": "v2020.11.06",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/stashed/stash",
