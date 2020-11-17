@@ -53,6 +53,11 @@
       "show": true
     },
     {
+      "version": "5.7.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
       "version": "5.7-rc.20200827",
       "hostDocs": true,
       "show": true
