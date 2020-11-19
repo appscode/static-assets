@@ -29,6 +29,7 @@
     },
     {
       "version": "4.2.3-v4",
+      "branch": "upd-doc",
       "hostDocs": true,
       "show": true
     },
