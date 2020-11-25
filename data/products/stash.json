@@ -1341,6 +1341,19 @@
         }
       ]
     },
+    "stash-mariadb": {
+      "dir": "addons/mariadb/guides",
+      "mappings": [
+        {
+          "versions": [
+            "v2020.11.17"
+          ],
+          "subProjectVersions": [
+            "10.5.8"
+          ]
+        }
+      ]
+    },
     "stash-percona-xtradb": {
       "dir": "addons/percona-xtradb/guides",
       "mappings": [
