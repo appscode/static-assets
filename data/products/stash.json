@@ -300,6 +300,7 @@
     },
     {
       "version": "v2020.11.17",
+      "branch": "mariadb",
       "hostDocs": true,
       "show": true,
       "info": {
