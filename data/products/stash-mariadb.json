@@ -29,7 +29,6 @@
     },
     {
       "version": "10.5.8",
-      "branch": "mrdb-10.5.8",
       "hostDocs": true,
       "show": true
     }
