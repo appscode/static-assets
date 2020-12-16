@@ -134,7 +134,7 @@ func paramsJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "params.json", size: 843, mode: os.FileMode(420), modTime: time.Unix(1603925848, 0)}
+	info := bindataFileInfo{name: "params.json", size: 843, mode: os.FileMode(420), modTime: time.Unix(1603925976, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
