@@ -1105,6 +1105,19 @@
         }
       ]
     },
+    "stash-mariadb": {
+      "dir": "addons/mariadb/guides",
+      "mappings": [
+        {
+          "versions": [
+            "v2020.12.17"
+          ],
+          "subProjectVersions": [
+            "10.5.8"
+          ]
+        }
+      ]
+    },
     "stash-mongodb": {
       "dir": "addons/mongodb/guides",
       "mappings": [
