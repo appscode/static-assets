@@ -301,7 +301,7 @@
     {
       "version": "v2021.01.21",
       "hostDocs": true,
-      "branch": "update-doc",
+      "branch": "db-auto-backup",
       "show": true,
       "info": {
         "catalog": "v2021.01.21",

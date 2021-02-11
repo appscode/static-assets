@@ -30,6 +30,7 @@
     {
       "version": "7.3.2-v6",
       "hostDocs": true,
+      "branch": "update-doc",
       "show": true
     },
     {
