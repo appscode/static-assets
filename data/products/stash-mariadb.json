@@ -35,6 +35,7 @@
     {
       "version": "10.5.8",
       "hostDocs": true,
+      "branch": "update-doc",
       "show": true
     }
   ],
