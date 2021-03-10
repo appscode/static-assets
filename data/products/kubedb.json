@@ -177,7 +177,7 @@
     },
     {
       "version": "v2021.01.26",
-      "branch": "doc-mariadb",
+      "branch": "md-concepts",
       "hostDocs": true,
       "show": true,
       "info": {
