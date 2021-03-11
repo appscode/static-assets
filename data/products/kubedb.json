@@ -164,7 +164,7 @@
     },
     {
       "version": "v2021.01.26",
-      "branch":"es-docs",
+      "branch":"fix-installer",
       "hostDocs": true,
       "show": true,
       "info": {
