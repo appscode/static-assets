@@ -164,6 +164,7 @@
     },
     {
       "version": "v2021.03.11",
+      "branch": "mysql",
       "hostDocs": true,
       "show": true,
       "info": {
@@ -177,7 +178,6 @@
     },
     {
       "version": "v2021.01.26",
-      "branch": "mysql",
       "hostDocs": true,
       "show": true,
       "info": {
