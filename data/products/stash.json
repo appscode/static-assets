@@ -354,7 +354,7 @@
     {
       "version": "v2021.03.11",
       "hostDocs": true,
-      "show": true,
+      "show": false,
       "info": {
         "catalog": "v2021.03.11",
         "cli": "v0.11.11",
@@ -408,7 +408,7 @@
     {
       "version": "v2021.03.08",
       "hostDocs": true,
-      "show": true,
+      "show": false,
       "info": {
         "catalog": "v2021.03.08",
         "cli": "v0.11.10",
