@@ -353,8 +353,8 @@
     },
     {
       "version": "v2021.04.09",
-      "hostDocs": true,
-      "show": true,
+      "hostDocs": false,
+      "show": false,
       "info": {
         "cli": "v0.12.2",
         "community": "v0.12.2",
@@ -406,8 +406,8 @@
     },
     {
       "version": "v2021.04.07",
-      "hostDocs": true,
-      "show": true,
+      "hostDocs": false,
+      "show": false,
       "info": {
         "cli": "v0.12.1",
         "community": "v0.12.1",
