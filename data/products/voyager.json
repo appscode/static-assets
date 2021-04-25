@@ -132,6 +132,13 @@
       "show": true
     },
     {
+      "version": "v2021.04.20-beta.2",
+      "hostDocs": true,
+      "info": {
+        "installer": "v2021.04.20-beta.2"
+      }
+    },
+    {
       "version": "v13.0.0-beta.1",
       "hostDocs": true,
       "show": true
