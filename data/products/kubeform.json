@@ -31,19 +31,14 @@
       "192x192": "https://cdn.appscode.com/images/products/kubeform/icons/android-icon-192x192.png"
     }
   },
-  "repoURL": "https://github.com/kubeform/docs",
+  "repoURL": "https://github.com/kubeform/kubeform",
   "starRepo": "kubeform/kubeform",
-  "docRepo": "kubeform/docs",
+  "docRepo": "kubeform/kubeform",
   "badges": [
     {
       "url": "kubeform",
       "alt": "GitHub",
       "logo": "github"
-    },
-    {
-      "url": "docker/pulls/kubeform/kfc",
-      "alt": "Docker Pulls",
-      "logo": "docker"
     }
   ],
   "features": [
@@ -111,19 +106,6 @@
       },
       "summary": "",
       "description": "With Kubeform, you can launch a cloud infrastructure via a simple CRD instance and start developing in minutes. Kubeform eliminates lengthy deployment and management processes with on-demand provisioning, scaling, patching and updating cloud infrastructure and shortens time-to-value. Kubeform gives each developer on your team their own development instance, so your team can focus on what matters most — velocity and not have to worry about stepping on each other’s toes."
-    },
-    {
-      "title": "Open Source",
-      "image": {
-        "src": "https://cdn.appscode.com/images/products/kubeform/features/feature-6.png",
-        "alt": "http"
-      },
-      "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubeform/features/teamwork.png",
-        "alt": "http"
-      },
-      "summary": "",
-      "description": "Kubeform is 100% open source and distributed under a commercial friendly Apache v2 license. You get the benefits of bug fixes and enhancements made by the Kubeform community as a whole and not just by its primary sponsor AppsCode Inc. Since it is open source, your engineering team has the ability to debug issues unique to your deployment and make any changes if necessary. You get the peace of mind that your critical infrastructure component is not tied to the fate of a startup."
     }
   ],
   "versions": [
