@@ -126,33 +126,6 @@
         "installer": "v2021.07.01",
         "linode": "v0.1.0"
       }
-    },
-    {
-      "version": "v2020.10.30",
-      "hostDocs": true,
-      "show": true,
-      "info": {
-        "community": "v0.3.0",
-        "installer": "v0.3.0"
-      }
-    },
-    {
-      "version": "v2020.10.13",
-      "hostDocs": true,
-      "show": true,
-      "info": {
-        "community": "v0.2.0",
-        "installer": "v0.2.0"
-      }
-    },
-    {
-      "version": "v0.1.0",
-      "hostDocs": true,
-      "show": true
-    },
-    {
-      "version": "v0.0.1",
-      "hostDocs": true
     }
   ],
   "latestVersion": "v2021.07.01",
