@@ -31,9 +31,9 @@
       "192x192": "https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png"
     }
   },
-  "repoURL": "https://github.com/kubevault/docs",
+  "repoURL": "https://github.com/kubevault/kubevault",
   "starRepo": "kubevault/operator",
-  "docRepo": "kubevault/docs",
+  "docRepo": "kubevault/kubevault",
   "badges": [
     {
       "url": "kubevault",
@@ -130,25 +130,6 @@
     {
       "version": "master",
       "hostDocs": false,
-      "show": true
-    },
-    {
-      "version": "v2020.07.09-beta.0",
-      "hostDocs": true
-    },
-    {
-      "version": "v0.3.0",
-      "hostDocs": true,
-      "show": true
-    },
-    {
-      "version": "0.2.0",
-      "hostDocs": true,
-      "show": true
-    },
-    {
-      "version": "0.1.0",
-      "hostDocs": true,
       "show": true
     }
   ],
