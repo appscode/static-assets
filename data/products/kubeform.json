@@ -115,6 +115,20 @@
       "show": true
     },
     {
+      "version": "v2021.07.28",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "aws": "v0.2.0",
+        "azurerm": "v0.2.0",
+        "digitalocean": "v0.2.0",
+        "equinixmetal": "v0.2.0",
+        "google": "v0.2.0",
+        "installer": "v2021.07.28",
+        "linode": "v0.2.0"
+      }
+    },
+    {
       "version": "v2021.07.21",
       "hostDocs": true,
       "show": true,
@@ -142,7 +156,7 @@
       }
     }
   ],
-  "latestVersion": "v2021.07.21",
+  "latestVersion": "v2021.07.28",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubeform/kubeform",
