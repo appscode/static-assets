@@ -133,6 +133,17 @@
       "show": true
     },
     {
+      "version": "v2021.08.02",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "cli": "v0.4.0",
+        "installer": "v2021.08.02",
+        "operator": "v0.4.0",
+        "unsealer": "v0.4.0"
+      }
+    },
+    {
       "version": "v2020.07.09-rc.0",
       "hostDocs": true,
       "show": true,
@@ -145,7 +156,7 @@
       }
     }
   ],
-  "latestVersion": "v2020.07.09-rc.0",
+  "latestVersion": "v2021.08.02",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubevault",
