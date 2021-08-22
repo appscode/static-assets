@@ -95,7 +95,7 @@ func cloudsJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "clouds.json", size: 1389, mode: os.FileMode(420), modTime: time.Unix(1629613411, 0)}
+	info := bindataFileInfo{name: "clouds.json", size: 1389, mode: os.FileMode(420), modTime: time.Unix(1629670628, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -115,7 +115,7 @@ func customersJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "customers.json", size: 1667, mode: os.FileMode(420), modTime: time.Unix(1629613411, 0)}
+	info := bindataFileInfo{name: "customers.json", size: 1667, mode: os.FileMode(420), modTime: time.Unix(1629670628, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -135,7 +135,7 @@ func pressJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "press.json", size: 2030, mode: os.FileMode(420), modTime: time.Unix(1629613411, 0)}
+	info := bindataFileInfo{name: "press.json", size: 2030, mode: os.FileMode(420), modTime: time.Unix(1629670628, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -155,7 +155,7 @@ func testimonialsJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "testimonials.json", size: 3401, mode: os.FileMode(420), modTime: time.Unix(1629613411, 0)}
+	info := bindataFileInfo{name: "testimonials.json", size: 3401, mode: os.FileMode(420), modTime: time.Unix(1629670628, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
