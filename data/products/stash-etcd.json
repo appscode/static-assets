@@ -1,0 +1,32 @@
+{
+  "key": "stash-etcd",
+  "name": "Etcd",
+  "fullname": "Stash Etcd Addon",
+  "tagline": "Etcd backup and restore plugin for Stash by AppsCode",
+  "summary": "Etcd backup and restore plugin for Stash by AppsCode",
+  "published": true,
+  "author": "AppsCode Inc.",
+  "repoURL": "https://github.com/stashed/etcd",
+  "starRepo": "stashed/stash",
+  "docRepo": "stashed/etcd",
+  "badges": [
+    {
+      "url": "github/stars/stashed/etcd",
+      "alt": "GitHub Stars",
+      "logo": "github"
+    },
+    {
+      "url": "docker/pulls/stashed/etcd",
+      "alt": "Docker Pulls",
+      "logo": "docker"
+    }
+  ],
+  "versions": [
+    {
+      "version": "master",
+      "hostDocs": false,
+      "show": true
+    }
+  ],
+  "latestVersion": "master"
+}

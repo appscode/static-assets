@@ -1,0 +1,32 @@
+{
+  "key": "stash-nats",
+  "name": "NATS",
+  "fullname": "Stash NATS Addon",
+  "tagline": "NATS backup and restore plugin for Stash by AppsCode",
+  "summary": "NATS backup and restore plugin for Stash by AppsCode",
+  "published": true,
+  "author": "AppsCode Inc.",
+  "repoURL": "https://github.com/stashed/nats",
+  "starRepo": "stashed/stash",
+  "docRepo": "stashed/nats",
+  "badges": [
+    {
+      "url": "github/stars/stashed/nats",
+      "alt": "GitHub Stars",
+      "logo": "github"
+    },
+    {
+      "url": "docker/pulls/stashed/nats",
+      "alt": "Docker Pulls",
+      "logo": "docker"
+    }
+  ],
+  "versions": [
+    {
+      "version": "master",
+      "hostDocs": false,
+      "show": true
+    }
+  ],
+  "latestVersion": "master"
+}
