@@ -3,12 +3,13 @@ package main
 import (
 	"bytes"
 	"encoding/json"
+	"io/fs"
 	"io/ioutil"
 	"log"
 	"strings"
 
+	staticassets "github.com/appscode/static-assets"
 	"github.com/appscode/static-assets/api"
-	"github.com/appscode/static-assets/data/products"
 )
 
 func main() {
@@ -26,11 +27,21 @@ func main() {
 	addKubeVault()
 	addKubeform()
 
-	for _, name := range products.AssetNames() {
+	fsys := staticassets.Product()
+	fs.WalkDir(fsys, "", func(name string, d fs.DirEntry, err error) error {
+		if err != nil {
+			return err
+		}
+
+		data, err := fs.ReadFile(fsys, name)
+		if err != nil {
+			return err
+		}
+
 		key := strings.ReplaceAll(name, ".json", "")
 
 		var p api.Product
-		err := json.Unmarshal(products.MustAsset(name), &p)
+		err = json.Unmarshal(data, &p)
 		if err != nil {
 			log.Fatalln("failed to deserialize", name)
 		}
@@ -112,5 +123,7 @@ func main() {
 		if err != nil {
 			log.Fatalln("failed to write", filename)
 		}
-	}
+
+		return nil
+	})
 }

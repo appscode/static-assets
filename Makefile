@@ -6,7 +6,7 @@ GO_PKG   := appscode-cloud
 REPO     := $(notdir $(shell pwd))
 
 SRC_PKGS := api cmd
-SRC_DIRS := $(SRC_PKGS) data # directories which hold app source (not vendored)
+SRC_DIRS := $(SRC_PKGS) data *.go # directories which hold app source (not vendored)
 
 # Used internally.  Users should pass GOOS and/or GOARCH.
 OS   := $(if $(GOOS),$(GOOS),$(shell go env GOOS))
@@ -31,28 +31,8 @@ fmt: $(BUILD_DIRS)
 		./hack/fmt.sh $(SRC_DIRS)
 
 .PHONY: gen
-gen: gen-bindata
-
-.PHONY: gen-bindata
-gen-bindata:
-	@docker run                                                 \
-		-i                                                      \
-		--rm                                                    \
-		-u $$(id -u):$$(id -g)                                  \
-		-v $$(pwd):/src                                         \
-		-w /src                                                 \
-		-v /tmp:/.cache                                         \
-		--env HTTP_PROXY=$(HTTP_PROXY)                          \
-		--env HTTPS_PROXY=$(HTTPS_PROXY)                        \
-		$(BUILD_IMAGE)                                          \
-		/bin/bash -c "                                          \
-			cd /src/data;                                                                                \
-			go-bindata -ignore='\\.go$$' -ignore=\\.DS_Store -mode=0644 -o bindata.go -pkg data .;       \
-			cd /src/data/products;                                                                       \
-			go-bindata -ignore='\\.go$$' -ignore=\\.DS_Store -mode=0644 -o bindata.go -pkg products .;   \
-			cd /src/hugo;                                                                                \
-			go-bindata -ignore='\\.go$$' -ignore=\\.DS_Store -mode=0644 -o bindata.go -pkg hugo .;       \
-		"
+gen:
+	@true
 
 publish:
 	@echo "publishing files"
