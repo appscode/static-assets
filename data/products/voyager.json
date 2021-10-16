@@ -132,6 +132,14 @@
       "show": true
     },
     {
+      "version": "v2021.10.17",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "installer": "v2021.10.17"
+      }
+    },
+    {
       "version": "v2021.10.16",
       "hostDocs": true,
       "show": true,
@@ -311,7 +319,7 @@
       "hostDocs": false
     }
   ],
-  "latestVersion": "v2021.10.16",
+  "latestVersion": "v2021.10.17",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/voyagermesh/voyager",
