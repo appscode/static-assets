@@ -132,9 +132,17 @@
       "show": true
     },
     {
+      "version": "v2021.10.18",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "cli": "v0.0.3",
+        "installer": "v2021.10.18"
+      }
+    },
+    {
       "version": "v2021.10.17",
       "hostDocs": true,
-      "show": false,
       "info": {
         "installer": "v2021.10.17"
       }
@@ -142,7 +150,6 @@
     {
       "version": "v2021.10.16",
       "hostDocs": true,
-      "show": false,
       "info": {
         "installer": "v2021.10.16"
       }
@@ -319,7 +326,7 @@
       "hostDocs": false
     }
   ],
-  "latestVersion": "v2021.10.17",
+  "latestVersion": "v2021.10.18",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/voyagermesh/voyager",
