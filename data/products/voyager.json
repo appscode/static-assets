@@ -134,7 +134,7 @@
     {
       "version": "v2021.10.17",
       "hostDocs": true,
-      "show": true,
+      "show": false,
       "info": {
         "installer": "v2021.10.17"
       }
@@ -142,7 +142,7 @@
     {
       "version": "v2021.10.16",
       "hostDocs": true,
-      "show": true,
+      "show": false,
       "info": {
         "installer": "v2021.10.16"
       }
