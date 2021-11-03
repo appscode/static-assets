@@ -119,6 +119,7 @@
       "hostDocs": true,
       "show": true,
       "info": {
+        "cli": "v0.1.0",
         "alicloud": "v0.4.0",
         "aws": "v0.4.0",
         "azurerm": "v0.4.0",
