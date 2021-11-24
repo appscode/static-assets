@@ -177,7 +177,7 @@
     {
       "version": "v2021.11.18",
       "hostDocs": true,
-      "show": true,
+      "show": false,
       "info": {
         "autoscaler": "v0.8.0",
         "cli": "v0.23.0",
