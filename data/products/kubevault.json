@@ -133,6 +133,16 @@
       "show": true
     },
     {
+      "version": "v2022.02.22",
+      "hostDocs": true,
+      "info": {
+        "cli": "v0.7.0",
+        "installer": "v2022.02.22",
+        "operator": "v0.7.0",
+        "unsealer": "v0.7.0"
+      }
+    },
+    {
       "version": "v2022.01.11",
       "hostDocs": true,
       "show": true,
