@@ -135,6 +135,7 @@
     {
       "version": "v2022.02.22",
       "hostDocs": true,
+      "show": true,
       "info": {
         "cli": "v0.7.0",
         "installer": "v2022.02.22",
@@ -187,7 +188,7 @@
       }
     }
   ],
-  "latestVersion": "v2022.01.11",
+  "latestVersion": "v2022.02.22",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubevault",

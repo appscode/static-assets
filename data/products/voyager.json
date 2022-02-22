@@ -134,6 +134,7 @@
     {
       "version": "v2022.02.22",
       "hostDocs": true,
+      "show": true,
       "info": {
         "cli": "v0.0.6",
         "installer": "v2022.02.22"
@@ -361,7 +362,7 @@
       "hostDocs": false
     }
   ],
-  "latestVersion": "v2022.01.10",
+  "latestVersion": "v2022.02.22",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/voyagermesh/voyager",

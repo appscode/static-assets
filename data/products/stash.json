@@ -301,7 +301,7 @@
     {
       "version": "v2022.02.22",
       "hostDocs": true,
-      "show": false,
+      "show": true,
       "info": {
         "cli": "v0.18.0",
         "community": "v0.18.0",
@@ -1593,7 +1593,7 @@
       "hostDocs": false
     }
   ],
-  "latestVersion": "v2021.11.24",
+  "latestVersion": "v2022.02.22",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/stashed/stash",
