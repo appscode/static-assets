@@ -25,7 +25,7 @@
     "alt": "KubeVault"
   },
   "icon": {
-    "src": "https://cdn.appscode.com/images/products/kubevault/kubevault-icon.png",
+    "src": "https://cdn.appscode.com/images/products/kubevault/kubevault-icon.svg",
     "alt": "KubeVault",
     "sizes": {
       "192x192": "https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png"

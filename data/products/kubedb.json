@@ -17,7 +17,7 @@
     "alt": "KubeDB"
   },
   "logo": {
-    "src": "https://cdn.appscode.com/images/products/kubedb/kubedb.png",
+    "src": "https://cdn.appscode.com/images/products/kubedb/kubedb.svg",
     "alt": "KubeDB"
   },
   "logoWhite": {
@@ -25,7 +25,7 @@
     "alt": "KubeDB"
   },
   "icon": {
-    "src": "https://cdn.appscode.com/images/products/kubedb/kubedb-icon.png",
+    "src": "https://cdn.appscode.com/images/products/kubedb/kubedb-icon.svg",
     "alt": "KubeDB",
     "sizes": {
       "192x192": "https://cdn.appscode.com/images/products/kubedb/icons/android-icon-192x192.png"
