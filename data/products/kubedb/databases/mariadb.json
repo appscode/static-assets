@@ -71,7 +71,7 @@
           }
         }
       },
-      "terminationPolicy": "WipeOut"
+      "terminationPolicy": "DoNotTerminate"
     }
   }
 }

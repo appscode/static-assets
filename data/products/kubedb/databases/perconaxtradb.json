@@ -72,7 +72,7 @@
           }
         }
       },
-      "terminationPolicy": "WipeOut"
+      "terminationPolicy": "DoNotTerminate"
     }
   }
 }

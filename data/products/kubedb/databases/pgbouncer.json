@@ -80,7 +80,8 @@
       },
       "userListSecretRef": {
         "name": "db-user-pass"
-      }
+      },
+      "terminationPolicy": "DoNotTerminate"
     }
   }
 }
