@@ -21,10 +21,10 @@
   ],
   "productMenu": {
     "c0": ["kubedb", "stash", "kubevault"],
-    "c1": ["kubeform"]
+    "c1": ["voyager", "kubeform"]
   },
   "ossMenu": {
-    "c0": ["voyager", "guard", "kubed"],
+    "c0": ["guard", "kubed"],
     "c1": ["pharmer", "swift", "searchlight"]
   },
   "footerLinks": [
