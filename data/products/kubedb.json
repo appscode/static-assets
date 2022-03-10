@@ -532,7 +532,7 @@
   "socialLinks": {
     "slack": "https://kubernetes.slack.com/messages/C8149MREV",
     "facebook": "https://facebook.com/appscode",
-    "github": "https://github.com/kubedb/cli",
+    "github": "https://github.com/kubedb",
     "linkedin": "https://www.linkedin.com/company/appscode",
     "twitter": "https://twitter.com/KubeDB",
     "youtube": "https://www.youtube.com/c/appscodeinc"
