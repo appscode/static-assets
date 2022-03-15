@@ -2,9 +2,8 @@
   "key": "kubedb",
   "name": "KubeDB",
   "fullname": "KubeDB by AppsCode",
-  "tagline": "Run production-grade Databases on Kubernetes",
-  "summary": "KubeDB by AppsCode simplifies and automates routine database tasks such as provisioning, patching, backup, recovery, failure detection, and repair for various popular databases on private and public clouds",
-  "metaDescription": "Provision, Upgrade, Monitor, Backup & Recovery, Failure Detection, Data Protection for various Databases in Kubernetes on any Public and Private Cloud",
+  "tagline": "Run Production-Grade Databases on Kubernetes",
+  "summary": "KubeDB simplifies Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud",
   "published": true,
   "author": "AppsCode Inc.",
   "website": {
@@ -12,7 +11,7 @@
     "path": "",
     "themeColor": "#4D4DCB"
   },
-  "keywords": "kubernetes appscode databsse high availability postgres elasticsearch etcd memecached mongodb mysql percona xtradb redis",
+  "keywords": "kubernetes, kubernetes database, database high availability, postgresql kubernetes, elasticsearch kubernetes, mysql kubernetes, etcd, mariadb kubernetes, memcached, mongodb kubernetes, percona xtradb, redis, scaling kubernetes, version upgrade kubernetes, volume expansion kubernetes, kubernetes database management",
   "heroImage": {
     "src": "https://cdn.appscode.com/images/products/kubedb/kubedb-hero.png",
     "alt": "KubeDB"

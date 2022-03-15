@@ -1,14 +1,16 @@
 {
   "name": "Percona XtraDB",
   "id": "perconaxtradb",
-  "title": "Run and Manage Percona XtraDB Database in Kubernetes",
+  "title": "Run and Manage Percona XtraDB Database on Kubernetes",
   "hero": "/assets/images/databases/illustrations/kc-bg.svg",
-  "summary": "Provision, Upgrade, Monitor, Backup & Recovery, Failure Detection, Data Protection for Percona XtraDB Databases in Kubernetes on Public and Private Cloud",
-  "description": "As the world’s enterprises rapidly move to the cloud, and Containers are taking over the world of software development, Kubernetes is the platform that lets users seamlessly deploy, scale, run applications and manage their life cycles.  <br />  <br /> But, Running Databases or Stateful applications in Kubernetes has always been a concern. And it becomes really difficult in terms of **Run and manage Production-Grade Databases in Kubernetes**.  <br />  <br /> KubeDB is the Kubernetes Native Database Management Solution which simplifies and automates routine database tasks such as **Provisioning, Monitoring, Patching, Backup, Recovery, Failure detection, and Repair** for various popular databases on private and public clouds. KubeDB provides a simple mechanism for running your storage system in the same platform as your application.",
+  "summary": "Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup & Restore, Security for Percona XtraDB Databases in Kubernetes on any Public & Private Cloud",
+  "description": "As the world’s enterprises rapidly move to the cloud, and Containers are taking over the world of software development, Kubernetes is the platform that lets users seamlessly deploy, scale, run applications and manage their life cycles.  <br />  <br /> But, Running Databases or Stateful applications in Kubernetes has always been a concern. And it becomes really difficult in terms of **Run and manage Production-Grade Databases on Kubernetes**.  <br />  <br /> KubeDB is the Kubernetes Native Database Management Solution which simplifies and automates routine database tasks such as **Provisioning, Monitoring, Upgrading, Patching, Scaling, Volume Expansion, Backup, Recovery, Failure detection, and Repair** for various popular databases on private and public clouds. KubeDB provides a simple mechanism for running your storage system in the same platform as your application.",
   "keywords": [
     "Provision",
     "Failure Detection",
     "Upgrade",
+    "Scaling",
+    "Volume Expansion",
     "Backup & Recovery",
     "Monitor",
     "Data Protection for Percona XtraDB Databases in Kubernetes on Public and Private Cloud"
