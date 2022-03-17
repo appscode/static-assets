@@ -1,6 +1,6 @@
 {
   "name": "PostgreSQL",
-  "id": "postgresql",
+  "id": "postgres",
   "title": "Run and Manage PostgreSQL Database on Kubernetes",
   "hero": "/assets/images/databases/illustrations/kc-bg.svg",
   "summary": "Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup & Restore, Security for PostgreSQL Databases in Kubernetes on any Public & Private Cloud",
