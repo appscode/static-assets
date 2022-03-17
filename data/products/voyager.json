@@ -132,6 +132,14 @@
       "show": true
     },
     {
+      "version": "v2022.03.17",
+      "hostDocs": true,
+      "info": {
+        "cli": "v0.0.7",
+        "installer": "v2022.03.17"
+      }
+    },
+    {
       "version": "v2022.02.22",
       "hostDocs": true,
       "show": true,
