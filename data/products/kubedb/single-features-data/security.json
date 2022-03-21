@@ -7,7 +7,7 @@
       "id": 1,
       "url": "secure-database-kubernetes",
       "title": "Encryption at rest and in transit",
-      "description": "KubeDB allows you to use encrypted storage for your databases using keys you manage through your cloud provider’s key management service. A database instance running on AWS can keep its data stored at rest in the underlying storage encrypted, as are its automated backups, read replicas, and snapshots.",
+      "description": "You can secure your Databases with TLS using KubeDB. Also, KubeDB allows you to use encrypted storage for your databases using keys you manage through your cloud provider’s key management service.",
       "img": "/assets/images/features/illustrations/encryption-at-rest-and-in-transit.jpg"
     },
     {

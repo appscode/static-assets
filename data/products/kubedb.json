@@ -108,20 +108,6 @@
       "url": "backup-restore-databases-on-kubernetes"
     },
     {
-      "title": "Security",
-      "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/security-lg.png",
-        "alt": "http"
-      },
-      "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/security-lock.png",
-        "alt": "http"
-      },
-      "summary": "",
-      "description": "KubeDB allows you to use encrypted storage for your databases using keys you manage through your cloud provider’s key management service. A database instance running on AWS can keep its data stored at rest in the underlying storage encrypted, as are its automated backups, read replicas, and snapshots.",
-      "url": "secure-databases-on-kubernetes"
-    },
-    {
       "title": "Manageability",
       "image": {
         "src": "https://cdn.appscode.com/images/products/kubedb/features/monitoring-lg.png",
@@ -162,6 +148,20 @@
       "summary": "",
       "description": "KubeDB is an open core project. KubeDB Community edition is open source and free to use for both commercial and non-commercial purposes. It comes with the cluster provisioning functionalities. KubeDB Enterprise edition includes the features of the Community Edition and extends it by automating Day 2 operations like database backup/recovery, upgrading version, horizontal and vertical scaling, TLS/SSL support via cert-manager, connection pooling, etc.",
       "url": "open-source"
+    },
+    {
+      "title": "Security",
+      "image": {
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/security-lg.png",
+        "alt": "http"
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/security-lock.png",
+        "alt": "http"
+      },
+      "summary": "",
+      "description": "You can secure your Databases with TLS using KubeDB. Also, KubeDB allows you to use encrypted storage for your databases using keys you manage through your cloud provider’s key management service.",
+      "url": "secure-databases-on-kubernetes"
     }
   ],
   "versions": [
