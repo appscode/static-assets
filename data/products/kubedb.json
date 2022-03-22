@@ -136,20 +136,6 @@
       "url": "manage-database-on-kubernetes-free"
     },
     {
-      "title": "Open Source",
-      "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/open-source-lg.png",
-        "alt": "http"
-      },
-      "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/teamwork.png",
-        "alt": "http"
-      },
-      "summary": "",
-      "description": "KubeDB is an open core project. KubeDB Community edition is open source and free to use for both commercial and non-commercial purposes. It comes with the cluster provisioning functionalities. KubeDB Enterprise edition includes the features of the Community Edition and extends it by automating Day 2 operations like database backup/recovery, upgrading version, horizontal and vertical scaling, TLS/SSL support via cert-manager, connection pooling, etc.",
-      "url": "open-source"
-    },
-    {
       "title": "Security",
       "image": {
         "src": "https://cdn.appscode.com/images/products/kubedb/features/security-lg.png",
