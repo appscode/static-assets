@@ -62,7 +62,8 @@
         "alt": "http"
       },
       "summary": "",
-      "description": "KubeDB simplifies many of the difficult or tedious management tasks of running a production grade databases on private and public clouds. Maintain one stack for all your stateless and stateful applications and simplify the operational complexity."
+      "description": "KubeDB simplifies many of the difficult or tedious management tasks of running a production grade databases on private and public clouds. Maintain one stack for all your stateless and stateful applications and simplify the operational complexity.",
+      "url": "provision-databases-on-kubernetes"
     },
     {
       "title": "Native Kubernetes Support",
@@ -75,7 +76,8 @@
         "alt": "http"
       },
       "summary": "",
-      "description": "Standard Kubernetes is all you need. If you can run Kubernetes, you can provision and manage databases using KubeDB. Use standard Kubernetes CLI and API to provision and manage databases."
+      "description": "Standard Kubernetes is all you need. If you can run Kubernetes, you can provision and manage databases using KubeDB. Use standard Kubernetes CLI and API to provision and manage databases.",
+      "url": "deploy-databases-in-kubernetes-native-way"
     },
     {
       "title": "Performance",
@@ -88,7 +90,8 @@
         "alt": "http"
       },
       "summary": "",
-      "description": "KubeDB uses Persistent Volume Claims (PVC) to dynamically provision disks for database instances. Using appropriately defined StorageClasses,  KubeDB provisioned database instances are designed to scale from small development workloads up to performance-intensive workloads on private and public cloud environments."
+      "description": "KubeDB uses Persistent Volume Claims (PVC) to dynamically provision disks for database instances. Using appropriately defined StorageClasses,  KubeDB provisioned database instances are designed to scale from small development workloads up to performance-intensive workloads on private and public cloud environments.",
+      "url": "increase-database-performance-on-kubernetes"
     },
     {
       "title": "Availability and durability",
@@ -101,20 +104,8 @@
         "alt": "http"
       },
       "summary": "",
-      "description": "KubeDB will backup your database and transaction logs at a user defined frequency and store both for a user-specified retention period in a cloud object store (S3, GCS, etc.) or local filesystem (like NFS, etc.). You can also initiate one-off backups. KubeDB uses Stash by AppsCode to take deduplicated and encrypted backups so that you only incur the cost of incremental storage use. You can create a new instance from a database snapshots whenever you desire."
-    },
-    {
-      "title": "Security",
-      "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/security-lg.png",
-        "alt": "http"
-      },
-      "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/security-lock.png",
-        "alt": "http"
-      },
-      "summary": "",
-      "description": "KubeDB allows you to use encrypted storage for your databases using keys you manage through your cloud provider’s key management service. A database instance running on AWS can keep its data stored at rest in the underlying storage encrypted, as are its automated backups, read replicas, and snapshots."
+      "description": "KubeDB will backup your database and transaction logs at a user defined frequency and store both for a user-specified retention period in a cloud object store (S3, GCS, etc.) or local filesystem (like NFS, etc.). You can also initiate one-off backups. KubeDB uses Stash by AppsCode to take deduplicated and encrypted backups so that you only incur the cost of incremental storage use. You can create a new instance from a database snapshots whenever you desire.",
+      "url": "backup-restore-databases-on-kubernetes"
     },
     {
       "title": "Manageability",
@@ -127,7 +118,8 @@
         "alt": "http"
       },
       "summary": "",
-      "description": "KubeDB comes with native support for monitoring via Prometheus. You can use builtin Prometheus scrapper or CoreOS Prometheus Operator to monitor KubeDB supported databases as well as KubeDB operator itself. You can use the Grafana to view key operational metrics, including compute/memory/storage capacity utilization, I/O activity, and instance connections. You can also use any metrics solutions like Datadog with KubeDB."
+      "description": "KubeDB comes with native support for monitoring via Prometheus. You can use builtin Prometheus scrapper or CoreOS Prometheus Operator to monitor KubeDB supported databases as well as KubeDB operator itself. You can use the Grafana to view key operational metrics, including compute/memory/storage capacity utilization, I/O activity, and instance connections. You can also use any metrics solutions like Datadog with KubeDB.",
+      "url": "monitor-databases-on-kubernetes"
     },
     {
       "title": "Cost-effectiveness",
@@ -140,20 +132,22 @@
         "alt": "http"
       },
       "summary": "",
-      "description": "KubeDB is free to use on any supported Kubernetes engines. There is no up-front investment required, and you pay only for the resources you use to your infrastructure provider. And, when you’re finished with a database instance, you can easily delete it."
+      "description": "KubeDB is free to use on any supported Kubernetes engines. There is no up-front investment required, and you pay only for the resources you use to your infrastructure provider. And, when you’re finished with a database instance, you can easily delete it.",
+      "url": "manage-database-on-kubernetes-free"
     },
     {
-      "title": "Open Source",
+      "title": "Security",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/open-source-lg.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/security-lg.png",
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/teamwork.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/security-lock.png",
         "alt": "http"
       },
       "summary": "",
-      "description": "KubeDB is an open core project. KubeDB Community edition is open source and free to use for both commercial and non-commercial purposes. It comes with the cluster provisioning functionalities. KubeDB Enterprise edition includes the features of the Community Edition and extends it by automating Day 2 operations like database backup/recovery, upgrading version, horizontal and vertical scaling, TLS/SSL support via cert-manager, connection pooling, etc."
+      "description": "You can secure your Databases with TLS using KubeDB. Also, KubeDB allows you to use encrypted storage for your databases using keys you manage through your cloud provider’s key management service.",
+      "url": "secure-databases-on-kubernetes"
     }
   ],
   "versions": [

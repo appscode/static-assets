@@ -1,0 +1,38 @@
+{
+  "id": "security",
+  "title": "Secure Databases on Kubernetes",
+  "meta": "Secure your Databases on Kubernetes via TLS/SSL encryption. KubeDB offers options to choose to maintain security for your Databases on Kubernetes.",
+  "innerContent": [
+    {
+      "id": 1,
+      "url": "secure-database-kubernetes",
+      "title": "Encryption at rest and in transit",
+      "description": "You can secure your Databases with TLS using KubeDB. Also, KubeDB allows you to use encrypted storage for your databases using keys you manage through your cloud provider’s key management service.",
+      "img": "/assets/images/features/illustrations/encryption-at-rest-and-in-transit.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Network isolation",
+      "description": "KubeDB provisioned database instances by default runs inside the private Kubernetes pod network. To further secure your database instances, you can configure network policies so that only the necessary pods can communicate with database pods. It creates firewalls between pods running on a Kubernetes cluster.",
+      "img": "/assets/images/features/illustrations/network-isolation.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Resource-level permissions",
+      "description": "KubeDB is integrated with Kubernetes Role Based Access Control (RBAC) and provides you the ability to control the actions that your Kubernetes users and groups can take on specific KubeDB database instances. For example, you can configure your RBAC roles to ensure developers are able to modify **Development** database instances, but only Database Administrators can make changes to **Production** database instances.",
+      "img": "/assets/images/features/illustrations/resource-level-permissions.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Private registry & air-gapped cluster",
+      "description": "KubeDB operator can be configured to work with an in-cluster private registry. This makes KubeDB viable to run an air-gapped Kubernetes cluster. Cluster administrators can use private registries to ensure that only pre-approved docker images are able to run inside a cluster.",
+      "img": "/assets/images/features/illustrations/private-registry-air-gapped-cluster.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Database User management",
+      "description": "KubeDB by default creates the root user account for every database that it supports. And also you can provision additional database users with custom permissions and rotate their credentials using KubeVault. Database secret engines in Vault generate database credentials dynamically based on configured roles. Using KubeVault, you can configure a secret engine, create roles and issue credentials from Vault. You can request credentials and after it's been approved by the database administrator, the Vault operator will create a Kubernetes Secret containing the credential and also creates RBAC Role and RoleBinding so that the user can access the Secret.",
+      "img": "/assets/images/features/illustrations/database-user-management.jpg"
+    }
+  ]
+}

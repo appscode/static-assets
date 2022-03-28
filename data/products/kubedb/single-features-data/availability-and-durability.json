@@ -1,0 +1,25 @@
+{
+  "id": "availability-and-durability",
+  "title": "Backup & Restore Databases on Kubernetes",
+  "meta": "Backup, Restore and Data Protection for Various Databases in Kubernetes on any Public and Private Cloud.",
+  "innerContent": [
+    {
+      "id": 1,
+      "title": "Automated backups",
+      "description": "KubeDB will backup your database and transaction logs at a user-defined frequency and store both for a user-specified retention period in a cloud object store (S3, GCS, etc.) or local filesystem (like NFS, etc.). You can also initiate one-off backups. KubeDB uses Stash by AppsCode to take deduplicated and encrypted backups so that you only incur the cost of incremental storage use. You can create a new instance from database snapshots whenever you desire.",
+      "img": "/assets/images/features/illustrations/automated-backups.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Automated Failover and self-healing",
+      "description": "KubeDB will automatically replace the pods powering your database instances in the event of an involuntary disruption eg, hardware failure). In case of a voluntary disruption (eg. draining a node for repair or upgrade, draining a node from a cluster to scale the cluster down, etc.), PodDisruptionBudget for clustered database instances is used to make maintenance of underlying infrastructure transparent. KubeDB configures liveness and readiness probes for database instances for continuous health-checking and automatically fails over if an instance is not healthy.",
+      "img": "/assets/images/features/illustrations/automated-failover-and-self-healing.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Multi-AZ deployments",
+      "description": "KubeDB Multi-AZ deployments provide enhanced availability and durability for database instances, making them a natural fit for production database workloads. When you provision a Multi-AZ database instance, KubeDB replicates your data to standby instances across multiple Kubernetes failure-domains. KubeDB enables enterprises to target database instances into a placement zone to meet particular data affinity, governance and performance requirements.",
+      "img": "/assets/images/features/illustrations/multi-az-deployment.jpg"
+    }
+  ]
+}

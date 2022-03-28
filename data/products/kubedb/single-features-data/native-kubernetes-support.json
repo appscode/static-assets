@@ -1,0 +1,26 @@
+{
+  "id": "native-kubernetes-support",
+  "title": "Deploy & Manage Databases in Kubernetes Native Way",
+  "meta": "Deploy & Manage Databases in Kubernetes Native Way. KubeDB offers Native Kubernetes Support for managing databases on Hybrid and Multi-Cloud Environments",
+  "innerContent": [
+    {
+      "id": 1,
+      "url": "manage-database-kubernetes-native",
+      "title": "Infrastructure as code",
+      "description": "KubeDB defines each supported database engine as a custom resource (CRD) for Kubernetes. You can use Kubernetes CLI or API to provision, manage, and interact with KubeDB database instances. This native integration with Kubernetes means your database instances are ready for any higher level deployment tooling like GitOps, Open Policy Agent (OPA), etc.",
+      "img": "/assets/images/features/illustrations/infrastructure-as-code.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Hybrid and Multi-cloud",
+      "description": "To run KubeDB, all you need is a Kubernetes cluster. So, you can run a production-grade database deployment in your desktop via minikube to hybrid and multi-cloud environments against a single consistent interface. KubeDB follows the official deprecation policy for Kubernetes so that your database instances always keep pace with the latest security and maintenance updates.",
+      "img": "/assets/images/features/illustrations/hybrid-and-multi-cloud.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Single Stack for Stateless and Stateful Workloads",
+      "description": "KubeDB enables enterprises to maintain one stack for their stateless and stateful workloads. This means your developer and operations team don’t have to learn, maintain and manage separate stack for deployments, monitoring, logging and alert management. KubeDB allows you to use the same workflow across public and private clouds and avoid vendor lock-in. KubeDB makes your engineering teams agile so that they can focus on delivering the best value for your customers and users.",
+      "img": "/assets/images/features/illustrations/single-stack-for-stateless-workload.jpg"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cost-effectiveness",
+  "title": "Deploy & Manage Databases on Kubernetes FREE",
+  "meta": "KubeDB community edition is FREE to use on any supported Kubernetes engines. You can deploy and manage your database on Kubernetes FREE",
+  "innerContent": [
+    {
+      "id": 1,
+      "title": "Cost-effectiveness",
+      "description": "KubeDB community edition is FREE to use on any supported Kubernetes engines. You can deploy and manage your databases on Kubernetes using KubeDB. There is no up-front investment required. We offer a 30 days license FREE of cost to try KubeDB Enterprise edition.",
+      "img": "/assets/images/features/illustrations/cost-effectoveness.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Reserved instances",
+      "description": "Cloud providers like AWS and Azure have the option to reserve virtual machines in advance for 1-3 year terms and provide a significant discount (up to 75% - 80%) compared to on-demand VM pricing. KubeDB operators can provision database instances on reserved instances and significantly reduce your TOC for the DB instances.",
+      "img": "/assets/images/features/illustrations/reserved-instances.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Halt and Resume",
+      "description": "KubeDB allows you to easily halt and resume your database instances. This makes it easy and affordable to use databases for development and test purposes, where the database is not required to be running all of the time.",
+      "img": "/assets/images/features/illustrations/halt-and-resume.jpg"
+    }
+  ]
+}

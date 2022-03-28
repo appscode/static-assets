@@ -1,0 +1,20 @@
+{
+  "id": "manageability",
+  "url": "monitor-database-kubernetes",
+  "title": "Monitor Databases on Kubernetes",
+  "meta": "Monitor your Databases on Kubernetes via Prometheus and Visualize key operational metrics of your Database using Grafana Dashboard.",
+  "innerContent": [
+    {
+      "id": 1,
+      "title": "Monitoring and metrics",
+      "description": "KubeDB comes with native support for monitoring via Prometheus. You can use the builtin Prometheus scrapper or Prometheus Operator to monitor KubeDB supported databases as well as KubeDB operator itself. You can use the Grafana to view key operational metrics, including compute/memory/storage capacity utilization, I/O activity, and instance connections. You can also use any metrics solutions like Datadog with KubeDB.",
+      "img": "/assets/images/features/illustrations/monitoring-and-metrics.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Event notifications",
+      "description": "Prometheus Alertmanager can send alerts based on the Prometheus metric exposed by KubeDB managed database instances. It takes care of deduplicating, grouping, and routing them to the correct receiver integration such as email, PagerDuty, or OpsGenie. It also takes care of silencing and inhibition of alerts.",
+      "img": "/assets/images/features/illustrations/event-notifications.jpg"
+    }
+  ]
+}

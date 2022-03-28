@@ -1,0 +1,19 @@
+{
+  "id": "lower-administrative-burden",
+  "title": "Provision your Database on Kubernetes",
+  "meta": "You can simply provision your databases on Kubernetes using KubeDB. Don’t need to worry about all the knowledge of Kubernetes Concepts & setups",
+  "innerContent": [
+    {
+      "id": 1,
+      "title": "Unleash Developer Velocity",
+      "description": "With KubeDB, you can launch a database instance via a simple CLI, management console or API and start developing in minutes. KubeDB eliminates lengthy deployment and management processes with on-demand provisioning, scaling, patching and updating database instances and shortens time-to-value. KubeDB gives each developer on your team their own development instance, so your team can focus on what matters most — velocity and not have to worry about stepping on each other’s toes.",
+      "img": "/assets/images/features/illustrations/unleash-developer-velocity.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Options of Choosing Various Database Engines",
+      "description": "Build and deploy on the cloud or on-premises faster because KubeDB offers most familiar database engines to choose from, including PostgreSQL, MySQL, MongoDB, MariaDB, Elasticsearch, Redis, Percona XtraDB, ProxySQL, PgBouncer and Memcached. This means that the code, applications, and tools you already use today with your existing databases can be used with KubeDB. KubeDB provides users the option to build their custom database Docker images from official KubeDB images and bundle any plugin they prefer.",
+      "img": "/assets/images/features/illustrations/various-database-engines.jpg"
+    }
+  ]
+}
