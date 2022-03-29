@@ -6,6 +6,7 @@ import (
 
 type Feature struct {
 	Title       string `json:"title"`
+	URL         string `json:"url"`
 	Image       Image  `json:"image"`
 	Icon        Image  `json:"icon"`
 	Summary     string `json:"summary"`
