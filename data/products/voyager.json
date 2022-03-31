@@ -2,7 +2,7 @@
   "key": "voyager",
   "name": "Voyager",
   "fullname": "Voyager by AppsCode",
-  "tagline": "Secure HAProxy Ingress Controller for<br /> <strong>Kubernetes</strong>",
+  "tagline": "Secure HAProxy Ingress Controller for <strong>Kubernetes</strong>",
   "summary": "Secure HAProxy Ingress Controller for Kubernetes",
   "published": true,
   "author": "AppsCode Inc.",
