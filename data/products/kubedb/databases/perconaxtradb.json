@@ -1,6 +1,6 @@
 {
   "name": "Percona XtraDB",
-  "id": "perconaxtradb",
+  "id": "percona-xtradb",
   "title": "Run and Manage Percona XtraDB Database on Kubernetes",
   "hero": "/assets/images/databases/illustrations/kc-bg.svg",
   "summary": "Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup & Restore, Security for Percona XtraDB Databases in Kubernetes on any Public & Private Cloud",
