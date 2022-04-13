@@ -1,6 +1,6 @@
 {
   "name": "PostgreSQL",
-  "id": "postgresql",
+  "id": "postgres",
   "title": "Backup & Restore PostgreSQL Database on Kubernetes",
   "hero": "/assets/images/databases/illustrations/kc-bg-1.jpg",
   "summary": "A complete Kubernetes native disaster recovery solution for backup and restore PostgreSQL databases in Kubernetes on various public and private clouds.",
