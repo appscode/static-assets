@@ -79,7 +79,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/kub-workload.svg",
+        "src": "https://cdn.appscode.com/images/products/stash/features/vol.svg",
         "alt": "http"
       },
       "summary": "",
@@ -93,7 +93,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/kub-workload.svg",
+        "src": "https://cdn.appscode.com/images/products/stash/features/backup-icon.png",
         "alt": "http"
       },
       "summary": "",
@@ -107,7 +107,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/platform-support.svg",
+        "src": "https://cdn.appscode.com/images/products/stash/features/storage-icon.png",
         "alt": "http"
       },
       "summary": "",
@@ -121,7 +121,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/kub-workload.svg",
+        "src": "https://cdn.appscode.com/images/products/stash/features/compare-icon.png",
         "alt": "http"
       },
       "summary": "",
@@ -135,7 +135,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/rback.svg",
+        "src": "https://cdn.appscode.com/images/products/stash/features/encryption-icon.png",
         "alt": "http"
       },
       "summary": "",
@@ -149,7 +149,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/kub-workload.svg",
+        "src": "https://cdn.appscode.com/images/products/stash/features/volume-snapshot.png",
         "alt": "http"
       },
       "summary": "",
@@ -163,7 +163,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/rback.svg",
+        "src": "https://cdn.appscode.com/images/products/stash/features/policy-based-icon.png",
         "alt": "http"
       },
       "summary": "",
@@ -177,7 +177,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/platform-support.svg",
+        "src": "https://cdn.appscode.com/images/products/stash/features/prometheus.svg",
         "alt": "http"
       },
       "summary": "",

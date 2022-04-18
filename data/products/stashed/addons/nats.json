@@ -23,7 +23,7 @@
       "description": "A logical backup contains copies of database information (such as tables, schemas, and procedures) and is often exported as a binary file utilizing EXPORT/IMPORT tools. Logical backups are useful if you need to restore or relocate a copy of the database to another environment. Stash offers Logical Backup for NATS server on Kubernetes."
     },
     {
-      "title": "Backup & Restore NATS server",
+      "title": "Backup & Restore NATS Server",
       "image": "/assets/images/addons/illustrations/backup-restore-elasticsearch-database.png",
       "description": "Backup your NATS server deployed in Kubernetes. You can also restore your NATS server using Stash. Stash simplifies the whole process of Backup & Restore your NATS server on Kubernetes."
     },
@@ -49,7 +49,7 @@
     },
     {
       "title": "Policy Based Backup",
-      "image": "/assets/images/addons/illustrations/multiple-storage-support.png",
+      "image": "/assets/images/addons/illustrations/policy-based-backup.png",
       "description": "Define a common template to backup all similar types of workloads. Then, just add some annotations to your targeted workload to enable backup for it. You can use a single template to backup all the Deployments, StatefulSets, DaemonSets, ReplicationControllers and ReplicaSets of your entire cluster"
     },
     {

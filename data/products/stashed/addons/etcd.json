@@ -49,7 +49,7 @@
     },
     {
       "title": "Policy Based Backup",
-      "image": "/assets/images/addons/illustrations/multiple-storage-support.png",
+      "image": "/assets/images/addons/illustrations/policy-based-backup.png",
       "description": "Define a common template to backup all similar types of workloads. Then, just add some annotations to your targeted workload to enable backup for it. You can use a single template to backup all the Deployments, StatefulSets, DaemonSets, ReplicationControllers and ReplicaSets of your entire cluster"
     },
     {
