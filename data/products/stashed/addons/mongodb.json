@@ -24,7 +24,7 @@
     },
     {
       "title": "Backup & Restore MongoDB Databases",
-      "image": "/assets/images/addons/illustrations/backup-restore-elasticsearch-database.png",
+      "image": "/assets/images/addons/illustrations/backup-restore-databases.png",
       "description": "Backup your MongoDB databases deployed in Kubernetes. You can also restore your MongoDB databases using Stash. Stash simplifies the whole process of Backup & Restore your MongoDB databases on Kubernetes."
     },
     {

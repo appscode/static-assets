@@ -24,7 +24,7 @@
     },
     {
       "title": "Backup & Restore MySQL Databases",
-      "image": "/assets/images/addons/illustrations/backup-restore-elasticsearch-database.png",
+      "image": "/assets/images/addons/illustrations/backup-restore-databases.png",
       "description": "Backup your MySQL databases deployed in Kubernetes. You can also restore your MySQL databases using Stash. Stash simplifies the whole process of Backup & Restore your MySQL databases on Kubernetes."
     },
     {

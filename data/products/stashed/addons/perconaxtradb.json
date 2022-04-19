@@ -24,7 +24,7 @@
     },
     {
       "title": "Backup & Restore Percona XtraDB Databases",
-      "image": "/assets/images/addons/illustrations/backup-restore-elasticsearch-database.png",
+      "image": "/assets/images/addons/illustrations/backup-restore-databases.png",
       "description": "Backup your Percona XtraDB databases deployed in Kubernetes. You can also restore your Percona XtraDB databases using Stash. Stash simplifies the whole process of Backup & Restore your Percona XtraDB databases on Kubernetes."
     },
     {
