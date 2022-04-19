@@ -24,7 +24,7 @@
     },
     {
       "title": "Backup & Restore NATS Server",
-      "image": "/assets/images/addons/illustrations/backup-restore-elasticsearch-database.png",
+      "image": "/assets/images/addons/illustrations/backup-restore-databases.png",
       "description": "Backup your NATS server deployed in Kubernetes. You can also restore your NATS server using Stash. Stash simplifies the whole process of Backup & Restore your NATS server on Kubernetes."
     },
     {

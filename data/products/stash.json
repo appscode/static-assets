@@ -61,7 +61,7 @@
       "title": "Declarative API",
       "url": "",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/feature-1.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/declarative-api.png",
         "alt": "http"
       },
       "icon": {
@@ -75,7 +75,7 @@
       "title": "Backup Kubernetes Volumes",
       "url": "",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/feature-2.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/backup-kubernetes-volumes.png",
         "alt": "http"
       },
       "icon": {
@@ -89,7 +89,7 @@
       "title": "Backup Database",
       "url": "",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/feature-2.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/backup-restore-databases.png",
         "alt": "http"
       },
       "icon": {
@@ -103,7 +103,7 @@
       "title": "Multiple Storage Support",
       "url": "",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/feature-4.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/multiple-storage-support.png",
         "alt": "http"
       },
       "icon": {
@@ -117,7 +117,7 @@
       "title": "Deduplication",
       "url": "",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/feature-2.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/deduplication.png",
         "alt": "http"
       },
       "icon": {
@@ -131,7 +131,7 @@
       "title": "Data Encryption",
       "url": "",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/feature-6.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/data-encryption.png",
         "alt": "http"
       },
       "icon": {
@@ -145,7 +145,7 @@
       "title": "Volume Snapshot",
       "url": "",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/feature-2.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/volume-snapshot.png",
         "alt": "http"
       },
       "icon": {
@@ -159,7 +159,7 @@
       "title": "Policy Based Backup",
       "url": "",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/feature-6.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/policy-based-backup.png",
         "alt": "http"
       },
       "icon": {
@@ -173,7 +173,7 @@
       "title": "Monitoring",
       "url": "",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/feature-4.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/monitoring.png",
         "alt": "http"
       },
       "icon": {
