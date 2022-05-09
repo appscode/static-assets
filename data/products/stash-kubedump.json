@@ -26,7 +26,12 @@
       "version": "master",
       "hostDocs": false,
       "show": true
+    },
+    {
+      "version": "0.1.0",
+      "hostDocs": true,
+      "show": true
     }
   ],
-  "latestVersion": "3.5.0-v3"
+  "latestVersion": "0.1.0"
 }
