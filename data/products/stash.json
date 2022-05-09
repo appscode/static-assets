@@ -59,7 +59,6 @@
   "features": [
     {
       "title": "Declarative API",
-      "url": "",
       "image": {
         "src": "https://cdn.appscode.com/images/addons/illustrations/declarative-api.png",
         "alt": "http"
@@ -73,7 +72,6 @@
     },
     {
       "title": "Backup Kubernetes Volumes",
-      "url": "",
       "image": {
         "src": "https://cdn.appscode.com/images/addons/illustrations/backup-kubernetes-volumes.png",
         "alt": "http"
@@ -87,7 +85,6 @@
     },
     {
       "title": "Backup Database",
-      "url": "",
       "image": {
         "src": "https://cdn.appscode.com/images/addons/illustrations/backup-restore-databases.png",
         "alt": "http"
@@ -101,7 +98,6 @@
     },
     {
       "title": "Multiple Storage Support",
-      "url": "",
       "image": {
         "src": "https://cdn.appscode.com/images/addons/illustrations/multiple-storage-support.png",
         "alt": "http"
@@ -115,7 +111,6 @@
     },
     {
       "title": "Deduplication",
-      "url": "",
       "image": {
         "src": "https://cdn.appscode.com/images/addons/illustrations/deduplication.png",
         "alt": "http"
@@ -129,7 +124,6 @@
     },
     {
       "title": "Data Encryption",
-      "url": "",
       "image": {
         "src": "https://cdn.appscode.com/images/addons/illustrations/data-encryption.png",
         "alt": "http"
@@ -143,7 +137,6 @@
     },
     {
       "title": "Volume Snapshot",
-      "url": "",
       "image": {
         "src": "https://cdn.appscode.com/images/addons/illustrations/volume-snapshot.png",
         "alt": "http"
@@ -157,7 +150,6 @@
     },
     {
       "title": "Policy Based Backup",
-      "url": "",
       "image": {
         "src": "https://cdn.appscode.com/images/addons/illustrations/policy-based-backup.png",
         "alt": "http"
@@ -171,7 +163,6 @@
     },
     {
       "title": "Monitoring",
-      "url": "",
       "image": {
         "src": "https://cdn.appscode.com/images/addons/illustrations/monitoring.png",
         "alt": "http"
@@ -189,6 +180,77 @@
       "version": "master",
       "hostDocs": false,
       "show": true
+    },
+    {
+      "version": "v2022.05.12",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "cli": "v0.20.0",
+        "community": "v0.20.0",
+        "elasticsearch": [
+          "5.6.4-v17",
+          "6.2.4-v17",
+          "6.3.0-v17",
+          "6.4.0-v17",
+          "6.5.3-v17",
+          "6.8.0-v17",
+          "7.14.0-v3",
+          "7.2.0-v17",
+          "7.3.2-v17"
+        ],
+        "enterprise": "v0.20.0",
+        "etcd": [
+          "3.5.0-v4"
+        ],
+        "installer": "v2022.05.12",
+        "kubedump": [
+          "0.1.0"
+        ],
+        "mariadb": [
+          "10.5.8-v10"
+        ],
+        "mongodb": [
+          "3.4.17-v16",
+          "3.4.22-v16",
+          "3.6.13-v16",
+          "3.6.8-v16",
+          "4.0.11-v16",
+          "4.0.3-v16",
+          "4.0.5-v16",
+          "4.1.13-v16",
+          "4.1.4-v16",
+          "4.1.7-v16",
+          "4.2.3-v16",
+          "4.4.6-v7",
+          "5.0.3-v4"
+        ],
+        "mysql": [
+          "5.7.25-v17",
+          "8.0.14-v17",
+          "8.0.21-v11",
+          "8.0.3-v17"
+        ],
+        "nats": [
+          "2.6.1-v4"
+        ],
+        "percona-xtradb": [
+          "5.7-v12"
+        ],
+        "postgres": [
+          "10.14-v15",
+          "11.9-v15",
+          "12.4-v15",
+          "13.1-v12",
+          "14.0-v4",
+          "9.6.19-v15"
+        ],
+        "redis": [
+          "5.0.13-v5",
+          "6.2.5-v5"
+        ],
+        "ui-server": "v0.2.0"
+      }
     },
     {
       "version": "v2022.03.29",
@@ -209,9 +271,13 @@
           "7.3.2-v16"
         ],
         "enterprise": "v0.19.0",
-        "etcd": ["3.5.0-v3"],
+        "etcd": [
+          "3.5.0-v3"
+        ],
         "installer": "v2022.03.29",
-        "mariadb": ["10.5.8-v9"],
+        "mariadb": [
+          "10.5.8-v9"
+        ],
         "mongodb": [
           "3.4.17-v15",
           "3.4.22-v15",
@@ -227,9 +293,18 @@
           "4.4.6-v6",
           "5.0.3-v3"
         ],
-        "mysql": ["5.7.25-v16", "8.0.14-v16", "8.0.21-v10", "8.0.3-v16"],
-        "nats": ["2.6.1-v3"],
-        "percona-xtradb": ["5.7-v11"],
+        "mysql": [
+          "5.7.25-v16",
+          "8.0.14-v16",
+          "8.0.21-v10",
+          "8.0.3-v16"
+        ],
+        "nats": [
+          "2.6.1-v3"
+        ],
+        "percona-xtradb": [
+          "5.7-v11"
+        ],
         "postgres": [
           "10.14-v14",
           "11.9-v14",
@@ -238,7 +313,10 @@
           "14.0-v3",
           "9.6.19-v14"
         ],
-        "redis": ["5.0.13-v4", "6.2.5-v4"],
+        "redis": [
+          "5.0.13-v4",
+          "6.2.5-v4"
+        ],
         "ui-server": "v0.2.0"
       }
     },
@@ -261,9 +339,13 @@
           "7.3.2-v15"
         ],
         "enterprise": "v0.18.0",
-        "etcd": ["3.5.0-v2"],
+        "etcd": [
+          "3.5.0-v2"
+        ],
         "installer": "v2022.02.22",
-        "mariadb": ["10.5.8-v8"],
+        "mariadb": [
+          "10.5.8-v8"
+        ],
         "mongodb": [
           "3.4.17-v14",
           "3.4.22-v14",
@@ -279,9 +361,18 @@
           "4.4.6-v5",
           "5.0.3-v2"
         ],
-        "mysql": ["5.7.25-v15", "8.0.14-v15", "8.0.21-v9", "8.0.3-v15"],
-        "nats": ["2.6.1-v2"],
-        "percona-xtradb": ["5.7-v10"],
+        "mysql": [
+          "5.7.25-v15",
+          "8.0.14-v15",
+          "8.0.21-v9",
+          "8.0.3-v15"
+        ],
+        "nats": [
+          "2.6.1-v2"
+        ],
+        "percona-xtradb": [
+          "5.7-v10"
+        ],
         "postgres": [
           "10.14-v13",
           "11.9-v13",
@@ -290,7 +381,10 @@
           "14.0-v2",
           "9.6.19-v13"
         ],
-        "redis": ["5.0.13-v3", "6.2.5-v3"],
+        "redis": [
+          "5.0.13-v3",
+          "6.2.5-v3"
+        ],
         "ui-server": "v0.1.0"
       }
     },
@@ -313,9 +407,13 @@
           "7.3.2-v14"
         ],
         "enterprise": "v0.17.0",
-        "etcd": ["3.5.0-v1"],
+        "etcd": [
+          "3.5.0-v1"
+        ],
         "installer": "v2021.11.24",
-        "mariadb": ["10.5.8-v7"],
+        "mariadb": [
+          "10.5.8-v7"
+        ],
         "mongodb": [
           "3.4.17-v13",
           "3.4.22-v13",
@@ -331,9 +429,18 @@
           "4.4.6-v4",
           "5.0.3-v1"
         ],
-        "mysql": ["5.7.25-v14", "8.0.14-v14", "8.0.21-v8", "8.0.3-v14"],
-        "nats": ["2.6.1-v1"],
-        "percona-xtradb": ["5.7-v9"],
+        "mysql": [
+          "5.7.25-v14",
+          "8.0.14-v14",
+          "8.0.21-v8",
+          "8.0.3-v14"
+        ],
+        "nats": [
+          "2.6.1-v1"
+        ],
+        "percona-xtradb": [
+          "5.7-v9"
+        ],
         "postgres": [
           "10.14-v12",
           "11.9-v12",
@@ -342,7 +449,10 @@
           "14.0-v1",
           "9.6.19-v12"
         ],
-        "redis": ["5.0.13-v2", "6.2.5-v2"]
+        "redis": [
+          "5.0.13-v2",
+          "6.2.5-v2"
+        ]
       }
     },
     {
@@ -363,9 +473,13 @@
           "7.3.2-v13"
         ],
         "enterprise": "v0.16.0",
-        "etcd": ["3.5.0"],
+        "etcd": [
+          "3.5.0"
+        ],
         "installer": "v2021.10.11",
-        "mariadb": ["10.5.8-v6"],
+        "mariadb": [
+          "10.5.8-v6"
+        ],
         "mongodb": [
           "3.4.17-v12",
           "3.4.22-v12",
@@ -381,9 +495,18 @@
           "4.4.6-v3",
           "5.0.3"
         ],
-        "mysql": ["5.7.25-v13", "8.0.14-v13", "8.0.21-v7", "8.0.3-v13"],
-        "nats": ["2.6.1"],
-        "percona-xtradb": ["5.7-v8"],
+        "mysql": [
+          "5.7.25-v13",
+          "8.0.14-v13",
+          "8.0.21-v7",
+          "8.0.3-v13"
+        ],
+        "nats": [
+          "2.6.1"
+        ],
+        "percona-xtradb": [
+          "5.7-v8"
+        ],
         "postgres": [
           "10.14-v11",
           "11.9-v11",
@@ -392,7 +515,10 @@
           "14.0",
           "9.6.19-v11"
         ],
-        "redis": ["5.0.13-v1", "6.2.5-v1"]
+        "redis": [
+          "5.0.13-v1",
+          "6.2.5-v1"
+        ]
       }
     },
     {
@@ -414,7 +540,9 @@
         ],
         "enterprise": "v0.15.0",
         "installer": "v2021.08.02",
-        "mariadb": ["10.5.8-v5"],
+        "mariadb": [
+          "10.5.8-v5"
+        ],
         "mongodb": [
           "3.4.17-v11",
           "3.4.22-v11",
@@ -429,8 +557,15 @@
           "4.2.3-v11",
           "4.4.6-v2"
         ],
-        "mysql": ["5.7.25-v12", "8.0.14-v12", "8.0.21-v6", "8.0.3-v12"],
-        "percona-xtradb": ["5.7-v7"],
+        "mysql": [
+          "5.7.25-v12",
+          "8.0.14-v12",
+          "8.0.21-v6",
+          "8.0.3-v12"
+        ],
+        "percona-xtradb": [
+          "5.7-v7"
+        ],
         "postgres": [
           "10.14-v10",
           "11.9-v10",
@@ -438,7 +573,10 @@
           "13.1-v7",
           "9.6.19-v10"
         ],
-        "redis": ["5.0.13", "6.2.5"]
+        "redis": [
+          "5.0.13",
+          "6.2.5"
+        ]
       }
     },
     {
@@ -460,7 +598,9 @@
         ],
         "enterprise": "v0.14.1",
         "installer": "v2021.06.23",
-        "mariadb": ["10.5.8-v4"],
+        "mariadb": [
+          "10.5.8-v4"
+        ],
         "mongodb": [
           "3.4.17-v10",
           "3.4.22-v10",
@@ -475,9 +615,22 @@
           "4.2.3-v10",
           "4.4.6-v1"
         ],
-        "mysql": ["5.7.25-v11", "8.0.14-v11", "8.0.21-v5", "8.0.3-v11"],
-        "percona-xtradb": ["5.7-v6"],
-        "postgres": ["10.14-v9", "11.9-v9", "12.4-v9", "13.1-v6", "9.6.19-v9"]
+        "mysql": [
+          "5.7.25-v11",
+          "8.0.14-v11",
+          "8.0.21-v5",
+          "8.0.3-v11"
+        ],
+        "percona-xtradb": [
+          "5.7-v6"
+        ],
+        "postgres": [
+          "10.14-v9",
+          "11.9-v9",
+          "12.4-v9",
+          "13.1-v6",
+          "9.6.19-v9"
+        ]
       }
     },
     {
@@ -499,7 +652,9 @@
         ],
         "enterprise": "v0.14.0",
         "installer": "v2021.6.18",
-        "mariadb": ["10.5.8-v3"],
+        "mariadb": [
+          "10.5.8-v3"
+        ],
         "mongodb": [
           "3.4.17-v9",
           "3.4.22-v9",
@@ -514,9 +669,22 @@
           "4.2.3-v9",
           "4.4.6"
         ],
-        "mysql": ["5.7.25-v10", "8.0.14-v10", "8.0.21-v4", "8.0.3-v10"],
-        "percona-xtradb": ["5.7-v5"],
-        "postgres": ["10.14-v8", "11.9-v8", "12.4-v8", "13.1-v5", "9.6.19-v8"]
+        "mysql": [
+          "5.7.25-v10",
+          "8.0.14-v10",
+          "8.0.21-v4",
+          "8.0.3-v10"
+        ],
+        "percona-xtradb": [
+          "5.7-v5"
+        ],
+        "postgres": [
+          "10.14-v8",
+          "11.9-v8",
+          "12.4-v8",
+          "13.1-v5",
+          "9.6.19-v8"
+        ]
       }
     },
     {
@@ -538,7 +706,9 @@
         ],
         "enterprise": "v0.12.3",
         "installer": "v2021.04.12",
-        "mariadb": ["10.5.8-v3"],
+        "mariadb": [
+          "10.5.8-v3"
+        ],
         "mongodb": [
           "3.4.17-v8",
           "3.4.22-v8",
@@ -552,9 +722,22 @@
           "4.1.7-v8",
           "4.2.3-v8"
         ],
-        "mysql": ["5.7.25-v9", "8.0.14-v9", "8.0.21-v3", "8.0.3-v9"],
-        "percona-xtradb": ["5.7-v4"],
-        "postgres": ["10.14-v7", "11.9-v7", "12.4-v7", "13.1-v4", "9.6.19-v7"]
+        "mysql": [
+          "5.7.25-v9",
+          "8.0.14-v9",
+          "8.0.21-v3",
+          "8.0.3-v9"
+        ],
+        "percona-xtradb": [
+          "5.7-v4"
+        ],
+        "postgres": [
+          "10.14-v7",
+          "11.9-v7",
+          "12.4-v7",
+          "13.1-v4",
+          "9.6.19-v7"
+        ]
       }
     },
     {
@@ -575,7 +758,9 @@
         ],
         "enterprise": "v0.12.2",
         "installer": "v2021.04.09",
-        "mariadb": ["10.5.8-v2"],
+        "mariadb": [
+          "10.5.8-v2"
+        ],
         "mongodb": [
           "3.4.17-v7",
           "3.4.22-v7",
@@ -589,9 +774,22 @@
           "4.1.7-v7",
           "4.2.3-v7"
         ],
-        "mysql": ["5.7.25-v8", "8.0.14-v8", "8.0.21-v2", "8.0.3-v8"],
-        "percona-xtradb": ["5.7-v3"],
-        "postgres": ["10.14-v6", "11.9-v6", "12.4-v6", "13.1-v3", "9.6.19-v6"]
+        "mysql": [
+          "5.7.25-v8",
+          "8.0.14-v8",
+          "8.0.21-v2",
+          "8.0.3-v8"
+        ],
+        "percona-xtradb": [
+          "5.7-v3"
+        ],
+        "postgres": [
+          "10.14-v6",
+          "11.9-v6",
+          "12.4-v6",
+          "13.1-v3",
+          "9.6.19-v6"
+        ]
       }
     },
     {
@@ -612,7 +810,9 @@
         ],
         "enterprise": "v0.12.1",
         "installer": "v0.12.1",
-        "mariadb": ["10.5.8-v1"],
+        "mariadb": [
+          "10.5.8-v1"
+        ],
         "mongodb": [
           "3.4.17-v6",
           "3.4.22-v6",
@@ -626,9 +826,22 @@
           "4.1.7-v6",
           "4.2.3-v6"
         ],
-        "mysql": ["5.7.25-v7", "8.0.14-v7", "8.0.21-v1", "8.0.3-v7"],
-        "percona-xtradb": ["5.7-v2"],
-        "postgres": ["10.14-v5", "11.9-v5", "12.4-v5", "13.1-v2", "9.6.19-v5"]
+        "mysql": [
+          "5.7.25-v7",
+          "8.0.14-v7",
+          "8.0.21-v1",
+          "8.0.3-v7"
+        ],
+        "percona-xtradb": [
+          "5.7-v2"
+        ],
+        "postgres": [
+          "10.14-v5",
+          "11.9-v5",
+          "12.4-v5",
+          "13.1-v2",
+          "9.6.19-v5"
+        ]
       }
     },
     {
@@ -650,7 +863,9 @@
         ],
         "enterprise": "v0.12.0",
         "installer": "v0.12.0",
-        "mariadb": ["10.5.8-v1"],
+        "mariadb": [
+          "10.5.8-v1"
+        ],
         "mongodb": [
           "3.4.17-v6",
           "3.4.22-v6",
@@ -664,9 +879,22 @@
           "4.1.7-v6",
           "4.2.3-v6"
         ],
-        "mysql": ["5.7.25-v7", "8.0.14-v7", "8.0.21-v1", "8.0.3-v7"],
-        "percona-xtradb": ["5.7-v2"],
-        "postgres": ["10.14-v5", "11.9-v5", "12.4-v5", "13.1-v2", "9.6.19-v5"]
+        "mysql": [
+          "5.7.25-v7",
+          "8.0.14-v7",
+          "8.0.21-v1",
+          "8.0.3-v7"
+        ],
+        "percona-xtradb": [
+          "5.7-v2"
+        ],
+        "postgres": [
+          "10.14-v5",
+          "11.9-v5",
+          "12.4-v5",
+          "13.1-v2",
+          "9.6.19-v5"
+        ]
       }
     },
     {
@@ -688,7 +916,9 @@
         ],
         "enterprise": "v0.11.11",
         "installer": "v0.11.11",
-        "mariadb": ["10.5.8-v1"],
+        "mariadb": [
+          "10.5.8-v1"
+        ],
         "mongodb": [
           "3.4.17-v6",
           "3.4.22-v6",
@@ -702,8 +932,15 @@
           "4.1.7-v6",
           "4.2.3-v6"
         ],
-        "mysql": ["5.7.25-v7", "8.0.14-v7", "8.0.21-v1", "8.0.3-v7"],
-        "percona-xtradb": ["5.7.0-v2"],
+        "mysql": [
+          "5.7.25-v7",
+          "8.0.14-v7",
+          "8.0.21-v1",
+          "8.0.3-v7"
+        ],
+        "percona-xtradb": [
+          "5.7.0-v2"
+        ],
         "postgres": [
           "10.14.0-v5",
           "11.9.0-v5",
@@ -732,7 +969,9 @@
         ],
         "enterprise": "v0.11.10",
         "installer": "v0.11.10",
-        "mariadb": ["10.5.8-v1"],
+        "mariadb": [
+          "10.5.8-v1"
+        ],
         "mongodb": [
           "3.4.17-v6",
           "3.4.22-v6",
@@ -746,8 +985,15 @@
           "4.1.7-v6",
           "4.2.3-v6"
         ],
-        "mysql": ["5.7.25-v7", "8.0.14-v7", "8.0.21-v1", "8.0.3-v7"],
-        "percona-xtradb": ["5.7.0-v2"],
+        "mysql": [
+          "5.7.25-v7",
+          "8.0.14-v7",
+          "8.0.21-v1",
+          "8.0.3-v7"
+        ],
+        "percona-xtradb": [
+          "5.7.0-v2"
+        ],
         "postgres": [
           "10.14.0-v5",
           "11.9.0-v5",
@@ -777,7 +1023,9 @@
         ],
         "enterprise": "v0.11.9",
         "installer": "v0.11.9",
-        "mariadb": ["10.5.8"],
+        "mariadb": [
+          "10.5.8"
+        ],
         "mongodb": [
           "3.4.17-v5",
           "3.4.22-v5",
@@ -791,8 +1039,15 @@
           "4.1.7-v5",
           "4.2.3-v5"
         ],
-        "mysql": ["5.7.25-v6", "8.0.14-v6", "8.0.21", "8.0.3-v6"],
-        "percona-xtradb": ["5.7.0-v1"],
+        "mysql": [
+          "5.7.25-v6",
+          "8.0.14-v6",
+          "8.0.21",
+          "8.0.3-v6"
+        ],
+        "percona-xtradb": [
+          "5.7.0-v1"
+        ],
         "postgres": [
           "10.14.0-v4",
           "11.9.0-v4",
@@ -822,7 +1077,9 @@
         ],
         "enterprise": "v0.11.8",
         "installer": "v0.11.8",
-        "mariadb": ["10.5.8"],
+        "mariadb": [
+          "10.5.8"
+        ],
         "mongodb": [
           "3.4.17-v5",
           "3.4.22-v5",
@@ -836,8 +1093,14 @@
           "4.1.7-v5",
           "4.2.3-v5"
         ],
-        "mysql": ["5.7.25-v5", "8.0.14-v5", "8.0.3-v5"],
-        "percona-xtradb": ["5.7.0-v1"],
+        "mysql": [
+          "5.7.25-v5",
+          "8.0.14-v5",
+          "8.0.3-v5"
+        ],
+        "percona-xtradb": [
+          "5.7.0-v1"
+        ],
         "postgres": [
           "10.14.0-v4",
           "11.9.0-v4",
@@ -880,8 +1143,14 @@
           "4.1.7-v4",
           "4.2.3-v4"
         ],
-        "mysql": ["5.7.25-v4", "8.0.14-v4", "8.0.3-v4"],
-        "percona-xtradb": ["5.7.0"],
+        "mysql": [
+          "5.7.25-v4",
+          "8.0.14-v4",
+          "8.0.3-v4"
+        ],
+        "percona-xtradb": [
+          "5.7.0"
+        ],
         "postgres": [
           "10.14.0-v3",
           "11.9.0-v3",
@@ -924,9 +1193,20 @@
           "4.1.7-v4",
           "4.2.3-v4"
         ],
-        "mysql": ["5.7.25-v4", "8.0.14-v4", "8.0.3-v4"],
-        "percona-xtradb": ["5.7-v4"],
-        "postgres": ["10.14.0-v2", "11.9.0-v2", "12.4.0-v2", "9.6.19-v2"]
+        "mysql": [
+          "5.7.25-v4",
+          "8.0.14-v4",
+          "8.0.3-v4"
+        ],
+        "percona-xtradb": [
+          "5.7-v4"
+        ],
+        "postgres": [
+          "10.14.0-v2",
+          "11.9.0-v2",
+          "12.4.0-v2",
+          "9.6.19-v2"
+        ]
       }
     },
     {
@@ -962,9 +1242,20 @@
           "4.1.7-v3",
           "4.2.3-v3"
         ],
-        "mysql": ["5.7.25-v3", "8.0.14-v3", "8.0.3-v3"],
-        "percona-xtradb": ["5.7-v3"],
-        "postgres": ["10.14.0-v1", "11.9.0-v1", "12.4.0-v1", "9.6.19-v1"]
+        "mysql": [
+          "5.7.25-v3",
+          "8.0.14-v3",
+          "8.0.3-v3"
+        ],
+        "percona-xtradb": [
+          "5.7-v3"
+        ],
+        "postgres": [
+          "10.14.0-v1",
+          "11.9.0-v1",
+          "12.4.0-v1",
+          "9.6.19-v1"
+        ]
       }
     },
     {
@@ -1000,9 +1291,20 @@
           "4.1.7-v3",
           "4.2.3-v3"
         ],
-        "mysql": ["5.7.25-v3", "8.0.14-v3", "8.0.3-v3"],
-        "percona-xtradb": ["5.7-v3"],
-        "postgres": ["10.14.0-v1", "11.9.0-v1", "12.4.0-v1", "9.6.19-v1"]
+        "mysql": [
+          "5.7.25-v3",
+          "8.0.14-v3",
+          "8.0.3-v3"
+        ],
+        "percona-xtradb": [
+          "5.7-v3"
+        ],
+        "postgres": [
+          "10.14.0-v1",
+          "11.9.0-v1",
+          "12.4.0-v1",
+          "9.6.19-v1"
+        ]
       }
     },
     {
@@ -1038,9 +1340,20 @@
           "4.1.7-v3",
           "4.2.3-v3"
         ],
-        "mysql": ["5.7.25-v3", "8.0.14-v3", "8.0.3-v3"],
-        "percona-xtradb": ["5.7-v3"],
-        "postgres": ["10.14.0-v1", "11.9.0-v1", "12.4.0-v1", "9.6.19-v1"]
+        "mysql": [
+          "5.7.25-v3",
+          "8.0.14-v3",
+          "8.0.3-v3"
+        ],
+        "percona-xtradb": [
+          "5.7-v3"
+        ],
+        "postgres": [
+          "10.14.0-v1",
+          "11.9.0-v1",
+          "12.4.0-v1",
+          "9.6.19-v1"
+        ]
       }
     },
     {
@@ -1075,9 +1388,20 @@
           "4.1.7-v2",
           "4.2.3-v2"
         ],
-        "mysql": ["5.7.25-v2", "8.0.14-v2", "8.0.3-v2"],
-        "percona-xtradb": ["5.7-v2"],
-        "postgres": ["10.14.0", "11.9.0", "12.4.0", "9.6.19"]
+        "mysql": [
+          "5.7.25-v2",
+          "8.0.14-v2",
+          "8.0.3-v2"
+        ],
+        "percona-xtradb": [
+          "5.7-v2"
+        ],
+        "postgres": [
+          "10.14.0",
+          "11.9.0",
+          "12.4.0",
+          "9.6.19"
+        ]
       }
     },
     {
@@ -1112,9 +1436,20 @@
           "4.1.7-v2",
           "4.2.3-v2"
         ],
-        "mysql": ["5.7.25-v2", "8.0.14-v2", "8.0.3-v2"],
-        "percona-xtradb": ["5.7-v2"],
-        "postgres": ["10.14.0", "11.9.0", "12.4.0", "9.6.19"]
+        "mysql": [
+          "5.7.25-v2",
+          "8.0.14-v2",
+          "8.0.3-v2"
+        ],
+        "percona-xtradb": [
+          "5.7-v2"
+        ],
+        "postgres": [
+          "10.14.0",
+          "11.9.0",
+          "12.4.0",
+          "9.6.19"
+        ]
       }
     },
     {
@@ -1280,7 +1615,7 @@
       "hostDocs": false
     }
   ],
-  "latestVersion": "v2022.03.29",
+  "latestVersion": "v2022.05.12",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/stashed",
@@ -1320,20 +1655,36 @@
       "dir": "guides/latest/cli/reference",
       "mappings": [
         {
-          "versions": ["v0.9.0-rc.6"],
-          "subProjectVersions": ["v0.3.1"]
+          "versions": [
+            "v0.9.0-rc.6"
+          ],
+          "subProjectVersions": [
+            "v0.3.1"
+          ]
         },
         {
-          "versions": ["v0.9.0-rc.4"],
-          "subProjectVersions": ["v0.3.0"]
+          "versions": [
+            "v0.9.0-rc.4"
+          ],
+          "subProjectVersions": [
+            "v0.3.0"
+          ]
         },
         {
-          "versions": ["v0.9.0-rc.2"],
-          "subProjectVersions": ["v0.2.0"]
+          "versions": [
+            "v0.9.0-rc.2"
+          ],
+          "subProjectVersions": [
+            "v0.2.0"
+          ]
         },
         {
-          "versions": ["v0.9.0-rc.1"],
-          "subProjectVersions": ["v0.1.0"]
+          "versions": [
+            "v0.9.0-rc.1"
+          ],
+          "subProjectVersions": [
+            "v0.1.0"
+          ]
         }
       ]
     },
@@ -1341,7 +1692,10 @@
       "dir": "addons/elasticsearch/guides",
       "mappings": [
         {
-          "versions": ["v2021.03.08", "v2021.03.11"],
+          "versions": [
+            "v2021.03.08",
+            "v2021.03.11"
+          ],
           "subProjectVersions": [
             "5.6.4-v7",
             "6.2.4-v7",
@@ -1354,7 +1708,9 @@
           ]
         },
         {
-          "versions": ["v2021.01.21"],
+          "versions": [
+            "v2021.01.21"
+          ],
           "subProjectVersions": [
             "5.6.4-v6",
             "6.2.4-v6",
@@ -1367,7 +1723,9 @@
           ]
         },
         {
-          "versions": ["v2020.12.17"],
+          "versions": [
+            "v2020.12.17"
+          ],
           "subProjectVersions": [
             "5.6.4-v5",
             "6.2.4-v5",
@@ -1380,7 +1738,10 @@
           ]
         },
         {
-          "versions": ["v2020.11.06", "v2020.11.17"],
+          "versions": [
+            "v2020.11.06",
+            "v2020.11.17"
+          ],
           "subProjectVersions": [
             "5.6.4-v4",
             "6.2.4-v4",
@@ -1393,7 +1754,11 @@
           ]
         },
         {
-          "versions": ["v2020.10.21", "v2020.10.29", "v2020.10.30"],
+          "versions": [
+            "v2020.10.21",
+            "v2020.10.29",
+            "v2020.10.30"
+          ],
           "subProjectVersions": [
             "5.6.4-v3",
             "6.2.4-v3",
@@ -1406,7 +1771,10 @@
           ]
         },
         {
-          "versions": ["v2020.09.16", "v2020.09.29"],
+          "versions": [
+            "v2020.09.16",
+            "v2020.09.29"
+          ],
           "subProjectVersions": [
             "5.6.4-v2",
             "6.2.4-v2",
@@ -1419,7 +1787,9 @@
           ]
         },
         {
-          "versions": ["v2020.08.27"],
+          "versions": [
+            "v2020.08.27"
+          ],
           "subProjectVersions": [
             "5.6.4-v1",
             "6.2.4-v1",
@@ -1432,7 +1802,9 @@
           ]
         },
         {
-          "versions": ["v2020.08.27-rc.0"],
+          "versions": [
+            "v2020.08.27-rc.0"
+          ],
           "subProjectVersions": [
             "5.6.4-rc.20200827",
             "6.2.4-rc.20200827",
@@ -1445,7 +1817,9 @@
           ]
         },
         {
-          "versions": ["v2020.08.26-rc.1"],
+          "versions": [
+            "v2020.08.26-rc.1"
+          ],
           "subProjectVersions": [
             "5.6.4-rc.20200826",
             "6.2.4-rc.20200826",
@@ -1458,7 +1832,9 @@
           ]
         },
         {
-          "versions": ["v2020.08.26-rc.0"],
+          "versions": [
+            "v2020.08.26-rc.0"
+          ],
           "subProjectVersions": [
             "5.6.4-beta.20200826",
             "6.2.4-beta.20200826",
@@ -1471,7 +1847,9 @@
           ]
         },
         {
-          "versions": ["v2020.07.09-beta.0"],
+          "versions": [
+            "v2020.07.09-beta.0"
+          ],
           "subProjectVersions": [
             "5.6.4-beta.20200709",
             "6.2.4-beta.20200709",
@@ -1484,7 +1862,9 @@
           ]
         },
         {
-          "versions": ["v2020.07.08-beta.0"],
+          "versions": [
+            "v2020.07.08-beta.0"
+          ],
           "subProjectVersions": [
             "5.6.4-beta.20200708",
             "6.2.4-beta.20200708",
@@ -1520,12 +1900,22 @@
       "dir": "addons/mariadb/guides",
       "mappings": [
         {
-          "versions": ["v2021.03.08", "v2021.03.11"],
-          "subProjectVersions": ["10.5.8-v1"]
+          "versions": [
+            "v2021.03.08",
+            "v2021.03.11"
+          ],
+          "subProjectVersions": [
+            "10.5.8-v1"
+          ]
         },
         {
-          "versions": ["v2020.12.17", "v2021.01.21"],
-          "subProjectVersions": ["10.5.8"]
+          "versions": [
+            "v2020.12.17",
+            "v2021.01.21"
+          ],
+          "subProjectVersions": [
+            "10.5.8"
+          ]
         }
       ]
     },
@@ -1533,7 +1923,10 @@
       "dir": "addons/mongodb/guides",
       "mappings": [
         {
-          "versions": ["v2021.03.08", "v2021.03.11"],
+          "versions": [
+            "v2021.03.08",
+            "v2021.03.11"
+          ],
           "subProjectVersions": [
             "3.4.17-v6",
             "3.4.22-v6",
@@ -1549,7 +1942,10 @@
           ]
         },
         {
-          "versions": ["v2020.12.17", "v2021.01.21"],
+          "versions": [
+            "v2020.12.17",
+            "v2021.01.21"
+          ],
           "subProjectVersions": [
             "3.4.17-v5",
             "3.4.22-v5",
@@ -1565,7 +1961,10 @@
           ]
         },
         {
-          "versions": ["v2020.11.06", "v2020.11.17"],
+          "versions": [
+            "v2020.11.06",
+            "v2020.11.17"
+          ],
           "subProjectVersions": [
             "3.4.17-v4",
             "3.4.22-v4",
@@ -1581,7 +1980,11 @@
           ]
         },
         {
-          "versions": ["v2020.10.21", "v2020.10.29", "v2020.10.30"],
+          "versions": [
+            "v2020.10.21",
+            "v2020.10.29",
+            "v2020.10.30"
+          ],
           "subProjectVersions": [
             "3.4.17-v3",
             "3.4.22-v3",
@@ -1597,7 +2000,10 @@
           ]
         },
         {
-          "versions": ["v2020.09.16", "v2020.09.29"],
+          "versions": [
+            "v2020.09.16",
+            "v2020.09.29"
+          ],
           "subProjectVersions": [
             "3.4.17-v2",
             "3.4.22-v2",
@@ -1613,7 +2019,9 @@
           ]
         },
         {
-          "versions": ["v2020.08.27"],
+          "versions": [
+            "v2020.08.27"
+          ],
           "subProjectVersions": [
             "3.4.17-v1",
             "3.4.22-v1",
@@ -1629,7 +2037,9 @@
           ]
         },
         {
-          "versions": ["v2020.08.27-rc.0"],
+          "versions": [
+            "v2020.08.27-rc.0"
+          ],
           "subProjectVersions": [
             "3.4.1-rc.20200827",
             "3.4.2-rc.20200827",
@@ -1645,7 +2055,9 @@
           ]
         },
         {
-          "versions": ["v2020.08.26-rc.1"],
+          "versions": [
+            "v2020.08.26-rc.1"
+          ],
           "subProjectVersions": [
             "3.4.1-rc.20200826",
             "3.4.2-rc.20200826",
@@ -1661,7 +2073,9 @@
           ]
         },
         {
-          "versions": ["v2020.08.26-rc.0"],
+          "versions": [
+            "v2020.08.26-rc.0"
+          ],
           "subProjectVersions": [
             "3.4.1-beta.20200826",
             "3.4.2-beta.20200826",
@@ -1677,7 +2091,9 @@
           ]
         },
         {
-          "versions": ["v2020.07.09-beta.0"],
+          "versions": [
+            "v2020.07.09-beta.0"
+          ],
           "subProjectVersions": [
             "3.4.1-beta.20200709",
             "3.4.2-beta.20200709",
@@ -1693,7 +2109,9 @@
           ]
         },
         {
-          "versions": ["v2020.07.08-beta.0"],
+          "versions": [
+            "v2020.07.08-beta.0"
+          ],
           "subProjectVersions": [
             "3.4.1-beta.20200708",
             "3.4.2-beta.20200708",
@@ -1735,7 +2153,10 @@
       "dir": "addons/mysql/guides",
       "mappings": [
         {
-          "versions": ["v2021.03.08", "v2021.03.11"],
+          "versions": [
+            "v2021.03.08",
+            "v2021.03.11"
+          ],
           "subProjectVersions": [
             "5.7.25-v7",
             "8.0.3-v7",
@@ -1744,31 +2165,74 @@
           ]
         },
         {
-          "versions": ["v2021.01.21"],
-          "subProjectVersions": ["5.7.25-v6", "8.0.3-v6", "8.0.14-v6", "8.0.21"]
+          "versions": [
+            "v2021.01.21"
+          ],
+          "subProjectVersions": [
+            "5.7.25-v6",
+            "8.0.3-v6",
+            "8.0.14-v6",
+            "8.0.21"
+          ]
         },
         {
-          "versions": ["v2020.12.17"],
-          "subProjectVersions": ["5.7.25-v5", "8.0.3-v5", "8.0.14-v5"]
+          "versions": [
+            "v2020.12.17"
+          ],
+          "subProjectVersions": [
+            "5.7.25-v5",
+            "8.0.3-v5",
+            "8.0.14-v5"
+          ]
         },
         {
-          "versions": ["v2020.11.06", "v2020.11.17"],
-          "subProjectVersions": ["5.7.25-v4", "8.0.3-v4", "8.0.14-v4"]
+          "versions": [
+            "v2020.11.06",
+            "v2020.11.17"
+          ],
+          "subProjectVersions": [
+            "5.7.25-v4",
+            "8.0.3-v4",
+            "8.0.14-v4"
+          ]
         },
         {
-          "versions": ["v2020.10.21", "v2020.10.29", "v2020.10.30"],
-          "subProjectVersions": ["5.7.25-v3", "8.0.3-v3", "8.0.14-v3"]
+          "versions": [
+            "v2020.10.21",
+            "v2020.10.29",
+            "v2020.10.30"
+          ],
+          "subProjectVersions": [
+            "5.7.25-v3",
+            "8.0.3-v3",
+            "8.0.14-v3"
+          ]
         },
         {
-          "versions": ["v2020.09.16", "v2020.09.29"],
-          "subProjectVersions": ["5.7.25-v2", "8.0.3-v2", "8.0.14-v2"]
+          "versions": [
+            "v2020.09.16",
+            "v2020.09.29"
+          ],
+          "subProjectVersions": [
+            "5.7.25-v2",
+            "8.0.3-v2",
+            "8.0.14-v2"
+          ]
         },
         {
-          "versions": ["v2020.08.27"],
-          "subProjectVersions": ["5.7.25-v1", "8.0.3-v1", "8.0.14-v1"]
+          "versions": [
+            "v2020.08.27"
+          ],
+          "subProjectVersions": [
+            "5.7.25-v1",
+            "8.0.3-v1",
+            "8.0.14-v1"
+          ]
         },
         {
-          "versions": ["v2020.08.27-rc.0"],
+          "versions": [
+            "v2020.08.27-rc.0"
+          ],
           "subProjectVersions": [
             "5.7.25-rc.20200827",
             "8.0.3-rc.20200827",
@@ -1776,7 +2240,9 @@
           ]
         },
         {
-          "versions": ["v2020.08.26-rc.1"],
+          "versions": [
+            "v2020.08.26-rc.1"
+          ],
           "subProjectVersions": [
             "5.7.25-rc.20200826",
             "8.0.3-rc.20200826",
@@ -1784,7 +2250,9 @@
           ]
         },
         {
-          "versions": ["v2020.08.26-rc.0"],
+          "versions": [
+            "v2020.08.26-rc.0"
+          ],
           "subProjectVersions": [
             "5.7.25-beta.20200826",
             "8.0.3-beta.20200826",
@@ -1792,7 +2260,9 @@
           ]
         },
         {
-          "versions": ["v2020.07.09-beta.0"],
+          "versions": [
+            "v2020.07.09-beta.0"
+          ],
           "subProjectVersions": [
             "5.7.25-beta.20200709",
             "8.0.3-beta.20200709",
@@ -1800,7 +2270,9 @@
           ]
         },
         {
-          "versions": ["v2020.07.08-beta.0"],
+          "versions": [
+            "v2020.07.08-beta.0"
+          ],
           "subProjectVersions": [
             "5.7.25-beta.20200708",
             "8.0.3-beta.20200708",
@@ -1814,7 +2286,11 @@
             "v0.9.0-rc.4",
             "v0.9.0-rc.6"
           ],
-          "subProjectVersions": ["5.7.25", "8.0.3", "8.0.14"]
+          "subProjectVersions": [
+            "5.7.25",
+            "8.0.3",
+            "8.0.14"
+          ]
         }
       ]
     },
@@ -1822,56 +2298,114 @@
       "dir": "addons/percona-xtradb/guides",
       "mappings": [
         {
-          "versions": ["v2021.03.08", "v2021.03.11"],
-          "subProjectVersions": ["5.7.0-v2"]
+          "versions": [
+            "v2021.03.08",
+            "v2021.03.11"
+          ],
+          "subProjectVersions": [
+            "5.7.0-v2"
+          ]
         },
         {
-          "versions": ["v2020.12.17", "v2021.01.21"],
-          "subProjectVersions": ["5.7.0-v1"]
+          "versions": [
+            "v2020.12.17",
+            "v2021.01.21"
+          ],
+          "subProjectVersions": [
+            "5.7.0-v1"
+          ]
         },
         {
-          "versions": ["v2020.11.17"],
-          "subProjectVersions": ["5.7.0"]
+          "versions": [
+            "v2020.11.17"
+          ],
+          "subProjectVersions": [
+            "5.7.0"
+          ]
         },
         {
-          "versions": ["v2020.11.06"],
-          "subProjectVersions": ["5.7-v4"]
+          "versions": [
+            "v2020.11.06"
+          ],
+          "subProjectVersions": [
+            "5.7-v4"
+          ]
         },
         {
-          "versions": ["v2020.10.21", "v2020.10.29", "v2020.10.30"],
-          "subProjectVersions": ["5.7-v3"]
+          "versions": [
+            "v2020.10.21",
+            "v2020.10.29",
+            "v2020.10.30"
+          ],
+          "subProjectVersions": [
+            "5.7-v3"
+          ]
         },
         {
-          "versions": ["v2020.09.16", "v2020.09.29"],
-          "subProjectVersions": ["5.7-v2"]
+          "versions": [
+            "v2020.09.16",
+            "v2020.09.29"
+          ],
+          "subProjectVersions": [
+            "5.7-v2"
+          ]
         },
         {
-          "versions": ["v2020.08.27"],
-          "subProjectVersions": ["5.7-v1"]
+          "versions": [
+            "v2020.08.27"
+          ],
+          "subProjectVersions": [
+            "5.7-v1"
+          ]
         },
         {
-          "versions": ["v2020.08.27-rc.0"],
-          "subProjectVersions": ["5.7-rc.20200827"]
+          "versions": [
+            "v2020.08.27-rc.0"
+          ],
+          "subProjectVersions": [
+            "5.7-rc.20200827"
+          ]
         },
         {
-          "versions": ["v2020.08.26-rc.1"],
-          "subProjectVersions": ["5.7-rc.20200826"]
+          "versions": [
+            "v2020.08.26-rc.1"
+          ],
+          "subProjectVersions": [
+            "5.7-rc.20200826"
+          ]
         },
         {
-          "versions": ["v2020.08.26-rc.0"],
-          "subProjectVersions": ["5.7-beta.20200826"]
+          "versions": [
+            "v2020.08.26-rc.0"
+          ],
+          "subProjectVersions": [
+            "5.7-beta.20200826"
+          ]
         },
         {
-          "versions": ["v2020.07.09-beta.0"],
-          "subProjectVersions": ["5.7-beta.20200709"]
+          "versions": [
+            "v2020.07.09-beta.0"
+          ],
+          "subProjectVersions": [
+            "5.7-beta.20200709"
+          ]
         },
         {
-          "versions": ["v2020.07.08-beta.0"],
-          "subProjectVersions": ["5.7-beta.20200708"]
+          "versions": [
+            "v2020.07.08-beta.0"
+          ],
+          "subProjectVersions": [
+            "5.7-beta.20200708"
+          ]
         },
         {
-          "versions": ["v0.9.0-rc.4", "v0.9.0-rc.6"],
-          "subProjectVersions": ["5.7"]
+          "versions": [
+            "v0.9.0-rc.4",
+            "v0.9.0-rc.6"
+          ],
+          "subProjectVersions": [
+            "5.7"
+          ]
         }
       ]
     },
@@ -1879,7 +2413,10 @@
       "dir": "addons/postgres/guides",
       "mappings": [
         {
-          "versions": ["v2021.03.08", "v2021.03.11"],
+          "versions": [
+            "v2021.03.08",
+            "v2021.03.11"
+          ],
           "subProjectVersions": [
             "9.6.19-v5",
             "10.14.0-v5",
@@ -1889,7 +2426,10 @@
           ]
         },
         {
-          "versions": ["v2020.12.17", "v2021.01.21"],
+          "versions": [
+            "v2020.12.17",
+            "v2021.01.21"
+          ],
           "subProjectVersions": [
             "9.6.19-v4",
             "10.14.0-v4",
@@ -1899,7 +2439,9 @@
           ]
         },
         {
-          "versions": ["v2020.11.17"],
+          "versions": [
+            "v2020.11.17"
+          ],
           "subProjectVersions": [
             "9.6.19-v3",
             "10.14.0-v3",
@@ -1909,7 +2451,9 @@
           ]
         },
         {
-          "versions": ["v2020.11.06"],
+          "versions": [
+            "v2020.11.06"
+          ],
           "subProjectVersions": [
             "9.6.19-v2",
             "10.14.0-v2",
@@ -1918,7 +2462,11 @@
           ]
         },
         {
-          "versions": ["v2020.10.21", "v2020.10.29", "v2020.10.30"],
+          "versions": [
+            "v2020.10.21",
+            "v2020.10.29",
+            "v2020.10.30"
+          ],
           "subProjectVersions": [
             "9.6.19-v1",
             "10.14.0-v1",
@@ -1927,11 +2475,21 @@
           ]
         },
         {
-          "versions": ["v2020.09.16", "v2020.09.29"],
-          "subProjectVersions": ["9.6.19", "10.14.0", "11.9.0", "12.4.0"]
+          "versions": [
+            "v2020.09.16",
+            "v2020.09.29"
+          ],
+          "subProjectVersions": [
+            "9.6.19",
+            "10.14.0",
+            "11.9.0",
+            "12.4.0"
+          ]
         },
         {
-          "versions": ["v2020.08.27"],
+          "versions": [
+            "v2020.08.27"
+          ],
           "subProjectVersions": [
             "9.6-v1",
             "10.2-v1",
@@ -1941,7 +2499,9 @@
           ]
         },
         {
-          "versions": ["v2020.08.27-rc.0"],
+          "versions": [
+            "v2020.08.27-rc.0"
+          ],
           "subProjectVersions": [
             "9.6-rc.20200827",
             "10.2-rc.20200827",
@@ -1951,7 +2511,9 @@
           ]
         },
         {
-          "versions": ["v2020.08.26-rc.1"],
+          "versions": [
+            "v2020.08.26-rc.1"
+          ],
           "subProjectVersions": [
             "9.6-rc.20200826",
             "10.2-rc.20200826",
@@ -1961,7 +2523,9 @@
           ]
         },
         {
-          "versions": ["v2020.08.26-rc.0"],
+          "versions": [
+            "v2020.08.26-rc.0"
+          ],
           "subProjectVersions": [
             "9.6-beta.20200826",
             "10.2-beta.20200826",
@@ -1971,7 +2535,9 @@
           ]
         },
         {
-          "versions": ["v2020.07.09-beta.0"],
+          "versions": [
+            "v2020.07.09-beta.0"
+          ],
           "subProjectVersions": [
             "9.6-beta.20200709",
             "10.2-beta.20200709",
@@ -1981,7 +2547,9 @@
           ]
         },
         {
-          "versions": ["v2020.07.08-beta.0"],
+          "versions": [
+            "v2020.07.08-beta.0"
+          ],
           "subProjectVersions": [
             "9.6-beta.20200708",
             "10.2-beta.20200708",
@@ -1997,7 +2565,13 @@
             "v0.9.0-rc.4",
             "v0.9.0-rc.6"
           ],
-          "subProjectVersions": ["9.6", "10.2", "10.6", "11.1", "11.2"]
+          "subProjectVersions": [
+            "9.6",
+            "10.2",
+            "10.6",
+            "11.1",
+            "11.2"
+          ]
         }
       ]
     }

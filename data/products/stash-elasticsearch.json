@@ -28,6 +28,11 @@
       "show": true
     },
     {
+      "version": "7.14.0-v3",
+      "hostDocs": true,
+      "show": true
+    },
+    {
       "version": "7.14.0-v2",
       "hostDocs": true,
       "show": true
@@ -39,6 +44,11 @@
     },
     {
       "version": "7.14.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "7.3.2-v17",
       "hostDocs": true,
       "show": true
     },
@@ -150,6 +160,11 @@
       "hostDocs": true
     },
     {
+      "version": "7.2.0-v17",
+      "hostDocs": true,
+      "show": true
+    },
+    {
       "version": "7.2.0-v16",
       "hostDocs": true,
       "show": true
@@ -255,6 +270,11 @@
     {
       "version": "7.2.0-beta.20200708",
       "hostDocs": true
+    },
+    {
+      "version": "6.8.0-v17",
+      "hostDocs": true,
+      "show": true
     },
     {
       "version": "6.8.0-v16",
@@ -364,6 +384,11 @@
       "hostDocs": true
     },
     {
+      "version": "6.5.3-v17",
+      "hostDocs": true,
+      "show": true
+    },
+    {
       "version": "6.5.3-v16",
       "hostDocs": true,
       "show": true
@@ -469,6 +494,11 @@
     {
       "version": "6.5.3-beta.20200708",
       "hostDocs": true
+    },
+    {
+      "version": "6.4.0-v17",
+      "hostDocs": true,
+      "show": true
     },
     {
       "version": "6.4.0-v16",
@@ -578,6 +608,11 @@
       "hostDocs": true
     },
     {
+      "version": "6.3.0-v17",
+      "hostDocs": true,
+      "show": true
+    },
+    {
       "version": "6.3.0-v16",
       "hostDocs": true,
       "show": true
@@ -683,6 +718,11 @@
     {
       "version": "6.3.0-beta.20200708",
       "hostDocs": true
+    },
+    {
+      "version": "6.2.4-v17",
+      "hostDocs": true,
+      "show": true
     },
     {
       "version": "6.2.4-v16",
@@ -792,6 +832,11 @@
       "hostDocs": true
     },
     {
+      "version": "5.6.4-v17",
+      "hostDocs": true,
+      "show": true
+    },
+    {
       "version": "5.6.4-v16",
       "hostDocs": true,
       "show": true
@@ -899,5 +944,5 @@
       "hostDocs": true
     }
   ],
-  "latestVersion": "7.14.0-v2"
+  "latestVersion": "7.14.0-v3"
 }
