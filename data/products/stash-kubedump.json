@@ -1,7 +1,7 @@
 {
   "key": "stash-kubedump",
-  "name": "Kubedump",
-  "fullname": "Stash Kubedump Addon",
+  "name": "KubeDump",
+  "fullname": "Stash KubeDump Addon",
   "tagline": "Kubernetes backup and restore plugin for Stash by AppsCode",
   "summary": "Kubernetes backup and restore plugin for Stash by AppsCode",
   "published": true,
