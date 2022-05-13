@@ -19,12 +19,12 @@
     "features": [
       {
         "title": "Backup Cluster Resources",
-        "image": "/assets/images/addons/illustrations/logical-backup.png",
+        "image": "/assets/images/addons/illustrations/backup-cluster-resources.png",
         "description": "Backup the YAML representation of the resources of your entire cluster or a particular namespace. You can also use label selector to selectively backup particular resources."
       },
       {
         "title": "Backup Application Resources",
-        "image": "/assets/images/addons/illustrations/backup-restore-databases.png",
+        "image": "/assets/images/addons/illustrations/backup-application-resources.png",
         "description": "Backup the YAML definition of your application along with it's dependants. Stash recursively backup the dependant objects using the owner reference chain."
       },
       {
