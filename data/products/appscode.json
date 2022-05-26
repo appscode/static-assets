@@ -32,5 +32,259 @@
   },
   "videos": {
     "intro": "8az5rYUxyGs"
+  },
+  "homepage": {
+    "hero_area": {
+      "title": "Kubernetes Native Data Platform",
+      "summary": "Deploy, manage, upgrade Kubernetes on any cloud and automate deployment, scaling, and management of containerized applications.",
+      "get_in_touch_url": "https://appscode.com/contact/",
+      "intro": "8az5rYUxyGs",
+      "hero_image": "https://cdn.appscode.com/images/products/appscode/appscode-hero.png"
+    },
+    "main_products": [
+      {
+        "name": "KubeDB",
+        "url": "https://kubedb.com",
+        "logo": "https://cdn.appscode.com/images/products/kubedb/kubedb.svg",
+        "description": "KubeDB simplifies<strong>Provision, Upgrade, Scaling, Volume Expansion, </strong> Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud"
+      },
+      {
+        "name": "Stash",
+        "url": "https://stash.run",
+        "logo": "https://cdn.appscode.com/images/products/stash/stash.png",
+        "description": "KubeDB simplifies Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud"
+      },
+      {
+        "name": "kubeVault",
+        "url": "https://kubevault.com",
+        "logo": "https://cdn.appscode.com/images/products/stash/stash.png",
+        "description": "KubeDB simplifies Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud"
+      },
+      {
+        "name": "Bytebuilders",
+        "url": "https://byte.builders.com",
+        "logo": "https://cdn.appscode.com/images/products/bytebuilders/bytebuilders.png",
+        "description": "KubeDB simplifies Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud"
+      }
+    ],
+    "highlight_products": {
+      "title": "Provision multi-node Kubernetes clusters in minutes with a few clicks",
+      "summary": "Global Cloud Infrastructure at Your Fingertip,Easily take advantage of the global infrastructure footprint of the cloud providers, like AWS, Azure, Google Cloud, DigitalOcean, Linode and others.",
+      "url": "http://something.com",
+      "products": [
+        {
+          "name": "Voyager",
+          "logo": "/assets/images/products/voyager/voyager-icon.svg",
+          "summary": "<strong> Voyager</strong> Lorem ip of the global infrastructure footprint of the cloud providers, like AWS, Azure, Google Cloud DigitalOcean, Linode and others.",
+          "url": "https://voyagermesh.com/"
+        },
+        {
+          "name": "Swift",
+          "logo": "/assets/images/products/swift/swift-icon.svg",
+          "summary": "<strong>Swift</strong> Lorem ip of the global infrastructure footprint of the cloud providers, like AWS, Azure, Google Cloud DigitalOcean, Linode and others.",
+          "url": "https://voyagermesh.com/"
+        }
+      ]
+    },
+    "products": [
+      {
+        "id": "manage-database",
+        "product": "kubedb",
+        "use_case": "MANAGE DATABASE",
+        "logo": "assets/images/products/stash/stash.png",
+        "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
+        "url": "http://stash.run",
+        "features": [
+          "Peclarative API",
+          "Backup Kubernetes Volumes",
+          "Backup Database",
+          "Multiple Storage Support",
+          "Deduplication",
+          "Data Encryption",
+          "Volume Snapshot",
+          "Policy Based Backup"
+        ],
+        "illustration": "https://via.placeholder.com/600/dddddd/808080"
+      },
+      {
+        "id": "disaster-recovery",
+        "product": "stash",
+        "use_case": " DISASTER RECOVERY ",
+        "logo": "assets/images/products/stash/stash.png",
+        "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
+        "url": "http://stash.run",
+        "features": [
+          "Declarative API",
+          "Backup Kubernetes Volumes",
+          "Backup Database",
+          "Multiple Storage Support",
+          "Deduplication",
+          "Data Encryption",
+          "Volume Snapshot",
+          "Policy Based Backup"
+        ],
+        "illustration": "https://via.placeholder.com/600/dddddd/808080"
+      },
+      {
+        "id": "security",
+        "product": "kubevault",
+        "use_case": "SECURITY",
+        "logo": "assets/images/products/stash/stash.png",
+        "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
+        "url": "http://stash.run",
+        "features": [
+          "Declarative API",
+          "Backup Kubernetes Volumes",
+          "Backup Database",
+          "Multiple Storage Support",
+          "Deduplication",
+          "Data Encryption",
+          "Volume Snapshot",
+          "Policy Based Backup"
+        ],
+        "illustration": "https://via.placeholder.com/600/dddddd/808080"
+      },
+      {
+        "id": "monitoring",
+        "product": "searchlight",
+        "use_case": "MONITORING",
+        "logo": "assets/images/products/stash/stash.png",
+        "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
+        "url": "http://stash.run",
+        "features": [
+          "Declarative API",
+          "Backup Kubernetes Volumes",
+          "Backup Database",
+          "Multiple Storage Support",
+          "Deduplication",
+          "Data Encryption",
+          "Volume Snapshot",
+          "Policy Based Backup"
+        ],
+        "illustration": "https://via.placeholder.com/600/dddddd/808080"
+      },
+      {
+        "id": "alerting",
+        "product": "prometheus",
+        "use_case": "ALERTING",
+        "logo": "assets/images/products/stash/stash.png",
+        "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
+        "url": "http://stash.run",
+        "features": [
+          "Declarative API",
+          "Backup Kubernetes Volumes",
+          "Backup Database",
+          "Multiple Storage Support",
+          "Deduplication",
+          "Data Encryption",
+          "Volume Snapshot",
+          "Policy Based Backup"
+        ],
+        "illustration": "https://via.placeholder.com/600/dddddd/808080"
+      },
+      {
+        "id": "networking",
+        "product": "voyager",
+        "use_case": "NETWORKING",
+        "logo": "assets/images/products/stash/stash.png",
+        "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
+        "url": "http://stash.run",
+        "features": [
+          "Declarative API",
+          "Backup Kubernetes Volumes",
+          "Backup Database",
+          "Multiple Storage Support",
+          "Deduplication",
+          "Data Encryption",
+          "Volume Snapshot",
+          "Policy Based Backup"
+        ],
+        "illustration": "https://via.placeholder.com/600/dddddd/808080"
+      },
+      {
+        "id": "manage-infrastructure",
+        "product": "swift",
+        "use_case": "MANAGE INFRASTRUCTURE",
+        "logo": "assets/images/products/stash/stash.png",
+        "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
+        "url": "http://stash.run",
+        "features": [
+          "Declarative API",
+          "Backup Kubernetes Volumes",
+          "Backup Database",
+          "Multiple Storage Support",
+          "Deduplication",
+          "Data Encryption",
+          "Volume Snapshot",
+          "Policy Based Backup"
+        ],
+        "illustration": "https://via.placeholder.com/600/dddddd/808080"
+      }
+    ],
+    "subscription": {
+      "title": "Cloud reimagined <br /> for the age of Kubernetes",
+      "summary_left": "Deploy, manage, upgrade Kubernetes on any cloud and automate deployment, scaling, and management of containerized applications. Make Kubernetes accessible any member of your development team using ByteBuilder's innovative Kubernetes Dashboard.",
+      "summary_right": "Deploy, manage, upgrade Kubernetes on any cloud and automate deployment, scaling, and management of containerized applications. Make Kubernetes accessible any member of your development team <strong>using ByteBuilder</strong>  innovative Kubernetes Dashboard."
+    },
+    "social_connect": {
+      "title": "More than 5,000 developers use AppsCode products every month to deliver value",
+      "summary": "Turbocharge your Kubernetes journey with AppsCode's open source Kubernetes operators and developer tools, like, KubeDB, Voyager, Stash, KubeVault, Pharmer and others. Join our vibrant community of users and let's get stuff done!",
+      "social_link": [
+        {
+          "text": "JOIN OUR SLACK",
+          "url": "http://slackURL.com",
+          "icon": "/assets/images/icon/slack-outlined.svg"
+        },
+        {
+          "text": "VISIT OUR GITHUB PAGE",
+          "url": "http://githubURL.com",
+          "icon": "/assets/images/icon/github-outlined.svg"
+        },
+        {
+          "text": "GET LATEST UPDATE",
+          "url": "http://twitterURL.com",
+          "icon": "/assets/images/icon/twitter-outlined.svg"
+        }
+      ],
+      "social_cards": [
+        {
+          "name": "Github",
+          "icon": "/assets/images/icon/count/octocat.svg",
+          "users": "5,000+",
+          "sub_title": "Github Stars",
+          "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",
+          "url": "http://githubURL.com"
+        },
+        {
+          "name": "Slack",
+          "icon": "/assets/images/icon/count/slack.svg",
+          "users": "2,000+",
+          "sub_title": "Developer Community",
+          "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",
+          "url": "http://githubURL.com"
+        },
+        {
+          "name": "Docker",
+          "icon": "/assets/images/icon/count/docker.svg",
+          "users": "4.5M+",
+          "sub_title": "Docker Downloads",
+          "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",
+          "url": "http://githubURL.com"
+        },
+        {
+          "name": "Github",
+          "icon": "/assets/images/icon/count/support.svg",
+          "users": "70,000+",
+          "sub_title": "Operators Deployed",
+          "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",
+          "url": "http://githubURL.com"
+        }
+      ],
+      "cta_area": {
+        "title": "Get Started with AppsCode",
+        "sub_title": "AppsCode community edition is FREE to use on any supported Kubernetes engines. There is no up-front investment required, and you need to pay only for the resources you use to your infrastructure provider. We offer a 30 days license FREE of cost to try KubeDB Enterprise edition.",
+        "url": "/contact"
+      }
+    }
   }
 }
