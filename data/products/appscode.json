@@ -12,22 +12,22 @@
     "themeColor": ""
   },
   "heroImage": {
-    "src": "https://cdn.appscode.com/images/products/appscode/appscode-hero.png",
+    "src": "/assets/images/products/appscode/appscode-hero.png",
     "alt": "AppsCode"
   },
   "logo": {
-    "src": "https://cdn.appscode.com/images/products/appscode/appscode.svg",
+    "src": "/assets/images/products/appscode/appscode.svg",
     "alt": "AppsCode"
   },
   "logoWhite": {
-    "src": "https://cdn.appscode.com/images/products/appscode/appscode-white.png",
+    "src": "/assets/images/products/appscode/appscode-white.png",
     "alt": "AppsCode"
   },
   "icon": {
-    "src": "https://cdn.appscode.com/images/products/appscode/appscode-icon.png",
+    "src": "/assets/images/products/appscode/appscode-icon.png",
     "alt": "AppsCode",
     "sizes": {
-      "192x192": "https://cdn.appscode.com/images/products/appscode/icons/android-icon-192x192.png"
+      "192x192": "/assets/images/products/appscode/icons/android-icon-192x192.png"
     }
   },
   "videos": {
@@ -39,31 +39,31 @@
       "summary": "Deploy, manage, upgrade Kubernetes on any cloud and automate deployment, scaling, and management of containerized applications.",
       "get_in_touch_url": "https://appscode.com/contact/",
       "intro": "8az5rYUxyGs",
-      "hero_image": "https://cdn.appscode.com/images/products/appscode/appscode-hero.png"
+      "hero_image": "/assets/images/products/appscode/appscode-hero.png"
     },
     "main_products": [
       {
         "name": "KubeDB",
         "url": "https://kubedb.com",
-        "logo": "https://cdn.appscode.com/images/products/kubedb/kubedb.svg",
+        "logo": "/assets/images/products/kubedb/kubedb.svg",
         "description": "KubeDB simplifies<strong>Provision, Upgrade, Scaling, Volume Expansion, </strong> Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud"
       },
       {
         "name": "Stash",
         "url": "https://stash.run",
-        "logo": "https://cdn.appscode.com/images/products/stash/stash.png",
+        "logo": "/assets/images/products/stash/stash.png",
         "description": "KubeDB simplifies Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud"
       },
       {
         "name": "kubeVault",
         "url": "https://kubevault.com",
-        "logo": "https://cdn.appscode.com/images/products/stash/stash.png",
+        "logo": "/assets/images/products/stash/stash.png",
         "description": "KubeDB simplifies Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud"
       },
       {
         "name": "Bytebuilders",
         "url": "https://byte.builders.com",
-        "logo": "https://cdn.appscode.com/images/products/bytebuilders/bytebuilders.png",
+        "logo": "/assets/images/products/bytebuilders/bytebuilders.png",
         "description": "KubeDB simplifies Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud"
       }
     ],
@@ -92,27 +92,28 @@
         "product": "kubedb",
         "use_case": "MANAGE DATABASE",
         "logo": "assets/images/products/stash/stash.png",
-        "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
-        "url": "http://stash.run",
+        "title": "Run Production-Grade Databases on Kubernetes",
+        "summary": "KubeDB simplifies Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud",
+        "url": "https://kubedb.com",
         "features": [
-          "Peclarative API",
-          "Backup Kubernetes Volumes",
-          "Backup Database",
-          "Multiple Storage Support",
-          "Deduplication",
-          "Data Encryption",
-          "Volume Snapshot",
-          "Policy Based Backup"
+          "Lower administrative burden",
+          "Native Kubernetes Support",
+          "Performance",
+          "Availability and durability",
+          "Manageability",
+          "Cost-effectiveness",
+          "Security"
         ],
-        "illustration": "https://via.placeholder.com/600/dddddd/808080"
+        "illustration": "/assets/images/products/kubedb/kubedb-illustration.png"
       },
       {
         "id": "disaster-recovery",
         "product": "stash",
         "use_case": " DISASTER RECOVERY ",
         "logo": "assets/images/products/stash/stash.png",
+        "title": "Run Production-Grade Databases on Kubernetes",
         "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
-        "url": "http://stash.run",
+        "url": "https://stash.run",
         "features": [
           "Declarative API",
           "Backup Kubernetes Volumes",
@@ -123,24 +124,23 @@
           "Volume Snapshot",
           "Policy Based Backup"
         ],
-        "illustration": "https://via.placeholder.com/600/dddddd/808080"
+        "illustration": "/assets/images/products/stash/stash-illustration.png"
       },
       {
         "id": "security",
         "product": "kubevault",
         "use_case": "SECURITY",
-        "logo": "assets/images/products/stash/stash.png",
-        "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
-        "url": "http://stash.run",
+        "logo": "/assets/images/products/kubevault/kubevault.png",
+        "title": "Tools for running HashiCorp Vault on Kubernetes",
+        "summary": "Tools for running HashiCorp Vault on Kubernetes",
+        "url": "https://kubevault.com/",
         "features": [
-          "Declarative API",
-          "Backup Kubernetes Volumes",
-          "Backup Database",
-          "Multiple Storage Support",
-          "Deduplication",
-          "Data Encryption",
-          "Volume Snapshot",
-          "Policy Based Backup"
+          "Automatic Initialization & Unsealing",
+          "Manage Vault Policy",
+          "AWS Secret Engine",
+          "Azure Secret Engine",
+          "GCP Secret Engine",
+          "Database Secret Engine"
         ],
         "illustration": "https://via.placeholder.com/600/dddddd/808080"
       },
@@ -148,19 +148,11 @@
         "id": "monitoring",
         "product": "searchlight",
         "use_case": "MONITORING",
-        "logo": "assets/images/products/stash/stash.png",
-        "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
-        "url": "http://stash.run",
-        "features": [
-          "Declarative API",
-          "Backup Kubernetes Volumes",
-          "Backup Database",
-          "Multiple Storage Support",
-          "Deduplication",
-          "Data Encryption",
-          "Volume Snapshot",
-          "Policy Based Backup"
-        ],
+        "logo": "/assets/images/products/searchlight/searchlight.png",
+        "title": "Alerts for Kubernetes",
+        "summary": "",
+        "url": "https://appscode.com/products/searchlight/",
+        "features": ["Monitor Kubernetes", "Icinga 2", "Notifier Support"],
         "illustration": "https://via.placeholder.com/600/dddddd/808080"
       },
       {
@@ -168,6 +160,7 @@
         "product": "prometheus",
         "use_case": "ALERTING",
         "logo": "assets/images/products/stash/stash.png",
+        "title": "Run Production-Grade Databases on Kubernetes",
         "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
         "url": "http://stash.run",
         "features": [
@@ -186,18 +179,17 @@
         "id": "networking",
         "product": "voyager",
         "use_case": "NETWORKING",
-        "logo": "assets/images/products/stash/stash.png",
-        "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
-        "url": "http://stash.run",
+        "logo": "/assets/images/products/voyager/voyager.png",
+        "title": "Secure HAProxy Ingress Controller for Kubernetes",
+        "summary": "Secure HAProxy Ingress Controller for Kubernetes",
+        "url": "https://voyagermesh.com/",
         "features": [
-          "Declarative API",
-          "Backup Kubernetes Volumes",
-          "Backup Database",
-          "Multiple Storage Support",
-          "Deduplication",
-          "Data Encryption",
-          "Volume Snapshot",
-          "Policy Based Backup"
+          "HTTP & TCP",
+          "SSL",
+          "Platform support",
+          "HAProxy",
+          "Prometheus",
+          "Let's Encrypt"
         ],
         "illustration": "https://via.placeholder.com/600/dddddd/808080"
       },
@@ -206,6 +198,7 @@
         "product": "swift",
         "use_case": "MANAGE INFRASTRUCTURE",
         "logo": "assets/images/products/stash/stash.png",
+        "title": "Run Production-Grade Databases on Kubernetes",
         "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
         "url": "http://stash.run",
         "features": [
