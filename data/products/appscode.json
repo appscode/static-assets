@@ -91,7 +91,7 @@
         "id": "manage-database",
         "product": "kubedb",
         "use_case": "MANAGE DATABASE",
-        "logo": "assets/images/products/stash/stash.png",
+        "logo": "/assets/images/products/kubedb/kubedb.svg",
         "title": "Run Production-Grade Databases on Kubernetes",
         "summary": "KubeDB simplifies Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud",
         "url": "https://kubedb.com",
@@ -110,8 +110,8 @@
         "id": "disaster-recovery",
         "product": "stash",
         "use_case": " DISASTER RECOVERY ",
-        "logo": "assets/images/products/stash/stash.png",
-        "title": "Run Production-Grade Databases on Kubernetes",
+        "logo": "/assets/images/products/stash/stash.png",
+        "title": "Backup and Recovery Solution for Kubernetes",
         "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
         "url": "https://stash.run",
         "features": [
@@ -124,7 +124,7 @@
           "Volume Snapshot",
           "Policy Based Backup"
         ],
-        "illustration": "/assets/images/products/stash/stash-illustration.png"
+        "illustration": "/assets/images/products/stash/stash-hero.png"
       },
       {
         "id": "security",
@@ -142,38 +142,7 @@
           "GCP Secret Engine",
           "Database Secret Engine"
         ],
-        "illustration": "https://via.placeholder.com/600/dddddd/808080"
-      },
-      {
-        "id": "monitoring",
-        "product": "searchlight",
-        "use_case": "MONITORING",
-        "logo": "/assets/images/products/searchlight/searchlight.png",
-        "title": "Alerts for Kubernetes",
-        "summary": "",
-        "url": "https://appscode.com/products/searchlight/",
-        "features": ["Monitor Kubernetes", "Icinga 2", "Notifier Support"],
-        "illustration": "https://via.placeholder.com/600/dddddd/808080"
-      },
-      {
-        "id": "alerting",
-        "product": "prometheus",
-        "use_case": "ALERTING",
-        "logo": "assets/images/products/stash/stash.png",
-        "title": "Run Production-Grade Databases on Kubernetes",
-        "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
-        "url": "http://stash.run",
-        "features": [
-          "Declarative API",
-          "Backup Kubernetes Volumes",
-          "Backup Database",
-          "Multiple Storage Support",
-          "Deduplication",
-          "Data Encryption",
-          "Volume Snapshot",
-          "Policy Based Backup"
-        ],
-        "illustration": "https://via.placeholder.com/600/dddddd/808080"
+        "illustration": "/assets/images/products/kubevault/kubevault-hero.png"
       },
       {
         "id": "networking",
