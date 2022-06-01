@@ -46,7 +46,7 @@
         "name": "KubeDB",
         "url": "https://kubedb.com",
         "logo": "/assets/images/products/kubedb/kubedb.svg",
-        "description": "KubeDB simplifies<strong>Provision, Upgrade, Scaling, Volume Expansion, </strong> Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud"
+        "description": "KubeDB simplifies Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud"
       },
       {
         "name": "Stash",
@@ -62,7 +62,7 @@
       },
       {
         "name": "ByteBuilders",
-        "url": "https://byte.builders.com",
+        "url": "https://byte.builders/",
         "logo": "/assets/images/products/bytebuilders/bytebuilders.png",
         "description": "ByteBuilders is a single pane of glass for all your databases deployed on Kubernetes with KubeDB. Use ByteBuilder’s innovative web dashboard to perform any DBA tasks in a few clicks."
       }
@@ -70,7 +70,7 @@
     "highlight_products": {
       "title": "The Global Leader in Kubernetes tools",
       "summary": "AppsCode is a leading provider of Kubernetes solutions that allow organizations to maintain their business goals, higher growth, and reduce risks by making it simple, safe and affordable.",
-      "url": "http://something.com",
+      "url": "https://appscode.com/contact/",
       "products": [
         {
           "name": "Voyager",
@@ -81,8 +81,8 @@
         {
           "name": "Kubeform",
           "logo": "/assets/images/products/kubeform/kubeform-icon.svg",
-          "summary": "Kubeform is a Kubernetes controller for provisioning and managing cloud or on-prem resources using terraform providers. Kubeform provides Kubernetes CRDs for Terraform resources so that you can manage any cloud infrastructure in a Kubernetes native way.",
-          "url": "https://voyagermesh.com/"
+          "summary": "Kubeform is a Kubernetes controller for provisioning and managing cloud or on-prem resources using terraform providers. It provides Kubernetes CRDs for Terraform resources so that you can manage any cloud infrastructure in a Kubernetes native way.",
+          "url": "https://kubeform.com/"
         }
       ]
     },
@@ -140,7 +140,7 @@
           "Supports Multiple Cloud Platform",
           "Unleash Developer Velocity"
         ],
-        "illustration": "https://via.placeholder.com/600/dddddd/808080"
+        "illustration": "/assets/images/products/kubeform/kubeform-hero.png"
       },
       {
         "id": "networking",
@@ -157,7 +157,7 @@
           "HAProxy",
           "Prometheus"
         ],
-        "illustration": "https://via.placeholder.com/600/dddddd/808080"
+        "illustration": "/assets/images/products/voyager/voyager-hero.png"
       },
       {
         "id": "security",
@@ -189,17 +189,17 @@
       "social_link": [
         {
           "text": "JOIN OUR SLACK",
-          "url": "http://slackURL.com",
+          "url": "https://slack.appscode.com",
           "icon": "/assets/images/icon/slack-outlined.svg"
         },
         {
           "text": "VISIT OUR GITHUB PAGE",
-          "url": "http://githubURL.com",
+          "url": "https://github.com/appscode",
           "icon": "/assets/images/icon/github-outlined.svg"
         },
         {
           "text": "GET LATEST UPDATE",
-          "url": "http://twitterURL.com",
+          "url": "https://twitter.com/AppsCodeHQ",
           "icon": "/assets/images/icon/twitter-outlined.svg"
         }
       ],
@@ -210,7 +210,7 @@
           "users": "5,000+",
           "sub_title": "Github Stars",
           "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",
-          "url": "http://githubURL.com"
+          "url": "https://github.com/appscode"
         },
         {
           "name": "Slack",
@@ -218,7 +218,7 @@
           "users": "2,000+",
           "sub_title": "Developer Community",
           "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",
-          "url": "http://githubURL.com"
+          "url": "https://slack.appscode.com"
         },
         {
           "name": "Docker",
@@ -226,15 +226,15 @@
           "users": "4.5M+",
           "sub_title": "Docker Downloads",
           "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",
-          "url": "http://githubURL.com"
+          "url": "https://appscode.com/meet-expert/"
         },
         {
-          "name": "Github",
+          "name": "Get Support",
           "icon": "/assets/images/icon/count/support.svg",
           "users": "70,000+",
           "sub_title": "Operators Deployed",
           "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",
-          "url": "http://githubURL.com"
+          "url": "https://appscode.com/pricing/"
         }
       ],
       "cta_area": {
