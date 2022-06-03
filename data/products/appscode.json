@@ -12,25 +12,236 @@
     "themeColor": ""
   },
   "heroImage": {
-    "src": "https://cdn.appscode.com/images/products/appscode/appscode-hero.png",
+    "src": "/assets/images/products/appscode/appscode-hero.png",
     "alt": "AppsCode"
   },
   "logo": {
-    "src": "https://cdn.appscode.com/images/products/appscode/appscode.svg",
+    "src": "/assets/images/products/appscode/appscode.svg",
     "alt": "AppsCode"
   },
   "logoWhite": {
-    "src": "https://cdn.appscode.com/images/products/appscode/appscode-white.png",
+    "src": "/assets/images/products/appscode/appscode-white.png",
     "alt": "AppsCode"
   },
   "icon": {
-    "src": "https://cdn.appscode.com/images/products/appscode/appscode-icon.png",
+    "src": "/assets/images/products/appscode/appscode-icon.png",
     "alt": "AppsCode",
     "sizes": {
-      "192x192": "https://cdn.appscode.com/images/products/appscode/icons/android-icon-192x192.png"
+      "192x192": "/assets/images/products/appscode/icons/android-icon-192x192.png"
     }
   },
   "videos": {
     "intro": "8az5rYUxyGs"
+  },
+  "homepage": {
+    "hero_area": {
+      "title": "Kubernetes Native Data Platform",
+      "summary": "Our Mission is to Accelerate the transition to Containers by building a Kubernetes-native Data Platform",
+      "get_in_touch_url": "https://appscode.com/contact/",
+      "intro": "8az5rYUxyGs",
+      "hero_image": "/assets/images/products/appscode/appscode-hero.png"
+    },
+    "main_products": [
+      {
+        "name": "KubeDB",
+        "url": "https://kubedb.com",
+        "logo": "/assets/images/products/kubedb/kubedb.svg",
+        "description": "KubeDB simplifies Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud"
+      },
+      {
+        "name": "Stash",
+        "url": "https://stash.run",
+        "logo": "/assets/images/products/stash/stash.png",
+        "description": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds."
+      },
+      {
+        "name": "kubeVault",
+        "url": "https://kubevault.com",
+        "logo": "/assets/images/products/kubevault/kubevault.png",
+        "description": "KubeVault provides various ways to configure your Vault deployment. You can pick your preferred Storage Backend, Unsealer Mode, TLS Mode, Secret Engines that you want to allow to attach with this VaultServer, Termination Policy to prevent accidental deletion or clean-up Vault deployment in a systematic way, Monitoring,  etc."
+      },
+      {
+        "name": "ByteBuilders",
+        "url": "https://byte.builders/",
+        "logo": "/assets/images/products/bytebuilders/bytebuilders.png",
+        "description": "ByteBuilders is a single pane of glass for all your databases deployed on Kubernetes with KubeDB. Use ByteBuilder’s innovative web dashboard to perform any DBA tasks in a few clicks."
+      }
+    ],
+    "highlight_products": {
+      "title": "The Global Leader in Kubernetes tools",
+      "summary": "AppsCode is a leading provider of Kubernetes solutions that allow organizations to maintain their business goals, higher growth, and reduce risks by making it simple, safe and affordable.",
+      "url": "https://appscode.com/contact/",
+      "products": [
+        {
+          "name": "Voyager",
+          "logo": "/assets/images/products/voyager/voyager-icon.svg",
+          "summary": "Voyager is a HAProxy backed secure L7 and L4 ingress controller for Kubernetes. This can be used with any Kubernetes cloud providers including AWS, GCE, GKE, AZURE, ACS etc. This can also be used with baremetal Kubernetes clusters.",
+          "url": "https://voyagermesh.com/"
+        },
+        {
+          "name": "Kubeform",
+          "logo": "/assets/images/products/kubeform/kubeform-icon.svg",
+          "summary": "Kubeform is a Kubernetes controller for provisioning and managing cloud or on-prem resources using terraform providers. It provides Kubernetes CRDs for Terraform resources so that you can manage any cloud infrastructure in a Kubernetes native way.",
+          "url": "https://kubeform.com/"
+        }
+      ]
+    },
+    "products": [
+      {
+        "id": "manage-database",
+        "product": "kubedb",
+        "use_case": "MANAGE DATABASE",
+        "logo": "/assets/images/products/kubedb/kubedb.svg",
+        "title": "Run Production-Grade Databases on Kubernetes",
+        "summary": "KubeDB simplifies Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud",
+        "url": "https://kubedb.com",
+        "features": [
+          "Provisioning",
+          "Version Upgrade",
+          "Scaling",
+          "Volume Expansion",
+          "Monitoring",
+          "Security"
+        ],
+        "illustration": "/assets/images/products/kubedb/kubedb-illustration.png"
+      },
+      {
+        "id": "disaster-recovery",
+        "product": "stash",
+        "use_case": " DISASTER RECOVERY ",
+        "logo": "/assets/images/products/stash/stash.png",
+        "title": "Backup and Recovery Solution for Kubernetes",
+        "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
+        "url": "https://stash.run",
+        "features": [
+          "Declarative API",
+          "Backup Kubernetes Volumes",
+          "Backup Database",
+          "Multiple Storage Support",
+          "Deduplication",
+          "Data Encryption",
+          "Volume Snapshot",
+          "Policy Based Backup"
+        ],
+        "illustration": "/assets/images/products/stash/stash-hero.png"
+      },
+      {
+        "id": "manage-infrastructure",
+        "product": "Kubeform",
+        "use_case": "MANAGE INFRASTRUCTURE",
+        "logo": "assets/images/products/kubeform/kubeform.png",
+        "title": "Provision cloud resources using Kubernetes CRDs & Terraform",
+        "summary": "Kubeform is a Kubernetes controller for provisioning and managing cloud or on-prem resources using terraform providers. Kubeform provides Kubernetes CRDs for Terraform resources so that you can manage any cloud infrastructure in a Kubernetes native way.",
+        "url": "http://kubeform.com",
+        "features": [
+          "Infrastructure as Code",
+          "Built on Terrafrom",
+          "Native Kubernetes Support",
+          "Supports Multiple Cloud Platform",
+          "Unleash Developer Velocity"
+        ],
+        "illustration": "/assets/images/products/kubeform/kubeform-hero.png"
+      },
+      {
+        "id": "networking",
+        "product": "voyager",
+        "use_case": "NETWORKING",
+        "logo": "/assets/images/products/voyager/voyager.png",
+        "title": "Secure HAProxy Ingress Controller for Kubernetes",
+        "summary": "Voyager is a HAProxy backed secure L7 and L4 ingress controller for Kubernetes. This can be used with any Kubernetes cloud providers including AWS, GCE, GKE, AZURE, ACS etc. This can also be used with baremetal Kubernetes clusters.",
+        "url": "https://voyagermesh.com/",
+        "features": [
+          "HTTP & TCP",
+          "SSL",
+          "Platform support",
+          "HAProxy",
+          "Prometheus"
+        ],
+        "illustration": "/assets/images/products/voyager/voyager-hero.png"
+      },
+      {
+        "id": "security",
+        "product": "kubevault",
+        "use_case": "SECURITY",
+        "logo": "/assets/images/products/kubevault/kubevault.png",
+        "title": "Tools for running HashiCorp Vault on Kubernetes",
+        "summary": "KubeVault provides various ways to configure your Vault deployment. You can pick your preferred Storage Backend, Unsealer Mode, TLS Mode, Secret Engines that you want to allow to attach with this VaultServer, Termination Policy to prevent accidental deletion or clean-up Vault deployment in a systematic way, Monitoring,  etc.",
+        "url": "https://kubevault.com/",
+        "features": [
+          "Automatic Initialization & Unsealing",
+          "Manage Vault Policy",
+          "AWS Secret Engine",
+          "Azure Secret Engine",
+          "GCP Secret Engine",
+          "Database Secret Engine"
+        ],
+        "illustration": "/assets/images/products/kubevault/kubevault-hero.png"
+      }
+    ],
+    "subscription": {
+      "title": "Cloud reimagined <br /> for the age of Kubernetes",
+      "summary_left": "Deploy, manage, upgrade Kubernetes on any cloud and automate deployment, scaling, and management of containerized applications. Make Kubernetes accessible any member of your development team using ByteBuilder's innovative Kubernetes Dashboard.",
+      "summary_right": "AppsCode simplifies and automate every single component related to Kubernetes. We produce high quality production-grade tools for developers to experience to make the most of their Kubernetes journey."
+    },
+    "social_connect": {
+      "title": "More than 5,000 developers use AppsCode products every month to deliver value",
+      "summary": "Turbocharge your Kubernetes journey with AppsCode's open source Kubernetes operators and developer tools, like, KubeDB, Voyager, Stash, KubeVault, Pharmer and others. Join our vibrant community of users and let's get stuff done!",
+      "social_link": [
+        {
+          "text": "JOIN OUR SLACK",
+          "url": "https://slack.appscode.com",
+          "icon": "/assets/images/icon/slack-outlined.svg"
+        },
+        {
+          "text": "VISIT OUR GITHUB PAGE",
+          "url": "https://github.com/appscode",
+          "icon": "/assets/images/icon/github-outlined.svg"
+        },
+        {
+          "text": "GET LATEST UPDATE",
+          "url": "https://twitter.com/AppsCodeHQ",
+          "icon": "/assets/images/icon/twitter-outlined.svg"
+        }
+      ],
+      "social_cards": [
+        {
+          "name": "Github",
+          "icon": "/assets/images/icon/count/octocat.svg",
+          "users": "5,000+",
+          "sub_title": "Github Stars",
+          "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",
+          "url": "https://github.com/appscode"
+        },
+        {
+          "name": "Slack",
+          "icon": "/assets/images/icon/count/slack.svg",
+          "users": "2,000+",
+          "sub_title": "Developer Community",
+          "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",
+          "url": "https://slack.appscode.com"
+        },
+        {
+          "name": "Docker",
+          "icon": "/assets/images/icon/count/docker.svg",
+          "users": "4.5M+",
+          "sub_title": "Docker Downloads",
+          "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",
+          "url": "https://hub.docker.com/u/appscode"
+        },
+        {
+          "name": "Get Support",
+          "icon": "/assets/images/icon/count/support.svg",
+          "users": "70,000+",
+          "sub_title": "Operators Deployed",
+          "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",
+          "url": "https://appscode.com/meet-expert/"
+        }
+      ],
+      "cta_area": {
+        "title": "Get Started with AppsCode",
+        "sub_title": "AppsCode community edition is FREE to use on any supported Kubernetes engines. There is no up-front investment required, and you need to pay only for the resources you use to your infrastructure provider. We offer a 30 days license FREE of cost to try KubeDB Enterprise edition.",
+        "url": "/contact"
+      }
+    }
   }
 }
