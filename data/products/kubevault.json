@@ -51,12 +51,12 @@
     {
       "title": "Vault Kubernetes Deployment",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-1.png",
+        "src": "/assets/images/products/kubevault/features/feature-1.png",
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/unlock.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/vaultserverversions.svg",
+        "alt": "vaultserverversions"
       },
       "summary": "",
       "description": "You can deploy TLS secured Vault Servers on Kubernetes using KubeVault. You can manage TLS with self-signed or cert-manager managed TLS. Running & managing Vault & it’s resources has never been easier."
@@ -64,11 +64,11 @@
     {
       "title": "Auto Initialization & Unsealing",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-1.png",
+        "src": "/assets/images/products/kubevault/features/feature-1.png",
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/unlock.png",
+        "src": "/assets/images/products/kubevault/features/automated-unsealing.svg",
         "alt": "http"
       },
       "summary": "",
@@ -77,25 +77,25 @@
     {
       "title": "SecretEngine Configuration",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-1.png",
+        "src": "/assets/images/products/kubevault/features/feature-1.png",
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/unlock.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/secretengines.svg",
+        "alt": "secretengines"
       },
       "summary": "",
       "description": "Managing various SecretEngine is extremely easy with KubeVault. KubeVault lets you enable, configure GCP, Azure, AWS, MongoDB, MySQL, Postgres, etc. SecretEngine. Additionally, creating roles in SecretEngine is also possible with KubeVault in a K8s native way."
-    },    
+    },
     {
       "title": "Storage Backend",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-2.png",
+        "src": "/assets/images/products/kubevault/features/feature-2.png",
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/courthouse.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/storageclasses.svg",
+        "alt": "storageclasses"
       },
       "summary": "",
       "description": "KubeVault lets you choose your preferred way to store & persist Vault data. Each Storage Backend has its own pros and cons. GCS, AWS S3, Azure, Consul, Raft, Etcd, MySQL, Postgres, DynanoDB, etc. to name a few."
@@ -103,11 +103,11 @@
     {
       "title": "Authentication Method",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-3.png",
+        "src": "/assets/images/products/kubevault/features/feature-3.png",
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/aws.png",
+        "src": "/assets/images/products/kubevault/features/auth.svg",
         "alt": "http"
       },
       "summary": "",
@@ -116,12 +116,12 @@
     {
       "title": "Consume Vault Secrets using Secrets Store CSI Driver",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-5.png",
+        "src": "/assets/images/products/kubevault/features/feature-5.png",
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/google-cloud.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/secrets.svg",
+        "alt": "secrets"
       },
       "summary": "",
       "description": "KubeVault works seamlessly with the Secrets Store CSI Driver. Consuming Vault secrets in K8s resources is way more simpler with the automation provided by KubeVault. "
@@ -129,11 +129,11 @@
     {
       "title": "Manage DB Users Privileges",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-4.png",
+        "src": "/assets/images/products/kubevault/features/feature-4.png",
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/azure.png",
+        "src": "/assets/images/products/kubevault/features/database-users.svg",
         "alt": "http"
       },
       "summary": "",
@@ -142,11 +142,11 @@
     {
       "title": "Kubectl Plugin",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-6.png",
+        "src": "/assets/images/products/kubevault/features/feature-6.png",
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/database-view.png",
+        "src": "/assets/images/products/kubevault/features/plugin.svg",
         "alt": "http"
       },
       "summary": "",
