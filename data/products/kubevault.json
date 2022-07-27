@@ -3,8 +3,8 @@
   "name": "KubeVault",
   "fullname": "KubeVault by AppsCode",
   "tagline": "KubeVault - Run Production-Grade Vault on Kubernetes",
-  "summary": "KubeVault is a Git-Ops ready, production-grade solution for deploying and configuring Hashicorp's Vault on Kubernetes.",
-  "heroAreaTitle": "Run Production-Grade Vault on Kubernetes",
+  "summary": "KubeVault is a Git-Ops ready, production-grade solution <br/> for deploying and configuring Hashicorp's Vault on Kubernetes.",
+  "heroAreaTitle": "Run Production-Grade <br/> Vault on Kubernetes",
   "published": true,
   "author": "AppsCode Inc.",
   "website": {
