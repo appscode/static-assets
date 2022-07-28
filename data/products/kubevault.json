@@ -88,6 +88,19 @@
       "description": "KubeVault works seamlessly with the Secrets Store CSI Driver. Consuming Vault secrets in K8s resources is way more simpler with the automation provided by KubeVault. "
     },
     {
+      "title": "Manage DB Users Privileges",
+      "image": {
+        "src": "/assets/images/products/kubevault/features/feature-4.png",
+        "alt": "http"
+      },
+      "icon": {
+        "src": "/assets/images/products/kubevault/features/database-users.svg",
+        "alt": "http"
+      },
+      "summary": "",
+      "description": "Managing DB user privileges is a complicated task which is made simple with KubeVault. KubeVault works seamlessly with KubeDB managed DBs. CRDs like SecretAccessRequest, SecretRoleBinding, etc. make grant, revoke, audit user privileges extremely convenient. "
+    },
+    {
       "title": "Storage Backend",
       "image": {
         "src": "/assets/images/products/kubevault/features/feature-2.png",
@@ -114,19 +127,6 @@
       "description": "You can authenticate to Vault using numerous ways using KubeVault. Each of them has their own use-cases. Kubernetes Service Account token, AWS IAM, Azure, Userpass, JWT/OIDC, etc. to name a few."
     },
     {
-      "title": "Manage DB Users Privileges",
-      "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
-        "alt": "http"
-      },
-      "icon": {
-        "src": "/assets/images/products/kubevault/features/database-users.svg",
-        "alt": "http"
-      },
-      "summary": "",
-      "description": "Managing DB user privileges is a complicated task which is made simple with KubeVault. KubeVault works seamlessly with KubeDB managed DBs. CRDs like SecretAccessRequest, SecretRoleBinding, etc. make grant, revoke, audit user privileges extremely convenient. "
-    },
-    {
       "title": "Database Secret Engine",
       "image": {
         "src": "/assets/images/products/kubevault/features/feature-4.png",
@@ -137,7 +137,7 @@
         "alt": "http"
       },
       "summary": "",
-      "description": "PostgreSQL, MySQL, Elasticsearch & MongoDB database secret engine in Vault generates database credentials dynamically based on configured roles. Using Vault, you can configure Secret Engine, Create Role and issue dynamic credentials. Vault operator will create a Kubernetes Secret containing the credential and also creates RBAC Role and RoleBinding so that the user can access the Secret."
+      "description": "PostgreSQL, MySQL, Elasticsearch & MongoDB database secret engine in Vault generates database credentials dynamically based on configured roles. Using Vault, you can configure Secret Engine, Create Role and issue dynamic credentials. "
     },
     {
       "title": "Azure Secret Engine",
@@ -150,20 +150,7 @@
         "alt": "http"
       },
       "summary": "",
-      "description": "Azure Secrets Engine dynamically generates Azure service principals and role assignments. Vault roles can be mapped to one or more Azure roles, providing a simple way to manage the permissions granted to generated service principals. By using Vault user can easily configure Vault Azure Secret Engine and make requests to generate service principals."
-    },
-    {
-      "title": "GCP Secret Engine",
-      "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
-        "alt": "http"
-      },
-      "icon": {
-        "src": "/assets/images/products/kubevault/features/google-cloud.png",
-        "alt": "http"
-      },
-      "summary": "",
-      "description": "Google Cloud Vault secrets engine dynamically generates Google Cloud service account keys and OAuth tokens based on IAM policies. This enables users to gain access to Google Cloud resources without needing to create or manage a dedicated service account. By using Vault user can easily configure vault GCP Secret Engine and make request to generate Google Cloud account keys and OAuth tokens based on IAM policies."
+      "description": "Azure Secrets Engine dynamically generates Azure service principals and role assignments. Vault roles can be mapped to one or more Azure roles, providing a simple way to manage the permissions granted to generated service principals."
     },
     {
       "title": "AWS Secret Engine",
@@ -176,7 +163,20 @@
         "alt": "http"
       },
       "summary": "",
-      "description": "AWS Secret Engine in Vault generates AWS access credentials dynamically based on IAM policies. Using Vault operator, you can configure AWS secret engine and issue AWS access credential via Vault. Vault operator will create a Kubernetes Secret containing the AWS credential and also creates RBAC and RoleBinding."
+      "description": "AWS Secret Engine in Vault generates AWS access credentials dynamically based on IAM policies. Using Vault operator, you can configure AWS secret engine and issue AWS access credentials."
+    },
+    {
+      "title": "GCP Secret Engine",
+      "image": {
+        "src": "/assets/images/products/kubevault/features/feature-4.png",
+        "alt": "http"
+      },
+      "icon": {
+        "src": "/assets/images/products/kubevault/features/google-cloud.png",
+        "alt": "http"
+      },
+      "summary": "",
+      "description": "Google Cloud Vault secrets engine dynamically generates Google Cloud service account keys and OAuth tokens based on IAM policies. By using Vault user can easily configure vault GCP Secret Engine and make request to generate Google Cloud account keys and OAuth tokens based on IAM policies."
     },
     {
       "title": "Kubectl Plugin",
