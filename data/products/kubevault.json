@@ -2,8 +2,9 @@
   "key": "kubevault",
   "name": "KubeVault",
   "fullname": "KubeVault by AppsCode",
-  "tagline": "Tools for running HashiCorp <strong>Vault</strong> on <strong>Kubernetes</strong>",
-  "summary": "Tools for running HashiCorp <strong>Vault</strong> on <strong>Kubernetes</strong>",
+  "tagline": "KubeVault - Run Production-Grade Vault on Kubernetes",
+  "summary": "KubeVault is a Git-Ops ready, production-grade solution <br/> for deploying and configuring Hashicorp's Vault on Kubernetes.",
+  "heroAreaTitle": "Run Production-Grade <br/> Vault on Kubernetes",
   "published": true,
   "author": "AppsCode Inc.",
   "website": {
@@ -11,7 +12,7 @@
     "path": "",
     "themeColor": "#326CE5"
   },
-  "keywords": "kubernetes appscode vault secret csi security",
+  "keywords": "kubernetes, hashicorp vault, vault kubernetes, appscode, vault secret, certificates, security, access tokens, tls, secret engines, user management",
   "heroImage": {
     "src": "https://cdn.appscode.com/images/products/kubevault/kubevault-hero.png",
     "alt": "KubeVault"
@@ -48,82 +49,147 @@
   ],
   "features": [
     {
-      "title": "Automatic Initialization & Unsealing",
+      "title": "Vault Kubernetes Deployment",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-1.png",
+        "src": "/assets/images/products/kubevault/features/feature-1.png",
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/unlock.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/vaultserverversions.svg",
+        "alt": "vaultserverversions"
       },
       "summary": "",
-      "description": "When a Vault server is started, it starts in a sealed state. In a sealed state, almost no operation is possible with a Vault server. So, you will need to unseal Vault. Vault operator provides automatic initialization and unsealing facility. When you deploy or scale up a Vault server, you don't have worry about unsealing new Vault pods. Vault operator will do it for you. Also, it provides a secure way to store unseal keys and root token."
+      "description": "You can deploy TLS secured Vault Servers on Kubernetes using KubeVault. You can manage TLS with self-signed or cert-manager managed TLS. Running & managing Vault & it’s resources has never been easier."
     },
     {
-      "title": "Manage Vault Policy",
+      "title": "Auto Initialization & Unsealing",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-2.png",
+        "src": "/assets/images/products/kubevault/features/feature-1.png",
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/courthouse.png",
+        "src": "/assets/images/products/kubevault/features/automated-unsealing.svg",
         "alt": "http"
       },
       "summary": "",
-      "description": "Policies in Vault provide a declarative way to grant or forbid access to certain paths and operations in Vault. You can create, delete and update policy in Vault in a Kubernetes native way using Vault operator. Vault operator also provides a way to bind Vault policy with Kubernetes service accounts. ServiceAccounts will have the permissions that are specified in the policy."
+      "description": "KubeVault provides various ways to automatically initialize & unseal your Vault Servers. You can use your choice of cloud providers among GCP, AWS, Azure, etc. or even K8s secret to store unseal keys & vault token."
     },
     {
-      "title": "AWS Secret Engine",
+      "title": "Consume Vault Secrets using Secrets Store CSI Driver",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-3.png",
+        "src": "/assets/images/products/kubevault/features/feature-5.png",
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/aws.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/secrets.svg",
+        "alt": "secrets"
       },
       "summary": "",
-      "description": "AWS secret engine in Vault generates AWS access credentials dynamically based on IAM policies. This makes AWS IAM user management easier. Using Vault operator, you can configure AWS secret engine and issue AWS access credential via Vault. A User can request AWS credential and after it's been approved Vault operator will create a Kubernetes Secret containing the AWS credential and also creates RBAC Role and RoleBinding so that the user can access the secret."
+      "description": "KubeVault works seamlessly with the Secrets Store CSI Driver. Consuming Vault secrets in K8s resources is way more simpler with the automation provided by KubeVault. "
     },
     {
-      "title": "Azure Secret Engine",
+      "title": "Manage DB Users Privileges",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-4.png",
+        "src": "/assets/images/products/kubevault/features/feature-4.png",
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/azure.png",
+        "src": "/assets/images/products/kubevault/features/database-users.svg",
         "alt": "http"
       },
       "summary": "",
-      "description": "The Azure secrets engine dynamically generates Azure service principals and role assignments. Vault roles can be mapped to one or more Azure roles, providing a simple, flexible way to manage the permissions granted to generated service principals. By using vault operator, one can easily configure vault azure secret engine and make request to generate service principals. Once the request is approved, the operator will get the credentials from vault and create kubernetes secret for storing those credentials. The operator also creates RBAC role and RoleBinding so that user can access the secret."
+      "description": "Managing DB user privileges is a complicated task which is made simple with KubeVault. KubeVault works seamlessly with KubeDB managed DBs. CRDs like SecretAccessRequest, SecretRoleBinding, etc. make grant, revoke, audit user privileges extremely convenient. "
     },
     {
-      "title": "GCP Secret Engine",
+      "title": "Storage Backend",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-5.png",
+        "src": "/assets/images/products/kubevault/features/feature-2.png",
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/google-cloud.png",
+        "src": "/assets/images/products/kubevault/features/storageclasses.svg",
+        "alt": "storageclasses"
+      },
+      "summary": "",
+      "description": "KubeVault lets you choose your preferred way to store & persist Vault data. Each Storage Backend has its own pros and cons. GCS, AWS S3, Azure, Consul, Raft, Etcd, MySQL, Postgres, DynanoDB, etc. to name a few."
+    },
+    {
+      "title": "Authentication Method",
+      "image": {
+        "src": "/assets/images/products/kubevault/features/feature-3.png",
+        "alt": "http"
+      },
+      "icon": {
+        "src": "/assets/images/products/kubevault/features/auth.svg",
         "alt": "http"
       },
       "summary": "",
-      "description": "The Google Cloud Vault secrets engine dynamically generates Google Cloud service account keys and OAuth tokens based on IAM policies. This enables users to gain access to Google Cloud resources without needing to create or manage a dedicated service account. By using vault operator, one can easily configure vault gcp secret engine and make request to generate Google Cloud account keys and OAuth tokens based on IAM policies. Once the request is approved, the operator will get the credentials from vault and create kubernetes secret for storing those credentials. The operator also creates RBAC role and RoleBinding so that user can access the secret."
+      "description": "You can authenticate to Vault using numerous ways using KubeVault. Each of them has their own use-cases. Kubernetes Service Account token, AWS IAM, Azure, Userpass, JWT/OIDC, etc. to name a few."
     },
     {
       "title": "Database Secret Engine",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-6.png",
+        "src": "/assets/images/products/kubevault/features/feature-4.png",
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubevault/features/database-view.png",
+        "src": "/assets/images/products/kubevault/features/database-view.png",
         "alt": "http"
       },
       "summary": "",
-      "description": "PostgreSQL, MySQL & MongoDB database secret engine in Vault generates MongoDB database credentials dynamically based on configured roles. Using Vault operator, you can configure secret engine, create role and issue credential from Vault. A User can request credential and after it's been approved Vault operator will create a Kubernetes Secret containing the credential and also creates RBAC Role and RoleBinding so that the user can access the Secret."
+      "description": "PostgreSQL, MySQL, Elasticsearch & MongoDB database secret engine in Vault generates database credentials dynamically based on configured roles. Using Vault, you can configure Secret Engine, Create Role and issue dynamic credentials. "
+    },
+    {
+      "title": "Azure Secret Engine",
+      "image": {
+        "src": "/assets/images/products/kubevault/features/feature-4.png",
+        "alt": "http"
+      },
+      "icon": {
+        "src": "/assets/images/products/kubevault/features/azure.png",
+        "alt": "http"
+      },
+      "summary": "",
+      "description": "Azure Secrets Engine dynamically generates Azure service principals and role assignments. Vault roles can be mapped to one or more Azure roles, providing a simple way to manage the permissions granted to generated service principals."
+    },
+    {
+      "title": "AWS Secret Engine",
+      "image": {
+        "src": "/assets/images/products/kubevault/features/feature-4.png",
+        "alt": "http"
+      },
+      "icon": {
+        "src": "/assets/images/products/kubevault/features/aws.png",
+        "alt": "http"
+      },
+      "summary": "",
+      "description": "AWS Secret Engine in Vault generates AWS access credentials dynamically based on IAM policies. Using Vault operator, you can configure AWS secret engine and issue AWS access credentials."
+    },
+    {
+      "title": "GCP Secret Engine",
+      "image": {
+        "src": "/assets/images/products/kubevault/features/feature-4.png",
+        "alt": "http"
+      },
+      "icon": {
+        "src": "/assets/images/products/kubevault/features/google-cloud.png",
+        "alt": "http"
+      },
+      "summary": "",
+      "description": "Google Cloud Vault secrets engine dynamically generates Google Cloud service account keys and OAuth tokens based on IAM policies. By using Vault user can easily configure vault GCP Secret Engine and make request to generate Google Cloud account keys and OAuth tokens based on IAM policies."
+    },
+    {
+      "title": "Kubectl Plugin",
+      "image": {
+        "src": "/assets/images/products/kubevault/features/feature-6.png",
+        "alt": "http"
+      },
+      "icon": {
+        "src": "/assets/images/products/kubevault/features/plugin.svg",
+        "alt": "http"
+      },
+      "summary": "",
+      "description": "KubeVault CLI is a kubectl plugin that supports various handy features while using KubeVault. It automates numerous tedious tasks & provides simpler ways to interact with Vault. It’s possible to do CRUD operations on Vault unseal keys, root token stored in different clouds, generate SecretProviderClass, etc. with KubeVault CLI. "
     }
   ],
   "versions": [
