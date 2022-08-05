@@ -159,6 +159,7 @@
     {
       "version": "v2022.08.08",
       "hostDocs": true,
+      "show": true,
       "info": {
         "autoscaler": "v0.13.0",
         "cli": "v0.28.0",
@@ -174,7 +175,6 @@
     {
       "version": "v2022.08.04-rc.1",
       "hostDocs": true,
-      "show": true,
       "info": {
         "autoscaler": "v0.13.0-rc.1",
         "cli": "v0.28.0-rc.1",
@@ -190,7 +190,6 @@
     {
       "version": "v2022.08.02-rc.0",
       "hostDocs": true,
-      "show": true,
       "info": {
         "autoscaler": "v0.13.0-rc.0",
         "cli": "v0.28.0-rc.0",
@@ -601,7 +600,7 @@
       "hostDocs": false
     }
   ],
-  "latestVersion": "v2022.08.04-rc.1",
+  "latestVersion": "v2022.08.08",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubedb",
