@@ -157,6 +157,21 @@
       "show": true
     },
     {
+      "version": "v2022.08.08",
+      "hostDocs": true,
+      "info": {
+        "autoscaler": "v0.13.0",
+        "cli": "v0.28.0",
+        "dashboard": "v0.4.0",
+        "installer": "v2022.08.08",
+        "ops-manager": "v0.15.0",
+        "provisioner": "v0.28.0",
+        "schema-manager": "v0.4.0",
+        "ui-server": "v0.4.0",
+        "webhook-server": "v0.4.0"
+      }
+    },
+    {
       "version": "v2022.08.04-rc.1",
       "hostDocs": true,
       "show": true,
@@ -586,7 +601,7 @@
       "hostDocs": false
     }
   ],
-  "latestVersion": "v2022.05.24",
+  "latestVersion": "v2022.08.04-rc.1",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubedb",
