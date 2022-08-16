@@ -50,6 +50,7 @@
   "features": [
     {
       "title": "Vault Kubernetes Deployment",
+      "url": "vault-kubernetes-deployment",
       "image": {
         "src": "/assets/images/products/kubevault/features/feature-1.png",
         "alt": "http"
@@ -63,6 +64,7 @@
     },
     {
       "title": "Auto Initialization & Unsealing",
+      "url": "auto-initialization-and-unsealing",
       "image": {
         "src": "/assets/images/products/kubevault/features/feature-1.png",
         "alt": "http"
@@ -76,6 +78,7 @@
     },
     {
       "title": "Consume Vault Secrets using Secrets Store CSI Driver",
+      "url": "consume-vault-secrets-using-secrets-store-csi-driver",
       "image": {
         "src": "/assets/images/products/kubevault/features/feature-5.png",
         "alt": "http"
@@ -89,6 +92,7 @@
     },
     {
       "title": "Manage DB Users Privileges",
+      "url": "manage-db-users-privileges",
       "image": {
         "src": "/assets/images/products/kubevault/features/feature-4.png",
         "alt": "http"
@@ -102,6 +106,7 @@
     },
     {
       "title": "Storage Backend",
+      "url": "storage-backend",
       "image": {
         "src": "/assets/images/products/kubevault/features/feature-2.png",
         "alt": "http"
@@ -115,6 +120,7 @@
     },
     {
       "title": "Authentication Method",
+      "url": "authentication-method",
       "image": {
         "src": "/assets/images/products/kubevault/features/feature-3.png",
         "alt": "http"
@@ -128,6 +134,7 @@
     },
     {
       "title": "Database Secret Engine",
+      "url": "database-secret-engine",
       "image": {
         "src": "/assets/images/products/kubevault/features/feature-4.png",
         "alt": "http"
@@ -141,6 +148,7 @@
     },
     {
       "title": "Azure Secret Engine",
+      "url": "azure-secret-engine",
       "image": {
         "src": "/assets/images/products/kubevault/features/feature-4.png",
         "alt": "http"
@@ -154,6 +162,7 @@
     },
     {
       "title": "AWS Secret Engine",
+      "url": "aws-secret-engine",
       "image": {
         "src": "/assets/images/products/kubevault/features/feature-4.png",
         "alt": "http"
@@ -167,6 +176,7 @@
     },
     {
       "title": "GCP Secret Engine",
+      "url": "gcp-secret-engine",
       "image": {
         "src": "/assets/images/products/kubevault/features/feature-4.png",
         "alt": "http"
@@ -180,6 +190,7 @@
     },
     {
       "title": "Kubectl Plugin",
+      "url": "kubectl-plugin",
       "image": {
         "src": "/assets/images/products/kubevault/features/feature-6.png",
         "alt": "http"
