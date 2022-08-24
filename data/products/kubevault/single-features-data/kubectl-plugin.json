@@ -1,0 +1,13 @@
+{
+  "id": "kubectl-plugin",
+  "title": "Kubectl Plugin",
+  "meta": "KubeVault CLI is a kubectl plugin that supports various features using KubeVault. It automates numerous tedious tasks & simplifies interaction with Vault.",
+  "innerContent": [
+    {
+      "id": 1,
+      "title": "KubeVault CLI",
+      "description": "KubeVault CLI is an integral part of the KubeVault operator. KubeVault CLI is a kubectl plugin that supports various handy features while using KubeVault. It automates numerous tedious tasks & provides simpler ways to interact with Vault. It’s possible to do CRUD operations on Vault unseal keys, root token stored in different clouds, generate SecretProviderClass, etc. with KubeVault CLI.",
+      "img": "/assets/images/features/illustrations/kubevault-cli.jpg"
+    }
+  ]
+}

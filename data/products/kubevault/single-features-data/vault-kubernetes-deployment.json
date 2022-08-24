@@ -1,0 +1,19 @@
+{
+  "id": "vault-kubernetes-deployment",
+  "title": "Vault Kubernetes Deployment",
+  "meta": "Deploy TLS secured Vault Servers on Kubernetes using KubeVault. You can use cert-manager to manage VaultServer TLS or you can manage TLS with self-signed.",
+  "innerContent": [
+    {
+      "id": 1,
+      "title": "Provisioning",
+      "description": "Kubevault provides various ways to deploy & configure Vault in production. Numerous Storage Backend, Auth methods, Auto Unseler Mode, TLS, Secret Engines, Dynamic Secrets, Identity-bases Access, DB user privilege management, etc. makes KubeVault Git-ops ready. You can simply provision Vault Server on Kubernetes using KubeVault. Don’t need to worry about all the knowledge of Kubernetes Concepts & setups.",
+      "img": "/assets/images/features/illustrations/provisioning.jpg"
+    },
+    {
+      "id": 2,
+      "title": "TLS Management",
+      "description": "Secure your Vault Server using TLS. Deploy TLS secured Vault Servers on Kubernetes using KubeVault. You can use cert-manager to manage Vault Server TLS. Also, you can use TLS with self-signed. Running & Managing Vault & its resources has never been easier.",
+      "img": "/assets/images/features/illustrations/tls-management.jpg"
+    }
+  ]
+}

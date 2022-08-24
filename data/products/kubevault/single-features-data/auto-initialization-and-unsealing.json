@@ -1,0 +1,37 @@
+{
+  "id": "auto-initialization-and-unsealing",
+  "title": "Auto Initialization and Unsealing",
+  "meta": "Automatically initialize & unseal your Vault Servers with KubeVault. Use cloud providers like GCP, AWS, Azure or K8s secret to store & unseal keys & tokens",
+  "innerContent": [
+    {
+      "id": 1,
+      "title": "Auto Initialization",
+      "description": "When a Vault server is started, it starts in a sealed state. In a sealed state, almost no operation is possible with a Vault server. So, you will need to unseal Vault. KubeVault operator provides automatic initialization and unsealing facility.",
+      "img": "/assets/images/features/illustrations/auto-initialization.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Store and Unseal your Secret with AWS",
+      "description": "When you deploy or scale up a Vault server, you don’t have to worry about unsealing new Vault pods. The KubeVault operator will do it for you. You can simply use Amazon Web Services (AWS) Key Management Service (KSM) Systems Manager (SSM) to store, unseal keys & vault root token.",
+      "img": "/assets/images/features/illustrations/store-and-unseal-your-secret-with-aws.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Store and Unseal your Secret with AZURE",
+      "description": "When you deploy or scale up a Vault server, you don’t have to worry about unsealing new Vault pods. The KubeVault operator will do it for you. You can simply use Azure Key Vault to store, unseal keys & vault root token.",
+      "img": "/assets/images/features/illustrations/store-and-unseal-your-secret-with-azure.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Store and Unseal your Secret with GCP",
+      "description": "When you deploy or scale up a Vault server, you don’t have to worry about unsealing new Vault pods. The KubeVault operator will do it for you. You can simply use Google Cloud Platform (GCP) Key Management Service (KSM) in Google Cloud Store (GCS) to store, unseal keys & vault root token.",
+      "img": "/assets/images/features/illustrations/store-and-unseal-your-secret-with-gcp.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Store and Unseal your Secret with K8S",
+      "description": "When you deploy or scale up a Vault server, you don’t have to worry about unsealing new Vault pods. The KubeVault operator will do it for you. You can simply use Kubernetes Secret to store, unseal keys & vault root token.",
+      "img": "/assets/images/features/illustrations/store-and-unseal-your-secret-with-k8s.jpg"
+    }
+  ]
+}

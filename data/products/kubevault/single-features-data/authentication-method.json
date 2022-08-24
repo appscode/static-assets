@@ -1,0 +1,13 @@
+{
+  "id": "authentication-method",
+  "title": "Authentication Method",
+  "meta": "You can authenticate to Vault using numerous ways using KubeVault like Kubernetes Service Account token, AWS IAM, Azure, Userpass, JWT/OIDC, etc.",
+  "innerContent": [
+    {
+      "id": 1,
+      "title": "Authentication Method",
+      "description": "Auth methods are the components in Vault that perform authentication and are responsible for assigning identity and a set of policies to a user. In all cases, Vault will enforce authentication as part of the request processing. In most cases, Vault will delegate the authentication administration and decision to the relevant configured external auth method. Having multiple auth methods enables you to use an auth method that makes the most sense for your use case of Vault and your organization. KubeVault Supports multiple authentication methods like AWS IAM, Azure, GCP IAM, JWT/OIDC, Kubernetes Auth, TLS Certificates, Token, Userpass etc.",
+      "img": "/assets/images/features/illustrations/authentication-method.jpg"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "storage-backend",
+  "title": "Storage Backend",
+  "meta": "KubeVault lets you choose multiple way to store & persist Vault data. KubeVault supports multiple Storage Backend like GCS, AWS S3, Azure, MySQL, Postgres etc.",
+  "innerContent": [
+    {
+      "id": 1,
+      "title": "Storage Backend",
+      "description": "Storage Backend represents the location for the durable storage of Vault's information. KubeVault lets you choose multiple way to store & persist Vault data. KubeVault supports multiple Storage Backend like GCS, AWS S3, Azure, MySQL, PostgreSQL, Consul, Raft, DynamoDB, Etcd, Filesystem, OpenStack Swift, In Memory etc.",
+      "img": "/assets/images/features/illustrations/storage-backend.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Cloud Storage Backend",
+      "description": "Cloud Storage backend is used to persist Vault's data in Cloud Storage. KubeVault Provides support for multiple Storage Backend from Cloud Providers like Amazon Web Services (AWS) S3, Microsoft Azure Storage Container, Google Cloud Storage etc.",
+      "img": "/assets/images/features/illustrations/cloud-storage-backend.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Database Storage Backend",
+      "description": "Database Storage backend is used to persist Vault's data in Database Storage. KubeVault Provides support for multiple Database Storage Backend like MySQL, PostgreSQL, etc.",
+      "img": "/assets/images/features/illustrations/database-storage-backend.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Integrated Storage Backend",
+      "description": "Integrated Storage backend is used to persist Vault's data. Unlike other storage backends, Integrated Storage does not operate from a single source of data. Instead all the nodes in a Vault cluster will have a replicated copy of Vault's data. Data will be replicated across all the nodes. KubeVault Provides support for Integrated Storage Backend via Raft.",
+      "img": "/assets/images/features/illustrations/integrated-storage-backend.jpg"
+    }
+  ]
+}

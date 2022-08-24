@@ -1,0 +1,19 @@
+{
+  "id": "manage-db-users-privileges",
+  "title": "Manage DB Users Privileges",
+  "meta": "KubeVault works seamlessly with KubeDB managed DBs, CRDs like SecretAccessRequest, SecretRoleBinding etc. to grant, revoke, audit user privileges convenient.",
+  "innerContent": [
+    {
+      "id": 1,
+      "title": "Manage DB Users Privileges using SecretAccessRequest",
+      "description": "A SecretAccessRequest is a Kubernetes CustomResourceDefinition (CRD) which allows a user to request a Vault server for credentials in a Kubernetes native way. A SecretAccessRequest can be created under various roles that can be enabled in a SecretEngine like AWSRole, GCPRole, ElasticsearchRole, MongoDBRole, etc. This is a more human friendly way to manage DB privileges. KubeVault operator lets you manage your DB user privileges with dynamic secrets rather than hard-coded credentials using SecretAccessRequest. This means that services that need to access a database no longer need to hardcode credentials. They can simply request them from Vault. Thus granting, revoking and monitoring user privileges is extremely easy with KubeVault.",
+      "img": "/assets/images/features/illustrations/manage-db-users-privileges-using-secretaccessrequest.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Manage DB Users Privileges using SecretRoleBinding",
+      "description": "A SecretRoleBinding is a Kubernetes CustomResourceDefinition (CRD) which allows a user to bind a set of roles to a set of users. Using the SecretRoleBinding it’s possible to bind various roles like AWSRole, GCPRole, ElasticsearchRole, MongoDBRole, etc. to Kubernetes ServiceAccounts. This way is more machine friendly and convenient for running your application with specific permissions. Injecting Vault Secrets into Kubernetes resources requires specific permissions & using SecretRoleBinding it’s very easy to bind a set of policies to a set of Kubernetes Service Accounts.",
+      "img": "/assets/images/features/illustrations/manage-db-users-privileges-using-secretrolebinding.jpg"
+    }
+  ]
+}
