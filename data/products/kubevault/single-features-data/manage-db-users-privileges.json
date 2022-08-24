@@ -1,6 +1,6 @@
 {
   "id": "manage-db-users-privileges",
-  "title": "Manage DB Users Privilegest",
+  "title": "Manage DB Users Privileges",
   "meta": "KubeVault works seamlessly with KubeDB managed DBs, CRDs like SecretAccessRequest, SecretRoleBinding etc. to grant, revoke, audit user privileges convenient.",
   "innerContent": [
     {

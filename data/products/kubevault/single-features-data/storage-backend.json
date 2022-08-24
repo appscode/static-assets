@@ -18,7 +18,7 @@
     {
       "id": 3,
       "title": "Database Storage Backend",
-      "description": "Database Storage backend is used to persist Vault's data in Database Storage. KubeVault Provides support for multiple Database Storage Backend like  Amazon Web Services (AWS) S3, Microsoft Azure Storage Container, Google Cloud Storage etc.",
+      "description": "Database Storage backend is used to persist Vault's data in Database Storage. KubeVault Provides support for multiple Database Storage Backend like MySQL, PostgreSQL, etc.",
       "img": "/assets/images/features/illustrations/database-storage-backend.jpg"
     },
     {
