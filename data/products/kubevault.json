@@ -77,8 +77,8 @@
       "description": "KubeVault provides various ways to automatically initialize & unseal your Vault Servers. You can use your choice of cloud providers among GCP, AWS, Azure, etc. or even K8s secret to store unseal keys & vault token."
     },
     {
-      "title": "Consume Vault Secrets using Secrets Store CSI Driver",
-      "url": "consume-vault-secrets-using-secrets-store-csi-driver",
+      "title": "Consume KubeVault Secrets with CSI",
+      "url": "consume-kubevault-secrets-with-csi",
       "image": {
         "src": "/assets/images/products/kubevault/features/feature-5.png",
         "alt": "http"
