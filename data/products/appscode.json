@@ -188,11 +188,6 @@
       "summary": "Turbocharge your Kubernetes journey with AppsCode's open source Kubernetes operators and developer tools, like, KubeDB, Voyager, Stash, KubeVault, Pharmer and others. Join our vibrant community of users and let's get stuff done!",
       "social_link": [
         {
-          "text": "JOIN OUR SLACK",
-          "url": "https://slack.appscode.com",
-          "icon": "/assets/images/icon/slack-outlined.svg"
-        },
-        {
           "text": "VISIT OUR GITHUB PAGE",
           "url": "https://github.com/appscode",
           "icon": "/assets/images/icon/github-outlined.svg"
@@ -211,14 +206,6 @@
           "sub_title": "Github Stars",
           "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",
           "url": "https://github.com/appscode"
-        },
-        {
-          "name": "Slack",
-          "icon": "/assets/images/icon/count/slack.svg",
-          "users": "2,000+",
-          "sub_title": "Developer Community",
-          "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",
-          "url": "https://slack.appscode.com"
         },
         {
           "name": "Docker",
