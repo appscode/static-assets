@@ -4,7 +4,6 @@
   "fullname": "KubeVault by AppsCode",
   "tagline": "KubeVault - Run Production-Grade Vault on Kubernetes",
   "summary": "KubeVault is a Git-Ops ready, production-grade solution <br/> for deploying and configuring Hashicorp's Vault on Kubernetes.",
-  "heroAreaTitle": "Run Production-Grade <br/> Vault on Kubernetes",
   "published": true,
   "author": "AppsCode Inc.",
   "website": {
@@ -210,6 +209,17 @@
       "show": true
     },
     {
+      "version": "v2022.09.05-rc.0",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "cli": "v0.9.0-rc.0",
+        "installer": "v2022.09.05-rc.0",
+        "operator": "v0.9.0-rc.0",
+        "unsealer": "v0.9.0-rc.0"
+      }
+    },
+    {
       "version": "v2022.06.16",
       "hostDocs": true,
       "show": true,
@@ -276,7 +286,7 @@
       }
     }
   ],
-  "latestVersion": "v2022.06.16",
+  "latestVersion": "v2022.09.05-rc.0",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubevault",
