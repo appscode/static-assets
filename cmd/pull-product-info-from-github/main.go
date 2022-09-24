@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/json"
 	"io/fs"
-	"io/ioutil"
 	"log"
+	"os"
 	"strings"
 
 	staticassets "github.com/appscode/static-assets"
@@ -119,7 +119,7 @@ func main() {
 		}
 
 		filename := "/home/tamal/go/src/github.com/appscode/static-assets/data/products/" + name
-		err = ioutil.WriteFile(filename, buf.Bytes(), 0o644)
+		err = os.WriteFile(filename, buf.Bytes(), 0o644)
 		if err != nil {
 			log.Fatalln("failed to write", filename)
 		}
