@@ -159,6 +159,7 @@
     {
       "version": "v2022.10.18",
       "hostDocs": true,
+      "show": true,
       "info": {
         "autoscaler": "v0.14.0",
         "cli": "v0.29.0",
