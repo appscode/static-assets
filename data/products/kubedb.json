@@ -630,7 +630,7 @@
       "hostDocs": false
     }
   ],
-  "latestVersion": "v2022.08.08",
+  "latestVersion": "v2022.10.18",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubedb",
