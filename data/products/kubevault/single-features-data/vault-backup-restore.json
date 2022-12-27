@@ -1,0 +1,14 @@
+{
+    "id": "vault-backup-restore",
+    "title": "Vault Backup & Restore",
+    "meta": "Backup and Restore your KubeVault-managed Vault cluster. You can also Backup and Restore any Vault cluster that has been deployed with Vault Helm Charts.",
+    "innerContent": [
+      {
+        "id": 1,
+        "title": "Backup & Restore",
+        "description": "Vault provides a set of standard operating procedures (SOP) for backing up a Vault cluster. It protects your Vault cluster against data corruption or sabotage of which Disaster Recovery Replication might not be able to protect against. Stash by AppsCode lets you Backup & Restore your Vault cluster managed by KubeVault or deployed with Vault Helm-charts.",
+        "img": "/assets/images/features/illustrations/provisioning.jpg"
+      }
+    ]
+  }
+  
