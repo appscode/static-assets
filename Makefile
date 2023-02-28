@@ -36,8 +36,8 @@ gen:
 
 publish:
 	@echo "publishing files"
-	gsutil -m rsync -d -r $$(pwd)/files gs://cdn.appscode.com/files
-	gsutil -m acl ch -u AllUsers:R -r gs://cdn.appscode.com/files
+	gsutil -m rsync -a public-read -d -r $$(pwd)/files gs://cdn.appscode.com/files
+	# gsutil -m acl ch -u AllUsers:R -r gs://cdn.appscode.com/files
 	@echo "publishing images"
-	gsutil -m rsync -d -r $$(pwd)/images gs://cdn.appscode.com/images
-	gsutil -m acl ch -u AllUsers:R -r gs://cdn.appscode.com/images
+	gsutil -m rsync -d -a public-read -r $$(pwd)/images gs://cdn.appscode.com/images
+	# gsutil -m acl ch -u AllUsers:R -r gs://cdn.appscode.com/images
