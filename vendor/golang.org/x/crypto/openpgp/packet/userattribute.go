@@ -9,7 +9,6 @@ import (
 	"image"
 	"image/jpeg"
 	"io"
-	"io/ioutil"
 )
 
 const UserAttrImageSubpacket = 1

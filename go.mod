@@ -1,13 +1,18 @@
 module github.com/appscode/static-assets
 
-go 1.16
+go 1.19
 
 require (
-	github.com/google/go-github/v32 v32.1.0
-	github.com/json-iterator/go v1.1.12
-	github.com/modern-go/reflect2 v1.0.2
-	github.com/russross/blackfriday v1.5.3-0.20190124082335-a477dd164691
-	golang.org/x/crypto v0.6.0
-	golang.org/x/net v0.7.0
-	kmodules.xyz/resource-metadata v0.15.0
+	github.com/google/go-github/v50 v50.1.0
+	github.com/russross/blackfriday v1.6.0
+)
+
+require (
+	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/google/go-querystring v1.1.0 // indirect
+	golang.org/x/crypto v0.6.0 // indirect
+	golang.org/x/net v0.7.0 // indirect
+	golang.org/x/oauth2 v0.5.0 // indirect
+	google.golang.org/appengine v1.6.7 // indirect
+	google.golang.org/protobuf v1.28.0 // indirect
 )

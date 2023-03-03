@@ -6,7 +6,6 @@ package packet
 
 import (
 	"io"
-	"io/ioutil"
 	"strings"
 )
 
