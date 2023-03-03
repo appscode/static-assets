@@ -571,7 +571,7 @@ func (c *Client) Do(ctx context.Context, req *http.Request, v interface{}) (*Res
 		// Issue #1022
 		aerr, ok := err.(*AcceptedError)
 		if ok {
-			b, readErr := ioutil.ReadAll(resp.Body)
+			b, readErr := io.ReadAll(resp.Body)
 			if readErr != nil {
 				return response, readErr
 			}
@@ -782,7 +782,7 @@ func CheckResponse(r *http.Response) error {
 		return nil
 	}
 	errorResponse := &ErrorResponse{Response: r}
-	data, err := ioutil.ReadAll(r.Body)
+	data, err := io.ReadAll(r.Body)
 	if err == nil && data != nil {
 		json.Unmarshal(data, errorResponse)
 	}

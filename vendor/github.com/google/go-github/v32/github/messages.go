@@ -154,7 +154,7 @@ func ValidatePayload(r *http.Request, secretToken []byte) (payload []byte, err e
 	switch ct := r.Header.Get("Content-Type"); ct {
 	case "application/json":
 		var err error
-		if body, err = ioutil.ReadAll(r.Body); err != nil {
+		if body, err = io.ReadAll(r.Body); err != nil {
 			return nil, err
 		}
 
@@ -168,7 +168,7 @@ func ValidatePayload(r *http.Request, secretToken []byte) (payload []byte, err e
 		const payloadFormParam = "payload"
 
 		var err error
-		if body, err = ioutil.ReadAll(r.Body); err != nil {
+		if body, err = io.ReadAll(r.Body); err != nil {
 			return nil, err
 		}
 
