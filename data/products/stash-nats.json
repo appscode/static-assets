@@ -28,6 +28,10 @@
       "show": true
     },
     {
+      "version": "2.8.2-v9",
+      "hostDocs": true
+    },
+    {
       "version": "2.8.2-v8",
       "hostDocs": true
     },
@@ -68,6 +72,10 @@
       "version": "2.8.2",
       "hostDocs": true,
       "show": true
+    },
+    {
+      "version": "2.6.1-v14",
+      "hostDocs": true
     },
     {
       "version": "2.6.1-v13",
