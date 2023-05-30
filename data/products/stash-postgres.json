@@ -28,6 +28,10 @@
       "show": true
     },
     {
+      "version": "15.1-v6",
+      "hostDocs": true
+    },
+    {
       "version": "15.1-v5",
       "hostDocs": true
     },
@@ -53,6 +57,10 @@
       "version": "15.1",
       "hostDocs": true,
       "show": true
+    },
+    {
+      "version": "14.0-v14",
+      "hostDocs": true
     },
     {
       "version": "14.0-v13",
@@ -120,6 +128,10 @@
       "version": "14.0",
       "hostDocs": true,
       "show": true
+    },
+    {
+      "version": "13.1-v22",
+      "hostDocs": true
     },
     {
       "version": "13.1-v21",
@@ -214,12 +226,12 @@
       "show": true
     },
     {
-      "version": "13.1.0-v2",
+      "version": "13.1-v2",
       "hostDocs": true,
       "show": true
     },
     {
-      "version": "13.1-v2",
+      "version": "13.1.0-v2",
       "hostDocs": true,
       "show": true
     },
@@ -232,6 +244,10 @@
       "version": "13.1.0",
       "hostDocs": true,
       "show": true
+    },
+    {
+      "version": "12.4-v25",
+      "hostDocs": true
     },
     {
       "version": "12.4-v24",
@@ -326,12 +342,12 @@
       "show": true
     },
     {
-      "version": "12.4-v5",
+      "version": "12.4.0-v5",
       "hostDocs": true,
       "show": true
     },
     {
-      "version": "12.4.0-v5",
+      "version": "12.4-v5",
       "hostDocs": true,
       "show": true
     },
@@ -359,6 +375,10 @@
       "version": "12.4.0",
       "hostDocs": true,
       "show": true
+    },
+    {
+      "version": "11.9-v25",
+      "hostDocs": true
     },
     {
       "version": "11.9-v24",
@@ -552,6 +572,10 @@
       "hostDocs": true
     },
     {
+      "version": "10.14-v25",
+      "hostDocs": true
+    },
+    {
       "version": "10.14-v24",
       "hostDocs": true
     },
@@ -644,12 +668,12 @@
       "show": true
     },
     {
-      "version": "10.14-v5",
+      "version": "10.14.0-v5",
       "hostDocs": true,
       "show": true
     },
     {
-      "version": "10.14.0-v5",
+      "version": "10.14-v5",
       "hostDocs": true,
       "show": true
     },
@@ -740,6 +764,10 @@
     },
     {
       "version": "10.2-beta.20200708",
+      "hostDocs": true
+    },
+    {
+      "version": "9.6.19-v25",
       "hostDocs": true
     },
     {
