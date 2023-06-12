@@ -31,6 +31,6 @@
     "kubedb",
     "stash",
     "kubevault",
-    "kubeform"
+    "voyager"
   ]
 }
