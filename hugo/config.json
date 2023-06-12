@@ -24,8 +24,8 @@
     "c1": ["voyager", "kubeform"]
   },
   "ossMenu": {
-    "c0": ["guard", "kubed"],
-    "c1": ["pharmer", "swift", "searchlight"]
+    "c0": ["guard"],
+    "c1": ["kubed"]
   },
   "footerLinks": [
     "kubedb",
