@@ -60,8 +60,8 @@
       "namespace": "demo"
     },
     "spec": {
+      "replicas": "3",
       "version": "3.4.0",
-      "replicas": "1",
       "storageType": "Durable",
       "storage": {
         "storageClassName": "standard",
