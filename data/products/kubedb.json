@@ -77,7 +77,7 @@
         "alt": "http"
       },
       "summary": "",
-      "description": "Standard Kubernetes is all you need. If you can run Kubernetes, you can provision and manage databases using KubeDB. Use standard Kubernetes CLI and API to provision and manage databases."
+      "description": "Runs on any Kubernetes distribution including OpenShift, Rancher, VMware Tanzu. If you can run Kubernetes, you can provision and manage databases using KubeDB. Use standard Kubernetes CLI and API to provision and manage databases."
     },
     {
       "title": "Performance",
