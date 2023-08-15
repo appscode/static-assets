@@ -28,6 +28,10 @@
       "show": true
     },
     {
+      "version": "5.7-v22",
+      "hostDocs": true
+    },
+    {
       "version": "5.7-v21",
       "hostDocs": true
     },
@@ -119,12 +123,12 @@
       "show": true
     },
     {
-      "version": "5.7-v2",
+      "version": "5.7.0-v2",
       "hostDocs": true,
       "show": true
     },
     {
-      "version": "5.7.0-v2",
+      "version": "5.7-v2",
       "hostDocs": true,
       "show": true
     },
