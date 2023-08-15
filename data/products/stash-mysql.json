@@ -28,6 +28,10 @@
       "show": true
     },
     {
+      "version": "8.0.21-v21",
+      "hostDocs": true
+    },
+    {
       "version": "8.0.21-v20",
       "hostDocs": true
     },
@@ -127,6 +131,10 @@
       "version": "8.0.21",
       "hostDocs": true,
       "show": true
+    },
+    {
+      "version": "8.0.14-v27",
+      "hostDocs": true
     },
     {
       "version": "8.0.14-v26",
@@ -282,6 +290,10 @@
       "hostDocs": true
     },
     {
+      "version": "8.0.3-v27",
+      "hostDocs": true
+    },
+    {
       "version": "8.0.3-v26",
       "hostDocs": true
     },
@@ -432,6 +444,10 @@
     },
     {
       "version": "8.0.3-beta.20200708",
+      "hostDocs": true
+    },
+    {
+      "version": "5.7.25-v27",
       "hostDocs": true
     },
     {

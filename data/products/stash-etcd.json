@@ -28,6 +28,10 @@
       "show": true
     },
     {
+      "version": "3.5.0-v14",
+      "hostDocs": true
+    },
+    {
       "version": "3.5.0-v13",
       "hostDocs": true
     },
