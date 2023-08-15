@@ -60,7 +60,7 @@
       "namespace": "demo"
     },
     "spec": {
-      "version": "8.0.27",
+      "version": "8.0.32",
       "storageType": "Durable",
       "storage": {
         "storageClassName": "standard",

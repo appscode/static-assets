@@ -60,7 +60,7 @@
       "namespace": "demo"
     },
     "spec": {
-      "version": "xpack-8.2.0",
+      "version": "xpack-8.8.0",
       "enableSSL": true,
       "replicas": 3,
       "storageType": "Durable",
