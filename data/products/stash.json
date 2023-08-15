@@ -182,7 +182,7 @@
       "show": true
     },
     {
-      "version": "v2023.08.14",
+      "version": "v2023.08.18",
       "hostDocs": true,
       "info": {
         "cli": "v0.31.0",
@@ -203,7 +203,7 @@
         "etcd": [
           "3.5.0-v14"
         ],
-        "installer": "v2023.08.14",
+        "installer": "v2023.08.18",
         "kubedump": [
           "0.1.0-v10"
         ],
