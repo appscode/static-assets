@@ -184,6 +184,7 @@
     {
       "version": "v2023.08.18",
       "hostDocs": true,
+      "show": true,
       "info": {
         "cli": "v0.31.0",
         "community": "v0.31.0",
