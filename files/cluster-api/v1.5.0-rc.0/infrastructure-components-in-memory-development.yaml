@@ -1,0 +1,1204 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+    control-plane: controller-manager
+  name: capim-system
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  annotations:
+    cert-manager.io/inject-ca-from: capim-system/capim-serving-cert
+    controller-gen.kubebuilder.io/version: v0.12.0
+  labels:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+    cluster.x-k8s.io/v1beta1: v1alpha1
+  name: inmemoryclusters.infrastructure.cluster.x-k8s.io
+spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Cg==
+        service:
+          name: capim-webhook-service
+          namespace: capim-system
+          path: /convert
+      conversionReviewVersions:
+      - v1
+      - v1beta1
+  group: infrastructure.cluster.x-k8s.io
+  names:
+    categories:
+    - cluster-api
+    kind: InMemoryCluster
+    listKind: InMemoryClusterList
+    plural: inmemoryclusters
+    singular: inmemorycluster
+  scope: Namespaced
+  versions:
+  - additionalPrinterColumns:
+    - description: Cluster
+      jsonPath: .metadata.labels['cluster\.x-k8s\.io/cluster-name']
+      name: Cluster
+      type: string
+    - description: Time duration since creation of InMemoryCluster
+      jsonPath: .metadata.creationTimestamp
+      name: Age
+      type: date
+    name: v1alpha1
+    schema:
+      openAPIV3Schema:
+        description: InMemoryCluster is the schema for the in-memory cluster API.
+        properties:
+          apiVersion:
+            description: 'APIVersion defines the versioned schema of this representation
+              of an object. Servers should convert recognized schemas to the latest
+              internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources'
+            type: string
+          kind:
+            description: 'Kind is a string value representing the REST resource this
+              object represents. Servers may infer this from the endpoint the client
+              submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds'
+            type: string
+          metadata:
+            type: object
+          spec:
+            description: InMemoryClusterSpec defines the desired state of the InMemoryCluster.
+            properties:
+              controlPlaneEndpoint:
+                description: ControlPlaneEndpoint represents the endpoint used to
+                  communicate with the control plane.
+                properties:
+                  host:
+                    description: Host is the hostname on which the API server is serving.
+                    type: string
+                  port:
+                    description: Port is the port on which the API server is serving.
+                      Defaults to 6443 if not set.
+                    type: integer
+                required:
+                - host
+                - port
+                type: object
+            type: object
+          status:
+            description: InMemoryClusterStatus defines the observed state of the InMemoryCluster.
+            properties:
+              conditions:
+                description: Conditions defines current service state of the InMemoryCluster.
+                items:
+                  description: Condition defines an observation of a Cluster API resource
+                    operational state.
+                  properties:
+                    lastTransitionTime:
+                      description: Last time the condition transitioned from one status
+                        to another. This should be when the underlying condition changed.
+                        If that is not known, then using the time when the API field
+                        changed is acceptable.
+                      format: date-time
+                      type: string
+                    message:
+                      description: A human readable message indicating details about
+                        the transition. This field may be empty.
+                      type: string
+                    reason:
+                      description: The reason for the condition's last transition
+                        in CamelCase. The specific API may choose whether or not this
+                        field is considered a guaranteed API. This field may not be
+                        empty.
+                      type: string
+                    severity:
+                      description: Severity provides an explicit classification of
+                        Reason code, so the users or machines can immediately understand
+                        the current situation and act accordingly. The Severity field
+                        MUST be set only when Status=False.
+                      type: string
+                    status:
+                      description: Status of the condition, one of True, False, Unknown.
+                      type: string
+                    type:
+                      description: Type of condition in CamelCase or in foo.example.com/CamelCase.
+                        Many .condition.type values are consistent across resources
+                        like Available, but because arbitrary conditions can be useful
+                        (see .node.status.conditions), the ability to deconflict is
+                        important.
+                      type: string
+                  required:
+                  - lastTransitionTime
+                  - status
+                  - type
+                  type: object
+                type: array
+              ready:
+                description: Ready denotes that the in-memory cluster (infrastructure)
+                  is ready.
+                type: boolean
+            type: object
+        type: object
+    served: true
+    storage: true
+    subresources:
+      status: {}
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  annotations:
+    cert-manager.io/inject-ca-from: capim-system/capim-serving-cert
+    controller-gen.kubebuilder.io/version: v0.12.0
+  labels:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+    cluster.x-k8s.io/v1beta1: v1alpha1
+  name: inmemoryclustertemplates.infrastructure.cluster.x-k8s.io
+spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Cg==
+        service:
+          name: capim-webhook-service
+          namespace: capim-system
+          path: /convert
+      conversionReviewVersions:
+      - v1
+      - v1beta1
+  group: infrastructure.cluster.x-k8s.io
+  names:
+    categories:
+    - cluster-api
+    kind: InMemoryClusterTemplate
+    listKind: InMemoryClusterTemplateList
+    plural: inmemoryclustertemplates
+    singular: inmemoryclustertemplate
+  scope: Namespaced
+  versions:
+  - additionalPrinterColumns:
+    - description: Time duration since creation of InMemoryClusterTemplate
+      jsonPath: .metadata.creationTimestamp
+      name: Age
+      type: date
+    name: v1alpha1
+    schema:
+      openAPIV3Schema:
+        description: InMemoryClusterTemplate is the Schema for the inmemoryclustertemplates
+          API.
+        properties:
+          apiVersion:
+            description: 'APIVersion defines the versioned schema of this representation
+              of an object. Servers should convert recognized schemas to the latest
+              internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources'
+            type: string
+          kind:
+            description: 'Kind is a string value representing the REST resource this
+              object represents. Servers may infer this from the endpoint the client
+              submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds'
+            type: string
+          metadata:
+            type: object
+          spec:
+            description: InMemoryClusterTemplateSpec defines the desired state of
+              InMemoryClusterTemplate.
+            properties:
+              template:
+                description: InMemoryClusterTemplateResource describes the data needed
+                  to create a InMemoryCluster from a template.
+                properties:
+                  metadata:
+                    description: 'Standard object''s metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata'
+                    properties:
+                      annotations:
+                        additionalProperties:
+                          type: string
+                        description: 'Annotations is an unstructured key value map
+                          stored with a resource that may be set by external tools
+                          to store and retrieve arbitrary metadata. They are not queryable
+                          and should be preserved when modifying objects. More info:
+                          http://kubernetes.io/docs/user-guide/annotations'
+                        type: object
+                      labels:
+                        additionalProperties:
+                          type: string
+                        description: 'Map of string keys and values that can be used
+                          to organize and categorize (scope and select) objects. May
+                          match selectors of replication controllers and services.
+                          More info: http://kubernetes.io/docs/user-guide/labels'
+                        type: object
+                    type: object
+                  spec:
+                    description: InMemoryClusterSpec defines the desired state of
+                      the InMemoryCluster.
+                    properties:
+                      controlPlaneEndpoint:
+                        description: ControlPlaneEndpoint represents the endpoint
+                          used to communicate with the control plane.
+                        properties:
+                          host:
+                            description: Host is the hostname on which the API server
+                              is serving.
+                            type: string
+                          port:
+                            description: Port is the port on which the API server
+                              is serving. Defaults to 6443 if not set.
+                            type: integer
+                        required:
+                        - host
+                        - port
+                        type: object
+                    type: object
+                required:
+                - spec
+                type: object
+            required:
+            - template
+            type: object
+        type: object
+    served: true
+    storage: true
+    subresources: {}
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  annotations:
+    cert-manager.io/inject-ca-from: capim-system/capim-serving-cert
+    controller-gen.kubebuilder.io/version: v0.12.0
+  labels:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+    cluster.x-k8s.io/v1beta1: v1alpha1
+  name: inmemorymachines.infrastructure.cluster.x-k8s.io
+spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Cg==
+        service:
+          name: capim-webhook-service
+          namespace: capim-system
+          path: /convert
+      conversionReviewVersions:
+      - v1
+      - v1beta1
+  group: infrastructure.cluster.x-k8s.io
+  names:
+    categories:
+    - cluster-api
+    kind: InMemoryMachine
+    listKind: InMemoryMachineList
+    plural: inmemorymachines
+    singular: inmemorymachine
+  scope: Namespaced
+  versions:
+  - additionalPrinterColumns:
+    - description: Cluster
+      jsonPath: .metadata.labels['cluster\.x-k8s\.io/cluster-name']
+      name: Cluster
+      type: string
+    - description: Machine object which owns with this InMemoryMachine
+      jsonPath: .metadata.ownerReferences[?(@.kind=="Machine")].name
+      name: Machine
+      type: string
+    - description: Provider ID
+      jsonPath: .spec.providerID
+      name: ProviderID
+      type: string
+    - description: Machine ready status
+      jsonPath: .status.ready
+      name: Ready
+      type: string
+    - description: Time duration since creation of InMemoryMachine
+      jsonPath: .metadata.creationTimestamp
+      name: Age
+      type: date
+    name: v1alpha1
+    schema:
+      openAPIV3Schema:
+        description: InMemoryMachine is the schema for the in-memory machine API.
+        properties:
+          apiVersion:
+            description: 'APIVersion defines the versioned schema of this representation
+              of an object. Servers should convert recognized schemas to the latest
+              internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources'
+            type: string
+          kind:
+            description: 'Kind is a string value representing the REST resource this
+              object represents. Servers may infer this from the endpoint the client
+              submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds'
+            type: string
+          metadata:
+            type: object
+          spec:
+            description: InMemoryMachineSpec defines the desired state of InMemoryMachine.
+            properties:
+              behaviour:
+                description: Behaviour of the InMemoryMachine; this will allow to
+                  make a simulation more alike to real use cases e.g. by defining
+                  the duration of the provisioning phase mimicking the performances
+                  of the target infrastructure.
+                properties:
+                  apiServer:
+                    description: APIServer defines the behaviour of the APIServer
+                      hosted on the InMemoryMachine.
+                    properties:
+                      provisioning:
+                        description: 'Provisioning defines variables influencing how
+                          the APIServer hosted on the InMemoryMachine is going to
+                          be provisioned. NOTE: APIServer provisioning includes all
+                          the steps from starting the static Pod to the Pod become
+                          ready and being registered in K8s.'
+                        properties:
+                          startupDuration:
+                            description: StartupDuration defines the duration of the
+                              object provisioning phase.
+                            type: string
+                          startupJitter:
+                            description: 'StartupJitter adds some randomness on StartupDuration;
+                              the actual duration will be StartupDuration plus an
+                              additional amount chosen uniformly at random from the
+                              interval between zero and `StartupJitter*StartupDuration`.
+                              NOTE: this is modeled as string because the usage of
+                              float is highly discouraged, as support for them varies
+                              across languages.'
+                            type: string
+                        required:
+                        - startupDuration
+                        type: object
+                    type: object
+                  etcd:
+                    description: Etcd defines the behaviour of the etcd member hosted
+                      on the InMemoryMachine.
+                    properties:
+                      provisioning:
+                        description: 'Provisioning defines variables influencing how
+                          the etcd member hosted on the InMemoryMachine is going to
+                          be provisioned. NOTE: Etcd provisioning includes all the
+                          steps from starting the static Pod to the Pod become ready
+                          and being registered in K8s.'
+                        properties:
+                          startupDuration:
+                            description: StartupDuration defines the duration of the
+                              object provisioning phase.
+                            type: string
+                          startupJitter:
+                            description: 'StartupJitter adds some randomness on StartupDuration;
+                              the actual duration will be StartupDuration plus an
+                              additional amount chosen uniformly at random from the
+                              interval between zero and `StartupJitter*StartupDuration`.
+                              NOTE: this is modeled as string because the usage of
+                              float is highly discouraged, as support for them varies
+                              across languages.'
+                            type: string
+                        required:
+                        - startupDuration
+                        type: object
+                    type: object
+                  node:
+                    description: Node defines the behaviour of the Node (the kubelet)
+                      hosted on the InMemoryMachine.
+                    properties:
+                      provisioning:
+                        description: 'Provisioning defines variables influencing how
+                          the Node (the kubelet) hosted on the InMemoryMachine is
+                          going to be provisioned. NOTE: Node provisioning includes
+                          all the steps from starting kubelet to the node become ready,
+                          get a provider ID, and being registered in K8s.'
+                        properties:
+                          startupDuration:
+                            description: StartupDuration defines the duration of the
+                              object provisioning phase.
+                            type: string
+                          startupJitter:
+                            description: 'StartupJitter adds some randomness on StartupDuration;
+                              the actual duration will be StartupDuration plus an
+                              additional amount chosen uniformly at random from the
+                              interval between zero and `StartupJitter*StartupDuration`.
+                              NOTE: this is modeled as string because the usage of
+                              float is highly discouraged, as support for them varies
+                              across languages.'
+                            type: string
+                        required:
+                        - startupDuration
+                        type: object
+                    type: object
+                  vm:
+                    description: VM defines the behaviour of the VM implementing the
+                      InMemoryMachine.
+                    properties:
+                      provisioning:
+                        description: 'Provisioning defines variables influencing how
+                          the VM implementing the InMemoryMachine is going to be provisioned.
+                          NOTE: VM provisioning includes all the steps from creation
+                          to power-on.'
+                        properties:
+                          startupDuration:
+                            description: StartupDuration defines the duration of the
+                              object provisioning phase.
+                            type: string
+                          startupJitter:
+                            description: 'StartupJitter adds some randomness on StartupDuration;
+                              the actual duration will be StartupDuration plus an
+                              additional amount chosen uniformly at random from the
+                              interval between zero and `StartupJitter*StartupDuration`.
+                              NOTE: this is modeled as string because the usage of
+                              float is highly discouraged, as support for them varies
+                              across languages.'
+                            type: string
+                        required:
+                        - startupDuration
+                        type: object
+                    type: object
+                type: object
+              providerID:
+                description: ProviderID will be the container name in ProviderID format
+                  (in-memory:////<name>)
+                type: string
+            type: object
+          status:
+            description: InMemoryMachineStatus defines the observed state of InMemoryMachine.
+            properties:
+              conditions:
+                description: Conditions defines current service state of the InMemoryMachine.
+                items:
+                  description: Condition defines an observation of a Cluster API resource
+                    operational state.
+                  properties:
+                    lastTransitionTime:
+                      description: Last time the condition transitioned from one status
+                        to another. This should be when the underlying condition changed.
+                        If that is not known, then using the time when the API field
+                        changed is acceptable.
+                      format: date-time
+                      type: string
+                    message:
+                      description: A human readable message indicating details about
+                        the transition. This field may be empty.
+                      type: string
+                    reason:
+                      description: The reason for the condition's last transition
+                        in CamelCase. The specific API may choose whether or not this
+                        field is considered a guaranteed API. This field may not be
+                        empty.
+                      type: string
+                    severity:
+                      description: Severity provides an explicit classification of
+                        Reason code, so the users or machines can immediately understand
+                        the current situation and act accordingly. The Severity field
+                        MUST be set only when Status=False.
+                      type: string
+                    status:
+                      description: Status of the condition, one of True, False, Unknown.
+                      type: string
+                    type:
+                      description: Type of condition in CamelCase or in foo.example.com/CamelCase.
+                        Many .condition.type values are consistent across resources
+                        like Available, but because arbitrary conditions can be useful
+                        (see .node.status.conditions), the ability to deconflict is
+                        important.
+                      type: string
+                  required:
+                  - lastTransitionTime
+                  - status
+                  - type
+                  type: object
+                type: array
+              ready:
+                description: Ready denotes that the machine is ready
+                type: boolean
+            type: object
+        type: object
+    served: true
+    storage: true
+    subresources:
+      status: {}
+---
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  annotations:
+    cert-manager.io/inject-ca-from: capim-system/capim-serving-cert
+    controller-gen.kubebuilder.io/version: v0.12.0
+  labels:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+    cluster.x-k8s.io/v1beta1: v1alpha1
+  name: inmemorymachinetemplates.infrastructure.cluster.x-k8s.io
+spec:
+  conversion:
+    strategy: Webhook
+    webhook:
+      clientConfig:
+        caBundle: Cg==
+        service:
+          name: capim-webhook-service
+          namespace: capim-system
+          path: /convert
+      conversionReviewVersions:
+      - v1
+      - v1beta1
+  group: infrastructure.cluster.x-k8s.io
+  names:
+    categories:
+    - cluster-api
+    kind: InMemoryMachineTemplate
+    listKind: InMemoryMachineTemplateList
+    plural: inmemorymachinetemplates
+    singular: inmemorymachinetemplate
+  scope: Namespaced
+  versions:
+  - additionalPrinterColumns:
+    - description: Time duration since creation of InMemoryMachineTemplate
+      jsonPath: .metadata.creationTimestamp
+      name: Age
+      type: date
+    name: v1alpha1
+    schema:
+      openAPIV3Schema:
+        description: InMemoryMachineTemplate is the schema for the in-memory machine
+          template API.
+        properties:
+          apiVersion:
+            description: 'APIVersion defines the versioned schema of this representation
+              of an object. Servers should convert recognized schemas to the latest
+              internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources'
+            type: string
+          kind:
+            description: 'Kind is a string value representing the REST resource this
+              object represents. Servers may infer this from the endpoint the client
+              submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds'
+            type: string
+          metadata:
+            type: object
+          spec:
+            description: InMemoryMachineTemplateSpec defines the desired state of
+              InMemoryMachineTemplate.
+            properties:
+              template:
+                description: InMemoryMachineTemplateResource describes the data needed
+                  to create a InMemoryMachine from a template.
+                properties:
+                  metadata:
+                    description: 'Standard object''s metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata'
+                    properties:
+                      annotations:
+                        additionalProperties:
+                          type: string
+                        description: 'Annotations is an unstructured key value map
+                          stored with a resource that may be set by external tools
+                          to store and retrieve arbitrary metadata. They are not queryable
+                          and should be preserved when modifying objects. More info:
+                          http://kubernetes.io/docs/user-guide/annotations'
+                        type: object
+                      labels:
+                        additionalProperties:
+                          type: string
+                        description: 'Map of string keys and values that can be used
+                          to organize and categorize (scope and select) objects. May
+                          match selectors of replication controllers and services.
+                          More info: http://kubernetes.io/docs/user-guide/labels'
+                        type: object
+                    type: object
+                  spec:
+                    description: Spec is the specification of the desired behavior
+                      of the machine.
+                    properties:
+                      behaviour:
+                        description: Behaviour of the InMemoryMachine; this will allow
+                          to make a simulation more alike to real use cases e.g. by
+                          defining the duration of the provisioning phase mimicking
+                          the performances of the target infrastructure.
+                        properties:
+                          apiServer:
+                            description: APIServer defines the behaviour of the APIServer
+                              hosted on the InMemoryMachine.
+                            properties:
+                              provisioning:
+                                description: 'Provisioning defines variables influencing
+                                  how the APIServer hosted on the InMemoryMachine
+                                  is going to be provisioned. NOTE: APIServer provisioning
+                                  includes all the steps from starting the static
+                                  Pod to the Pod become ready and being registered
+                                  in K8s.'
+                                properties:
+                                  startupDuration:
+                                    description: StartupDuration defines the duration
+                                      of the object provisioning phase.
+                                    type: string
+                                  startupJitter:
+                                    description: 'StartupJitter adds some randomness
+                                      on StartupDuration; the actual duration will
+                                      be StartupDuration plus an additional amount
+                                      chosen uniformly at random from the interval
+                                      between zero and `StartupJitter*StartupDuration`.
+                                      NOTE: this is modeled as string because the
+                                      usage of float is highly discouraged, as support
+                                      for them varies across languages.'
+                                    type: string
+                                required:
+                                - startupDuration
+                                type: object
+                            type: object
+                          etcd:
+                            description: Etcd defines the behaviour of the etcd member
+                              hosted on the InMemoryMachine.
+                            properties:
+                              provisioning:
+                                description: 'Provisioning defines variables influencing
+                                  how the etcd member hosted on the InMemoryMachine
+                                  is going to be provisioned. NOTE: Etcd provisioning
+                                  includes all the steps from starting the static
+                                  Pod to the Pod become ready and being registered
+                                  in K8s.'
+                                properties:
+                                  startupDuration:
+                                    description: StartupDuration defines the duration
+                                      of the object provisioning phase.
+                                    type: string
+                                  startupJitter:
+                                    description: 'StartupJitter adds some randomness
+                                      on StartupDuration; the actual duration will
+                                      be StartupDuration plus an additional amount
+                                      chosen uniformly at random from the interval
+                                      between zero and `StartupJitter*StartupDuration`.
+                                      NOTE: this is modeled as string because the
+                                      usage of float is highly discouraged, as support
+                                      for them varies across languages.'
+                                    type: string
+                                required:
+                                - startupDuration
+                                type: object
+                            type: object
+                          node:
+                            description: Node defines the behaviour of the Node (the
+                              kubelet) hosted on the InMemoryMachine.
+                            properties:
+                              provisioning:
+                                description: 'Provisioning defines variables influencing
+                                  how the Node (the kubelet) hosted on the InMemoryMachine
+                                  is going to be provisioned. NOTE: Node provisioning
+                                  includes all the steps from starting kubelet to
+                                  the node become ready, get a provider ID, and being
+                                  registered in K8s.'
+                                properties:
+                                  startupDuration:
+                                    description: StartupDuration defines the duration
+                                      of the object provisioning phase.
+                                    type: string
+                                  startupJitter:
+                                    description: 'StartupJitter adds some randomness
+                                      on StartupDuration; the actual duration will
+                                      be StartupDuration plus an additional amount
+                                      chosen uniformly at random from the interval
+                                      between zero and `StartupJitter*StartupDuration`.
+                                      NOTE: this is modeled as string because the
+                                      usage of float is highly discouraged, as support
+                                      for them varies across languages.'
+                                    type: string
+                                required:
+                                - startupDuration
+                                type: object
+                            type: object
+                          vm:
+                            description: VM defines the behaviour of the VM implementing
+                              the InMemoryMachine.
+                            properties:
+                              provisioning:
+                                description: 'Provisioning defines variables influencing
+                                  how the VM implementing the InMemoryMachine is going
+                                  to be provisioned. NOTE: VM provisioning includes
+                                  all the steps from creation to power-on.'
+                                properties:
+                                  startupDuration:
+                                    description: StartupDuration defines the duration
+                                      of the object provisioning phase.
+                                    type: string
+                                  startupJitter:
+                                    description: 'StartupJitter adds some randomness
+                                      on StartupDuration; the actual duration will
+                                      be StartupDuration plus an additional amount
+                                      chosen uniformly at random from the interval
+                                      between zero and `StartupJitter*StartupDuration`.
+                                      NOTE: this is modeled as string because the
+                                      usage of float is highly discouraged, as support
+                                      for them varies across languages.'
+                                    type: string
+                                required:
+                                - startupDuration
+                                type: object
+                            type: object
+                        type: object
+                      providerID:
+                        description: ProviderID will be the container name in ProviderID
+                          format (in-memory:////<name>)
+                        type: string
+                    type: object
+                required:
+                - spec
+                type: object
+            required:
+            - template
+            type: object
+        type: object
+    served: true
+    storage: true
+    subresources: {}
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  labels:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+  name: capim-manager
+  namespace: capim-system
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  labels:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+  name: capim-leader-election-role
+  namespace: capim-system
+rules:
+- apiGroups:
+  - ""
+  resources:
+  - events
+  verbs:
+  - create
+- apiGroups:
+  - coordination.k8s.io
+  resources:
+  - leases
+  verbs:
+  - get
+  - list
+  - watch
+  - create
+  - update
+  - patch
+  - delete
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  labels:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+  name: capim-manager-role
+rules:
+- apiGroups:
+  - ""
+  resources:
+  - secrets
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - cluster.x-k8s.io
+  resources:
+  - clusters
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - cluster.x-k8s.io
+  resources:
+  - clusters
+  - machines
+  - machinesets
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - infrastructure.cluster.x-k8s.io
+  resources:
+  - inmemoryclusters
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - infrastructure.cluster.x-k8s.io
+  resources:
+  - inmemoryclusters/finalizers
+  - inmemoryclusters/status
+  verbs:
+  - get
+  - patch
+  - update
+- apiGroups:
+  - infrastructure.cluster.x-k8s.io
+  resources:
+  - inmemorymachines
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - infrastructure.cluster.x-k8s.io
+  resources:
+  - inmemorymachines/finalizers
+  - inmemorymachines/status
+  verbs:
+  - get
+  - patch
+  - update
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  labels:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+  name: capim-leader-election-rolebinding
+  namespace: capim-system
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: capim-leader-election-role
+subjects:
+- kind: ServiceAccount
+  name: capim-manager
+  namespace: capim-system
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  labels:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+  name: capim-manager-rolebinding
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: capim-manager-role
+subjects:
+- kind: ServiceAccount
+  name: capim-manager
+  namespace: capim-system
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+  name: capim-webhook-service
+  namespace: capim-system
+spec:
+  ports:
+  - port: 443
+    targetPort: webhook-server
+  selector:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+    control-plane: controller-manager
+  name: capim-controller-manager
+  namespace: capim-system
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      cluster.x-k8s.io/provider: infrastructure-in-memory
+      control-plane: controller-manager
+  template:
+    metadata:
+      labels:
+        cluster.x-k8s.io/provider: infrastructure-in-memory
+        control-plane: controller-manager
+    spec:
+      containers:
+      - args:
+        - --leader-elect
+        - --metrics-bind-addr=localhost:8080
+        command:
+        - /manager
+        env:
+        - name: POD_IP
+          valueFrom:
+            fieldRef:
+              fieldPath: status.podIP
+        image: gcr.io/k8s-staging-cluster-api/capim-manager:v1.5.0-rc.0
+        imagePullPolicy: IfNotPresent
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: healthz
+        name: manager
+        ports:
+        - containerPort: 9443
+          name: webhook-server
+          protocol: TCP
+        - containerPort: 9440
+          name: healthz
+          protocol: TCP
+        readinessProbe:
+          httpGet:
+            path: /readyz
+            port: healthz
+        securityContext:
+          allowPrivilegeEscalation: false
+          capabilities:
+            drop:
+            - ALL
+          privileged: false
+          runAsGroup: 65532
+          runAsUser: 65532
+        volumeMounts:
+        - mountPath: /tmp/k8s-webhook-server/serving-certs
+          name: cert
+          readOnly: true
+      securityContext:
+        runAsNonRoot: true
+        seccompProfile:
+          type: RuntimeDefault
+      serviceAccountName: capim-manager
+      terminationGracePeriodSeconds: 10
+      tolerations:
+      - effect: NoSchedule
+        key: node-role.kubernetes.io/master
+      - effect: NoSchedule
+        key: node-role.kubernetes.io/control-plane
+      volumes:
+      - name: cert
+        secret:
+          secretName: capim-webhook-service-cert
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  labels:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+  name: capim-serving-cert
+  namespace: capim-system
+spec:
+  dnsNames:
+  - capim-webhook-service.capim-system.svc
+  - capim-webhook-service.capim-system.svc.cluster.local
+  issuerRef:
+    kind: Issuer
+    name: capim-selfsigned-issuer
+  secretName: capim-webhook-service-cert
+  subject:
+    organizations:
+    - k8s-sig-cluster-lifecycle
+---
+apiVersion: cert-manager.io/v1
+kind: Issuer
+metadata:
+  labels:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+  name: capim-selfsigned-issuer
+  namespace: capim-system
+spec:
+  selfSigned: {}
+---
+apiVersion: admissionregistration.k8s.io/v1
+kind: MutatingWebhookConfiguration
+metadata:
+  annotations:
+    cert-manager.io/inject-ca-from: capim-system/capim-serving-cert
+  labels:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+  name: capim-mutating-webhook-configuration
+webhooks:
+- admissionReviewVersions:
+  - v1
+  - v1beta1
+  clientConfig:
+    service:
+      name: capim-webhook-service
+      namespace: capim-system
+      path: /mutate-infrastructure-cluster-x-k8s-io-v1alpha1-inmemorycluster
+  failurePolicy: Fail
+  matchPolicy: Equivalent
+  name: default.inmemorycluster.infrastructure.cluster.x-k8s.io
+  rules:
+  - apiGroups:
+    - infrastructure.cluster.x-k8s.io
+    apiVersions:
+    - v1alpha1
+    operations:
+    - CREATE
+    - UPDATE
+    resources:
+    - inmemoryclusters
+  sideEffects: None
+- admissionReviewVersions:
+  - v1
+  - v1beta1
+  clientConfig:
+    service:
+      name: capim-webhook-service
+      namespace: capim-system
+      path: /mutate-infrastructure-cluster-x-k8s-io-v1alpha1-inmemoryclustertemplate
+  failurePolicy: Fail
+  matchPolicy: Equivalent
+  name: default.inmemoryclustertemplate.infrastructure.cluster.x-k8s.io
+  rules:
+  - apiGroups:
+    - infrastructure.cluster.x-k8s.io
+    apiVersions:
+    - v1alpha1
+    operations:
+    - CREATE
+    - UPDATE
+    resources:
+    - inmemoryclustertemplates
+  sideEffects: None
+- admissionReviewVersions:
+  - v1
+  - v1beta1
+  clientConfig:
+    service:
+      name: capim-webhook-service
+      namespace: capim-system
+      path: /mutate-infrastructure-cluster-x-k8s-io-v1alpha1-inmemorymachine
+  failurePolicy: Fail
+  matchPolicy: Equivalent
+  name: default.inmemorymachine.infrastructure.cluster.x-k8s.io
+  rules:
+  - apiGroups:
+    - infrastructure.cluster.x-k8s.io
+    apiVersions:
+    - v1alpha1
+    operations:
+    - CREATE
+    - UPDATE
+    resources:
+    - inmemorymachines
+  sideEffects: None
+- admissionReviewVersions:
+  - v1
+  - v1beta1
+  clientConfig:
+    service:
+      name: capim-webhook-service
+      namespace: capim-system
+      path: /mutate-infrastructure-cluster-x-k8s-io-v1alpha1-inmemorymachinetemplate
+  failurePolicy: Fail
+  matchPolicy: Equivalent
+  name: default.inmemorymachinetemplate.infrastructure.cluster.x-k8s.io
+  rules:
+  - apiGroups:
+    - infrastructure.cluster.x-k8s.io
+    apiVersions:
+    - v1alpha1
+    operations:
+    - CREATE
+    - UPDATE
+    resources:
+    - inmemorymachinetemplates
+  sideEffects: None
+---
+apiVersion: admissionregistration.k8s.io/v1
+kind: ValidatingWebhookConfiguration
+metadata:
+  annotations:
+    cert-manager.io/inject-ca-from: capim-system/capim-serving-cert
+  labels:
+    cluster.x-k8s.io/provider: infrastructure-in-memory
+  name: capim-validating-webhook-configuration
+webhooks:
+- admissionReviewVersions:
+  - v1
+  - v1beta1
+  clientConfig:
+    service:
+      name: capim-webhook-service
+      namespace: capim-system
+      path: /validate-infrastructure-cluster-x-k8s-io-v1alpha1-inmemorycluster
+  failurePolicy: Fail
+  matchPolicy: Equivalent
+  name: validation.inmemorycluster.infrastructure.cluster.x-k8s.io
+  rules:
+  - apiGroups:
+    - infrastructure.cluster.x-k8s.io
+    apiVersions:
+    - v1alpha1
+    operations:
+    - CREATE
+    - UPDATE
+    resources:
+    - inmemoryclusters
+  sideEffects: None
+- admissionReviewVersions:
+  - v1
+  - v1beta1
+  clientConfig:
+    service:
+      name: capim-webhook-service
+      namespace: capim-system
+      path: /validate-infrastructure-cluster-x-k8s-io-v1alpha1-inmemoryclustertemplate
+  failurePolicy: Fail
+  matchPolicy: Equivalent
+  name: validation.inmemoryclustertemplate.infrastructure.cluster.x-k8s.io
+  rules:
+  - apiGroups:
+    - infrastructure.cluster.x-k8s.io
+    apiVersions:
+    - v1alpha1
+    operations:
+    - CREATE
+    - UPDATE
+    resources:
+    - inmemoryclustertemplates
+  sideEffects: None
+- admissionReviewVersions:
+  - v1
+  - v1beta1
+  clientConfig:
+    service:
+      name: capim-webhook-service
+      namespace: capim-system
+      path: /validate-infrastructure-cluster-x-k8s-io-v1alpha1-inmemorymachine
+  failurePolicy: Fail
+  matchPolicy: Equivalent
+  name: validation.inmemorymachine.infrastructure.cluster.x-k8s.io
+  rules:
+  - apiGroups:
+    - infrastructure.cluster.x-k8s.io
+    apiVersions:
+    - v1alpha1
+    operations:
+    - CREATE
+    - UPDATE
+    resources:
+    - inmemorymachines
+  sideEffects: None
+- admissionReviewVersions:
+  - v1
+  - v1beta1
+  clientConfig:
+    service:
+      name: capim-webhook-service
+      namespace: capim-system
+      path: /validate-infrastructure-cluster-x-k8s-io-v1alpha1-inmemorymachinetemplate
+  failurePolicy: Fail
+  matchPolicy: Equivalent
+  name: validation.inmemorymachinetemplate.infrastructure.cluster.x-k8s.io
+  rules:
+  - apiGroups:
+    - infrastructure.cluster.x-k8s.io
+    apiVersions:
+    - v1alpha1
+    operations:
+    - CREATE
+    - UPDATE
+    resources:
+    - inmemorymachinetemplates
+  sideEffects: None
