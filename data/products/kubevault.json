@@ -223,6 +223,17 @@
       "show": true
     },
     {
+      "version": "v2023.9.7",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "cli": "v0.16.0",
+        "installer": "v2023.9.7",
+        "operator": "v0.16.0",
+        "unsealer": "v0.16.0"
+      }
+    },
+    {
       "version": "v2023.05.05",
       "hostDocs": true,
       "show": true,
@@ -377,7 +388,7 @@
       }
     }
   ],
-  "latestVersion": "v2023.05.05",
+  "latestVersion": "v2023.9.7",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubevault",
