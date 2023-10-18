@@ -59,12 +59,6 @@
         "url": "https://kubevault.com",
         "logo": "/assets/images/products/kubevault/kubevault.png",
         "description": "KubeVault provides various ways to configure your Vault deployment. You can pick your preferred Storage Backend, Unsealer Mode, TLS Mode, Secret Engines that you want to allow to attach with this VaultServer, Termination Policy to prevent accidental deletion or clean-up Vault deployment in a systematic way, Monitoring,  etc."
-      },
-      {
-        "name": "ByteBuilders",
-        "url": "https://byte.builders/",
-        "logo": "/assets/images/products/bytebuilders/bytebuilders.png",
-        "description": "ByteBuilders is a single pane of glass for all your databases deployed on Kubernetes with KubeDB. Use ByteBuilder’s innovative web dashboard to perform any DBA tasks in a few clicks."
       }
     ],
     "highlight_products": {
