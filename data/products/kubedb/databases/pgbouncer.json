@@ -46,7 +46,7 @@
     "apiVersion": "kubedb.com/v1alpha2",
     "kind": "PgBouncer",
     "metadata": {
-      "name": "pgbouncer-server",
+      "name": "pgbouncer-demo",
       "namespace": "demo"
     },
     "spec": {
@@ -73,7 +73,7 @@
       "userListSecretRef": {
         "name": "db-user-pass"
       },
-      "terminationPolicy": "WipeOut"
+      "terminationPolicy": "Delete"
     }
   }
 }

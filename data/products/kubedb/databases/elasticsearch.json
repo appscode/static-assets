@@ -56,11 +56,11 @@
     "apiVersion": "kubedb.com/v1alpha2",
     "kind": "Elasticsearch",
     "metadata": {
-      "name": "es-quickstart",
+      "name": "es-demo",
       "namespace": "demo"
     },
     "spec": {
-      "version": "xpack-8.8.0",
+      "version": "xpack-8.11.1",
       "enableSSL": true,
       "replicas": 3,
       "storageType": "Durable",
@@ -75,7 +75,7 @@
           }
         }
       },
-      "terminationPolicy": "DoNotTerminate"
+      "terminationPolicy": "Delete"
     }
   }
 }

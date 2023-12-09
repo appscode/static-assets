@@ -56,11 +56,11 @@
     "apiVersion": "kubedb.com/v1alpha2",
     "kind": "MongoDB",
     "metadata": {
-      "name": "mgo-quickstart",
+      "name": "mongo-demo",
       "namespace": "demo"
     },
     "spec": {
-      "version": "6.0.5",
+      "version": "6.0.12",
       "storageType": "Durable",
       "storage": {
         "storageClassName": "standard",
@@ -73,7 +73,7 @@
           }
         }
       },
-      "terminationPolicy": "DoNotTerminate"
+      "terminationPolicy": "Delete"
     }
   }
 }

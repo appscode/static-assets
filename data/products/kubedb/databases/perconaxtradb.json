@@ -56,7 +56,7 @@
     "apiVersion": "kubedb.com/v1alpha2",
     "kind": "PerconaXtraDB",
     "metadata": {
-      "name": "demo-quickstart",
+      "name": "xtradb-demo",
       "namespace": "demo"
     },
     "spec": {
@@ -74,7 +74,7 @@
           }
         }
       },
-      "terminationPolicy": "DoNotTerminate"
+      "terminationPolicy": "Delete"
     }
   }
 }

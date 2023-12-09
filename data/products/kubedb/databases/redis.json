@@ -56,11 +56,11 @@
     "apiVersion": "kubedb.com/v1alpha2",
     "kind": "Redis",
     "metadata": {
-      "name": "redis-quickstart",
+      "name": "redis-demo",
       "namespace": "demo"
     },
     "spec": {
-      "version": "7.0.10",
+      "version": "7.2.3",
       "storageType": "Durable",
       "storage": {
         "storageClassName": "standard",
@@ -72,7 +72,8 @@
             "storage": "1Gi"
           }
         }
-      }
+      },
+      "terminationPolicy": "Delete"
     }
   }
 }

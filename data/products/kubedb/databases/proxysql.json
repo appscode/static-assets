@@ -44,7 +44,7 @@
     "apiVersion": "kubedb.com/v1alpha2",
     "kind": "ProxySQL",
     "metadata": {
-      "name": "proxy-my-group",
+      "name": "proxy-demo",
       "namespace": "demo"
     },
     "spec": {
@@ -59,7 +59,7 @@
         },
         "replicas": 3
       },
-      "terminationPolicy": "DoNotTerminate"
+      "terminationPolicy": "Delete"
     }
   }
 }

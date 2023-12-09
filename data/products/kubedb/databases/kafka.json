@@ -56,12 +56,12 @@
     "apiVersion": "kubedb.com/v1alpha2",
     "kind": "Kafka",
     "metadata": {
-      "name": "kafka-quickstart",
+      "name": "kafka-demo",
       "namespace": "demo"
     },
     "spec": {
       "replicas": "3",
-      "version": "3.4.0",
+      "version": "3.6.0",
       "storageType": "Durable",
       "storage": {
         "storageClassName": "standard",
@@ -74,7 +74,7 @@
           }
         }
       },
-      "terminationPolicy": "DoNotTerminate"
+      "terminationPolicy": "Delete"
     }
   }
 }
