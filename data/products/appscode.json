@@ -71,12 +71,6 @@
           "logo": "/assets/images/products/voyager/voyager-icon.svg",
           "summary": "Voyager is a HAProxy backed secure L7 and L4 ingress controller for Kubernetes. This can be used with any Kubernetes cloud providers including AWS, GCE, GKE, AZURE, ACS etc. This can also be used with baremetal Kubernetes clusters.",
           "url": "https://voyagermesh.com/"
-        },
-        {
-          "name": "Kubeform",
-          "logo": "/assets/images/products/kubeform/kubeform-icon.svg",
-          "summary": "Kubeform is a Kubernetes controller for provisioning and managing cloud or on-prem resources using terraform providers. It provides Kubernetes CRDs for Terraform resources so that you can manage any cloud infrastructure in a Kubernetes native way.",
-          "url": "https://kubeform.com/"
         }
       ]
     },
@@ -118,23 +112,6 @@
           "Policy Based Backup"
         ],
         "illustration": "/assets/images/products/stash/stash-hero.png"
-      },
-      {
-        "id": "manage-infrastructure",
-        "product": "Kubeform",
-        "use_case": "MANAGE INFRASTRUCTURE",
-        "logo": "assets/images/products/kubeform/kubeform.png",
-        "title": "Provision cloud resources using Kubernetes CRDs & Terraform",
-        "summary": "Kubeform is a Kubernetes controller for provisioning and managing cloud or on-prem resources using terraform providers. Kubeform provides Kubernetes CRDs for Terraform resources so that you can manage any cloud infrastructure in a Kubernetes native way.",
-        "url": "http://kubeform.com",
-        "features": [
-          "Infrastructure as Code",
-          "Built on Terrafrom",
-          "Native Kubernetes Support",
-          "Supports Multiple Cloud Platform",
-          "Unleash Developer Velocity"
-        ],
-        "illustration": "/assets/images/products/kubeform/kubeform-hero.png"
       },
       {
         "id": "networking",
