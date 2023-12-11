@@ -1,14 +1,14 @@
 {
-  "key": "kubed",
-  "name": "Kubed",
-  "fullname": "Kubed by AppsCode",
+  "key": "configsyncer",
+  "name": "configsyncer",
+  "fullname": "configsyncer by AppsCode",
   "tagline": "Kubernetes cluster manager daemon",
   "summary": "Kubernetes cluster manager daemon",
   "published": true,
   "author": "AppsCode Inc.",
   "website": {
-    "domainKey": "domain_appscode",
-    "path": "/products/kubed/",
+    "domainKey": "domain_configsyncer",
+    "path": "",
     "themeColor": ""
   },
   "heroImage": {
@@ -30,19 +30,14 @@
       "192x192": "https://cdn.appscode.com/images/products/kubed/icons/android-icon-192x192.png"
     }
   },
-  "repoURL": "https://github.com/appscode/kubed",
-  "starRepo": "appscode/kubed",
-  "docRepo": "appscode/kubed",
+  "repoURL": "https://github.com/kubeops/config-syncer",
+  "starRepo": "kubeops/config-syncer",
+  "docRepo": "kubeops/config-syncer",
   "badges": [
     {
-      "url": "github/stars/appscode/kubed",
+      "url": "github/stars/kubeops/config-syncer",
       "alt": "GitHub Stars",
       "logo": "github"
-    },
-    {
-      "url": "docker/pulls/appscode/kubed",
-      "alt": "Docker Pulls",
-      "logo": "docker"
     }
   ],
   "features": [
@@ -224,7 +219,7 @@
   "latestVersion": "v0.12.0",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
-    "github": "https://github.com/appscode/kubed",
+    "github": "https://github.com/kubeops/config-syncer",
     "linkedin": "https://www.linkedin.com/company/appscode",
     "twitter": "https://twitter.com/AppsCodeHQ",
     "youtube": "https://www.youtube.com/c/appscodeinc"
@@ -235,12 +230,6 @@
   },
   "supportLinks": {
     "Support URL": "https://appscode.freshdesk.com",
-    "Website URL": "https://www.appscode.com/products/kubed"
-  },
-  "stripeProductID": "prod_FARVnpFkkXyggO",
-  "plans": {
-    "Community": {
-      "price": 0
-    }
+    "Website URL": "https://configsyncer.com"
   }
 }
