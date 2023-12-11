@@ -177,7 +177,7 @@
       "show": true
     },
     {
-      "version": "v2023.21.1",
+      "version": "v2023.12.1",
       "hostDocs": true,
       "show": true,
       "info": {
@@ -257,7 +257,7 @@
       }
     }
   ],
-  "latestVersion": "v2023.21.1",
+  "latestVersion": "v2023.12.1",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubestash",
