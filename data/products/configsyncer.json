@@ -2,8 +2,8 @@
   "key": "configsyncer",
   "name": "ConfigSyncer",
   "fullname": "ConfigSyncer by AppsCode",
-  "tagline": "Kubernetes cluster manager daemon",
-  "summary": "Kubernetes cluster manager daemon",
+  "tagline": "Kubernetes Configuration Syncer",
+  "summary": "Kubernetes Configuration Syncer",
   "published": true,
   "author": "AppsCode Inc.",
   "website": {
