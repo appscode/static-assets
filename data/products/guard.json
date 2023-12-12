@@ -30,12 +30,12 @@
       "192x192": "https://cdn.appscode.com/images/products/guard/icons/android-icon-192x192.png"
     }
   },
-  "repoURL": "https://github.com/kubeguard/guard",
+  "repoURL": "https://github.com/kubeguard/docs",
   "starRepo": "appscode/guard",
   "docRepo": "appscode/guard",
   "badges": [
     {
-      "url": "github/stars/appscode/guard",
+      "url": "kubeguard",
       "alt": "GitHub Stars",
       "logo": "github"
     },

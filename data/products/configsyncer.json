@@ -30,12 +30,12 @@
       "192x192": "https://cdn.appscode.com/images/products/kubed/icons/android-icon-192x192.png"
     }
   },
-  "repoURL": "https://github.com/kubeops/config-syncer",
-  "starRepo": "kubeops/config-syncer",
-  "docRepo": "kubeops/config-syncer",
+  "repoURL": "https://github.com/config-syncer/docs",
+  "starRepo": "config-syncer/config-syncer",
+  "docRepo": "config-syncer/config-syncer",
   "badges": [
     {
-      "url": "github/stars/kubeops/config-syncer",
+      "url": "github/stars/config-syncer/config-syncer",
       "alt": "GitHub Stars",
       "logo": "github"
     }
@@ -219,7 +219,7 @@
   "latestVersion": "v0.12.0",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
-    "github": "https://github.com/kubeops/config-syncer",
+    "github": "https://github.com/config-syncer/config-syncer",
     "linkedin": "https://www.linkedin.com/company/appscode",
     "twitter": "https://twitter.com/AppsCodeHQ",
     "youtube": "https://www.youtube.com/c/appscodeinc"
