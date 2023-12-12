@@ -93,39 +93,115 @@
       "show": true
     },
     {
-      "version": "v0.7.1",
+      "version": "v0.16.3",
       "hostDocs": true,
       "show": true
+    },
+    {
+      "version": "v0.16.2",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "v0.16.1",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "v0.16.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "v0.15.1",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "v0.15.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "v0.14.0",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "v0.13.0",
+      "hostDocs": true
+    },
+    {
+      "version": "v0.12.2",
+      "hostDocs": true
+    },
+    {
+      "version": "v0.12.1",
+      "hostDocs": true
+    },
+    {
+      "version": "v0.12.0",
+      "hostDocs": true
+    },
+    {
+      "version": "v0.11.2",
+      "hostDocs": true
+    },
+    {
+      "version": "v0.11.1",
+      "hostDocs": true
+    },
+    {
+      "version": "v0.11.0",
+      "hostDocs": true
+    },
+    {
+      "version": "v0.10.0",
+      "hostDocs": true
+    },
+    {
+      "version": "v0.9.0",
+      "hostDocs": true
+    },
+    {
+      "version": "v0.8.2",
+      "hostDocs": true
+    },
+    {
+      "version": "v0.8.1",
+      "hostDocs": true
+    },
+    {
+      "version": "v0.8.0-rc.0",
+      "hostDocs": true
+    },
+    {
+      "version": "v0.8.0",
+      "hostDocs": true
+    },
+    {
+      "version": "v0.7.1",
+      "hostDocs": true
     },
     {
       "version": "v0.7.0",
-      "hostDocs": true,
-      "show": true
+      "hostDocs": true
     },
     {
       "version": "v0.6.2",
-      "hostDocs": true,
-      "show": true
+      "hostDocs": true
     },
     {
       "version": "v0.6.1",
-      "hostDocs": true,
-      "show": true
-    },
-    {
-      "version": "v0.6.0",
-      "hostDocs": true,
-      "show": true
+      "hostDocs": true
     },
     {
       "version": "v0.6.0-rc.0",
-      "hostDocs": true,
-      "show": true
+      "hostDocs": true
     },
     {
-      "version": "v0.5.0",
-      "hostDocs": true,
-      "show": true
+      "version": "v0.6.0",
+      "hostDocs": true
     },
     {
       "version": "v0.5.0-rc.1",
@@ -136,19 +212,20 @@
       "hostDocs": true
     },
     {
+      "version": "v0.5.0",
+      "hostDocs": true
+    },
+    {
       "version": "0.4.0",
-      "hostDocs": true,
-      "show": true
+      "hostDocs": true
     },
     {
       "version": "0.3.0",
-      "hostDocs": true,
-      "show": true
+      "hostDocs": true
     },
     {
       "version": "0.2.1",
-      "hostDocs": true,
-      "show": true
+      "hostDocs": true
     },
     {
       "version": "0.2.0",
@@ -171,19 +248,39 @@
       "hostDocs": true
     },
     {
-      "version": "0.1.0",
-      "hostDocs": true
-    },
-    {
       "version": "0.1.0-rc.5",
       "hostDocs": true
     },
     {
       "version": "0.1.0-rc.4",
-      "hostDocs": false
+      "hostDocs": true
+    },
+    {
+      "version": "0.1.0-rc.3",
+      "hostDocs": true
+    },
+    {
+      "version": "0.1.0-rc.2",
+      "hostDocs": true
+    },
+    {
+      "version": "0.1.0-rc.1",
+      "hostDocs": true
+    },
+    {
+      "version": "0.1.0-rc.0",
+      "hostDocs": true
+    },
+    {
+      "version": "0.1.0-alpha.0",
+      "hostDocs": true
+    },
+    {
+      "version": "0.1.0",
+      "hostDocs": true
     }
   ],
-  "latestVersion": "v0.7.1",
+  "latestVersion": "v0.16.3",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubeguard/guard",
