@@ -1,7 +1,7 @@
 {
   "key": "configsyncer",
-  "name": "configsyncer",
-  "fullname": "configsyncer by AppsCode",
+  "name": "ConfigSyncer",
+  "fullname": "ConfigSyncer by AppsCode",
   "tagline": "Kubernetes cluster manager daemon",
   "summary": "Kubernetes cluster manager daemon",
   "published": true,
@@ -230,6 +230,6 @@
   },
   "supportLinks": {
     "Support URL": "https://appscode.freshdesk.com",
-    "Website URL": "https://configsyncer.com"
+    "Website URL": "https://config-syncer.com"
   }
 }
