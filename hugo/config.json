@@ -25,7 +25,7 @@
   },
   "ossMenu": {
     "c0": ["guard"],
-    "c1": ["kubed"]
+    "c1": ["configsyncer"]
   },
   "footerLinks": [
     "kubedb",
