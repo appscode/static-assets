@@ -80,7 +80,7 @@
         },
         {
           "name": "Config Syncer",
-          "logo": "/assets/images/products/kubed/kubed-512x512.svg",
+          "logo": "/assets/images/products/configsyncer/configsyncer-512x512.svg",
           "summary": "Config Syncer (fka Kubed) by AppsCode is a Kubernetes Cluster Operator Daemon. From here you can learn all about Config Syncer’s architecture and how to deploy and use Config Syncer.",
           "url": "https://config-syncer.com/"
         }

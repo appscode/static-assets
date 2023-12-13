@@ -12,19 +12,19 @@
     "themeColor": ""
   },
   "heroImage": {
-    "src": "https://cdn.appscode.com/images/products/kubed/kubed-hero.png",
+    "src": "https://cdn.appscode.com/images/products/configsyncer/configsyncer-hero.png",
     "alt": "Kubed"
   },
   "logo": {
-    "src": "https://cdn.appscode.com/images/products/kubed/kubed.png",
+    "src": "https://cdn.appscode.com/images/products/configsyncer/configsyncer.png",
     "alt": "Kubed"
   },
   "logoWhite": {
-    "src": "https://cdn.appscode.com/images/products/kubed/kubed-white.png",
+    "src": "https://cdn.appscode.com/images/products/configsyncer/configsyncer-white.png",
     "alt": "Kubed"
   },
   "icon": {
-    "src": "https://cdn.appscode.com/images/products/kubed/kubed-icon.png",
+    "src": "https://cdn.appscode.com/images/products/configsyncer/configsyncer-icon.png",
     "alt": "Kubed",
     "sizes": {
       "192x192": "https://cdn.appscode.com/images/products/kubed/icons/android-icon-192x192.png"
