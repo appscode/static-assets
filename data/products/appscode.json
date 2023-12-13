@@ -59,6 +59,12 @@
         "url": "https://kubevault.com",
         "logo": "/assets/images/products/kubevault/kubevault.png",
         "description": "KubeVault provides various ways to configure your Vault deployment. You can pick your preferred Storage Backend, Unsealer Mode, TLS Mode, Secret Engines that you want to allow to attach with this VaultServer, Termination Policy to prevent accidental deletion or clean-up Vault deployment in a systematic way, Monitoring,  etc."
+      },
+      {
+        "name": "Voyager",
+        "url": "https://voyagermesh.com/",
+        "logo": "/assets/images/products/voyager/voyager.png",
+        "description": "Voyager is a HAProxy backed secure L7 and L4 ingress controller for Kubernetes. This can be used with any Kubernetes cloud providers including AWS, GCE, GKE, AZURE, ACS etc. This can also be used with baremetal Kubernetes clusters."
       }
     ],
     "highlight_products": {
@@ -67,10 +73,16 @@
       "url": "https://appscode.com/contact/",
       "products": [
         {
-          "name": "Voyager",
-          "logo": "/assets/images/products/voyager/voyager-icon.svg",
-          "summary": "Voyager is a HAProxy backed secure L7 and L4 ingress controller for Kubernetes. This can be used with any Kubernetes cloud providers including AWS, GCE, GKE, AZURE, ACS etc. This can also be used with baremetal Kubernetes clusters.",
-          "url": "https://voyagermesh.com/"
+          "name": "Guard",
+          "logo": "/assets/images/products/guard/guard-512x512.svg",
+          "summary": "Guard by AppsCode is a Kubernetes Webhook Authentication server. Using guard, you can log into your Kubernetes cluster using a Github or Google authentication token. Guard also sets authenticated user’s groups to their Github teams or Google groups. This allows cluster administrators to setup RBAC rules based on membership in Github teams or Google groups.",
+          "url": "https://kubeguard.dev/"
+        },
+        {
+          "name": "Config Syncer",
+          "logo": "/assets/images/products/kubed/kubed-512x512.svg",
+          "summary": "Config Syncer (fka Kubed) by AppsCode is a Kubernetes Cluster Operator Daemon. From here you can learn all about Config Syncer’s architecture and how to deploy and use Config Syncer.",
+          "url": "https://config-syncer.com/"
         }
       ]
     },
