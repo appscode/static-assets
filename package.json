@@ -1,0 +1,19 @@
+{
+  "name": "static-assets",
+  "version": "0.8.3",
+  "description": "AppsCode Website Static Assets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appscode/static-assets.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/appscode/static-assets/issues"
+  },
+  "homepage": "https://github.com/appscode/static-assets#readme"
+}
