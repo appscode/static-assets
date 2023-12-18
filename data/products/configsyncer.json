@@ -13,19 +13,19 @@
   },
   "heroImage": {
     "src": "https://cdn.appscode.com/images/products/configsyncer/configsyncer-hero.png",
-    "alt": "Kubed"
+    "alt": "configsyncer"
   },
   "logo": {
     "src": "https://cdn.appscode.com/images/products/configsyncer/configsyncer.png",
-    "alt": "Kubed"
+    "alt": "configsyncer"
   },
   "logoWhite": {
     "src": "https://cdn.appscode.com/images/products/configsyncer/configsyncer-white.png",
-    "alt": "Kubed"
+    "alt": "configsyncer"
   },
   "icon": {
-    "src": "https://cdn.appscode.com/images/products/configsyncer/configsyncer-icon.png",
-    "alt": "Kubed",
+    "src": "https://cdn.appscode.com/images/products/configsyncer/configsyncer-512x512.svg",
+    "alt": "configsyncer",
     "sizes": {
       "192x192": "https://cdn.appscode.com/images/products/configsyncer/icons/android-icon-192x192.png"
     }
