@@ -21,11 +21,8 @@
   ],
   "productMenu": {
     "c0": ["kubedb", "stash"],
-    "c1": ["kubevault", "voyager"]
-  },
-  "ossMenu": {
-    "c0": ["guard"],
-    "c1": ["configsyncer"]
+    "c1": ["kubevault", "voyager"],
+    "c2": ["configsyncer", "guard"]
   },
   "footerLinks": [
     "kubedb",
