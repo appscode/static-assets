@@ -42,32 +42,6 @@
   ],
   "features": [
     {
-      "title": "Disaster Recovery",
-      "image": {
-        "src": "https://cdn.appscode.com/images/products/configsyncer/features/feature-1.png",
-        "alt": "http"
-      },
-      "icon": {
-        "src": "https://cdn.appscode.com/images/products/configsyncer/features/backup.svg",
-        "alt": "http"
-      },
-      "summary": "",
-      "description": "Takes periodic snapshot of a Kubernetes cluster objects"
-    },
-    {
-      "title": "Event Forwarder",
-      "image": {
-        "src": "https://cdn.appscode.com/images/products/configsyncer/features/feature-2.png",
-        "alt": "http"
-      },
-      "icon": {
-        "src": "https://cdn.appscode.com/images/products/configsyncer/features/event.svg",
-        "alt": "http"
-      },
-      "summary": "",
-      "description": "Forward cluster events to various destinations"
-    },
-    {
       "title": "Configuration Syncer",
       "image": {
         "src": "https://cdn.appscode.com/images/products/configsyncer/features/feature-3.png",
@@ -79,51 +53,17 @@
       },
       "summary": "",
       "description": "Keeps ConfigMaps and Secrets synchronized across Namespaces or Clusters"
-    },
-    {
-      "title": "Recycle Bin",
-      "image": {
-        "src": "https://cdn.appscode.com/images/products/configsyncer/features/feature-4.png",
-        "alt": "http"
-      },
-      "icon": {
-        "src": "https://cdn.appscode.com/images/products/configsyncer/features/recycle.svg",
-        "alt": "http"
-      },
-      "summary": "",
-      "description": "Acts like a recycle bin for deleted and/or updated Kubernetes objects"
-    },
-    {
-      "title": "Event Notifiers",
-      "image": {
-        "src": "https://cdn.appscode.com/images/products/configsyncer/features/feature-5.png",
-        "alt": "http"
-      },
-      "icon": {
-        "src": "https://cdn.appscode.com/images/products/configsyncer/features/event-notifiers.svg",
-        "alt": "http"
-      },
-      "summary": "",
-      "description": "Sends event notifications via Email, SMS or Chat"
-    },
-    {
-      "title": "Janitor",
-      "image": {
-        "src": "https://cdn.appscode.com/images/products/configsyncer/features/feature-6.png",
-        "alt": "http"
-      },
-      "icon": {
-        "src": "https://cdn.appscode.com/images/products/configsyncer/features/janitor.svg",
-        "alt": "http"
-      },
-      "summary": "",
-      "description": "Setup janitors for Elasticsearch and InfluxDB"
     }
   ],
   "versions": [
     {
       "version": "master",
       "hostDocs": false,
+      "show": true
+    },
+    {
+      "version": "v0.14.5",
+      "hostDocs": true,
       "show": true
     },
     {
@@ -211,7 +151,7 @@
       "hostDocs": true
     }
   ],
-  "latestVersion": "v0.14.4",
+  "latestVersion": "v0.14.5",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/config-syncer/config-syncer",
