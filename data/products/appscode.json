@@ -161,6 +161,28 @@
         "illustration": "/assets/images/products/kubevault/kubevault-hero.png"
       }
     ],
+    "resources": [
+      {
+        "label": "Blog",
+        "URL": "https://appscode.com/blog/" 
+      },
+      {
+        "label": "Docs",
+        "URL": "https://appscode.com/docs/" 
+      },
+      {
+        "label": "Webinars",
+        "URL": "https://www.youtube.com/watch?v=4lkBt5UUEAQ&list=PLoiT1Gv2KR1hAtDDW7fHEi-s2y2H3DOgx" 
+      },
+      {
+        "label": "Learn",
+        "URL": "https://learn.appscode.com/learn/" 
+      },
+      {
+        "label": "Demos",
+        "URL": "https://www.youtube.com/c/AppsCodeInc" 
+      }
+    ],
     "subscription": {
       "title": "Cloud reimagined <br /> for the age of Kubernetes",
       "summary_left": "Deploy, manage, upgrade Kubernetes on any cloud and automate deployment, scaling, and management of containerized applications. Make Kubernetes accessible any member of your development team using ByteBuilder's innovative Kubernetes Dashboard.",
