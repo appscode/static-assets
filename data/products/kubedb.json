@@ -175,7 +175,7 @@
     {
       "version": "v2023.12.21",
       "hostDocs": true,
-      "show": true,
+      "show": false,
       "info": {
         "autoscaler": "v0.24.0",
         "cli": "v0.39.0",
