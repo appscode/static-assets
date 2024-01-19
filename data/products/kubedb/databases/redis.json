@@ -60,6 +60,7 @@
       "namespace": "demo"
     },
     "spec": {
+      "replicas": 1,
       "version": "7.2.3",
       "storageType": "Durable",
       "storage": {
