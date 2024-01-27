@@ -159,6 +159,7 @@
     {
       "version": "v2024.1.26-rc.0",
       "hostDocs": true,
+      "show": true,
       "info": {
         "autoscaler": "v0.26.0-rc.0",
         "cli": "v0.41.0-rc.0",
