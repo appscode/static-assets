@@ -223,6 +223,17 @@
       "show": true
     },
     {
+      "version": "v2024.1.31",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "cli": "v0.17.0",
+        "installer": "v2024.1.31",
+        "operator": "v0.17.0",
+        "unsealer": "v0.17.0"
+      }
+    },
+    {
       "version": "v2024.1.28-rc.1",
       "hostDocs": true,
       "show": true,
@@ -410,7 +421,7 @@
       }
     }
   ],
-  "latestVersion": "v2024.1.28-rc.1",
+  "latestVersion": "v2024.1.31",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubevault",
