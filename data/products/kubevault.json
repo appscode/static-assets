@@ -236,7 +236,7 @@
     {
       "version": "v2024.1.28-rc.1",
       "hostDocs": true,
-      "show": true,
+      "show": false,
       "info": {
         "cli": "v0.17.0-rc.1",
         "installer": "v2024.1.28-rc.1",
@@ -247,7 +247,7 @@
     {
       "version": "v2024.1.26-rc.0",
       "hostDocs": true,
-      "show": true,
+      "show": false,
       "info": {
         "cli": "v0.17.0-rc.0",
         "installer": "v2024.1.26-rc.0",
