@@ -28,6 +28,11 @@
       "show": true
     },
     {
+      "version": "8.0.21-v23",
+      "hostDocs": true,
+      "show": true
+    },
+    {
       "version": "8.0.21-v22",
       "hostDocs": true,
       "show": true
@@ -134,6 +139,11 @@
     },
     {
       "version": "8.0.21",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "8.0.14-v29",
       "hostDocs": true,
       "show": true
     },
@@ -273,11 +283,6 @@
       "show": true
     },
     {
-      "version": "8.0.14",
-      "hostDocs": true,
-      "show": true
-    },
-    {
       "version": "8.0.14-rc.20200827",
       "hostDocs": true,
       "show": true
@@ -298,6 +303,16 @@
     {
       "version": "8.0.14-beta.20200708",
       "hostDocs": true
+    },
+    {
+      "version": "8.0.14",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "8.0.3-v29",
+      "hostDocs": true,
+      "show": true
     },
     {
       "version": "8.0.3-v28",
@@ -435,11 +450,6 @@
       "show": true
     },
     {
-      "version": "8.0.3",
-      "hostDocs": true,
-      "show": true
-    },
-    {
       "version": "8.0.3-rc.20200827",
       "hostDocs": true,
       "show": true
@@ -460,6 +470,16 @@
     {
       "version": "8.0.3-beta.20200708",
       "hostDocs": true
+    },
+    {
+      "version": "8.0.3",
+      "hostDocs": true,
+      "show": true
+    },
+    {
+      "version": "5.7.25-v29",
+      "hostDocs": true,
+      "show": true
     },
     {
       "version": "5.7.25-v28",
@@ -597,11 +617,6 @@
       "show": true
     },
     {
-      "version": "5.7.25",
-      "hostDocs": true,
-      "show": true
-    },
-    {
       "version": "5.7.25-rc.20200827",
       "hostDocs": true,
       "show": true
@@ -622,7 +637,12 @@
     {
       "version": "5.7.25-beta.20200708",
       "hostDocs": true
+    },
+    {
+      "version": "5.7.25",
+      "hostDocs": true,
+      "show": true
     }
   ],
-  "latestVersion": "8.0.21-v22"
+  "latestVersion": "8.0.21-v23"
 }
