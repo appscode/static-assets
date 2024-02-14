@@ -14,7 +14,7 @@ func addServiceBroker() {
 	serviceBroker = &api.Product{
 		Name: "Service Broker",
 		SocialLinks: map[string]string{
-			"twitter":  "https://twitter.com/AppsCodeHQ",
+			"twitter":  "https://x.com/AppsCodeHQ",
 			"facebook": "https://facebook.com/appscode",
 			"linkedin": "https://www.linkedin.com/company/appscode",
 			"github":   "https://github.com/appscode/service-broker",

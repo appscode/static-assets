@@ -14,7 +14,7 @@ func addSearchlight() {
 	searchlight = &api.Product{
 		Name: "Searchlight",
 		SocialLinks: map[string]string{
-			"twitter":  "https://twitter.com/AppsCodeHQ",
+			"twitter":  "https://x.com/AppsCodeHQ",
 			"facebook": "https://facebook.com/appscode",
 			"linkedin": "https://www.linkedin.com/company/appscode",
 			"github":   "https://github.com/searchlight/searchlight",

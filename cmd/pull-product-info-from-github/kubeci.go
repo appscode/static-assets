@@ -14,7 +14,7 @@ func addKubeCI() {
 	kubeci = &api.Product{
 		Name: "KubeCI",
 		SocialLinks: map[string]string{
-			"twitter":  "https://twitter.com/appscode",
+			"twitter":  "https://x.com/appscode",
 			"facebook": "https://facebook.com/appscode",
 			"linkedin": "https://www.linkedin.com/company/appscode",
 			"github":   "https://github.com/kube-ci/engine",
