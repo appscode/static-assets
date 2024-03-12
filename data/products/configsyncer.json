@@ -62,6 +62,11 @@
       "show": true
     },
     {
+      "version": "v0.14.7",
+      "hostDocs": true,
+      "show": true
+    },
+    {
       "version": "v0.14.6",
       "hostDocs": true,
       "show": true
@@ -156,7 +161,7 @@
       "hostDocs": true
     }
   ],
-  "latestVersion": "v0.14.6",
+  "latestVersion": "v0.14.7",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/config-syncer/config-syncer",
