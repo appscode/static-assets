@@ -264,7 +264,7 @@
     {
       "version": "v2024.2.9-rc.0",
       "hostDocs": true,
-      "show": true,
+      "show": false,
       "info": {
         "cli": "v0.33.0-rc.0",
         "community": "v0.33.0-rc.0",
