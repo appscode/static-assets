@@ -1,4 +1,100 @@
 {
+  "carro": {
+    "name": "Carro",
+    "website": "#",
+    "logo": "/assets/images/customers/2024/carro.png",
+    "show": true
+  },
+  "nokia": {
+    "name": "nokia",
+    "website": "#",
+    "logo": "/assets/images/customers/2024/nokia.png",
+    "show": true
+  },
+  "clewmed": {
+    "name": "Clewmed",
+    "website": "#",
+    "logo": "/assets/images/customers/2024/clewmed.png",
+    "show": true
+  },
+  "dataloop": {
+    "name": "Dataloop",
+    "website": "#",
+    "logo": "/assets/images/customers/2024/dataloop.png",
+    "show": true
+  },
+  "decisio": {
+    "name": "Decisio",
+    "website": "#",
+    "logo": "/assets/images/customers/2024/decisio.png",
+    "show": true
+  },
+  "emerson": {
+    "name": "Emerson",
+    "website": "#",
+    "logo": "/assets/images/customers/2024/emerson.png",
+    "show": true
+  },
+  "fastspeed": {
+    "name": "fastspeed",
+    "website": "#",
+    "logo": "/assets/images/customers/2024/fastspeed.png",
+    "show": true
+  },
+  "ge-healthcare": {
+    "name": "ge-healthcare",
+    "website": "#",
+    "logo": "/assets/images/customers/2024/ge-healthcare.png",
+    "show": true
+  },
+  "100-furtune": {
+    "name": "100-furtune",
+    "website": "#",
+    "logo": "/assets/images/customers/2024/100-furtune.png",
+    "show": true
+  },
+  "greenhouse": {
+    "name": "greenhouse",
+    "website": "#",
+    "logo": "/assets/images/customers/2024/greenhouse.png",
+    "show": true
+  },
+  "huma": {
+    "name": "huma",
+    "website": "#",
+    "logo": "/assets/images/customers/2024/huma.png",
+    "show": true
+  },
+  "irembo": {
+    "name": "irembo",
+    "website": "#",
+    "logo": "/assets/images/customers/2024/irembo.png",
+    "show": true
+  },
+  "oak-ridge": {
+    "name": "oak-ridge",
+    "website": "#",
+    "logo": "/assets/images/customers/2024/oak-ridge.png",
+    "show": true
+  },
+  "orange": {
+    "name": "orange",
+    "website": "#",
+    "logo": "/assets/images/customers/2024/orange.png",
+    "show": true
+  },
+  "vaimo": {
+    "name": "vaimo",
+    "website": "#",
+    "logo": "/assets/images/customers/2024/vaimo.png",
+    "show": true
+  },
+  "wiliot": {
+    "name": "wiliot",
+    "website": "#",
+    "logo": "/assets/images/customers/2024/wiliot.png",
+    "show": true
+  },
   "intersystems": {
     "name": "InterSystems",
     "website": "https://www.intersystems.com",
