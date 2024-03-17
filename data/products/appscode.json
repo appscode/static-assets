@@ -46,7 +46,7 @@
         "name": "KubeDB",
         "url": "https://kubedb.com",
         "logo": "/assets/images/products/kubedb/kubedb.svg",
-        "description": "KubeDB simplifies Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud"
+        "description": "KubeDB simplifies Provisioning, Upgrading, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud"
       },
       {
         "name": "Stash",
@@ -93,7 +93,7 @@
         "use_case": "MANAGE DATABASE",
         "logo": "/assets/images/products/kubedb/kubedb.svg",
         "title": "Run Production-Grade Databases on Kubernetes",
-        "summary": "KubeDB simplifies Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud",
+        "summary": "KubeDB simplifies Provisioning, Upgrading, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud",
         "url": "https://kubedb.com",
         "features": [
           "Provisioning",
