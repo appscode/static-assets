@@ -64,7 +64,7 @@
         "name": "Voyager",
         "url": "https://voyagermesh.com/",
         "logo": "/assets/images/products/voyager/voyager.png",
-        "description": "Voyager is a HAProxy backed secure L7 and L4 ingress controller for Kubernetes. This can be used with any Kubernetes cloud providers including AWS, GCE, GKE, AZURE, ACS etc. This can also be used with baremetal Kubernetes clusters."
+        "description": "Voyager is a secure L7 and L4 ingress controller for Kubernetes with Gateway API support. This can be used with any Kubernetes cloud providers including AWS, GCE, GKE, AZURE, ACS etc. This can also be used with baremetal Kubernetes clusters."
       }
     ],
     "highlight_products": {
@@ -131,7 +131,7 @@
         "use_case": "NETWORKING",
         "logo": "/assets/images/products/voyager/voyager.png",
         "title": "Secure HAProxy Ingress Controller for Kubernetes",
-        "summary": "Voyager is a HAProxy backed secure L7 and L4 ingress controller for Kubernetes. This can be used with any Kubernetes cloud providers including AWS, GCE, GKE, AZURE, ACS etc. This can also be used with baremetal Kubernetes clusters.",
+        "summary": "Voyager is a secure L7 and L4 ingress controller for Kubernetes with Gateway API support. This can be used with any Kubernetes cloud providers including AWS, GCE, GKE, AZURE, ACS etc. This can also be used with baremetal Kubernetes clusters.",
         "url": "https://voyagermesh.com/",
         "features": [
           "HTTP & TCP",
