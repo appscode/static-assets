@@ -58,7 +58,7 @@
         "name": "kubeVault",
         "url": "https://kubevault.com",
         "logo": "/assets/images/products/kubevault/kubevault.png",
-        "description": "KubeVault provides various ways to configure your Vault deployment. You can pick your preferred Storage Backend, Unsealer Mode, TLS Mode, Secret Engines that you want to allow to attach with this VaultServer, Termination Policy to prevent accidental deletion or clean-up Vault deployment in a systematic way, Monitoring,  etc."
+        "description": "KubeVault makes Vault deployment and operation a breeze with a Kubernetes operator. You can pick your preferred Storage Backend, Unsealer Mode, TLS Mode, Secret Engines that you want to allow to attach with this VaultServer, Termination Policy to prevent accidental deletion or clean-up Vault deployment in a systematic way, Monitoring,  etc."
       },
       {
         "name": "Voyager",
@@ -148,7 +148,7 @@
         "use_case": "SECURITY",
         "logo": "/assets/images/products/kubevault/kubevault.png",
         "title": "Tools for running HashiCorp Vault on Kubernetes",
-        "summary": "KubeVault provides various ways to configure your Vault deployment. You can pick your preferred Storage Backend, Unsealer Mode, TLS Mode, Secret Engines that you want to allow to attach with this VaultServer, Termination Policy to prevent accidental deletion or clean-up Vault deployment in a systematic way, Monitoring,  etc.",
+        "summary": "KubeVault makes Vault deployment and operation a breeze with a Kubernetes operator. You can pick your preferred Storage Backend, Unsealer Mode, TLS Mode, Secret Engines that you want to allow to attach with this VaultServer, Termination Policy to prevent accidental deletion or clean-up Vault deployment in a systematic way, Monitoring,  etc.",
         "url": "https://kubevault.com/",
         "features": [
           "Automatic Initialization & Unsealing",
