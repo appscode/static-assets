@@ -46,7 +46,7 @@
         "name": "KubeDB",
         "url": "https://kubedb.com",
         "logo": "/assets/images/products/kubedb/kubedb.svg",
-        "description": "KubeDB simplifies Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud"
+        "description": "KubeDB simplifies Provisioning, Upgrading, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud"
       },
       {
         "name": "Stash",
@@ -58,18 +58,18 @@
         "name": "kubeVault",
         "url": "https://kubevault.com",
         "logo": "/assets/images/products/kubevault/kubevault.png",
-        "description": "KubeVault provides various ways to configure your Vault deployment. You can pick your preferred Storage Backend, Unsealer Mode, TLS Mode, Secret Engines that you want to allow to attach with this VaultServer, Termination Policy to prevent accidental deletion or clean-up Vault deployment in a systematic way, Monitoring,  etc."
+        "description": "KubeVault makes Vault deployment and operation a breeze with a Kubernetes operator. You can pick your preferred Storage Backend, Unsealer Mode, TLS Mode, Secret Engines that you want to allow to attach with this VaultServer, Termination Policy to prevent accidental deletion or clean-up Vault deployment in a systematic way, Monitoring,  etc."
       },
       {
         "name": "Voyager",
         "url": "https://voyagermesh.com/",
         "logo": "/assets/images/products/voyager/voyager.png",
-        "description": "Voyager is a HAProxy backed secure L7 and L4 ingress controller for Kubernetes. This can be used with any Kubernetes cloud providers including AWS, GCE, GKE, AZURE, ACS etc. This can also be used with baremetal Kubernetes clusters."
+        "description": "Voyager is a secure L7 and L4 ingress controller for Kubernetes with Gateway API support. This can be used with any Kubernetes cloud providers including AWS, GCE, GKE, AZURE, ACS etc. This can also be used with baremetal Kubernetes clusters."
       }
     ],
     "highlight_products": {
       "title": "The Global Leader in Kubernetes tools",
-      "summary": "AppsCode is a leading provider of Kubernetes solutions that allow organizations to maintain their business goals, higher growth, and reduce risks by making it simple, safe and affordable.",
+      "summary": "AppsCode is a global leader in Enterprise-grade Kubernetes-native Data Platform with Automated Day 2 Operations.",
       "url": "https://appscode.com/contact/",
       "products": [
         {
@@ -81,7 +81,7 @@
         {
           "name": "Config Syncer",
           "logo": "/assets/images/products/configsyncer/configsyncer-512x512.svg",
-          "summary": "Config Syncer (fka Kubed) by AppsCode is a Kubernetes Cluster Operator Daemon. From here you can learn all about Config Syncer’s architecture and how to deploy and use Config Syncer.",
+          "summary": "Config Syncer (fka Kubed) by AppsCode syncs secrets and configmaps across Kubernetes clusters. From here you can learn all about Config Syncer’s architecture and how to deploy and use Config Syncer.",
           "url": "https://config-syncer.com/"
         }
       ]
@@ -93,7 +93,7 @@
         "use_case": "MANAGE DATABASE",
         "logo": "/assets/images/products/kubedb/kubedb.svg",
         "title": "Run Production-Grade Databases on Kubernetes",
-        "summary": "KubeDB simplifies Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud",
+        "summary": "KubeDB simplifies Provisioning, Upgrading, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud",
         "url": "https://kubedb.com",
         "features": [
           "Provisioning",
@@ -131,7 +131,7 @@
         "use_case": "NETWORKING",
         "logo": "/assets/images/products/voyager/voyager.png",
         "title": "Secure HAProxy Ingress Controller for Kubernetes",
-        "summary": "Voyager is a HAProxy backed secure L7 and L4 ingress controller for Kubernetes. This can be used with any Kubernetes cloud providers including AWS, GCE, GKE, AZURE, ACS etc. This can also be used with baremetal Kubernetes clusters.",
+        "summary": "Voyager is a secure L7 and L4 ingress controller for Kubernetes with Gateway API support. This can be used with any Kubernetes cloud providers including AWS, GCE, GKE, AZURE, ACS etc. This can also be used with baremetal Kubernetes clusters.",
         "url": "https://voyagermesh.com/",
         "features": [
           "HTTP & TCP",
@@ -148,7 +148,7 @@
         "use_case": "SECURITY",
         "logo": "/assets/images/products/kubevault/kubevault.png",
         "title": "Tools for running HashiCorp Vault on Kubernetes",
-        "summary": "KubeVault provides various ways to configure your Vault deployment. You can pick your preferred Storage Backend, Unsealer Mode, TLS Mode, Secret Engines that you want to allow to attach with this VaultServer, Termination Policy to prevent accidental deletion or clean-up Vault deployment in a systematic way, Monitoring,  etc.",
+        "summary": "KubeVault makes Vault deployment and operation a breeze with a Kubernetes operator. You can pick your preferred Storage Backend, Unsealer Mode, TLS Mode, Secret Engines that you want to allow to attach with this VaultServer, Termination Policy to prevent accidental deletion or clean-up Vault deployment in a systematic way, Monitoring,  etc.",
         "url": "https://kubevault.com/",
         "features": [
           "Automatic Initialization & Unsealing",
