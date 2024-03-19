@@ -27,7 +27,7 @@
     "name": "Decisio",
     "website": "#",
     "logo": "/assets/images/customers/2024/decisio.png",
-    "show": true
+    "show": false
   },
   "emerson": {
     "name": "Emerson",
@@ -39,18 +39,18 @@
     "name": "fastspeed",
     "website": "#",
     "logo": "/assets/images/customers/2024/fastspeed.png",
-    "show": true
+    "show": false
   },
   "ge-healthcare": {
     "name": "ge-healthcare",
     "website": "#",
     "logo": "/assets/images/customers/2024/ge-healthcare.png",
-    "show": true
+    "show": false
   },
-  "100-furtune": {
-    "name": "100-furtune",
+  "100-fortune": {
+    "name": "100-fortune",
     "website": "#",
-    "logo": "/assets/images/customers/2024/100-furtune.png",
+    "logo": "/assets/images/customers/2024/100-fortune.png",
     "show": true
   },
   "greenhouse": {
@@ -69,7 +69,7 @@
     "name": "irembo",
     "website": "#",
     "logo": "/assets/images/customers/2024/irembo.png",
-    "show": true
+    "show": false
   },
   "oak-ridge": {
     "name": "oak-ridge",
@@ -99,31 +99,31 @@
     "name": "InterSystems",
     "website": "https://www.intersystems.com",
     "logo": "https://cdn.appscode.com/images/customers/intersystems/logo.png",
-    "show": true
+    "show": false
   },
   "elpheria": {
     "name": "Elpheria",
     "website": "https://www.elpheria.com",
     "logo": "https://cdn.appscode.com/images/customers/elpheria/logo.png",
-    "show": true
+    "show": false
   },
   "zebra": {
     "name": "Zebra",
     "website": "https://www.zebra.com",
     "logo": "https://cdn.appscode.com/images/customers/zebra/logo.png",
-    "show": true
+    "show": false
   },
   "pricehubble": {
     "name": "PriceHubble AG",
     "website": "https://pricehubble.com",
     "logo": "https://cdn.appscode.com/images/customers/pricehubble/logo.svg",
-    "show": true
+    "show": false
   },
   "rungway": {
     "name": "Rungway",
     "website": "https://rungway.com",
     "logo": "https://cdn.appscode.com/images/customers/rungway/logo.png",
-    "show": true
+    "show": false
   },
   "devolutions": {
     "name": "Devolutions.net",
@@ -135,18 +135,18 @@
     "name": "LiveRamp",
     "website": "https://liveramp.com",
     "logo": "https://cdn.appscode.com/images/customers/liveramp/logo.png",
-    "show": true
+    "show": false
   },
   "birdi": {
     "name": "BIRDI Pty Ltd",
     "website": "https://www.birdi.com.au",
     "logo": "https://cdn.appscode.com/images/customers/birdi/BIRDI-Logo_Retina.png",
-    "show": true
+    "show": false
   },
   "astarte": {
     "name": "Astarte",
     "website": "http://astarte-platform.org",
     "logo": "https://cdn.appscode.com/images/customers/astarte/astarte.png",
-    "show": true
+    "show": false
   }
 }
