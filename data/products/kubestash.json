@@ -27,12 +27,12 @@
     }
   ],
   "logo": {
-    "src": "https://cdn.appscode.com/images/products/stash/stash.png",
-    "alt": "Stash"
+    "src": "https://cdn.appscode.com/images/products/kubestash/kubestash.png",
+    "alt": "kubestash"
   },
   "logoWhite": {
-    "src": "https://cdn.appscode.com/images/products/stash/stash-white.png",
-    "alt": "Stash"
+    "src": "https://cdn.appscode.com/images/products/kubestash/kubestash-white.png",
+    "alt": "kubestash"
   },
   "icon": {
     "src": "https://cdn.appscode.com/images/products/stash/stash-icon.svg",
