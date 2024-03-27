@@ -20,7 +20,15 @@
     "alt": "AppsCode"
   },
   "logoWhite": {
-    "src": "/assets/images/products/appscode/appscode-white.png",
+    "src": "/assets/images/products/appscode/appscode-white.svg",
+    "alt": "AppsCode"
+  },
+  "logoBlackWhite": {
+    "src": "/assets/images/products/appscode/appscode-black-white.svg",
+    "alt": "AppsCode"
+  },
+  "logoGreenWhite": {
+    "src": "/assets/images/products/appscode/appscode-green-white.svg",
     "alt": "AppsCode"
   },
   "icon": {
