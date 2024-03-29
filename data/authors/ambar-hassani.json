@@ -1,9 +1,10 @@
 {
-    "name": "Ambar Hassani",
-    "designation": "Advisory Architect",
-    "biography": "Ambar Hassani is a Advisory Architect, working at Dell Technologies",
-    "profile": "/assets/images/authors/profile-photos-84x84/ambar-hassani.jpg",
-    "email": "Ambar.Hassani@dell.com",
-    "github": "https://github.com/thecloudgarage",
-    "linkedin": "https://www.linkedin.com/in/ambarhassani/"
-  }
+  "name": "Ambar Hassani",
+  "designation": "Advisory Architect",
+  "company": "Dell Technologies",
+  "biography": "Ambar Hassani is a Advisory Architect, working at Dell Technologies",
+  "profile": "/assets/images/authors/profile-photos-84x84/ambar-hassani.jpg",
+  "email": "Ambar.Hassani@dell.com",
+  "github": "https://github.com/thecloudgarage",
+  "linkedin": "https://www.linkedin.com/in/ambarhassani/"
+}

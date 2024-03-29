@@ -1,6 +1,7 @@
 {
   "name": "Tamal Saha",
   "designation": "Founder & CEO",
+  "company": "AppsCode Inc.",
   "biography": "Tamal Saha is the founder of AppsCode. He has been involved with Kubernetes project since 2015. He has founded a number of popular open source projects like Voyager, KubeDB, Stash, Guard, KubeVault, etc.",
   "profile": "/assets/images/authors/tamal-saha.jpg",
   "email": "tamal@appscode.com",
