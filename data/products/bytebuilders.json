@@ -41,8 +41,8 @@
     }
   },
   "repoURL": "https://github.com/bytebuilders",
-  "starRepo": "bytebuilders/community",
-  "docRepo": "bytebuilders/community",
+  "starRepo": "appscode/community",
+  "docRepo": "appscode/community",
   "videos": {
     "intro": "8az5rYUxyGs"
   },
