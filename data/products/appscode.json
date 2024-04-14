@@ -193,7 +193,7 @@
     ],
     "subscription": {
       "title": "Cloud reimagined <br /> for the age of Kubernetes",
-      "summary_left": "Deploy, manage, upgrade Kubernetes on any cloud and automate deployment, scaling, and management of containerized applications. Make Kubernetes accessible any member of your development team using ByteBuilder's innovative Kubernetes Dashboard.",
+      "summary_left": "Deploy, manage, upgrade Kubernetes on any cloud and automate deployment, scaling, and management of containerized applications. Make Kubernetes accessible any member of your development team using AppsCode's innovative Kubernetes Dashboard.",
       "summary_right": "AppsCode simplifies and automate every single component related to Kubernetes. We produce high quality production-grade tools for developers to experience to make the most of their Kubernetes journey."
     },
     "social_connect": {
