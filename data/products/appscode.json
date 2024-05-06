@@ -12,7 +12,7 @@
     "themeColor": ""
   },
   "heroImage": {
-    "src": "/assets/images/products/appscode/appscode-hero.png",
+    "src": "/assets/images/products/appscode/appscode-hero.webp",
     "alt": "AppsCode"
   },
   "logo": {
@@ -47,7 +47,7 @@
       "summary": "Our Mission is to Accelerate the transition to Containers by building a Kubernetes-native Data Platform",
       "get_in_touch_url": "https://appscode.com/contact/",
       "intro": "8az5rYUxyGs",
-      "hero_image": "/assets/images/products/appscode/appscode-hero.png"
+      "hero_image": "/assets/images/products/appscode/appscode-hero.webp"
     },
     "main_products": [
       {
