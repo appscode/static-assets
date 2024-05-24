@@ -54,27 +54,28 @@
   ],
   "example": {
     "apiVersion": "kubedb.com/v1alpha2",
-    "kind": "SingleStore",
+    "kind": "Singlestore",
     "metadata": {
-      "name": "singlestore-demo",
+      "name": "sdb",
       "namespace": "demo"
     },
     "spec": {
-      "replicas": "3",
-      "version": "3.6.0",
+      "version": "8.5.7",
+      "licenseSecret": {
+        "name": "license-secret"
+      },
       "storageType": "Durable",
       "storage": {
-        "storageClassName": "standard",
         "accessModes": [
           "ReadWriteOnce"
         ],
         "resources": {
           "requests": {
-            "storage": "1Gi"
+            "storage": "10Gi"
           }
         }
       },
-      "terminationPolicy": "Delete"
+      "terminationPolicy": "WipeOut"
     }
   }
 }

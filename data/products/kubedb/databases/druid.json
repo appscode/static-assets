@@ -56,25 +56,27 @@
     "apiVersion": "kubedb.com/v1alpha2",
     "kind": "Druid",
     "metadata": {
-      "name": "druid-demo",
+      "name": "druid",
       "namespace": "demo"
     },
     "spec": {
-      "replicas": "3",
-      "version": "3.6.0",
-      "storageType": "Durable",
-      "storage": {
-        "storageClassName": "standard",
-        "accessModes": [
-          "ReadWriteOnce"
-        ],
-        "resources": {
-          "requests": {
-            "storage": "1Gi"
-          }
+      "version": "28.0.1",
+      "deepStorage": {
+        "type": "s3",
+        "configSecret": {
+          "name": "deep-storage-config"
         }
       },
-      "terminationPolicy": "Delete"
+      "metadataStorage": {
+        "name": "mysql",
+        "namespace": "demo",
+        "createTables": true
+      },
+      "zookeeperRef": {
+        "name": "zookeeper",
+        "namespace": "demo"
+      },
+      "topology": {}
     }
   }
 }

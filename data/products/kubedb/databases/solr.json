@@ -56,15 +56,18 @@
     "apiVersion": "kubedb.com/v1alpha2",
     "kind": "Solr",
     "metadata": {
-      "name": "solr-demo",
+      "name": "solr",
       "namespace": "demo"
     },
     "spec": {
-      "replicas": "3",
-      "version": "3.6.0",
-      "storageType": "Durable",
+      "version": "9.4.1",
+      "terminationPolicy": "Delete",
+      "replicas": 3,
+      "zookeeperRef": {
+        "name": "zk-ensemble",
+        "namespace": "demo"
+      },
       "storage": {
-        "storageClassName": "standard",
         "accessModes": [
           "ReadWriteOnce"
         ],
@@ -72,9 +75,9 @@
           "requests": {
             "storage": "1Gi"
           }
-        }
-      },
-      "terminationPolicy": "Delete"
+        },
+        "storageClassName": "standard"
+      }
     }
   }
 }

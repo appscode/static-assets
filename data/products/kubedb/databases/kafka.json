@@ -56,11 +56,11 @@
     "apiVersion": "kubedb.com/v1alpha2",
     "kind": "Kafka",
     "metadata": {
-      "name": "kafka-demo",
+      "name": "kafka",
       "namespace": "demo"
     },
     "spec": {
-      "replicas": "3",
+      "replicas": 3,
       "version": "3.6.1",
       "storageType": "Durable",
       "storage": {

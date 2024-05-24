@@ -56,25 +56,20 @@
     "apiVersion": "kubedb.com/v1alpha2",
     "kind": "ZooKeeper",
     "metadata": {
-      "name": "zookeeper-demo",
+      "name": "zk-ensemble",
       "namespace": "demo"
     },
     "spec": {
-      "replicas": "3",
-      "version": "3.6.0",
-      "storageType": "Durable",
+      "version": "3.9.1",
+      "replicas": 3,
       "storage": {
-        "storageClassName": "standard",
-        "accessModes": [
-          "ReadWriteOnce"
-        ],
         "resources": {
           "requests": {
             "storage": "1Gi"
           }
         }
       },
-      "terminationPolicy": "Delete"
+      "terminationPolicy": "WipeOut"
     }
   }
 }

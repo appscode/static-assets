@@ -56,25 +56,27 @@
     "apiVersion": "kubedb.com/v1alpha2",
     "kind": "FerretDB",
     "metadata": {
-      "name": "ferretdb-demo",
+      "name": "ferretdb",
       "namespace": "demo"
     },
     "spec": {
-      "replicas": "3",
-      "version": "3.6.0",
-      "storageType": "Durable",
+      "version": "1.18.0",
+      "authSecret": {
+        "externallyManaged": false
+      },
       "storage": {
-        "storageClassName": "standard",
         "accessModes": [
           "ReadWriteOnce"
         ],
         "resources": {
           "requests": {
-            "storage": "1Gi"
+            "storage": "500Mi"
           }
         }
       },
-      "terminationPolicy": "Delete"
+      "backend": {
+        "externallyManaged": false
+      }
     }
   }
 }

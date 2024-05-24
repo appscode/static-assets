@@ -61,7 +61,7 @@
     },
     "spec": {
       "version": "2022-cu12",
-      "replicas": "1",
+      "replicas": 1,
       "storageType": "Durable",
       "storage": {
         "storageClassName": "standard",
