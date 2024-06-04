@@ -181,6 +181,7 @@
       "hostDocs": true,
       "show": true,
       "info": {
+        "cli": "v0.8.0",
         "installer": "v2024.6.4"
       }
     },
