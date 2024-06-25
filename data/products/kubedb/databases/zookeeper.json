@@ -69,7 +69,7 @@
           }
         }
       },
-      "terminationPolicy": "WipeOut"
+      "deletionPolicy": "WipeOut"
     }
   }
 }
