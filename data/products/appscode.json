@@ -12,30 +12,30 @@
     "themeColor": ""
   },
   "heroImage": {
-    "src": "/assets/images/products/appscode/appscode-hero.webp",
+    "src": "https://cdn.appscode.com/images/products/appscode/appscode-hero.webp",
     "alt": "AppsCode"
   },
   "logo": {
-    "src": "/assets/images/products/appscode/appscode.svg",
+    "src": "https://cdn.appscode.com/images/products/appscode/appscode.svg",
     "alt": "AppsCode"
   },
   "logoWhite": {
-    "src": "/assets/images/products/appscode/appscode-white.svg",
+    "src": "https://cdn.appscode.com/images/products/appscode/appscode-white.svg",
     "alt": "AppsCode"
   },
   "logoBlackWhite": {
-    "src": "/assets/images/products/appscode/appscode-black-white.svg",
+    "src": "https://cdn.appscode.com/images/products/appscode/appscode-black-white.svg",
     "alt": "AppsCode"
   },
   "logoGreenWhite": {
-    "src": "/assets/images/products/appscode/appscode-green-white.svg",
+    "src": "https://cdn.appscode.com/images/products/appscode/appscode-green-white.svg",
     "alt": "AppsCode"
   },
   "icon": {
-    "src": "/assets/images/products/appscode/appscode-icon.png",
+    "src": "https://cdn.appscode.com/images/products/appscode/appscode-icon.png",
     "alt": "AppsCode",
     "sizes": {
-      "192x192": "/assets/images/products/appscode/icons/android-icon-192x192.png"
+      "192x192": "https://cdn.appscode.com/images/products/appscode/icons/android-icon-192x192.png"
     }
   },
   "videos": {
@@ -47,31 +47,31 @@
       "summary": "Our Mission is to Accelerate the transition to Containers by building a Kubernetes-native Data Platform",
       "get_in_touch_url": "https://appscode.com/contact/",
       "intro": "8az5rYUxyGs",
-      "hero_image": "/assets/images/products/appscode/appscode-hero.webp"
+      "hero_image": "https://cdn.appscode.com/images/products/appscode/appscode-hero.webp"
     },
     "main_products": [
       {
         "name": "KubeDB",
         "url": "https://kubedb.com",
-        "logo": "/assets/images/products/kubedb/kubedb.svg",
+        "logo": "https://cdn.appscode.com/images/products/kubedb/kubedb.svg",
         "description": "KubeDB simplifies Provisioning, Upgrading, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud"
       },
       {
         "name": "Stash",
         "url": "https://stash.run",
-        "logo": "/assets/images/products/stash/stash.png",
+        "logo": "https://cdn.appscode.com/images/products/stash/stash.png",
         "description": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds."
       },
       {
         "name": "kubeVault",
         "url": "https://kubevault.com",
-        "logo": "/assets/images/products/kubevault/kubevault.png",
+        "logo": "https://cdn.appscode.com/images/products/kubevault/kubevault.png",
         "description": "KubeVault makes Vault deployment and operation a breeze with a Kubernetes operator. You can pick your preferred Storage Backend, Unsealer Mode, TLS Mode, Secret Engines that you want to allow to attach with this VaultServer, Termination Policy to prevent accidental deletion or clean-up Vault deployment in a systematic way, Monitoring,  etc."
       },
       {
         "name": "Voyager",
         "url": "https://voyagermesh.com/",
-        "logo": "/assets/images/products/voyager/voyager.png",
+        "logo": "https://cdn.appscode.com/images/products/voyager/voyager.png",
         "description": "Voyager is a secure L7 and L4 ingress controller for Kubernetes with Gateway API support. This can be used with any Kubernetes cloud providers including AWS, GCE, GKE, AZURE, ACS etc. This can also be used with baremetal Kubernetes clusters."
       }
     ],
@@ -82,13 +82,13 @@
       "products": [
         {
           "name": "Guard",
-          "logo": "/assets/images/products/guard/guard-512x512.svg",
+          "logo": "https://cdn.appscode.com/images/products/guard/guard-512x512.svg",
           "summary": "Guard by AppsCode is a Kubernetes Webhook Authentication server. Using guard, you can log into your Kubernetes cluster using a Github or Google authentication token. Guard also sets authenticated user’s groups to their Github teams or Google groups. This allows cluster administrators to setup RBAC rules based on membership in Github teams or Google groups.",
           "url": "https://kubeguard.dev/"
         },
         {
           "name": "Config Syncer",
-          "logo": "/assets/images/products/configsyncer/configsyncer-512x512.svg",
+          "logo": "https://cdn.appscode.com/images/products/configsyncer/configsyncer-512x512.svg",
           "summary": "Config Syncer (fka Kubed) by AppsCode syncs secrets and configmaps across Kubernetes clusters. From here you can learn all about Config Syncer’s architecture and how to deploy and use Config Syncer.",
           "url": "https://config-syncer.com/"
         }
@@ -99,7 +99,7 @@
         "id": "manage-database",
         "product": "kubedb",
         "use_case": "MANAGE DATABASE",
-        "logo": "/assets/images/products/kubedb/kubedb.svg",
+        "logo": "https://cdn.appscode.com/images/products/kubedb/kubedb.svg",
         "title": "Run Production-Grade Databases on Kubernetes",
         "summary": "KubeDB simplifies Provisioning, Upgrading, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud",
         "url": "https://kubedb.com",
@@ -111,13 +111,13 @@
           "Monitoring",
           "Security"
         ],
-        "illustration": "/assets/images/products/kubedb/kubedb-illustration-1.webp"
+        "illustration": "https://cdn.appscode.com/images/products/kubedb/kubedb-illustration-1.webp"
       },
       {
         "id": "disaster-recovery",
         "product": "stash",
         "use_case": " DISASTER RECOVERY ",
-        "logo": "/assets/images/products/stash/stash.png",
+        "logo": "https://cdn.appscode.com/images/products/stash/stash.png",
         "title": "Backup and Recovery Solution for Kubernetes",
         "summary": "A complete Kubernetes native disaster recovery solution for backup and restore your volumes and databases in Kubernetes on any public and private clouds.",
         "url": "https://stash.run",
@@ -131,13 +131,13 @@
           "Volume Snapshot",
           "Policy Based Backup"
         ],
-        "illustration": "/assets/images/products/stash/stash-hero.png"
+        "illustration": "https://cdn.appscode.com/images/products/stash/stash-hero.png"
       },
       {
         "id": "networking",
         "product": "voyager",
         "use_case": "NETWORKING",
-        "logo": "/assets/images/products/voyager/voyager.png",
+        "logo": "https://cdn.appscode.com/images/products/voyager/voyager.png",
         "title": "Secure HAProxy Ingress Controller for Kubernetes",
         "summary": "Voyager is a secure L7 and L4 ingress controller for Kubernetes with Gateway API support. This can be used with any Kubernetes cloud providers including AWS, GCE, GKE, AZURE, ACS etc. This can also be used with baremetal Kubernetes clusters.",
         "url": "https://voyagermesh.com/",
@@ -148,13 +148,13 @@
           "HAProxy",
           "Prometheus"
         ],
-        "illustration": "/assets/images/products/voyager/voyager-hero.png"
+        "illustration": "https://cdn.appscode.com/images/products/voyager/voyager-hero.png"
       },
       {
         "id": "security",
         "product": "kubevault",
         "use_case": "SECURITY",
-        "logo": "/assets/images/products/kubevault/kubevault.png",
+        "logo": "https://cdn.appscode.com/images/products/kubevault/kubevault.png",
         "title": "Tools for running HashiCorp Vault on Kubernetes",
         "summary": "KubeVault makes Vault deployment and operation a breeze with a Kubernetes operator. You can pick your preferred Storage Backend, Unsealer Mode, TLS Mode, Secret Engines that you want to allow to attach with this VaultServer, Termination Policy to prevent accidental deletion or clean-up Vault deployment in a systematic way, Monitoring,  etc.",
         "url": "https://kubevault.com/",
@@ -166,7 +166,7 @@
           "GCP Secret Engine",
           "Database Secret Engine"
         ],
-        "illustration": "/assets/images/products/kubevault/kubevault-hero.png"
+        "illustration": "https://cdn.appscode.com/images/products/kubevault/kubevault-hero.png"
       }
     ],
     "resources": [
@@ -203,18 +203,18 @@
         {
           "text": "VISIT OUR GITHUB PAGE",
           "url": "https://github.com/appscode",
-          "icon": "/assets/images/icon/github-outlined.svg"
+          "icon": "https://cdn.appscode.com/images/icon/github-outlined.svg"
         },
         {
           "text": "GET LATEST UPDATE",
           "url": "https://x.com/AppsCodeHQ",
-          "icon": "/assets/images/icon/twitter-outlined.svg"
+          "icon": "https://cdn.appscode.com/images/icon/twitter-outlined.svg"
         }
       ],
       "social_cards": [
         {
           "name": "Github",
-          "icon": "/assets/images/icon/count/octocat.webp",
+          "icon": "https://cdn.appscode.com/images/icon/count/octocat.webp",
           "users": "5,000+",
           "sub_title": "Github Stars",
           "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",
@@ -222,7 +222,7 @@
         },
         {
           "name": "Docker",
-          "icon": "/assets/images/icon/count/docker.webp",
+          "icon": "https://cdn.appscode.com/images/icon/count/docker.webp",
           "users": "4.5M+",
           "sub_title": "Docker Downloads",
           "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",
@@ -230,7 +230,7 @@
         },
         {
           "name": "Get Support",
-          "icon": "/assets/images/icon/count/support.webp",
+          "icon": "https://cdn.appscode.com/images/icon/count/support.webp",
           "users": "70,000+",
           "sub_title": "Operators Deployed",
           "summary": "5000+ Github Stars. Lorem ipsum is a dular site advantage of the",

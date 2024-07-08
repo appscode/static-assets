@@ -51,11 +51,11 @@
       "title": "Vault Kubernetes Deployment",
       "url": "vault-kubernetes-deployment",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-1.png",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-1.png",
         "alt": "http"
       },
       "icon": {
-        "src": "/assets/images/products/kubevault/features/vaultserverversions.svg",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/vaultserverversions.svg",
         "alt": "vaultserverversions"
       },
       "summary": "",
@@ -65,11 +65,11 @@
       "title": "Auto Initialization & Unsealing",
       "url": "auto-initialization-and-unsealing",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-1.png",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-1.png",
         "alt": "http"
       },
       "icon": {
-        "src": "/assets/images/products/kubevault/features/automated-unsealing.svg",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/automated-unsealing.svg",
         "alt": "http"
       },
       "summary": "",
@@ -79,11 +79,11 @@
       "title": "Vault Backup & Restore",
       "url": "vault-backup-restore",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-6.png",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-6.png",
         "alt": "http"
       },
       "icon": {
-        "src": "/assets/images/products/kubevault/features/vault-backup-restore.svg",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/vault-backup-restore.svg",
         "alt": "vault-backup-restore"
       },
       "summary": "",
@@ -93,11 +93,11 @@
       "title": "Consume KubeVault Secrets with CSI",
       "url": "consume-kubevault-secrets-with-csi",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-5.png",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-5.png",
         "alt": "http"
       },
       "icon": {
-        "src": "/assets/images/products/kubevault/features/secrets.svg",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/secrets.svg",
         "alt": "secrets"
       },
       "summary": "",
@@ -107,11 +107,11 @@
       "title": "Manage DB Users Privileges",
       "url": "manage-db-users-privileges",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-4.png",
         "alt": "http"
       },
       "icon": {
-        "src": "/assets/images/products/kubevault/features/database-users.svg",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/database-users.svg",
         "alt": "http"
       },
       "summary": "",
@@ -121,11 +121,11 @@
       "title": "Storage Backend",
       "url": "storage-backend",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-2.png",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-2.png",
         "alt": "http"
       },
       "icon": {
-        "src": "/assets/images/products/kubevault/features/storageclasses.svg",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/storageclasses.svg",
         "alt": "storageclasses"
       },
       "summary": "",
@@ -135,11 +135,11 @@
       "title": "Authentication Method",
       "url": "authentication-method",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-3.png",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-3.png",
         "alt": "http"
       },
       "icon": {
-        "src": "/assets/images/products/kubevault/features/auth.svg",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/auth.svg",
         "alt": "http"
       },
       "summary": "",
@@ -149,11 +149,11 @@
       "title": "Database Secret Engine",
       "url": "database-secret-engine",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-4.png",
         "alt": "http"
       },
       "icon": {
-        "src": "/assets/images/products/kubevault/features/database-view.png",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/database-view.png",
         "alt": "http"
       },
       "summary": "",
@@ -163,11 +163,11 @@
       "title": "Azure Secret Engine",
       "url": "azure-secret-engine",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-4.png",
         "alt": "http"
       },
       "icon": {
-        "src": "/assets/images/products/kubevault/features/azure.png",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/azure.png",
         "alt": "http"
       },
       "summary": "",
@@ -177,11 +177,11 @@
       "title": "AWS Secret Engine",
       "url": "aws-secret-engine",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-4.png",
         "alt": "http"
       },
       "icon": {
-        "src": "/assets/images/products/kubevault/features/aws.png",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/aws.png",
         "alt": "http"
       },
       "summary": "",
@@ -191,11 +191,11 @@
       "title": "GCP Secret Engine",
       "url": "gcp-secret-engine",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-4.png",
         "alt": "http"
       },
       "icon": {
-        "src": "/assets/images/products/kubevault/features/google-cloud.png",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/google-cloud.png",
         "alt": "http"
       },
       "summary": "",
@@ -205,11 +205,11 @@
       "title": "Kubectl Plugin",
       "url": "kubectl-plugin",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-6.png",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/feature-6.png",
         "alt": "http"
       },
       "icon": {
-        "src": "/assets/images/products/kubevault/features/plugin.svg",
+        "src": "https://cdn.appscode.com/images/products/kubevault/features/plugin.svg",
         "alt": "http"
       },
       "summary": "",

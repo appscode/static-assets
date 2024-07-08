@@ -21,11 +21,11 @@
   },
   "logoByAppsCode": {
     "white": {
-      "src": "/assets/images/products/bytebuilders/bytebuilders-by-appscode-white.svg",
+      "src": "https://cdn.appscode.com/images/products/bytebuilders/bytebuilders-by-appscode-white.svg",
       "alt": "ByteBuilders"
     },
     "color": {
-      "src": "/assets/images/products/bytebuilders/bytebuilders-by-appscode-color.svg",
+      "src": "https://cdn.appscode.com/images/products/bytebuilders/bytebuilders-by-appscode-color.svg",
       "alt": "ByteBuilders"
     }
   },
