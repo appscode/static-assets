@@ -53,7 +53,7 @@
     }
   ],
   "example": {
-    "apiVersion": "kubedb.com/v1alpha2",
+    "apiVersion": "kubedb.com/v1",
     "kind": "Kafka",
     "metadata": {
       "name": "kafka",
