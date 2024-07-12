@@ -73,7 +73,7 @@
           }
         }
       },
-      "terminationPolicy": "Delete"
+      "deletionPolicy": "Delete"
     }
   }
 }
