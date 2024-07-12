@@ -41,7 +41,7 @@
     }
   ],
   "example": {
-    "apiVersion": "kubedb.com/v1alpha2",
+    "apiVersion": "kubedb.com/v1",
     "kind": "ProxySQL",
     "metadata": {
       "name": "proxy-demo",
