@@ -75,7 +75,7 @@
           }
         }
       },
-      "terminationPolicy": "Delete"
+      "deletionPolicy": "Delete"
     }
   }
 }

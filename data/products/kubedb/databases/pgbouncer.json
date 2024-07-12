@@ -73,7 +73,7 @@
       "userListSecretRef": {
         "name": "db-user-pass"
       },
-      "terminationPolicy": "Delete"
+      "deletionPolicy": "Delete"
     }
   }
 }
