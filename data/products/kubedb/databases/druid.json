@@ -67,16 +67,11 @@
           "name": "deep-storage-config"
         }
       },
-      "metadataStorage": {
-        "name": "mysql",
-        "namespace": "demo",
-        "createTables": true
-      },
-      "zookeeperRef": {
-        "name": "zookeeper",
-        "namespace": "demo"
-      },
-      "topology": {}
+      "topology": {
+        "routers": {
+          "replicas": 1
+        }
+      }
     }
   }
 }
