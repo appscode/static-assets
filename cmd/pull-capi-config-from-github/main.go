@@ -12,7 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/google/go-github/v54/github"
+	"github.com/Masterminds/semver/v3"
+	"github.com/google/go-github/v63/github"
 )
 
 const (
@@ -56,7 +57,17 @@ func DownloadReleaseAssets(ctx context.Context, client *github.Client, owner, re
 		return err
 	}
 	for _, r := range releases {
-		subDir := filepath.Join(dir, repo, r.GetName())
+		tag := r.GetTagName()
+		v, err := semver.NewVersion(tag)
+		if err != nil {
+			fmt.Printf("skipping invalid version %q\n", tag)
+			continue
+		}
+		if v.Prerelease() != "" {
+			continue
+		}
+
+		subDir := filepath.Join(dir, repo, tag)
 		if err := os.MkdirAll(subDir, 0o755); err != nil {
 			return err
 		}

@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/appscode/static-assets/api"
-	"github.com/google/go-github/v54/github"
+	"github.com/google/go-github/v63/github"
 	"github.com/russross/blackfriday"
 )
 
