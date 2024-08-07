@@ -43,7 +43,7 @@
     }
   ],
   "example": {
-    "apiVersion": "kubedb.com/v1alpha2",
+    "apiVersion": "kubedb.com/v1",
     "kind": "PgBouncer",
     "metadata": {
       "name": "pgbouncer-demo",
@@ -73,7 +73,7 @@
       "userListSecretRef": {
         "name": "db-user-pass"
       },
-      "terminationPolicy": "Delete"
+      "deletionPolicy": "Delete"
     }
   }
 }

@@ -53,7 +53,7 @@
     }
   ],
   "example": {
-    "apiVersion": "kubedb.com/v1alpha2",
+    "apiVersion": "kubedb.com/v1",
     "kind": "Memcached",
     "metadata": {
       "name": "memcd-demo",
@@ -76,7 +76,7 @@
           }
         }
       },
-      "terminationPolicy": "Delete"
+      "deletionPolicy": "Delete"
     }
   }
 }
