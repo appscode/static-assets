@@ -61,7 +61,7 @@
     },
     "spec": {
       "version": "9.4.1",
-      "terminationPolicy": "Delete",
+      "deletionPolicy": "Delete",
       "replicas": 3,
       "zookeeperRef": {
         "name": "zk-ensemble",
