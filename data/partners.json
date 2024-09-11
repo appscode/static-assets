@@ -37,6 +37,19 @@
       "website": "https://dedicatted.com/",
       "logo": "/assets/images/partners/technology/dedicatted.svg",
       "show": true
+    },
+    "hkaco": {
+      "name": "HongKe",
+      "website": "https://hkaco.com/",
+      "logo": "/assets/images/partners/technology/hkaco.svg",
+      "show": true
+    },
+    "itbigtec": {
+      "name": "itbigtec",
+      "website": "https://itbigtec.com/",
+      "logo": "/assets/images/partners/technology/itbigtec.png",
+      "show": true
     }
+
   }
 }
