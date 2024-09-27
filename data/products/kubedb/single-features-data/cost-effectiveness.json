@@ -1,12 +1,12 @@
 {
   "id": "cost-effectiveness",
   "title": "Deploy & Manage Databases on Kubernetes FREE",
-  "meta": "KubeDB is FREE to use on any supported Kubernetes engines. You can deploy and manage your database on Kubernetes FREE",
+  "meta": "KubeDB is FREE to try on any Kubernetes distribution. You can deploy and manage your database on Kubernetes FREE",
   "innerContent": [
     {
       "id": 1,
       "title": "Cost-effectiveness",
-      "description": "KubeDB is FREE to use on any supported Kubernetes engines. You can deploy and manage your databases on Kubernetes using KubeDB. There is no up-front investment required. We offer a 30 days license FREE of cost to try KubeDB.",
+      "description": "KubeDB is FREE to try on any Kubernetes distribution. You can deploy and manage your databases on Kubernetes using KubeDB. There is no up-front investment required. We offer a 30 days license FREE of cost to try KubeDB.",
       "img": "/assets/images/features/illustrations/cost-effectoveness.jpg"
     },
     {

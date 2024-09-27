@@ -239,7 +239,7 @@
       ],
       "cta_area": {
         "title": "Get Started with AppsCode",
-        "sub_title": "AppsCode is FREE to use on any supported Kubernetes engines. There is no up-front investment required, and you need to pay only for the resources you use to your infrastructure provider. We offer a 30 days license FREE of cost to try KubeDB.",
+        "sub_title": "AppsCode is FREE to use on any Kubernetes distribution. There is no up-front investment required, and you need to pay only for the resources you use to your infrastructure provider. We offer a 30 days license FREE of cost to try KubeDB.",
         "url": "/contact"
       }
     }

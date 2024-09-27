@@ -136,7 +136,7 @@
         "alt": "http"
       },
       "summary": "",
-      "description": "KubeCI is free to use on any supported Kubernetes engines. There is no up-front investment required, and you pay only for the resources you use to your infrastructure provider. And, when you’re finished with a database instance, you can easily delete it."
+      "description": "KubeCI is free to use on any Kubernetes distribution. There is no up-front investment required, and you pay only for the resources you use to your infrastructure provider. And, when you’re finished with a database instance, you can easily delete it."
     },
     {
       "title": "Open Source",
