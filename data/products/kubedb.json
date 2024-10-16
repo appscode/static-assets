@@ -13,22 +13,22 @@
   },
   "keywords": "kubernetes, kubernetes database, database high availability, postgresql kubernetes, elasticsearch kubernetes, mysql kubernetes, etcd, mariadb kubernetes, memcached, mongodb kubernetes, percona xtradb, redis, scaling kubernetes, version upgrade kubernetes, volume expansion kubernetes, kubernetes database management",
   "heroImage": {
-    "src": "/assets/images/products/kubedb/kubedb-hero.png",
+    "src": "https://cdn.appscode.com/images/products/kubedb/kubedb-hero.png",
     "alt": "KubeDB"
   },
   "logo": {
-    "src": "/assets/images/products/kubedb/kubedb.svg",
+    "src": "https://cdn.appscode.com/images/products/kubedb/kubedb.svg",
     "alt": "KubeDB"
   },
   "logoWhite": {
-    "src": "/assets/images/products/kubedb/kubedb-white.png",
+    "src": "https://cdn.appscode.com/images/products/kubedb/kubedb-white.png",
     "alt": "KubeDB"
   },
   "icon": {
-    "src": "/assets/images/products/kubedb/kubedb-icon.svg",
+    "src": "https://cdn.appscode.com/images/products/kubedb/kubedb-icon.svg",
     "alt": "KubeDB",
     "sizes": {
-      "192x192": "/assets/images/products/kubedb/icons/android-icon-192x192.png"
+      "192x192": "https://cdn.appscode.com/images/products/kubedb/icons/android-icon-192x192.png"
     }
   },
   "repoURL": "https://github.com/kubedb/docs",
@@ -55,11 +55,11 @@
       "title": "Lower administrative burden",
       "url": "provision-databases-on-kubernetes",
       "image": {
-        "src": "/assets/images/products/kubedb/features/easy-lg.jpg",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/easy-lg.jpg",
         "alt": "Lower administrative burden"
       },
       "icon": {
-        "src": "/assets/images/products/kubedb/features/dumbbell.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/dumbbell.png",
         "alt": "Lower administrative burden"
       },
       "summary": "",
@@ -69,11 +69,11 @@
       "title": "Native Kubernetes Support",
       "url": "deploy-databases-in-kubernetes-native-way",
       "image": {
-        "src": "/assets/images/products/kubedb/features/multi-cloud-lg.jpg",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/multi-cloud-lg.jpg",
         "alt": "Native Kubernetes Support"
       },
       "icon": {
-        "src": "/assets/images/products/kubedb/features/kubernetes.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/kubernetes.png",
         "alt": "Native Kubernetes Support"
       },
       "summary": "",
@@ -83,11 +83,11 @@
       "title": "Performance",
       "url": "increase-database-performance-on-kubernetes",
       "image": {
-        "src": "/assets/images/products/kubedb/features/performance-lg.jpg",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/performance-lg.jpg",
         "alt": "Performance"
       },
       "icon": {
-        "src": "/assets/images/products/kubedb/features/muscle.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/muscle.png",
         "alt": "Performance"
       },
       "summary": "",
@@ -97,11 +97,11 @@
       "title": "Availability and durability",
       "url": "backup-restore-databases-on-kubernetes",
       "image": {
-        "src": "/assets/images/products/kubedb/features/availability-lg.jpg",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/availability-lg.jpg",
         "alt": "Availability and durability"
       },
       "icon": {
-        "src": "/assets/images/products/kubedb/features/last-24-hours.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/last-24-hours.png",
         "alt": "Availability and durability"
       },
       "summary": "",
@@ -111,11 +111,11 @@
       "title": "Manageability",
       "url": "monitor-databases-on-kubernetes",
       "image": {
-        "src": "/assets/images/products/kubedb/features/monitoring-lg.jpg",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/monitoring-lg.jpg",
         "alt": "Manageability"
       },
       "icon": {
-        "src": "/assets/images/products/kubedb/features/prometheus.svg",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/prometheus.svg",
         "alt": "Manageability"
       },
       "summary": "",
@@ -125,11 +125,11 @@
       "title": "Cost-effectiveness",
       "url": "manage-database-on-kubernetes-free",
       "image": {
-        "src": "/assets/images/products/kubedb/features/low-price-lg.jpg",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/low-price-lg.jpg",
         "alt": "Cost-effectiveness"
       },
       "icon": {
-        "src": "/assets/images/products/kubedb/features/low-price.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/low-price.png",
         "alt": "Cost-effectiveness"
       },
       "summary": "",
@@ -139,11 +139,11 @@
       "title": "Security",
       "url": "secure-databases-on-kubernetes",
       "image": {
-        "src": "/assets/images/products/kubedb/features/security-lg.jpg",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/security-lg.jpg",
         "alt": "Security"
       },
       "icon": {
-        "src": "/assets/images/products/kubedb/features/security-lock.png",
+        "src": "https://cdn.appscode.com/images/products/kubedb/features/security-lock.png",
         "alt": "Security"
       },
       "summary": "",
