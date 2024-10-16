@@ -13,22 +13,22 @@
   },
   "keywords": "kubernetes, kubernetes database, database high availability, postgresql kubernetes, elasticsearch kubernetes, mysql kubernetes, etcd, mariadb kubernetes, memcached, mongodb kubernetes, percona xtradb, redis, scaling kubernetes, version upgrade kubernetes, volume expansion kubernetes, kubernetes database management",
   "heroImage": {
-    "src": "https://cdn.appscode.com/images/products/kubedb/kubedb-hero.png",
+    "src": "/assets/images/products/kubedb/kubedb-hero.png",
     "alt": "KubeDB"
   },
   "logo": {
-    "src": "https://cdn.appscode.com/images/products/kubedb/kubedb.svg",
+    "src": "/assets/images/products/kubedb/kubedb.svg",
     "alt": "KubeDB"
   },
   "logoWhite": {
-    "src": "https://cdn.appscode.com/images/products/kubedb/kubedb-white.png",
+    "src": "/assets/images/products/kubedb/kubedb-white.png",
     "alt": "KubeDB"
   },
   "icon": {
-    "src": "https://cdn.appscode.com/images/products/kubedb/kubedb-icon.svg",
+    "src": "/assets/images/products/kubedb/kubedb-icon.svg",
     "alt": "KubeDB",
     "sizes": {
-      "192x192": "https://cdn.appscode.com/images/products/kubedb/icons/android-icon-192x192.png"
+      "192x192": "/assets/images/products/kubedb/icons/android-icon-192x192.png"
     }
   },
   "repoURL": "https://github.com/kubedb/docs",
@@ -55,12 +55,12 @@
       "title": "Lower administrative burden",
       "url": "provision-databases-on-kubernetes",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/easy-lg.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubedb/features/easy-lg.jpg",
+        "alt": "Lower administrative burden"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/dumbbell.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubedb/features/dumbbell.png",
+        "alt": "Lower administrative burden"
       },
       "summary": "",
       "description": "KubeDB simplifies many of the difficult or tedious management tasks of running a production grade databases on private and public clouds. Maintain one stack for all your stateless and stateful applications and simplify the operational complexity."
@@ -69,12 +69,12 @@
       "title": "Native Kubernetes Support",
       "url": "deploy-databases-in-kubernetes-native-way",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/multi-cloud-lg.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubedb/features/multi-cloud-lg.jpg",
+        "alt": "Native Kubernetes Support"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/kubernetes.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubedb/features/kubernetes.png",
+        "alt": "Native Kubernetes Support"
       },
       "summary": "",
       "description": "Runs on any Kubernetes distribution including OpenShift, Rancher, VMware Tanzu. If you can run Kubernetes, you can provision and manage databases using KubeDB. Use standard Kubernetes CLI and API to provision and manage databases."
@@ -83,12 +83,12 @@
       "title": "Performance",
       "url": "increase-database-performance-on-kubernetes",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/performance-lg.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubedb/features/performance-lg.jpg",
+        "alt": "Performance"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/muscle.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubedb/features/muscle.png",
+        "alt": "Performance"
       },
       "summary": "",
       "description": "KubeDB uses Persistent Volume Claims (PVC) to dynamically provision disks for database instances. Using appropriately defined StorageClasses,  KubeDB provisioned database instances are designed to scale from small development workloads up to performance-intensive workloads on private and public cloud environments."
@@ -97,12 +97,12 @@
       "title": "Availability and durability",
       "url": "backup-restore-databases-on-kubernetes",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/availability-lg.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubedb/features/availability-lg.jpg",
+        "alt": "Availability and durability"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/last-24-hours.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubedb/features/last-24-hours.png",
+        "alt": "Availability and durability"
       },
       "summary": "",
       "description": "KubeDB will backup your database and transaction logs at a user defined frequency and store both for a user-specified retention period in a cloud object store (S3, GCS, etc.) or local filesystem (like NFS, etc.). You can also initiate one-off backups. KubeDB uses Stash by AppsCode to take deduplicated and encrypted backups so that you only incur the cost of incremental storage use. You can create a new instance from a database snapshots whenever you desire."
@@ -111,12 +111,12 @@
       "title": "Manageability",
       "url": "monitor-databases-on-kubernetes",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/monitoring-lg.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubedb/features/monitoring-lg.jpg",
+        "alt": "Manageability"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/prometheus.svg",
-        "alt": "http"
+        "src": "/assets/images/products/kubedb/features/prometheus.svg",
+        "alt": "Manageability"
       },
       "summary": "",
       "description": "KubeDB comes with native support for monitoring via Prometheus. You can use builtin Prometheus scrapper or CoreOS Prometheus Operator to monitor KubeDB supported databases as well as KubeDB operator itself. You can use the Grafana to view key operational metrics, including compute/memory/storage capacity utilization, I/O activity, and instance connections. You can also use any metrics solutions like Datadog with KubeDB."
@@ -125,12 +125,12 @@
       "title": "Cost-effectiveness",
       "url": "manage-database-on-kubernetes-free",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/low-price-lg.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubedb/features/low-price-lg.jpg",
+        "alt": "Cost-effectiveness"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/low-price.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubedb/features/low-price.png",
+        "alt": "Cost-effectiveness"
       },
       "summary": "",
       "description": "KubeDB is free to try on any Kubernetes distribution. There is no up-front investment required, and you pay only for the resources you use to your infrastructure provider. And, when you’re finished with a database instance, you can easily delete it."
@@ -139,12 +139,12 @@
       "title": "Security",
       "url": "secure-databases-on-kubernetes",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/security-lg.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubedb/features/security-lg.jpg",
+        "alt": "Security"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/security-lock.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubedb/features/security-lock.png",
+        "alt": "Security"
       },
       "summary": "",
       "description": "You can secure your Databases with TLS using KubeDB. Also, KubeDB allows you to use encrypted storage for your databases using keys you manage through your cloud provider’s key management service."
