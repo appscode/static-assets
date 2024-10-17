@@ -44,12 +44,12 @@
     {
       "title": "Configuration Syncer",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/configsyncer/features/feature-3.png",
-        "alt": "http"
+        "src": "https://cdn.appscode.com/images/products/configsyncer/features/configuration-syncer.jpg",
+        "alt": "configuration-syncer"
       },
       "icon": {
         "src": "https://cdn.appscode.com/images/products/configsyncer/features/configuration.svg",
-        "alt": "http"
+        "alt": "configuration-syncer"
       },
       "summary": "",
       "description": "Keeps ConfigMaps and Secrets synchronized across Namespaces or Clusters"
