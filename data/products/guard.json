@@ -49,12 +49,12 @@
     {
       "title": "Identity Providers",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/guard/features/feature-1.png",
-        "alt": "http"
+        "src": "https://cdn.appscode.com/images/products/guard/features/identify-providers.jpg",
+        "alt": "identify-providers"
       },
       "icon": {
         "src": "https://cdn.appscode.com/images/products/guard/features/identity-providers.svg",
-        "alt": "http"
+        "alt": "identify-providers"
       },
       "summary": "",
       "description": "Guard supports Github and Google as identity providers"
@@ -62,12 +62,12 @@
     {
       "title": "CLI",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/guard/features/feature-2.png",
-        "alt": "http"
+        "src": "https://cdn.appscode.com/images/products/guard/features/cli",
+        "alt": "cli"
       },
       "icon": {
         "src": "https://cdn.appscode.com/images/products/guard/features/cli.svg",
-        "alt": "http"
+        "alt": "cli"
       },
       "summary": "",
       "description": "Guard comes with a cli to easily deploy in any Kubernetes cluster."
@@ -75,12 +75,12 @@
     {
       "title": "RBAC",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/guard/features/feature-3.png",
-        "alt": "http"
+        "src": "https://cdn.appscode.com/images/products/guard/features/rbac.jpg",
+        "alt": "rbac"
       },
       "icon": {
         "src": "https://cdn.appscode.com/images/products/guard/features/rbac.svg",
-        "alt": "http"
+        "alt": "rbac"
       },
       "summary": "",
       "description": "This tutorial will show you how to use KubeDB in a RBAC enabled cluster."
