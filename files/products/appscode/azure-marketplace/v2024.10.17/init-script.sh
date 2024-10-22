@@ -11,8 +11,10 @@ RESOURCE_GROUP=$7
 sudo su
 HOME="/root"
 cd $HOME
-apt-get -y update
-apt upgrade -y
+
+export DEBIAN_FRONTEND=noninteractive
+apt-get -y update || true
+apt upgrade -y || true
 set -xeo pipefail
 exec >/root/userdata.log 2>&1
 
