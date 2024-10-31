@@ -126,14 +126,19 @@ az_cli() {
 
     ACCESS_KEY=$(az storage account keys list --account-name ${STORAGE_ACCOUNT_NAME} | jq -r '.[0].value')
 
+    CLUSTER_ID=$(kubectl get ns kube-system -o=jsonpath='{.metadata.uid}')
+    UTC_TIME=$(date -u +"%Y-%m-%dT%H:%M:%S.%NZ")
+
     #call the webhook here
     resp=$(curl -X POST https://appscode."$ACE_PLATFORM"/marketplace/api/v1/marketplaces/azure/notification/resource?secret=${API_SECRET} \
       -H "Content-Type: application/json" \
       -d '{
             "eventType": "BIND",
+            "eventTime": "'${UTC_TIME}'",
             "applicationId": "/subscriptions/'${AZURE_SUBSCRIPTION_ID}'/resourceGroups/'${RESOURCE_GROUP}'/providers/Microsoft.Solutions/applications/'${APPLICATION_NAME}'",
             "bindingInfo": {
               "installerID": "'${INSTALLER_ID}'",
+              "clusterId": "'${CLUSTER_ID}'",
               "options": {
                 "infra": {
                   "dns": {
