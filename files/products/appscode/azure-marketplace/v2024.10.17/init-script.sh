@@ -13,8 +13,6 @@ HOME="/root"
 cd $HOME
 
 export DEBIAN_FRONTEND=noninteractive
-apt-get -y update || true
-apt upgrade -y || true
 set -xeo pipefail
 exec >/root/userdata.log 2>&1
 
