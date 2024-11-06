@@ -2,31 +2,35 @@ AWSTemplateFormatVersion: '2010-09-09'
 Description: CloudFormation template for creating an EC2 instance in a new VPC
 
 Parameters:
-  Architecture:
+  InstanceType:
     Description: "CIDR range of remote ip for ssh"
     Type: String
-    Default: "amd64"
+    Default: "m5.xlarge"
     AllowedValues:
-      - "amd64"
-      - "arm64"
-  IpWhiteList:
-    Description: "CIDR range of remote ip for ssh"
+      - "m5.xlarge"
+      - "m6g.xlarge"
+  SSHIpCIDR:
+    Description: "CIDR range of remote ip for ssh for debug or management purposes. Please set CIDR to x.x.x.x/32 to allow one specific IP address access, 0.0.0.0/0 to allow all IP addresses access, or another CIDR range."
     Type: String
+    AllowedPattern: '^((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\/(3[0-2]|[1-2]?[0-9])$'
+  ApplicationAccessIpCIDR:
+    Description: "CIDR range from where the application will be accessed. 0.0.0.0/0 is recommended to allow all IP addresses access. Set CIDR to x.x.x.x/32 to allow one specific IP address access or another CIDR range as needed."
+    Type: String
+    AllowedPattern: '^((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\/(3[0-2]|[1-2]?[0-9])$'
   InstallerURL:
     Description: "Download URL of the selfhost Installer"
     Type: String
+    AllowedPattern: "^https:\\/\\/appscode\\.com\\/links\\/installer.*$"
   KeyPair:
-    Description: Name of an existing EC2 KeyPair to enable SSH access to the instance.
+    Description: "Name of an existing EC2 KeyPair to enable SSH access to the instance."
     Type: 'AWS::EC2::KeyPair::KeyName'
 
 Mappings:
-  AMIImageMap:
-    amd64:
+  InstanceMap:
+    m5.xlarge:
       ImageID: '{{resolve:ssm:/aws/service/canonical/ubuntu/server/noble/stable/current/amd64/hvm/ebs-gp3/ami-id}}'
-      InstanceType: "m5.xlarge"
-    arm64:
+    m6g.xlarge:
       ImageID: '{{resolve:ssm:/aws/service/canonical/ubuntu/server/noble/stable/current/arm64/hvm/ebs-gp3/ami-id}}'
-      InstanceType: "m6g.xlarge"
 
 Resources:
   VPC:
@@ -90,7 +94,7 @@ Resources:
       IpProtocol: tcp
       FromPort: 4222
       ToPort: 4222
-      CidrIp: 0.0.0.0/0
+      CidrIp: !Ref ApplicationAccessIpCIDR
       GroupId: !GetAtt VPC.DefaultSecurityGroup
 
   SecurityGroupIngress80:
@@ -99,7 +103,7 @@ Resources:
       IpProtocol: tcp
       FromPort: 80
       ToPort: 80
-      CidrIp: 0.0.0.0/0
+      CidrIp: !Ref ApplicationAccessIpCIDR
       GroupId: !GetAtt VPC.DefaultSecurityGroup
 
   SecurityGroupIngress443:
@@ -108,7 +112,7 @@ Resources:
       IpProtocol: tcp
       FromPort: 443
       ToPort: 443
-      CidrIp: 0.0.0.0/0
+      CidrIp: !Ref ApplicationAccessIpCIDR
       GroupId: !GetAtt VPC.DefaultSecurityGroup
 
   SecurityGroupIngress6443:
@@ -117,7 +121,7 @@ Resources:
       IpProtocol: tcp
       FromPort: 6443
       ToPort: 6443
-      CidrIp: 0.0.0.0/0
+      CidrIp: !Ref ApplicationAccessIpCIDR
       GroupId: !GetAtt VPC.DefaultSecurityGroup
 
   SecurityGroupIngress22:
@@ -126,7 +130,7 @@ Resources:
       IpProtocol: tcp
       FromPort: 22
       ToPort: 22
-      CidrIp: !Ref IpWhiteList
+      CidrIp: !Ref SSHIpCIDR
       GroupId: !GetAtt VPC.DefaultSecurityGroup
 
   SubnetRouteTableAssociation:
@@ -138,8 +142,8 @@ Resources:
   Instance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: !FindInMap [ AMIImageMap, !Ref Architecture, ImageID]
-      InstanceType: !FindInMap [ AMIImageMap, !Ref Architecture, InstanceType]
+      ImageId: !FindInMap [ InstanceMap, !Ref InstanceType, ImageID]
+      InstanceType: !Ref InstanceType
       KeyName: !Ref KeyPair
       Tags:
         - Key: "Name"
@@ -247,14 +251,20 @@ Resources:
                   echo "s3 bucket name: "${BUCKET_NAME}
                   aws s3api create-bucket --bucket ${BUCKET_NAME} --region ${REGION} --object-ownership BucketOwnerEnforced
                   ACCOUNT_ID=$(aws sts get-caller-identity | jq -r '.Account')
+                  
+                  CLUSTER_ID=$(kubectl get ns kube-system -o=jsonpath='{.metadata.uid}')
+                  UTC_TIME=$(date -u +"%Y-%m-%dT%H:%M:%S.%NZ")
+                  
                   #call the webhook here
                   resp=$(curl -X POST https://appscode.com/marketplace/api/v1/marketplaces/aws/notification/resource?secret=vstktmgwvkxyrsrfmt5tr0i66qpxkeoeaejjr3gyxkeywkm/00kyfahzvxjkfyb/qn5tgxgt9s/xb6vsamhh4w== \
                     -H "Content-Type: application/json" \
                     -d '{
                           "eventType": "BIND",
+                          "eventTime": "'${UTC_TIME}'",
                           "accountId": "'${ACCOUNT_ID}'",
                           "bindingInfo": {
                             "installerID": "'${INSTALLER_ID}'",
+                            "clusterId": "'${CLUSTER_ID}'",
                             "options": {
                               "infra": {
                                 "dns": {
@@ -307,7 +317,7 @@ Resources:
                           }
                         }')
                     link=$(echo ${resp} | jq -r '.link')
-                    if [ ${link} == "null" ]; then   exit ; fi
+                    if [ ${link} == "null" ]; then   exit 1 ; fi
       
                     mkdir new
                     cd new
