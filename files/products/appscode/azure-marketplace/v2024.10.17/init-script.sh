@@ -13,6 +13,8 @@ HOME="/root"
 cd $HOME
 
 export DEBIAN_FRONTEND=noninteractive
+apt-get -y update || true
+apt upgrade -y || true
 set -xeo pipefail
 exec >/root/userdata.log 2>&1
 
@@ -183,7 +185,7 @@ az_cli() {
             }
           }')
     link=$(echo ${resp} | jq -r '.link')
-    if [ ${link} == "null" ]; then   exit ; fi
+    if [ ${link} == "null" ]; then   exit 1 ; fi
 
     mkdir new
     cd new
