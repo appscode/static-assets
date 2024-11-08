@@ -28,9 +28,9 @@ Parameters:
 Mappings:
   InstanceMap:
     m5.xlarge:
-      ImageID: '{{resolve:ssm:/aws/service/ami-amazon-linux-latest/al2023-ami-kernel-default-x86_64}}'
+      ImageID: '{{resolve:ssm:/aws/service/canonical/ubuntu/server/noble/stable/current/amd64/hvm/ebs-gp3/ami-id}}'
     m6g.xlarge:
-      ImageID: '{{resolve:ssm:/aws/service/ami-amazon-linux-latest/al2023-ami-kernel-default-arm64}}'
+      ImageID: '{{resolve:ssm:/aws/service/canonical/ubuntu/server/noble/stable/current/arm64/hvm/ebs-gp3/ami-id}}'
 
 Resources:
   VPC:
@@ -155,7 +155,7 @@ Resources:
           SubnetId:
             Ref: "Subnet"
       BlockDeviceMappings:
-        - DeviceName: /dev/xvda #/dev/sta1 root volume for ubuntu, /dev/xvda for amzn-linux
+        - DeviceName: /dev/sda1 #/dev/sta1 is the device name for root volume
           Ebs:
             VolumeSize: 100 # Specify the size of the root volume in GB
             VolumeType: gp3
@@ -217,6 +217,8 @@ Resources:
                   retry 5 $cmd | INSTALL_K3S_EXEC="--disable=traefik --disable=metrics-server" sh -s - --tls-san "$SERVER_IP"
                   
                   echo 'alias k=kubectl' >> ${HOME}/.bashrc
+                  echo 'export KUBECONFIG=/etc/rancher/k3s/k3s.yaml' >> ${HOME}/.bashrc
+                  source "${HOME}/.bashrc"
                   
                   export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
                   
@@ -239,6 +241,12 @@ Resources:
                   cd ..
                 }
                 aws_cli() {
+                  apt install unzip >/dev/null
+                  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" >/dev/null
+                  unzip awscliv2.zip >/dev/null
+                  sudo ./aws/install >/dev/null
+                  #install jq
+                  apt-get install jq -y
                   BUCKET_NAME=${BUCKET_NAME}$(head /dev/urandom | tr -dc 'a-z' | head -c 6)
                   echo "s3 bucket name: "${BUCKET_NAME}
                   aws s3api create-bucket --bucket ${BUCKET_NAME} --region ${REGION} --object-ownership BucketOwnerEnforced
@@ -339,6 +347,7 @@ Resources:
                   --namespace kubeops --create-namespace \
                   --values=./new/values.yaml \
                   --wait --debug --burst-limit=10000
+                  #--set helm.releases.ace.values.global.infra.dns.targetIPs={${PUBLIC_IP}}
                 }
                 init(){
                   create_k3s
