@@ -26,11 +26,45 @@ Parameters:
     Type: 'AWS::EC2::KeyPair::KeyName'
 
 Mappings:
-  InstanceMap:
+  InstanceMap: #amazon linux 2 hvm
+    us-east-1:
+      AMD: "ami-0984f4b9e98be44bf"
+      ARM: "ami-0208d05927639db3e"
+    us-east-2:
+      AMD: "ami-09caa684bdee947fc"
+      ARM: "ami-0fe06469108931c38"
+    us-west-1:
+      AMD: "ami-0a9271c49701613c1"
+      ARM: "ami-01c3ab1cf5063f0f8"
+    us-west-2:
+      AMD: "ami-04907d7291cd8e06a"
+      ARM: "ami-0a91ef37664acaf2f"
+    ap-south-1:
+      AMD: "ami-03753afda9b8ba740"
+      ARM: "ami-0bdde8f72d71217bf"
+    ap-northeast-3:
+      AMD: "ami-0f7c0a87233c91cfb"
+      ARM: "ami-0f2f53469d948b40f"
+    ap-northeast-2:
+      AMD: "ami-0c63ba386d57a6296"
+      ARM: "ami-0ba2f161f227e60d7"
+    ap-southeast-1:
+      AMD: "ami-09fcb1e15a7d9b9f2"
+      ARM: "ami-01fa34c87e4b4cfd6"
+    ap-southeast-2:
+      AMD: "ami-09c380248cbc422a4"
+      ARM: "ami-0132094dd0d432d9e"
+    ap-northeast-1:
+      AMD: "ami-0b6fe957a0eb4c1b9"
+      ARM: "ami-07656be8884b9dbe6"
+    ca-central-1:
+      AMD: "ami-0926a49ffde4bb836"
+      ARM: "ami-04b23f719ebd1fc6c"
+  ArchitectureMap:
     m5.xlarge:
-      ImageID: '{{resolve:ssm:/aws/service/ami-amazon-linux-latest/al2023-ami-kernel-default-x86_64}}'
+      Architecture: "AMD"
     m6g.xlarge:
-      ImageID: '{{resolve:ssm:/aws/service/ami-amazon-linux-latest/al2023-ami-kernel-default-arm64}}'
+      Architecture: "ARM"
 
 Resources:
   VPC:
@@ -48,6 +82,7 @@ Resources:
     Properties:
       VpcId: !Ref VPC
       CidrBlock: 10.5.0.0/24
+      AvailabilityZone: !Join ['', [ !Ref AWS::Region, 'a'] ]
       Tags:
         - Key: Name
           Value: !Ref AWS::StackName
@@ -142,7 +177,7 @@ Resources:
   Instance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: !FindInMap [ InstanceMap, !Ref InstanceType, ImageID]
+      ImageId: !FindInMap [ InstanceMap, !Ref AWS::Region, !FindInMap [ArchitectureMap, !Ref InstanceType, Architecture] ]
       InstanceType: !Ref InstanceType
       KeyName: !Ref KeyPair
       Tags:
@@ -210,20 +245,23 @@ Resources:
                   echo 'fs.inotify.max_user_instances=100000' | sudo tee -a /etc/sysctl.conf
                   echo 'fs.inotify.max_user_watches=100000' | sudo tee -a /etc/sysctl.conf
                   sudo sysctl -p
-                  
+
                   # Create k3s cluster
                   SERVER_IP=${PUBLIC_IP}
+
+                  #selinux policy resolve. ref: https://github.com/k3s-io/k3s/issues/10411#issuecomment-2231879747
+                  amazon-linux-extras enable selinux-ng; sudo yum install selinux-policy-targeted -y
                   cmd="curl -sfL https://get.k3s.io"
                   retry 5 $cmd | INSTALL_K3S_EXEC="--disable=traefik --disable=metrics-server" sh -s - --tls-san "$SERVER_IP"
-                  
+
                   echo 'alias k=kubectl' >> ${HOME}/.bashrc
-                  
+
                   export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
-                  
+
                   # wait for 2 pods to become running
                   cmd="kubectl wait --for=condition=ready pods --all -A --timeout=5m"
                   retry 5 $cmd
-                  
+
                   # Install helm
                   curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
                 }
@@ -232,21 +270,26 @@ Resources:
                   cd old
                   curl -L "${INSTALLER_URL}" -o "archive.tar.gz"
                   tar -xvzf archive.tar.gz
-                  
+
                   #soruce azure credential file from archive.tar.gz
                   source env.sh
-                  
+
                   cd ..
                 }
                 aws_cli() {
                   BUCKET_NAME=${BUCKET_NAME}$(head /dev/urandom | tr -dc 'a-z' | head -c 6)
                   echo "s3 bucket name: "${BUCKET_NAME}
-                  aws s3api create-bucket --bucket ${BUCKET_NAME} --region ${REGION} --object-ownership BucketOwnerEnforced
+
+                  # install jq
+                  yum install jq -y
+
+                  # aws s3api create-bucket --bucket ${BUCKET_NAME} --region ${REGION} --object-ownership BucketOwnerEnforced
+                  aws s3api create-bucket --bucket ${BUCKET_NAME} --region ${REGION}
                   ACCOUNT_ID=$(aws sts get-caller-identity | jq -r '.Account')
-                  
+
                   CLUSTER_ID=$(kubectl get ns kube-system -o=jsonpath='{.metadata.uid}')
                   UTC_TIME=$(date -u +"%Y-%m-%dT%H:%M:%S.%NZ")
-                  
+
                   #call the webhook here
                   resp=$(curl -X POST https://appscode.com/marketplace/api/v1/marketplaces/aws/notification/resource?secret=vstktmgwvkxyrsrfmt5tr0i66qpxkeoeaejjr3gyxkeywkm/00kyfahzvxjkfyb/qn5tgxgt9s/xb6vsamhh4w== \
                     -H "Content-Type: application/json" \
@@ -310,7 +353,7 @@ Resources:
                         }')
                     link=$(echo ${resp} | jq -r '.link')
                     if [ ${link} == "null" ]; then   exit 1 ; fi
-      
+
                     mkdir new
                     cd new
                     curl -L "${link}" -o "archive.tar.gz"
@@ -326,10 +369,13 @@ Resources:
                   --set sourceController.create=true \
                   --set imageAutomationController.create=false \
                   --set imageReflectionController.create=false \
-                  --set kustomizeController.create=false \
-                  --set notificationController.create=false \
+                  --set kustomizeController.create=true \
+                  --set notificationController.create=true \
                   --set-string helmController.labels."ace\.appscode\.com/managed=true" \
                   --set-string sourceController.labels."ace\.appscode\.com/managed=true" \
+                  --set-string kustomizeController.labels."ace\.appscode\.com/managed=true" \
+                  --set-string notificationController.labels."ace\.appscode\.com/managed=true" \
+                  --set cli.image=ghcr.io/appscode/flux-cli \
                   --wait --debug --burst-limit=10000
                 }
                 deploy_ace(){
