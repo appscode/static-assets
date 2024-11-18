@@ -8,7 +8,19 @@ Parameters:
     Default: "m5.xlarge"
     AllowedValues:
       - "m5.xlarge"
-      - "m6g.xlarge"
+      - "m5.2xlarge"
+      - "m5.4xlarge"
+      - "m5.8xlarge"
+      - "m5.12xlarge"
+      - "m5.16xlarge"
+      - "m5.24xlarge"
+      - "m5d.xlarge"
+      - "m5d.2xlarge"
+      - "m5d.4xlarge"
+      - "m5d.8xlarge"
+      - "m5d.12xlarge"
+      - "m5d.16xlarge"
+      - "m5d.24xlarge"
   SSHIpCIDR:
     Description: "CIDR range of remote ip for ssh for debug or management purposes. Please set CIDR to x.x.x.x/32 to allow one specific IP address access, 0.0.0.0/0 to allow all IP addresses access, or another CIDR range."
     Type: String
@@ -24,48 +36,30 @@ Parameters:
   KeyPair:
     Description: "Name of an existing EC2 KeyPair to enable SSH access to the instance."
     Type: 'AWS::EC2::KeyPair::KeyName'
-
 Mappings:
-  InstanceMap: #amazon linux 2 hvm
+  InstanceMap:
     us-east-1:
-      AMD: "ami-0984f4b9e98be44bf"
-      ARM: "ami-0208d05927639db3e"
+      AMI: "ami-0984f4b9e98be44bf"
     us-east-2:
-      AMD: "ami-09caa684bdee947fc"
-      ARM: "ami-0fe06469108931c38"
+      AMI: "ami-09caa684bdee947fc"
     us-west-1:
-      AMD: "ami-0a9271c49701613c1"
-      ARM: "ami-01c3ab1cf5063f0f8"
+      AMI: "ami-0a9271c49701613c1"
     us-west-2:
-      AMD: "ami-04907d7291cd8e06a"
-      ARM: "ami-0a91ef37664acaf2f"
+      AMI: "ami-04907d7291cd8e06a"
     ap-south-1:
-      AMD: "ami-03753afda9b8ba740"
-      ARM: "ami-0bdde8f72d71217bf"
+      AMI: "ami-03753afda9b8ba740"
     ap-northeast-3:
-      AMD: "ami-0f7c0a87233c91cfb"
-      ARM: "ami-0f2f53469d948b40f"
+      AMI: "ami-0f7c0a87233c91cfb"
     ap-northeast-2:
-      AMD: "ami-0c63ba386d57a6296"
-      ARM: "ami-0ba2f161f227e60d7"
+      AMI: "ami-0c63ba386d57a6296"
     ap-southeast-1:
-      AMD: "ami-09fcb1e15a7d9b9f2"
-      ARM: "ami-01fa34c87e4b4cfd6"
+      AMI: "ami-09fcb1e15a7d9b9f2"
     ap-southeast-2:
-      AMD: "ami-09c380248cbc422a4"
-      ARM: "ami-0132094dd0d432d9e"
+      AMI: "ami-09c380248cbc422a4"
     ap-northeast-1:
-      AMD: "ami-0b6fe957a0eb4c1b9"
-      ARM: "ami-07656be8884b9dbe6"
+      AMI: "ami-0b6fe957a0eb4c1b9"
     ca-central-1:
-      AMD: "ami-0926a49ffde4bb836"
-      ARM: "ami-04b23f719ebd1fc6c"
-  ArchitectureMap:
-    m5.xlarge:
-      Architecture: "AMD"
-    m6g.xlarge:
-      Architecture: "ARM"
-
+      AMI: "ami-0926a49ffde4bb836"
 Resources:
   VPC:
     Type: AWS::EC2::VPC
@@ -76,7 +70,6 @@ Resources:
       Tags:
         - Key: Name
           Value: !Ref AWS::StackName
-
   Subnet:
     Type: AWS::EC2::Subnet
     Properties:
@@ -86,27 +79,23 @@ Resources:
       Tags:
         - Key: Name
           Value: !Ref AWS::StackName
-
   ElasticIP:
     Type: AWS::EC2::EIP
     Properties:
       Tags:
         - Key: Name
           Value: !Ref AWS::StackName
-
   InternetGateway:
     Type: AWS::EC2::InternetGateway
     Properties:
       Tags:
         - Key: Name
           Value: !Ref AWS::StackName
-
   AttachGateway:
     Type: AWS::EC2::VPCGatewayAttachment
     Properties:
       VpcId: !Ref VPC
       InternetGatewayId: !Ref InternetGateway
-
   RouteTable:
     Type: AWS::EC2::RouteTable
     Properties:
@@ -114,7 +103,6 @@ Resources:
       Tags:
         - Key: Name
           Value: !Ref AWS::StackName
-
   RouteToInternet:
     Type: AWS::EC2::Route
     DependsOn: AttachGateway
@@ -122,7 +110,6 @@ Resources:
       RouteTableId: !Ref RouteTable
       DestinationCidrBlock: 0.0.0.0/0
       GatewayId: !Ref InternetGateway
-
   SecurityGroupIngress4222:
     Type: AWS::EC2::SecurityGroupIngress
     Properties:
@@ -131,7 +118,6 @@ Resources:
       ToPort: 4222
       CidrIp: !Ref ApplicationAccessIpCIDR
       GroupId: !GetAtt VPC.DefaultSecurityGroup
-
   SecurityGroupIngress80:
     Type: AWS::EC2::SecurityGroupIngress
     Properties:
@@ -140,7 +126,6 @@ Resources:
       ToPort: 80
       CidrIp: !Ref ApplicationAccessIpCIDR
       GroupId: !GetAtt VPC.DefaultSecurityGroup
-
   SecurityGroupIngress443:
     Type: AWS::EC2::SecurityGroupIngress
     Properties:
@@ -149,7 +134,6 @@ Resources:
       ToPort: 443
       CidrIp: !Ref ApplicationAccessIpCIDR
       GroupId: !GetAtt VPC.DefaultSecurityGroup
-
   SecurityGroupIngress6443:
     Type: AWS::EC2::SecurityGroupIngress
     Properties:
@@ -158,7 +142,6 @@ Resources:
       ToPort: 6443
       CidrIp: !Ref ApplicationAccessIpCIDR
       GroupId: !GetAtt VPC.DefaultSecurityGroup
-
   SecurityGroupIngress22:
     Type: AWS::EC2::SecurityGroupIngress
     Properties:
@@ -167,17 +150,15 @@ Resources:
       ToPort: 22
       CidrIp: !Ref SSHIpCIDR
       GroupId: !GetAtt VPC.DefaultSecurityGroup
-
   SubnetRouteTableAssociation:
     Type: AWS::EC2::SubnetRouteTableAssociation
     Properties:
       RouteTableId: !Ref RouteTable
       SubnetId: !Ref Subnet
-
   Instance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: !FindInMap [ InstanceMap, !Ref AWS::Region, !FindInMap [ArchitectureMap, !Ref InstanceType, Architecture] ]
+      ImageId: !FindInMap [InstanceMap, !Ref 'AWS::Region', AMI]
       InstanceType: !Ref InstanceType
       KeyName: !Ref KeyPair
       Tags:
@@ -245,23 +226,17 @@ Resources:
                   echo 'fs.inotify.max_user_instances=100000' | sudo tee -a /etc/sysctl.conf
                   echo 'fs.inotify.max_user_watches=100000' | sudo tee -a /etc/sysctl.conf
                   sudo sysctl -p
-
                   # Create k3s cluster
                   SERVER_IP=${PUBLIC_IP}
-
                   #selinux policy resolve. ref: https://github.com/k3s-io/k3s/issues/10411#issuecomment-2231879747
                   amazon-linux-extras enable selinux-ng; sudo yum install selinux-policy-targeted -y
                   cmd="curl -sfL https://get.k3s.io"
                   retry 5 $cmd | INSTALL_K3S_EXEC="--disable=traefik --disable=metrics-server" sh -s - --tls-san "$SERVER_IP"
-
                   echo 'alias k=kubectl' >> ${HOME}/.bashrc
-
                   export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
-
                   # wait for 2 pods to become running
                   cmd="kubectl wait --for=condition=ready pods --all -A --timeout=5m"
                   retry 5 $cmd
-
                   # Install helm
                   curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
                 }
@@ -270,28 +245,22 @@ Resources:
                   cd old
                   curl -L "${INSTALLER_URL}" -o "archive.tar.gz"
                   tar -xvzf archive.tar.gz
-
                   #soruce azure credential file from archive.tar.gz
                   source env.sh
-
                   cd ..
                 }
                 aws_cli() {
                   BUCKET_NAME=${BUCKET_NAME}$(head /dev/urandom | tr -dc 'a-z' | head -c 6)
                   echo "s3 bucket name: "${BUCKET_NAME}
-
                   # install jq
                   yum install jq -y
-
                   # aws s3api create-bucket --bucket ${BUCKET_NAME} --region ${REGION} --object-ownership BucketOwnerEnforced
                   aws s3api create-bucket --bucket ${BUCKET_NAME} --region ${REGION}
                   ACCOUNT_ID=$(aws sts get-caller-identity | jq -r '.Account')
-
                   CLUSTER_ID=$(kubectl get ns kube-system -o=jsonpath='{.metadata.uid}')
                   UTC_TIME=$(date -u +"%Y-%m-%dT%H:%M:%S.%NZ")
-
                   #call the webhook here
-                  resp=$(curl -X POST https://appscode.com/marketplace/api/v1/marketplaces/aws/notification/resource?secret=vstktmgwvkxyrsrfmt5tr0i66qpxkeoeaejjr3gyxkeywkm/00kyfahzvxjkfyb/qn5tgxgt9s/xb6vsamhh4w== \
+                  resp=$(curl -X POST https://appscode.com/marketplace/api/v1/marketplaces/aws/notification/resource?secret=${API_SECRET} \
                     -H "Content-Type: application/json" \
                     -d '{
                           "eventType": "BIND",
@@ -353,7 +322,6 @@ Resources:
                         }')
                     link=$(echo ${resp} | jq -r '.link')
                     if [ ${link} == "null" ]; then   exit 1 ; fi
-
                     mkdir new
                     cd new
                     curl -L "${link}" -o "archive.tar.gz"
