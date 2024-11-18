@@ -226,23 +226,17 @@ Resources:
                   echo 'fs.inotify.max_user_instances=100000' | sudo tee -a /etc/sysctl.conf
                   echo 'fs.inotify.max_user_watches=100000' | sudo tee -a /etc/sysctl.conf
                   sudo sysctl -p
-                
                   # Create k3s cluster
                   SERVER_IP=${PUBLIC_IP}
-                
                   #selinux policy resolve. ref: https://github.com/k3s-io/k3s/issues/10411#issuecomment-2231879747
                   amazon-linux-extras enable selinux-ng; sudo yum install selinux-policy-targeted -y
                   cmd="curl -sfL https://get.k3s.io"
                   retry 5 $cmd | INSTALL_K3S_EXEC="--disable=traefik --disable=metrics-server" sh -s - --tls-san "$SERVER_IP"
-                
                   echo 'alias k=kubectl' >> ${HOME}/.bashrc
-                
                   export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
-                
                   # wait for 2 pods to become running
                   cmd="kubectl wait --for=condition=ready pods --all -A --timeout=5m"
                   retry 5 $cmd
-                
                   # Install helm
                   curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
                 }
@@ -251,28 +245,22 @@ Resources:
                   cd old
                   curl -L "${INSTALLER_URL}" -o "archive.tar.gz"
                   tar -xvzf archive.tar.gz
-                
                   #soruce azure credential file from archive.tar.gz
                   source env.sh
-                
                   cd ..
                 }
                 aws_cli() {
                   BUCKET_NAME=${BUCKET_NAME}$(head /dev/urandom | tr -dc 'a-z' | head -c 6)
                   echo "s3 bucket name: "${BUCKET_NAME}
-                
                   # install jq
                   yum install jq -y
-                
                   # aws s3api create-bucket --bucket ${BUCKET_NAME} --region ${REGION} --object-ownership BucketOwnerEnforced
                   aws s3api create-bucket --bucket ${BUCKET_NAME} --region ${REGION}
                   ACCOUNT_ID=$(aws sts get-caller-identity | jq -r '.Account')
-                
                   CLUSTER_ID=$(kubectl get ns kube-system -o=jsonpath='{.metadata.uid}')
                   UTC_TIME=$(date -u +"%Y-%m-%dT%H:%M:%S.%NZ")
-                
                   #call the webhook here
-                  resp=$(curl -X POST https://appscode.com/marketplace/api/v1/marketplaces/aws/notification/resource?secret=vstktmgwvkxyrsrfmt5tr0i66qpxkeoeaejjr3gyxkeywkm/00kyfahzvxjkfyb/qn5tgxgt9s/xb6vsamhh4w== \
+                  resp=$(curl -X POST https://appscode.com/marketplace/api/v1/marketplaces/aws/notification/resource?secret=${API_SECRET} \
                     -H "Content-Type: application/json" \
                     -d '{
                           "eventType": "BIND",
@@ -334,7 +322,6 @@ Resources:
                         }')
                     link=$(echo ${resp} | jq -r '.link')
                     if [ ${link} == "null" ]; then   exit 1 ; fi
-                
                     mkdir new
                     cd new
                     curl -L "${link}" -o "archive.tar.gz"
