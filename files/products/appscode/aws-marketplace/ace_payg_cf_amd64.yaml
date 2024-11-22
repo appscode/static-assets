@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: CloudFormation template for creating an EC2 instance in a new VPC
+Description: CloudFormation template for AppsCode Cloud (ACE)
 
 Parameters:
   InstanceType:
