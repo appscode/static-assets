@@ -38,28 +38,66 @@ Parameters:
     Type: 'AWS::EC2::KeyPair::KeyName'
 Mappings:
   InstanceMap:
-    us-east-1:
-      AMI: "ami-0984f4b9e98be44bf"
-    us-east-2:
-      AMI: "ami-09caa684bdee947fc"
-    us-west-1:
-      AMI: "ami-0a9271c49701613c1"
-    us-west-2:
-      AMI: "ami-04907d7291cd8e06a"
-    ap-south-1:
-      AMI: "ami-03753afda9b8ba740"
-    ap-northeast-3:
-      AMI: "ami-0f7c0a87233c91cfb"
-    ap-northeast-2:
-      AMI: "ami-0c63ba386d57a6296"
-    ap-southeast-1:
-      AMI: "ami-09fcb1e15a7d9b9f2"
-    ap-southeast-2:
-      AMI: "ami-09c380248cbc422a4"
+    af-south-1:
+      AMI: ami-0cc55f31911004db3
+    ap-east-1:
+      AMI: ami-0d481230a0ff04aca
     ap-northeast-1:
-      AMI: "ami-0b6fe957a0eb4c1b9"
+      AMI: ami-0037237888be2fe22
+    ap-northeast-2:
+      AMI: ami-04cb1684c278156a3
+    ap-northeast-3:
+      AMI: ami-071d6b6bbb231289b
+    ap-south-1:
+      AMI: ami-0327f51db613d7bd2
+    ap-south-2:
+      AMI: ami-064cf6726d1a658cc
+    ap-southeast-1:
+      AMI: ami-0c45ac6ebf9cf6245
+    ap-southeast-2:
+      AMI: ami-0dbd9c83830eecdb7
+    ap-southeast-3:
+      AMI: ami-0570a44582da09d2d
+    ap-southeast-4:
+      AMI: ami-02de922d10ec99123
+    ap-southeast-5:
+      AMI: ami-08446abe47bd9ddad
     ca-central-1:
-      AMI: "ami-0926a49ffde4bb836"
+      AMI: ami-0f0f9d42fd1e4ac96
+    ca-west-1:
+      AMI: ami-0eb99016aaf103a17
+    eu-central-1:
+      AMI: ami-00d72ec36cdfc8a0a
+    eu-central-2:
+      AMI: ami-0d15f5c4c0395dd6f
+    eu-north-1:
+      AMI: ami-02a0945ba27a488b7
+    eu-south-1:
+      AMI: ami-0a4bc0bc4811cd26b
+    eu-south-2:
+      AMI: ami-04bc8ce11d5065e6e
+    eu-west-1:
+      AMI: ami-04bd4a6a67aa8e86e
+    eu-west-2:
+      AMI: ami-0abb41dc69b6b6704
+    eu-west-3:
+      AMI: ami-0f6c2b9008cea6bed
+    il-central-1:
+      AMI: ami-0455e2e06f5c85a84
+    me-central-1:
+      AMI: ami-07ecbf3436d97efff
+    me-south-1:
+      AMI: ami-04d783faf6c4f8f3e
+    sa-east-1:
+      AMI: ami-0a69ccdc44bdc8622
+    us-east-1:
+      AMI: ami-0166fe664262f664c
+    us-east-2:
+      AMI: ami-088d38b423bff245f
+    us-west-1:
+      AMI: ami-018a1ea25ff5268f0
+    us-west-2:
+      AMI: ami-061dd8b45bc7deb3d
 Resources:
   VPC:
     Type: AWS::EC2::VPC
