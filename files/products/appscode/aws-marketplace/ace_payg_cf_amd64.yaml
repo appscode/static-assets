@@ -113,7 +113,14 @@ Resources:
     Properties:
       VpcId: !Ref VPC
       CidrBlock: 10.5.0.0/24
-      AvailabilityZone: !Join ['', [ !Ref AWS::Region, 'a'] ]
+      AvailabilityZone: {
+        "Fn::Select" : [
+          0,
+          {
+            "Fn::GetAZs" : !Ref AWS::Region
+          }
+        ]
+      }
       Tags:
         - Key: Name
           Value: !Ref AWS::StackName
