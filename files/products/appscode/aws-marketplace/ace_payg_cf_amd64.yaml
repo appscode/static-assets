@@ -55,10 +55,11 @@ Parameters:
     Description: "The admin username of your system, you will need this username to login into the system."
     Type: String
     AllowedPattern: '^[^\s]+$'
+    Default: "admin"
   SystemAdminPassword:
-    Description: "Set a password for admin user, you will need this password to login into the system."
+    Description: "Password must be at least 6 characters long and include at least one digit and one special character."
     Type: String
-    AllowedPattern: '^[^\s]+$'
+    AllowedPattern: '^(?=.*[0-9])(?=.*\d)(?=.*[^\da-zA-Z]).{6,30}$'
   DomainWhiteList:
     Description: "Domain name for domain whitelisting, only users from this domain can create accounts and log in. Ex: appscode.com"
     Type: String
@@ -577,7 +578,7 @@ Outputs:
   SiteURL:
     Description: Click this URL to explore the site
     Value: !Join [ "", [ "https://", !GetAtt ElasticIP.PublicIp ] ]
-  AdminUserName:
+  AdminUsername:
     Description: The site admin username.
     Value: !Ref SystemAdminUsername
   AdminUserPassword:
