@@ -17,8 +17,6 @@ Metadata:
           default: "Application Configuration"
         Parameters:
           - DomainWhiteList
-          - SystemAdminUsername
-          - SystemAdminPassword
 
 Parameters:
   InstanceType:
@@ -51,15 +49,6 @@ Parameters:
   KeyPair:
     Description: "Name of an existing EC2 KeyPair to enable SSH access to the instance."
     Type: 'AWS::EC2::KeyPair::KeyName'
-  SystemAdminUsername:
-    Description: "The admin username of your system, you will need this username to login into the system."
-    Type: String
-    AllowedPattern: '^[^\s]+$'
-    Default: "admin"
-  SystemAdminPassword:
-    Description: "Password must be at least 6 characters long and include at least one digit and one special character."
-    Type: String
-    AllowedPattern: '^(?=.*[0-9])(?=.*\d)(?=.*[^\da-zA-Z]).{6,30}$'
   DomainWhiteList:
     Description: "Domain name for domain whitelisting, only users from this domain can create accounts and log in. Ex: appscode.com"
     Type: String
@@ -398,12 +387,12 @@ Resources:
                 exec >/root/userdata.log 2>&1
               - !Sub 'PUBLIC_IP=${ElasticIP.PublicIp}'
               - !Sub 'REGION=${AWS::Region}'
-              - !Sub 'ADMIN_USER_NAME=${SystemAdminUsername}'
-              - !Sub 'ADMIN_USER_PASSWORD=${SystemAdminPassword}'
               - !Sub 'DOMAIN_WHITELIST=${DomainWhiteList}'
               - |
                 #constants (don't touch)
                 BUCKET_NAME="ace"
+                ADMIN_USER_NAME="admin"
+                ADMIN_USER_PASSWORD=""
                 timestamp() {
                   date +"%Y/%m/%d %T"
                 }
@@ -430,6 +419,23 @@ Resources:
                     count=$(($count + 1))
                   done
                   return 0
+                }
+                update_welcome_message() {
+                  echo 'See "/etc/ace/credentials" to get ACE system admin credentials, use this credential to login into the system as admin' >> /etc/motd
+                }
+                generate_credentials() {
+                  # Define character sets
+                  LOWER=$(head /dev/urandom | tr -dc 'a-z' | head -c 4)
+                  UPPER=$(head /dev/urandom | tr -dc 'A-Z' | head -c 3)
+                  NUMBERS=$(head /dev/urandom | tr -dc '0-9' | head -c 3)
+                  SPECIAL=$(head /dev/urandom | tr -dc '!@#$%^&*()_+-=[]{}|;:,.<>?' | head -c 4)
+                  # Combine all sets
+                  ALL="$LOWER$UPPER$NUMBERS$SPECIAL"
+                  # Shuffle the combined characters
+                  ADMIN_USER_PASSWORD=$(echo "$ALL" | fold -w1 | shuf | tr -d '\n')
+                  mkdir /etc/ace
+                  echo 'username: admin' >> /etc/ace/credentials
+                  echo 'password: '$ADMIN_USER_PASSWORD >> /etc/ace/credentials
                 }
                 create_k3s() {
                   echo 'fs.inotify.max_user_instances=100000' | sudo tee -a /etc/sysctl.conf
@@ -561,10 +567,12 @@ Resources:
                   --wait --debug --burst-limit=10000
                 }
                 init(){
+                  generate_credentials
                   create_k3s
                   aws_cli
                   install_fluxcd
                   deploy_ace
+                  update_welcome_message
                 }
                 init
 
@@ -578,9 +586,6 @@ Outputs:
   SiteURL:
     Description: Click this URL to explore the site
     Value: !Join [ "", [ "https://", !GetAtt ElasticIP.PublicIp ] ]
-  AdminUsername:
-    Description: The site admin username.
-    Value: !Ref SystemAdminUsername
-  AdminUserPassword:
-    Description: The site admin password.
-    Value: !Ref SystemAdminPassword
+  ApplicationCredentials:
+    Description: System Admin credentials
+    Value: For Admin credentials ssh into the EC2 instance, and see the /etc/ace/credentials
