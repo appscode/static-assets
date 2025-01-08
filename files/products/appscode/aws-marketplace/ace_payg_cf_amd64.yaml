@@ -1,9 +1,26 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: CloudFormation template for AppsCode Cloud (ACE)
 
+Metadata:
+  AWS::CloudFormation::Interface:
+    ParameterGroups:
+      -
+        Label:
+          default: "Amazon EC2 Configuration"
+        Parameters:
+          - InstanceType
+          - ApplicationAccessIpCIDR
+          - SSHIpCIDR
+          - KeyPair
+      -
+        Label:
+          default: "Application Configuration"
+        Parameters:
+          - DomainWhiteList
+
 Parameters:
   InstanceType:
-    Description: "CIDR range of remote ip for ssh"
+    Description: "Choose your EC2 instance type to be deployed."
     Type: String
     Default: "m5.xlarge"
     AllowedValues:
@@ -29,13 +46,14 @@ Parameters:
     Description: "CIDR range from where the application will be accessed. 0.0.0.0/0 is recommended to allow all IP addresses access. Set CIDR to x.x.x.x/32 to allow one specific IP address access or another CIDR range as needed."
     Type: String
     AllowedPattern: '^((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\/(3[0-2]|[1-2]?[0-9])$'
-  InstallerURL:
-    Description: "Download URL of the selfhost Installer"
-    Type: String
-    AllowedPattern: "^https:\\/\\/appscode\\.com\\/links\\/installer.*$"
   KeyPair:
     Description: "Name of an existing EC2 KeyPair to enable SSH access to the instance."
     Type: 'AWS::EC2::KeyPair::KeyName'
+  DomainWhiteList:
+    Description: "Domain name for domain whitelisting, only users from this domain can create accounts and log in. Ex: appscode.com"
+    Type: String
+    AllowedPattern: '^[^\s]+$'
+
 Mappings:
   InstanceMap:
     af-south-1:
@@ -200,7 +218,7 @@ Resources:
     Properties:
       RouteTableId: !Ref RouteTable
       SubnetId: !Ref Subnet
-  MeterUsageRole:
+  InstanceProfileRole:
     Type: AWS::IAM::Role
     Properties:
       AssumeRolePolicyDocument:
@@ -214,19 +232,125 @@ Resources:
               - 'sts:AssumeRole'
       Path: /
       Policies:
-        - PolicyName: MeterUsageFullAccess
+        - PolicyName: !Ref AWS::StackName
           PolicyDocument:
             Version: "2012-10-17"
             Statement:
-              - Effect: Allow
-                Action: 'aws-marketplace:MeterUsage'
+              - Effect: Allow # basic
+                Action:
+                  - 'aws-marketplace:MeterUsage' # billing
+                  - 's3:*' # s3-bucket
+                  - 's3-object-lambda:*'
+                  - 'eks:DescribeNodegroup' #import cluster permission
+                  - 'ec2:DescribeAvailabilityZones'
+                  - 'ec2:DescribeRegions'
+                  - 'eks:DescribeCluster'
+                  - 'eks:ListClusters'
+                  - 'iam:CreateServiceLinkedRole' # iam limited access
                 Resource: '*'
+              - Effect: Allow # cluster create - eks full
+                Action:
+                  - 'eks:*'
+                  - 'logs:PutRetentionPolicy'
+                  - 'kms:CreateGrant'
+                  - 'kms:DescribeKey'
+                Resource: '*'
+              - Effect: Allow
+                Action:
+                  - 'ssm:GetParameter'
+                  - 'ssm:GetParameters'
+                Resource:
+                  - 'arn:aws:ssm:*::parameter/aws/*'
+                  - !Join
+                    - ''
+                    - - 'arn:aws:ssm:*:'
+                      - !Ref 'AWS::AccountId'
+                      - ':parameter/aws/*'
+              - Effect: Allow # cluster create - iam limited
+                Action:
+                  - 'iam:CreateInstanceProfile'
+                  - 'iam:DeleteInstanceProfile'
+                  - 'iam:GetInstanceProfile'
+                  - 'iam:RemoveRoleFromInstanceProfile'
+                  - 'iam:GetRole'
+                  - 'iam:CreateRole'
+                  - 'iam:DeleteRole'
+                  - 'iam:AttachRolePolicy'
+                  - 'iam:PutRolePolicy'
+                  - 'iam:UpdateAssumeRolePolicy'
+                  - 'iam:AddRoleToInstanceProfile'
+                  - 'iam:ListInstanceProfilesForRole'
+                  - 'iam:PassRole'
+                  - 'iam:DetachRolePolicy'
+                  - 'iam:DeleteRolePolicy'
+                  - 'iam:GetRolePolicy'
+                  - 'iam:GetOpenIDConnectProvider'
+                  - 'iam:CreateOpenIDConnectProvider'
+                  - 'iam:DeleteOpenIDConnectProvider'
+                  - 'iam:TagOpenIDConnectProvider'
+                  - 'iam:ListAttachedRolePolicies'
+                  - 'iam:TagRole'
+                  - 'iam:UntagRole'
+                  - 'iam:GetPolicy'
+                  - 'iam:CreatePolicy'
+                  - 'iam:DeletePolicy'
+                  - 'iam:ListPolicyVersions'
+                Resource:
+                  - !Join
+                    - ''
+                    - - 'arn:aws:iam::'
+                      - !Ref 'AWS::AccountId'
+                      - ':instance-profile/*'
+                  - !Join
+                    - ''
+                    - - 'arn:aws:iam::'
+                      - !Ref 'AWS::AccountId'
+                      - ':role/*'
+                  - !Join
+                    - ''
+                    - - 'arn:aws:iam::'
+                      - !Ref 'AWS::AccountId'
+                      - ':policy/*'
+                  - !Join
+                    - ''
+                    - - 'arn:aws:iam::'
+                      - !Ref 'AWS::AccountId'
+                      - ':oidc-provider/*'
+                  - !Join
+                    - ''
+                    - - 'arn:aws:iam::'
+                      - !Ref 'AWS::AccountId'
+                      - ':role/aws-service-role/eks-nodegroup.amazonaws.com/AWSServiceRoleForAmazonEKSNodegroup'
+                  - !Join
+                    - ''
+                    - - 'arn:aws:iam::'
+                      - !Ref 'AWS::AccountId'
+                      - ':role/*'
+              - Effect: Allow
+                Action:
+                  - 'iam:GetRole'
+                  - 'iam:GetUser'
+                Resource:
+                  - !Join
+                    - ''
+                    - - 'arn:aws:iam::'
+                      - !Ref 'AWS::AccountId'
+                      - ':role/*'
+                  - !Join
+                    - ''
+                    - - 'arn:aws:iam::'
+                      - !Ref 'AWS::AccountId'
+                      - ':user/*'
+      ManagedPolicyArns:
+        - 'arn:aws:iam::aws:policy/AmazonEC2FullAccess'
+        - 'arn:aws:iam::aws:policy/AWSCloudFormationFullAccess'
+        - 'arn:aws:iam::aws:policy/AmazonS3FullAccess'
   MeterUsageInstanceProfile:
     Type: AWS::IAM::InstanceProfile
     Properties:
       Path: /
       Roles:
-        - Ref: MeterUsageRole
+        - Ref: InstanceProfileRole
   Instance:
     Type: AWS::EC2::Instance
     Properties:
@@ -261,13 +385,14 @@ Resources:
                 apt upgrade -y
                 set -xeo pipefail
                 exec >/root/userdata.log 2>&1
-              - !Sub 'INSTALLER_URL=${InstallerURL}'
               - !Sub 'PUBLIC_IP=${ElasticIP.PublicIp}'
               - !Sub 'REGION=${AWS::Region}'
+              - !Sub 'DOMAIN_WHITELIST=${DomainWhiteList}'
               - |
                 #constants (don't touch)
                 BUCKET_NAME="ace"
-                INSTALLER_ID=$(echo $INSTALLER_URL | awk -F '[/]' '{ print $8 }')
+                ADMIN_USER_NAME="admin"
+                ADMIN_USER_PASSWORD=""
                 timestamp() {
                   date +"%Y/%m/%d %T"
                 }
@@ -295,6 +420,23 @@ Resources:
                   done
                   return 0
                 }
+                update_welcome_message() {
+                  echo 'See "/etc/ace/credentials" to get ACE system admin credentials, use this credential to login into the system as admin' >> /etc/motd
+                }
+                generate_credentials() {
+                  # Define character sets
+                  LOWER=$(head /dev/urandom | tr -dc 'a-z' | head -c 4)
+                  UPPER=$(head /dev/urandom | tr -dc 'A-Z' | head -c 3)
+                  NUMBERS=$(head /dev/urandom | tr -dc '0-9' | head -c 3)
+                  SPECIAL=$(head /dev/urandom | tr -dc '!@#$%^&*()_+-=[]{}|;:,.<>?' | head -c 4)
+                  # Combine all sets
+                  ALL="$LOWER$UPPER$NUMBERS$SPECIAL"
+                  # Shuffle the combined characters
+                  ADMIN_USER_PASSWORD=$(echo "$ALL" | fold -w1 | shuf | tr -d '\n')
+                  mkdir /etc/ace
+                  echo 'username: admin' >> /etc/ace/credentials
+                  echo 'password: '$ADMIN_USER_PASSWORD >> /etc/ace/credentials
+                }
                 create_k3s() {
                   echo 'fs.inotify.max_user_instances=100000' | sudo tee -a /etc/sysctl.conf
                   echo 'fs.inotify.max_user_watches=100000' | sudo tee -a /etc/sysctl.conf
@@ -313,15 +455,6 @@ Resources:
                   # Install helm
                   curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
                 }
-                download_values(){
-                  mkdir old
-                  cd old
-                  curl -L "${INSTALLER_URL}" -o "archive.tar.gz"
-                  tar -xvzf archive.tar.gz
-                  #soruce azure credential file from archive.tar.gz
-                  source env.sh
-                  cd ..
-                }
                 aws_cli() {
                   BUCKET_NAME=${BUCKET_NAME}$(head /dev/urandom | tr -dc 'a-z' | head -c 6)
                   echo "s3 bucket name: "${BUCKET_NAME}
@@ -333,15 +466,18 @@ Resources:
                   CLUSTER_ID=$(kubectl get ns kube-system -o=jsonpath='{.metadata.uid}')
                   UTC_TIME=$(date -u +"%Y-%m-%dT%H:%M:%S.%NZ")
                   #call the webhook here
-                  resp=$(curl -X POST https://appscode.com/marketplace/api/v1/marketplaces/aws/notification/resource?secret=${API_SECRET} \
+                  resp=$(curl -X POST https://appscode.com/marketplace/api/v1/marketplaces/aws/notification/resource \
                     -H "Content-Type: application/json" \
                     -d '{
                           "eventType": "BIND",
                           "eventTime": "'${UTC_TIME}'",
-                          "accountId": "'${ACCOUNT_ID}'",
                           "bindingInfo": {
-                            "installerID": "'${INSTALLER_ID}'",
+                            "marketplace": "Aws",
+                            "accountId": "'${ACCOUNT_ID}'",
                             "clusterId": "'${CLUSTER_ID}'",
+                            "adminUsername": "'${ADMIN_USER_NAME}'",
+                            "adminPassword": "'${ADMIN_USER_PASSWORD}'",
+                            "domainWhitelist": ["'${DOMAIN_WHITELIST}'"],
                             "options": {
                               "infra": {
                                 "dns": {
@@ -399,6 +535,9 @@ Resources:
                     cd new
                     curl -L "${link}" -o "archive.tar.gz"
                     tar -xvzf archive.tar.gz
+                
+                    #soruce azure credential file from archive.tar.gz
+                    source env.sh
                     cd ..
                 }
                 install_fluxcd() {
@@ -428,11 +567,12 @@ Resources:
                   --wait --debug --burst-limit=10000
                 }
                 init(){
+                  generate_credentials
                   create_k3s
-                  download_values
                   aws_cli
                   install_fluxcd
                   deploy_ace
+                  update_welcome_message
                 }
                 init
 
@@ -441,3 +581,11 @@ Resources:
     Properties:
       InstanceId: !Ref Instance
       EIP: !GetAtt ElasticIP.PublicIp
+
+Outputs:
+  SiteURL:
+    Description: Click this URL to explore the site
+    Value: !Join [ "", [ "https://", !GetAtt ElasticIP.PublicIp ] ]
+  ApplicationCredentials:
+    Description: System Admin credentials
+    Value: For Admin credentials ssh into the EC2 instance, and see the /etc/ace/credentials
