@@ -50,9 +50,9 @@ Parameters:
     Description: "Name of an existing EC2 KeyPair to enable SSH access to the instance."
     Type: 'AWS::EC2::KeyPair::KeyName'
   DomainWhiteList:
-    Description: "Domain name for domain whitelisting, only users from this domain can create accounts and log in. Ex: appscode.com"
+    Description: "Provide a valid and existing domain with an MX record for domain whitelisting. This domain will be used to validate users' email addresses during signup. For example: gmail.com, appscode.com etc."
     Type: String
-    AllowedPattern: '^[^\s]+$'
+    AllowedPattern: '^(?!:\/\/)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,63}$'
 
 Mappings:
   InstanceMap:
