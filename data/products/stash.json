@@ -184,7 +184,7 @@
     {
       "version": "v2024.12.18",
       "hostDocs": true,
-      "show": true,
+      "show": false,
       "info": {
         "cli": "v0.37.0",
         "community": "v0.37.0",
@@ -3173,7 +3173,7 @@
       "hostDocs": false
     }
   ],
-  "latestVersion": "v2024.12.18",
+  "latestVersion": "v2024.9.30",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/stashed",

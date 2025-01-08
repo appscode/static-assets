@@ -1188,7 +1188,7 @@
       "hostDocs": false
     }
   ],
-  "latestVersion": "v2024.12.18",
+  "latestVersion": "v2024.11.18",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubedb",
