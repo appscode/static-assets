@@ -307,7 +307,6 @@ Resources:
                   - 'ec2:ReleaseAddress'
                   - 'ec2:RevokeSecurityGroupIngress'
                   - 'ec2:RunInstances'
-                  - 'ec2:TerminateInstances'
                   - 'tag:GetResources'
                   - 'elasticloadbalancing:AddTags'
                   - 'elasticloadbalancing:CreateLoadBalancer'
@@ -349,6 +348,10 @@ Resources:
                   - 'eks:DescribeCluster' #import cluster action
                   - 'eks:ListClusters' #import cluster action
                 Resource: '*'
+              - Effect: Allow
+                Action:
+                  - 'ec2:TerminateInstances'
+                Resource: 'arn:*:ec2:*:*:instance/i-*'
               - Effect: Allow
                 Action:
                   - 'autoscaling:CreateAutoScalingGroup'
