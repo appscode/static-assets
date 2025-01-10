@@ -238,113 +238,174 @@ Resources:
             Statement:
               - Effect: Allow # basic
                 Action:
-                  - 'aws-marketplace:MeterUsage' # billing
-                  - 's3:*' # s3-bucket
-                  - 's3-object-lambda:*'
-                  - 'eks:DescribeNodegroup' #import cluster permission
+                  - 'ec2:DescribeIpamPools'
+                  - 'ec2:AllocateIpamPoolCidr'
+                  - 'ec2:AttachNetworkInterface'
+                  - 'ec2:DetachNetworkInterface'
+                  - 'ec2:AllocateAddress'
+                  - 'ec2:AssignIpv6Addresses'
+                  - 'ec2:AssignPrivateIpAddresses'
+                  - 'ec2:UnassignPrivateIpAddresses'
+                  - 'ec2:AssociateRouteTable'
+                  - 'ec2:AssociateVpcCidrBlock'
+                  - 'ec2:AttachInternetGateway'
+                  - 'ec2:AuthorizeSecurityGroupIngress'
+                  - 'ec2:CreateCarrierGateway'
+                  - 'ec2:CreateInternetGateway'
+                  - 'ec2:CreateEgressOnlyInternetGateway'
+                  - 'ec2:CreateNatGateway'
+                  - 'ec2:CreateNetworkInterface'
+                  - 'ec2:CreateRoute'
+                  - 'ec2:CreateRouteTable'
+                  - 'ec2:CreateSecurityGroup'
+                  - 'ec2:CreateSubnet'
+                  - 'ec2:CreateTags'
+                  - 'ec2:CreateVpc'
+                  - 'ec2:CreateVpcEndpoint'
+                  - 'ec2:DisassociateVpcCidrBlock'
+                  - 'ec2:ModifyVpcAttribute'
+                  - 'ec2:ModifyVpcEndpoint'
+                  - 'ec2:DeleteCarrierGateway'
+                  - 'ec2:DeleteInternetGateway'
+                  - 'ec2:DeleteEgressOnlyInternetGateway'
+                  - 'ec2:DeleteNatGateway'
+                  - 'ec2:DeleteRouteTable'
+                  - 'ec2:ReplaceRoute'
+                  - 'ec2:DeleteSecurityGroup'
+                  - 'ec2:DeleteSubnet'
+                  - 'ec2:DeleteTags'
+                  - 'ec2:DeleteVpc'
+                  - 'ec2:DeleteVpcEndpoints'
+                  - 'ec2:DescribeAccountAttributes'
+                  - 'ec2:DescribeAddresses'
                   - 'ec2:DescribeAvailabilityZones'
-                  - 'ec2:DescribeRegions'
-                  - 'eks:DescribeCluster'
-                  - 'eks:ListClusters'
-                  - 'iam:CreateServiceLinkedRole' # iam limited access
-                Resource: '*'
-              - Effect: Allow # cluster create - eks full
-                Action:
-                  - 'eks:*'
-                  - 'logs:PutRetentionPolicy'
-                  - 'kms:CreateGrant'
-                  - 'kms:DescribeKey'
+                  - 'ec2:DescribeCarrierGateways'
+                  - 'ec2:DescribeInstances'
+                  - 'ec2:DescribeInstanceTypes'
+                  - 'ec2:DescribeInternetGateways'
+                  - 'ec2:DescribeEgressOnlyInternetGateways'
+                  - 'ec2:DescribeInstanceTypes'
+                  - 'ec2:DescribeImages'
+                  - 'ec2:DescribeNatGateways'
+                  - 'ec2:DescribeNetworkInterfaces'
+                  - 'ec2:DescribeNetworkInterfaceAttribute'
+                  - 'ec2:DescribeRouteTables'
+                  - 'ec2:DescribeSecurityGroups'
+                  - 'ec2:DescribeSubnets'
+                  - 'ec2:DescribeVpcs'
+                  - 'ec2:DescribeDhcpOptions'
+                  - 'ec2:DescribeVpcAttribute'
+                  - 'ec2:DescribeVpcEndpoints'
+                  - 'ec2:DescribeVolumes'
+                  - 'ec2:DescribeTags'
+                  - 'ec2:DetachInternetGateway'
+                  - 'ec2:DisassociateRouteTable'
+                  - 'ec2:DisassociateAddress'
+                  - 'ec2:ModifyInstanceAttribute'
+                  - 'ec2:ModifyNetworkInterfaceAttribute'
+                  - 'ec2:ModifySubnetAttribute'
+                  - 'ec2:ReleaseAddress'
+                  - 'ec2:RevokeSecurityGroupIngress'
+                  - 'ec2:RunInstances'
+                  - 'ec2:TerminateInstances'
+                  - 'tag:GetResources'
+                  - 'elasticloadbalancing:AddTags'
+                  - 'elasticloadbalancing:CreateLoadBalancer'
+                  - 'elasticloadbalancing:ConfigureHealthCheck'
+                  - 'elasticloadbalancing:DeleteLoadBalancer'
+                  - 'elasticloadbalancing:DeleteTargetGroup'
+                  - 'elasticloadbalancing:DescribeLoadBalancers'
+                  - 'elasticloadbalancing:DescribeLoadBalancerAttributes'
+                  - 'elasticloadbalancing:DescribeTargetGroups'
+                  - 'elasticloadbalancing:ApplySecurityGroupsToLoadBalancer'
+                  - 'elasticloadbalancing:SetSecurityGroups'
+                  - 'elasticloadbalancing:DescribeTags'
+                  - 'elasticloadbalancing:ModifyLoadBalancerAttributes'
+                  - 'elasticloadbalancing:RegisterInstancesWithLoadBalancer'
+                  - 'elasticloadbalancing:DeregisterInstancesFromLoadBalancer'
+                  - 'elasticloadbalancing:RemoveTags'
+                  - 'elasticloadbalancing:SetSubnets'
+                  - 'elasticloadbalancing:ModifyTargetGroupAttributes'
+                  - 'elasticloadbalancing:CreateTargetGroup'
+                  - 'elasticloadbalancing:DescribeListeners'
+                  - 'elasticloadbalancing:CreateListener'
+                  - 'elasticloadbalancing:DescribeTargetHealth'
+                  - 'elasticloadbalancing:RegisterTargets'
+                  - 'elasticloadbalancing:DeleteListener'
+                  - 'autoscaling:DescribeAutoScalingGroups'
+                  - 'autoscaling:DescribeInstanceRefreshes'
+                  - 'ec2:CreateLaunchTemplate'
+                  - 'ec2:CreateLaunchTemplateVersion'
+                  - 'ec2:DescribeLaunchTemplates'
+                  - 'ec2:DescribeLaunchTemplateVersions'
+                  - 'ec2:DeleteLaunchTemplate'
+                  - 'ec2:DeleteLaunchTemplateVersions'
+                  - 'ec2:DescribeKeyPairs'
+                  - 'ec2:ModifyInstanceMetadataOption'
+                  - 'aws-marketplace:MeterUsage' # billing
+                  - 'ec2:DescribeAvailabilityZones' #import cluster action
+                  - 'ec2:DescribeRegions' #import cluster action
+                  - 'eks:DescribeNodegroup' #import cluster action
+                  - 'eks:DescribeCluster' #import cluster action
+                  - 'eks:ListClusters' #import cluster action
                 Resource: '*'
               - Effect: Allow
                 Action:
-                  - 'ssm:GetParameter'
-                  - 'ssm:GetParameters'
-                Resource:
-                  - 'arn:aws:ssm:*::parameter/aws/*'
-                  - !Join
-                    - ''
-                    - - 'arn:aws:ssm:*:'
-                      - !Ref 'AWS::AccountId'
-                      - ':parameter/aws/*'
-              - Effect: Allow # cluster create - iam limited
+                  - 'autoscaling:CreateAutoScalingGroup'
+                  - 'autoscaling:UpdateAutoScalingGroup'
+                  - 'autoscaling:CreateOrUpdateTags'
+                  - 'autoscaling:StartInstanceRefresh'
+                  - 'autoscaling:DeleteAutoScalingGroup'
+                  - 'autoscaling:DeleteTags'
+                Resource: 'arn:*:autoscaling:*:*:autoScalingGroup:*:autoScalingGroupName/*'
+              - Effect: Allow
                 Action:
-                  - 'iam:CreateInstanceProfile'
-                  - 'iam:DeleteInstanceProfile'
-                  - 'iam:GetInstanceProfile'
-                  - 'iam:RemoveRoleFromInstanceProfile'
-                  - 'iam:GetRole'
-                  - 'iam:CreateRole'
-                  - 'iam:DeleteRole'
-                  - 'iam:AttachRolePolicy'
-                  - 'iam:PutRolePolicy'
-                  - 'iam:UpdateAssumeRolePolicy'
-                  - 'iam:AddRoleToInstanceProfile'
-                  - 'iam:ListInstanceProfilesForRole'
+                  - 'iam:CreateServiceLinkedRole'
+                Resource:
+                  - 'arn:*:iam::*:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling'
+                Condition:
+                  StringLike:
+                    "iam:AWSServiceName": "elasticloadbalancing.amazonaws.com"
+              - Effect: Allow
+                Action:
+                  - 'iam:CreateServiceLinkedRole'
+                Resource:
+                  - 'arn:*:iam::*:role/aws-service-role/elasticloadbalancing.amazonaws.com/AWSServiceRoleForElasticLoadBalancing'
+                Condition:
+                  StringLike:
+                    "iam:AWSServiceName": "elasticloadbalancing.amazonaws.com"
+              - Effect: Allow
+                Action:
+                  - 'iam:CreateServiceLinkedRole'
+                Resource:
+                  - 'arn:*:iam::*:role/aws-service-role/spot.amazonaws.com/AWSServiceRoleForEC2Spot'
+                Condition:
+                  StringLike:
+                    "iam:AWSServiceName": "spot.amazonaws.com"
+              - Effect: Allow
+                Action:
                   - 'iam:PassRole'
-                  - 'iam:DetachRolePolicy'
-                  - 'iam:DeleteRolePolicy'
-                  - 'iam:GetRolePolicy'
-                  - 'iam:GetOpenIDConnectProvider'
-                  - 'iam:CreateOpenIDConnectProvider'
-                  - 'iam:DeleteOpenIDConnectProvider'
-                  - 'iam:TagOpenIDConnectProvider'
-                  - 'iam:ListAttachedRolePolicies'
-                  - 'iam:TagRole'
-                  - 'iam:UntagRole'
-                  - 'iam:GetPolicy'
-                  - 'iam:CreatePolicy'
-                  - 'iam:DeletePolicy'
-                  - 'iam:ListPolicyVersions'
                 Resource:
-                  - !Join
-                    - ''
-                    - - 'arn:aws:iam::'
-                      - !Ref 'AWS::AccountId'
-                      - ':instance-profile/*'
-                  - !Join
-                    - ''
-                    - - 'arn:aws:iam::'
-                      - !Ref 'AWS::AccountId'
-                      - ':role/*'
-                  - !Join
-                    - ''
-                    - - 'arn:aws:iam::'
-                      - !Ref 'AWS::AccountId'
-                      - ':policy/*'
-                  - !Join
-                    - ''
-                    - - 'arn:aws:iam::'
-                      - !Ref 'AWS::AccountId'
-                      - ':oidc-provider/*'
-                  - !Join
-                    - ''
-                    - - 'arn:aws:iam::'
-                      - !Ref 'AWS::AccountId'
-                      - ':role/aws-service-role/eks-nodegroup.amazonaws.com/AWSServiceRoleForAmazonEKSNodegroup'
-                  - !Join
-                    - ''
-                    - - 'arn:aws:iam::'
-                      - !Ref 'AWS::AccountId'
-                      - ':role/*'
+                  - 'arn:*:iam::*:role/*.cluster-api-provider-aws.sigs.k8s.io'
               - Effect: Allow
                 Action:
-                  - 'iam:GetRole'
-                  - 'iam:GetUser'
+                  - 'secretsmanager:CreateSecret'
+                  - 'secretsmanager:DeleteSecret'
+                  - 'secretsmanager:TagResource'
                 Resource:
-                  - !Join
-                    - ''
-                    - - 'arn:aws:iam::'
-                      - !Ref 'AWS::AccountId'
-                      - ':role/*'
-                  - !Join
-                    - ''
-                    - - 'arn:aws:iam::'
-                      - !Ref 'AWS::AccountId'
-                      - ':user/*'
-      ManagedPolicyArns:
-        - 'arn:aws:iam::aws:policy/AmazonEC2FullAccess'
-        - 'arn:aws:iam::aws:policy/AWSCloudFormationFullAccess'
-        - 'arn:aws:iam::aws:policy/AmazonS3FullAccess'
+                  - 'arn:*:secretsmanager:*:*:secret:aws.cluster.x-k8s.io/*'
+              - Effect: Allow
+                Action:
+                  - 's3:CreateBucket'
+                  - 's3:DeleteBucket'
+                  - 's3:GetObject'
+                  - 's3:PutObject'
+                  - 's3:DeleteObject'
+                  - 's3:PutBucketPolicy'
+                  - 's3:PutBucketTagging'
+                Resource:
+                  - 'arn:*:s3:::cluster-api-provider-aws-*'
+                  - 'arn:*:s3:::ace*'
   MeterUsageInstanceProfile:
     Type: AWS::IAM::InstanceProfile
     Properties:
