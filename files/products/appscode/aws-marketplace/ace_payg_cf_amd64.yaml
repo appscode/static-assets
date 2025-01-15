@@ -43,7 +43,7 @@ Parameters:
     Type: String
     AllowedPattern: '^((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\/(3[0-2]|[1-2]?[0-9])$'
   ApplicationAccessIpCIDR:
-    Description: "CIDR range from where the application will be accessed. 0.0.0.0/0 is recommended to allow all IP addresses access. Set CIDR to x.x.x.x/32 to allow one specific IP address access or another CIDR range as needed."
+    Description: "CIDR range from where the application will be accessed. 0.0.0.0/0 is recommended to allow all IP addresses access. Set CIDR to x.x.x.x/32 to allow one specific IP address access."
     Type: String
     AllowedPattern: '^((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\/(3[0-2]|[1-2]?[0-9])$'
   KeyPair:
@@ -485,7 +485,7 @@ Resources:
                   return 0
                 }
                 update_welcome_message() {
-                  echo 'See "/etc/ace/credentials" to get ACE system admin credentials, use this credential to login into the system as admin' >> /etc/motd
+                  echo 'See "/etc/appscode/login.txt" to get ACE system admin credentials, use this credential to login into the system as admin' >> /etc/motd
                 }
                 generate_credentials() {
                   # Define character sets
@@ -497,9 +497,10 @@ Resources:
                   ALL="$LOWER$UPPER$NUMBERS$SPECIAL"
                   # Shuffle the combined characters
                   ADMIN_USER_PASSWORD=$(echo "$ALL" | fold -w1 | shuf | tr -d '\n')
-                  mkdir /etc/ace
-                  echo 'username: admin' >> /etc/ace/credentials
-                  echo 'password: '$ADMIN_USER_PASSWORD >> /etc/ace/credentials
+                  mkdir /etc/appscode
+                  echo 'Visit URL: https://'$PUBLIC_IP >> /etc/appscode/login.txt
+                  echo 'Username: admin' >> /etc/appscode/login.txt
+                  echo 'Password: '$ADMIN_USER_PASSWORD >> /etc/appscode/login.txt
                 }
                 create_k3s() {
                   echo 'fs.inotify.max_user_instances=100000' | sudo tee -a /etc/sysctl.conf
@@ -648,8 +649,8 @@ Resources:
 
 Outputs:
   SiteURL:
-    Description: Click this URL to explore the site
+    Description: Click the following URL to explore the site. Please note that it may take approximately 15 minutes for the application to be ready after the instance is created.
     Value: !Join [ "", [ "https://", !GetAtt ElasticIP.PublicIp ] ]
   ApplicationCredentials:
     Description: System Admin credentials
-    Value: For Admin credentials ssh into the EC2 instance, and see the /etc/ace/credentials
+    Value: For Admin credentials ssh into the EC2 instance, and see the /etc/appscode/login.txt file
