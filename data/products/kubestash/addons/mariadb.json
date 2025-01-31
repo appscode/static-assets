@@ -57,30 +57,66 @@
       "description": "Define a common template to backup all similar types of workloads. Then, just add some annotations to your targeted workload to enable backup for it. You can use a single template to backup all the Deployments, StatefulSets, DaemonSets, ReplicationControllers and ReplicaSets of your entire cluster"
     }    
   ],
-  "example": {
-    "apiVersion": "stash.appscode.com/v1beta1",
+  "example":{
+    "apiVersion": "core.kubestash.com/v1alpha1",
     "kind": "BackupConfiguration",
     "metadata": {
       "name": "mariadb-backup",
       "namespace": "demo"
     },
     "spec": {
-      "schedule": "*/5 * * * *",
-      "repository": {
-        "name": "demo-repo"
-      },
       "target": {
-        "ref": {
-          "apiVersion": "appcatalog.appscode.com/v1alpha1",
-          "kind": "AppBinding",
-          "name": "sample-mariadb"
-        }
+        "apiGroup": "appcatalog.appscode.com",
+        "kind": "AppBinding",
+        "name": "mariadb-appbinding",
+        "namespace": "demo"
       },
-      "retentionPolicy": {
-        "name": "keep-last-5",
-        "keepLast": 5,
-        "prune": true
-      }
+      "backends": [
+        {
+          "name": "gcs-backend",
+          "storageRef": {
+            "namespace": "demo",
+            "name": "gcs-storage"
+          },
+          "retentionPolicy": {
+            "name": "demo-retention",
+            "namespace": "demo"
+          }
+        }
+      ],
+      "sessions": [
+        {
+          "name": "frequent-backup",
+          "scheduler": {
+            "schedule": "*/5 * * * *",
+            "jobTemplate": {
+              "backoffLimit": 1
+            }
+          },
+          "repositories": [
+            {
+              "name": "gcs-mariadb-repo",
+              "backend": "gcs-backend",
+              "directory": "/mariadb",
+              "encryptionSecret": {
+                "name": "encrypt-secret",
+                "namespace": "demo"
+              }
+            }
+          ],
+          "addon": {
+            "name": "mariadb-addon",
+            "tasks": [
+              {
+                "name": "logical-backup",
+                "params": {
+                  "databases": "playground"
+                }
+              }
+            ]
+          }
+        }
+      ]
     }
   }
 }
