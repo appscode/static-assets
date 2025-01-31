@@ -58,66 +58,30 @@
       "description": "You can store your backed up data into various storage services. Stash supports AWS S3, Minio, Rook, Google Cloud Storage, Azure Blob Storage, OpenStack Swift, DigitalOcean Spaces, Blackbaze B2 and REST server as backend. You can also use Kubernetes persistent volumes as backend."
     }
   ],
-  "example":{
-    "apiVersion": "core.kubestash.com/v1alpha1",
+  "example": {
+    "apiVersion": "stash.appscode.com/v1beta1",
     "kind": "BackupConfiguration",
     "metadata": {
       "name": "elasticsearch-backup",
       "namespace": "demo"
     },
     "spec": {
-      "target": {
-        "apiGroup": "appcatalog.appscode.com",
-        "kind": "AppBinding",
-        "name": "elasticsearch-appbinding",
-        "namespace": "demo"
+      "schedule": "*/5 * * * *",
+      "repository": {
+        "name": "demo-repo"
       },
-      "backends": [
-        {
-          "name": "gcs-backend",
-          "storageRef": {
-            "namespace": "demo",
-            "name": "gcs-storage"
-          },
-          "retentionPolicy": {
-            "name": "demo-retention",
-            "namespace": "demo"
-          }
+      "target": {
+        "ref": {
+          "apiVersion": "appcatalog.appscode.com/v1alpha1",
+          "kind": "AppBinding",
+          "name": "sample-opensearch"
         }
-      ],
-      "sessions": [
-        {
-          "name": "frequent-backup",
-          "scheduler": {
-            "schedule": "*/5 * * * *",
-            "jobTemplate": {
-              "backoffLimit": 1
-            }
-          },
-          "repositories": [
-            {
-              "name": "gcs-elasticsearch-repo",
-              "backend": "gcs-backend",
-              "directory": "/elasticsearch",
-              "encryptionSecret": {
-                "name": "encrypt-secret",
-                "namespace": "demo"
-              }
-            }
-          ],
-          "addon": {
-            "name": "elasticsearch-addon",
-            "tasks": [
-              {
-                "name": "logical-backup",
-                "params": {
-                  "databases": "playground"
-                }
-              }
-            ]
-          }
-        }
-      ]
+      },
+      "retentionPolicy": {
+        "name": "keep-last-5",
+        "keepLast": 5,
+        "prune": true
+      }
     }
   }
 }
