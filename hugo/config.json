@@ -20,9 +20,10 @@
     "docker"
   ],
   "productMenu": {
-    "c0": ["kubedb", "stash"],
-    "c1": ["kubevault", "voyager"],
-    "c2": ["configsyncer", "guard"]
+    "c0": ["kubedb", "kubestash"],
+    "c1": ["stash", "kubevault"],
+    "c2": ["voyager", "configsyncer"],
+    "c3": ["guard"]
   },
   "footerLinks": [
     "kubedb",
