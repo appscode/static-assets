@@ -238,7 +238,7 @@
           "2.6.1-v23",
           "2.8.2-v18"
         ],
-        "perconaxtradb": [
+        "percona-xtradb": [
           "5.7-v30"
         ],
         "postgres": [
