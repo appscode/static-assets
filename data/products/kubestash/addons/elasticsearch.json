@@ -109,10 +109,7 @@
             "name": "elasticsearch-addon",
             "tasks": [
               {
-                "name": "logical-backup",
-                "params": {
-                  "databases": "playground"
-                }
+                "name": "logical-backup"
               }
             ]
           }
