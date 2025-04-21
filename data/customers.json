@@ -1,146 +1,75 @@
 {
-  "nokia": {
-    "name": "nokia",
-    "website": "#",
-    "logo": "/assets/images/customers/2024/nokia.png",
-    "show": true
-  },
-  "bank-al-etihad": {
-    "name": "bank-al-etihad",
-    "website": "#",
-    "logo": "/assets/images/customers/2024/bank-al-etihad.png",
-    "show": true
-  },
-  "clewmed": {
-    "name": "Clewmed",
-    "website": "#",
-    "logo": "/assets/images/customers/2024/clewmed.png",
-    "show": true
-  },
-  "decisio": {
-    "name": "Decisio",
-    "website": "#",
-    "logo": "/assets/images/customers/2024/decisio.png",
-    "show": false
-  },
-  "emerson": {
-    "name": "Emerson",
-    "website": "#",
-    "logo": "/assets/images/customers/2024/emerson.png",
-    "show": true
-  },
-  "fastspeed": {
-    "name": "fastspeed",
-    "website": "#",
-    "logo": "/assets/images/customers/2024/fastspeed.png",
-    "show": false
-  },
-  "ge-healthcare": {
-    "name": "ge-healthcare",
-    "website": "#",
-    "logo": "/assets/images/customers/2024/ge-healthcare.png",
-    "show": false
-  },
   "100-fortune": {
-    "name": "100-fortune",
+    "name": "100 Fortune",
     "website": "#",
-    "logo": "/assets/images/customers/2024/100-fortune.png",
+    "logo": "/assets/images/customers/logos/100-fortune.png",
+    "show": true
+  },
+  "nokia": {
+    "name": "NOKIA",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/nokia.png",
     "show": true
   },
   "greenhouse": {
     "name": "greenhouse",
     "website": "#",
-    "logo": "/assets/images/customers/2024/greenhouse.png",
-    "show": true
-  },
-  "huma": {
-    "name": "huma",
-    "website": "#",
-    "logo": "/assets/images/customers/2024/huma.png",
-    "show": true
-  },
-  "irembo": {
-    "name": "irembo",
-    "website": "#",
-    "logo": "/assets/images/customers/2024/irembo.png",
-    "show": false
-  },
-  "oak-ridge": {
-    "name": "oak-ridge",
-    "website": "#",
-    "logo": "/assets/images/customers/2024/oak-ridge.png",
+    "logo": "/assets/images/customers/logos/greenhouse.png",
     "show": true
   },
   "orange": {
-    "name": "orange",
+    "name": "Orange",
     "website": "#",
-    "logo": "/assets/images/customers/2024/orange.png",
+    "logo": "/assets/images/customers/logos/orange.png",
     "show": true
   },
-  "vaimo": {
-    "name": "vaimo",
+  "umd": {
+    "name": "University of Maryland",
     "website": "#",
-    "logo": "/assets/images/customers/2024/vaimo.png",
+    "logo": "/assets/images/customers/logos/umd.png",
     "show": true
   },
-  "wiliot": {
-    "name": "wiliot",
+  "bank-al-etihad": {
+    "name": "Bank al Etihad",
     "website": "#",
-    "logo": "/assets/images/customers/2024/wiliot.png",
-    "show": false
+    "logo": "/assets/images/customers/logos/bank-al-etihad.png",
+    "show": true
   },
-  "intersystems": {
-    "name": "InterSystems",
-    "website": "https://www.intersystems.com",
-    "logo": "https://cdn.appscode.com/images/customers/intersystems/logo.png",
-    "show": false
+  "emerson": {
+    "name": "Emerson",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/emerson.png",
+    "show": true
   },
-  "elpheria": {
-    "name": "Elpheria",
-    "website": "https://www.elpheria.com",
-    "logo": "https://cdn.appscode.com/images/customers/elpheria/logo.png",
-    "show": false
+  "oak-ridge": {
+    "name": "OAK RIDGE",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/oak-ridge.png",
+    "show": true
   },
-  "zebra": {
-    "name": "Zebra",
-    "website": "https://www.zebra.com",
-    "logo": "https://cdn.appscode.com/images/customers/zebra/logo.png",
-    "show": false
+  "enterprise-products-partners": {
+    "name": "Enterprise Products Partners L.P.",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/enterprise-products-partners.png",
+    "show": true
   },
-  "pricehubble": {
-    "name": "PriceHubble AG",
-    "website": "https://pricehubble.com",
-    "logo": "https://cdn.appscode.com/images/customers/pricehubble/logo.svg",
-    "show": false
+  "asurion": {
+    "name": "asurion",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/asurion.png",
+    "show": true
   },
-  "rungway": {
-    "name": "Rungway",
-    "website": "https://rungway.com",
-    "logo": "https://cdn.appscode.com/images/customers/rungway/logo.png",
-    "show": false
+
+  "huma": {
+    "name": "HUMA",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/huma.png",
+    "show": true
   },
-  "devolutions": {
-    "name": "Devolutions.net",
-    "website": "https://devolutions.net",
-    "logo": "https://cdn.appscode.com/images/customers/devolutions/DevolutionsBlue-LR.png",
-    "show": false
-  },
-  "liveramp": {
-    "name": "LiveRamp",
-    "website": "https://liveramp.com",
-    "logo": "https://cdn.appscode.com/images/customers/liveramp/logo.png",
-    "show": false
-  },
-  "birdi": {
-    "name": "BIRDI Pty Ltd",
-    "website": "https://www.birdi.com.au",
-    "logo": "https://cdn.appscode.com/images/customers/birdi/BIRDI-Logo_Retina.png",
-    "show": false
-  },
-  "astarte": {
-    "name": "Astarte",
-    "website": "http://astarte-platform.org",
-    "logo": "https://cdn.appscode.com/images/customers/astarte/astarte.png",
-    "show": false
+  "course-hero": {
+    "name": "Course Hero",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/course-hero.png",
+    "show": true
   }
 }
