@@ -1,0 +1,185 @@
+{
+  "lang" : "English",
+  "title": "One-stop Solution for Managing Databases on Kubernetes",
+  "description": "KubeDB is a Kubernetes Native Database Management Solution that simplifies and automates routine database tasks such as Provisioning, Monitoring, Upgrading, Patching, Scaling, Volume Expansion, Backup, Recovery, Failure detection, and repair for various popular databases on any private and public clouds.",
+  "hero_features": [
+    "Manage Multiple Databases with ease.",
+    "Improve developer productivity without breaking the bank with KubeDB",
+    "Run your DBaaS on Any Cloud, on-prem, developer machines, or CI/CD.",
+    "Say Goodbye to Headaches with our hands-on Engineering Support.",
+    "Shift Left Your App and DB in One Swift Deployment.",
+    "Unleash the Power of Databases per Microservice"
+  ],
+  "contact_sales": "CONTACT SALES",
+  "try_now": "TRY NOW",
+  "social_prof_title": "Our Selected Customers",
+  "features_section": {
+    "title": "Features",
+    "description": "",
+    "features": [
+      "Database Provisioning and Simplified Management",
+      "High Availability and Resiliency",
+      "Private Registry and Air-gapped clusters",
+      "Backup and Restore Capabilities",
+      "Built-in Prometheus Monitoring and Alerts",
+      "Horizontal & Vertical Scaling",
+      "Volume Expansion",
+      "Self-service Web Portal",
+      "TLS Management and renewals",
+      "GitOps (ArgoCD / FluxCD) Integration",
+      "Major, Minor, and Patch Version upgrades",
+      "Custom Database Plugin Support",
+      "Cross Cluster Access using Envoy Gateway"
+    ]
+  },
+  "kubernetes_platform": {
+    "title": "KubeDB effortlessly integrates with any Kubernetes platform such, as;",
+    "description": "Select your preferred platform and enjoy deployment, scalability and management. Join us in embracing the future of application deployment.",
+    "platform_name": [
+      "AWS Elastic Kubernetes Service (EKS)",
+      "Azure Kubernetes Service (AKS)",
+      "Google Kubernetes Engine (GKE)",
+      "Red Hat OpenShift",
+      "Rancher",
+      "VMware Tanzu",
+      "Equinix Metal",
+      "Openstack",
+      "On-Prem Kubernetes Clusters",
+      "IBM Cloud",
+      "Oracle Cloud",
+      "Alibaba Cloud",
+      "Digital Ocean",
+      "Akamai (Linode)",
+      "Exoscale Cloud Hosting",
+      "Hetzner Cloud",
+      "Kubermatic",
+      "Scaleway"
+    ]
+  },
+  "pricing_model": {
+    "title": "Pricing Model",
+    "description": "KubeDB Enterprise edition is charged by the <strong class='has-text-primary'>memory limit set to database containers managed by KubeDB (not the memory of Kubernetes worker nodes).</strong> Say, a 3 replicas PostgreSQL each with 8 GB RAM will count as 24GB memory for billing purposes."
+  },
+  "support_plans": {
+    "title": "Support Plans",
+    "features_table": {
+      "thead": ["", "Silver", "Gold", "Platinum"],
+      "tbody": [
+        {
+          "title": "Recommended for",
+          "silver": "Cloud style Self-service plan for production databases",
+          "gold": "For production databases",
+          "platinum": "For business and/or mission critical databases"
+        },
+        {
+          "title": "Support Coverage",
+          "silver": "Self-Service",
+          "gold": "8x5 ⏰",
+          "platinum": "24x7 ⏰"
+        },
+        {
+          "title": "Response Times SLA",
+          "silver": "Best Effort",
+          "gold": "Yes",
+          "platinum": "Yes"
+        },
+        {
+          "title": "Quarterly Updates",
+          "silver": "Yes",
+          "gold": "Yes",
+          "platinum": "Yes"
+        },
+        {
+          "title": "Emergency patches",
+          "silver": "No",
+          "gold": "Yes",
+          "platinum": "Yes"
+        },
+        {
+          "title": "Incident Tickets (with SLA coverage)",
+          "silver": "N/A",
+          "gold": "5/mo",
+          "platinum": "10/mo"
+        },
+        {
+          "title": "Contacts for Ticketing",
+          "silver": "1",
+          "gold": "5",
+          "platinum": "10"
+        },
+        {
+          "title": "Onboarding Support",
+          "silver": "Yes",
+          "gold": "Yes",
+          "platinum": "Yes"
+        },
+        {
+          "title": "Remote Hands (via screen share) for addtl fee",
+          "silver": "Yes",
+          "gold": "Yes (Includes FREE 3 hrs/month)",
+          "platinum": "Yes (Includes FREE 5 hrs/month)"
+        },
+        {
+          "title": "Production Runbook",
+          "silver": "No",
+          "gold": "Yes",
+          "platinum": "Yes"
+        },
+        {
+          "title": "Dedicated Private chat (via Discord)",
+          "silver": "No",
+          "gold": "Yes",
+          "platinum": "Yes"
+        },
+        {
+          "title": "Phone Support",
+          "silver": "No",
+          "gold": "No",
+          "platinum": "Yes ☎"
+        },
+        {
+          "title": "Custom Features",
+          "silver": "No",
+          "gold": "Additional fee",
+          "platinum": "Additional fee"
+        }
+      ]
+    }
+  },
+  "faq_area": {
+    "title": "Frequently asked questions",
+    "description": "Here are a few of the questions we get the most. If you don't see what's on your mind, contact us anytime.",
+    "accordions": [
+      {
+        "title": "Is KubeDB open source?",
+        "description": "KubeDB follows an open-core model. The API and client are available under Apache v2 License for integration with client projects."
+      },
+      {
+        "title": "Is KubeDB proven by large deployments?",
+        "description": "KubeDB was started in 2017 and has since been deployed across numerous clients, including large-scale deployments."
+      },
+      {
+        "title": "How is KubeDB different from using StatefulSets?",
+        "description": "KubeDB differentiates itself with its comprehensive Day 2 operations, encompassing monitoring, alerts, backup/recovery, version upgrades and scaling functionalities."
+      },
+      {
+        "title": "Why use KubeDB vs. DB vendor's operators?",
+        "description": "Unlike DB vendor's operators, using KubeDB, you can conveniently fulfill all your database requirements under a single contract and with minimum engineering efforts."
+      },
+      {
+        "title": "Why are the benefits of KubeDB over Cloud Provider Managed DB Service?",
+        "description": "KubeDB offers a wide array of database options, supporting multi-cloud and on-premises environments while providing cheaper / cost-effective solutions."
+      }
+    ]
+  },
+  "footer": {
+    "about_appscode": [
+      "AppsCode is a leader in Cloud Native Data Platform for Kubernetes. AppsCode was established in 2016 by Tamal Saha, a former Google engineer.",
+      "AppsCode develops a number of popular products for Kubernetes, namely KubeDB, Stash, KubeVault, Kubeform, Voyager. AppsCode is headquartered in Las Vegas, Nevada, USA with engineering offices in Dhaka, Bangladesh."
+    ],
+    "contact_us": {
+      "title": "CONTACT US"
+    },
+    "copy_right": "AppsCode Inc. All rights reserved."
+  }
+}

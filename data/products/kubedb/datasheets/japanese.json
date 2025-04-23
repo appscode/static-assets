@@ -1,0 +1,190 @@
+{
+  "lang": "日本語",
+  "title": "Kubernetes ネイティブのデータベース管理ソリューション。 ",
+  "description": "KubeDB は、Kubernetes ネイティブのデータベース管理ソリューションで、プライベ ートおよびパブリッククラウド上で、プロビジョニング、監視、アップグレード、パッ チ適用、スケーリング、ボリューム拡張、バックアップ、リカバリ、障害検出、修復な どのデータベース管理作業を簡素化し、自動化します。",
+  "hero_features": [
+    "複数のデータベースを簡単に管理。",
+    "KubeDB で開発者の生産性を向上させ、コストを抑える。",
+    "任意のクラウド/オンプレ/開発者環 境/CI/CD で DBaaS を運用でDBaaSを実 行。",
+    "エンジニアリングサポートによる運用負 荷軽減。",
+    "アプリケーションと DB を同時デプロ イ。",
+    "マイクロサービスごとのデータベ ースの 力を解き放つ。"
+  ],
+  "contact_sales": "営業に問い合わせる",
+  "try_now": "今すぐ試す",
+  "social_prof_title": "主な導入企業様",
+  "features_section": {
+    "title": "官能性",
+    "description": "",
+    "features": [
+      "データベースのプロビジョニングと簡素化された管理",
+      "高可用性と回復力",
+      "プライベートレジストリおよびエアギャップ環境対応",
+      "バックアップとリストア機能",
+      "組み込み Prometheus 監視とアラート",
+      "水平および垂直スケーリング",
+      "ボリューム拡張",
+      "セルフサービス Web ポータル",
+      "TLS 管理と更新",
+      "GitOps（ArgoCD / FluxCD）統合",
+      "メジャー、マイナー、パッチバージョンのアップグレ ード",
+      "カスタムデータベースプラグインのサポート",
+      "Envoy Gateway を使用した"
+    ]
+  },
+  "kubernetes_platform": {
+    "title": "KubeDBは、以下を含むあらゆるKubernetesプラットフォームとシームレスに統合できます：",
+    "description": "お好みのプラットフォームを選択して、簡単なデプロイ、スケーラビリティ、管理をお楽しみください。次世代のアプリケーションデプロイを一緒に実現しましょう。",
+    "platform_name": [
+      "AWS Elastic Kubernetes Service (EKS)",
+      "Azure Kubernetes Service (AKS)",
+      "Google Kubernetes Engine (GKE)",
+      "Red Hat OpenShift",
+      "Rancher",
+      "VMware Tanzu",
+      "Equinix Metal",
+      "Openstack",
+      "オンプレミス Kubernetes クラスター",
+      "IBM Cloud",
+      "Oracle Cloud",
+      "Alibaba Cloud（アリババクラウド）",
+      "Digital Ocean",
+      "Akamai（旧 Linode）",
+      "Exoscale Cloud Hosting",
+      "Hetzner Cloud",
+      "Kubermatic",
+      "Scaleway"
+    ]
+  },
+  "pricing_model": {
+    "title": "料金モデル",
+    "description": "KubeDB Enterprise 版の課金は、データベースコンテナに設定されたメモリ制限に基づきます（Kubernetes ワーカーノードのメモリで はありません）。例：8GB RAM のPostgreSQL レプリカ3 台の場合、24GB として課金されます。"
+  },
+  "support_plans": {
+    "title": "サポートプラン",
+    "features_table": {
+      "thead": [
+        "",
+        "ベーシックプラン",
+        "スタンダードプラン",
+        "プレミアムプラン"
+      ],
+      "tbody": [
+        {
+          "title": "推奨対象",
+          "silver": "本番データベース向けクラウド 型セルフサービスプラン",
+          "gold": "本番データベース用",
+          "platinum": "ビジネスおよび/またはミッ ションクリティカルなデー タベース用"
+        },
+        {
+          "title": "サポート範囲",
+          "silver": "セルフサービス",
+          "gold": "8x5 ⏰",
+          "platinum": "24x7 ⏰"
+        },
+        {
+          "title": "応答時間 SLA ",
+          "silver": "ベストエフォー",
+          "gold": "√",
+          "platinum": "√"
+        },
+        {
+          "title": "四半期更新",
+          "silver": "√",
+          "gold": "√",
+          "platinum": "√"
+        },
+        {
+          "title": "緊急パッチ",
+          "silver": "×",
+          "gold": "√",
+          "platinum": "√"
+        },
+        {
+          "title": "インシデントチケット（SLA対象）",
+          "silver": "N/A",
+          "gold": "月5ドル",
+          "platinum": "月10ドル"
+        },
+        {
+          "title": "チケット連絡先数",
+          "silver": "1",
+          "gold": "5",
+          "platinum": "10"
+        },
+        {
+          "title": "才ンボーディングサポート",
+          "silver": "√",
+          "gold": "√",
+          "platinum": "√"
+        },
+        {
+          "title": "リモートサポート（画面共有を通じて追 加料金あり） ",
+          "silver": "√",
+          "gold": "Yes (無料の 3 時間/月を含む)",
+          "platinum": "Yes（無料の 5 時間/月を含む）"
+        },
+        {
+          "title": "手順書",
+          "silver": "×",
+          "gold": "√",
+          "platinum": "√"
+        },
+        {
+          "title": "専用プライベートチャット（Discord 経由） ",
+          "silver": "×",
+          "gold": "√",
+          "platinum": "√"
+        },
+        {
+          "title": "電話サポート",
+          "silver": "×",
+          "gold": "×",
+          "platinum": "√ ☎"
+        },
+        {
+          "title": "カストムサポート",
+          "silver": "×",
+          "gold": "追加料金",
+          "platinum": "追加料金"
+        }
+      ]
+    }
+  },
+  "faq_area": {
+    "title": "よくある質問",
+    "description": "よく寄せられる質問をまとめました。お探しの回答が見つからない場合は、お気軽にお問い合わせください。",
+    "accordions": [
+      {
+        "title": "KubeDB はオープンソースですか？",
+        "description": "KubeDB はオープンコアモデルを採用しており、統合用API/クラ イアントはApache v2 ライセンスで提供されます。"
+      },
+      {
+        "title": "KubeDB は大規模な導入実績がありますか？",
+        "description": "KubeDB は2017 年に開始され、それ以来、数多くのクライアン トに導入され、大規模な導入実績もあります。"
+      },
+      {
+        "title": "KubeDB は StatefulSets の使用とどう違いますか？",
+        "description": "KubeDB は、モニタリング、アラート、バックアップ/リカバリ、バージョンアップ、スケーリング機能を含む包括的なDay 2 オペ レーションで差別化を図っている。"
+      },
+      {
+        "title": "なぜ KubeDB を使用するのか？DB ベンダーのオペレーターと比 較して?",
+        "description": "DB ベンダーのオペレーターとは異なり、KubeDB を使用すれ ば、単一の契約と最小限のエンジニアリング努力で、すべてのデータベース要件を便利に満たすことができます"
+      },
+      {
+        "title": "なぜ Cloud Provider Managed DB Service よりも KubeDBの方がメリットがあるのか？",
+        "description": "KubeDB は多くのデータベースオプションを提供し、マルチクラウドおよびオンプレミス環境をサポートする一方、より安価でコスト効率の良いソリューションを提供します。"
+      }
+    ]
+  },
+  "footer": {
+    "about_appscode": [
+      "AppsCodeはKubernetes向けCloud Native Data Platformのリーダーです。AppsCodeは元GoogleエンジニアのTamal Sahaによって2016年に設立された。",
+      "AppsCodeは、KubeDB、Stash、KubeVault、VoyagerといったKubernetes向けの人気製品を数多く開発している。AppsCodeは米国ネバダ州ラスベガスに本社を置き、バングラデシュのダッカにエンジニアリングオフィスを構えています。"
+    ],
+    "contact_us": {
+      "title": "お問い合わせ"
+    },
+    "copy_right": "AppsCode Inc. All rights reserved"
+  }
+}

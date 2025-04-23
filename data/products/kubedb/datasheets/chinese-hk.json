@@ -1,0 +1,190 @@
+{
+  "lang": "中文（香港）",
+  "title": "在 Kubernetes 上管理資料庫的一站式解決方案。",
+  "description": "KubeDB 是一個 Kubernetes 原生資料庫管理解決方案，可簡化並自動化常規 資料庫任務，例如在任何私有和公共雲端上，為各種流行的資料庫提供配置、 監控、升級、修補、擴展、volume擴展、備份、恢復、故障檢測和修復。",
+  "hero_features": [
+    "輕鬆管理多個資料庫",
+    "使用 KubeDB 提升開發者生產力，無 需過高成本",
+    "在任何雲端、本地端、開發者機器或 CI/CD上運行您的DBaaS",
+    "通過我們專業的工程支持，告別頭痛 問題",
+    "迅速部署您的應用程式和資料庫",
+    "釋放每個微服務資料庫的潛力"
+  ],
+  "contact_sales": "聯絡銷售團隊",
+  "try_now": "立即試用",
+  "social_prof_title": "我們的優選客戶",
+  "features_section": {
+    "title": "功能",
+    "description": "",
+    "features": [
+      "資料庫配置和簡化管理",
+      "高可用性與韌性",
+      "私有註冊表和隔離網絡集群",
+      "備份和恢復功能",
+      "內建的 Prometheus 監控與警報",
+      "水平與垂直擴展",
+      "Volume 擴展 ",
+      "自助服務網頁入口",
+      "TLS 管理與續期",
+      "GitOps (ArgoCD / FluxCD) 整合",
+      "主要、次要和補丁版本升級",
+      "自訂資料庫插件支援",
+      "跨集群訪問使用 Envoy Gateway"
+    ]
+  },
+  "kubernetes_platform": {
+    "title": "KubeDB 無縫整合於任何 Kubernetes 平台，例如：",
+    "description": "選擇您偏好的平台，即可享受部署、自動擴展與管理的便利，一同迎接應用部署的未來。",
+    "platform_name": [
+      "AWS Elastic Kubernetes Service (EKS)",
+      "Azure Kubernetes Service (AKS)",
+      "Google Kubernetes Engine (GKE)",
+      "Red Hat OpenShift",
+      "Rancher",
+      "VMware Tanzu",
+      "Equinix Metal",
+      "Openstack",
+      "本地端 Kubernetes 叢集",
+      "IBM Cloud",
+      "Oracle Cloud",
+      "阿里雲",
+      "Digital Ocean",
+      "Akamai（Linode）",
+      "Exoscale 雲端託管",
+      "Hetzner Cloud",
+      "Kubermatic",
+      "Scaleway"
+    ]
+  },
+  "pricing_model": {
+    "title": "定價模式",
+    "description": "KubeDB 企業版的收費是<strong class='has-text-primary'>基於 KubeDB 管理的資料庫容器所設定的內存限制（而不是 Kubernetes 工作節點的內存）。</strong> 例如，三個副 本的PostgreSQL 每個有 8 GB RAM 將計算為 24GB 的內存用於計費。"
+  },
+  "support_plans": {
+    "title": "支援計劃",
+    "features_table": {
+      "thead": [
+        "",
+        "Silver",
+        "Gold",
+        "Platinum"
+      ],
+      "tbody": [
+        {
+          "title": "推薦用途",
+          "silver": "雲端風格自助服務計劃適用於生 產資料庫",
+          "gold": "用於生產數據庫",
+          "platinum": "用於商業或 關鍵任務數據庫"
+        },
+        {
+          "title": "支持覆蓋範圍",
+          "silver": "自助服務",
+          "gold": "8x5 ⏰",
+          "platinum": "24x7 ⏰"
+        },
+        {
+          "title": "回應時間 SLA",
+          "silver": "盡力而為",
+          "gold": "√",
+          "platinum": "√"
+        },
+        {
+          "title": "季度更新",
+          "silver": "√",
+          "gold": "√",
+          "platinum": "√"
+        },
+        {
+          "title": "緊急修補",
+          "silver": "×",
+          "gold": "√",
+          "platinum": "√"
+        },
+        {
+          "title": "事故單（包含 SLA 覆蓋）",
+          "silver": "N/A",
+          "gold": "5 張/月",
+          "platinum": "10 張/月"
+        },
+        {
+          "title": "事故單聯繫人數",
+          "silver": "1",
+          "gold": "5",
+          "platinum": "10"
+        },
+        {
+          "title": "培訓支援",
+          "silver": "√",
+          "gold": "√",
+          "platinum": "√"
+        },
+        {
+          "title": "遠程協助（通過屏幕共享），需額外費用",
+          "silver": "√",
+          "gold": "√ (包含每月免費 3 小時)",
+          "platinum": "√ (包含每月免費 5 小時)"
+        },
+        {
+          "title": "生產環境運行指南",
+          "silver": "×",
+          "gold": "√",
+          "platinum": "√"
+        },
+        {
+          "title": "專屬私人聊天（通過 Discord）",
+          "silver": "×",
+          "gold": "√",
+          "platinum": "√"
+        },
+        {
+          "title": "電話支持",
+          "silver": "×",
+          "gold": "×",
+          "platinum": "√ ☎"
+        },
+        {
+          "title": "自定義功能",
+          "silver": "×",
+          "gold": "需額外費用",
+          "platinum": "需額外費用"
+        }
+      ]
+    }
+  },
+  "faq_area": {
+    "title": "常見問題",
+    "description": "以下√我們經常收到的幾個問題。如果沒有解答到你的疑問，歡迎隨時聯絡我們。",
+    "accordions": [
+      {
+        "title": "KubeDB 是開源的嗎？",
+        "description": "KubeDB 採用開放核心模型。API 和客戶端根據 Apache v2 授權可用於與客戶端項目的整合。"
+      },
+      {
+        "title": "KubeDB 是否經過大規模部署驗證？",
+        "description": "KubeDB 於 2017 年啟動，並自此在眾多客戶中部署，包括 大規模部署。"
+      },
+      {
+        "title": "KubeDB 是否經過大規模部署驗證？",
+        "description": "KubeDB 以其全面的第二天操作而脫穎而出，包括監控、警 報、備份/恢復、版本升級和擴展功能。"
+      },
+      {
+        "title": "為什麼選擇 KubeDB 而非資料庫供應商的操作器？",
+        "description": "與資料庫供應商的操作器不同，使用 KubeDB，您可以在 一個合約中方便地滿足所有資料庫需求，並且所需的工作 量最小化。"
+      },
+      {
+        "title": "KubeDB 相較於雲供應商管理的資料庫服務有什麼優勢？",
+        "description": "KubeDB 提供多種資料庫選擇，支持多雲和本地環境，同 時提供更便宜/具成本效益的解決方案。"
+      }
+    ]
+  },
+  "footer": {
+    "about_appscode": [
+      "AppsCode 是 Kubernetes 的雲原生數據平台領導者。AppsCode 由前谷歌工程師 Tamal Saha 於 2016 年成立。",
+      "AppsCode 開發了多款受歡迎的 Kubernetes 產品，包括 KubeDB、Stash、KubeVault 和Voyager。AppsCode 的總部位於美國內華達州拉斯維加斯，工程辦公室則位於孟加拉達卡"
+    ],
+    "contact_us": {
+      "title": "聯繫我們"
+    },
+    "copy_right": "AppsCode Inc. All rights reserved"
+  }
+}
