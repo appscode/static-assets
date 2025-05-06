@@ -57,65 +57,65 @@ Parameters:
 Mappings:
   InstanceMap:
     af-south-1:
-      AMI: ami-0cc55f31911004db3
+      AMI: ami-02698500b0725a8f3
     ap-east-1:
-      AMI: ami-0d481230a0ff04aca
+      AMI: ami-0db309d325cb5e640
     ap-northeast-1:
-      AMI: ami-0037237888be2fe22
+      AMI: ami-0265dc69e8de144d3
     ap-northeast-2:
-      AMI: ami-04cb1684c278156a3
+      AMI: ami-061fdbe1769e05459
     ap-northeast-3:
-      AMI: ami-071d6b6bbb231289b
+      AMI: ami-051ec687ccec0d381
     ap-south-1:
-      AMI: ami-0327f51db613d7bd2
+      AMI: ami-03edbe403ec8522ed
     ap-south-2:
-      AMI: ami-064cf6726d1a658cc
+      AMI: ami-0f48205ec8e2235e8
     ap-southeast-1:
-      AMI: ami-0c45ac6ebf9cf6245
+      AMI: ami-00dc6910e7d33c5f8
     ap-southeast-2:
-      AMI: ami-0dbd9c83830eecdb7
+      AMI: ami-02b231863b9573c37
     ap-southeast-3:
-      AMI: ami-0570a44582da09d2d
+      AMI: ami-05fb6555a25318aba
     ap-southeast-4:
-      AMI: ami-02de922d10ec99123
+      AMI: ami-032a351da1f26fbb2
     ap-southeast-5:
-      AMI: ami-08446abe47bd9ddad
+      AMI: ami-07edb670a221b50d1
     ca-central-1:
-      AMI: ami-0f0f9d42fd1e4ac96
+      AMI: ami-01eb85f71f0b45be6
     ca-west-1:
-      AMI: ami-0eb99016aaf103a17
+      AMI: ami-0f484dd94433f4908
     eu-central-1:
-      AMI: ami-00d72ec36cdfc8a0a
+      AMI: ami-06d4d7b82ed5acff1
     eu-central-2:
-      AMI: ami-0d15f5c4c0395dd6f
+      AMI: ami-0a29285b9198efb93
     eu-north-1:
-      AMI: ami-02a0945ba27a488b7
+      AMI: ami-03328aeec917a844b
     eu-south-1:
-      AMI: ami-0a4bc0bc4811cd26b
+      AMI: ami-09c2055f9ded02869
     eu-south-2:
-      AMI: ami-04bc8ce11d5065e6e
+      AMI: ami-0f5dc5dfd3680af1a
     eu-west-1:
-      AMI: ami-04bd4a6a67aa8e86e
+      AMI: ami-09c39a45aca52b2d6
     eu-west-2:
-      AMI: ami-0abb41dc69b6b6704
+      AMI: ami-0c2dcd6caa6a07643
     eu-west-3:
-      AMI: ami-0f6c2b9008cea6bed
+      AMI: ami-0f637d6de571fb4dd
     il-central-1:
-      AMI: ami-0455e2e06f5c85a84
+      AMI: ami-0d7d24b1d0bec0982
     me-central-1:
-      AMI: ami-07ecbf3436d97efff
+      AMI: ami-077e1619b58cf8bb6
     me-south-1:
-      AMI: ami-04d783faf6c4f8f3e
+      AMI: ami-07914deb7dde5b7df
     sa-east-1:
-      AMI: ami-0a69ccdc44bdc8622
+      AMI: ami-05dbef44625409d15
     us-east-1:
-      AMI: ami-0166fe664262f664c
+      AMI: ami-085386e29e44dacd7
     us-east-2:
-      AMI: ami-088d38b423bff245f
+      AMI: ami-096af71d77183c8f8
     us-west-1:
-      AMI: ami-018a1ea25ff5268f0
+      AMI: ami-06fe18c7144382cfb
     us-west-2:
-      AMI: ami-061dd8b45bc7deb3d
+      AMI: ami-0ab69690991408217
 Resources:
   VPC:
     Type: AWS::EC2::VPC
@@ -340,18 +340,42 @@ Resources:
                   - 'ec2:DeleteLaunchTemplate'
                   - 'ec2:DeleteLaunchTemplateVersions'
                   - 'ec2:DescribeKeyPairs'
-                  - 'ec2:ModifyInstanceMetadataOption'
                   - 'aws-marketplace:MeterUsage' # billing
                   - 'ec2:DescribeAvailabilityZones' #import cluster action
                   - 'ec2:DescribeRegions' #import cluster action
                   - 'eks:DescribeNodegroup' #import cluster action
                   - 'eks:DescribeCluster' #import cluster action
                   - 'eks:ListClusters' #import cluster action
+                  - 'eks:DescribeClusterVersions' #import cluster action
+                  - 'sts:GetCallerIdentity'
+                  - 'servicequotas:ListServiceQuotas'
                 Resource: '*'
+              - Effect: Allow
+                Action:
+                  - 'iam:ListOpenIDConnectProviders'
+                  - 'iam:ListPolicies'
+                Resource: '*'
+              - Effect: Allow
+                Action:
+                  - 'iam:UpdateRole'
+                Resource: 'arn:*:iam::*:role/Ace*'
               - Effect: Allow
                 Action:
                   - 'ec2:TerminateInstances'
                 Resource: 'arn:*:ec2:*:*:instance/i-*'
+              - Effect: Allow
+                Action:
+                  - 'eks:*'
+                Resource:
+                  - 'arn:aws:eks:*:*:cluster/*'
+                  - 'arn:aws:eks:*:*:nodegroup/*'
+                  - 'arn:aws:eks:*:*:addon/*'
+                  - 'arn:aws:eks:*:*:fargateprofile/*'
+                  - 'arn:aws:eks:*:*:identityproviderconfig/*'
+                  - 'arn:aws:eks:*:*:eks-anywhere-subscription/*'
+                  - 'arn:aws:eks:*:*:podidentityassociation/*'
+                  - 'arn:aws:eks:*:*:access-entry/*'
+                  - 'arn:aws:eks:*:aws:cluster-access-policy/*'
               - Effect: Allow
                 Action:
                   - 'autoscaling:CreateAutoScalingGroup'
@@ -399,16 +423,51 @@ Resources:
                   - 'arn:*:secretsmanager:*:*:secret:aws.cluster.x-k8s.io/*'
               - Effect: Allow
                 Action:
-                  - 's3:CreateBucket'
-                  - 's3:DeleteBucket'
-                  - 's3:GetObject'
-                  - 's3:PutObject'
-                  - 's3:DeleteObject'
-                  - 's3:PutBucketPolicy'
-                  - 's3:PutBucketTagging'
+                  - "s3:*"
                 Resource:
-                  - 'arn:*:s3:::cluster-api-provider-aws-*'
-                  - 'arn:*:s3:::ace*'
+                  - 'arn:*:s3:::*'
+              - Effect: Allow
+                Action:
+                  - 'cloudformation:*'
+                Resource:
+                  - 'arn:*:cloudformation:*:*:stack/*'
+              - Effect: Allow
+                Action:
+                  - 'iam:CreateInstanceProfile'
+                  - 'iam:DeleteInstanceProfile'
+                  - 'iam:GetInstanceProfile'
+                  - 'iam:RemoveRoleFromInstanceProfile'
+                  - 'iam:GetRole'
+                  - 'iam:CreateRole'
+                  - 'iam:DeleteRole'
+                  - 'iam:AttachRolePolicy'
+                  - 'iam:PutRolePolicy'
+                  - 'iam:UpdateAssumeRolePolicy'
+                  - 'iam:AddRoleToInstanceProfile'
+                  - 'iam:ListInstanceProfilesForRole'
+                  - 'iam:DetachRolePolicy'
+                  - 'iam:DeleteRolePolicy'
+                  - 'iam:GetRolePolicy'
+                  - 'iam:GetOpenIDConnectProvider'
+                  - 'iam:CreateOpenIDConnectProvider'
+                  - 'iam:DeleteOpenIDConnectProvider'
+                  - 'iam:TagOpenIDConnectProvider'
+                  - 'iam:ListAttachedRolePolicies'
+                  - 'iam:PassRole'
+                  - 'iam:TagRole'
+                  - 'iam:UntagRole'
+                  - 'iam:GetPolicy'
+                  - 'iam:CreatePolicy'
+                  - 'iam:DeletePolicy'
+                  - 'iam:ListPolicyVersions'
+                  - 'iam:ListRoles'
+                  - 'iam:ListOpenIDConnectProviderTags'
+                  - 'iam:UpdateOpenIDConnectProviderThumbprint'
+                Resource:
+                  - 'arn:*:iam::*:role/*'
+                  - 'arn:*:iam::*:oidc-provider/*'
+                  - 'arn:*:iam::*:policy/*'
+                  - 'arn:*:iam::*:instance-profile/*'
   MeterUsageInstanceProfile:
     Type: AWS::IAM::InstanceProfile
     Properties:
