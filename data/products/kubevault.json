@@ -223,6 +223,17 @@
       "show": true
     },
     {
+      "version": "v2025.5.26",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "cli": "v0.21.0",
+        "installer": "v2025.5.26",
+        "operator": "v0.21.0",
+        "unsealer": "v0.21.0"
+      }
+    },
+    {
       "version": "v2025.2.10",
       "hostDocs": true,
       "show": true,
@@ -463,7 +474,7 @@
       }
     }
   ],
-  "latestVersion": "v2025.2.10",
+  "latestVersion": "v2025.5.26",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubevault",
