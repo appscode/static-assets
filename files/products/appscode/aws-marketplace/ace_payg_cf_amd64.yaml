@@ -349,6 +349,7 @@ Resources:
                   - 'eks:DescribeClusterVersions' #import cluster action
                   - 'sts:GetCallerIdentity'
                   - 'servicequotas:ListServiceQuotas'
+                  - 'iam:ListRoles'
                 Resource: '*'
               - Effect: Allow
                 Action:
@@ -414,6 +415,11 @@ Resources:
                   - 'iam:PassRole'
                 Resource:
                   - 'arn:*:iam::*:role/*.cluster-api-provider-aws.sigs.k8s.io'
+                  - 'arn:*:iam::*:role/Ace*'
+                  - 'arn:*:iam::*:role/controllers*'
+                  - 'arn:*:iam::*:role/nodes*'
+                  - 'arn:*:iam::*:role/control-plane*'
+                  - 'arn:*:iam::*:role/controlplane*'
               - Effect: Allow
                 Action:
                   - 'secretsmanager:CreateSecret'
@@ -423,7 +429,15 @@ Resources:
                   - 'arn:*:secretsmanager:*:*:secret:aws.cluster.x-k8s.io/*'
               - Effect: Allow
                 Action:
-                  - "s3:*"
+                  - 's3:CreateBucket'
+                  - 's3:ListBucket'
+                  - 's3:PutBucketCORS'
+                  - 's3:DeleteBucket'
+                  - 's3:GetBucketLocation'
+                  - 's3:PutObject'
+                  - 's3:GetObject'
+                  - 's3:DeleteObject'
+                  - 's3:PutBucketOwnershipControls'
                 Resource:
                   - 'arn:*:s3:::*'
               - Effect: Allow
@@ -433,41 +447,61 @@ Resources:
                   - 'arn:*:cloudformation:*:*:stack/*'
               - Effect: Allow
                 Action:
-                  - 'iam:CreateInstanceProfile'
+                  - 'iam:CreateInstanceProfile' #instance-profiles
                   - 'iam:DeleteInstanceProfile'
                   - 'iam:GetInstanceProfile'
                   - 'iam:RemoveRoleFromInstanceProfile'
+                  - 'iam:AddRoleToInstanceProfile'
+                Resource:
+                  - 'arn:*:iam::*:instance-profile/*'
+              - Effect: Allow
+                Action:
                   - 'iam:GetRole'
+                  - 'iam:ListAttachedRolePolicies'
+                Resource:
+                  - 'arn:*:iam::*:role/*'
+              - Effect: Allow
+                Action:
                   - 'iam:CreateRole'
                   - 'iam:DeleteRole'
                   - 'iam:AttachRolePolicy'
                   - 'iam:PutRolePolicy'
                   - 'iam:UpdateAssumeRolePolicy'
-                  - 'iam:AddRoleToInstanceProfile'
                   - 'iam:ListInstanceProfilesForRole'
                   - 'iam:DetachRolePolicy'
                   - 'iam:DeleteRolePolicy'
                   - 'iam:GetRolePolicy'
+                  - 'iam:TagRole'
+                  - 'iam:UntagRole'
+                Resource:
+                  - 'arn:*:iam::*:role/Ace*'
+                  - 'arn:*:iam::*:role/controllers*'
+                  - 'arn:*:iam::*:role/nodes*'
+                  - 'arn:*:iam::*:role/control-plane*'
+                  - 'arn:*:iam::*:role/controlplane*'
+              - Effect: Allow
+                Action:
+                  - 'iam:GetPolicy' #policy
+                  - 'iam:CreatePolicy'
+                  - 'iam:DeletePolicy'
+                  - 'iam:ListPolicyVersions'
+                Resource:
+                  - 'arn:*:iam::*:policy/Ace*'
+                  - 'arn:*:iam::*:policy/controllers*'
+                  - 'arn:*:iam::*:policy/nodes*'
+                  - 'arn:*:iam::*:policy/control-plane*'
+                  - 'arn:*:iam::*:policy/csi*'
+              - Effect: Allow
+                Action:
+                  - 'iam:ListOpenIDConnectProviderTags' #openidconnect
                   - 'iam:GetOpenIDConnectProvider'
                   - 'iam:CreateOpenIDConnectProvider'
                   - 'iam:DeleteOpenIDConnectProvider'
                   - 'iam:TagOpenIDConnectProvider'
-                  - 'iam:ListAttachedRolePolicies'
-                  - 'iam:PassRole'
-                  - 'iam:TagRole'
-                  - 'iam:UntagRole'
-                  - 'iam:GetPolicy'
-                  - 'iam:CreatePolicy'
-                  - 'iam:DeletePolicy'
-                  - 'iam:ListPolicyVersions'
-                  - 'iam:ListRoles'
-                  - 'iam:ListOpenIDConnectProviderTags'
+                  - 'iam:UntagOpenIDConnectProvider'
                   - 'iam:UpdateOpenIDConnectProviderThumbprint'
                 Resource:
-                  - 'arn:*:iam::*:role/*'
                   - 'arn:*:iam::*:oidc-provider/*'
-                  - 'arn:*:iam::*:policy/*'
-                  - 'arn:*:iam::*:instance-profile/*'
   MeterUsageInstanceProfile:
     Type: AWS::IAM::InstanceProfile
     Properties:
@@ -659,7 +693,7 @@ Resources:
                     cd new
                     curl -L "${link}" -o "archive.tar.gz"
                     tar -xvzf archive.tar.gz
-                
+
                     #soruce azure credential file from archive.tar.gz
                     source env.sh
                     cd ..
