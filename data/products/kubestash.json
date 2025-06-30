@@ -177,6 +177,15 @@
       "show": true
     },
     {
+      "version": "v2025.6.30",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "cli": "v0.18.0",
+        "installer": "v2025.6.30"
+      }
+    },
+    {
       "version": "v2025.4.30",
       "hostDocs": true,
       "show": true,
@@ -300,7 +309,7 @@
       }
     }
   ],
-  "latestVersion": "v2025.4.30",
+  "latestVersion": "v2025.6.30",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubestash",
