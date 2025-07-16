@@ -1,0 +1,170 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: CloudFormation template for AppsCode Cloud (ACE)
+
+Metadata:
+  AWS::CloudFormation::Interface:
+    ParameterGroups:
+      -
+        Label:
+          default: "Amazon EC2 Configuration"
+        Parameters:
+          - InstanceType
+          - SSHIpCIDR
+          - KeyPair
+Parameters:
+  InstanceType:
+    Description: "Choose your EC2 instance type to be deployed."
+    Type: String
+    Default: "m5.xlarge"
+    AllowedValues:
+      - "m5.xlarge"
+      - "m5.2xlarge"
+      - "m5.4xlarge"
+      - "m5.8xlarge"
+      - "m5.12xlarge"
+      - "m5.16xlarge"
+      - "m5.24xlarge"
+      - "m5d.xlarge"
+      - "m5d.2xlarge"
+      - "m5d.4xlarge"
+      - "m5d.8xlarge"
+      - "m5d.12xlarge"
+      - "m5d.16xlarge"
+      - "m5d.24xlarge"
+  SSHIpCIDR:
+    Description: "CIDR range of remote ip for ssh for debug or management purposes. Please set CIDR to x.x.x.x/32 to allow one specific IP address access, 0.0.0.0/0 to allow all IP addresses access, or another CIDR range."
+    Type: String
+    AllowedPattern: '^((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\/(3[0-2]|[1-2]?[0-9])$'
+  KeyPair:
+    Description: "Name of an existing EC2 KeyPair to enable SSH access to the instance."
+    Type: 'AWS::EC2::KeyPair::KeyName'
+  LatestAmiId:
+    Type: 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>'
+    Default: '/aws/service/canonical/ubuntu/server/noble/stable/current/amd64/hvm/ebs-gp3/ami-id'
+Resources:
+  VPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.5.0.0/16
+      EnableDnsSupport: true
+      EnableDnsHostnames: true
+      Tags:
+        - Key: Name
+          Value: !Ref AWS::StackName
+  Subnet:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref VPC
+      CidrBlock: 10.5.0.0/24
+      AvailabilityZone: {
+        "Fn::Select" : [
+          0,
+          {
+            "Fn::GetAZs" : !Ref AWS::Region
+          }
+        ]
+      }
+      Tags:
+        - Key: Name
+          Value: !Ref AWS::StackName
+  ElasticIP:
+    Type: AWS::EC2::EIP
+    Properties:
+      Tags:
+        - Key: Name
+          Value: !Ref AWS::StackName
+  InternetGateway:
+    Type: AWS::EC2::InternetGateway
+    Properties:
+      Tags:
+        - Key: Name
+          Value: !Ref AWS::StackName
+  AttachGateway:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties:
+      VpcId: !Ref VPC
+      InternetGatewayId: !Ref InternetGateway
+  RouteTable:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref VPC
+      Tags:
+        - Key: Name
+          Value: !Ref AWS::StackName
+  RouteToInternet:
+    Type: AWS::EC2::Route
+    DependsOn: AttachGateway
+    Properties:
+      RouteTableId: !Ref RouteTable
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId: !Ref InternetGateway
+  SecurityGroupIngress4222:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      IpProtocol: tcp
+      FromPort: 4222
+      ToPort: 4222
+      CidrIp: 0.0.0.0/0
+      GroupId: !GetAtt VPC.DefaultSecurityGroup
+  SecurityGroupIngress80:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      IpProtocol: tcp
+      FromPort: 80
+      ToPort: 80
+      CidrIp: 0.0.0.0/0
+      GroupId: !GetAtt VPC.DefaultSecurityGroup
+  SecurityGroupIngress443:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      IpProtocol: tcp
+      FromPort: 443
+      ToPort: 443
+      CidrIp: 0.0.0.0/0
+      GroupId: !GetAtt VPC.DefaultSecurityGroup
+  SecurityGroupIngress6443:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      IpProtocol: tcp
+      FromPort: 6443
+      ToPort: 6443
+      CidrIp: 0.0.0.0/0
+      GroupId: !GetAtt VPC.DefaultSecurityGroup
+  SecurityGroupIngress22:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      IpProtocol: tcp
+      FromPort: 22
+      ToPort: 22
+      CidrIp: !Ref SSHIpCIDR
+      GroupId: !GetAtt VPC.DefaultSecurityGroup
+  SubnetRouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId: !Ref RouteTable
+      SubnetId: !Ref Subnet
+  Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: !Ref LatestAmiId
+      InstanceType: !Ref InstanceType
+      KeyName: !Ref KeyPair
+      Tags:
+        - Key: "Name"
+          Value:
+            Ref: AWS::StackName
+      NetworkInterfaces:
+        - AssociatePublicIpAddress: "true"
+          DeviceIndex: "0"
+          SubnetId:
+            Ref: "Subnet"
+      BlockDeviceMappings:
+        - DeviceName: /dev/sta1 #/dev/sta1 root volume for ubuntu, /dev/xvda for amzn-linux
+          Ebs:
+            VolumeSize: 100 # Specify the size of the root volume in GB
+            VolumeType: gp3
+  IPAssoc:
+    Type: AWS::EC2::EIPAssociation
+    Properties:
+      InstanceId: !Ref Instance
+      EIP: !GetAtt ElasticIP.PublicIp
