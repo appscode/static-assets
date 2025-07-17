@@ -106,6 +106,14 @@ Resources:
       ToPort: 4222
       CidrIp: 0.0.0.0/0
       GroupId: !GetAtt VPC.DefaultSecurityGroup
+  SecurityGroupIngress4224:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      IpProtocol: tcp
+      FromPort: 4224
+      ToPort: 4224
+      CidrIp: 0.0.0.0/0
+      GroupId: !GetAtt VPC.DefaultSecurityGroup
   SecurityGroupIngress80:
     Type: AWS::EC2::SecurityGroupIngress
     Properties:
@@ -159,7 +167,7 @@ Resources:
           SubnetId:
             Ref: "Subnet"
       BlockDeviceMappings:
-        - DeviceName: /dev/sta1 #/dev/sta1 root volume for ubuntu, /dev/xvda for amzn-linux
+        - DeviceName: /dev/sda1 #/dev/sda1 root volume for ubuntu, /dev/xvda for amzn-linux
           Ebs:
             VolumeSize: 100 # Specify the size of the root volume in GB
             VolumeType: gp3
