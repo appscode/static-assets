@@ -1,0 +1,85 @@
+{
+  "name": "Cassandra",
+  "id": "cassandra",
+  "title": "Run and Manage Apache Cassandra on Kubernetes",
+  "hero": "/assets/images/databases/illustrations/kc-bg.png",
+  "summary": "Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup & Restore, Security for Cassandra Databases in Kubernetes on any Public & Private Cloud",
+  "description": "As the world’s enterprises rapidly move to the cloud, and containers are taking over the world of software development, Kubernetes is the platform that lets users seamlessly deploy, scale, run containers, and manage their application life-cycle.  <br />  <br />But, running databases and stateful applications in Kubernetes has always been a challenge. And it is really difficult to **Run and Manage Production-Grade Databases on Kubernetes**. Every Enterprise needs a Production-Grade operator to deploy its databases and manage its life cycle on Kubernetes. <br />   <br />KubeDB is the leader in Kubernetes Native Database Management Solutions which simplifies and automates routine database tasks such as **Provisioning, Monitoring, Upgrading, Patching, Scaling, Volume Expansion, Backup & Restore, Failure detection, and Recovery** for various popular databases on private and public clouds. KubeDB developed the first-ever Production-Grade **Kubernetes operator for Cassandra** to manage its Day-2 operations. KubeDB is a managed DBaaS that allows developers to run their databases alongside the respective application. You can simply deploy a Cassandra server on Kubernetes and manage its Day-2 operations via KubeDB Cassandra Operator.",
+  "keywords": [
+    "Provision",
+    "Failure Detection",
+    "Upgrade",
+    "Scaling",
+    "Volume Expansion",
+    "Backup & Recovery",
+    "Monitor",
+    "Data Protection for Cassandra Databases in Kubernetes on Public and Private Cloud"
+  ],
+  "features": [
+    {
+      "title": "Provisioning",
+      "image": "/assets/images/databases/illustrations/colud-chair.png",
+      "description": "If you can run Kubernetes, you can simply provision Cassandra databases using KubeDB. You don’t need to worry about all of the knowledge of Kubernetes Concept, Helm, and Cassandra server side setup. KubeDB simplifies the whole process for you. You just have to use standard Kubernetes CLI and API to provision Cassandra databases."
+    },
+    {
+      "title": "Version Upgrade",
+      "image": "/assets/images/databases/illustrations/version-control.png",
+      "description": "Upgrading the database version in Kubernetes is complicated. Upgrade operation should follow a specific order. KubeDB allows you to upgrade your running Cassandra database version without any downtime. You can upgrade your database to any major or minor update of the Cassandra version."
+    },
+    {
+      "title": "Scaling",
+      "image": "/assets/images/databases/illustrations/scalling.png",
+      "description": "To improve your database performance you have to make sure that your database is scalable. KubeDB offers both Vertical and Horizontal Scaling of Cassandra databases in Kubernetes. You can simply scale your Cassandra cluster in Kubernetes using KubeDB."
+    },
+    {
+      "title": "Volume Expansion",
+      "image": "/assets/images/databases/illustrations/expansion.png",
+      "description": "Having options of increasing database volume ensures your database high availability and performance. You can expand your storage capacity of Cassandra Database in Kubernetes by using KubeDB."
+    },
+    {
+      "title": "Backup & Restore",
+      "image": "/assets/images/databases/illustrations/backup.png",
+      "description": "To protect your database from any kind of accidental data loss, you will need a disaster recovery solution for your database. KubeDB offers you to Backup & Restore your Cassandra Database in Kubernetes via Stash. Stash is seemingly integrated with KubeDB. You can automate this feature to backup your Cassandra database in Kubernetes by using Stash."
+    },
+    {
+      "title": "Monitoring",
+      "image": "/assets/images/databases/illustrations/overview.png",
+      "description": "KubeDB comes with native support for monitoring via Prometheus. You can use builtin Prometheus scrapper or CoreOS Prometheus Operator to monitor your Cassandra database in Kubernetes. You can use the Grafana to view key operational metrics, including compute/memory/storage capacity utilization, I/O activity, and instance connections."
+    },
+    {
+      "title": "Security",
+      "image": "/assets/images/databases/illustrations/security.png",
+      "description": "To secure a database your data needs to go through a cryptographic protocol that provides end-to-end security of the data transmission over the network. You can secure your Cassandra Database with TLS using KubeDB. Also, KubeDB allows you to use encrypted storage for your databases using keys you manage through your cloud provider’s key management service."
+    }
+  ],
+  "example": {
+    "apiVersion": "kubedb.com/v1alpha2",
+    "kind": "Cassandra",
+    "metadata": {
+      "name": "cassandra-quickstart",
+      "namespace": "demo"
+    },
+    "spec": {
+      "version": "5.0.3",
+      "topology": {
+        "rack": [
+          {
+            "name": "r0",
+            "replicas": 2,
+            "storage": {
+              "accessModes": [
+                "ReadWriteOnce"
+              ],
+              "resources": {
+                "requests": {
+                  "storage": "600Mi"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "deletionPolicy": "Delete"
+    }
+  }
+}
