@@ -24,7 +24,7 @@
     {
       "title": "Version Upgrade",
       "image": "/assets/images/databases/illustrations/version-control.png",
-      "description": "Upgrading the database version in Kubernetes is complicated. Upgrade operation should follow a specific order. KubeDB allows you to upgrade your running Valkey database version without any downtime. You can upgrade your database to any major or minor update of the Valkey version."
+      "description": "Upgrading the database version in Kubernetes is complicated. Upgrade operation should follow a specific order. KubeDB allows you to upgrade your running Valkey database version without any downtime. You can upgrade your database to any major or minor update of the Redis version"
     },
     {
       "title": "Scaling",
@@ -56,7 +56,7 @@
     "apiVersion": "kubedb.com/v1",
     "kind": "Redis",
     "metadata": {
-      "name": "valkey-quickstart",
+      "name": "valkey-demo",
       "namespace": "demo"
     },
     "spec": {
