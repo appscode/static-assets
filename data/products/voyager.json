@@ -132,6 +132,15 @@
       "show": true
     },
     {
+      "version": "v2025.9.19",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "cli": "v0.0.18",
+        "installer": "v2025.9.19"
+      }
+    },
+    {
       "version": "v2025.5.30",
       "hostDocs": true,
       "show": true,
@@ -461,7 +470,7 @@
       "hostDocs": false
     }
   ],
-  "latestVersion": "v2025.5.30",
+  "latestVersion": "v2025.9.19",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/voyagermesh/voyager",
