@@ -1,0 +1,476 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: CloudFormation template for AppsCode Cloud (ACE)
+
+Metadata:
+  AWS::CloudFormation::Interface:
+    ParameterGroups:
+      -
+        Label:
+          default: "Amazon EC2 Configuration"
+        Parameters:
+          - InstanceType
+          - SSHIpCIDR
+          - KeyPair
+Parameters:
+  InstanceType:
+    Description: "Choose your EC2 instance type to be deployed."
+    Type: String
+    Default: "m5.xlarge"
+    AllowedValues:
+      - "m5.xlarge"
+      - "m5.2xlarge"
+      - "m5.4xlarge"
+      - "m5.8xlarge"
+      - "m5.12xlarge"
+      - "m5.16xlarge"
+      - "m5.24xlarge"
+      - "m5d.xlarge"
+      - "m5d.2xlarge"
+      - "m5d.4xlarge"
+      - "m5d.8xlarge"
+      - "m5d.12xlarge"
+      - "m5d.16xlarge"
+      - "m5d.24xlarge"
+  SSHIpCIDR:
+    Description: "CIDR range of remote ip for ssh for debug or management purposes. Please set CIDR to x.x.x.x/32 to allow one specific IP address access, 0.0.0.0/0 to allow all IP addresses access, or another CIDR range."
+    Type: String
+    AllowedPattern: '^((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\/(3[0-2]|[1-2]?[0-9])$'
+  KeyPair:
+    Description: "Name of an existing EC2 KeyPair to enable SSH access to the instance."
+    Type: 'AWS::EC2::KeyPair::KeyName'
+  LatestAmiId:
+    Type: 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>'
+    Default: '/aws/service/canonical/ubuntu/server/noble/stable/current/amd64/hvm/ebs-gp3/ami-id'
+Resources:
+  VPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.5.0.0/16
+      EnableDnsSupport: true
+      EnableDnsHostnames: true
+      Tags:
+        - Key: Name
+          Value: !Ref AWS::StackName
+  Subnet:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref VPC
+      CidrBlock: 10.5.0.0/24
+      AvailabilityZone: {
+        "Fn::Select" : [
+          0,
+          {
+            "Fn::GetAZs" : !Ref AWS::Region
+          }
+        ]
+      }
+      Tags:
+        - Key: Name
+          Value: !Ref AWS::StackName
+  ElasticIP:
+    Type: AWS::EC2::EIP
+    Properties:
+      Tags:
+        - Key: Name
+          Value: !Ref AWS::StackName
+  InternetGateway:
+    Type: AWS::EC2::InternetGateway
+    Properties:
+      Tags:
+        - Key: Name
+          Value: !Ref AWS::StackName
+  AttachGateway:
+    Type: AWS::EC2::VPCGatewayAttachment
+    Properties:
+      VpcId: !Ref VPC
+      InternetGatewayId: !Ref InternetGateway
+  RouteTable:
+    Type: AWS::EC2::RouteTable
+    Properties:
+      VpcId: !Ref VPC
+      Tags:
+        - Key: Name
+          Value: !Ref AWS::StackName
+  RouteToInternet:
+    Type: AWS::EC2::Route
+    DependsOn: AttachGateway
+    Properties:
+      RouteTableId: !Ref RouteTable
+      DestinationCidrBlock: 0.0.0.0/0
+      GatewayId: !Ref InternetGateway
+  SecurityGroupIngress4222:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      IpProtocol: tcp
+      FromPort: 4222
+      ToPort: 4222
+      CidrIp: 0.0.0.0/0
+      GroupId: !GetAtt VPC.DefaultSecurityGroup
+  SecurityGroupIngress4224:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      IpProtocol: tcp
+      FromPort: 4224
+      ToPort: 4224
+      CidrIp: 0.0.0.0/0
+      GroupId: !GetAtt VPC.DefaultSecurityGroup
+  SecurityGroupIngress80:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      IpProtocol: tcp
+      FromPort: 80
+      ToPort: 80
+      CidrIp: 0.0.0.0/0
+      GroupId: !GetAtt VPC.DefaultSecurityGroup
+  SecurityGroupIngress443:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      IpProtocol: tcp
+      FromPort: 443
+      ToPort: 443
+      CidrIp: 0.0.0.0/0
+      GroupId: !GetAtt VPC.DefaultSecurityGroup
+  SecurityGroupIngress6443:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      IpProtocol: tcp
+      FromPort: 6443
+      ToPort: 6443
+      CidrIp: 0.0.0.0/0
+      GroupId: !GetAtt VPC.DefaultSecurityGroup
+  SecurityGroupIngress22:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      IpProtocol: tcp
+      FromPort: 22
+      ToPort: 22
+      CidrIp: !Ref SSHIpCIDR
+      GroupId: !GetAtt VPC.DefaultSecurityGroup
+  SubnetRouteTableAssociation:
+    Type: AWS::EC2::SubnetRouteTableAssociation
+    Properties:
+      RouteTableId: !Ref RouteTable
+      SubnetId: !Ref Subnet
+  InstanceProfileRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - ec2.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'
+      Path: /
+      Policies:
+        - PolicyName: !Ref AWS::StackName
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow # basic
+                Action:
+                  - 'ec2:DescribeIpamPools'
+                  - 'ec2:AllocateIpamPoolCidr'
+                  - 'ec2:AttachNetworkInterface'
+                  - 'ec2:DetachNetworkInterface'
+                  - 'ec2:AllocateAddress'
+                  - 'ec2:AssignIpv6Addresses'
+                  - 'ec2:AssignPrivateIpAddresses'
+                  - 'ec2:UnassignPrivateIpAddresses'
+                  - 'ec2:AssociateRouteTable'
+                  - 'ec2:AssociateVpcCidrBlock'
+                  - 'ec2:AttachInternetGateway'
+                  - 'ec2:AuthorizeSecurityGroupIngress'
+                  - 'ec2:CreateCarrierGateway'
+                  - 'ec2:CreateInternetGateway'
+                  - 'ec2:CreateEgressOnlyInternetGateway'
+                  - 'ec2:CreateNatGateway'
+                  - 'ec2:CreateNetworkInterface'
+                  - 'ec2:CreateRoute'
+                  - 'ec2:CreateRouteTable'
+                  - 'ec2:CreateSecurityGroup'
+                  - 'ec2:CreateSubnet'
+                  - 'ec2:CreateTags'
+                  - 'ec2:CreateVpc'
+                  - 'ec2:CreateVpcEndpoint'
+                  - 'ec2:DisassociateVpcCidrBlock'
+                  - 'ec2:ModifyVpcAttribute'
+                  - 'ec2:ModifyVpcEndpoint'
+                  - 'ec2:DeleteCarrierGateway'
+                  - 'ec2:DeleteInternetGateway'
+                  - 'ec2:DeleteEgressOnlyInternetGateway'
+                  - 'ec2:DeleteNatGateway'
+                  - 'ec2:DeleteRouteTable'
+                  - 'ec2:ReplaceRoute'
+                  - 'ec2:DeleteSecurityGroup'
+                  - 'ec2:DeleteSubnet'
+                  - 'ec2:DeleteTags'
+                  - 'ec2:DeleteVpc'
+                  - 'ec2:DeleteVpcEndpoints'
+                  - 'ec2:DescribeAccountAttributes'
+                  - 'ec2:DescribeAddresses'
+                  - 'ec2:DescribeAvailabilityZones'
+                  - 'ec2:DescribeCarrierGateways'
+                  - 'ec2:DescribeInstances'
+                  - 'ec2:DescribeInstanceTypes'
+                  - 'ec2:DescribeInternetGateways'
+                  - 'ec2:DescribeEgressOnlyInternetGateways'
+                  - 'ec2:DescribeInstanceTypes'
+                  - 'ec2:DescribeImages'
+                  - 'ec2:DescribeNatGateways'
+                  - 'ec2:DescribeNetworkInterfaces'
+                  - 'ec2:DescribeNetworkInterfaceAttribute'
+                  - 'ec2:DescribeRouteTables'
+                  - 'ec2:DescribeSecurityGroups'
+                  - 'ec2:DescribeSubnets'
+                  - 'ec2:DescribeVpcs'
+                  - 'ec2:DescribeDhcpOptions'
+                  - 'ec2:DescribeVpcAttribute'
+                  - 'ec2:DescribeVpcEndpoints'
+                  - 'ec2:DescribeVolumes'
+                  - 'ec2:DescribeTags'
+                  - 'ec2:DetachInternetGateway'
+                  - 'ec2:DisassociateRouteTable'
+                  - 'ec2:DisassociateAddress'
+                  - 'ec2:ModifyInstanceAttribute'
+                  - 'ec2:ModifyNetworkInterfaceAttribute'
+                  - 'ec2:ModifySubnetAttribute'
+                  - 'ec2:ReleaseAddress'
+                  - 'ec2:RevokeSecurityGroupIngress'
+                  - 'ec2:RunInstances'
+                  - 'tag:GetResources'
+                  - 'elasticloadbalancing:AddTags'
+                  - 'elasticloadbalancing:CreateLoadBalancer'
+                  - 'elasticloadbalancing:ConfigureHealthCheck'
+                  - 'elasticloadbalancing:DeleteLoadBalancer'
+                  - 'elasticloadbalancing:DeleteTargetGroup'
+                  - 'elasticloadbalancing:DescribeLoadBalancers'
+                  - 'elasticloadbalancing:DescribeLoadBalancerAttributes'
+                  - 'elasticloadbalancing:DescribeTargetGroups'
+                  - 'elasticloadbalancing:ApplySecurityGroupsToLoadBalancer'
+                  - 'elasticloadbalancing:SetSecurityGroups'
+                  - 'elasticloadbalancing:DescribeTags'
+                  - 'elasticloadbalancing:ModifyLoadBalancerAttributes'
+                  - 'elasticloadbalancing:RegisterInstancesWithLoadBalancer'
+                  - 'elasticloadbalancing:DeregisterInstancesFromLoadBalancer'
+                  - 'elasticloadbalancing:RemoveTags'
+                  - 'elasticloadbalancing:SetSubnets'
+                  - 'elasticloadbalancing:ModifyTargetGroupAttributes'
+                  - 'elasticloadbalancing:CreateTargetGroup'
+                  - 'elasticloadbalancing:DescribeListeners'
+                  - 'elasticloadbalancing:CreateListener'
+                  - 'elasticloadbalancing:DescribeTargetHealth'
+                  - 'elasticloadbalancing:RegisterTargets'
+                  - 'elasticloadbalancing:DeleteListener'
+                  - 'autoscaling:DescribeAutoScalingGroups'
+                  - 'autoscaling:DescribeInstanceRefreshes'
+                  - 'ec2:CreateLaunchTemplate'
+                  - 'ec2:CreateLaunchTemplateVersion'
+                  - 'ec2:DescribeLaunchTemplates'
+                  - 'ec2:DescribeLaunchTemplateVersions'
+                  - 'ec2:DeleteLaunchTemplate'
+                  - 'ec2:DeleteLaunchTemplateVersions'
+                  - 'ec2:DescribeKeyPairs'
+                  - 'aws-marketplace:MeterUsage' # billing
+                  - 'ec2:DescribeAvailabilityZones' #import cluster action
+                  - 'ec2:DescribeRegions' #import cluster action
+                  - 'eks:DescribeNodegroup' #import cluster action
+                  - 'eks:DescribeCluster' #import cluster action
+                  - 'eks:ListClusters' #import cluster action
+                  - 'eks:DescribeClusterVersions' #import cluster action
+                  - 'sts:GetCallerIdentity'
+                  - 'servicequotas:ListServiceQuotas'
+                  - 'iam:ListRoles'
+                Resource: '*'
+              - Effect: Allow
+                Action:
+                  - 'iam:ListOpenIDConnectProviders'
+                  - 'iam:ListPolicies'
+                Resource: '*'
+              - Effect: Allow
+                Action:
+                  - 'iam:UpdateRole'
+                Resource: 'arn:*:iam::*:role/Ace*'
+              - Effect: Allow
+                Action:
+                  - 'ec2:TerminateInstances'
+                Resource: 'arn:*:ec2:*:*:instance/i-*'
+              - Effect: Allow
+                Action:
+                  - 'eks:*'
+                Resource:
+                  - 'arn:aws:eks:*:*:cluster/*'
+                  - 'arn:aws:eks:*:*:nodegroup/*'
+                  - 'arn:aws:eks:*:*:addon/*'
+                  - 'arn:aws:eks:*:*:fargateprofile/*'
+                  - 'arn:aws:eks:*:*:identityproviderconfig/*'
+                  - 'arn:aws:eks:*:*:eks-anywhere-subscription/*'
+                  - 'arn:aws:eks:*:*:podidentityassociation/*'
+                  - 'arn:aws:eks:*:*:access-entry/*'
+                  - 'arn:aws:eks:*:aws:cluster-access-policy/*'
+              - Effect: Allow
+                Action:
+                  - 'autoscaling:CreateAutoScalingGroup'
+                  - 'autoscaling:UpdateAutoScalingGroup'
+                  - 'autoscaling:CreateOrUpdateTags'
+                  - 'autoscaling:StartInstanceRefresh'
+                  - 'autoscaling:DeleteAutoScalingGroup'
+                  - 'autoscaling:DeleteTags'
+                Resource: 'arn:*:autoscaling:*:*:autoScalingGroup:*:autoScalingGroupName/*'
+              - Effect: Allow
+                Action:
+                  - 'iam:CreateServiceLinkedRole'
+                Resource:
+                  - 'arn:*:iam::*:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling'
+                Condition:
+                  StringLike:
+                    "iam:AWSServiceName": "elasticloadbalancing.amazonaws.com"
+              - Effect: Allow
+                Action:
+                  - 'iam:CreateServiceLinkedRole'
+                Resource:
+                  - 'arn:*:iam::*:role/aws-service-role/elasticloadbalancing.amazonaws.com/AWSServiceRoleForElasticLoadBalancing'
+                Condition:
+                  StringLike:
+                    "iam:AWSServiceName": "elasticloadbalancing.amazonaws.com"
+              - Effect: Allow
+                Action:
+                  - 'iam:CreateServiceLinkedRole'
+                Resource:
+                  - 'arn:*:iam::*:role/aws-service-role/spot.amazonaws.com/AWSServiceRoleForEC2Spot'
+                Condition:
+                  StringLike:
+                    "iam:AWSServiceName": "spot.amazonaws.com"
+              - Effect: Allow
+                Action:
+                  - 'iam:PassRole'
+                Resource:
+                  - 'arn:*:iam::*:role/*.cluster-api-provider-aws.sigs.k8s.io'
+                  - 'arn:*:iam::*:role/Ace*'
+                  - 'arn:*:iam::*:role/controllers*'
+                  - 'arn:*:iam::*:role/nodes*'
+                  - 'arn:*:iam::*:role/control-plane*'
+                  - 'arn:*:iam::*:role/controlplane*'
+              - Effect: Allow
+                Action:
+                  - 'secretsmanager:CreateSecret'
+                  - 'secretsmanager:DeleteSecret'
+                  - 'secretsmanager:TagResource'
+                Resource:
+                  - 'arn:*:secretsmanager:*:*:secret:aws.cluster.x-k8s.io/*'
+              - Effect: Allow
+                Action:
+                  - 's3:CreateBucket'
+                  - 's3:ListBucket'
+                  - 's3:PutBucketCORS'
+                  - 's3:DeleteBucket'
+                  - 's3:GetBucketLocation'
+                  - 's3:PutBucketOwnershipControls'
+                Resource:
+                  - 'arn:*:s3:::ace*'
+              - Effect: Allow
+                Action:
+                  - 's3:PutObject'
+                  - 's3:GetObject'
+                  - 's3:DeleteObject'
+                Resource:
+                  - 'arn:*:s3:::ace*'
+              - Effect: Allow
+                Action:
+                  - 'cloudformation:*'
+                Resource:
+                  - 'arn:*:cloudformation:*:*:stack/*'
+              - Effect: Allow
+                Action:
+                  - 'iam:CreateInstanceProfile' #instance-profiles
+                  - 'iam:DeleteInstanceProfile'
+                  - 'iam:GetInstanceProfile'
+                  - 'iam:RemoveRoleFromInstanceProfile'
+                  - 'iam:AddRoleToInstanceProfile'
+                Resource:
+                  - 'arn:*:iam::*:instance-profile/controllers*'
+                  - 'arn:*:iam::*:instance-profile/nodes*'
+                  - 'arn:*:iam::*:instance-profile/control-plane*'
+                  - 'arn:*:iam::*:instance-profile/controlplane*'
+              - Effect: Allow
+                Action:
+                  - 'iam:GetRole'
+                  - 'iam:ListAttachedRolePolicies'
+                Resource:
+                  - 'arn:*:iam::*:role/*'
+              - Effect: Allow
+                Action:
+                  - 'iam:CreateRole'
+                  - 'iam:DeleteRole'
+                  - 'iam:AttachRolePolicy'
+                  - 'iam:PutRolePolicy'
+                  - 'iam:UpdateAssumeRolePolicy'
+                  - 'iam:ListInstanceProfilesForRole'
+                  - 'iam:DetachRolePolicy'
+                  - 'iam:DeleteRolePolicy'
+                  - 'iam:GetRolePolicy'
+                  - 'iam:TagRole'
+                  - 'iam:UntagRole'
+                Resource:
+                  - 'arn:*:iam::*:role/Ace*'
+                  - 'arn:*:iam::*:role/controllers*'
+                  - 'arn:*:iam::*:role/nodes*'
+                  - 'arn:*:iam::*:role/control-plane*'
+                  - 'arn:*:iam::*:role/controlplane*'
+              - Effect: Allow
+                Action:
+                  - 'iam:GetPolicy' #policy
+                  - 'iam:CreatePolicy'
+                  - 'iam:DeletePolicy'
+                  - 'iam:ListPolicyVersions'
+                Resource:
+                  - 'arn:*:iam::*:policy/Ace*'
+                  - 'arn:*:iam::*:policy/controllers*'
+                  - 'arn:*:iam::*:policy/nodes*'
+                  - 'arn:*:iam::*:policy/control-plane*'
+                  - 'arn:*:iam::*:policy/csi*'
+              - Effect: Allow
+                Action:
+                  - 'iam:ListOpenIDConnectProviderTags' #openidconnect
+                  - 'iam:GetOpenIDConnectProvider'
+                  - 'iam:CreateOpenIDConnectProvider'
+                  - 'iam:DeleteOpenIDConnectProvider'
+                  - 'iam:TagOpenIDConnectProvider'
+                  - 'iam:UntagOpenIDConnectProvider'
+                  - 'iam:UpdateOpenIDConnectProviderThumbprint'
+                Resource:
+                  - 'arn:*:iam::*:oidc-provider/oidc.eks*'
+  InstanceProfile:
+    Type: AWS::IAM::InstanceProfile
+    Properties:
+      Path: /
+      Roles:
+        - Ref: InstanceProfileRole
+  Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: !Ref LatestAmiId
+      InstanceType: !Ref InstanceType
+      KeyName: !Ref KeyPair
+      Tags:
+        - Key: "Name"
+          Value:
+            Ref: AWS::StackName
+      IamInstanceProfile: !Ref InstanceProfile
+      NetworkInterfaces:
+        - AssociatePublicIpAddress: "true"
+          DeviceIndex: "0"
+          SubnetId:
+            Ref: "Subnet"
+      BlockDeviceMappings:
+        - DeviceName: /dev/sda1 #/dev/sda1 root volume for ubuntu, /dev/xvda for amzn-linux
+          Ebs:
+            VolumeSize: 100 # Specify the size of the root volume in GB
+            VolumeType: gp3
+  IPAssoc:
+    Type: AWS::EC2::EIPAssociation
+    Properties:
+      InstanceId: !Ref Instance
+      EIP: !GetAtt ElasticIP.PublicIp
