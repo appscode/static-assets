@@ -1,0 +1,206 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+
+    {
+      "Action": [
+        "iam:ListOpenIDConnectProviders",
+        "iam:ListPolicies"
+      ],
+      "Resource": "*",
+      "Effect": "Allow"
+    },
+    {
+      "Action": [
+        "iam:UpdateRole"
+      ],
+      "Resource": "arn:*:iam::*:role/Ace*",
+      "Effect": "Allow"
+    },
+    {
+      "Action": [
+        "ec2:TerminateInstances"
+      ],
+      "Resource": "arn:*:ec2:*:*:instance/i-*",
+      "Effect": "Allow"
+    },
+    {
+      "Action": [
+        "autoscaling:CreateAutoScalingGroup",
+        "autoscaling:UpdateAutoScalingGroup",
+        "autoscaling:CreateOrUpdateTags",
+        "autoscaling:StartInstanceRefresh",
+        "autoscaling:DeleteAutoScalingGroup",
+        "autoscaling:DeleteTags"
+      ],
+      "Resource": "arn:*:autoscaling:*:*:autoScalingGroup:*:autoScalingGroupName/*",
+      "Effect": "Allow"
+    },
+    {
+      "Condition": {
+        "StringLike": {
+          "iam:AWSServiceName": "elasticloadbalancing.amazonaws.com"
+        }
+      },
+      "Action": [
+        "iam:CreateServiceLinkedRole"
+      ],
+      "Resource": [
+        "arn:*:iam::*:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling"
+      ],
+      "Effect": "Allow"
+    },
+    {
+      "Condition": {
+        "StringLike": {
+          "iam:AWSServiceName": "elasticloadbalancing.amazonaws.com"
+        }
+      },
+      "Action": [
+        "iam:CreateServiceLinkedRole"
+      ],
+      "Resource": [
+        "arn:*:iam::*:role/aws-service-role/elasticloadbalancing.amazonaws.com/AWSServiceRoleForElasticLoadBalancing"
+      ],
+      "Effect": "Allow"
+    },
+    {
+      "Condition": {
+        "StringLike": {
+          "iam:AWSServiceName": "spot.amazonaws.com"
+        }
+      },
+      "Action": [
+        "iam:CreateServiceLinkedRole"
+      ],
+      "Resource": [
+        "arn:*:iam::*:role/aws-service-role/spot.amazonaws.com/AWSServiceRoleForEC2Spot"
+      ],
+      "Effect": "Allow"
+    },
+    {
+      "Action": [
+        "iam:PassRole"
+      ],
+      "Resource": [
+        "arn:*:iam::*:role/*.cluster-api-provider-aws.sigs.k8s.io",
+        "arn:*:iam::*:role/Ace*",
+        "arn:*:iam::*:role/controllers*",
+        "arn:*:iam::*:role/nodes*",
+        "arn:*:iam::*:role/control-plane*",
+        "arn:*:iam::*:role/controlplane*"
+      ],
+      "Effect": "Allow"
+    },
+    {
+      "Action": [
+        "secretsmanager:CreateSecret",
+        "secretsmanager:DeleteSecret",
+        "secretsmanager:TagResource"
+      ],
+      "Resource": [
+        "arn:*:secretsmanager:*:*:secret:aws.cluster.x-k8s.io/*"
+      ],
+      "Effect": "Allow"
+    },
+    {
+      "Action": [
+        "s3:CreateBucket",
+        "s3:ListBucket",
+        "s3:PutBucketCORS",
+        "s3:DeleteBucket",
+        "s3:GetBucketLocation",
+        "s3:PutBucketOwnershipControls"
+      ],
+      "Resource": [
+        "arn:*:s3:::ace*"
+      ],
+      "Effect": "Allow"
+    },
+    {
+      "Action": [
+        "s3:PutObject",
+        "s3:GetObject",
+        "s3:DeleteObject"
+      ],
+      "Resource": [
+        "arn:*:s3:::ace*"
+      ],
+      "Effect": "Allow"
+    },
+    {
+      "Action": [
+        "cloudformation:*"
+      ],
+      "Resource": [
+        "arn:*:cloudformation:*:*:stack/*"
+      ],
+      "Effect": "Allow"
+    },
+    {
+      "Action": [
+        "iam:CreateInstanceProfile",
+        "iam:DeleteInstanceProfile",
+        "iam:GetInstanceProfile",
+        "iam:RemoveRoleFromInstanceProfile",
+        "iam:AddRoleToInstanceProfile"
+      ],
+      "Resource": [
+        "arn:*:iam::*:instance-profile/controllers*",
+        "arn:*:iam::*:instance-profile/nodes*",
+        "arn:*:iam::*:instance-profile/control-plane*",
+        "arn:*:iam::*:instance-profile/controlplane*"
+      ],
+      "Effect": "Allow"
+    },
+    {
+      "Action": [
+        "iam:GetRole",
+        "iam:ListAttachedRolePolicies"
+      ],
+      "Resource": [
+        "arn:*:iam::*:role/*"
+      ],
+      "Effect": "Allow"
+    },
+    {
+      "Action": [
+        "iam:CreateRole",
+        "iam:DeleteRole",
+        "iam:AttachRolePolicy",
+        "iam:PutRolePolicy",
+        "iam:UpdateAssumeRolePolicy",
+        "iam:ListInstanceProfilesForRole",
+        "iam:DetachRolePolicy",
+        "iam:DeleteRolePolicy",
+        "iam:GetRolePolicy",
+        "iam:TagRole",
+        "iam:UntagRole"
+      ],
+      "Resource": [
+        "arn:*:iam::*:role/Ace*",
+        "arn:*:iam::*:role/controllers*",
+        "arn:*:iam::*:role/nodes*",
+        "arn:*:iam::*:role/control-plane*",
+        "arn:*:iam::*:role/controlplane*"
+      ],
+      "Effect": "Allow"
+    },
+    {
+      "Action": [
+        "iam:GetPolicy",
+        "iam:CreatePolicy",
+        "iam:DeletePolicy",
+        "iam:ListPolicyVersions"
+      ],
+      "Resource": [
+        "arn:*:iam::*:policy/Ace*",
+        "arn:*:iam::*:policy/controllers*",
+        "arn:*:iam::*:policy/nodes*",
+        "arn:*:iam::*:policy/control-plane*",
+        "arn:*:iam::*:policy/csi*"
+      ],
+      "Effect": "Allow"
+    }
+  ]
+}
