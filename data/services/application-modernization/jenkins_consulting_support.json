@@ -1,0 +1,250 @@
+{
+  "hero": {
+    "title": "Enterprise Jenkins Consulting & Professional Support Services",
+    "subtitle": "Accelerate your <a href=\"https://appscode.com/services/ci-cd-consulting-services/\">CI/CD</a> transformation with expert-led Jenkins implementation, optimization, and enterprise-grade support from AppsCode.",
+    "cta_text": "Schedule a Free Consultation",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/jenkins-consulting-enterprise-support.png",
+      "alt": "Jenkins Consulting & Professional Support Services"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Global Enterprises and High-Growth Startups"
+  },
+  "title_with_small_cards": {
+    "title": "Why Choose Jenkins Professional Support",
+    "areas": [
+      { "icon": "fa fa-check", "title": "Implement Fail-Fast CI/CD Workflows" },
+      { "icon": "fa fa-rocket", "title": "Accelerate Software Delivery Lifecycle" },
+      { "icon": "fa fa-clock-o", "title": "Reduce Deployment & Release Time" },
+      { "icon": "fa fa-gears", "title": "Increase Automation Across Pipelines" },
+      { "icon": "fa fa-puzzle-piece", "title": "Customize Jenkins with Plugin Ecosystem" },
+      { "icon": "fa fa-cogs", "title": "Seamlessly Integrate Third-Party DevOps Tools" }
+    ]
+  },
+  "service_details": {
+    "title": "Jenkins Consulting & Enterprise Support Capabilities",
+    "subtitle": "<a href=\"https://appscode.com/\">AppsCode </a> provides tailored Jenkins consulting, training, and managed services to optimize CI/CD pipelines across enterprises.",
+    "sections": [
+      {
+        "title": "Automate CI/CD with Jenkins Best Practices",
+        "description": "Our certified Jenkins engineers assess your existing infrastructure and build optimized CI/CD pipelines to improve efficiency, reliability, and scalability.",
+        "offerings": [
+          "Implement automated Jenkins pipelines following industry standards and best practices.",
+          "Deliver cost-effective, scalable, and resilient CI/CD frameworks customized for your business.",
+          "Optimize build-deploy-test cycles and reduce manual interventions."
+        ],
+        "image": "/assets/images/services/jenkins-consulting-best-practices.png"
+      },
+      {
+        "title": "Enable DevOps Transformation with Jenkins",
+        "description": "Integrate Jenkins within your <a href=\"https://appscode.com/services/devops-toolchain-consulting-services/\">DevOps</a> ecosystem using a shift-left approach to enable faster releases and continuous feedback loops.",
+        "offerings": [
+          "Convert manual pipelines into dynamic, version-controlled pipeline-as-code models.",
+          "Integrate Jenkins with Jira, Confluence, Git, and other enterprise tools for streamlined workflows.",
+          "Implement RBAC, SSO, and auditing for enterprise-grade governance and compliance."
+        ],
+        "image": "/assets/images/services/jenkins-consulting-devops.png"
+      },
+      {
+        "title": "Optimize Developer Productivity",
+        "description": "Reduce repetitive workloads and accelerate feature testing with automated branch acceptance testing (BAT) and CI/CD orchestration.",
+        "offerings": [
+          "Automate branch-level testing and environment provisioning for faster feedback.",
+          "Integrate automated test suites to ensure higher code quality.",
+          "Enable continuous deployment pipelines to staging and production environments."
+        ],
+        "image": "/assets/images/services/jenkins-consulting-dev-lifecycle.png"
+      },
+      {
+        "title": "Accelerate Release & Delivery Management",
+        "description": "Streamline artifact management and automate delivery cycles to achieve faster time-to-market.",
+        "offerings": [
+          "Automate artifact creation and promotion across environments for reliable QA.",
+          "Reduce delivery bottlenecks with end-to-end CI/CD pipeline automation."
+        ],
+        "image": "/assets/images/services/jenkins-consulting-delivery-time.png"
+      },
+      {
+        "title": "Jenkins Training & Managed Support",
+        "description": "Empower your DevOps teams with hands-on Jenkins training and continuous managed support for sustainable CI/CD operations.",
+        "offerings": [
+          "Upskill engineering teams with Jenkins and CI/CD best practices workshops.",
+          "Provide ongoing expert support for maintenance, troubleshooting, and upgrades.",
+          "Deliver proactive performance tuning and risk management strategies."
+        ],
+        "image": "/assets/images/services/jenkins-consulting-training-support.png"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industry Expertise",
+    "subtitle": "With experience serving 100+ clients, we understand critical compliance, operational challenges, and delivering first-time-right solutions.",
+    "additional_text": "From global enterprises to high-growth startups, we deliver scalable and efficient CI/CD solutions.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Enable highly available, compliant CI/CD pipelines for secure financial operations."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology & SaaS",
+        "description": "Integrate Jenkins in high-performance cloud environments for SaaS and AI workloads."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Leverage automation to meet customer expectations and ensure system reliability."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Modernize CI/CD processes to improve inspections, monitoring, and operational efficiency."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Ensure rapid, reliable deployment of applications for critical healthcare systems."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver seamless operations with automated pipelines, scalable systems, and instant updates."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "Open Source Leadership",
+    "description": "AppsCode contributes to cloud-native open-source projects and leverages them to deliver innovative Jenkins automation and CI/CD solutions.",
+    "cta_text": "Explore Our Open Source Projects",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Contributions by AppsCode"
+    }
+  },
+  "tech_stack": {
+    "title": "Diverse Technical Expertise",
+    "subtitle": "Our certified consultants are skilled in:",
+    "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "final_cta": {
+    "title": "Looking for Jenkins Enterprise Support?",
+    "subtitle": "Consult our experts to build, deploy, and test your CI/CD pipelines faster and more efficiently.",
+    "buttons": [
+      {
+        "text": "Consult a Jenkins Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why AppsCode is the Preferred Jenkins Consulting Partner?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "Certified Developers",
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Domain Expertise",
+        "description": "Deliver best practices in DevOps and CI/CD learned from 100+ client engagements."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "First Mover Advantage",
+        "description": "One of the first <a href=\"https://kubernetes.io/\">Kubernetes</a> and Jenkins service providers in Bangladesh and APAC."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Hands-On Training",
+        "description": "Practical training focused on core CI/CD concepts and real-world Jenkins applications."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Certified Provider",
+        "description": "AppsCode is a <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and Kubernetes Certified Service Provider (KCSP)."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Scale Teams Easily",
+        "description": "Expand engineering teams quickly without hiring or training overhead."
+      }
+    ]
+  },
+  "faq": [
+   {
+    "question": "What do your Jenkins Consulting & Professional Support Services include?",
+    "answer": "Our Jenkins Consulting & Professional Support Services help organizations implement, optimize, and maintain Jenkins-based CI/CD pipelines. We cover setup, configuration, plugin management, pipeline automation, monitoring, and best practices to ensure reliable, scalable, and maintainable continuous integration and delivery workflows."
+  },
+  {
+    "question": "Which technologies and practices are used in Jenkins consulting?",
+    "answer": "We leverage Jenkins, Jenkins X, pipeline as code, Docker, Kubernetes, Git-based workflows, automated testing, and monitoring tools. Our approach ensures efficient CI/CD pipelines, integrated DevOps workflows, and seamless deployments across cloud-native and on-premises environments."
+  },
+  {
+    "question": "Can you work with our existing Jenkins infrastructure?",
+    "answer": "Yes — we assess your current Jenkins setup, optimize pipelines, implement best practices, and provide guidance to integrate with your existing development workflows, ensuring faster, reliable, and repeatable deployments."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for Jenkins Consulting & Professional Support Services?",
+    "answer": "Engagements typically start with a 1–2 week assessment of your Jenkins environment and CI/CD processes. Implementation follows in 4–8 week sprints depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term support contracts."
+  },
+  {
+    "question": "Do Jenkins Consulting Services support multi-cloud or hybrid deployments?",
+    "answer": "Absolutely. Our services enable Jenkins pipelines to work across AWS, Azure, GCP, and on-premises environments, ensuring consistent and reliable CI/CD processes across platforms."
+  },
+  {
+    "question": "How do you ensure security, reliability, and efficiency in Jenkins pipelines?",
+    "answer": "We enforce best practices including access control, plugin management, secrets handling, automated testing, monitoring, and disaster recovery strategies to maintain secure, reliable, and efficient Jenkins pipelines."
+  },
+  {
+    "question": "What happens after Jenkins consulting and implementation?",
+    "answer": "After implementation, we provide ongoing operational guidance, support, and optimization. Our services include knowledge transfer, training, and recommendations for continuous improvements to maintain robust Jenkins pipelines."
+  },
+  {
+    "question": "How much do Jenkins Consulting & Professional Support Services cost, and what are the pricing models?",
+    "answer": "Pricing depends on pipeline complexity, number of teams, and support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+  }
+  ]
+}

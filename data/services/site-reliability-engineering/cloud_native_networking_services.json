@@ -1,0 +1,270 @@
+{
+  "hero": {
+    "title": "Accelerate Cloud-Native Networking Services with AppsCode",
+    "subtitle": "Empower your teams with secure, scalable, and automated cloud-native networking solutions designed for modern Kubernetes environments.",
+    "cta_text": "Talk to a Networking Expert",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/cloud-native-networking-services.png",
+      "alt": "Cloud Native Networking Services"
+    }
+  },
+
+  "trusted_by": {
+    "title": "Trusted by Innovative Enterprises Worldwide"
+  },
+
+  "title_with_small_cards": {
+    "title": "Why Cloud-Native Networking Services Matter",
+    "areas": [
+      { "icon": "fa fa-shield", "title": "Secure & Scalable Connectivity" },
+      { "icon": "fa fa-unlock", "title": "Zero-Trust Network Policies" },
+      { "icon": "fa fa-tachometer", "title": "High Throughput & Availability" },
+      { "icon": "fa fa-cogs", "title": "Intelligent Load Balancing" },
+      { "icon": "fa fa-sitemap", "title": "Multi-Cluster Networking" },
+      { "icon": "fa fa-cloud", "title": "Multi-Cloud Security" },
+      { "icon": "fa fa-lock", "title": "End-to-End Encryption" },
+      { "icon": "fa fa-chart-line", "title": "Traffic Flow Analytics & Insights" }
+    ]
+  },
+
+  "service_details": {
+    "title": "AppsCode – Your Trusted Cloud-Native Networking Partner",
+   "subtitle": "Design, deploy, and optimize secure and resilient networks for Kubernetes and cloud-native workloads with AppsCode.",
+    "sections": [
+      {
+        "title": "Network Assessment & Optimization",
+        "description": "Our experts evaluate your network architecture, policies, and automation to uncover gaps, optimize performance, and enhance security.",
+        "offerings": [
+          "Full audit of Kubernetes networking, CNIs, and hybrid cloud infrastructure.",
+          "Recommendations for secure inter-service communication and traffic visibility.",
+          "Actionable reports for architecture optimization and future planning."
+        ],
+        "image": "/assets/images/services/network-assessment-optimization.png"
+      },
+      {
+        "title": "Strategic Consulting & Architecture Design",
+        "description": "We provide strategic guidance to align your cloud-native networking with scalability, security, and performance goals.",
+        "offerings": [
+          "Tailored cloud-native network roadmaps for CNIs and service mesh adoption.",
+          "Zero-trust network policy design and implementation strategy.",
+          "Performance, reliability, and cost-efficiency optimization for enterprise networks."
+        ],
+        "image": "/assets/images/services/strategic-consulting-architecture-design.png"
+      },
+      {
+        "title": "Integration & Deployment",
+        "description": "Deploy CNIs, service meshes, and networking policies seamlessly with minimal downtime across multi-cluster and multi-cloud environments.",
+        "offerings": [
+          "Service mesh and CNI deployment for Kubernetes, VMs, and hybrid environments.",
+          "Integration with monitoring, observability, and traffic management tools.",
+          "Automation-driven rollout for faster and more reliable deployments."
+        ],
+        "image": "/assets/images/services/integration-deployment.png"
+      },
+      {
+        "title": "Network Automation & Policy Management",
+        "description": "Automate network operations to achieve consistency, security, and compliance at scale.",
+        "offerings": [
+          "Automated policy verification and compliance workflows.",
+          "Reusable automation scripts for day-to-day network management.",
+          "Proactive observability and reduced manual intervention for NetOps teams."
+        ],
+        "image": "/assets/images/services/network-automation-policy-management.png"
+      },
+      {
+        "title": "Managed Services & Continuous Support",
+        "description": "Rely on AppsCode’s expert team for ongoing network operations, monitoring, and issue resolution.",
+        "offerings": [
+          "24x7 monitoring for latency, traffic anomalies, and connectivity.",
+          "Continuous optimization and troubleshooting support.",
+          "Proactive network health management for cloud-native workloads."
+        ],
+        "image": "/assets/images/services/managed-services-continuous-support.png"
+      },
+      {
+        "title": "Upskilling & Team Enablement",
+        "description": "Empower your internal teams through guided training, workshops, and hands-on documentation.",
+        "offerings": [
+          "Custom training on Kubernetes networking, CNIs, and service mesh.",
+          "Workshops on troubleshooting, scaling, and network automation.",
+          "Build internal capabilities for confident management of cloud-native networks."
+        ],
+        "image": "/assets/images/services/upskilling-team-enablement.png"
+      }
+    ]
+  },
+
+  "cards": {
+    "title": "Why Partner with AppsCode for Cloud-Native Networking?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "Certified Cloud-Native Experts",
+        "description": "AppsCode engineers are <a href=\"https://www.cncf.io/\">CNCF</a>-certified specialists in Kubernetes, networking, and <a href=\"https://appscode.com/services/devops-toolchain-consulting-services/\">DevOps</a>."
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Deep Domain Knowledge",
+        "description": "Proven experience implementing cloud-native solutions across 100+ global clients."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "Proven Track Record",
+        "description": "Helping enterprises modernize networking for performance, security, and scalability."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Training & Knowledge Transfer",
+        "description": "We don’t just deploy; we enable your team to manage and evolve your cloud-native systems."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Silver Member",
+        "description": "Proud member of the Cloud Native Computing Foundation and Kubernetes Certified Service Provider (KCSP)."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Flexible Scaling",
+        "description": "Easily extend your DevOps or SRE team with AppsCode’s experienced cloud-native engineers."
+      }
+    ]
+  },
+
+  "industries": {
+    "title": "Industry Expertise That Delivers Results",
+    "subtitle": "We combine deep technical knowledge with domain-specific experience to deliver secure, scalable networking for every industry.",
+    "additional_text": "From enterprises with global datacenters to fast-scaling startups — we’ve got you covered.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Deliver 24/7 secure and compliant digital banking experiences with zero downtime."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology & SaaS",
+        "description": "Optimize multi-tenant applications with intelligent load balancing and automated network scaling."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Enhance reliability in connected vehicles and autonomous systems through resilient networking."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy & Utilities",
+        "description": "Enable real-time monitoring and automation through reliable, secure data transmission."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Protect patient data and ensure uninterrupted access to healthcare systems across clouds."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver seamless customer experiences with responsive, cloud-native networking."
+      }
+    ]
+  },
+
+  "open_source": {
+    "title": "We Love Open Source",
+    "description": "Open source is in our DNA. <a href=\"https://appscode.com/\">AppsCode </a> actively contributes to the cloud-native ecosystem — creating, maintaining, and improving OSS projects that empower developers and enterprises globally.",
+    "cta_text": "Explore Our OSS Contributions",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "We Love Open Source"
+    }
+  },
+
+  "tech_stack": {
+    "title": "Deep Expertise Across Cloud-Native Networking Technologies",
+    "subtitle": "Our engineers bring hands-on experience with the most popular CNIs, service meshes, and networking frameworks.",
+    "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What do your Cloud-Native Networking Services include?",
+    "answer": "Our Cloud-Native Networking Services help organizations design, implement, and optimize networking for cloud-native applications. We cover service connectivity, traffic routing, load balancing, network security, observability, and scalability for modern microservices architectures."
+  },
+  {
+    "question": "Which technologies and practices are used in cloud-native networking?",
+    "answer": "We leverage Kubernetes networking, service meshes like Istio and Linkerd, Envoy proxies, CNI plugins, cloud provider networking services, and observability tools. Our approach ensures secure, reliable, and high-performance connectivity across cloud-native environments."
+  },
+  {
+    "question": "Can you work with our existing cloud infrastructure and applications?",
+    "answer": "Yes — we integrate cloud-native networking practices with your current infrastructure and workloads, optimize traffic management, enforce security policies, and provide guidance to improve network performance and reliability."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for Cloud-Native Networking Services?",
+    "answer": "Engagements usually start with a 1–2 week assessment of your networking architecture and cloud environments. Implementation follows in 4–8 week phases. We offer fixed-scope projects, time-and-materials consulting, or long-term networking advisory partnerships."
+  },
+  {
+    "question": "Do Cloud-Native Networking Services support multi-cloud or hybrid deployments?",
+    "answer": "Absolutely. Our services are designed for multi-cloud and hybrid environments, ensuring consistent network connectivity, security, and performance across AWS, Azure, GCP, and on-premises Kubernetes clusters."
+  },
+  {
+    "question": "How do you ensure security, reliability, and performance in cloud-native networking?",
+    "answer": "We enforce network segmentation, mTLS encryption, traffic routing policies, monitoring, logging, and automated failover. These measures help maintain secure, reliable, and high-performance networking for cloud-native applications."
+  },
+  {
+    "question": "What happens after Cloud-Native Networking Services implementation?",
+    "answer": "After implementation, we provide ongoing guidance, monitoring, and optimization. Our services include knowledge transfer, training, best practice documentation, and continuous improvement recommendations for long-term success."
+  },
+  {
+    "question": "How much do Cloud-Native Networking Services cost, and what are the pricing models?",
+    "answer": "Pricing depends on network complexity, number of clusters, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+  }
+  ],
+
+  "final_cta": {
+    "subtitle": "Talk to AppsCode experts to design, deploy, or optimize your Kubernetes networking, CNIs, and service mesh automation.",
+    "buttons": [
+      {
+        "text": "Talk to a Networking Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  }
+}

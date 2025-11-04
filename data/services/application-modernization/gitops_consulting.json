@@ -1,0 +1,283 @@
+{
+  "hero": {
+    "title": "GitOps Consulting Services & Implementation Experts",
+    "subtitle": "Accelerate your <a href=\"https://appscode.com/services/ci-cd-consulting-services/\">CI/CD</a> and cloud-native deployments with enterprise-grade GitOps consulting services. Certified experts in ArgoCD, FluxCD, Helm, Kustomize, Werf & Terragrunt.",
+    "cta_text": "Consult a GitOps Expert Today",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/gitops-consulting-implementation-hero.png",
+      "alt": "GitOps Consulting Services by AppsCode"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Global Enterprises & Startups"
+  },
+  "title_with_small_cards": {
+    "title": "Why Choose GitOps Consulting Services?",
+    "areas": [
+      { "icon": "fa fa-code", "title": "Declarative Infrastructure & Application Management" },
+      { "icon": "fa fa-users", "title": "Improved Developer Productivity & Experience" },
+      { "icon": "fa fa-clock-o", "title": "Faster, Automated Deployments & Releases" },
+      { "icon": "fa fa-bug", "title": "Quick Failure Detection & Instant Rollbacks" },
+      { "icon": "fa fa-cogs", "title": "Reduced Operational Overhead" },
+      { "icon": "fa fa-database", "title": "Git as the Single Source of Truth" },
+      { "icon": "fa fa-rocket", "title": "Continuous Deployment Automation" },
+      { "icon": "fa fa-shield", "title": "Security, Compliance & Policy Enforcement" }
+    ]
+  },
+  "service_details": {
+    "title": "Comprehensive GitOps Consulting & Implementation Services",
+    "subtitle": "<a href=\"https://appscode.com/\">AppsCode </a> provides end-to-end GitOps consulting services — from strategy and framework selection to deployment, automation, and training for your teams.",
+    "sections": [
+      {
+        "title": "GitOps Strategy, Consulting & Advisory",
+        "description": "Adopt GitOps with confidence. Our GitOps consultants evaluate your existing CI/CD pipelines, define maturity levels, and recommend optimized deployment strategies for cloud-native efficiency.",
+        "offerings": [
+          "Audit current CI/CD pipelines and compare with GitOps best practices.",
+          "Assess infrastructure readiness for ArgoCD, FluxCD, and Helm adoption.",
+          "Design a GitOps roadmap aligning technology with business objectives.",
+          "Recommend tools and automation workflows for zero-downtime releases."
+        ],
+        "image": "/assets/images/services/consulting-advisory.png"
+      },
+      {
+        "title": "GitOps Implementation — From Dev to Production",
+        "description": "Transform your software delivery pipeline with a GitOps-based approach. Automate deployments, manage clusters declaratively, and ensure consistent environments across Dev, QA, and Production.",
+        "offerings": [
+          "Implement GitOps frameworks using ArgoCD, FluxCD, Helm, and Kustomize.",
+          "Enable drift detection, state management, and auto-reconciliation.",
+          "Adopt Infrastructure as Code (IaC) using Terraform and Terragrunt.",
+          "Automate multi-cloud and multi-cluster GitOps deployments.",
+          "Design Git repository structures aligned with GitOps best practices."
+        ],
+        "image": "/assets/images/services/gitops-implementation-dev-to-production.png"
+      },
+      {
+        "title": "Enterprise GitOps Support & Managed Services",
+        "description": "Our enterprise-grade GitOps managed services provide 24/7 monitoring, optimization, and ongoing support to ensure smooth operations and secure delivery pipelines.",
+        "offerings": [
+          "Continuous observability and logging to prevent pipeline failures.",
+          "Support for ArgoCD, FluxCD, Helm, Werf, and Kustomize environments.",
+          "Manage updates, patches, and upgrades of GitOps tools proactively.",
+          "Monitor and optimize multi-cluster GitOps environments at scale."
+        ],
+        "image": "/assets/images/services/enterprise-support-services.png"
+      },
+      {
+        "title": "GitOps Tools Training & Enablement",
+        "description": "Upskill your engineering teams with hands-on GitOps training sessions tailored for real-world production use cases.",
+        "offerings": [
+          "Practical workshops covering ArgoCD, FluxCD, Helm, Terragrunt, and Werf.",
+          "Master declarative configurations, drift detection, and pull-based deployments.",
+          "Learn best practices for managing GitOps configurations and version control.",
+          "Enable self-service deployments and continuous delivery pipelines."
+        ],
+        "image": "/assets/images/services/gitops-tools-training.png"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industry Expertise",
+    "subtitle": "Working with 100+ clients, we understand critical operations, compliance, and first-time-right deployments.",
+    "additional_text": "From global enterprises to scaling startups, we deliver reliable GitOps solutions.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Highly available and compliant systems for secure transactions."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology & SaaS",
+        "description": "Integrate AI and manage high-performance cloud infrastructure."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Leverage AI & ML for safety, sustainability, and innovation."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Streamline inspections, monitor resources, and reduce operational costs."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Process patient data securely and quickly using cloud-native workflows."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver seamless operations and real-time updates efficiently."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "Empowering the Open Source Ecosystem",
+    "description": "AppsCode contributes to and maintains several open-source projects like <a href=\"https://kubedb.com/\">KubeDB</a>, <a href=\"https://kubevault.com/\">KubeVault,</a> <a href=\"https://stash.run/\">Stash,</a> and <a href=\"https://voyagermesh.com/\">Voyager</a> — enhancing the GitOps and Kubernetes ecosystem.",
+    "cta_text": "Explore Our Open Source Projects",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "OAppsCode Open Source GitOps Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Diverse Technical Expertise",
+    "subtitle": "Our certified engineers excel in:",
+   "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "final_cta": {
+    "title": "Need GitOps Support?",
+    "subtitle": "Get expert guidance and end-to-end GitOps support for your deployments.",
+    "buttons": [
+      {
+        "text": "Talk to a GitOps Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+  "large_preview_cards": {
+    "title": "Expertise Across GitOps Tools",
+    "items": [
+      {
+        "icon": "fa fa-rocket",
+        "title": "ArgoCD Experts",
+        "description": "Evaluate, design, implement, and manage ArgoCD for single or multi-cluster, multi-cloud deployments. Full adoption support with ApplicationSet and Rollouts."
+      },
+      {
+        "icon": "fa fa-rocket",
+        "title": "FluxCD Experts",
+        "description": "Implement FluxCD workflows for your application ecosystem with best practices and post-implementation training for in-house expertise."
+      },
+      {
+        "icon": "fa fa-rocket",
+        "title": "Helm Experts",
+        "description": "Create and manage Helm charts for microservices and streamline GitOps pipelines with expert guidance."
+      },
+      {
+        "icon": "fa fa-rocket",
+        "title": "Kustomize Experts",
+        "description": "Assess, evaluate, and implement Kustomize to manage Kubernetes YAML configurations efficiently and choose the right approach between Helm and Kustomize."
+      },
+      {
+        "icon": "fa fa-rocket",
+        "title": "Werf Experts",
+        "description": "Set up Werf for efficient CI/CD pipelines, manage deployments, and provide team training for GitOps pipeline operations."
+      },
+      {
+        "icon": "fa fa-rocket",
+        "title": "Terragrunt Experts",
+        "description": "Organize and streamline Terraform code with Terragrunt for multiple environments, keeping DRY principles intact."
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why Choose AppsCode for GitOps Consulting?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Certified Provider",
+        "description": "AppsCode is a <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and Kubernetes Certified Service Provider (KCSP)."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "Certified Team",
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "In-House Domain Expertise",
+        "description": "90% engineering team with no outsourcing, delivering service mesh and GitOps best practices."
+      },
+      {
+        "icon": "fa fa-gift",
+        "title": "Community Contribution",
+        "description": "Contributed to 50+ open source projects in cloud-native and DevOps domains."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "First Mover Advantage",
+        "description": "First Kubernetes service provider in India, second in APAC."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Seasoned Engineers",
+        "description": "Training focuses on practical, hands-on experience in GitOps and cloud-native workflows."
+      }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What do your CI/CD Consulting Services include?",
+    "answer": "Our CI/CD Consulting Services guide organizations through designing, implementing, and optimizing continuous integration and continuous delivery pipelines. We cover pipeline automation, testing, monitoring, and deployment strategies to accelerate software delivery while maintaining quality and reliability."
+  },
+  {
+    "question": "Which technologies and practices are used in CI/CD consulting?",
+    "answer": "We leverage tools like Jenkins, GitHub Actions, GitLab CI, ArgoCD, Docker, Kubernetes, and infrastructure as code. Our approach emphasizes automated testing, version control, CI/CD pipeline best practices, and seamless integration with cloud-native architectures."
+  },
+  {
+    "question": "Can you work with our existing development workflows?",
+    "answer": "Yes — we integrate with your current pipelines and technology stack. Our consultants optimize existing workflows, implement automation, and ensure efficient, repeatable, and reliable continuous delivery processes."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for CI/CD Consulting Services?",
+    "answer": "Engagements usually begin with a 1–2 week assessment phase to analyze current processes. Implementation follows in 4–8 week agile sprints. We provide flexible engagement models including fixed-scope projects, time-and-materials consulting, or long-term advisory partnerships."
+  },
+  {
+    "question": "Do CI/CD Consulting Services support multi-cloud or hybrid cloud environments?",
+    "answer": "Absolutely. We design CI/CD pipelines to work seamlessly across AWS, Azure, GCP, and on-premises environments, ensuring consistent deployments and operational reliability across platforms."
+  },
+  {
+    "question": "How do you ensure quality, security, and reliability in CI/CD pipelines?",
+    "answer": "Quality is maintained with automated testing and code reviews, security with secrets management and access control, and reliability through monitoring, rollback strategies, and disaster recovery practices."
+  },
+  {
+    "question": "What happens after CI/CD pipeline implementation?",
+    "answer": "We provide ongoing support, monitoring, and optimization for CI/CD pipelines. This includes guidance on scaling, process improvements, and knowledge transfer to help your teams manage continuous delivery efficiently."
+  },
+  {
+    "question": "How much do CI/CD Consulting Services cost, and what are the pricing models?",
+    "answer": "Pricing varies based on pipeline complexity, number of teams, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+  }
+  ]
+}

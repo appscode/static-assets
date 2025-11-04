@@ -1,0 +1,229 @@
+{
+  "hero": {
+    "title": "Accelerate Your Cloud Native FaaS Journey",
+    "subtitle": "<a href=\"https://appscode.com\">AppsCode</a> cloud native FaaS architectures that deliver performance, cost efficiency, and agility, without managing infrastructure.",
+    "cta_text": "TALK TO A SERVERLESS EXPERT",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/serverless-consulting-hero.png",
+      "alt": "Cloud Native FaaS Consulting Illustration"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Enterprises & Cloud-Native Innovators"
+  },
+  "title_with_small_cards": {
+    "title": "The Power of Going Serverless",
+    "subtitle": "Here’s why enterprises partner with AppsCode to modernize their applications and scale effortlessly:",
+    "areas": [
+   { "icon": "fa fa-cubes", "title": "Simplified Testing & Deployment" },
+      { "icon": "fa fa-cogs", "title": "Zero Infrastructure Overhead" },
+      { "icon": "fa fa-clock-o", "title": "Pay Only for Execution" },
+      { "icon": "fa fa-laptop", "title": "No Idle-Time Costs" },
+      { "icon": "fa fa-arrows-alt", "title": "Automatic Scaling on Demand" },
+      { "icon": "fa fa-server", "title": "Maintenance-Free Operations" },
+      { "icon": "fa fa-rocket", "title": "Rapid Development Agility" },
+      { "icon": "fa fa-money", "title": "Optimized Operational Spend" }
+    ]
+  },
+  "service_details": {
+     "title": "Comprehensive Cloud Native FaaS Services",
+    "subtitle": "AppsCode provides end-to-end cloud native FaaS consulting—from strategy to deployment and optimization, ensuring your applications are performant, scalable, and secure.",
+    "sections": [
+      {
+        "title": "Serverless Strategy & Advisory",
+        "description": "Define your cloud native FaaS roadmap with expert guidance on architecture, trade-offs, and best practices.",
+        "offerings": [
+          "Assess existing systems and create a tailored migration or modernization roadmap for FaaS adoption.",
+          "Identify business goals, expected ROI, and performance priorities.",
+          "Design highly scalable, event-driven cloud native architectures using Kubernetes and microservices."
+        ],
+        "image": "/assets/images/services/serverless-strategy-advisory.png"
+      },
+      {
+       "title": "Cloud Native FaaS Implementation",
+        "description": "Build production-grade FaaS solutions leveraging AWS Lambda, Google Cloud Functions, Azure Functions, Knative, and open-source frameworks like OpenFaaS and Fission.",
+        "offerings": [
+          "Design event-driven serverless functions optimized for compute and cost efficiency.",
+          "Implement multi-cloud or hybrid FaaS deployments for flexibility and resilience.",
+          "Simplify CI/CD pipelines while eliminating infrastructure management overhead."
+        ],
+        "image": "/assets/images/services/serverless-implementation-services.png"
+      },
+      {
+        "title": "Serverless CI/CD Automation",
+        "description": "Automate delivery with CI/CD pipelines built for serverless environments, ensuring rapid iteration and error-free releases.",
+        "offerings": [
+          "Build automated deployment pipelines using AWS SAM, GCP Cloud Build, or GitHub Actions.",
+          "Integrate testing, monitoring, and rollback mechanisms for resilience.",
+          "Deliver updates faster while maintaining code quality and stability."
+        ],
+        "image": "/assets/images/services/ci-cd-automation.png"
+      },
+      {
+        "title": "Managed FaaS Operations",
+        "description": "Focus on innovation while AppsCode manages your FaaS environments—ensuring uptime, performance, and cost efficiency.",
+        "offerings": [
+          "Continuous monitoring and optimization of function execution, latency, and cost.",
+          "24×7 automated incident response and real-time health checks.",
+          "Hands-off operational management to accelerate business value delivery."
+        ],
+        "image": "/assets/images/services/serverless-operations.png"
+      },
+      {
+        "title": "Managed FaaS Operations",
+        "description": "Focus on innovation while AppsCode manages your FaaS environments—ensuring uptime, performance, and cost efficiency.",
+        "offerings": [
+          "Continuous monitoring and optimization of function execution, latency, and cost.",
+          "24×7 automated incident response and real-time health checks.",
+          "Hands-off operational management to accelerate business value delivery."
+        ],
+        "image": "/assets/images/services/training-enablement.png"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why Partner with AppsCode for Cloud Native FaaS?",
+    "subtitle": "Benefit from deep expertise in Kubernetes, cloud-native architectures, and FaaS solutions to accelerate innovation:",
+    "items": [
+      { "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png", "title": "Certified Cloud & FaaS Experts", "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence" },
+      { "icon": "fa fa-briefcase", "title": "Proven FaaS Implementation", "description": "Successfully delivered 100+ FaaS and cloud-native projects across enterprises and startups." },
+      { "icon": "fa fa-trophy", "title": "Early Cloud Native Innovator", "description": "Among the first in APAC to offer enterprise cloud native FaaS solutions." },
+      { "icon": "fa fa-graduation-cap", "title": "Continuous Knowledge Transfer", "description": "Hands-on team training for cloud native FaaS and modern <a href=\"https://appscode.com/services/devops-toolchain-consulting-services/\">DevOps</a> practices." },
+      { "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png", "title": "CNCF Contributor", "description": "AppsCode is a proud <a href=\"https://www.cncf.io/\">CNCF</a> contributor and Kubernetes Certified Service Provider (KCSP)." },
+      { "icon": "fa fa-users", "title": "Scalable Engineering Teams", "description": "On-demand cloud native FaaS engineers for rapid delivery without long hiring cycles." }
+    ]
+  },
+  "industries": {
+    "title": "Industry-Focused Cloud Native FaaS Expertise",
+    "subtitle": "AppsCode blends cloud-native FaaS innovation with domain knowledge to achieve measurable business impact:",
+    "additional_text": "From fintech to healthcare, our FaaS strategies optimize performance, cost, and scalability for every industry.",
+    "sectors": [
+      { "icon": "fa fa-bank", "title": "Banking & Financial Services", "description": "Secure, compliant FaaS pipelines for digital banking, payments, and fintech solutions." },
+      { "icon": "fa fa-laptop", "title": "Technology & SaaS", "description": "Multi-tenant SaaS platforms and AI integration powered by cloud native FaaS." },
+      { "icon": "fa fa-car", "title": "Automotive", "description": "Event-driven FaaS solutions for connected vehicles and real-time analytics." },
+      { "icon": "fa fa-plug", "title": "Energy & Utilities", "description": "Optimize monitoring, field operations, and analytics with serverless cloud native FaaS." },
+      { "icon": "fa fa-hospital-o", "title": "Healthcare", "description": "HIPAA-compliant FaaS pipelines for patient data, real-time processing, and scalability." },
+      { "icon": "fa fa-plane", "title": "Travel & Hospitality", "description": "Deliver real-time personalization, booking, and analytics with cloud native FaaS." }
+    ]
+  },
+  "open_source": {
+    "title": "Innovation Through Open Source",
+    "description": "AppsCode actively contributes to Kubernetes, Knative, OpenFaaS, and cloud native ecosystems—driving FaaS innovation through community collaboration.",
+    "cta_text": "Explore Our Open Source Projects",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Cloud Native FaaS Open Source Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Technologies We Excel In",
+    "subtitle": "Our engineers master modern serverless and cloud-native tools to build scalable, future-ready architectures.",
+    "technologies": [
+      {
+        "name": "Golang",
+        "logo": "https://static.cdnlogo.com/logos/g/35/golang.svg"
+      },
+      {
+        "name": "Python",
+        "logo": "https://static.cdnlogo.com/logos/p/4/python.svg"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://static.cdnlogo.com/logos/j/44/javascript.svg"
+      },
+      {
+        "name": "TypeScript",
+        "logo": "https://static.cdnlogo.com/logos/t/96/typescript.svg"
+      },
+      {
+        "name": "Ruby",
+        "logo": "https://static.cdnlogo.com/logos/r/6/ruby_800.png"
+      },
+      {
+        "name": "Java",
+        "logo": "https://static.cdnlogo.com/logos/j/11/java_800.png"
+      },
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "final_cta": {
+    "title": "Let’s Build Your Cloud Native FaaS Future",
+    "subtitle": "Partner with AppsCode to design, implement, and optimize cloud native FaaS architectures that scale effortlessly and deliver measurable business impact.",
+    "buttons": [
+      { "text": "Talk to a Cloud Native FaaS Expert", "icon": "fa fa-calendar", "type": "outlined" }
+      
+    ]
+  },
+  "faq": [
+      {
+    "question": "What do your Cloud Native FaaS Services include?",
+    "answer": "Our Cloud Native FaaS Services cover the complete lifecycle of building serverless, event-driven applications — from discovery and MVP design to engineering, DevOps automation, deployment, and scaling. We combine disciplined processes and cloud-native best practices to deliver secure, high-performing, and scalable solutions."
+  },
+  {
+    "question": "Which technologies and practices do you use for cloud-native and FaaS development?",
+    "answer": "We use Kubernetes, Knative, and other serverless frameworks to enable scalable Function-as-a-Service workloads. Our practices include CI/CD pipelines, Infrastructure as Code (IaC), automated testing, observability, and multi-cloud or hybrid deployments — ensuring flexibility and operational consistency."
+  },
+  {
+    "question": "Can you integrate with our existing roadmap or tech stack for FaaS development?",
+    "answer": "Yes. Our engineers can extend your existing roadmap or modernize your architecture with serverless and cloud-native patterns. Whether you already have microservices or are starting from scratch, we help design, containerize, and deploy functions efficiently on your chosen cloud environment."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for Cloud Native FaaS projects?",
+    "answer": "Most Cloud Native FaaS engagements start with a short discovery phase (1–2 weeks) to align goals and architecture, followed by agile sprints of 4–8 weeks for development. We offer flexible models such as fixed-scope builds, time-and-materials, or dedicated engineering support for continuous innovation."
+  },
+  {
+    "question": "Do you support multi-cloud or hybrid environments for FaaS solutions?",
+    "answer": "Absolutely. Our Cloud Native FaaS architecture supports public clouds like AWS, Google Cloud, and Azure, as well as on-premises Kubernetes clusters. We ensure portability and scalability across environments using open standards and cloud-agnostic tooling."
+  },
+  {
+    "question": "How do you ensure quality, security, and reliability in your Cloud Native FaaS Services?",
+    "answer": "Quality and reliability are built in through automated testing, peer code reviews, continuous integration, and real-time monitoring. Security is enforced with role-based access, secrets management, and vulnerability scanning. Our cloud-native frameworks deliver resilient, production-grade performance."
+  },
+  {
+    "question": "What happens after deployment of our FaaS product?",
+    "answer": "After deployment, we help monitor performance, optimize execution time, and scale functions based on workload demand. Our team continues to enhance observability, automation, and cost optimization to keep your Cloud Native FaaS Services efficient and future-ready."
+  },
+  {
+    "question": "How much do Cloud Native FaaS Services cost?",
+    "answer": "Pricing depends on project scope, function complexity, cloud platform, and ongoing support. We offer flexible options — from fixed-price MVP builds to time-based or retainer models for continuous serverless development. A detailed estimate follows our discovery phase."
+  }
+  ]
+  
+}

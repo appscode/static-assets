@@ -1,0 +1,264 @@
+{
+  "hero": {
+    "title": "Elevate Your Organization with Expert Platform Engineering Services",
+    "subtitle": "<a href=\"https://appscode.com/\">AppsCode</a> delivers end-to-end platform engineering services — from platform strategy, MVP development, and integrations to ongoing optimization and support for scalable, cloud-native platforms.",
+    "cta_text": "SPEAK TO A PLATFORM ENGINEERING EXPERT",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/build-future-ready-platforms-with-appscode.png",
+      "alt": "Platform Engineering Services Illustration"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Global Enterprises and High-Growth Startups"
+  },
+  "service_details": {
+    "sections": [
+      {
+        "title": "Comprehensive Platform Engineering Services",
+        "description": "Our platform engineering services help organizations build scalable, developer-friendly internal platforms, increase productivity, and reduce operational friction.",
+        "offerings": [
+          "50% of organizations report adopting platform engineering for increased developer productivity.",
+          "Achieve 12–30% weekly efficiency gains with optimized internal platforms.",
+          "Self-service platforms improve developer experience, sought by nearly 30% of IT leaders.",
+          "Gartner predicts 80% of enterprises will adopt internal developer platforms by 2026."
+        ],
+        "image": "/assets/images/services/scalable-growth.png"
+      }
+    ]
+  },
+  "cards_group": {
+    "title": "AppsCode AAA Framework for Platform Engineering",
+    "models": [
+      {
+        "number": "01",
+        "title": "ADOPT",
+        "description": "Evaluate existing tools, workflows, and practices using AppsCode’s Platform Engineering Assessment to identify gaps and define a high-impact platform strategy."
+      },
+      {
+        "number": "02",
+        "title": "ACCELERATE",
+        "description": "Enhance platform usability and developer experience. Collaborate with teams to evangelize the platform, drive engagement, and achieve internal product-market fit."
+      },
+      {
+        "number": "03",
+        "title": "ASSETS",
+        "description": "Scale platform engineering practices across teams, ensuring consistent value delivery and empowering self-service for developers organization-wide."
+      }
+    ]
+  },
+  "title_with_small_cards": {
+    "title": "Why Choose Platform Engineering Consulting?",
+    "areas": [
+      { "icon": "fa fa-users", "title": "Expert Guidance", "description": "Benefit from industry veterans who bring practical experience in platform engineering and DevOps transformation." },
+      { "icon": "fa fa-cogs", "title": "Optimized Workflows", "description": "Streamline processes and tooling to reduce friction and boost developer productivity." },
+      { "icon": "fa fa-lightbulb-o", "title": "Accelerated Development", "description": "Enable faster iteration and delivery with structured MVP and platform roadmaps." },
+      { "icon": "fa fa-code", "title": "DevOps Integration", "description": "Integrate platform engineering practices seamlessly into CI/CD pipelines and cloud workflows." },
+      { "icon": "fa fa-rocket", "title": "Faster Time-to-Market", "description": "Empower teams to ship features quickly without compromising quality or security." }
+    ]
+  },
+  "service_details2": {
+    "title": "Our Platform Engineering Consulting Services",
+    "sections": [
+      {
+        "title": "Product-Market Fit Assessment",
+        "description": "Ensure your platform aligns with developer needs and organizational goals through deep assessments and insights.",
+        "offerings": [
+          "Analyze developer workflows, challenges, and preferences for tailored platform solutions.",
+          "Design platform architecture, integrations, and tool selection based on technology landscape analysis.",
+          "Iteratively refine the platform using feedback to meet evolving developer needs."
+        ],
+        "image": "/assets/images/services/product-market-fit-assessment.png"
+      },
+      {
+        "title": "MVP Strategy & Platform Roadmap Consulting",
+        "description": "Define your Minimum Viable Product (MVP) and strategic roadmap to align platform evolution with business vision and adoption goals.",
+        "offerings": [
+          "Collaborate on future platform direction and feature prioritization.",
+          "Identify MVP features delivering maximum value for internal developers.",
+          "Develop iterative roadmaps for continuous platform enhancement."
+        ],
+        "image": "/assets/images/services/mvp-strategy-platform-roadmap-consulting.png"
+      },
+      {
+        "title": "Platform Design & Development",
+        "description": "Design and build robust, scalable internal developer platforms (IDPs) to boost productivity and improve user experience.",
+        "offerings": [
+          "Architect agile and scalable platforms using full-stack technology expertise.",
+          "Create intuitive interfaces for a seamless developer experience.",
+          "Deliver end-to-end solutions covering development, integration, and deployment."
+        ],
+        "image": "/assets/images/services/platform-design-development.png"
+      },
+      {
+        "title": "Integrations & Ecosystem Setup",
+        "description": "Integrate tools, services, and workflows to create a cohesive developer ecosystem that enhances platform value.",
+        "offerings": [
+          "Rapidly implement integrations to maintain cutting-edge platform functionality.",
+          "Build a comprehensive ecosystem of services and tools.",
+          "Provide custom integrations for unique workflow and tooling requirements."
+        ],
+        "image": "/assets/images/services/integrations-ecosystem-setup.png"
+      },
+      {
+        "title": "Platform Support & Maintenance",
+        "description": "Ensure platform reliability, security, and performance through ongoing support and proactive maintenance.",
+        "offerings": [
+          "Deliver long-term support for developers and stakeholders.",
+          "Conduct routine updates, patches, and security improvements.",
+          "Tailor maintenance plans to guarantee consistent platform performance."
+        ],
+        "image": "/assets/images/services/platform-support-maintenance.png"
+      },
+      {
+        "title": "Platform Engineering Training & Enablement",
+        "description": "Empower internal teams to adopt platform engineering best practices with hands-on training, documentation, and knowledge transfer.",
+        "offerings": [
+          "Provide hands-on training for self-sufficient platform engineering teams.",
+          "Develop comprehensive documentation and best practice guides."
+        ],
+        "image": "/assets/images/services/platform-engineering-training-enablement.png"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Cross-Industry Platform Engineering Expertise",
+    "subtitle": "From fintech to healthcare, our platform engineering services address industry-specific challenges with scalable, secure solutions.",
+    "additional_text": "We help global enterprises and startups implement efficient, high-performing platforms.",
+    "sectors": [
+      { "icon": "fa fa-bank", "title": "Banking & Finance", "description": "Build secure, highly available platforms that handle transactions and payments 24/7." },
+      { "icon": "fa fa-laptop", "title": "Technology & SaaS", "description": "Integrate AI and cloud-native solutions for scalable, high-performance applications." },
+      { "icon": "fa fa-car", "title": "Automotive", "description": "Leverage AI/ML and automation to meet operational safety and customer expectations." },
+      { "icon": "fa fa-plug", "title": "Energy & Utilities", "description": "Modernize systems for monitoring, inspections, and cost optimization." },
+      { "icon": "fa fa-hospital-o", "title": "Healthcare", "description": "Utilize cloud GPU and high-speed processing to meet rapidly evolving healthcare demands." },
+      { "icon": "fa fa-plane", "title": "Travel & Hospitality", "description": "Deliver flexible, scalable, and efficient platforms for superior customer experiences." }
+    ]
+  },
+  "open_source": {
+    "title": "Passionate About Open Source",
+    "description": "AppsCode actively contributes to cloud-native projects, leveraging open-source innovations to create better, more efficient platforms for our clients.",
+    "cta_text": "Explore Our OSS Contributions",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Technical Expertise for Modern Platforms",
+    "subtitle": "Hands-on experience with cloud-native and Kubernetes-based tools to deliver scalable and secure platform engineering services.",
+    "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "cards": {
+    "title": "Why Choose AppsCode for Platform Engineering Services?",
+    "items": [
+      { "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png", "title": "Certified Experts", "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence" },
+      { "icon": "fa fa-briefcase", "title": "Proven Domain Expertise", "description": "Over 100 successful platform engineering implementations across enterprises and startups." },
+      { "icon": "fa fa-trophy", "title": "First-Mover Advantage", "description": "Among the first <a href=\"https://kubedb.com/\">Kubernetes service providers</a> in Bangladesh and APAC for internal developer platforms." },
+      { "icon": "fa fa-graduation-cap", "title": "Training & Enablement", "description": "Hands-on knowledge transfer to upskill internal teams and foster self-sufficiency." },
+      { "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png", "title": "CNCF Certified Provider", "description": "Proud <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and Kubernetes Certified Service Provider (KCSP)." },
+      { "icon": "fa fa-wrench", "title": "Scalable Support", "description": "Easily expand engineering support without hiring overhead." }
+    ]
+  },
+  "resources": {
+    "title": "Cloud-Native Product Engineering Resources",
+    "items": [
+      {
+        "type": "Blog",
+        "title": "Getting Started with Perses The Free, Open Source Grafana Alternative",
+        "image": "https://appscode.com/blog/post/getting-started-with-perses-the-free-open-source-grafana-alternative/hero_hu030f24f1ec9a9fe9c13de5ab0e9d783a_31026_1300x650_fill_q75_box_smart1.jpg",
+        "link": "https://appscode.com/blog/post/getting-started-with-perses-the-free-open-source-grafana-alternative/"
+      },
+      {
+        "type": "Blog",
+        "title": "Future-Proof Your Data Strategy - Why Kubernetes is the Engine Behind Stateful Workloads & Modern AI",
+        "image": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_254620_1300x650_fill_q75_box_smart1.jpg",
+        "link": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/"
+      },
+      {
+        "type": "Event",
+        "title": "KubeConNA Digest - Top Trends and Key Takeaways from This Year’s Event by AppsCode",
+        "image": "https://appscode.com/blog/post/kubecon-na-2024/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_69997_1300x650_fill_q75_box_smart1.jpg",
+        "link": "https://appscode.com/blog/post/kubecon-na-2024/"
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Ready to Elevate Your Platform Engineering Journey?",
+    "subtitle": "Consult with AppsCode experts for strategy, design, deployment, and ongoing platform support.",
+    "buttons": [
+      { "text": "Talk to a Platform Engineering Expert", "icon": "fa fa-calendar", "type": "outlined" }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What do your Platform Engineering Services include?",
+    "answer": "Our Platform Engineering Services cover the full lifecycle of building and maintaining cloud-native platforms: from opportunity discovery, MVP development, engineering and DevOps practices, to deployment, monitoring, and scaling. We focus on creating reliable, secure, and high-performing platforms for your organization."
+  },
+  {
+    "question": "Which technologies and practices are used in your platform engineering?",
+    "answer": "We leverage Kubernetes orchestration, microservices architecture, continuous delivery pipelines (CI/CD), automated testing, infrastructure as code, observability (monitoring/logging), and hybrid/multi-cloud deployment patterns to ensure platform stability and scalability."
+  },
+  {
+    "question": "Can you work with our existing product roadmap and tech stack?",
+    "answer": "Yes — we can integrate with your current roadmap and architecture. Our engineers refine your existing platform, lift it into a containerized, cloud-native, and production-ready form, or build new components from scratch as needed."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for Platform Engineering Services?",
+    "answer": "We usually start with a short discovery phase (1–2 weeks) to align on goals, architecture, and MVP scope. Development continues in 4–8 week agile sprints. Engagement models include fixed-scope projects, time-and-materials with embedded engineers, or longer-term dedicated platform engineering support."
+  },
+  {
+    "question": "Do you support multi-cloud or hybrid cloud environments?",
+    "answer": "Absolutely. Our Platform Engineering Services are designed to be cloud-agnostic, ready to deploy on public clouds such as AWS, Azure, GCP, or on-premises Kubernetes clusters. This ensures portability, scalability, and operational consistency across environments."
+  },
+  {
+    "question": "How do you ensure quality, security, and reliability in the platforms you build?",
+    "answer": "We ensure quality through automated testing, code reviews, and continuous integration. Security is baked in via container isolation, role-based access, secrets management, and vulnerability scanning. Reliability is maintained with production-grade patterns, monitoring, backup/recovery, and disaster resilience."
+  },
+  {
+    "question": "What happens after the platform is launched?",
+    "answer": "After launch, we help monitor performance, optimize infrastructure, and scale the system. Our Platform Engineering Services also include continuous improvements, automation, and tuning to ensure long-term reliability and cost efficiency."
+  },
+  {
+    "question": "How much do Platform Engineering Services cost and what are the pricing models?",
+    "answer": "Pricing depends on project scope, complexity, number of teams, and ongoing support requirements. We offer flexible models such as fixed-price MVP builds, hourly or engagement-based workflows, and retainers for continuous platform engineering and scaling. A detailed proposal is provided after the discovery phase."
+  }
+  ]
+}

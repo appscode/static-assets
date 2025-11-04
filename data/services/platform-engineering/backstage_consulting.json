@@ -1,0 +1,246 @@
+{
+  "hero": {
+    "title": "Backstage Consulting & Enterprise Support Services",
+    "subtitle": "<a href=\"https://appscode.com/\">AppsCode </a> delivers expert Backstage consulting and internal developer platform (IDP) services to enhance developer productivity and streamline workflows for organizations of all sizes.",
+    "cta_text": "SPEAK TO A BACKSTAGE EXPERT",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/backstage-consulting-hero.png",
+      "alt": "Backstage Consulting and Enterprise Support Illustration"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Leading Global Enterprises"
+  },
+  "cards_group": {
+    "title": "AppsCode AAA Framework for Backstage Consulting",
+    "models": [
+      {
+        "number": "01",
+        "title": "ADOPT",
+        "description": "Assess your current tools, processes, and workflows using AppsCode’s Platform Engineering Assessment to define a high-impact Backstage adoption strategy."
+      },
+      {
+        "number": "02",
+        "title": "ACCELERATE",
+        "description": "Focus on user engagement, platform usability, and adoption metrics to achieve internal product-market fit for developers."
+      },
+      {
+        "number": "03",
+        "title": "ASSETS",
+        "description": "Scale Backstage best practices across teams, enabling consistent value delivery and efficient developer self-service organization-wide."
+      }
+    ]
+  },
+  "title_with_small_cards": {
+    "title": "Why Choose Backstage Consulting & Support?",
+    "areas": [
+      { "icon": "fa fa-map-o", "title": "Backstage Adoption Roadmap", "description": "Actionable roadmap for smooth Backstage implementation across your organization." },
+      { "icon": "fa fa-cogs", "title": "Expert-Led Deployment", "description": "Deployment guidance from experienced engineers to ensure production-ready Backstage instances." },
+      { "icon": "fa fa-line-chart", "title": "Boost Developer Productivity", "description": "Optimize workflows and improve collaboration through IDP best practices." },
+      { "icon": "fa fa-lightbulb-o", "title": "Accelerate Development Practices", "description": "Efficiently implement agile and DevOps principles within Backstage." },
+      { "icon": "fa fa-tasks", "title": "Workflow Optimization & Tool Integrations", "description": "Integrate Backstage with existing tools to centralize software development processes." },
+      { "icon": "fa fa-star-o", "title": "Tailored & Custom Solutions", "description": "Backstage configured and customized to meet your unique organizational requirements." }
+    ]
+  },
+  "service_details": {
+    "title": "Backstage Consulting & Support Services",
+    "subtitle": "Leverage AppsCode’s expertise to adopt, implement, and scale Backstage for your internal developer platform (IDP).",
+    "sections": [
+      {
+        "title": "Backstage Consulting & Adoption Strategy",
+        "description": "We guide you through the entire Backstage adoption journey — from project scoping to onboarding your team. With experience in <a href=\"https://www.cncf.io/\">CNCF’s</a> platform engineering maturity model, we know what it takes to build and deploy successful internal developer platforms.",
+        "offerings": [
+          "Expert consulting for Backstage adoption, plugins, integrations, and workflow optimization tailored to your organization.",
+          "Dedicated roadmap creation to align Backstage with business objectives and developer productivity goals."
+        ],
+        "image": "/assets/images/services/backstage-consulting-and-adoption-strategy.png"
+      },
+      {
+        "title": "Implement Production-Grade Backstage",
+        "description": "Deploy robust, production-ready Backstage instances to help teams focus on core business priorities and enhance internal developer experience.",
+        "offerings": [
+          "Custom Backstage platform design to optimize collaboration and streamline software development workflows.",
+          "Infrastructure guidance covering dependencies, data models, security, monitoring, and compliance best practices."
+        ],
+        "image": "/assets/images/services/implement-production-grade-backstage.png"
+      },
+      {
+        "title": "Integration with Tools & Workflows",
+        "description": "Connect Backstage with your existing software development tools and workflows to create a centralized developer hub.",
+        "offerings": [
+          "Identify native Backstage capabilities and where custom integrations are required.",
+          "Seamlessly integrate Backstage with existing systems for efficient data flow and improved development efficiency."
+        ],
+        "image": "/assets/images/services/integration-with-tools-and-workflows.png"
+      },
+      {
+        "title": "Backstage Support & Training",
+        "description": "Ensure your IDP remains productive with enterprise-grade support and training for your development teams.",
+        "offerings": [
+          "Ongoing support to resolve issues and maintain smooth Backstage operations.",
+          "Training sessions and detailed documentation to maximize platform usage and developer adoption."
+        ],
+        "image": "/assets/images/services/backstage-support-and-training.png"
+      },
+      {
+        "title": "Scalability Planning",
+        "description": "Prepare Backstage to handle increasing numbers of users, workflows, and plugins while maintaining optimal performance.",
+        "offerings": [
+          "Develop plans to scale Backstage efficiently as your organization grows.",
+          "Ensure integrations, plugins, and workflows remain secure, compliant, and high-performing."
+        ],
+        "image": "/assets/images/services/scalability-planning.png"
+      },
+      {
+        "title": "Security & Compliance Integration",
+        "description": "Embed industry-standard security and compliance practices directly into your Backstage platform.",
+        "offerings": [
+          "Implement best practices for authentication, encryption, secure plugins, and password policies.",
+          "Maintain documented security and compliance procedures for team onboarding and audits."
+        ],
+        "image": "/assets/images/services/security-and-compliance-integration.png"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industry Expertise in Backstage Consulting",
+    "subtitle": "With experience across 100+ clients, we address business-specific requirements, compliance, and operational challenges.",
+    "additional_text": "AppsCode’s Backstage solutions are scalable and adaptable for enterprises and startups alike.",
+    "sectors": [
+      { "icon": "fa fa-bank", "title": "Banking & Finance", "description": "Build compliant, highly available Backstage platforms for secure financial operations." },
+      { "icon": "fa fa-laptop", "title": "Technology & SaaS", "description": "Integrate AI and cloud-native solutions for high-performance developer platforms." },
+      { "icon": "fa fa-car", "title": "Automotive", "description": "Leverage AI/ML to enhance operational safety and software development workflows." },
+      { "icon": "fa fa-plug", "title": "Energy & Utilities", "description": "Modernize platforms to optimize monitoring, inspections, and efficiency." },
+      { "icon": "fa fa-hospital-o", "title": "Healthcare", "description": "Utilize cloud GPU and high-speed processing for healthcare data and analytics." },
+      { "icon": "fa fa-plane", "title": "Travel & Hospitality", "description": "Deliver scalable, flexible, and efficient Backstage platforms for superior operations." }
+    ]
+  },
+  "open_source": {
+    "title": "Open Source Contributions",
+    "description": "AppsCode contributes actively to cloud-native projects and leverages open-source tools to develop efficient, scalable Backstage solutions.",
+    "cta_text": "View Our OSS Contributions",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Contributions for Backstage"
+    }
+  },
+  "tech_stack": {
+    "title": "Technical Expertise for Backstage",
+    "subtitle": "Hands-on experience with modern cloud-native technologies to build scalable and robust IDPs.",
+    "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "cards": {
+    "title": "Why Choose AppsCode for Backstage Consulting?",
+    "items": [
+      { "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png", "title": "Certified Experts", "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence." },
+      { "icon": "fa fa-briefcase", "title": "Domain Expertise", "description": "Implemented Backstage and IDP solutions for 100+ global clients." },
+      { "icon": "fa fa-trophy", "title": "First Mover Advantage", "description": "Among the earliest Kubernetes service providers in Bangladesh & APAC." },
+      { "icon": "fa fa-graduation-cap", "title": "Training & Enablement", "description": "Practical knowledge transfer to upskill teams in Backstage and platform engineering." },
+      { "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png", "title": "CNCF Certified Provider", "description": "CNCF Silver Member and Kubernetes Certified Service Provider (KCSP)." },
+      { "icon": "fa fa-wrench", "title": "Scalable Teams", "description": "Quickly expand engineering resources without hiring delays." }
+    ]
+  },
+    "resources": {
+    "title": "Backstage & Platform Engineering Resources",
+    "items": [
+      {
+        "type": "Blog",
+        "title": "Getting Started with Perses The Free, Open Source Grafana Alternative",
+        "image": "https://appscode.com/blog/post/getting-started-with-perses-the-free-open-source-grafana-alternative/hero_hu030f24f1ec9a9fe9c13de5ab0e9d783a_31026_1300x650_fill_q75_box_smart1.jpg",
+        "link": "https://appscode.com/blog/post/getting-started-with-perses-the-free-open-source-grafana-alternative/"
+      },
+      {
+        "type": "Blog",
+        "title": "Future-Proof Your Data Strategy - Why Kubernetes is the Engine Behind Stateful Workloads & Modern AI",
+        "image": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_254620_1300x650_fill_q75_box_smart1.jpg",
+        "link": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/"
+      },
+      {
+        "type": "Event",
+        "title": "KubeConNA Digest - Top Trends and Key Takeaways from This Year’s Event by AppsCode",
+        "image": "https://appscode.com/blog/post/kubecon-na-2024/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_69997_1300x650_fill_q75_box_smart1.jpg",
+        "link": "https://appscode.com/blog/post/kubecon-na-2024/"
+      }
+    ]
+  },
+  "faq": [
+     {
+    "question": "What do your Backstage Consulting & Support Services include?",
+    "answer": "Our Backstage Consulting & Support Services cover the full lifecycle of building and maintaining cloud-native platforms: from opportunity discovery, MVP development, engineering, and DevOps practices to deployment, monitoring, and scaling. We focus on delivering reliable, secure, and high-performing systems that support your business goals."
+  },
+  {
+    "question": "Which technologies and practices are used in your consulting and support services?",
+    "answer": "We leverage Kubernetes orchestration, microservices architecture, continuous delivery pipelines (CI/CD), automated testing, infrastructure as code, observability (monitoring/logging), and hybrid/multi-cloud deployment patterns. These practices ensure platform stability, scalability, and operational efficiency."
+  },
+  {
+    "question": "Can you work with our existing product roadmap and technology stack?",
+    "answer": "Yes — we can integrate with your current roadmap and architecture. Our engineers refine your existing platform, lift it into a containerized, cloud-native, and production-ready form, or build new components from scratch as required."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for Backstage Consulting & Support Services?",
+    "answer": "We typically start with a 1–2 week discovery phase to align on goals, architecture, and MVP scope. Development continues in 4–8 week agile sprints. Engagement models include fixed-scope projects, time-and-materials with embedded engineers, or longer-term dedicated support partnerships."
+  },
+  {
+    "question": "Do you support multi-cloud or hybrid cloud environments?",
+    "answer": "Absolutely. Our Backstage Consulting & Support Services are designed to be cloud-agnostic, ready to deploy on public clouds such as AWS, Azure, GCP, or on-premises Kubernetes clusters. This ensures portability, scalability, and operational consistency across environments."
+  },
+  {
+    "question": "How do you ensure quality, security, and reliability in your services?",
+    "answer": "We ensure quality through automated testing, code reviews, and continuous integration. Security is baked in via container isolation, role-based access control (RBAC), secrets management, and vulnerability scanning. Reliability is maintained with production-grade patterns, monitoring, backup/recovery, and disaster resilience."
+  },
+  {
+    "question": "What happens after deployment?",
+    "answer": "After launch, we help monitor performance, optimize infrastructure, and scale the system. Our Backstage Consulting & Support Services also include continuous improvements, automation, and tuning to ensure long-term reliability and operational efficiency."
+  },
+  {
+    "question": "How much do Backstage Consulting & Support Services cost and what are the pricing models?",
+    "answer": "Pricing depends on project scope, complexity, number of teams, and ongoing support requirements. We offer flexible models such as fixed-price MVP builds, hourly or engagement-based workflows, and retainers for continuous consulting and platform support. A detailed proposal is provided after the discovery phase."
+  }
+  ],
+  "final_cta": {
+    "title": "Looking for Backstage Enterprise Support?",
+    "subtitle": "Consult our experts for strategy, design, integration, plugins, deployment, and ongoing support to fully leverage Backstage.",
+    "buttons": [
+      { "text": "Talk to a Backstage Expert", "icon": "fa fa-calendar", "type": "outlined" }
+    ]
+  }
+}

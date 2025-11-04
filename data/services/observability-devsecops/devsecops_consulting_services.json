@@ -1,0 +1,271 @@
+{
+  "hero": {
+    "title": "DevSecOps Consulting Services | Secure Your Software Delivery Pipeline",
+    "subtitle": "Integrate security across every stage of your DevOps lifecycle. AppsCode’s DevSecOps Consulting Services empower your teams to automate, secure, and scale cloud-native applications with confidence.",
+    "cta_text": "TALK TO A DEVSECOPS EXPERT",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/devsecops-consulting.png",
+      "alt": "DevSecOps Consulting Services by AppsCode"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Global Innovators in Cloud-Native Security"
+  },
+  "title_with_small_cards": {
+    "title": "Why DevSecOps Consulting Services Matter for Modern Enterprises",
+    "areas": [
+      {
+        "icon": "fa fa-shield",
+        "title": "Unified Visibility for DevOps & Security Teams"
+      },
+      {
+        "icon": "fa fa-lock",
+        "title": "Automated Vulnerability Detection & Remediation"
+      },
+      {
+        "icon": "fa fa-bug",
+        "title": "Proactive Threat Monitoring & Misconfiguration Prevention"
+      },
+      {
+        "icon": "fa fa-cloud",
+        "title": "Multi-Cloud Security, Governance & Compliance"
+      }
+    ]
+  },
+  "service_details": {
+    "title": "End-to-End DevSecOps Consulting and Implementation",
+    "subtitle": "From strategy to automation, AppsCode’s DevSecOps Consulting Services help organizations integrate security into <a href=\"https://appscode.com/services/ci-cd-consulting-services/\">CI/CD</a>, Kubernetes, and cloud-native environments.",
+    "sections":  [
+      {
+        "title": "Comprehensive DevSecOps Assessment",
+        "description": "Understand your organization’s current security maturity level with our DevSecOps assessment framework. We analyze your application security, CI/CD pipelines, and Kubernetes infrastructure to uncover risks and deliver actionable improvements.",
+        "offerings": [
+          "In-depth audits across workloads, clusters, and pipelines for a complete DevSecOps posture overview.",
+          "Security best practices for managed Kubernetes platforms like EKS, AKS, and GKE.",
+          "Tailored recommendations to enhance compliance, automation, and observability."
+        ],
+        "image": "/assets/images/services/devsecops-assessment.png"
+      },
+      {
+        "title": "Strategic DevSecOps Consulting & Advisory",
+        "description": "Accelerate your security transformation with tailored advisory from AppsCode experts. Our DevSecOps consultants guide you through secure architecture design, process automation, and continuous improvement.",
+        "offerings": [
+          "Identify gaps in your DevOps toolchain and integrate DevSecOps automation seamlessly.",
+          "Define roadmaps for security maturity and resilience in your CI/CD workflows.",
+          "Trusted by 100+ enterprises across finance, SaaS, and healthcare industries."
+        ],
+        "image": "/assets/images/services/devsecops-consulting-advisory.png"
+      },
+      {
+        "title": "Security Tool Deployment & Automation",
+        "description": "Deploy and integrate the right DevSecOps tools to ensure continuous security throughout your pipelines. AppsCode helps configure, automate, and maintain your security stack for proactive protection.",
+        "offerings": [
+          "Select and implement the most suitable open-source and enterprise-grade tools.",
+          "Embed automated vulnerability scanning and policy enforcement into CI/CD.",
+          "Establish real-time visibility across your DevSecOps ecosystem."
+        ],
+        "image": "/assets/images/services/devsecops-security-tool-deployment.png"
+      },
+      {
+        "title": "Compliance, Governance & Audit Readiness",
+        "description": "Stay compliant with industry standards like GDPR, HIPAA, and PCI DSS through automated compliance workflows and continuous monitoring.",
+        "offerings": [
+          "Build audit-ready DevSecOps frameworks for regulated industries.",
+          "Automate compliance reporting and alerting with traceability.",
+          "Reduce governance overhead with centralized security policies."
+        ],
+        "image": "/assets/images/services/devsecops-compliance-audit-readiness.png"
+      },
+      {
+        "title": "Managed DevSecOps Services",
+        "description": "Offload your day-to-day DevSecOps operations to AppsCode’s certified experts. We manage, monitor, and optimize your security pipelines 24/7 to ensure continuous compliance and reliability.",
+        "offerings": [
+          "End-to-end management of your DevSecOps infrastructure and processes.",
+          "24/7 monitoring, threat detection, and automated remediation.",
+          "Continuous optimization to ensure zero-trust and scalability."
+        ],
+        "image": "/assets/images/services/managed-devsecops-services.png"
+      },
+      {
+        "title": "DevSecOps Enablement & Training",
+        "description": "Empower your teams with the skills and frameworks needed to operate a secure DevOps environment effectively.",
+        "offerings": [
+          "Comprehensive DevSecOps workshops for engineers and SREs.",
+          "Hands-on training for secure Kubernetes and CI/CD pipelines.",
+          "Best practice guides and documentation for internal enablement."
+        ],
+        "image": "/assets/images/services/devsecops-enablement-training.png"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industry-Specific DevSecOps Expertise",
+    "subtitle": "We bring proven experience across 100+ enterprises to deliver secure, compliant, and resilient DevSecOps architectures.",
+    "additional_text": "From cloud-native startups to Fortune 500 enterprises — AppsCode ensures your software delivery remains fast, compliant, and secure.",
+    "sectors":  [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Deliver secure, compliant, and high-availability systems for 24/7 financial transactions and services."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology, SaaS & Internet",
+        "description": "Embed scalable security in your SaaS and AI workloads while maintaining agility and performance."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Integrate DevSecOps into connected car ecosystems to ensure safety, data protection, and regulatory compliance."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Secure industrial systems with proactive monitoring, threat detection, and automated compliance checks."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Ensure patient data privacy and rapid data processing with secure cloud-native infrastructure."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Enable secure, seamless, and real-time digital experiences with multi-cloud DevSecOps adoption."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "Open Source-Driven DevSecOps Innovation",
+    "description": "<a href=\"https://appscode.com/\">AppsCode </a> actively contributes to open-source DevSecOps tools and cloud-native security frameworks, empowering teams to secure and scale faster.",
+    "cta_text": "Explore Our Open Source Work",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "AppsCode Open Source Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Expertise Across Leading DevSecOps Tools & Frameworks",
+    "subtitle": "Our certified engineers bring hands-on experience with the top open-source and enterprise-grade security tools.",
+    "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "cards": {
+    "title": "Why Choose AppsCode for DevSecOps Consulting Services?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "World-Class Kubernetes Expertise",
+        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Proven Domain Expertise",
+        "description": "Extensive hands-on experience implementing DevSecOps solutions for 100+ clients worldwide."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "Early Kubernetes Adopter",
+        "description": "Among the earliest <a href=\"https://kubedb.com/\">Kubernetes service providers</a> in APAC, trusted for production-grade delivery."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Training & Knowledge Transfer",
+        "description": "We empower your teams with practical DevSecOps knowledge and process adoption support."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Certified Provider",
+        "description": "AppsCode is a <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and Kubernetes Certified Service Provider (KCSP)."
+      },
+      {
+        "icon": "fa fa-wrench",
+        "title": "Scale Without Limits",
+        "description": "Easily expand your engineering capabilities without the overhead of hiring or training."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Ready to Transform Your Security with DevSecOps?",
+    "subtitle": "Talk to AppsCode’s experts to design and implement DevSecOps Consulting Services that enhance compliance, performance, and innovation.",
+    "buttons": [
+      {
+        "text": "Talk to a Security Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What do your DevSecOps Consulting Services include?",
+    "answer": "Our DevSecOps Consulting Services help organizations integrate security into their development and operations workflows. We cover security automation, vulnerability management, compliance, secure CI/CD pipelines, and governance to ensure applications are delivered securely and reliably."
+  },
+  {
+    "question": "Which technologies and practices are used in DevSecOps consulting?",
+    "answer": "We leverage tools and practices such as Kubernetes, Docker, CI/CD pipelines, SAST/DAST scanners, container security, infrastructure as code security, secrets management, and compliance frameworks. Our approach ensures secure development without slowing down delivery."
+  },
+  {
+    "question": "Can you work with our existing DevOps processes?",
+    "answer": "Yes — we integrate security into your current DevOps workflows, enhance CI/CD pipelines with automated security checks, implement policies and best practices, and provide guidance for continuous monitoring and compliance."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for DevSecOps Consulting Services?",
+    "answer": "Engagements typically start with a 1–2 week assessment of your DevOps practices and security posture. Implementation follows in 4–8 week phases depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term DevSecOps advisory partnerships."
+  },
+  {
+    "question": "Do DevSecOps Consulting Services support multi-cloud or hybrid environments?",
+    "answer": "Absolutely. Our services are designed for multi-cloud and hybrid environments, ensuring consistent security practices, automated checks, and compliance across AWS, Azure, GCP, and on-premises systems."
+  },
+  {
+    "question": "How do you ensure security, compliance, and reliability in DevSecOps?",
+    "answer": "We enforce automated vulnerability scanning, secure coding practices, access controls, configuration audits, monitoring, and incident response strategies. These measures ensure secure, compliant, and resilient applications."
+  },
+  {
+    "question": "What happens after DevSecOps consulting and implementation?",
+    "answer": "After implementation, we provide ongoing monitoring, support, and optimization. Our services include knowledge transfer, documentation of best practices, and recommendations for continuous security and compliance improvements."
+  },
+  {
+    "question": "How much do DevSecOps Consulting Services cost, and what are the pricing models?",
+    "answer": "Pricing depends on application complexity, number of teams, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+  }
+  ]
+}

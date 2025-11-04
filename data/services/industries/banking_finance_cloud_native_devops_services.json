@@ -1,0 +1,292 @@
+{
+  "hero": {
+    "title": "Cloud Native Solutions for the Banking & Finance Industry",
+    "subtitle": "Accelerate digital transformation across FinTechs, NBFCs, and Banks with secure, compliant, and scalable cloud-native platforms.",
+    "cta_text": "SPEAK WITH A CLOUD-NATIVE EXPERT",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/banking-finance-cloud-native-devops-services.png",
+      "alt": "Cloud Native for Banking & Finance"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Global Banking & FinTech Leaders"
+  },
+  "title_with_small_cards": {
+    "title": "Why Banking Needs Cloud-Native Transformation",
+    "subtitle": "Modernize mission-critical financial systems with <a href=\"https://kubernetes.io/\">Kubernetes</a>, <a href=\"https://appscode.com/services/monolith-to-microservices/\">microservices</a>, and <a href=\"https://appscode.com/services/devsecops-consulting-services-and-implementation/\">DevSecOps</a> to stay agile, secure, and compliant.",
+    "areas": [
+      {
+        "icon": "fa fa-money",
+        "title": "$5.72M per incident – Average data breach cost in financial services"
+      },
+      {
+        "icon": "fa fa-lock",
+        "title": "$14.8M – Average cost of non-compliant data policies"
+      },
+      {
+        "icon": "fa fa-thumbs-up",
+        "title": "99% believe DevOps positively impacts their organization"
+      },
+      {
+        "icon": "fa fa-rocket",
+        "title": "49% achieve faster time-to-market after adopting DevOps"
+      }
+    ]
+  },
+  "large_preview_cards2": {
+    "title": "Top Challenges in Financial Cloud Transformation",
+    "subtitle": "Many financial institutions hesitate to adopt modern cloud-native and microservices architectures, risking performance, scalability, and compliance gaps.",
+    "items": [
+      {
+        "icon": "fa fa-rocket",
+        "title": "Slow Delivery and Legacy Systems",
+        "description": "Monolithic infrastructures hinder innovation and API integrations.",
+        "additional_description": "Our cloud-native migration services enable faster releases and seamless third-party integrations."
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Compliance & Regulatory Risks",
+        "description": "Adhering to GDPR, PCI-DSS, CCPA, and PSD2 is complex with outdated tech stacks.",
+        "additional_description": "We help banks implement secure, policy-driven DevSecOps pipelines ensuring compliance continuity."
+      },
+      {
+        "icon": "fa fa-arrows-alt",
+        "title": "Scaling & Resilience Challenges",
+        "description": "Banks require 24/7 uptime and dynamic scalability during peak transactions.",
+        "additional_description": "Kubernetes-based cloud-native infrastructure ensures elasticity and high availability."
+      },
+      {
+        "icon": "fa fa-tachometer",
+        "title": "Performance Bottlenecks",
+        "description": "Real-time banking demands speed and reliability.",
+        "additional_description": "Cloud-native observability tools like Prometheus and Grafana enable proactive monitoring and instant performance insights."
+      }
+    ]
+  },
+  "service_details": {
+    "title": "Cloud-Native DevOps Services for Banking & Finance",
+    "subtitle": "Build a secure, scalable, and compliant financial ecosystem using Kubernetes, microservices, and modern DevSecOps frameworks.",
+    "sections": [
+      {
+        "title": "Central Bank Digital Currency (CBDC) Infrastructure",
+        "description": "CBDC initiatives require scalable and secure platforms. AppsCode helps financial institutions implement cloud-native architectures for CBDC systems.",
+        "offerings": [
+          "Design blockchain-based CBDC stacks with Kubernetes for scalability and interoperability.",
+          "Integrate regulatory compliance and security controls across financial workloads.",
+          "Simplify deployment and lifecycle management through GitOps and CI/CD pipelines."
+        ],
+        "image": "/assets/images/services/cbdc.png"
+      },
+      {
+        "title": "Retail & Corporate Banking Modernization",
+        "description": "Transform legacy banking systems into agile, customer-focused platforms powered by microservices and cloud-native technologies.",
+        "offerings": [
+          "Develop secure, high-performance banking applications with Kubernetes.",
+          "Enhance UX and digital experiences using scalable APIs and containerized services.",
+          "Automate deployments and ensure operational consistency with GitOps frameworks."
+        ],
+        "image": "/assets/images/services/retail-corporate-banking.png"
+      },
+      {
+        "title": "Cloud-Native Digital Payments",
+        "description": "Securely manage millions of transactions per second with scalable, event-driven architectures.",
+        "offerings": [
+          "Implement contactless and blockchain-based payment solutions.",
+          "Leverage Kubernetes auto-scaling for transaction spikes.",
+          "Integrate Prometheus and Grafana for observability and performance tracking."
+        ],
+        "image": "/assets/images/services/digital-payments.png"
+      },
+      {
+        "title": "Analytics & Risk Intelligence",
+        "description": "Build intelligent analytics pipelines to detect anomalies, mitigate fraud, and optimize financial operations.",
+        "offerings": [
+          "Deploy big-data analytics workloads on Kubernetes clusters.",
+          "Use PromQL and Grafana dashboards for real-time monitoring.",
+          "Integrate AI/ML models for fraud detection and predictive insights."
+        ],
+        "image": "/assets/images/services/analytics.png"
+      },
+      {
+        "title": "FinTech & ISV Enablement",
+        "description": "Empower FinTech startups and ISVs to innovate faster with fully managed cloud-native environments.",
+        "offerings": [
+          "Adopt containerized microservices architecture for agility and resilience.",
+          "Implement continuous delivery pipelines using GitOps and Helm.",
+          "Optimize cloud spending with efficient CI/CD automation."
+        ],
+        "image": "/assets/images/services/fintech-financial-isvs.png"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Complete Cloud-Native Journey for Financial Enterprises",
+    "subtitle": "From strategy and migration to managed support, AppsCode empowers your financial organization to adopt cloud-native confidently.",
+    "additional_text": "Our certified engineers bring expertise in Kubernetes, security, and regulatory compliance for financial-grade reliability.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Cloud-Native Consulting & Advisory",
+        "description": "Design and implement cloud-native roadmaps for secure, compliant transformation."
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Application Modernization",
+        "description": "Refactor legacy banking applications into microservices deployed via Kubernetes."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Team Augmentation",
+        "description": "Extend your engineering team with AppsCode’s World-Class Kubernetes Expertise."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "DevOps Coaching & Training",
+        "description": "Upskill teams with hands-on workshops on CI/CD, service mesh, observability, and security."
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Enterprise Managed Support",
+        "description": "Ensure 24/7 uptime and proactive issue resolution with our managed DevSecOps support."
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Regulatory Compliance & Security",
+        "description": "Implement Zero-Trust security, encryption, and data protection aligned with PCI-DSS, GDPR, and PSD2."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "Proud Open Source Contributors",
+    "description": "<a href=\"https://appscode.com/\">AppsCode </a> actively contributes to <a href=\"https://www.cncf.io/\">CNCF</a> projects like <a href=\"https://kubernetes.io/\">Kubernetes</a>, <a href=\"https://appscode.com/services/prometheus-consulting-services/\">Prometheus</a>, and <a href=\"https://kubevault.com/\">KubeVault</a> — helping financial organizations build on proven, open-source technologies.",
+    "cta_text": "View Our Open Source Contributions",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Our Cloud-Native Tech Stack Expertise",
+    "subtitle": "Certified engineers with deep experience in Kubernetes, observability, and cloud security tools for banking-grade workloads.",
+    "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "final_cta": {
+    "title": "Ready to Adopt Cloud-Native Solutions?",
+    "subtitle": "Explore how AppsCode can accelerate your digital transformation journey.",
+    "buttons": [
+      {
+        "text": "Talk to an Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why AppsCode for Cloud-Native Banking Solutions?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "Certified Kubernetes Engineers",
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Deep BFSI Domain Experience",
+        "description": "Over 100 successful projects in finance, banking, and insurance industries."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "Early Kubernetes Partner",
+        "description": "Among the first Kubernetes service providers in India and APAC."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Knowledge Transfer & Training",
+        "description": "Enable your teams through hands-on cloud-native training programs."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Silver Member",
+        "description": "AppsCode is a CNCF Silver Member & Kubernetes Certified Service Provider (KCSP)."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Seamless Team Expansion",
+        "description": "Extend your DevOps capabilities without the overhead of hiring or onboarding."
+      }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What do your Cloud Native Solutions for the Banking & Finance Industry include?",
+    "answer": "Our services help banking and finance organizations modernize their IT infrastructure and applications using cloud-native technologies. We cover application modernization, microservices adoption, secure cloud deployment, compliance, scalability, and continuous delivery for financial workloads."
+  },
+  {
+    "question": "Which technologies and practices are used in cloud-native solutions for banking and finance?",
+    "answer": "We leverage Kubernetes, Docker, microservices architecture, CI/CD pipelines, DevSecOps practices, cloud providers like AWS, Azure, GCP, and observability tools. Our approach ensures secure, resilient, and compliant financial applications in cloud environments."
+  },
+  {
+    "question": "Can you integrate cloud-native solutions with our existing banking systems?",
+    "answer": "Yes — we work with your existing core banking, payment, and financial applications, modernize workloads, implement microservices patterns, and integrate cloud-native practices while ensuring regulatory compliance and security standards."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for cloud-native solutions in banking?",
+    "answer": "Engagements typically start with a 1–2 week assessment of your infrastructure, applications, and compliance requirements. Implementation follows in 4–12 week phases depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term advisory partnerships."
+  },
+  {
+    "question": "Do cloud-native solutions support multi-cloud or hybrid deployments for banking and finance?",
+    "answer": "Absolutely. Our solutions are designed for multi-cloud and hybrid deployments, ensuring secure, resilient, and compliant workloads across AWS, Azure, GCP, and on-premises financial systems."
+  },
+  {
+    "question": "How do you ensure security, compliance, and reliability in financial applications?",
+    "answer": "We enforce encryption, access controls, DevSecOps pipelines, automated compliance checks, monitoring, and disaster recovery. These measures ensure financial applications are secure, reliable, and compliant with industry standards like PCI DSS and GDPR."
+  },
+  {
+    "question": "What happens after cloud-native solutions are implemented in banking and finance?",
+    "answer": "After implementation, we provide ongoing support, monitoring, optimization, and knowledge transfer. Our services ensure your financial applications remain secure, scalable, and optimized for continuous business growth."
+  },
+  {
+    "question": "How much do cloud-native solutions for the banking and finance industry cost, and what are the pricing models?",
+    "answer": "Pricing depends on infrastructure complexity, application scope, and ongoing support requirements. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+  }
+  ]
+}

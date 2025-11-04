@@ -1,0 +1,251 @@
+{
+  "hero": {
+    "title": "Grafana Consulting Services & Enterprise Support by Appscode",
+    "subtitle": "Accelerate observability, performance, and reliability with expert Grafana consulting, implementation, and enterprise-grade support tailored to your cloud-native environment.",
+    "cta_text": "TALK TO A GRAFANA EXPERT",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/grafana-consulting-illustration.png",
+      "alt": "Grafana Consulting and Observability Services by Appscode"
+    }
+  },
+
+  "trusted_by": {
+    "title": "Trusted by Global Enterprises and Cloud-Native Innovators"
+  },
+
+  "title_with_small_cards": {
+    "title": "Why Choose Grafana Consulting Services?",
+    "areas": [
+      { "icon": "fa fa-eye", "title": "End-to-End Observability and Metrics Visibility" },
+      { "icon": "fa fa-dashboard", "title": "Customizable, Feature-Rich Grafana Dashboards" },
+      { "icon": "fa fa-tachometer", "title": "Optimized Infrastructure and Application Performance" },
+      { "icon": "fa fa-file-text", "title": "Unified Log Management and Advanced Analytics" },
+      { "icon": "fa fa-cogs", "title": "Improved Operational Efficiency Through Automation" },
+      { "icon": "fa fa-plug", "title": "Seamless Plugin, API, and Data Source Integrations" }
+    ]
+  },
+
+  "service_details": {
+    "title": "Grafana Consulting Services by Appscode",
+    "subtitle": "Accelerate your observability journey with expert guidance — from deployment to ongoing enterprise support.",
+    "sections": [
+      {
+        "title": "Grafana Strategy, Advisory & Implementation",
+        "description": "Appscode’s certified Grafana consultants guide your organization in developing a robust observability strategy. We handle everything from deploying Grafana across hybrid and multi-cloud environments to customizing dashboards for actionable insights.",
+        "offerings": [
+          "End-to-end Grafana deployment, configuration, and tuning for optimal performance.",
+          "Custom dashboard design to track infrastructure, cost, and reliability metrics.",
+          "Best practices for setting up alert-driven observability and system transparency."
+        ],
+        "image": "/assets/images/services/grafana-strategy-implementation.png"
+      },
+      {
+        "title": "Grafana Data Integration & Visualization",
+        "description": "Our Grafana integration services help you connect multiple data sources — from <a href=\"https://appscode.com/services/prometheus-consulting-services/\">Prometheus</a> and InfluxDB to MySQL, PostgreSQL, and Elasticsearch — creating a unified observability view for your teams.",
+        "offerings": [
+          "Expert consulting on Grafana data source configuration and monitoring best practices.",
+          "Setup of unified, multi-source dashboards for complete system visibility.",
+          "Custom visualizations and dynamic panels tailored to business KPIs.",
+          "Centralized data exploration for real-time analytics and insights."
+        ],
+        "image": "/assets/images/services/grafana-data-integration.png"
+      },
+      {
+        "title": "Grafana Reporting, Insights & Automation",
+        "description": "Appscode enables teams to turn Grafana dashboards into meaningful, automated reports. Deliver actionable insights to stakeholders with ease.",
+        "offerings": [
+          "Design and automation of visual reports and PDF dashboards.",
+          "Scheduled reporting and team-wide sharing via email or Slack.",
+          "Actionable data visualization for executive and operational decisions."
+        ],
+        "image": "/assets/images/services/grafana-reporting.png"
+      },
+      {
+        "title": "Grafana Alerting, Incident Response & Optimization",
+        "description": "Stay ahead of downtime and performance issues with Grafana alerting and incident response solutions. Appscode helps configure, optimize, and automate alert workflows.",
+        "offerings": [
+          "Custom alert thresholds and integration with tools like PagerDuty, Slack, and Opsgenie.",
+          "Alert routing and escalation policies for faster issue resolution.",
+          "Multi-environment monitoring and recovery automation.",
+          "Seamless DevOps integration for continuous feedback and improvement."
+        ],
+        "image": "/assets/images/services/grafana-alerting.png"
+      }
+    ]
+  },
+
+  "industries": {
+    "title": "Industry-Focused Grafana Consulting Expertise",
+    "subtitle": "Appscode delivers Grafana observability solutions designed for reliability, compliance, and scalability across diverse industries.",
+    "additional_text": "Our Grafana experts help businesses — from startups to enterprises — gain deep, actionable visibility into their infrastructure and applications.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Financial Services",
+        "description": "Ensure 24/7 uptime, transaction reliability, and compliance visibility with secure observability dashboards."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology, SaaS & Internet",
+        "description": "Monitor cloud-native systems, optimize SaaS performance, and visualize AI-driven workloads in real time."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Gain full visibility into connected vehicle systems and predictive maintenance analytics."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Visualize asset performance, streamline resource monitoring, and reduce operational risks with Grafana observability."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Monitor patient data systems securely, ensuring compliance with healthcare data protection standards."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver seamless user experiences with real-time service monitoring and proactive issue resolution."
+      }
+    ]
+  },
+
+  "open_source": {
+    "title": "Open Source & Grafana Community Contributions",
+    "description": "Appscode’s engineers actively contribute to leading open-source observability projects, extending Grafana’s ecosystem with innovative integrations and solutions.",
+    "cta_text": "Explore Our Open Source Contributions",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Appscode Open Source Contributions"
+    }
+  },
+
+  "tech_stack": {
+    "title": "Deep Technical Expertise in the Grafana Ecosystem",
+    "subtitle": "Appscode’s consulting team builds secure, scalable observability stacks using industry-leading open-source tools.",
+    "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+
+  "final_cta": {
+    "title": "Partner with Appscode for Grafana Consulting & Enterprise Support",
+    "subtitle": "Empower your teams with data-driven visibility, faster issue resolution, and optimized infrastructure performance using Grafana.",
+    "buttons": [
+      {
+        "text": "Talk to a Grafana Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+
+  "cards": {
+    "title": "Why Appscode is the Best Grafana Consulting Partner",
+    "items": [
+       {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "Certified Grafana & Cloud-Native Experts",
+        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Proven Industry Experience",
+        "description": "Delivered successful Grafana consulting projects for 100+ organizations across fintech, SaaS, telecom, and more."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "Trusted Kubernetes & Observability Partner",
+        "description": "Among the earliest <a href=\"https://kubedb.com/\">Kubernetes Certified Service Providers</a> (KCSP) in the APAC region."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Hands-On Grafana Training & Knowledge Transfer",
+        "description": "Empower your team with in-depth Grafana training, dashboard design, and observability best practices."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Silver Member",
+        "description": "Active contributor to the <a href=\"https://www.cncf.io/\">CNCF</a> ecosystem, advancing open-source innovation in observability and monitoring."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Flexible Engagement Models",
+        "description": "Scale your observability initiatives easily with Appscode’s on-demand Grafana experts — no long-term overhead."
+      }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What do your Grafana Consulting Services include?",
+    "answer": "Our Grafana Consulting Services help organizations design, implement, and optimize observability dashboards for monitoring applications and infrastructure. We cover metrics collection, visualization, alerting, and performance analysis using Grafana."
+  },
+  {
+    "question": "Which technologies and practices are used in Grafana consulting?",
+    "answer": "We leverage Grafana, Prometheus, Loki, OpenTelemetry, Kubernetes, and cloud-native monitoring tools. Our approach ensures actionable insights, performance monitoring, real-time visualization, and proactive issue detection across complex systems."
+  },
+  {
+    "question": "Can you work with our existing applications and monitoring setup?",
+    "answer": "Yes — we integrate Grafana with your current monitoring stack, configure dashboards and alerts, implement metrics collection, and provide guidance for continuous monitoring and observability improvement."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for Grafana Consulting Services?",
+    "answer": "Engagements typically start with a 1–2 week assessment of your observability and monitoring setup. Implementation follows in 2–6 week phases depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term Grafana advisory partnerships."
+  },
+  {
+    "question": "Do Grafana Consulting Services support multi-cloud or hybrid environments?",
+    "answer": "Absolutely. Our services are designed for multi-cloud and hybrid environments, ensuring consistent metrics visualization, alerts, and dashboards across AWS, Azure, GCP, and on-premises systems."
+  },
+  {
+    "question": "How do you ensure reliable monitoring and actionable insights with Grafana?",
+    "answer": "We implement end-to-end metrics collection, logging, alerting, and dashboard design best practices. These measures enable real-time monitoring, rapid issue detection, and performance optimization."
+  },
+  {
+    "question": "What happens after Grafana consulting and implementation?",
+    "answer": "After implementation, we provide ongoing support, dashboard updates, alert optimization, and guidance on continuous improvement to ensure your monitoring setup remains effective and up-to-date."
+  },
+  {
+    "question": "How much do Grafana Consulting Services cost, and what are the pricing models?",
+    "answer": "Pricing depends on system complexity, number of dashboards, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+  }
+  ]
+}

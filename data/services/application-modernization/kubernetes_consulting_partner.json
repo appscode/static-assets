@@ -1,0 +1,253 @@
+{
+  "hero": {
+    "title": "Kubernetes Consulting Services by Certified Experts",
+    "subtitle": "Empower your business with CNCF-certified Kubernetes consultants for consulting, deployment, optimization, and managed enterprise support.",
+    "cta_text": "Talk to a Kubernetes Expert",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/kubernetes-consulting.png",
+      "alt": "Kubernetes Consulting Services by AppsCode"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Leading Enterprises Worldwide"
+  },
+  "title_with_small_cards": {
+    "title": "Why Choose Our Kubernetes Consulting Services?",
+    "areas": [
+      { "icon": "fa fa-lightbulb-o", "title": "Agile & Scalable Cloud-Native Architecture" },
+      { "icon": "fa fa-tachometer", "title": "High-Performance Kubernetes Deployments" },
+      { "icon": "fa fa-cogs", "title": "Accelerated Application Development on Kubernetes" },
+      { "icon": "fa fa-money", "title": "Optimize Cloud & IT Infrastructure Costs" },
+      { "icon": "fa fa-cloud", "title": "Multi-Cloud & Hybrid Kubernetes Flexibility" },
+      { "icon": "fa fa-shield", "title": "Self-Healing & Secure Container Environments" },
+      { "icon": "fa fa-arrows-alt", "title": "Migrate & Containerize Legacy Applications" },
+      { "icon": "fa fa-repeat", "title": "Automated CI/CD Rollouts & Rollbacks" }
+    ]
+  },
+  "service_details": {
+    "title": "Our End-to-End Kubernetes Consulting Services",
+    "subtitle": "As a <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and KCSP, AppsCode provides expert Kubernetes consulting services — from planning to production management.",
+    "sections": [
+      {
+        "title": "Kubernetes Advisory & Assessment",
+        "description": "Start your Kubernetes journey with confidence. Our experts assess your current infrastructure, plan seamless migration, and design a scalable architecture optimized for AWS, Azure, or GCP.",
+        "offerings": [
+          "Conduct infrastructure audits following CNCF best practices.",
+          "Create a roadmap for efficient Kubernetes adoption.",
+          "Provide detailed cost analysis and workload optimization."
+        ],
+        "image": "/assets/images/services/kubernetes-advisory.png"
+      },
+      {
+        "title": "Application Development & Migration",
+        "description": "Modernize your workloads with Kubernetes-native applications and migrate monoliths into containerized microservices for better agility and performance.",
+        "offerings": [
+          "Develop Kubernetes-ready applications using Go, Java, and Python.",
+          "Break monolithic architectures into resilient microservices.",
+          "Implement centralized management across multi-cluster environments."
+        ],
+        "image": "/assets/images/services/kubernetes-application-development.png"
+      },
+      {
+        "title": "Kubernetes Deployment & Operations",
+        "description": "Deploy production-grade Kubernetes clusters on-premises or in the cloud with high availability, resilience, and observability built in.",
+        "offerings": [
+          "Provision auto-healing Kubernetes clusters using Infrastructure-as-Code tools like Terraform and Crossplane.",
+          "Integrate observability with Prometheus, Grafana, and Thanos.",
+          "Automate cluster scaling, upgrades, and security policies."
+        ],
+        "image": "/assets/images/services/kubernetes-deployment-partner.png"
+      },
+      {
+        "title": "DevSecOps, Security & Compliance",
+        "description": "Shift security left in your Kubernetes lifecycle. Our DevSecOps services ensure compliance and security at every layer of your containerized environment.",
+        "offerings": [
+          "Implement role-based access control (RBAC) and network segmentation.",
+          "Automate container image scanning with tools like Trivy and Clair.",
+          "Ensure compliance with ISO, HIPAA, and GDPR standards."
+        ],
+        "image": "/assets/images/services/kubernetes-devsecops-compliance.png"
+      },
+      {
+        "title": "Enterprise Kubernetes Support & Training",
+        "description": "<a href=\"https://appscode.com/\">AppsCode </a> provides continuous Kubernetes support, training, and managed services to ensure operational excellence and long-term stability.",
+        "offerings": [
+          "Real-time monitoring, backup, and disaster recovery using Stash.",
+          "Training for DevOps teams to manage Kubernetes independently.",
+          "Cost management and resource optimization for clusters."
+        ],
+        "image": "/assets/images/services/kubernetes-enterprise-support-training.png"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industry Expertise in Kubernetes Consulting",
+    "subtitle": "Our Kubernetes consulting services empower over 100 clients across regulated industries with high-performance, compliant, and reliable infrastructure.",
+    "additional_text": "We serve global enterprises and startups with deep expertise in cloud-native and Kubernetes solutions.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Highly available, compliant systems for secure 24/7 transactions."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology & SaaS",
+        "description": "Integrate AI and manage GPU servers for high-performance SaaS platforms."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Leverage AI & ML to meet customer expectations while ensuring safety and sustainability."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Modernize systems for inspections, monitoring, and cost reduction."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Use cloud GPU instances for fast, secure processing of patient data."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver seamless operations and instant updates with scalable systems."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "Built on Open Source, Powered by Community",
+    "description": "AppsCode actively contributes to CNCF and open-source projects such as <a href=\"https://kubedb.com/\">KubeDB</a>, <a href=\"https://kubevault.com/\">KubeVault,</a> <a href=\"https://stash.run/\">Stash,</a> and <a href=\"https://voyagermesh.com/\">Voyager</a> — empowering the Kubernetes ecosystem worldwide.",
+    "cta_text": "Explore Our Open Source Projects",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Our Kubernetes Technology Expertise",
+    "subtitle": "We use proven cloud-native tools and frameworks to deliver enterprise-grade Kubernetes consulting services.",
+    "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "final_cta": {
+    "title": "Ready to Accelerate with Kubernetes Consulting Services?",
+    "subtitle": "Get expert Kubernetes consulting, managed support, and hands-on training to optimize your cloud-native infrastructure.",
+    "buttons": [
+      {
+        "text": "Talk to a Kubernetes Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why AppsCode is the Right Kubernetes Consulting Partner?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "World-Class Kubernetes Expertise",
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Proven Domain Expertise",
+        "description": "Experience across 100+ Kubernetes consulting projects globally."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "Industry Leadership",
+        "description": "AppsCode is one of the earliest Kubernetes consulting service providers in APAC."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Kubernetes Training Programs",
+        "description": "Hands-on Kubernetes workshops and cloud-native upskilling for DevOps teams."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Silver Member & KCSP",
+        "description": "AppsCode is officially recognized as a CNCF Silver Member and Kubernetes Certified Service Provider."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Scalable Dedicated Teams",
+        "description": "Easily scale your engineering teams with AppsCode’s Kubernetes experts."
+      }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What do your Kubernetes Consulting Services include?",
+    "answer": "Our Kubernetes Consulting Services cover the full lifecycle of designing, deploying, and managing Kubernetes clusters. From architecture design, cluster provisioning, and CI/CD integration to monitoring, scaling, and optimization, we help organizations run reliable and secure containerized workloads at scale."
+  },
+  {
+    "question": "Which technologies and practices are used in Kubernetes consulting?",
+    "answer": "We leverage Kubernetes orchestration, Helm charts, operators, containerization with Docker, CI/CD pipelines, infrastructure as code, observability (monitoring/logging), and hybrid/multi-cloud deployment patterns to ensure scalable and resilient Kubernetes environments."
+  },
+  {
+    "question": "Can you work with our existing Kubernetes clusters or cloud-native stack?",
+    "answer": "Yes — we integrate with your current clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable Kubernetes deployments."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for Kubernetes Consulting Services?",
+    "answer": "Engagements typically begin with a 1–2 week assessment phase to understand your environment and requirements. Implementation follows in 4–8 week agile sprints. We offer flexible engagement models including fixed-scope projects, time-and-materials consulting, or long-term Kubernetes advisory partnerships."
+  },
+  {
+    "question": "Do you support hybrid and multi-cloud Kubernetes deployments?",
+    "answer": "Absolutely. Our Kubernetes Consulting Services are designed for portability and consistency across on-premises clusters and public clouds such as AWS, Azure, and GCP, ensuring seamless operations and scalability across environments."
+  },
+  {
+    "question": "How do you ensure security, reliability, and operational efficiency in Kubernetes?",
+    "answer": "We enforce security best practices including RBAC, network policies, secrets management, and vulnerability scanning. Reliability is ensured with monitoring, backup/recovery strategies, and disaster resilience patterns. Operational efficiency is achieved through automation, CI/CD integration, and resource optimization."
+  },
+  {
+    "question": "What happens after Kubernetes consulting and implementation?",
+    "answer": "After deployment, we provide ongoing operational guidance, monitoring, performance tuning, and scaling recommendations. Our Kubernetes Consulting Services also include training, knowledge transfer, and best practice documentation for your teams."
+  },
+  {
+    "question": "How much do Kubernetes Consulting Services cost, and what are the pricing models?",
+    "answer": "Costs vary depending on the complexity of your clusters, number of workloads, and support needs. We offer fixed-scope projects, hourly engagements, and long-term consulting retainers. A detailed proposal is provided after the assessment phase."
+  }
+  ]
+}
