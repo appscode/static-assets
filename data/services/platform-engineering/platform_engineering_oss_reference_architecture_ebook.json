@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "title": "Get Your Cloud-Native Platform Engineering Architecture eBook",
+    "subtitle": "Explore the <a href=\"https://www.geeksforgeeks.org/computer-networks/what-is-aaa-authentication-authorization-and-accounting/\">AAA framework,</a> reference architecture, and capability mapping to guide your teams in building scalable, efficient, and future-ready platforms.",
+    "cta_text": "EMAIL ME THE EBOOK",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/platform-engineering-ebook.png",
+      "alt": "Cloud-Native Platform Engineering Architecture eBook"
+    }
+  },
+  "service_details": {
+    "sections": [
+      {
+        "title": "Why This eBook is Essential for Platform Engineering Teams",
+        "description": "This comprehensive guide provides step-by-step guidance for teams embarking on platform engineering initiatives. Discover frameworks, best practices, and real-world examples to design, deploy, and scale platforms efficiently.",
+        "offerings": [
+          "AAA Framework: Proven methodology to build resilient and scalable cloud-native platforms.",
+          "Platform Maturity Assessment: Evaluate your current state, identify gaps, and prioritize improvements for your IDP.",
+          "Framework Integration: Learn how to leverage tools like KubeBuilder and Operator-SDK for rapid platform development.",
+          "Capability Architecture Map: Visualize critical platform components, dependencies, and workflows to optimize <a href=\"https://appscode.com/services/devops-toolchain-consulting-services/\">DevOps</a> productivity.",
+          "Practical Use Cases: Real-world examples from enterprises implementing cloud-native platform engineering successfully."
+        ],
+        "image": "/assets/images/services/platform-engineering-ebook-inside.png"
+      }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What does the “Cloud-Native Platform Engineering Architecture eBook” cover?",
+    "answer": "Our Cloud-Native Platform Engineering Architecture eBook provides a comprehensive guide on designing, building, and scaling cloud-native platforms. It covers best practices for architecture, Kubernetes orchestration, microservices, CI/CD, and operational resilience, helping teams make informed decisions in modern platform engineering."
+  },
+  {
+    "question": "Which technologies and practices are discussed in the eBook?",
+    "answer": "The eBook explores Kubernetes orchestration, containerized microservices, continuous delivery pipelines (CI/CD), infrastructure as code, observability, and hybrid/multi-cloud deployment patterns. These practices are key to building reliable, scalable, and efficient cloud-native platforms."
+  },
+  {
+    "question": "Can the eBook help if we already have an existing platform?",
+    "answer": "Yes. The Cloud-Native Platform Engineering Architecture eBook is useful for teams with existing platforms, offering guidance on optimizing architecture, improving operational efficiency, and integrating modern cloud-native practices without a full rebuild."
+  },
+  {
+    "question": "What is the typical audience for this eBook?",
+    "answer": "The eBook is designed for platform engineers, DevOps teams, architects, and technology leaders who want to understand cloud-native platform design principles, improve Kubernetes adoption, and enhance operational confidence in production environments."
+  },
+  {
+    "question": "Does the eBook cover multi-cloud or hybrid cloud strategies?",
+    "answer": "Absolutely. It provides insights on designing cloud-native platforms that are portable across AWS, Azure, GCP, and on-premises Kubernetes clusters. It covers strategies to maintain consistency, scalability, and reliability across different environments."
+  },
+  {
+    "question": "How does the eBook address quality, security, and reliability?",
+    "answer": "Quality, security, and reliability are core topics. The eBook discusses automated testing, code review best practices, CI/CD pipelines, container isolation, secrets management, and disaster recovery strategies to ensure production-grade platform engineering."
+  },
+  {
+    "question": "What are the benefits of reading the Cloud-Native Platform Engineering Architecture eBook?",
+    "answer": "Readers gain practical insights into modern platform design, cloud-native best practices, and operational excellence. The eBook helps teams accelerate development, reduce risk, and scale efficiently while adopting a structured platform engineering approach."
+  },
+  {
+    "question": "How can we access the eBook?",
+    "answer": "The Cloud-Native Platform Engineering Architecture eBook is available for download on our website. It is free and provides actionable guidance for building resilient, scalable, and maintainable cloud-native platforms."
+  }
+  ]
+}

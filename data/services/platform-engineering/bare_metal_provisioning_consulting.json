@@ -1,0 +1,242 @@
+{
+  "hero": {
+    "title": "Expert Bare Metal Provisioning & On-Prem Infrastructure Consulting",
+    "subtitle": "Automate and optimize your on-premises infrastructure with our consulting, implementation, and enterprise-grade support services.",
+    "cta_text": "Talk to an Expert",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/bare-metal-provisioning-consulting-hero.png",
+      "alt": "Bare Metal Provisioning Consulting Services"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Leading Enterprises Globally"
+  },
+  "title_with_small_cards": {
+    "title": "Why Choose Bare Metal Provisioning Consulting?",
+    "areas": [
+      { "icon": "fa fa-rocket", "title": "Accelerate On-Prem Infrastructure Provisioning" },
+      { "icon": "fa fa-lock", "title": "Secure & Cost-Efficient On-Prem Deployments" },
+      { "icon": "fa fa-cubes", "title": "Automated & Declarative Provisioning Workflows" },
+      { "icon": "fa fa-lightbulb-o", "title": "Best Practices from Infrastructure Experts" },
+      { "icon": "fa fa-cogs", "title": "Tailored Solutions for Your Organization" },
+      { "icon": "fa fa-wrench", "title": "Proven Architectures & Recommended Tools" },
+      { "icon": "fa fa-users", "title": "Scale Resources On Demand" },
+      { "icon": "fa fa-gift", "title": "Accelerators to Boost Productivity & Efficiency" }
+    ]
+  },
+  "service_details": {
+    "title": "Our Bare Metal Provisioning Services",
+    "subtitle": "Leverage our consulting expertise for seamless adoption and enterprise-grade implementation:",
+    "sections": [
+      {
+        "title": "On-Prem Hardware to MaaS Consulting",
+        "description": "Optimize hardware provisioning and automate workflows for platform engineers and developers.",
+        "offerings": [
+          "Expert Assessment: Evaluate your hardware environment and business requirements for automation readiness.",
+          "Collaborative Analysis: Design API-driven, automated provisioning with your IT and architecture teams.",
+          "Strategic Roadmap: Identify challenges, recommend tools, and deliver a roadmap aligned with your business goals."
+        ],
+        "image": "/assets/images/services/on-prem-hardware-to-maas-guidance.png"
+      },
+      {
+        "title": "Custom OS Image Building & Verification",
+        "description": "Secure and reproducible OS images for multiple architectures with cross-vendor support.",
+        "offerings": [
+          "Tailored Builds: Custom OS images with essential packages and artifacts included.",
+          "CI Pipelines: Reproducible and verifiable OS builds for production environments.",
+          "Cross-Vendor Distribution: Seamless deployment of OS images across your data centers."
+        ],
+        "image": "/assets/images/services/customized-os-building-and-verification.png"
+      },
+      {
+        "title": "Tinkerbell Enterprise Support",
+        "description": "Scale or adopt Tinkerbell with guidance from engineers who contributed to its open-source development.",
+        "offerings": [
+          "Adoption Support: Step-by-step guidance for new Tinkerbell users.",
+          "Enterprise Assistance: Enterprise-grade support for production workloads.",
+          "Software Integration: Accelerate provisioning workflows with Tinkerbell tools and pipelines."
+        ],
+        "image": "/assets/images/services/tinkerbell-enterprise-support.png"
+      },
+      {
+        "title": "On-Prem Kubernetes Provisioning",
+        "description": "Deploy and manage Kubernetes clusters on-prem for performance, security, and compliance.",
+        "offerings": [
+          "Custom Deployment Plans: Recommend best practices for secure and scalable on-prem Kubernetes.",
+          "Resilient Architecture: Configure access controls, backup, and disaster recovery for multi-tenant clusters."
+        ],
+        "image": "/assets/images/services/on-prem-kubernetes-provisioning.png"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industry Expertise",
+    "subtitle": "Serving 100+ clients, we understand compliance, critical requirements, and the importance of getting it right the first time.",
+    "additional_text": "From global enterprises to fast-growing startups, we’ve got you covered!",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Highly available and compliant systems to handle transactions 24/7."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology, SaaS & Internet",
+        "description": "Integrate AI into SaaS while managing GPU infrastructure for peak performance."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Leverage AI/ML to meet customer expectations and build safer, sustainable solutions."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Modernize operations for inspections, monitoring, and cost efficiency."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Process patient data efficiently using cloud GPU instances for secure and fast analytics."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver seamless, scalable operations and real-time updates for customer satisfaction."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "We Love Open Source",
+    "description": "Our developers contribute to cloud-native projects and leverage open-source solutions to build innovative products.",
+    "cta_text": "Explore Our OSS Contributions",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Our Technical Expertise",
+    "subtitle": "Our engineers have hands-on experience with over 100 clients in the following technologies:",
+   "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "final_cta": {
+    "title": "Enterprise-Grade Tinkerbell & On-Prem Support",
+    "subtitle": "Automate your bare metal provisioning confidently with 24/7 support from the engineers behind Tinkerbell.",
+    "buttons": [
+      {
+        "text": "Discuss Enterprise Support",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why Partner with AppsCode for Bare Metal Provisioning?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "Certified Developers",
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Domain Expertise",
+        "description": "Proven best practices from engagements with 100+ clients."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "First Mover Advantage",
+        "description": "Bangladesh’s first <a href=\"https://kubedb.com/\">Kubernetes service provider</a> and second in APAC."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Practical Training",
+        "description": "Hands-on training to build deep knowledge of core concepts and best practices."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Certified Provider",
+        "description": "<a href=\"https://appscode.com/\">AppsCode </a> is a <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and Kubernetes Certified Service Provider (KCSP)."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "In-House Expertise",
+        "description": "90% engineering team working directly on projects with no outsourcing."
+      }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What do your Bare Metal Provisioning & On-Prem Infrastructure Consulting services include?",
+    "answer": "Our Bare Metal Provisioning & On-Prem Infrastructure Consulting services cover the complete lifecycle of deploying, managing, and optimizing physical infrastructure. From initial assessment, hardware provisioning, network setup, to system integration and operational best practices, we ensure high-performance, secure, and reliable on-prem environments."
+  },
+  {
+    "question": "Which technologies and practices are used in on-prem infrastructure consulting?",
+    "answer": "We leverage server provisioning tools, virtualization platforms, Kubernetes on bare metal, storage and network configuration best practices, and monitoring/observability tools. Our approach ensures efficient resource utilization, operational resilience, and scalable infrastructure management."
+  },
+  {
+    "question": "Can you work with our existing on-prem infrastructure?",
+    "answer": "Yes — we integrate with your current setup, optimize existing hardware and network configurations, and help transition workloads to more reliable, scalable, and secure on-prem or hybrid environments as needed."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for these services?",
+    "answer": "Most engagements begin with a 1–2 week discovery phase to assess your existing infrastructure and requirements. Implementation continues in 4–8 week phases depending on scope. Engagements can be fixed-scope, time-and-materials, or long-term consulting partnerships."
+  },
+  {
+    "question": "Do you support hybrid or multi-cloud integration with on-prem environments?",
+    "answer": "Absolutely. Our consulting services provide guidance for hybrid architectures, integrating on-prem systems with public clouds like AWS, Azure, or GCP, ensuring seamless operations, scalability, and consistency across environments."
+  },
+  {
+    "question": "How do you ensure quality, security, and reliability in on-prem environments?",
+    "answer": "We follow industry best practices including hardware validation, automated provisioning, monitoring, access control, and disaster recovery planning. These measures ensure secure, reliable, and high-performing on-prem infrastructure."
+  },
+  {
+    "question": "What happens after infrastructure provisioning and consulting?",
+    "answer": "After deployment, we provide operational support, monitoring, optimization, and scaling guidance. Our Bare Metal Provisioning & On-Prem Infrastructure Consulting services include ongoing recommendations to maintain performance, security, and cost efficiency."
+  },
+  {
+    "question": "How much do these consulting services cost, and what are the pricing models?",
+    "answer": "Costs depend on infrastructure scope, complexity, number of servers, and ongoing support requirements. We offer fixed-scope projects, hourly consulting, or retainers for continuous support. Detailed proposals are provided after the assessment phase."
+  }
+  ]
+}

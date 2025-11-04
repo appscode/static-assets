@@ -1,0 +1,271 @@
+{
+  "hero": {
+    "title": "Enterprise Kubernetes Backup & Disaster Recovery Services",
+    "subtitle": "Protect your Kubernetes workloads with enterprise-grade backup, disaster recovery, and migration solutions across cloud, on-prem, or hybrid environments.",
+    "cta_text": "Contact Us",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/kubernetes-disaster-recovery.png",
+      "alt": "Kubernetes Backup & Disaster Recovery Services"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Industry Leaders Worldwide"
+  },
+  "title_with_small_cards": {
+    "title": "Why Kubernetes Backup & Disaster Recovery Matters",
+    "areas": [
+      {
+        "icon": "fa fa-shield",
+        "title": "Accidental or Malicious Data Loss"
+      },
+      {
+        "icon": "fa fa-server",
+        "title": "Infrastructure or Hardware Failures"
+      },
+      {
+        "icon": "fa fa-bug",
+        "title": "Application Misconfigurations"
+      },
+      {
+        "icon": "fa fa-cloud",
+        "title": "Compliance & Audit Readiness"
+      }
+    ]
+  },
+  "service_details": {
+    "title": "Comprehensive Data Protection for Your Kubernetes Environment",
+    "subtitle": "End-to-end backup, recovery, and migration services for mission-critical Kubernetes workloads.",
+    "sections": [
+      {
+        "title": "Kubernetes Business Continuity",
+        "description": "Ensure continuous operations with robust recovery strategies tailored to your Kubernetes clusters.",
+        "offerings": [
+          "Proactive disaster recovery planning to mitigate cloud outages and infrastructure failures.",
+          "High-availability designs ensuring uninterrupted operations and improved customer trust.",
+          "Expert K8s guidance for seamless recovery across cloud, on-prem, or hybrid environments."
+        ],
+        "image": "/assets/images/services/kubernetes-business-continuity.png"
+      },
+      {
+        "title": "Kubernetes Backup & Data Protection",
+        "description": "Implement automated, policy-driven backup frameworks to protect your data and maintain operational resilience.",
+        "offerings": [
+          "Design and execute resilient, scheduled, and incremental backup strategies.",
+          "Full cluster and application-level data protection to meet SLAs.",
+          "Continuous backup optimization for data integrity and operational confidence."
+        ],
+        "image": "/assets/images/services/kubernetes-backup-data-protection.png"
+      },
+      {
+        "title": "Kubernetes Disaster Recovery",
+        "description": "Minimize downtime and quickly restore services with customized disaster recovery workflows for K8s workloads.",
+        "offerings": [
+          "Automated disaster recovery workflows for critical applications.",
+          "Multi-region and hybrid recovery architectures with zero data loss objectives.",
+          "Recovery validation and monitoring to ensure resilience and compliance."
+        ],
+        "image": "/assets/images/services/kubernetes-disaster-recovery-2.png"
+      },
+      {
+        "title": "Kubernetes Migration",
+        "description": "Seamlessly migrate clusters, applications, and workloads across environments or Kubernetes versions with zero downtime.",
+        "offerings": [
+          "Move workloads and persistent data securely between cloud, on-prem, or hybrid setups.",
+          "Ensure compatibility, security, and operational continuity during migration."
+        ],
+        "image": "/assets/images/services/kubernetes-migration.png"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why Choose AppsCode for Kubernetes Backup & Disaster Recovery?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "World-Class Kubernetes Expertise",
+        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Deep Domain Expertise",
+        "description": "Proven strategies and best practices refined through working with 100+ enterprise clients worldwide."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "Pioneer in Kubernetes Services",
+        "description": "One of the earliest <a href=\"https://kubedb.com/\">Kubernetes service providers</a> in APAC with years of production-grade experience."
+      },
+      {
+        "icon": "fa fa-bullhorn",
+        "title": "Cloud Native Evangelism",
+        "description": "Actively promoting and contributing to the growth of cloud-native and Kubernetes technologies across the globe."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Certified Provider",
+        "description": "<a href=\"https://appscode.com/\">AppsCode </a> is a proud <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a Kubernetes Certified Service Provider (KCSP)."
+      },
+      {
+        "icon": "fa fa-globe",
+        "title": "Global Reach",
+        "description": "Delivering Kubernetes expertise across USA, Canada, Australia, Europe, and other key regions."
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industry-Specific Expertise That Delivers",
+    "subtitle": "With extensive experience across 100+ organizations, we understand your operational challenges, regulatory requirements, and performance expectations.",
+    "additional_text": "From global enterprises with complex datacenters to fast-scaling startups—AppsCode ensures you stay resilient and compliant.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Achieve continuous availability and regulatory compliance while ensuring 24/7 secure transaction processing."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology, SaaS & Internet",
+        "description": "Accelerate AI integration and optimize SaaS workloads on high-performance, GPU-ready cloud infrastructure."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Adopt modern data pipelines and ML integrations to power safer, smarter, and more sustainable vehicle systems."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Transform inspection, monitoring, and data visualization workflows for operational efficiency and cost reduction."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Accelerate patient data processing and analytics using secure, compliant, and high-performance cloud setups."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver frictionless digital experiences through scalable, reliable, and real-time systems."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "Powered by Open Source Innovation",
+    "description": "Open source is at the heart of everything we do. Our teams contribute to leading cloud-native projects and develop OSS solutions that empower developers worldwide.",
+    "cta_text": "Explore Our Open Source Contributions",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "AppsCode Open Source Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Broad Technical Expertise Across the Cloud Native Ecosystem",
+    "subtitle": "Our engineers bring hands-on experience with modern tools, platforms, and frameworks gained through 100+ production deployments.",
+    "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "large_preview_cards": {
+    "title": "Service Mesh Implementation Experts — Istio, Linkerd & Consul",
+    "items": [
+      {
+        "icon": "fa fa-rocket",
+        "title": "Istio Expertise",
+        "description": "AppsCode’s certified Istio professionals help assess, architect, and implement service mesh solutions. We manage your complete Istio adoption—from setup to observability, security, and ongoing enterprise support."
+      },
+      {
+        "icon": "fa fa-rocket",
+        "title": "Linkerd Expertise",
+        "description": "Our Linkerd-certified consultants assist with design, deployment, and managed support. From observability integration to policy configuration and automation—AppsCode ensures a seamless Linkerd experience."
+      },
+      {
+        "icon": "fa fa-rocket",
+        "title": "Consul Expertise",
+        "description": "Leverage our Consul experts to build secure, scalable service mesh architectures. We handle deployment, encryption, discovery, and health monitoring with enterprise-grade reliability and support."
+      }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What do your Kubernetes Backup & Disaster Recovery Services include?",
+    "answer": "Our Kubernetes Backup & Disaster Recovery Services help organizations protect and recover critical workloads running on Kubernetes clusters. We cover backup strategy design, disaster recovery planning, automated backups, cluster restores, and high availability configuration to ensure business continuity."
+  },
+  {
+    "question": "Which technologies and practices are used in Kubernetes backup and disaster recovery?",
+    "answer": "We leverage tools like Velero, Stash, Kasten K10, cloud provider snapshot services, and Kubernetes-native solutions. Our approach includes automated backups, scheduled restores, data integrity verification, and failover strategies to maintain resilient and reliable clusters."
+  },
+  {
+    "question": "Can you work with our existing Kubernetes infrastructure and workloads?",
+    "answer": "Yes — we assess your current clusters, backup configurations, and critical workloads. We design tailored backup and disaster recovery strategies, implement automation, and ensure seamless recovery for both stateful and stateless applications."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for Kubernetes Backup & Disaster Recovery Services?",
+    "answer": "Engagements typically start with a 1–2 week assessment of your Kubernetes clusters, workloads, and existing backup processes. Implementation follows in 4–6 week phases depending on complexity. We offer fixed-scope projects, time-and-materials consulting, or long-term support contracts."
+  },
+  {
+    "question": "Do Kubernetes Backup & Disaster Recovery Services support multi-cloud or hybrid environments?",
+    "answer": "Absolutely. Our services are designed for multi-cloud and hybrid environments, ensuring consistent backup, restore, and disaster recovery processes across AWS, Azure, GCP, and on-premises Kubernetes clusters."
+  },
+  {
+    "question": "How do you ensure data security, reliability, and rapid recovery?",
+    "answer": "We enforce encryption for data at rest and in transit, implement automated backup schedules, test recovery procedures regularly, and apply best practices for high availability. These measures ensure secure, reliable, and fast recovery in case of failure."
+  },
+  {
+    "question": "What happens after Kubernetes backup and disaster recovery implementation?",
+    "answer": "After implementation, we provide ongoing monitoring, maintenance, and guidance. Our services include knowledge transfer, documentation of best practices, and continuous improvement recommendations to ensure clusters remain protected and recoverable."
+  },
+  {
+    "question": "How much do Kubernetes Backup & Disaster Recovery Services cost, and what are the pricing models?",
+    "answer": "Pricing depends on cluster complexity, number of workloads, and support requirements. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+  }
+  ],
+  "final_cta": {
+    "title": "Need Kubernetes Backup & Disaster Recovery Assistance?",
+    "subtitle": "Partner with AppsCode to design a tailored backup, disaster recovery, and migration strategy for your Kubernetes workloads.",
+    "buttons": [
+      {
+        "text": "Contact Us",
+        "icon": "fa fa-calendar",
+        "type": "outlined",
+        "url": "https://appscode.com/contact/"
+      }
+    ]
+  }
+}

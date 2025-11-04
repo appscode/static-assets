@@ -1,0 +1,350 @@
+{
+  "hero": {
+    "title": "Expert CI/CD Consulting Services for DevOps Automation",
+    "subtitle": "Accelerate development, streamline deployments, and enhance software delivery efficiency with our expert CI/CD consulting and implementation services.",
+    "cta_text": "Speak with a CI/CD Expert",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/ci-cd-consulting.png",
+      "alt": "CI/CD Consulting Services"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Leading Global Enterprises"
+  },
+  "title_with_small_cards": {
+    "title": "Benefits of Our CI/CD Consulting Services",
+    "areas": [
+      { "icon": "fa fa-rocket", "title": "Accelerated Software Delivery" },
+      { "icon": "fa fa-shield", "title": "Improved System Resiliency" },
+      { "icon": "fa fa-thumbs-up", "title": "Enhanced Team Productivity" },
+      { "icon": "fa fa-cogs", "title": "Reduced Operational Overhead" },
+      { "icon": "fa fa-lock", "title": "Secure & Risk-Aware Deployments" },
+      { "icon": "fa fa-clock-o", "title": "Lower Mean Time to Resolution (MTTR)" },
+      { "icon": "fa fa-bug", "title": "Fewer Bugs & Production Incidents" },
+      { "icon": "fa fa-eye", "title": "Proactive Issue Detection" }
+    ]
+  },
+  "service_details": {
+    "title": "Our CI/CD Consulting & Implementation Expertise",
+    "subtitle": "Tailored, end-to-end Continuous Integration and Continuous Delivery solutions for modern <a href=\"https://appscode.com/services/devops-toolchain-consulting-services/\">DevOps</a> pipelines.",
+    "sections": [
+      {
+        "title": "CI/CD Strategy & Consulting",
+        "description": "Our CI/CD consultants analyze your current infrastructure and workflows to recommend scalable, automated, and secure CI/CD solutions tailored to your business.",
+        "offerings": [
+          "Implement modern DevOps automation with reliable, cost-effective CI/CD pipelines.",
+          "Align CI/CD solutions with existing infrastructure, team workflow, and business goals.",
+          "Provide actionable recommendations to optimize release cycles and software quality."
+        ],
+        "image": "/assets/images/services/ci-cd-consulting-consulting.png"
+      },
+      {
+        "title": "CI/CD Pipeline Design & Architecture",
+        "description": "Design, revamp, or optimize CI/CD pipelines to ensure maximum automation, visibility, and control across development teams.",
+        "offerings": [
+          "Create or overhaul CI/CD pipelines from scratch for end-to-end automation.",
+          "Ensure transparency and monitoring of all pipeline stages.",
+          "Deliver custom CI/CD architecture tailored to your organization’s requirements."
+        ],
+        "image": "/assets/images/services/ci-cd-consulting-design.png"
+      },
+      {
+        "title": "CI/CD Implementation & Automation",
+        "description": "Deploy robust CI/CD workflows, automate testing, monitoring, and production deployments for reliable and faster software delivery.",
+        "offerings": [
+          "Implement and configure CI/CD pipelines using Jenkins, ArgoCD, Prometheus, and Grafana.",
+          "Automate infrastructure provisioning, testing, and monitoring for consistent reliability.",
+          "Enable zero-downtime deployments and rollback strategies."
+        ],
+        "image": "/assets/images/services/ci-cd-consulting-implementation.png"
+      },
+      {
+        "title": "CI/CD Training & Enablement",
+        "description": "Upskill your teams with practical CI/CD principles, DevOps best practices, and hands-on pipeline management to ensure long-term success.",
+        "offerings": [
+          "Train teams on CI/CD tools, workflows, and DevOps methodologies.",
+          "Share real-world implementation experience for faster adoption.",
+          "Build internal expertise for continuous improvement and pipeline automation."
+        ],
+        "image": "/assets/images/services/ci-cd-consulting-training.png"
+      }
+    ]
+  },
+  "cards_group": {
+    "title": "AppsCode’s AAA Framework for Platform Engineering",
+    "models": [
+      {
+        "number": "01",
+        "title": "ADOPT",
+        "description": "Evaluate current tools and practices using our comprehensive Platform Engineering Assessment framework."
+      },
+      {
+        "number": "02",
+        "title": "ACCELERATE",
+        "description": "Ensure product-market fit for your platform and promote adoption across teams."
+      },
+      {
+        "number": "03",
+        "title": "ASSETS",
+        "description": "Scale platform adoption and assessment processes organization-wide."
+      }
+    ]
+  },
+  "service_details2": {
+    "title": "Platform Engineering Consulting Services",
+    "sections": [
+      {
+        "title": "Product Market Fit Assessment",
+        "description": "Align your platform with developer needs through structured assessments and iterative feedback.",
+        "offerings": [
+          "Understand developer workflows, tools, and challenges.",
+          "Analyze existing tech landscape to design scalable, integrated solutions.",
+          "Continuously refine the platform based on developer insights."
+        ],
+        "image": "https://www.appscode.com/assets/img/platform-engineering-consulting/product-market-fit-assessment.svg"
+      },
+      {
+        "title": "MVP Strategy & Platform Roadmap",
+        "description": "Plan the foundation for a successful internal developer platform (IDP).",
+        "offerings": [
+          "Define a strategic roadmap for platform evolution, feature development, and scaling.",
+          "Identify core MVP features aligned with business goals and developer needs.",
+          "Iteratively enhance platform functionality based on continuous feedback."
+        ],
+        "image": "https://www.appscode.com/assets/img/platform-engineering-consulting/mvp-strategy-platform-roadmap-consulting.svg"
+      },
+      {
+        "title": "Platform Design & Development",
+        "description": "Build robust, scalable platforms tailored to your organization's unique needs.",
+        "offerings": [
+          "Architect agile platforms adaptable to evolving developer requirements.",
+          "Design user-centric interfaces for seamless experiences.",
+          "Deliver end-to-end full-stack platform solutions for cohesion and reliability."
+        ],
+        "image": "https://www.appscode.com/assets/img/platform-engineering-consulting/platform-design-and-development.svg"
+      },
+      {
+        "title": "Integrations & Ecosystem Setup",
+        "description": "Seamlessly integrate tools and services to enhance platform usability and developer efficiency.",
+        "offerings": [
+          "Implement integrations swiftly to maintain technological relevance.",
+          "Establish supportive services to streamline developer workflows.",
+          "Deliver custom integrations tailored to your unique ecosystem."
+        ],
+        "image": "https://www.appscode.com/assets/img/platform-engineering-consulting/integrations-ecosystem-setup.svg"
+      },
+      {
+        "title": "Platform Support & Maintenance",
+        "description": "Ensure consistent platform performance with proactive maintenance and support.",
+        "offerings": [
+          "Provide long-term platform support for developers and stakeholders.",
+          "Maintain updates, patches, and security enhancements.",
+          "Offer customized maintenance plans based on platform needs."
+        ],
+        "image": "https://www.appscode.com/assets/img/platform-engineering-consulting/platform-support-maintenance.svg"
+      },
+      {
+        "title": "Platform Engineering Training & Support",
+        "description": "Upskill teams in cloud foundations, modernization, and platform engineering best practices.",
+        "offerings": [
+          "Train teams to become self-sufficient in platform engineering.",
+          "Create training materials and comprehensive documentation for operations."
+        ],
+        "image": "https://www.appscode.com/assets/img/platform-engineering-consulting/platform-engineering-training-support.svg"
+      }
+    ]
+  },
+  "industries": {
+    "title": "We Understand Your Industry",
+    "subtitle": "With experience serving 100+ clients, we know critical requirements, compliance needs, and the importance of accuracy.",
+    "additional_text": "From global enterprises to fast-growing startups, we’ve got you covered!",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Deliver secure, compliant, highly available systems for 24/7 transactions."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology, SaaS & Internet",
+        "description": "Integrate AI capabilities while managing high-performance cloud infrastructure."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Leverage AI and ML to enhance safety, customer experience, and sustainability."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Modernize operations for better monitoring, inspections, and cost efficiency."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Process patient data efficiently and securely using cloud GPU solutions."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver seamless, scalable operations and instant updates for customers."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "Open Source Contributions",
+    "description": "We actively contribute to cloud-native projects and leverage OSS to build innovative CI/CD solutions.",
+    "cta_text": "Explore Our Open Source Contributions",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Diverse Technical Expertise",
+    "subtitle": "Serving 100+ clients, our engineers excel in:",
+     "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "final_cta": {
+    "title": "Optimize Your CI/CD Pipelines Today",
+    "subtitle": "Increase deployment frequency, reduce lead times, improve security, and accelerate software delivery with AppsCode experts.",
+    "buttons": [
+      {
+        "text": "Talk to a CI/CD Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why Partner with AppsCode?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "Certified Developers",
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Domain Expertise",
+        "description": "Apply best practices gained from 100+ client engagements."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "First Mover Advantage",
+        "description": "Bangladesh’s first <a href=\"https://kubedb.com/\">Kubernetes service provider</a> and second in APAC."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Training",
+        "description": "Hands-on training to build expertise in CI/CD and DevOps."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Certified Provider",
+        "description": "<a href=\"https://appscode.com/\">AppsCode </a> is a <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and Kubernetes Certified Service Provider (KCSP)."
+      },
+      {
+        "icon": "fa fa-wrench",
+        "title": "Scale Easily",
+        "description": "Expand your engineering team without the hassle of hiring or training."
+      }
+    ]
+  },
+    "resources": {
+    "title": "Cloud-Native Product Engineering Resources",
+    "items": [
+      {
+        "type": "Blog",
+        "title": "Getting Started with Perses The Free, Open Source Grafana Alternative",
+        "image": "https://appscode.com/blog/post/getting-started-with-perses-the-free-open-source-grafana-alternative/hero_hu030f24f1ec9a9fe9c13de5ab0e9d783a_31026_1300x650_fill_q75_box_smart1.jpg",
+        "link": "https://appscode.com/blog/post/getting-started-with-perses-the-free-open-source-grafana-alternative/"
+      },
+      {
+        "type": "Blog",
+        "title": "Future-Proof Your Data Strategy - Why Kubernetes is the Engine Behind Stateful Workloads & Modern AI",
+        "image": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_254620_1300x650_fill_q75_box_smart1.jpg",
+        "link": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/"
+      },
+      {
+        "type": "Event",
+        "title": "KubeConNA Digest - Top Trends and Key Takeaways from This Year’s Event by AppsCode",
+        "image": "https://appscode.com/blog/post/kubecon-na-2024/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_69997_1300x650_fill_q75_box_smart1.jpg",
+        "link": "https://appscode.com/blog/post/kubecon-na-2024/"
+      }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What do your CI/CD Consulting Services include?",
+    "answer": "Our CI/CD Consulting Services cover the full lifecycle of continuous integration and delivery — from evaluating your current processes, defining pipelines, integrating DevOps best practices, to implementing automation for faster, reliable, and repeatable software releases."
+  },
+  {
+    "question": "Which technologies and practices are used in CI/CD consulting?",
+    "answer": "We leverage tools and platforms like Jenkins, GitHub Actions, GitLab CI, Kubernetes, Docker, and infrastructure as code. Our approach ensures automated testing, reliable deployments, and seamless integration with cloud-native architectures and microservices environments."
+  },
+  {
+    "question": "Can you work with our existing development and deployment workflows?",
+    "answer": "Yes — we integrate with your current tech stack and workflows. Our engineers enhance existing pipelines, implement best practices, and optimize for continuous delivery to improve speed, quality, and operational confidence."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for CI/CD Consulting Services?",
+    "answer": "Engagements usually start with a 1–2 week assessment to analyze your current processes. Implementation follows in 4–8 week agile sprints. We offer flexible models including fixed-scope projects, time-and-materials engagements, or long-term consulting partnerships."
+  },
+  {
+    "question": "Do you support multi-cloud or hybrid cloud environments in CI/CD pipelines?",
+    "answer": "Absolutely. Our CI/CD Consulting Services support AWS, Azure, GCP, and on-premises Kubernetes clusters. Pipelines are designed to be portable and consistent, ensuring smooth deployments across different environments."
+  },
+  {
+    "question": "How do you ensure quality, security, and reliability in CI/CD pipelines?",
+    "answer": "We ensure quality with automated testing and code reviews, enforce security with secrets management and role-based access, and maintain reliability through robust monitoring, rollback strategies, and disaster recovery practices."
+  },
+  {
+    "question": "What happens after the CI/CD pipelines are implemented?",
+    "answer": "After implementation, we help monitor pipeline performance, optimize automation, and provide guidance for scaling. Our CI/CD Consulting Services also include continuous improvements and best practices to maintain operational efficiency and reliability."
+  },
+  {
+    "question": "How much do CI/CD Consulting Services cost and what are the pricing models?",
+    "answer": "Costs vary depending on the complexity of your pipelines, number of teams, and ongoing support needs. We offer flexible pricing models including fixed-scope projects, hourly engagements, and long-term consulting retainers. Detailed proposals are provided after the assessment phase."
+  }
+  ]
+}

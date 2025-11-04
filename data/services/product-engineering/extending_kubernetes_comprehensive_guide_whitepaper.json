@@ -1,0 +1,116 @@
+{
+  "hero": {
+    "title": "Extend Kubernetes with Confidence Using Our Comprehensive Whitepaper",
+    "subtitle": "Discover frameworks, best practices, and real-world insights to build <a href=\"https://kubedb.com/\">Kubernetes operators</a>, CRDs, and extend cloud-native capabilities at scale.",
+    "cta_text": "EMAIL ME THE WHITEPAPER",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/extending-kubernetes-comprehensive-guide-whitepaper.png",
+      "alt": "Extending Kubernetes with Custom Controllers and CRDs Illustration"
+    }
+  },
+  "service_details": {
+    "sections": [
+      {
+        "title": "Why Read the Extending Kubernetes Whitepaper?",
+        "description": "<a href=\"https://kubernetes.io/\">Kubernetes</a> is the backbone of modern cloud-native infrastructure, but real operational challenges require extending its capabilities. This whitepaper shows how to leverage Custom Resource Definitions (CRDs), custom controllers, and operators to tailor Kubernetes to your organization's unique needs.",
+        "offerings": [
+          "Master Custom Resource Definitions (CRDs): Learn to define new resource types aligned with your operational requirements.",
+          "Build Custom Controllers: Automate resource lifecycles and increase reliability within your Kubernetes clusters.",
+          "Leverage Frameworks like KubeBuilder & Operator SDK: Simplify operator development and lifecycle management.",
+          "Explore Real-World Use Cases: Understand how top organizations implement Kubernetes extensions for cloud-native challenges.",
+          "Adopt Best Practices from Experts: Strategies for designing, deploying, and maintaining scalable, resilient operators."
+        ],
+        "image": "/assets/images/services/why-should-read-paper.png"
+      }
+    ]
+  },
+  "tech_stack": {
+    "title": "Expert-Driven Open Source Kubernetes Tools",
+    "subtitle": "<a href=\"https://appscode.com/\">AppsCode</a> engineers are core contributors and maintainers of leading open-source projects that simplify and extend Kubernetes capabilities for global enterprises.",
+    "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "cta_section": {
+    "title": "Take Your Kubernetes Expertise to the Next Level",
+    "description": "Whether you’re modernizing your infrastructure or building complex cloud-native systems, understanding how to extend Kubernetes is key to operational excellence. Get expert insights from Appscode’s engineers and start building resilient, scalable, and future-ready cloud-native platforms.",
+    "cta_text": "DOWNLOAD THE WHITEPAPER",
+    "cta_url": "https://appscode.com/contact/"
+  },
+  "faq": [
+    {
+    "question": "What does the “Extending Kubernetes Confidence With Our Whitepaper” cover?",
+    "answer": "Our whitepaper provides a complete roadmap for extending Kubernetes confidence across your organization — from understanding architectural best practices and security hardening to optimizing workloads for scalability, automation, and resilience in production environments."
+  },
+  {
+    "question": "Which topics and practices are explained in the Kubernetes whitepaper?",
+    "answer": "The whitepaper explores Kubernetes orchestration, microservices adoption, CI/CD pipelines, observability, infrastructure as code, and hybrid or multi-cloud deployment models. It’s designed to help teams strengthen operational excellence and build confidence running workloads on Kubernetes."
+  },
+  {
+    "question": "Is the whitepaper relevant if we already use Kubernetes in production?",
+    "answer": "Yes — even experienced teams can benefit. The 'Extending Kubernetes Confidence With Our Whitepaper' highlights advanced techniques for optimizing security, resource efficiency, and reliability, helping you identify areas for improvement in existing Kubernetes setups."
+  },
+  {
+    "question": "How is the whitepaper structured and what can we expect to learn?",
+    "answer": "It begins with foundational Kubernetes concepts, followed by practical migration strategies, automation workflows, and observability best practices. The goal is to help engineering and DevOps teams make informed decisions and build more confident Kubernetes operations."
+  },
+  {
+    "question": "Does the whitepaper address multi-cloud or hybrid Kubernetes environments?",
+    "answer": "Absolutely. It explains how to design and manage workloads across AWS, Azure, GCP, and on-premises clusters. You’ll learn about cross-cloud portability, scaling techniques, and ensuring consistent governance across multiple Kubernetes environments."
+  },
+  {
+    "question": "How does the whitepaper approach security and reliability?",
+    "answer": "Security and reliability are key themes. The whitepaper discusses container isolation, role-based access control (RBAC), secrets management, and automated recovery patterns. It helps teams confidently run production-grade Kubernetes clusters with built-in security and resilience."
+  },
+  {
+    "question": "Who should read the 'Extending Kubernetes Confidence With Our Whitepaper'?",
+    "answer": "This whitepaper is ideal for DevOps engineers, SREs, architects, and decision-makers looking to improve Kubernetes operations, scale efficiently, and adopt cloud-native best practices with confidence."
+  },
+  {
+    "question": "How can we access the Kubernetes confidence whitepaper?",
+    "answer": "You can download it directly from our website. The whitepaper is available for free and provides valuable insights into extending Kubernetes confidence through architecture design, automation, and scalable DevOps practices."
+  }
+  ],
+  "seo": {
+    "meta_title": "Extend Kubernetes with Custom Controllers and CRDs | Appscode Whitepaper",
+    "meta_description": "Learn how to extend Kubernetes using CRDs, custom controllers, and operators. This Appscode whitepaper offers expert guidance, real-world examples, and best practices for scalable cloud-native development."
+  }
+  
+}

@@ -1,0 +1,380 @@
+{
+  "hero": {
+    "title": "Cloud Native Product Development That Scales Seamlessly",
+    "subtitle": "<a href=\"https://appscode.com\">AppsCode Inc.</a> empowers businesses with end-to-end cloud native product development — combining Kubernetes, DevOps, and microservices to deliver secure, resilient, and high-performing software faster.",
+    "cta_text": "TALK TO CLOUD-NATIVE EXPERTS",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/product-engineering-cloud-native-product-development-hero.png",
+      "alt": "Cloud Native Product Development and Engineering"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Leading Global Enterprises and Startups"
+  },
+  "cards": {
+    "title": "Expert Cloud Native Product Development Services",
+    "subtitle": "AppsCode Inc. helps technology leaders architect and deliver modern products using cloud-native development approaches, Kubernetes orchestration, and automated <a href=\"https://appscode.com/services/devops-toolchain-consulting-services/\">DevOps</a> workflows.",
+    "items": [
+      {
+        "icon": "fa fa-users",
+        "title": "On-Demand Cloud-Native Engineers",
+        "description": "Accelerate product delivery with expert engineers skilled in Kubernetes, cloud native development, and microservices-based architectures."
+      },
+      {
+        "icon": "fa fa-cloud",
+        "title": "Deep Cloud-Native Expertise",
+        "description": "Leverage best practices in containerization, service mesh, CI/CD automation, and production-grade orchestration for cloud-native success."
+      },
+      {
+        "icon": "fa fa-bolt",
+        "title": "Flexible Engineering Bandwidth",
+        "description": "Increase capacity for prototyping, sprint bursts, or sustained product work — delivering features faster while maintaining code quality."
+      },
+      {
+        "icon": "fa fa-rocket",
+        "title": "MVP Development for Startups",
+        "description": "Move from idea to validated MVP quickly using microservices patterns, automated CI/CD, and Kubernetes-ready deployments."
+      },
+      {
+        "icon": "fa fa-envelope-o",
+        "title": "Reliable Cloud-Native Product Support",
+        "description": "Global support in APAC and EMEA to keep critical cloud-native systems healthy, secure, and performant in production."
+      },
+      {
+        "icon": "fa fa-money",
+        "title": "Optimized Cost Efficiency",
+        "description": "Design cost-aware cloud-native architectures that reduce cloud spend through efficient autoscaling and resource management."
+      }
+    ]
+  },
+  "golang_expertise": {
+    "title": "Leverage Golang for High-Performance Cloud Native Applications",
+    "subtitle": "Build lightweight, maintainable, and high-throughput cloud-native applications with AppsCode Inc.’s Golang engineers, ideal for Kubernetes microservices and backend systems.",
+    "cta_text": "Meet our Experts",
+    "services": [
+      {
+        "icon": "fa fa-cog",
+        "title": "End-to-End Product Engineering",
+        "description": "From service design to production deployment, our Golang teams deliver scalable, observable, and maintainable cloud-native applications."
+      },
+      {
+        "icon": "fa fa-ticket",
+        "title": "Comprehensive Testing",
+        "description": "Ship reliable software with automated unit, integration, and end-to-end testing pipelines tailored for microservices and containerized workloads."
+      },
+      {
+        "icon": "fa fa-wrench",
+        "title": "Proactive Maintenance",
+        "description": "Keep applications secure and up-to-date with ongoing maintenance, dependency management, and performance tuning in production."
+      },
+      {
+        "icon": "fa fa-life-ring",
+        "title": "24/7 Cloud-Native Support & Monitoring",
+        "description": "Get real-time assistance for incidents, scaling, and performance optimization, keeping your product always production-ready."
+      }
+    ]
+  },
+  "title_with_small_cards": {
+    "title": "Accelerate Cloud Native Product Development with AppsCode",
+    "subtitle": "We support product teams across critical domains for cloud-native success:",
+    "areas": [
+      {
+        "icon": "fa fa-cloud",
+        "title": "Cloud-Native Development"
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Software Security & Compliance"
+      },
+      {
+        "icon": "fa fa-microchip",
+        "title": "DevOps and DevSecOps Automation"
+      },
+      {
+        "icon": "fa fa-server",
+        "title": "Cloud Infrastructure Optimization"
+      }
+    ]
+  },
+  "large_preview_cards": {
+    "title": "Your Strategic Partner in Cloud Native Product Development",
+    "items": [
+      {
+        "icon": "fa fa-rocket",
+        "title": "Startups",
+        "description": "Enable rapid iteration with a small, high-impact engineering team. We help startups design cloud-native architectures that are production-ready and cost-effective."
+      },
+      {
+        "icon": "fa fa-building",
+        "title": "SMEs",
+        "description": "Augment your engineering organization with targeted cloud-native capabilities — from Kubernetes operations to CI/CD and microservices design."
+      },
+      {
+        "icon": "fa fa-industry",
+        "title": "Enterprises",
+        "description": "Modernize legacy applications at scale. AppsCode Inc. helps enterprises migrate, secure, and operate cloud-native platforms across hybrid and multi-cloud environments."
+      }
+    ]
+  },
+  "cards_group": {
+    "title": "Flexible Engagement Models for Cloud-Native Development",
+    "models": [
+      {
+        "number": "01",
+        "title": "Team Extension",
+        "description": "Plug experienced cloud-native engineers into your teams to accelerate delivery while preserving governance and product vision."
+      },
+      {
+        "number": "02",
+        "title": "End-to-End Product Development",
+        "description": "Hand off product development from ideation through launch — AppsCode Inc. handles architecture, implementation, and operational readiness."
+      },
+      {
+        "number": "03",
+        "title": "Fixed Scope Projects",
+        "description": "Deliver targeted features or migrations with clear scope, milestones, and measurable outcomes for predictable investments."
+      }
+    ]
+  },
+  "development_process": {
+    "title": "Our Proven Cloud Native Product Development Process",
+    "subtitle": "We combine disciplined processes, DevOps practices, and pragmatic engineering to deliver predictable, high-quality cloud-native products.",
+    "steps": [
+      {
+        "date": "01",
+        "month": "Step",
+        "title": "Discovery & Strategy",
+        "active": false
+      },
+      {
+        "date": "02",
+        "month": "Step",
+        "title": "MVP Design",
+        "active": false
+      },
+      {
+        "date": "03",
+        "month": "Step",
+        "title": "Development & QA",
+        "active": true
+      },
+      {
+        "date": "04",
+        "month": "Step",
+        "title": "Launch",
+        "active": false
+      },
+      {
+        "date": "05",
+        "month": "Step",
+        "title": "Scale & Optimize",
+        "active": false
+      }
+    ],
+    "active_content": [
+      {
+        "image": "/assets/images/services/steps/discover-opportunities.png",
+        "description": "We start by understanding your business goals, challenges, and target users. Through workshops and research, we identify opportunities where cloud-native technologies can deliver maximum impact. This phase ensures alignment between product vision and market needs.",
+        "active": false
+      },
+      {
+        "image": "/assets/images/services/steps/build-mvp.png",
+        "description": "We translate validated ideas into a Minimum Viable Product (MVP) to test core hypotheses quickly. Our cross-functional teams focus on delivering tangible value using modern cloud-native stacks and CI/CD pipelines for fast feedback and iteration.",
+        "active": false
+      },
+      {
+        "image": "/assets/images/services/steps/development.png",
+        "description": "After validating the MVP and defining requirements, our engineers work iteratively with your product teams. We leverage Kubernetes for orchestration, microservices for modularity, and DevOps pipelines for continuous delivery — ensuring each release is observable, secure, and ready for scale.",
+        "active": true
+      },
+      {
+        "image": "/assets/images/services/steps/launch.png",
+        "description": "Once the product meets stability and performance benchmarks, we prepare for production launch. This includes final validation, observability setup, and rollout strategies to ensure smooth deployment across environments with zero downtime.",
+        "active": false
+      },
+      {
+        "image": "/assets/images/services/steps/scale.png",
+        "description": "After launch, we continuously monitor performance and user metrics to identify growth opportunities. We help scale your platform with advanced automation, resilience strategies, and optimization of cloud resources for cost efficiency and performance.",
+        "active": false
+      }
+    ]
+  },
+
+  "industries": {
+    "title": "Industry Expertise That Drives Results",
+    "subtitle": "With experience across 100+ clients, AppsCode Inc. understands industry-specific compliance, scale, and reliability demands when building cloud-native solutions.",
+    "additional_text": "From global enterprises with distributed datacenters to fast-growing startups, we deliver practical cloud-native strategies tailored to your business.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking and Finance",
+        "description": "Design secure, compliant, and highly available systems for payments, digital banking, and financial services that demand 24/7 reliability."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology & SaaS",
+        "description": "Build multi-tenant, scalable SaaS platforms with integrated AI and data pipelines optimized for Kubernetes and automated DevOps."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Enable connected vehicle services and data-driven features by integrating cloud-native microservices and machine learning pipelines."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy & Utilities",
+        "description": "Modernize monitoring, inspections, and analytics platforms to visualize data, optimize resources, and reduce operational costs."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Process sensitive patient data securely and at scale using cloud GPU instances, containerized workloads, and robust compliance practices."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver seamless booking experiences and dynamic operational systems backed by flexible, scalable, and cost-efficient cloud-native platforms."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "Driving Cloud Native Innovation Through Open Source",
+    "description": "As a contributor to <a href=\"https://kubernetes.io/\">Kubernetes</a> and related open-source ecosystems, AppsCode Inc. helps enterprises build cloud-native solutions using community-driven innovation and proven DevOps tooling.",
+    "cta_text": "Explore Our Open Source Contributions",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Cloud Native Open Source Contributions by AppsCode"
+    }
+  },
+  "tech_stack": {
+    "title": "Comprehensive Cloud-Native Tech Expertise",
+    "subtitle": "Our engineering teams work across the languages, frameworks, and platforms that power modern cloud-native solutions:",
+    "technologies": [
+      {
+        "name": "Golang",
+        "logo": "https://static.cdnlogo.com/logos/g/35/golang.svg"
+      },
+      {
+        "name": "Python",
+        "logo": "https://static.cdnlogo.com/logos/p/4/python.svg"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://static.cdnlogo.com/logos/j/44/javascript.svg"
+      },
+      {
+        "name": "TypeScript",
+        "logo": "https://static.cdnlogo.com/logos/t/96/typescript.svg"
+      },
+      {
+        "name": "Ruby",
+        "logo": "https://static.cdnlogo.com/logos/r/6/ruby_800.png"
+      },
+      {
+        "name": "Java",
+        "logo": "https://static.cdnlogo.com/logos/j/11/java_800.png"
+      }
+    ]
+  },
+  "why_choose_us": {
+    "title": "Why Leading Companies Partner with AppsCode Inc.",
+    "reasons": [
+      {
+        "icon": "fa fa-cog",
+        "title": "Dedicated Cloud-Native Architects",
+        "description": "A senior <a href=\"https://www.cncf.io/\">cloud-native architect</a> leads every engagement, aligning technical decisions with business outcomes and acting as your single point of accountability."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Deep Kubernetes & DevOps Expertise",
+        "description": "Our teams have delivered 100+ cloud-native products, combining practical experience in Kubernetes, microservices, and DevOps to reduce risk and accelerate delivery."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Balanced Team Structure",
+        "description": "We blend experienced architects with creative engineers, fostering rapid innovation while preserving production-grade reliability."
+      },
+      {
+        "icon": "fa fa-wrench",
+        "title": "Seamless Engineering Extension",
+        "description": "Easily scale your development team with our vetted cloud-native experts, reducing hiring time and overhead."
+      }
+    ]
+  },
+    "resources": {
+    "title": "Cloud Native Product Development Resources",
+    "items": [
+      {
+        "type": "Blog",
+        "title": "Getting Started with Perses The Free, Open Source Grafana Alternative",
+        "image": "https://appscode.com/blog/post/getting-started-with-perses-the-free-open-source-grafana-alternative/hero_hu030f24f1ec9a9fe9c13de5ab0e9d783a_31026_1300x650_fill_q75_box_smart1.jpg",
+        "link": "https://appscode.com/blog/post/getting-started-with-perses-the-free-open-source-grafana-alternative/"
+      },
+      {
+        "type": "Blog",
+        "title": "Future-Proof Your Data Strategy - Why Kubernetes is the Engine Behind Stateful Workloads & Modern AI",
+        "image": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_254620_1300x650_fill_q75_box_smart1.jpg",
+        "link": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/"
+      },
+      {
+        "type": "Event",
+        "title": "KubeConNA Digest - Top Trends and Key Takeaways from This Year’s Event by AppsCode",
+        "image": "https://appscode.com/blog/post/kubecon-na-2024/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_69997_1300x650_fill_q75_box_smart1.jpg",
+        "link": "https://appscode.com/blog/post/kubecon-na-2024/"
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Ready to Build Scalable Cloud-Native Products?",
+    "subtitle": "Connect with AppsCode Inc. to explore how our Kubernetes, DevOps, and microservices expertise can accelerate your product roadmap and reduce operational risk.",
+    "buttons": [
+      {
+        "text": "Schedule a Call",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      },
+      {
+        "text": "Download Case Study",
+        "icon": "fa fa-download",
+        "type": "primary"
+      }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What does your Cloud Native Product Development service include?",
+    "answer": "Our Cloud Native Product Development service covers the full product lifecycle — from idea discovery and MVP creation to DevOps, launch, and scaling. We combine Kubernetes, microservices, and agile practices to deliver secure, high-quality software faster."
+  },
+  {
+    "question": "Which technologies and best practices do you use for cloud-native development?",
+    "answer": "We use Kubernetes orchestration, microservices architecture, CI/CD pipelines, Infrastructure as Code, observability, and automated testing. These cloud-native practices help teams build scalable and reliable products efficiently."
+  },
+  {
+    "question": "Can you work with our existing roadmap or tech stack?",
+    "answer": "Yes. Whether you already have a roadmap or need to start from scratch, our engineers can modernize your stack or build a new cloud-native product that aligns with your goals and accelerates time to market."
+  },
+  {
+    "question": "What is the typical timeline and engagement model?",
+    "answer": "Most projects start with a short discovery phase (1–2 weeks) to define scope and architecture, followed by 4–8 week agile sprints. Engagements can be fixed-scope, time-and-materials, or long-term dedicated engineering support."
+  },
+  {
+    "question": "Do you support multi-cloud or hybrid cloud deployments?",
+    "answer": "Absolutely. We design every cloud-native product to run seamlessly on AWS, Google Cloud, Azure, or on-premises Kubernetes clusters. This ensures portability and operational consistency across environments."
+  },
+  {
+    "question": "How do you ensure product quality, security, and reliability?",
+    "answer": "We build quality and security into every stage through automated testing, peer reviews, CI/CD, and monitoring. Security is enforced with container isolation, RBAC, and vulnerability scanning. Our cloud-native approach ensures high reliability and resilience."
+  },
+  {
+    "question": "What happens after we launch the product?",
+    "answer": "Post-launch, we help you measure performance, optimize infrastructure, and scale efficiently. Our experts ensure your product evolves with your business while maintaining cost efficiency."
+  },
+  {
+    "question": "How much does Cloud Native Product Development cost?",
+    "answer": "Cost depends on complexity, scope, and support needs. We offer flexible pricing options — from fixed-price MVP builds to time-based engagements and long-term retainers. A detailed proposal follows our discovery phase."
+  }
+  ],
+  "meta_title": "Cloud-Native Product Development | AppsCode Inc. Expertise in Kubernetes, DevOps & Microservices",
+  "meta_description": "Explore AppsCode Inc.'s cloud-native development services. Expert Kubernetes, DevOps, and microservices engineering to build scalable, resilient, and cost-efficient cloud-native solutions."
+}

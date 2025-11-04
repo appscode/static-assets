@@ -1,0 +1,297 @@
+{
+  "hero": {
+    "title": "Cloud-Native Solutions for the Automotive Industry",
+    "subtitle": "Transform automotive operations, connected vehicles, and manufacturing systems with <a href=\"https://kubernetes.io/\">Kubernetes</a>, <a href=\"https://appscode.com/services/monolith-to-microservices/\">microservices</a>, and modern <a href=\"https://appscode.com/services/devops-toolchain-consulting-services/\">DevOps</a> practices.",
+    "cta_text": "SPEAK WITH AN AUTOMOTIVE CLOUD EXPERT",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/automotive-industry.png",
+      "alt": "Cloud Native for Automotive Industry"
+    }
+  },
+
+  "trusted_by": {
+    "title": "Trusted by Leading Automotive & Mobility Companies"
+  },
+
+  "title_with_small_cards": {
+    "title": "Stay Ahead in the Automotive Sector",
+    "subtitle": "Adopt cloud-native platforms to enhance safety, sustainability, and efficiency while maintaining compliance and competitiveness.",
+    "areas": [
+      {
+        "icon": "fa fa-car",
+        "title": "11,000 lives expected to be saved by connected cars by 2025"
+      },
+      {
+        "icon": "fa fa-lock",
+        "title": "$14.8M — Average cost of non-compliance with data policies in automotive firms"
+      },
+      {
+        "icon": "fa fa-leaf",
+        "title": "400,000 tons of CO2 reduced from connected car adoption by 2025"
+      },
+      {
+        "icon": "fa fa-rocket",
+        "title": "Enhanced operational efficiency and customer satisfaction across automotive value chains"
+      }
+    ]
+  },
+
+  "large_preview_cards2": {
+    "title": "Cloud-Native Transformation Across Automotive Ecosystem",
+    "subtitle": "Automotive companies leveraging cloud-native platforms achieve faster, secure, and scalable operations, while those delaying modernization risk losing competitive advantage.",
+    "items": [
+      {
+        "icon": "fa fa-cogs",
+        "title": "Manufacturers",
+        "description": "Real-time analysis of vehicle sensor data, predictive maintenance, and inventory management improve quality and reduce time-to-market."
+      },
+      {
+        "icon": "fa fa-truck",
+        "title": "Suppliers",
+        "description": "Optimize supply chain, manage assets efficiently, and reduce operational costs with cloud-native tools."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Dealers",
+        "description": "Monitor vehicle performance, enhance after-sales service, and improve customer retention through analytics-driven insights."
+      },
+      {
+        "icon": "fa fa-user",
+        "title": "Consumers",
+        "description": "Enjoy safer, more convenient, and digitally enriched automotive experiences with cloud-enabled applications."
+      }
+    ]
+  },
+
+  "service_details": {
+    "title": "AppsCode Cloud-Native Services for Automotive Industry",
+    "subtitle": "Accelerate automotive digital transformation using Kubernetes, DevOps, and cloud-native practices across connected vehicles, manufacturing, and services.",
+    "sections": [
+      {
+        "title": "Connected Vehicles",
+        "description": "Enable seamless data exchange between vehicles, infrastructure, and cloud platforms for telemetry, over-the-air updates, and fleet monitoring.",
+        "offerings": [
+          "Efficient deployment solutions for remote updates and software launches.",
+          "Network topologies designed for scalability and reliability.",
+          "Enhanced observability for telematics, performance monitoring, and predictive analytics."
+        ],
+        "image": "/assets/images/services/connected-vehicles.png"
+      },
+      {
+        "title": "Digital Manufacturing",
+        "description": "Transform manufacturing operations with cloud-native solutions that enable supply chain visibility, real-time analytics, and regulatory compliance.",
+        "offerings": [
+          "Centralized data pipelines for supply chain analytics and demand forecasting.",
+          "Advanced cloud analytics for predictive production planning.",
+          "Secure, compliant workflows aligned with automotive industry standards."
+        ],
+        "image": "/assets/images/services/digital-manufacturing.png"
+      },
+      {
+        "title": "Autonomous Vehicles",
+        "description": "Support large-scale autonomous vehicle data processing, orchestration, and analytics for safe, reliable, and optimized operations.",
+        "offerings": [
+          "Data-driven anomaly detection and risk management for AV fleets.",
+          "Orchestration of analytics and AI/ML pipelines across multiple frameworks.",
+          "Optimized scalability, integration, and cloud performance for autonomous workloads."
+        ],
+        "image": "/assets/images/services/autonomous-vehicles.png"
+      },
+      {
+        "title": "Customer Experience & Services",
+        "description": "Deliver engaging digital experiences through online platforms, mobile applications, and intelligent services.",
+        "offerings": [
+          "Develop cloud-native applications for fast, secure, and user-centric experiences.",
+          "Design modern automotive products and interfaces focused on customer satisfaction.",
+          "Implement seamless integrations for connected services and mobility solutions."
+        ],
+        "image": "/assets/images/services/customer-experience-services.png"
+      },
+      {
+        "title": "Security & Compliance",
+        "description": "Ensure connected vehicle cybersecurity and maintain compliance across automotive cloud systems.",
+        "offerings": [
+          "Secure communication and data transmission across distributed automotive systems.",
+          "Align with global compliance standards (GDPR, PCI-DSS, CCPA, LGPD, POPIA, PSD2, GLBA).",
+          "Deploy auditable and resilient security frameworks for automotive cloud infrastructures."
+        ],
+        "image": "/assets/images/services/security-compliance.png"
+      }
+    ]
+  },
+
+  "industries": {
+    "title": "Partnering With You Through Every Stage",
+    "subtitle": "From cloud-native strategy to implementation, ongoing monitoring, and maintenance, AppsCode ensures seamless adoption for automotive enterprises.",
+    "additional_text": "From OEMs to automotive startups, our certified engineers deliver expert cloud-native services.",
+    "sectors": [
+      {
+        "icon": "fa fa-car",
+        "title": "Cloud-Native Consulting & Advisory",
+        "description": "Plan, strategize, and implement cloud-native solutions tailored to automotive industry requirements."
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Application Modernization",
+        "description": "Refactor legacy automotive applications into microservices with Kubernetes and Docker for scalable deployment."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Team Augmentation",
+        "description": "Extend your engineering capacity with certified cloud-native and DevSecOps experts."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Training & Workshops",
+        "description": "Hands-on sessions on Kubernetes, CI/CD, observability, service mesh, and security best practices."
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Enterprise Managed Support",
+        "description": "24/7 operational support, monitoring, and proactive incident management for automotive cloud services."
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Security & Compliance",
+        "description": "Implement automotive cybersecurity measures and maintain compliance with global regulations."
+      }
+    ]
+  },
+
+  "open_source": {
+    "title": "Open Source Contributions",
+    "description": "<a href=\"https://appscode.com/\">AppsCode </a> contributes to cloud-native projects like Kubernetes and Prometheus, leveraging OSS to build reliable automotive platforms.",
+    "cta_text": "Explore Our OSS Work",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Contributions"
+    }
+  },
+
+  "tech_stack": {
+    "title": "Automotive Cloud-Native Tech Stack",
+    "subtitle": "Certified engineers with expertise in Kubernetes, observability, DevSecOps, and cloud-native tools for automotive workloads.",
+    "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+
+  "final_cta": {
+    "title": "Ready to Build Cloud-Native Automotive Platforms?",
+    "subtitle": "Partner with AppsCode to accelerate digital transformation in the automotive industry with Kubernetes and DevOps best practices.",
+    "buttons": [
+      {
+        "text": "Talk to an Automotive Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+
+  "cards": {
+    "title": "Why Choose AppsCode for Automotive Cloud-Native Services?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "Certified Developers",
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Domain Expertise",
+        "description": "100+ successful projects in automotive, connected vehicles, and mobility services."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "First Mover Advantage",
+        "description": "Among the first Kubernetes service providers in India and APAC."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Hands-on Training",
+        "description": "Practical workshops on Kubernetes, CI/CD, observability, and DevSecOps for automotive teams."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Certified Provider",
+        "description": "AppsCode is a CNCF Silver Member & Kubernetes Certified Service Provider (KCSP)."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Scalable Team Extension",
+        "description": "Expand engineering teams without hiring overhead using AppsCode expertise."
+      }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What do your Cloud-Native Solutions for the Automotive Industry include?",
+    "answer": "Our services help automotive organizations modernize their software and IT infrastructure using cloud-native technologies. We cover connected vehicle platforms, telematics, IoT integration, microservices adoption, scalable cloud deployment, and secure application delivery."
+  },
+  {
+    "question": "Which technologies and practices are used in cloud-native solutions for the automotive industry?",
+    "answer": "We leverage Kubernetes, Docker, microservices architecture, CI/CD pipelines, DevSecOps practices, cloud providers like AWS, Azure, and GCP, as well as observability and monitoring tools. This ensures resilient, scalable, and secure automotive applications and services."
+  },
+  {
+    "question": "Can you integrate cloud-native solutions with our existing automotive systems?",
+    "answer": "Yes — we work with your existing vehicle software, telematics platforms, IoT systems, and manufacturing applications, modernize workloads, implement microservices patterns, and integrate cloud-native best practices while ensuring data security and compliance."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for cloud-native solutions in automotive?",
+    "answer": "Engagements typically start with a 1–2 week assessment of your infrastructure, applications, and integration needs. Implementation follows in 4–12 week phases depending on complexity. We offer fixed-scope projects, time-and-materials consulting, or long-term advisory partnerships."
+  },
+  {
+    "question": "Do cloud-native solutions support multi-cloud or hybrid deployments for automotive organizations?",
+    "answer": "Absolutely. Our solutions are designed for multi-cloud and hybrid deployments, enabling seamless operations across AWS, Azure, GCP, and on-premises automotive infrastructure."
+  },
+  {
+    "question": "How do you ensure security, compliance, and reliability in automotive applications?",
+    "answer": "We implement encryption, access controls, secure CI/CD pipelines, monitoring, and disaster recovery. These measures ensure automotive applications are secure, reliable, and compliant with industry standards and regulations."
+  },
+  {
+    "question": "What happens after cloud-native solutions are implemented in the automotive industry?",
+    "answer": "After implementation, we provide ongoing support, monitoring, optimization, and knowledge transfer. Our services ensure automotive applications remain secure, scalable, and optimized for connected vehicle platforms and manufacturing systems."
+  },
+  {
+    "question": "How much do cloud-native solutions for the automotive industry cost, and what are the pricing models?",
+    "answer": "Pricing depends on application complexity, number of systems, and ongoing support requirements. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+  }
+  ]
+}

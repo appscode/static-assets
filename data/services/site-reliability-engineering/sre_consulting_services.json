@@ -1,0 +1,269 @@
+{
+  "hero": {
+    "title": "Professional Site Reliability Engineering (SRE) Consulting & Support",
+    "subtitle": "Transform your operations with expert-led SRE adoption, improving reliability, performance, and scalability across your enterprise systems.",
+    "cta_text": "Talk to a SRE Expert",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/sre-consulting-services.png",
+      "alt": "Site Reliability Engineering Consulting & Support"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Leading Enterprises Globally"
+  },
+  "title_with_small_cards": {
+    "title": "Benefits of SRE Consulting Services",
+    "areas": [
+      { "icon": "fa fa-rocket", "title": "Accelerate Feature Delivery & Product Releases" },
+      { "icon": "fa fa-shield", "title": "Ensure Production Stability & Reliability" },
+      { "icon": "fa fa-database", "title": "Comprehensive Observability & Monitoring" },
+      { "icon": "fa fa-bug", "title": "Enhance DevOps Workflows with CI/CD Automation" },
+      { "icon": "fa fa-cogs", "title": "Automate Infrastructure Provisioning" },
+      { "icon": "fa fa-dollar", "title": "Optimize Costs & Capacity Planning" },
+      { "icon": "fa fa-server", "title": "Manage Kubernetes Clusters & Storage" },
+      { "icon": "fa fa-shield", "title": "Ensure Security, Compliance & Governance" }
+    ]
+  },
+  "service_details": {
+    "title": "Enterprise SRE Consulting & Implementation Services",
+    "subtitle": "<a href=\"https://appscode.com/\">AppsCode </a> provides end-to-end SRE consulting, from strategy and assessment to implementation and ongoing support for enterprise systems.",
+    "sections": [
+      {
+        "title": "SRE Advisory & Strategic Planning",
+        "description": "Define a clear roadmap for SRE adoption tailored to your organization by assessing systems, automation, and operational workflows.",
+        "offerings": [
+          "Audit current infrastructure, <a href=\"https://appscode.com/services/ci-cd-consulting-services/\">CI/CD</a> pipelines, and monitoring setups.",
+          "Define SLIs (Service Level Indicators) and SLOs (Service Level Objectives) aligned with business goals.",
+          "Implement error budgets, incident policies, and reliability metrics.",
+          "Recommend industry-standard SRE practices to enhance system reliability."
+        ],
+        "image": "/assets/images/services/sre-consulting-strategy.png"
+      },
+      {
+        "title": "Automated SDLC & Infrastructure Management",
+        "description": "Accelerate delivery by automating infrastructure and application deployments across multi-cloud and hybrid environments.",
+        "offerings": [
+          "Implement CI/CD pipelines for consistent and reliable software delivery.",
+          "Adopt progressive delivery for cloud-native applications with minimal downtime.",
+          "Manage Kubernetes orchestration, auto-scaling, and configuration for high availability."
+        ],
+        "image": "/assets/images/services/sre-consulting-infrastructure-management.png"
+      },
+      {
+        "title": "Observability, Monitoring & Metrics",
+        "description": "Gain end-to-end observability to proactively identify and resolve issues while optimizing system performance.",
+        "offerings": [
+          "Deploy comprehensive monitoring, logging, and alerting across infrastructure and applications.",
+          "Generate actionable metrics to continuously improve reliability and performance."
+        ],
+        "image": "/assets/images/services/sre-consulting-observability.png"
+      },
+      {
+        "title": "Incident Management & Remediation",
+        "description": "Establish processes for on-call support, emergency troubleshooting, and operational runbooks to minimize downtime.",
+        "offerings": [
+          "Conduct post-mortem analysis to prevent recurrence of incidents.",
+          "Apply expert Linux/Unix and cloud troubleshooting techniques."
+        ],
+        "image": "/assets/images/services/sre-consulting-incident-management.png"
+      },
+      {
+        "title": "Disaster Recovery & Resilience Testing",
+        "description": "Ensure business continuity through automated disaster recovery strategies and resilience testing for containerized applications.",
+        "offerings": [
+          "Design and execute chaos engineering experiments to validate system resilience."
+        ],
+        "image": "/assets/images/services/sre-consulting-disaster-recovery.png"
+      },
+      {
+        "title": "Security, Governance & Cost Optimization",
+        "description": "Protect systems, maintain compliance, and optimize operational costs across cloud and hybrid infrastructures.",
+        "offerings": [
+          "Perform security audits and vulnerability remediation.",
+          "Implement capacity planning and rightsizing for optimized resource usage.",
+          "Monitor and control operational costs effectively."
+        ],
+        "image": "/assets/images/services/sre-consulting-security-governance.png"
+      },
+      {
+        "title": "SRE Training & Knowledge Transfer",
+        "description": "Empower teams with hands-on training in SRE best practices for ongoing operational excellence.",
+        "offerings": [
+          "Train internal teams on SRE principles and DevOps integration.",
+          "Create comprehensive documentation and knowledge bases for continuous learning."
+        ],
+        "image": "/assets/images/services/sre-consulting-training.png"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why Partner with AppsCode for SRE Consulting?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "Certified Experts",
+        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Domain Experience",
+        "description": "Proven SRE and cloud-native practices across 100+ clients."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "First Mover Advantage",
+        "description": "One of the first <a href=\"https://kubedb.com/\">Kubernetes service providers</a> in Bangladesh and APAC."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Hands-On Training",
+        "description": "Practical training to build in-house SRE expertise."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Certified Provider",
+        "description": "AppsCode is a <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and Kubernetes Certified Service Provider (KCSP)."
+      },
+      {
+        "icon": "fa fa-wrench",
+        "title": "Scale Teams Easily",
+        "description": "Easily expand engineering teams without recruitment overhead."
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industry Expertise",
+    "subtitle": "We help 100+ clients across sectors tackle operational challenges, compliance, and reliability.",
+    "additional_text": "From global enterprises to high-growth startups, we deliver scalable, reliable, and secure SRE solutions.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Ensure compliant and resilient production systems for financial services."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology & SaaS",
+        "description": "Integrate SRE practices into cloud-native SaaS and AI applications."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Deliver reliable and safe systems to meet evolving customer expectations."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Modernize monitoring and resource management to optimize operations."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Ensure high-speed, reliable deployment for critical healthcare systems."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Provide seamless, scalable, and cost-efficient operations."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "Open Source Contributions",
+    "description": "Our engineers actively contribute to cloud-native OSS projects and leverage open-source tools to deliver innovative SRE solutions.",
+    "cta_text": "Explore Our OSS Projects",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Diverse Technical Expertise",
+    "subtitle": "Our engineers are proficient in:",
+     "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What do your Site Reliability Engineering (SRE) Consulting services include?",
+    "answer": "Our Site Reliability Engineering (SRE) Consulting services help organizations improve system reliability, scalability, and performance. We cover service-level objectives (SLOs), incident management, monitoring, automation, and resilience strategies to ensure stable and efficient operations for critical applications."
+  },
+  {
+    "question": "Which technologies and practices are used in SRE consulting?",
+    "answer": "We leverage Kubernetes, cloud-native architectures, observability tools, CI/CD pipelines, infrastructure as code, incident response automation, and performance monitoring. Our approach applies SRE best practices to enhance reliability, reduce downtime, and improve system performance."
+  },
+  {
+    "question": "Can you work with our existing infrastructure and operations teams?",
+    "answer": "Yes — we integrate with your current systems and teams, assess reliability gaps, implement SRE practices, and provide guidance to optimize operational processes for improved service uptime and stability."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for SRE Consulting?",
+    "answer": "Engagements typically begin with a 1–2 week assessment of your infrastructure, operations, and reliability metrics. Implementation follows in 4–8 week phases. We offer fixed-scope projects, time-and-materials consulting, or long-term SRE advisory partnerships."
+  },
+  {
+    "question": "Do SRE Consulting services support multi-cloud or hybrid environments?",
+    "answer": "Absolutely. Our SRE Consulting services are designed for hybrid and multi-cloud architectures, ensuring consistent reliability, monitoring, and incident management across AWS, Azure, GCP, and on-premises systems."
+  },
+  {
+    "question": "How do you ensure security, reliability, and efficiency in SRE practices?",
+    "answer": "We enforce best practices including automated monitoring, alerting, access control, performance tuning, disaster recovery planning, and incident response automation. These measures help maintain secure, resilient, and efficient systems."
+  },
+  {
+    "question": "What happens after SRE consulting and implementation?",
+    "answer": "After implementation, we provide ongoing guidance, monitoring, and optimization. Our services include knowledge transfer, SRE training, and recommendations for continuous reliability improvements and operational excellence."
+  },
+  {
+    "question": "How much do Site Reliability Engineering (SRE) Consulting services cost, and what are the pricing models?",
+    "answer": "Pricing depends on infrastructure complexity, number of services, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+  }
+  ],
+  "final_cta": {
+    "title": "Looking for Expert SRE Support?",
+    "subtitle": "Our experienced SRE consultants help optimize reliability, performance, and operational efficiency using best practices and modern tools.",
+    "buttons": [
+      {
+        "text": "Consult a SRE Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  }
+}

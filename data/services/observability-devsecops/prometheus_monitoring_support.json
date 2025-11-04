@@ -1,0 +1,261 @@
+{
+  "hero": {
+    "title": "Prometheus Consulting Services & Enterprise Support by Appscode",
+    "subtitle": "Leverage Prometheus consulting, deployment, and optimization services to achieve enterprise-grade observability and monitoring for your cloud-native infrastructure.",
+    "cta_text": "TALK TO A PROMETHEUS EXPERT",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/prometheus-monitoring-support.png",
+      "alt": "Prometheus Consulting and Implementation Services by Appscode"
+    }
+  },
+
+  "trusted_by": {
+    "title": "Trusted by Global Enterprises and Cloud-Native Innovators"
+  },
+
+  "title_with_small_cards": {
+    "title": "Why Choose Prometheus Consulting Services?",
+    "areas": [
+      { "icon": "fa fa-eye", "title": "All-in-One Monitoring and Observability Solution" },
+      { "icon": "fa fa-dashboard", "title": "Prevent and Detect Critical Incidents Early" },
+      { "icon": "fa fa-tachometer", "title": "Build a Scalable Observability Stack with Ease" },
+      { "icon": "fa fa-file-text", "title": "Gain Complete Metrics Visibility and Control" },
+      { "icon": "fa fa-cogs", "title": "Integrate Prometheus with Leading Tools Seamlessly" },
+      { "icon": "fa fa-plug", "title": "Commercial Support, Training, and Ongoing Optimization" }
+    ]
+  },
+
+  "service_details": {
+    "title": "Our Prometheus Consulting & Implementation Capabilities",
+    "subtitle": "Accelerate your observability journey with expert Prometheus consulting, deployment, and support from Appscode.",
+    "sections": [
+      {
+        "title": "Prometheus Consulting & Production Implementation",
+        "description": "Appscode’s Prometheus experts analyze your infrastructure, workloads, and application framework to design and deploy an optimized Prometheus setup following cloud-native and <a href=\"https://appscode.com/services/devops-toolchain-consulting-services/\">DevOps</a> best practices.",
+        "offerings": [
+          "Comprehensive system and metric requirement analysis for tailored Prometheus implementation.",
+          "Instrumentation of your codebase to expose application and infrastructure metrics.",
+          "Optimized labeling and structuring of metrics for performance and production readiness."
+        ],
+        "image": "/assets/images/services/prometheus-consulting-implementation.png"
+      },
+      {
+        "title": "Incident Management with Prometheus Alertmanager",
+        "description": "Enable real-time monitoring, proactive alerting, and automated incident response using Prometheus and Alertmanager integration.",
+        "offerings": [
+          "Setup and configuration of Prometheus Alertmanager for intelligent incident tracking.",
+          "Custom alert rules and thresholds based on business-critical metrics.",
+          "Integration with Slack, PagerDuty, and other notification systems.",
+          "Exporters setup for deeper post-mortem and root-cause analysis."
+        ],
+        "image": "/assets/images/services/prometheus-incident-management.png"
+      },
+      {
+        "title": "Prometheus Data Modeling & PromQL Query Optimization",
+        "description": "Our consultants ensure your Prometheus metrics deliver actionable insights through efficient data modeling and query optimization.",
+        "offerings": [
+          "Designing effective metric models and labels for simplified analysis.",
+          "Optimizing PromQL queries to extract key performance indicators.",
+          "Developing reusable dashboards and templates for ongoing insights."
+        ],
+        "image": "/assets/images/services/prometheus-data-modeling-querying.png"
+      },
+      {
+        "title": "Integration with Grafana, Loki & Third-Party Tools",
+        "description": "Extend Prometheus capabilities by integrating with popular observability and automation tools.",
+        "offerings": [
+          "Grafana dashboard setup for visualizing Prometheus metrics and trends.",
+          "Loki integration for centralized logging and observability.",
+          "Alertmanager connections with PagerDuty and Opsgenie for automated responses.",
+          "KEDA configuration for event-driven auto-scaling using Prometheus metrics."
+        ],
+        "image": "/assets/images/services/prometheus-third-party-integration.png"
+      },
+      {
+        "title": "Prometheus Commercial Support & Training",
+        "description": "As an official Prometheus commercial support provider, Appscode delivers end-to-end guidance, troubleshooting, and knowledge transfer.",
+        "offerings": [
+          "Hands-on training to strengthen your in-house Prometheus skills.",
+          "Comprehensive support for deployment, scaling, and troubleshooting.",
+          "Ongoing consulting to optimize performance and reduce mean time to recovery (MTTR)."
+        ],
+        "image": "/assets/images/services/prometheus-commercial-support-training.png"
+      }
+    ]
+  },
+
+  "industries": {
+    "title": "Industry-Specific Prometheus Observability Expertise",
+    "subtitle": "Appscode’s Prometheus consulting services power reliability, compliance, and performance across industries.",
+    "additional_text": "Whether you’re a fast-scaling SaaS or a global enterprise, we tailor Prometheus monitoring solutions to fit your infrastructure and business needs.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Highly available, compliant systems for handling transactions and payments 24/7."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology, SaaS & Internet",
+        "description": "Integrate AI within your SaaS while we manage performance-critical infrastructure."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Keep up with AI and ML-driven customer expectations and technology integrations."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Streamline inspections, monitor resources, visualize data, and reduce operational costs."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Process patient data quickly using cloud infrastructure for real-time insights."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver seamless operations and instant updates with scalable, cost-effective systems."
+      }
+    ]
+  },
+
+  "open_source": {
+    "title": "We Build and Contribute to Open Source",
+    "description": "At Appscode, open source fuels everything we do. Our engineers contribute to major cloud-native and observability projects, extending the Prometheus ecosystem for community and enterprise innovation.",
+    "cta_text": "Explore Our Open Source Contributions",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Appscode Prometheus Open Source Contributions"
+    }
+  },
+
+  "tech_stack": {
+    "title": "Diverse Technical Expertise",
+    "subtitle": "Serving 100+ customers, our engineers have expertise across cloud-native and security tools.",
+    "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+
+  "final_cta": {
+    "title": "Looking for Prometheus Commercial Support?",
+    "subtitle": "Consult our experts for an all-in-one solution from consulting and implementation to enterprise-grade 3rd party support.",
+    "buttons": [
+      {
+        "text": "Consult a Prometheus Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+
+  "cards": {
+    "title": "Why Appscode for Prometheus Consulting & Support?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "Certified Developers",
+        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Domain Expertise",
+        "description": "Delivering best practices from 100+ client implementations."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "First Mover Advantage",
+        "description": "First <a href=\"https://kubedb.com/\">Kubernetes service providers</a>in Bangladesh and second in APAC."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Training",
+        "description": "Hands-on training to build practical Prometheus expertise."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Certified Provider",
+        "description": "<a href=\"https://appscode.com/\">AppsCode </a> is a proud <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and Kubernetes Certified Service Provider (KCSP)."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Scalable Teams",
+        "description": "Easily expand your team without hiring or training overhead."
+      }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What do your Prometheus Consulting Services include?",
+    "answer": "Our Prometheus Consulting Services help organizations implement, configure, and optimize Prometheus for monitoring cloud-native applications and infrastructure. We cover metrics collection, alerting, query optimization, and integration with visualization tools like Grafana."
+  },
+  {
+    "question": "Which technologies and practices are used in Prometheus consulting?",
+    "answer": "We leverage Prometheus, Alertmanager, Grafana, Kubernetes, OpenTelemetry, and cloud-native monitoring tools. Our approach ensures reliable metrics collection, accurate alerting, performance monitoring, and actionable insights across complex systems."
+  },
+  {
+    "question": "Can you work with our existing monitoring infrastructure?",
+    "answer": "Yes — we integrate Prometheus with your current monitoring setup, optimize scraping intervals, configure alerts, set up Grafana dashboards, and provide guidance for continuous monitoring and observability improvement."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for Prometheus Consulting Services?",
+    "answer": "Engagements typically start with a 1–2 week assessment of your observability and monitoring architecture. Implementation follows in 2–6 week phases depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term Prometheus advisory partnerships."
+  },
+  {
+    "question": "Do Prometheus Consulting Services support multi-cloud or hybrid environments?",
+    "answer": "Absolutely. Our services are designed for multi-cloud and hybrid environments, ensuring consistent metrics collection, alerting, and dashboards across AWS, Azure, GCP, and on-premises systems."
+  },
+  {
+    "question": "How do you ensure reliability, scalability, and actionable monitoring with Prometheus?",
+    "answer": "We implement best practices for metric naming, retention policies, alerting rules, federation, and integration with visualization tools. These measures ensure reliable, scalable, and actionable monitoring of cloud-native workloads."
+  },
+  {
+    "question": "What happens after Prometheus consulting and implementation?",
+    "answer": "After implementation, we provide ongoing support, monitoring guidance, dashboard maintenance, and recommendations for continuous improvement to ensure your Prometheus setup remains effective and up-to-date."
+  },
+  {
+    "question": "How much do Prometheus Consulting Services cost, and what are the pricing models?",
+    "answer": "Pricing depends on system complexity, number of metrics, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+  }
+  ]
+}

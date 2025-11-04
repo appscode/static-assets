@@ -1,0 +1,244 @@
+{
+  "hero": {
+    "title": "DevOps Toolchain Consulting & Implementation Services",
+    "subtitle": "Design, automate, and optimize your <a href=\"https://appscode.com/services/ci-cd-consulting-services/\">CI/CD</a> pipelines with a cloud-native DevOps toolchain built for speed, scalability, and security.",
+    "cta_text": "Talk to a DevOps Toolchain Expert",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/devops-toolchain-consulting-hero.png",
+      "alt": "DevOps Toolchain Consulting Services"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Leading Enterprises Worldwide"
+  },
+  "title_with_small_cards": {
+    "title": "Why Invest in DevOps Toolchain Consulting?",
+    "areas": [
+      { "icon": "fa fa-code", "title": "Automated CI/CD Workflows" },
+      { "icon": "fa fa-users", "title": "Improved Collaboration Between Dev & Ops" },
+      { "icon": "fa fa-clock-o", "title": "Accelerated Software Delivery" },
+      { "icon": "fa fa-bug", "title": "Enhanced Testing & Quality Assurance" },
+      { "icon": "fa fa-cogs", "title": "Reduced Deployment Risks" },
+      { "icon": "fa fa-database", "title": "Consistent & Reliable Releases" }
+    ]
+  },
+  "service_details": {
+    "title": "Our DevOps Toolchain Consulting Services",
+    "subtitle": "We design, integrate, and manage DevOps toolchains that empower teams to automate end-to-end software delivery pipelines.",
+    "sections": [
+      {
+        "title": "Toolchain Assessment & Gap Analysis",
+        "description": "Our DevOps experts evaluate your current toolchain, analyze performance bottlenecks, and recommend improvements for a fully automated CI/CD ecosystem.",
+        "offerings": [
+          "Comprehensive audit of your DevOps processes and automation maturity.",
+          "Identify gaps between your current setup and modern DevOps standards.",
+          "Recommend tool integration strategies for faster deployments.",
+          "Benchmark against leading practices from CNCF and GitLab ecosystems."
+        ],
+        "image": "/assets/images/services/toolchain-analysis.png"
+      },
+      {
+        "title": "DevOps Toolchain Design & Implementation",
+        "description": "We build or optimize your toolchain architecture—integrating the best tools like Jenkins, ArgoCD, GitLab CI/CD, and Terraform to streamline workflows.",
+        "offerings": [
+          "Custom DevOps toolchain design aligned with your cloud strategy.",
+          "Integrate open-source and enterprise-grade DevOps tools seamlessly.",
+          "Automate code builds, tests, and deployments for continuous delivery.",
+          "Ensure cloud-native compatibility with Kubernetes, Helm, and Kustomize."
+        ],
+        "image": "/assets/images/services/process-design-implementation.png"
+      },
+      {
+        "title": "DevOps Training & Enablement",
+        "description": "Empower your teams to manage, monitor, and evolve your toolchain with confidence and consistency.",
+        "offerings": [
+          "Hands-on training on tools like ArgoCD, Jenkins, GitHub Actions, and Terraform.",
+          "Guidance on GitOps adoption for improved reliability and observability.",
+          "Create in-house DevOps champions through role-based workshops."
+        ],
+        "image": "/assets/images/services/toolchain-training.png"
+      },
+      {
+        "title": "Managed DevOps Toolchain Services",
+        "description": "We handle your DevOps toolchain operations end-to-end — from configuration and monitoring to optimization and updates.",
+        "offerings": [
+          "24/7 toolchain monitoring and maintenance.",
+          "Proactive updates and patch management to minimize disruptions.",
+          "Support for hybrid, multi-cloud, and on-prem DevOps environments.",
+          "Leverage our [Kubernetes Consulting](https://appscode.com/services/kubernetes-consulting/) and [GitOps Services](https://appscode.com/services/gitops-consulting/) for complete cloud-native automation."
+        ],
+        "image": "/assets/images/services/managed-devops-services.png"
+      }
+    ]
+  },
+  "industries": {
+    "title": "DevOps Toolchain Expertise Across Industries",
+    "subtitle": "From startups to global enterprises, our DevOps consulting services drive automation, scalability, and reliability.",
+    "additional_text": "We bring deep domain experience in critical sectors with strict compliance and uptime requirements.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Ensure highly available, compliant systems for 24/7 transaction processing and payments."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology & SaaS",
+        "description": "Integrate AI and manage high-performance cloud infrastructure efficiently."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Leverage AI & ML to meet rising customer expectations while ensuring safety and sustainability."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Modernize operations for inspections, resource monitoring, and cost optimization."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Process patient data efficiently to meet rapidly evolving healthcare demands."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver seamless operations with instant updates using cost-effective, scalable systems."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "We Love Open Source",
+    "description": "Our developers contribute to cloud-native projects and create OSS solutions to empower the tech community.",
+    "cta_text": "Explore Our OSS Contributions",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Technical Expertise",
+    "subtitle": "Our certified engineers excel in:",
+  "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "final_cta": {
+    "title": "Ready to Optimize Your DevOps Toolchain?",
+    "subtitle": "Talk to our certified DevOps consultants to automate and scale your delivery pipelines efficiently.",
+    "buttons": [
+      {
+        "text": "Talk to a DevOps Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why Choose AppsCode for DevOps Toolchain Consulting?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Certified Provider",
+        "description": "<a href=\"https://appscode.com/\">AppsCode </a> is a <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and Kubernetes Certified Service Provider (KCSP)."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Certified DevOps Engineers",
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Proven Domain Expertise",
+        "description": "Implemented enterprise-grade CI/CD and automation pipelines across 100+ clients globally."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "First Mover Advantage",
+        "description": "Among the earliest <a href=\"https://kubernetes.io/\">Kubernetes</a> and DevOps service providers in APAC."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "End-to-End Training & Support",
+        "description": "Empower your teams with practical DevOps and toolchain workshops for long-term self-sufficiency."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Scalable & Reliable Partnership",
+        "description": "Easily scale your DevOps teams and capabilities with AppsCode’s managed expertise."
+      }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What do your DevOps Toolchain Consulting services include?",
+    "answer": "Our DevOps Toolchain Consulting services help organizations design, implement, and optimize the full DevOps toolchain. This includes CI/CD pipelines, configuration management, monitoring, logging, containerization, and automation to improve collaboration, speed, and reliability across development and operations teams."
+  },
+  {
+    "question": "Which technologies and practices are used in DevOps toolchain consulting?",
+    "answer": "We leverage tools such as Jenkins, GitLab CI/CD, GitHub Actions, ArgoCD, Terraform, Ansible, Docker, Kubernetes, and observability platforms. Our approach ensures integrated workflows, automated processes, and efficient deployment practices aligned with DevOps principles."
+  },
+  {
+    "question": "Can you integrate with our existing DevOps toolchain?",
+    "answer": "Yes — we assess your current toolchain and workflows, integrate best practices, optimize automation, and ensure seamless interoperability between tools to improve efficiency, reduce errors, and accelerate delivery."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for DevOps Toolchain Consulting?",
+    "answer": "Engagements typically start with a 1–2 week assessment phase to understand your existing processes and tools. Implementation follows in 4–8 week sprints depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term advisory partnerships."
+  },
+  {
+    "question": "Do DevOps Toolchain Consulting services support multi-cloud or hybrid environments?",
+    "answer": "Absolutely. We design DevOps toolchains that work across AWS, Azure, GCP, and on-premises environments, ensuring consistent, automated workflows and operational reliability across platforms."
+  },
+  {
+    "question": "How do you ensure security, reliability, and efficiency in the DevOps toolchain?",
+    "answer": "We enforce security best practices including access control, secrets management, and auditability. Reliability is ensured with automated testing, monitoring, and disaster recovery strategies. Efficiency is achieved through streamlined workflows, automation, and optimized integration between tools."
+  },
+  {
+    "question": "What happens after DevOps Toolchain Consulting and implementation?",
+    "answer": "After implementation, we provide ongoing guidance, monitoring, optimization, and knowledge transfer. Our services include continuous improvement recommendations to maintain a robust, automated, and efficient DevOps toolchain."
+  },
+  {
+    "question": "How much do DevOps Toolchain Consulting services cost, and what are the pricing models?",
+    "answer": "Pricing depends on toolchain complexity, number of teams, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+  }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "hero": {
+    "title": "Expert Progressive Delivery Consulting Services",
+    "subtitle": "Helping organizations adopt progressive delivery with proven strategies—from roadmap creation to implementation and enterprise-grade support.",
+    "cta_text": "TALK TO A PROGRESSIVE DELIVERY CONSULTING EXPERT",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/progressive-delivery-consulting.png",
+      "alt": "Progressive Delivery Consulting Services"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Leading Enterprises Worldwide"
+  },
+  "service_details": {
+    "title": "Our Progressive Delivery Consulting & Implementation Services",
+    "subtitle": "Optimize software release cycles and accelerate DevOps adoption with expert guidance and hands-on progressive delivery implementation.",
+    "sections": [
+      {
+        "title": "Progressive Delivery Advisory & Roadmap",
+        "description": "Our consulting team evaluates your deployment strategies, identifies improvement areas, and provides a clear roadmap for adopting progressive delivery practices.",
+        "offerings": [
+          "Compare current deployment workflows against industry best practices.",
+          "Audit infrastructure for readiness and maturity with actionable recommendations.",
+          "Develop a deployment plan aligned with business goals for seamless adoption.",
+          "Select and configure tools for zero-downtime releases and safe rollouts."
+        ],
+        "image": "/assets/images/services/progressive-delivery-consulting-advisory.png"
+      },
+      {
+        "title": "Progressive Delivery Implementation",
+        "description": "We assist in building or migrating <a href=\"https://appscode.com/services/ci-cd-consulting-services/\">CI/CD</a> pipelines into progressive delivery workflows to enable safer, faster, and controlled software releases.",
+        "offerings": [
+          "Blue-Green deployments for quick rollouts and rollbacks.",
+          "Canary deployments to release features gradually.",
+          "A/B testing for analyzing user behavior and preferences.",
+          "Automated rollout and rollback strategies.",
+          "Traffic shaping to optimize user experience.",
+          "In-production testing and monitoring."
+        ],
+        "image": "/assets/images/services/progressive-delivery-consulting-implementation.png"
+      },
+      {
+        "title": "Enterprise Support for Progressive Delivery",
+        "description": "Our team ensures your progressive delivery pipelines operate smoothly with enterprise-grade support for Kubernetes, service meshes, traffic controllers, and more.",
+        "offerings": [
+          "Proactive monitoring and logging to detect issues early.",
+          "Zero-downtime deployments with automated rollback strategies.",
+          "Regular updates, patches, and fixes for all progressive delivery tools."
+        ],
+        "image": "/assets/images/services/progressive-delivery-consulting-support.png"
+      },
+      {
+        "title": "Progressive Delivery Tools Training",
+        "description": "Enable teams to independently manage deployments with hands-on training on modern progressive delivery tools and methodologies.",
+        "offerings": [
+          "Workshops on Argo Rollouts and Flagger for automated deployments.",
+          "Master Blue-Green, Canary, A/B testing, and traffic splitting techniques.",
+          "Implement industry best practices under expert guidance."
+        ],
+        "image": "/assets/images/services/progressive-delivery-consulting-training.png"
+      }
+    ]
+  },
+  "cards_group": {
+    "title": "AppsCode’s AAA Framework for Platform Engineering",
+    "models": [
+      {
+        "number": "01",
+        "title": "ADOPT",
+        "description": "Evaluate current tools and practices to define platform goals. Our assessment framework helps identify value-driven initiatives."
+      },
+      {
+        "number": "02",
+        "title": "ACCELERATE",
+        "description": "Ensure platform adoption through user-centric strategies, evangelizing the platform to increase engagement across teams."
+      },
+      {
+        "number": "03",
+        "title": "ASSETS",
+        "description": "Scale platform adoption by replicating successful processes across teams for broader impact."
+      }
+    ]
+  },
+  "title_with_small_cards": {
+    "title": "Key Benefits of Progressive Delivery Consulting",
+    "areas": [
+      { "icon": "fa fa-clock-o", "title": "Move Fast with Control" },
+      { "icon": "fa fa-star", "title": "Future-Ready Software Delivery" },
+      { "icon": "fa fa-bolt", "title": "Faster Time-to-Market" },
+      { "icon": "fa fa-flask", "title": "Experiment Safely on Existing Products" },
+      { "icon": "fa fa-users", "title": "Understand End-User Preferences" },
+      { "icon": "fa fa-sliders", "title": "Fine-Grained Control" },
+      { "icon": "fa fa-eye", "title": "Test Features Safely in Production" },
+      { "icon": "fa fa-refresh", "title": "Zero-Downtime Deployments" }
+    ]
+  },
+  "service_details2": {
+    "title": "Platform Engineering Consulting Services",
+    "sections": [
+      {
+        "title": "Product-Market Fit Assessment",
+        "description": "Align your platform capabilities with developer needs to ensure adoption and satisfaction.",
+        "offerings": [
+          "Gather insights into developer workflows and preferences.",
+          "Analyze existing tools and technology landscape for informed platform design.",
+          "Iteratively refine the platform using feedback loops and data-driven insights."
+        ],
+        "image": "https://www.appscode.com/assets/img/platform-engineering-consulting/product-market-fit-assessment.svg"
+      },
+      {
+        "title": "MVP Strategy & Platform Roadmap",
+        "description": "Plan and build a developer platform that meets core needs while enabling future growth.",
+        "offerings": [
+          "Strategic roadmap outlining feature development and platform enhancements.",
+          "Define Minimum Viable Product (MVP) for essential functionalities.",
+          "Iterative platform improvement based on evolving developer requirements."
+        ],
+        "image": "https://www.appscode.com/assets/img/platform-engineering-consulting/mvp-strategy-platform-roadmap-consulting.svg"
+      },
+      {
+        "title": "Platform Design & Development",
+        "description": "Design and develop scalable, user-friendly platforms tailored to your organization’s needs.",
+        "offerings": [
+          "Architect agile, robust, and scalable platforms.",
+          "Focus on intuitive, user-centered interfaces.",
+          "Deliver end-to-end full-stack solutions for cohesive platform experiences."
+        ],
+        "image": "https://www.appscode.com/assets/img/platform-engineering-consulting/platform-design-and-development.svg"
+      },
+      {
+        "title": "Integrations & Ecosystem Setup",
+        "description": "Integrate essential tools and services to create a seamless developer ecosystem.",
+        "offerings": [
+          "Implement integrations for evolving developer requirements.",
+          "Establish a comprehensive ecosystem to enhance platform usability.",
+          "Provide custom integration solutions for unique workflows."
+        ],
+        "image": "https://www.appscode.com/assets/img/platform-engineering-consulting/integrations-ecosystem-setup.svg"
+      },
+      {
+        "title": "Platform Support & Maintenance",
+        "description": "Ensure sustained platform excellence with proactive support and maintenance services.",
+        "offerings": [
+          "Long-term support for developers and stakeholders.",
+          "Routine maintenance, updates, patches, and security enhancements.",
+          "Customized maintenance plans tailored to your platform’s needs."
+        ],
+        "image": "https://www.appscode.com/assets/img/platform-engineering-consulting/platform-support-maintenance.svg"
+      },
+      {
+        "title": "Platform Engineering Training & Support",
+        "description": "Empower your teams to adopt platform engineering best practices and self-manage operations.",
+        "offerings": [
+          "Training workshops for teams to become self-sufficient in platform management.",
+          "Develop documentation and best practices for platform adoption."
+        ],
+        "image": "https://www.appscode.com/assets/img/platform-engineering-consulting/platform-engineering-training-support.svg"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industry Expertise",
+    "subtitle": "With 100+ clients, we bring deep expertise across industries, ensuring compliance and operational excellence from day one.",
+    "additional_text": "From global enterprises to scaling startups, we cover it all!",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Deliver highly available, compliant systems to process transactions 24/7."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology & SaaS",
+        "description": "Integrate AI, manage cloud infrastructure, and optimize performance."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Leverage AI and machine learning to meet rising customer expectations."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Modernize systems, monitor resources, and reduce operational costs."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Process patient data efficiently to meet evolving healthcare demands."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver seamless operations with cost-effective, scalable systems."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "We Love Open Source",
+    "description": "Our developers contribute to cloud-native projects and leverage OSS to build innovative solutions.",
+    "cta_text": "Sneak Peek at Our OSS Contributions",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Diverse Technical Expertise",
+    "subtitle": "Our engineers have hands-on experience with modern cloud-native technologies to enable successful progressive delivery adoption.",
+    "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "final_cta": {
+    "title": "Looking for Progressive Delivery Expertise?",
+    "subtitle": "Consult with our experts on strategy, implementation, tool integration, and ongoing support.",
+    "buttons": [
+      { "text": "Talk to a Progressive Delivery Expert", "icon": "fa fa-calendar", "type": "outlined" }
+    ]
+  },
+  "cards": {
+    "title": "Why Choose AppsCode for Progressive Delivery?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "Certified Developers",
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Domain Expertise",
+        "description": "Proven experience implementing serverless and platform engineering practices with 100+ clients."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "First Mover Advantage",
+        "description": "Partner with the first <a href=\"https://kubedb.com/\">Kubernetes service provider</a> in Bangladesh and second in APAC."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Training",
+        "description": "Hands-on training focused on core concepts and practical experience."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Certified Provider",
+        "description": "<a href=\"https://appscode.com/\">AppsCode </a> is a <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and Kubernetes Certified Service Provider."
+      },
+      {
+        "icon": "fa fa-wrench",
+        "title": "Scale Easily",
+        "description": "Expand your engineering team with AppsCode without the hassle of hiring or training."
+      }
+    ]
+  },
+  "resources": {
+    "title": "Cloud-Native Product Engineering Resources",
+    "items": [
+      {
+        "type": "Blog",
+        "title": "Getting Started with Perses The Free, Open Source Grafana Alternative",
+        "image": "https://appscode.com/blog/post/getting-started-with-perses-the-free-open-source-grafana-alternative/hero_hu030f24f1ec9a9fe9c13de5ab0e9d783a_31026_1300x650_fill_q75_box_smart1.jpg",
+        "link": "https://appscode.com/blog/post/getting-started-with-perses-the-free-open-source-grafana-alternative/"
+      },
+      {
+        "type": "Blog",
+        "title": "Future-Proof Your Data Strategy - Why Kubernetes is the Engine Behind Stateful Workloads & Modern AI",
+        "image": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_254620_1300x650_fill_q75_box_smart1.jpg",
+        "link": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/"
+      },
+      {
+        "type": "Event",
+        "title": "KubeConNA Digest - Top Trends and Key Takeaways from This Year’s Event by AppsCode",
+        "image": "https://appscode.com/blog/post/kubecon-na-2024/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_69997_1300x650_fill_q75_box_smart1.jpg",
+        "link": "https://appscode.com/blog/post/kubecon-na-2024/"
+      }
+    ]
+  },
+  "faq": [
+    
+    {
+    "question": "What do your Progressive Delivery Consulting Services include?",
+    "answer": "Our Progressive Delivery Consulting Services cover the full lifecycle of cloud-native product delivery — from opportunity discovery and MVP development to engineering, DevOps, deployment, and scaling. We focus on enabling safe, controlled releases and building resilient, high-performing systems."
+  },
+  {
+    "question": "Which technologies and practices are used in progressive delivery consulting?",
+    "answer": "We leverage Kubernetes orchestration, microservices architecture, continuous delivery pipelines (CI/CD), automated testing, infrastructure as code, observability, and hybrid/multi-cloud deployment patterns. These practices help teams implement feature rollouts safely and maintain operational confidence."
+  },
+  {
+    "question": "Can you work with our existing product roadmap and stack?",
+    "answer": "Yes — we can integrate with your current roadmap and architecture. Our engineers refine existing systems, enable progressive delivery workflows, and lift your platform into a containerized, cloud-native, and production-ready state."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for Progressive Delivery Consulting Services?",
+    "answer": "Most engagements start with a 1–2 week discovery phase to align on goals, architecture, and MVP scope. Development continues in 4–8 week agile sprints. Engagement models include fixed-scope projects, time-and-materials with embedded engineers, or longer-term consulting partnerships."
+  },
+  {
+    "question": "Do you support multi-cloud or hybrid cloud environments?",
+    "answer": "Absolutely. Our Progressive Delivery Consulting Services are designed to be cloud-agnostic, supporting AWS, Azure, GCP, and on-premises Kubernetes clusters. This ensures consistent, safe deployments across different environments."
+  },
+  {
+    "question": "How do you ensure quality, security, and reliability during progressive delivery?",
+    "answer": "Quality is ensured through automated testing, code reviews, and continuous integration. Security is baked in with container isolation, role-based access control, secrets management, and vulnerability scanning. Reliability is maintained with monitoring, backup/recovery, and disaster resilience patterns."
+  },
+  {
+    "question": "What happens after the product is launched?",
+    "answer": "After launch, we help monitor performance, optimize infrastructure, and scale the system. Progressive Delivery Consulting Services also include implementing feature rollouts, canary releases, and automated rollback strategies to maintain operational confidence."
+  },
+  {
+    "question": "How much do Progressive Delivery Consulting Services cost, and what are the pricing models?",
+    "answer": "Pricing depends on project scope, complexity, number of teams, and ongoing support requirements. We offer flexible models such as fixed-price MVP builds, hourly or engagement-based workflows, and retainers for continuous consulting and progressive delivery support. A detailed proposal is provided after the discovery phase."
+  }
+  ]
+}

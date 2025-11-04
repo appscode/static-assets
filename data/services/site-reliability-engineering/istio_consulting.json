@@ -1,0 +1,252 @@
+{
+  "hero": {
+    "title": "Istio Consulting Services & Enterprise Support Partner",
+    "subtitle": "Accelerate Istio adoption with expert consulting, seamless implementation, and ongoing enterprise-grade support.",
+    "cta_text": "TALK TO AN ISTIO EXPERT",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/istio-consulting-hero.png",
+      "alt": "Istio Consulting Services"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Innovative Companies Worldwide"
+  },
+  "title_with_small_cards": {
+    "title": "Why Choose Istio Consulting Services?",
+    "areas": [
+      { "icon": "fa fa-shield", "title": "Zero-Trust Security" },
+      { "icon": "fa fa-clock-o", "title": "Faster Failure Recovery" },
+      { "icon": "fa fa-cloud", "title": "Cloud & Platform Agnostic" },
+      { "icon": "fa fa-eye", "title": "Full Traffic Visibility" },
+      { "icon": "fa fa-cogs", "title": "Smart Load Balancing" },
+      { "icon": "fa fa-lock", "title": "Policy-Driven Security" },
+      { "icon": "fa fa-sliders", "title": "Flexible Configuration" },
+      { "icon": "fa fa-users", "title": "Secure Service Identity" }
+    ]
+  },
+  "service_details": {
+    "title": "Comprehensive Istio Consulting & Support",
+    "subtitle": "From initial assessment to enterprise support, we cover every step of your Istio journey with proven methodologies and hands-on expertise.",
+    "sections": [
+      {
+        "title": "Consulting & Advisory",
+        "description": "Assess how Istio fits your microservices architecture and design a tailor-made adoption roadmap.",
+        "offerings": [
+          "Comprehensive evaluation of your current infrastructure and workloads.",
+          "Detailed Istio adoption strategy aligned with your business goals."
+        ],
+        "image": "/assets/images/services/istio-consulting-advisory.png"
+      },
+      {
+        "title": "Production-Grade Istio Deployment",
+        "description": "Deploy Istio confidently with zero downtime, security, and high availability using best practices.",
+        "offerings": [
+          "Kubernetes, VM, and multi-cloud Istio deployment support.",
+          "Single and multi-cluster mesh patterns implementation.",
+          "Active-active and failover setups for enterprise-grade HA."
+        ],
+        "image": "/assets/images/services/istio-consulting-implementation.png"
+      },
+      {
+        "title": "Observability & Traffic Management",
+        "description": "Gain full visibility and resilience with advanced traffic shaping, metrics, and monitoring integrations.",
+        "offerings": [
+          "Retries, timeouts, fault injection, and circuit breaking setup.",
+          "Advanced routing: Blue-Green, Canary, A/B testing, and staged rollouts.",
+          "Full observability using Grafana, Prometheus, Kiali, and Jaeger."
+        ],
+        "image": "/assets/images/services/observability-traffic-management.png"
+      },
+      {
+        "title": "Security & Policy Enforcement",
+        "description": "Apply Zero-Trust principles with end-to-end encryption and access control for all services.",
+        "offerings": [
+          "mTLS enforcement for encrypted service-to-service communication.",
+          "Integrate authentication and authorization with existing IDPs.",
+          "Regular audits and compliance checks for enterprise security."
+        ],
+        "image": "/assets/images/services/istio-consulting-security.png"
+      },
+      {
+        "title": "Enterprise Support & Training",
+        "description": "Keep your Istio environment healthy, updated, and well-managed with continuous support.",
+        "offerings": [
+          "24×7 support for patches, upgrades, and troubleshooting.",
+          "Hands-on training for internal teams to build Istio expertise.",
+          "Architecture reviews and optimization guidance for sustained performance."
+        ],
+        "image": "/assets/images/services/enterprise-support-training.png"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why Choose AppsCode as Your Istio Partner?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "Certified Experts",
+        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Deep Domain Experience",
+        "description": "Experience from 100+ successful cloud-native client engagements."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "Early Adopter",
+        "description": "Among the first Kubernetes partners in Bangladesh and APAC."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Hands-on Training",
+        "description": "We focus on practical learning to empower your internal teams."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Certified Provider",
+        "description": "<a href=\"https://appscode.com/\">AppsCode </a> is a CNCF Silver Member & Kubernetes Certified Service Provider (KCSP)."
+      },
+      {
+        "icon": "fa fa-wrench",
+        "title": "Recognized Partner",
+        "description": "Official Istio Professional Services Partner for enterprise-grade consulting."
+      }
+    ]
+  },
+  "industries": {
+    "title": "Istio Consulting Across Industries",
+    "subtitle": "Decades of cloud-native and service mesh experience across regulated and high-growth industries.",
+    "additional_text": "From global enterprises to fast-growing startups — we’ve seen it all, and built for it all.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Secure, compliant, and always-on infrastructure for 24×7 transactions."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology & SaaS",
+        "description": "Empowering SaaS teams with secure, performant service mesh foundations."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Support connected vehicle platforms with high-performance microservices."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy & Utilities",
+        "description": "Optimize resource monitoring and network control with cloud-native automation."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Enable faster, secure data exchange and compliance-ready workloads."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver always-on digital experiences with scalable, resilient platforms."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "Built on Open Source Values",
+    "description": "We’re proud contributors to <a href=\"https://www.cncf.io/\">CNCF</a> and Istio ecosystem. Open source fuels our innovation and yours.",
+    "cta_text": "See Our OSS Contributions",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "We Love Open Source"
+    }
+  },
+  "tech_stack": {
+    "title": "Our Istio Tech Stack Expertise",
+    "subtitle": "Certified consultants experienced with leading service mesh and observability tools.",
+    "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What do your Istio Consulting Services include?",
+    "answer": "Our Istio Consulting Services help organizations implement and optimize Istio service mesh for Kubernetes. We cover traffic management, security policies, observability, fault tolerance, and deployment strategies to enable resilient and secure microservices communication."
+  },
+  {
+    "question": "Which technologies and practices are used in Istio consulting?",
+    "answer": "We leverage Istio, Envoy proxies, Kubernetes, Helm charts, Kustomize, CI/CD pipelines, and observability tools. Our approach ensures secure service-to-service communication, traffic routing, telemetry, and automated rollouts for cloud-native applications."
+  },
+  {
+    "question": "Can you integrate Istio with our existing Kubernetes clusters and applications?",
+    "answer": "Yes — we integrate Istio with your current clusters and workloads, optimize service mesh configurations, enforce security policies, and implement best practices to ensure reliable and observable communication between microservices."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for Istio Consulting Services?",
+    "answer": "Engagements typically start with a 1–2 week assessment of your microservices architecture and current service mesh practices. Implementation follows in 4–8 week phases depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term Istio advisory partnerships."
+  },
+  {
+    "question": "Do Istio Consulting Services support multi-cloud or hybrid deployments?",
+    "answer": "Absolutely. Our services are designed to work across AWS, Azure, GCP, and on-premises Kubernetes environments, ensuring consistent service mesh management, traffic routing, and security across platforms."
+  },
+  {
+    "question": "How do you ensure security, reliability, and observability with Istio?",
+    "answer": "We enforce mTLS for secure communication, role-based access control, traffic policies, monitoring, logging, tracing, automated retries, and fault injection for resilience. These measures maintain secure, reliable, and observable service-to-service communication."
+  },
+  {
+    "question": "What happens after Istio consulting and implementation?",
+    "answer": "After implementation, we provide ongoing guidance, monitoring, and optimization. Our services include knowledge transfer, best practice documentation, and continuous improvement recommendations for long-term Istio adoption success."
+  },
+  {
+    "question": "How much do Istio Consulting Services cost, and what are the pricing models?",
+    "answer": "Pricing depends on microservices complexity, number of clusters, and ongoing support requirements. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+  }
+  ],
+  "final_cta": {
+    "title": "Need Enterprise Istio Support?",
+    "subtitle": "Partner with certified Istio experts to optimize, secure, and scale your service mesh.",
+    "buttons": [
+      {
+        "text": "Get Istio Consulting",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  }
+}

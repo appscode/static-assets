@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "title": "Transform Your Monolith into Scalable Microservices",
+    "subtitle": "Empower your business with <a href=\"https://www.cncf.io/\">cloud-native architecture</a> that drives agility, scalability, and innovation — guided by Appscode’s proven monolith to microservices expertise.",
+    "cta_text": "TALK TO OUR MICROservices EXPERTS",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/monolith-microservices-modernization-hero.png",
+      "alt": "Monolith to Microservices Transformation Illustration"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Global Enterprises and Fast-Growing Startups"
+  },
+  "title_with_small_cards": {
+     "title": "Why Move from Monolith to Microservices?",
+    "areas": [
+      { "icon": "fa fa-line-chart", "title": "Scalable & Flexible Architecture", "description": "Scale individual services independently, optimizing resource usage and cost efficiency." },
+      { "icon": "fa fa-shield", "title": "High Reliability & Fault Tolerance", "description": "Isolate failures, recover faster, and maintain continuous uptime." },
+      { "icon": "fa fa-code", "title": "Technology Flexibility", "description": "Choose the right languages, frameworks, and tools for each microservice." },
+      { "icon": "fa fa-lock", "title": "Enhanced Security & Compliance", "description": "Implement service-level security and compliance boundaries across all microservices." },
+      { "icon": "fa fa-rocket", "title": "Faster Time-to-Market", "description": "Release updates rapidly and respond effectively to business changes." },
+      { "icon": "fa fa-users", "title": "Aligned with DevOps & CI/CD", "description": "Seamless collaboration between development and operations for continuous delivery." },
+      { "icon": "fa fa-cubes", "title": "Optimized for Agile Teams", "description": "Enable autonomous teams to iterate, deploy, and innovate independently." }
+    ]
+  },
+  "service_details": {
+    "title": "Comprehensive Monolith to Microservices Transformation Services",
+    "subtitle": "<a href=\"https://appscode.com\">AppsCode</a> provides end-to-end services for microservices adoption—from assessment and migration to integration, monitoring, and optimization.",
+    "sections": [
+      {
+        "title": "Microservices Consulting & Strategy",
+        "description": "We assess your current monolith, define a clear microservices roadmap, and ensure strategic alignment with business goals.",
+        "offerings": [
+          "Full evaluation of monolithic applications to identify modularization opportunities.",
+          "Tailored migration strategy aligned with business objectives and risk appetite.",
+          "Guidance on selecting the right tools, frameworks, and DevOps practices."
+        ],
+        "image": "/assets/images/services/microservices-consulting-strategy.png"
+      },
+      {
+        "title": "Monolith to Microservices Migration",
+        "description": "Refactor your monolithic system into independent microservices while maintaining business continuity and operational performance.",
+        "offerings": [
+          "Decompose monoliths using domain-driven design for service autonomy.",
+          "Implement API-first architecture for seamless service interoperability.",
+          "Deploy microservices using Kubernetes and container orchestration for cloud-native scalability."
+        ],
+        "image": "/assets/images/services/microservices-integration-api-management.png"
+      },
+      {
+        "title": "Microservices Support, Monitoring & Optimization",
+        "description": "Maintain and optimize microservices post-deployment to ensure resilience, efficiency, and performance.",
+        "offerings": [
+          "Implement proactive monitoring with Prometheus, Grafana, and distributed tracing.",
+          "Optimize system performance, reduce latency, and control operational costs.",
+          "Provide 24/7 expert support for complex microservices environments."
+        ],
+        "image": "/assets/images/services/microservices-support-monitoring-optimization.png"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why Partner with Appscode for Microservices Transformation?",
+    "subtitle": "Leverage our deep expertise in Kubernetes, DevOps, and cloud-native architecture for successful monolith to microservices migration.",
+    "items": [
+      { "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png", "title": "Certified Cloud-Native Engineers", "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence" },
+      { "icon": "fa fa-briefcase", "title": "Proven Experience", "description": "Successfully modernized 100+ monolith applications across enterprises and startups." },
+      { "icon": "fa fa-trophy", "title": "Kubernetes & Microservices Pioneers", "description": "Among the first in APAC to provide Kubernetes-based microservices and operator development." },
+      { "icon": "fa fa-bullhorn", "title": "Global Cloud-Native Leaders", "description": "Driving <a href=\"https://appscode.com/services/devops-toolchain-consulting-services/\">DevOps</a> transformation and Kubernetes adoption across industries." },
+      { "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png", "title": "CNCF Silver Member & KCSP", "description": "Recognized Kubernetes Certified Service Provider by CNCF." },
+      { "icon": "fa fa-globe", "title": "Global Delivery Excellence", "description": "Trusted by clients across North America, Europe, Asia-Pacific, and the Middle East." }
+    ]
+  },
+  "industries": {
+    "title": "Industry Expertise for Microservices Success",
+    "subtitle": "Appscode modernizes monoliths for diverse industries, enabling digital resilience and rapid innovation.",
+    "additional_text": "From fintech to healthcare, we deliver secure, scalable, and industry-specific microservices solutions.",
+    "sectors": [
+      { "icon": "fa fa-bank", "title": "Banking & Financial Services", "description": "Regulatory-compliant, highly available systems that scale securely with demand." },
+      { "icon": "fa fa-laptop", "title": "Technology & SaaS", "description": "Accelerate product innovation with cloud-native microservices and CI/CD pipelines." },
+      { "icon": "fa fa-car", "title": "Automotive & Manufacturing", "description": "Enable AI-powered, data-driven operations with scalable microservices." },
+      { "icon": "fa fa-plug", "title": "Energy & Utilities", "description": "Improve operational visibility and efficiency with cloud-native microservices." },
+      { "icon": "fa fa-hospital-o", "title": "Healthcare & Life Sciences", "description": "Secure, compliant data sharing and AI-driven healthcare applications." },
+      { "icon": "fa fa-plane", "title": "Travel & Hospitality", "description": "Deliver seamless digital experiences with agile, microservices-based architectures." }
+    ]
+  },
+  "open_source": {
+    "title": "Built on Open Source. Driven by Innovation.",
+    "description": "Appscode engineers contribute to leading Kubernetes and cloud-native open-source projects, bringing deep practical knowledge to every microservices engagement.",
+    "cta_text": "Explore Our Open Source Projects",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Microservices Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Our Cloud-Native & Microservices Tech Expertise",
+    "subtitle": "Appscode engineers leverage Kubernetes, DevOps tools, and open-source frameworks to deliver modern, scalable microservices architectures.",
+    "technologies": [
+      {
+        "name": "Crossplane",
+        "logo": "/assets/images/technical-expertise/crossplane.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "/assets/images/technical-expertise/graphql.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Kasten",
+        "logo": "/assets/images/technical-expertise/kasten.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+    ]
+  },
+  "final_cta": {
+    "title": "Start Your Monolith to Microservices Journey with Appscode",
+    "subtitle": "Modernize your monolithic applications with a strategic, secure, and future-ready microservices approach.",
+    "buttons": [
+      { "text": "Contact Us", "icon": "fa fa-calendar", "type": "outlined" }
+    ]
+  },
+  "faq": [
+    {
+    "question": "What does your Monolith to Microservices service include?",
+    "answer": "Our Monolith to Microservices service covers the complete transformation journey — from assessing your existing monolithic application, defining migration strategy, refactoring architecture, and implementing CI/CD pipelines, to deploying containerized microservices on Kubernetes. We focus on building scalable, resilient, and maintainable systems."
+  },
+  {
+    "question": "Which technologies and practices do you use for Monolith to Microservices migration?",
+    "answer": "We leverage Kubernetes, Docker, API gateways, service meshes, and microservices frameworks to break down monolithic systems. Our practices include continuous delivery (CI/CD), Infrastructure as Code (IaC), observability, and DevOps automation to ensure smooth, low-risk migration."
+  },
+  {
+    "question": "Can you modernize our existing monolithic application without a full rebuild?",
+    "answer": "Yes. We can progressively decompose your existing monolithic system into microservices without requiring a complete rewrite. Our engineers identify independent modules, containerize them, and migrate gradually while maintaining system stability and minimizing downtime."
+  },
+  {
+    "question": "What is the typical timeline and engagement model for Monolith to Microservices migration?",
+    "answer": "Every migration is unique, but we usually start with a 1–2 week discovery phase to evaluate your architecture and define a migration roadmap. Then we execute in agile sprints of 4–8 weeks. Engagement options include fixed-scope projects, time-and-materials, or dedicated engineering partnerships."
+  },
+  {
+    "question": "Do you support hybrid or multi-cloud environments during microservices migration?",
+    "answer": "Absolutely. We design microservices architectures that run seamlessly on AWS, Azure, Google Cloud, or on-premises Kubernetes clusters. Our Monolith to Microservices approach ensures portability, scalability, and operational consistency across different environments."
+  },
+  {
+    "question": "How do you ensure quality, security, and reliability during the migration process?",
+    "answer": "We apply automated testing, code reviews, CI/CD pipelines, and continuous observability to maintain quality throughout the migration. Security is enforced through container isolation, secrets management, and RBAC. Reliability is achieved via gradual rollouts, monitoring, and automated recovery patterns."
+  },
+  {
+    "question": "What happens after migrating from Monolith to Microservices?",
+    "answer": "Post-migration, we help you optimize performance, improve DevOps automation, and monitor service health. We also assist with scaling, cost optimization, and training your team to manage and evolve the new microservices architecture effectively."
+  },
+  {
+    "question": "How much does Monolith to Microservices migration cost?",
+    "answer": "The cost depends on factors such as the size and complexity of your monolithic system, the number of services to extract, cloud platform preferences, and ongoing support needs. We provide flexible pricing models — from fixed-scope projects to long-term retainers — after the discovery phase."
+  }
+  ],
+  "seo": {
+    "meta_title": "Monolith to Microservices Transformation Services | Appscode",
+    "meta_description": "Appscode helps organizations modernize monolithic applications into scalable, resilient microservices using Kubernetes, DevOps, and cloud-native best practices."
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "servicesMenu": [
+    {
+      "title": "Product Engineering",
+      "description": "Building faster products - MVP, launch & scale",
+      "icon": "https://img.icons8.com/00a651/external-ddara-lineal-ddara/64/external-engineering-manufacturing-ddara-lineal-ddara.png",
+      "offerings": [
+        {
+          "id": "cloud-native-product-development-services",
+          "title": "Cloud Native Product Development",
+          "description": "On‑Demand product engineers",
+          "icon": null
+        },
+        {
+          "id": "cloud-native-faas-services",
+          "title": "Cloud Native FaaS",
+          "description": "End‑to‑End Serverless partner",
+          "icon": null
+        },
+        {
+          "id": "monolith-to-microservices",
+          "title": "Monolith to Microservices",
+          "description": "Migrate your legacy applications",
+          "icon": null
+        },
+        {
+          "id": "/extending-kubernetes-confidence-with-whitepaper",
+          "title": "Extending Kubernetes? Custom Resources & Controllers",
+          "description": "Learn how custom resources & controllers can enhance your Kubernetes environment — Download the 16 page whitepaper",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "title": "Platform Engineering",
+      "description": "Designing & Building solid platforms for your teams",
+      "icon": "https://img.icons8.com/00a651/ios/50/laptop-settings--v2.png",
+      "offerings": [
+        {
+          "id": "platform-engineering-services",
+          "title": "Platform Engineering Services",
+          "description": "From design to deployment ‑ with you!",
+          "icon": null
+        },
+        {
+          "id": "backstage-consulting-services",
+          "title": "Backstage Consulting",
+          "description": "Your path to developer productivity",
+          "icon": null
+        },
+        {
+          "id": "cloud-native-platform-engineering-architecture-eBook",
+          "title": "Platform Engineering OSS Reference Architecture eBook",
+          "description": "Building a Platform? Refer to the Platform Engineering OSS Reference Architecture eBook to get started — Download the 22 page eBook",
+          "icon": null
+        },
+        {
+          "id": "progressive-delivery-consulting-services",
+          "title": "Progressive Delivery",
+          "description": "Roll out updates strategically",
+          "icon": null
+        },
+        {
+          "id": "ci-cd-consulting-services",
+          "title": "CI/CD & Dev Experience",
+          "description": "Bringing automation at every step",
+          "icon": null
+        },
+        {
+          "id": "bare-metal-provisioning-and-infrastructure-consulting",
+          "title": "Bare Metal Provisioning Consulting",
+          "description": "Automated provisioning for on‑prem setup",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "title": "Application Modernization",
+      "description": "Accelerating your application modernization & microservices journey",
+      "icon": "https://img.icons8.com/00a651/ios/50/lunacy-new--v2.png",
+      "offerings": [
+        {
+          "id": "monolith-to-microservices",
+          "title": "Monolith to Microservices",
+          "description": "Migrate your legacy applications",
+          "icon": null
+        },
+        {
+          "id": "kubernetes-consulting-services",
+          "title": "Kubernetes Consulting Services",
+          "description": "The Kubernetes experts",
+          "icon": null
+        },
+        {
+          "id": "gitops-consulting-services",
+          "title": "GitOps Consulting",
+          "description": "Streamlining pipeline & deployments",
+          "icon": null
+        },
+        {
+          "id": "ci-cd-consulting-services",
+          "title": "CI/CD & Dev Experience",
+          "description": "Bringing automation at every step",
+          "icon": null
+        },
+        {
+          "id": "devops-toolchain-consulting-services",
+          "title": "DevOps Toolchain",
+          "description": "Tailored DevOps toolset for you!",
+          "icon": null
+        },
+        {
+          "id": "argo-cd-consulting-services",
+          "title": "Argo CD Consulting",
+          "description": "Implement & support ‑ we got you!",
+          "icon": null
+        },
+        {
+          "id": "jenkins-consulting-and-professional-services",
+          "title": "Jenkins Consulting",
+          "description": "Jenkins implementation & support pros!",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "title": "Site Reliability Engineering",
+      "description": "SRE Experts",
+      "icon": "https://img.icons8.com/00a651/ios/50/web-design.png",
+      "offerings": [
+        {
+          "id": "site-reliability-engineering-consulting-services",
+          "title": "SRE Consulting",
+          "description": "The Site Reliability Engineering Experts",
+          "icon": null
+        },
+        {
+          "id": "service-mesh-consulting-support",
+          "title": "Service Mesh Consulting",
+          "description": "Onboarding Service Mesh? we got you!",
+          "icon": null
+        },
+        {
+          "id": "accelerate-cloud-native-networking-services",
+          "title": "Cloud Native Networking",
+          "description": "Your cloud networking specialists",
+          "icon": null
+        },
+        {
+          "id": "istio-consulting-services",
+          "title": "Istio Consulting",
+          "description": "Recognized by Istio for support",
+          "icon": null
+        },
+        {
+          "id": "terraform-consulting-services",
+          "title": "Terraform Consulting",
+          "description": "Keep infra scalable & efficient",
+          "icon": null
+        },
+        {
+          "id": "kubernetes-backup-and-disaster-recovery-services",
+          "title": "Backup & Disaster Recovery",
+          "description": "Cloud Native backup & DR experts",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "title": "Observability & DevSecOps",
+      "description": "Build a solid observability stack that is secure too!",
+      "icon": "https://img.icons8.com/00a651/dotty/80/system-task.png",
+      "offerings": [
+        {
+          "id": "devsecops-consulting-services-and-implementation",
+          "title": "DevSecOps Consulting",
+          "description": "Securing your applications",
+          "icon": null
+        },
+        {
+          "id": "observability-consulting-services-and-support",
+          "title": "Observability Adoption",
+          "description": "Monitoring, logging, tracing experts",
+          "icon": null
+        },
+        {
+          "id": "grafana-consulting-services-and-support",
+          "title": "Grafana Consulting",
+          "description": "Adoption to support ‑ we do it all",
+          "icon": null
+        },
+        {
+          "id": "prometheus-consulting-services",
+          "title": "Prometheus Consulting",
+          "description": "Monitoring & alerting ‑ sorted!",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "title": "Industries",
+      "description": "Solutions tailored for industries",
+      "icon": "https://img.icons8.com/00a651/external-obvious-line-kerismaker/96/external-building-manufacturing-line-obvious-line-kerismaker-2.png",
+      "offerings": [
+        {
+          "id": "cloud-native-solutions-for-the-banking-and-finance-industry",
+          "title": "Banking and Finance",
+          "description": "Navigate evolving risks with cutting‑edge solutions",
+          "icon": null
+        },
+        {
+          "id": "cloud-native-solutions-for-the-automotive-industry",
+          "title": "Automotive",
+          "description": "From garage to cloud ‑ AutoTech evolution",
+          "icon": null
+        }
+      ]
+    }
+  ]
+}
