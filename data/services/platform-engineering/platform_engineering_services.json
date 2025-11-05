@@ -191,7 +191,7 @@
     "items": [
       { "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png", "title": "Certified Experts", "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence" },
       { "icon": "fa fa-briefcase", "title": "Proven Domain Expertise", "description": "Over 100 successful platform engineering implementations across enterprises and startups." },
-      { "icon": "fa fa-trophy", "title": "First-Mover Advantage", "description": "Among the first <a href=\"https://kubedb.com/\">Kubernetes service providers</a> in Bangladesh and APAC for internal developer platforms." },
+      { "icon": "fa fa-trophy", "title": "First-Mover Advantage", "description": "US-based pioneer in<a href=\"https://kubedb.com/\">Kubernetes service</a>, establishing early leadership across APAC." },
       { "icon": "fa fa-graduation-cap", "title": "Training & Enablement", "description": "Hands-on knowledge transfer to upskill internal teams and foster self-sufficiency." },
       { "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png", "title": "CNCF Certified Provider", "description": "Proud <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and Kubernetes Certified Service Provider (KCSP)." },
       { "icon": "fa fa-wrench", "title": "Scalable Support", "description": "Easily expand engineering support without hiring overhead." }
