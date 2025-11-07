@@ -14,31 +14,31 @@
   "keywords": "kubernetes appscode backup disaster recovery volume",
   "heroSlider": [
     {
-      "src": "/assets/images/products/stash/slider/applications.jpg",
+      "src": "https://cdn.appscode.com/images/products/stash/slider/applications.jpg",
       "alt": "Supported Applications"
     },
     {
-      "src": "/assets/images/products/stash/slider/platforms.jpg",
+      "src": "https://cdn.appscode.com/images/products/stash/slider/platforms.jpg",
       "alt": "Supported Platforms"
     },
     {
-      "src": "/assets/images/products/stash/slider/storage.jpg",
+      "src": "https://cdn.appscode.com/images/products/stash/slider/storage.jpg",
       "alt": "Supported Storage"
     }
   ],
   "logo": {
-    "src": "/assets/images/products/kubeobj/kubeobj.png",
+    "src": "https://cdn.appscode.com/images/products/kubeobj/kubeobj.png",
     "alt": "kubeobj"
   },
   "logoWhite": {
-    "src": "/assets/images/products/kubeobj/kubeobj-white.png",
+    "src": "https://cdn.appscode.com/images/products/kubeobj/kubeobj-white.png",
     "alt": "kubeobj"
   },
   "icon": {
-    "src": "/assets/images/products/stash/stash-icon.svg",
+    "src": "https://cdn.appscode.com/images/products/stash/stash-icon.svg",
     "alt": "Stash",
     "sizes": {
-      "192x192": "/assets/images/products/stash/icons/android-icon-192x192.png"
+      "192x192": "https://cdn.appscode.com/images/products/stash/icons/android-icon-192x192.png"
     }
   },
   "repoURL": "https://github.com/kubeobj/docs",
@@ -55,11 +55,11 @@
     {
       "title": "Unified Data Access",
       "image": {
-        "src": "/assets/images/addons/illustrations/declarative-api.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/declarative-api.png",
         "alt": "Unified Data Access"
       },
       "icon": {
-        "src": "/assets/images/products/kubeobj/features/unified-data-access.png",
+        "src": "https://cdn.appscode.com/images/products/kubeobj/features/unified-data-access.png",
         "alt": "Unified Data Access"
       },
       "summary": "",
@@ -68,11 +68,11 @@
     {
       "title": "Multi-Cloud Federation",
       "image": {
-        "src": "/assets/images/addons/illustrations/backup-kubernetes-volumes.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/backup-kubernetes-volumes.png",
         "alt": "Multi-Cloud Federation"
       },
       "icon": {
-        "src": "/assets/images/products/kubeobj/features/multi-cloud-federation.png",
+        "src": "https://cdn.appscode.com/images/products/kubeobj/features/multi-cloud-federation.png",
         "alt": "Multi-Cloud Federation"
       },
       "summary": "",
@@ -81,11 +81,11 @@
     {
       "title": "Scalability",
       "image": {
-        "src": "/assets/images/addons/illustrations/backup-restore-databases.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/backup-restore-databases.png",
         "alt": "Scalability"
       },
       "icon": {
-        "src": "/assets/images/products/kubeobj/features/scalability.png",
+        "src": "https://cdn.appscode.com/images/products/kubeobj/features/scalability.png",
         "alt": "Scalability"
       },
       "summary": "",
@@ -94,11 +94,11 @@
     {
       "title": "Data Replication Policy",
       "image": {
-        "src": "/assets/images/addons/illustrations/multiple-storage-support.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/multiple-storage-support.png",
         "alt": "Data Replication Policy"
       },
       "icon": {
-        "src": "/assets/images/products/kubeobj/features/data-replication-policy.png",
+        "src": "https://cdn.appscode.com/images/products/kubeobj/features/data-replication-policy.png",
         "alt": "Data Replication Policy"
       },
       "summary": "",
@@ -107,11 +107,11 @@
     {
       "title": "High Availability",
       "image": {
-        "src": "/assets/images/addons/illustrations/deduplication.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/deduplication.png",
         "alt": "High Availability"
       },
       "icon": {
-        "src": "/assets/images/products/kubeobj/features/high-availability.png",
+        "src": "https://cdn.appscode.com/images/products/kubeobj/features/high-availability.png",
         "alt": "High Availability"
       },
       "summary": "",
@@ -120,11 +120,11 @@
     {
       "title": "Data Migration",
       "image": {
-        "src": "/assets/images/addons/illustrations/data-encryption.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/data-encryption.png",
         "alt": "Data Migration"
       },
       "icon": {
-        "src": "/assets/images/products/kubeobj/features/data-migration.png",
+        "src": "https://cdn.appscode.com/images/products/kubeobj/features/data-migration.png",
         "alt": "Data Migration"
       },
       "summary": "",
@@ -133,11 +133,11 @@
     {
       "title": "Policy-Based Data Management",
       "image": {
-        "src": "/assets/images/addons/illustrations/volume-snapshot.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/volume-snapshot.png",
         "alt": "Policy-Based Data Management"
       },
       "icon": {
-        "src": "/assets/images/products/kubeobj/features/policy-based-data-management.png",
+        "src": "https://cdn.appscode.com/images/products/kubeobj/features/policy-based-data-management.png",
         "alt": "Policy-Based Data Management"
       },
       "summary": "",
@@ -146,11 +146,11 @@
     {
       "title": "Monitoring and Analytics",
       "image": {
-        "src": "/assets/images/addons/illustrations/policy-based-backup.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/policy-based-backup.png",
         "alt": "Monitoring and Analytics"
       },
       "icon": {
-        "src": "/assets/images/products/kubeobj/features/monitoring-and-analytics.png",
+        "src": "https://cdn.appscode.com/images/products/kubeobj/features/monitoring-and-analytics.png",
         "alt": "Monitoring and Analytics"
       },
       "summary": "",
@@ -159,11 +159,11 @@
     {
       "title": "Kubernetes Native",
       "image": {
-        "src": "/assets/images/addons/illustrations/monitoring.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/monitoring.png",
         "alt": "Kubernetes Native"
       },
       "icon": {
-        "src": "/assets/images/products/kubeobj/features/kubernetes-native.png",
+        "src": "https://cdn.appscode.com/images/products/kubeobj/features/kubernetes-native.png",
         "alt": "Kubernetes Native"
       },
       "summary": "",
