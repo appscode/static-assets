@@ -1,0 +1,50 @@
+{
+  "section": {
+    "title": "Manage Databases Visually — From Deployment to Recovery",
+    "description": "Experience the new KubeDB UI — designed to help you deploy, manage, and monitor your favorite databases with just a few clicks. Explore a seamless visual workflow that replaces complex YAML with intuitive controls."
+  },
+  "features": [
+    {
+      "id": "provisioning",
+      "icon": "https://img.icons8.com/ios-filled/100/E6E7E6/deployment.png",
+      "title": "1-Click Provisioning",
+      "description": "Spin up production-ready database clusters instantly — no YAML, no CLI.",
+      "image": "/assets/images/products/kubedb/ui/provisioning.gif"
+    },
+    {
+      "id": "database-insight",
+      "icon": "https://img.icons8.com/ios-filled/100/E6E7E6/combo-chart.png",
+      "title": "Live Insights",
+      "description": "View performance, storage, and health metrics in real time with visual dashboards.",
+      "image": "/assets/images/products/kubedb/ui/live-insights.png"
+    },
+    {
+      "id": "managing",
+      "icon": "https://img.icons8.com/ios-filled/100/E6E7E6/robot-2.png",
+      "title": "Automated DBA",
+      "description": "Handle upgrades, scaling, and rolling restarts — all through the UI.",
+      "image": "/assets/images/products/kubedb/ui/robot-2.gif"
+    },
+    {
+      "id": "disaster-recovery",
+      "icon": "https://img.icons8.com/ios-filled/50/E6E7E6/data-backup.png",
+      "title": "Disaster Recovery",
+      "description": "Create, schedule, and restore backups effortlessly to ensure data resilience.",
+      "image": "/assets/images/products/kubedb/ui/disaster-recovery.gif"
+    },
+    {
+      "id": "monitoring",
+      "icon": "https://img.icons8.com/ios-filled/100/E6E7E6/monitor.png",
+      "title": "Monitoring",
+      "description": "Get full observability with built-in Grafana and Prometheus dashboards.",
+      "image": "/assets/images/products/kubedb/ui/monitoring.gif"
+    },
+    {
+      "id": "alert",
+      "icon": "https://img.icons8.com/ios-filled/100/E6E7E6/bell.png",
+      "title": "Smart Alerts",
+      "description": "Stay informed with automated alerts for your mission-critical databases.",
+      "image": "/assets/images/products/kubedb/ui/alert.png"
+    }
+  ]
+}
