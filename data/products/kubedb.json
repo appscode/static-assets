@@ -3,7 +3,7 @@
   "name": "KubeDB",
   "fullname": "KubeDB by AppsCode",
   "tagline": "Run Production-Grade Databases on Kubernetes",
-  "summary": "KubeDB simplifies Provisioning, Upgrading, Scaling, Volume Expansion, Monitor, Backup, Restore for various Databases in Kubernetes on any Public & Private Cloud",
+  "summary": "Eliminate database complexity. Provision, scale, backup, and manage 30+ databases in minutes—not days. Reduce costs by 50% while maintaining enterprise reliability.",
   "published": true,
   "author": "AppsCode Inc.",
   "website": {
@@ -13,22 +13,22 @@
   },
   "keywords": "kubernetes, kubernetes database, database high availability, postgresql kubernetes, elasticsearch kubernetes, mysql kubernetes, etcd, mariadb kubernetes, memcached, mongodb kubernetes, percona xtradb, redis, scaling kubernetes, version upgrade kubernetes, volume expansion kubernetes, kubernetes database management",
   "heroImage": {
-    "src": "https://cdn.appscode.com/images/products/kubedb/kubedb-hero.png",
+    "src": "/assets/images/products/kubedb/kubedb-hero.png",
     "alt": "KubeDB"
   },
   "logo": {
-    "src": "https://cdn.appscode.com/images/products/kubedb/kubedb.svg",
+    "src": "/assets/images/products/kubedb/kubedb.svg",
     "alt": "KubeDB"
   },
   "logoWhite": {
-    "src": "https://cdn.appscode.com/images/products/kubedb/kubedb-white.png",
+    "src": "/assets/images/products/kubedb/kubedb-white.png",
     "alt": "KubeDB"
   },
   "icon": {
-    "src": "https://cdn.appscode.com/images/products/kubedb/kubedb-icon.svg",
+    "src": "/assets/images/products/kubedb/kubedb-icon.svg",
     "alt": "KubeDB",
     "sizes": {
-      "192x192": "https://cdn.appscode.com/images/products/kubedb/icons/android-icon-192x192.png"
+      "192x192": "/assets/images/products/kubedb/icons/android-icon-192x192.png"
     }
   },
   "repoURL": "https://github.com/kubedb/docs",
@@ -50,30 +50,47 @@
   "videos": {
     "intro": "CuQ6qvVBb0g"
   },
+  "features_title": "Focus on building, not managing databases",
+  "features_summary": "KubeDB automates every aspect of database operations—from provisioning to disaster recovery—so your team can ship faster",
   "features": [
-    {
-      "title": "Lower administrative burden",
-      "url": "provision-databases-on-kubernetes",
+     {
+      "title": "UI Dashboard",
+      "url": "manage-databases-on-kubernetes-with-ui",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/easy-lg.jpg",
+        "src": "/assets/images/products/kubedb/features/easy-lg.jpg",
         "alt": "Lower administrative burden"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/dumbbell.png",
+        "src": "/assets/images/products/kubedb/features/ui-dashboard.png",
+        "alt": "UI Dashboard"
+      },
+      "summary": "",
+      "description": "KubeDB simplifies many of the difficult or tedious management tasks of running a production grade databases on private and public clouds. Maintain one stack for all your stateless and stateful applications and simplify the operational complexity."
+    },
+     {
+      "title": "Lower administrative burden",
+      "url": "provision-databases-on-kubernetes",
+      "image": {
+        "src": "/assets/images/products/kubedb/features/easy-lg.jpg",
+        "alt": "Lower administrative burden"
+      },
+      "icon": {
+        "src": "/assets/images/products/kubedb/features/dumbbell.png",
         "alt": "Lower administrative burden"
       },
       "summary": "",
       "description": "KubeDB simplifies many of the difficult or tedious management tasks of running a production grade databases on private and public clouds. Maintain one stack for all your stateless and stateful applications and simplify the operational complexity."
     },
+    
     {
       "title": "Native Kubernetes Support",
       "url": "deploy-databases-in-kubernetes-native-way",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/multi-cloud-lg.jpg",
+        "src": "/assets/images/products/kubedb/features/multi-cloud-lg.jpg",
         "alt": "Native Kubernetes Support"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/kubernetes.png",
+        "src": "/assets/images/products/kubedb/features/kubernetes.png",
         "alt": "Native Kubernetes Support"
       },
       "summary": "",
@@ -83,11 +100,11 @@
       "title": "Performance",
       "url": "increase-database-performance-on-kubernetes",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/performance-lg.jpg",
+        "src": "/assets/images/products/kubedb/features/performance-lg.jpg",
         "alt": "Performance"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/muscle.png",
+        "src": "/assets/images/products/kubedb/features/muscle.png",
         "alt": "Performance"
       },
       "summary": "",
@@ -97,11 +114,11 @@
       "title": "Availability and durability",
       "url": "backup-restore-databases-on-kubernetes",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/availability-lg.jpg",
+        "src": "/assets/images/products/kubedb/features/availability-lg.jpg",
         "alt": "Availability and durability"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/last-24-hours.png",
+        "src": "/assets/images/products/kubedb/features/last-24-hours.png",
         "alt": "Availability and durability"
       },
       "summary": "",
@@ -111,11 +128,11 @@
       "title": "Manageability",
       "url": "monitor-databases-on-kubernetes",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/monitoring-lg.jpg",
+        "src": "/assets/images/products/kubedb/features/monitoring-lg.jpg",
         "alt": "Manageability"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/prometheus.svg",
+        "src": "/assets/images/products/kubedb/features/prometheus.svg",
         "alt": "Manageability"
       },
       "summary": "",
@@ -125,11 +142,11 @@
       "title": "Cost-effectiveness",
       "url": "manage-database-on-kubernetes-free",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/low-price-lg.jpg",
+        "src": "/assets/images/products/kubedb/features/low-price-lg.jpg",
         "alt": "Cost-effectiveness"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/low-price.png",
+        "src": "/assets/images/products/kubedb/features/low-price.png",
         "alt": "Cost-effectiveness"
       },
       "summary": "",
@@ -139,15 +156,29 @@
       "title": "Security",
       "url": "secure-databases-on-kubernetes",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/security-lg.jpg",
+        "src": "/assets/images/products/kubedb/features/security-lg.jpg",
         "alt": "Security"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/kubedb/features/security-lock.png",
+        "src": "/assets/images/products/kubedb/features/security-lock.png",
         "alt": "Security"
       },
       "summary": "",
       "description": "You can secure your Databases with TLS using KubeDB. Also, KubeDB allows you to use encrypted storage for your databases using keys you manage through your cloud provider’s key management service."
+    },
+    {
+      "title": "24/7 Enterprise Support",
+      "url": "provision-databases-on-kubernetes",
+      "image": {
+        "src": "/assets/images/products/kubedb/features/easy-lg.jpg",
+        "alt": "Lower administrative burden"
+      },
+      "icon": {
+        "src": "https://img.icons8.com/0010dd/ios-filled/50/online-support.png",
+        "alt": "24/7 Enterprise Support"
+      },
+      "summary": "",
+      "description": "KubeDB simplifies many of the difficult or tedious management tasks of running a production grade databases on private and public clouds. Maintain one stack for all your stateless and stateful applications and simplify the operational complexity."
     }
   ],
   "versions": [
