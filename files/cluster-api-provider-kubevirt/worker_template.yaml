@@ -1,0 +1,103 @@
+---
+apiVersion: infrastructure.cluster.x-k8s.io/v1alpha1
+kind: KubevirtMachineTemplate
+metadata:
+  name: "${CLUSTER_NAME}-md"
+  namespace: "${NAMESPACE}"
+spec:
+  template:
+    spec:
+      virtualMachineBootstrapCheck:
+        checkStrategy: none
+      virtualMachineTemplate:
+        spec:
+          dataVolumeTemplates:
+            - metadata:
+                name: "${CLUSTER_NAME}-md-boot-volume"
+              spec:
+                pvc:
+                  accessModes:
+                    - ReadWriteOnce
+                  resources:
+                    requests:
+                      storage: 20Gi
+                  storageClassName: "${INFRA_CLUSTER_STORAGE_CLASS_NAME}"
+                source:
+                  registry:
+                    url: "docker://${NODE_VM_IMAGE_TEMPLATE}"
+          runStrategy: Always
+          template:
+            spec:
+              domain:
+                cpu:
+                  cores: ${WORKER_POOL_CPU}
+                  sockets: ${SOCKETS}
+                  threads: ${THREADS}
+                devices:
+                  interfaces:
+                    - bridge: {}
+                      model: virtio
+                      name: default
+                    - bridge: {}
+                      model: virtio
+                      name: secondary
+                  disks:
+                    - disk:
+                        bus: virtio
+                      name: dv-volume
+                resources:
+                  limits:
+                    cpu: ${WORKER_POOL_CPU}
+                    memory: "${WORKER_POOL_MEMORY}Gi"
+                  requests:
+                    cpu: ${WORKER_POOL_CPU}
+                    memory: "${WORKER_POOL_MEMORY}Gi"
+              evictionStrategy: External
+              networks:
+                - name: default
+                  pod: {}
+                - multus:
+                    networkName: default/vmnet
+                  name: secondary
+              volumes:
+                - dataVolume:
+                    name: "${CLUSTER_NAME}-md-boot-volume"
+                  name: dv-volume
+---
+apiVersion: bootstrap.cluster.x-k8s.io/v1beta1
+kind: KubeadmConfigTemplate
+metadata:
+  name: "${CLUSTER_NAME}-md"
+  namespace: "${NAMESPACE}"
+spec:
+  template:
+    spec:
+      joinConfiguration:
+        nodeRegistration:
+          kubeletExtraArgs: {}
+---
+apiVersion: cluster.x-k8s.io/v1beta1
+kind: MachineDeployment
+metadata:
+  name: "${CLUSTER_NAME}-md"
+  namespace: "${NAMESPACE}"
+spec:
+  clusterName: "${CLUSTER_NAME}"
+  replicas: ${WORKER_POOL_NODES}
+  selector:
+    matchLabels: null
+  template:
+    spec:
+      clusterName: "${CLUSTER_NAME}"
+      version: "${KUBERNETES_VERSION}"
+      bootstrap:
+        configRef:
+          apiVersion: bootstrap.cluster.x-k8s.io/v1beta1
+          kind: KubeadmConfigTemplate
+          name: "${CLUSTER_NAME}-md"
+          namespace: "${NAMESPACE}"
+      infrastructureRef:
+        apiVersion: infrastructure.cluster.x-k8s.io/v1alpha1
+        kind: KubevirtMachineTemplate
+        name: "${CLUSTER_NAME}-md"
+        namespace: "${NAMESPACE}"
