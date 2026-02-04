@@ -1,0 +1,161 @@
+apiVersion: cluster.x-k8s.io/v1beta1
+kind: Cluster
+metadata:
+  name: "${CLUSTER_NAME}"
+  namespace: "${NAMESPACE}"
+spec:
+  clusterNetwork:
+    pods:
+      cidrBlocks:
+        - 10.243.0.0/16
+    services:
+      cidrBlocks:
+        - 10.95.0.0/16
+  controlPlaneRef:
+    apiVersion: controlplane.cluster.x-k8s.io/v1alpha1
+    kind: KamajiControlPlane
+    name: '${CLUSTER_NAME}-control-plane'
+    namespace: "${NAMESPACE}"
+  infrastructureRef:
+    apiVersion: infrastructure.cluster.x-k8s.io/v1alpha1
+    kind: KubevirtCluster
+    name: '${CLUSTER_NAME}'
+    namespace: "${NAMESPACE}"
+---
+apiVersion: infrastructure.cluster.x-k8s.io/v1alpha1
+kind: KubevirtCluster
+metadata:
+  annotations:
+    cluster.x-k8s.io/managed-by: kamaji
+  name: "${CLUSTER_NAME}"
+  namespace: "${NAMESPACE}"
+spec: {}
+---
+apiVersion: controlplane.cluster.x-k8s.io/v1alpha1
+kind: KamajiControlPlane
+metadata:
+  name: '${CLUSTER_NAME}-control-plane'
+  namespace: "${NAMESPACE}"
+spec:
+  dataStoreName: default
+  addons:
+    coreDNS:
+      dnsServiceIPs:
+        - 10.95.0.10
+    kubeProxy: {}
+    konnectivity: {}
+  kubelet:
+    cgroupfs: systemd
+    preferredAddressTypes:
+      - InternalIP
+      - ExternalIP
+  network:
+    serviceType: LoadBalancer
+    serviceAnnotations:
+      kube-vip.io/loadbalancerIPs: 0.0.0.0
+  deployment:
+  replicas: ${CONTROL_PLANE_MACHINE_COUNT}
+  version: "${KUBERNETES_VERSION}"
+---
+apiVersion: infrastructure.cluster.x-k8s.io/v1alpha1
+kind: KubevirtMachineTemplate
+metadata:
+  name: "${CLUSTER_NAME}-md-0"
+  namespace: "${NAMESPACE}"
+spec:
+  template:
+    spec:
+      virtualMachineBootstrapCheck:
+        checkStrategy: none
+      virtualMachineTemplate:
+        spec:
+          dataVolumeTemplates:
+            - metadata:
+                name: "${CLUSTER_NAME}-boot-volume"
+              spec:
+                pvc:
+                  accessModes:
+                    - ReadWriteOnce
+                  resources:
+                    requests:
+                      storage: 20Gi
+                  storageClassName: hvl
+                source:
+                  registry:
+                    url: "docker://${NODE_VM_IMAGE_TEMPLATE}"
+          runStrategy: Always
+          template:
+            spec:
+              domain:
+                cpu:
+                  cores: ${WORKER_MACHINE_CPU}
+                  sockets: ${SOCKETS}
+                  threads: ${THREADS}
+                devices:
+                  interfaces:
+                    - bridge: {}
+                      model: virtio
+                      name: default
+                    - bridge: {}
+                      model: virtio
+                      name: secondary
+                  disks:
+                    - disk:
+                        bus: virtio
+                      name: dv-volume
+                resources:
+                  limits:
+                    cpu: ${WORKER_MACHINE_CPU}
+                    memory: "${WORKER_MACHINE_MEMORY}Gi"
+                  requests:
+                    cpu: ${WORKER_MACHINE_CPU}
+                    memory: "${WORKER_MACHINE_MEMORY}Gi"
+              evictionStrategy: External
+              networks:
+                - name: default
+                  pod: {}
+                - multus:
+                    networkName: default/vmnet
+                  name: secondary
+              volumes:
+                - dataVolume:
+                    name: "${CLUSTER_NAME}-boot-volume"
+                  name: dv-volume
+---
+apiVersion: bootstrap.cluster.x-k8s.io/v1beta1
+kind: KubeadmConfigTemplate
+metadata:
+  name: "${CLUSTER_NAME}-md-0"
+  namespace: "${NAMESPACE}"
+spec:
+  template:
+    spec:
+      joinConfiguration:
+        nodeRegistration:
+          kubeletExtraArgs: {}
+---
+apiVersion: cluster.x-k8s.io/v1beta1
+kind: MachineDeployment
+metadata:
+  name: "${CLUSTER_NAME}-md-0"
+  namespace: "${NAMESPACE}"
+spec:
+  clusterName: "${CLUSTER_NAME}"
+  replicas: ${WORKER_MACHINE_COUNT}
+  selector:
+    matchLabels: null
+  template:
+    spec:
+      clusterName: "${CLUSTER_NAME}"
+      version: "${KUBERNETES_VERSION}"
+      bootstrap:
+        configRef:
+          apiVersion: bootstrap.cluster.x-k8s.io/v1beta1
+          kind: KubeadmConfigTemplate
+          name: "${CLUSTER_NAME}-md-0"
+          namespace: "${NAMESPACE}"
+      infrastructureRef:
+        apiVersion: infrastructure.cluster.x-k8s.io/v1alpha1
+        kind: KubevirtMachineTemplate
+        name: "${CLUSTER_NAME}-md-0"
+        namespace: "${NAMESPACE}"
