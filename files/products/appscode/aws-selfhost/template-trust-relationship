@@ -10,7 +10,7 @@
       "Condition": {
         "StringEquals": {
           "oidc.eks.REGION.amazonaws.com/id/OIDC_ID:sub": "system:serviceaccount:SA_NAMESPACE:SA_NAME",
-          "oidc.eks.us-east-2.amazonaws.com/id/OIDC_ID:aud": "sts.amazonaws.com"
+          "oidc.eks.REGION.amazonaws.com/id/OIDC_ID:aud": "sts.amazonaws.com"
         }
       }
     }
