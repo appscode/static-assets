@@ -36,8 +36,6 @@ gen:
 
 publish:
 	@echo "publishing files"
-	gsutil -m rsync -a public-read -d -r $$(pwd)/files gs://cdn.appscode.com/files
-	# gsutil -m acl ch -u AllUsers:R -r gs://cdn.appscode.com/files
+	aws s3 sync $$(pwd)/files s3://cdn-appscode-com/files --delete --acl public-read
 	@echo "publishing images"
-	gsutil -m rsync -d -a public-read -r $$(pwd)/images gs://cdn.appscode.com/images
-	# gsutil -m acl ch -u AllUsers:R -r gs://cdn.appscode.com/images
+	aws s3 sync $$(pwd)/images s3://cdn-appscode-com/images --delete --acl public-read
