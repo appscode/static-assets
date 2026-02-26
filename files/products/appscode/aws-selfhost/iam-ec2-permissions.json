@@ -178,6 +178,7 @@
         "iam:UntagRole"
       ],
       "Resource": [
+        "arn:*:iam::*:role/*",
         "arn:*:iam::*:role/Ace*",
         "arn:*:iam::*:role/controllers*",
         "arn:*:iam::*:role/nodes*",
@@ -194,6 +195,7 @@
         "iam:ListPolicyVersions"
       ],
       "Resource": [
+        "arn:*:iam::*:policy/*",
         "arn:*:iam::*:policy/Ace*",
         "arn:*:iam::*:policy/controllers*",
         "arn:*:iam::*:policy/nodes*",
