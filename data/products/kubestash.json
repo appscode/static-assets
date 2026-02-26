@@ -195,6 +195,15 @@
       }
     },
     {
+      "version": "v2026.2.26",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "cli": "v0.25.0",
+        "installer": "v2026.2.26"
+      }
+    },
+    {
       "version": "v2026.2.16-rc.0",
       "hostDocs": true,
       "show": true,
