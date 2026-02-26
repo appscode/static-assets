@@ -8,7 +8,7 @@
       },
       "Action": "sts:AssumeRoleWithWebIdentity",
       "Condition": {
-        "StringEquals": {
+        "StringLike": {
           "oidc.eks.REGION.amazonaws.com/id/OIDC_ID:sub": "system:serviceaccount:SA_NAMESPACE:SA_NAME",
           "oidc.eks.REGION.amazonaws.com/id/OIDC_ID:aud": "sts.amazonaws.com"
         }
