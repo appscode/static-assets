@@ -60,7 +60,7 @@
       "namespace": "demo"
     },
     "spec": {
-      "version": "15.3",
+      "version": "17.4",
       "storageType": "Durable",
       "storage": {
         "storageClassName": "standard",
@@ -69,7 +69,7 @@
         ],
         "resources": {
           "requests": {
-            "storage": "1Gi"
+            "storage": "2Gi"
           }
         }
       },
