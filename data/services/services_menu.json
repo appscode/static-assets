@@ -12,12 +12,6 @@
           "icon": null
         },
         {
-          "id": "cloud-native-faas-services",
-          "title": "Cloud Native FaaS",
-          "description": "End‑to‑End Serverless partner",
-          "icon": null
-        },
-        {
           "id": "monolith-to-microservices",
           "title": "Monolith to Microservices",
           "description": "Migrate your legacy applications",
@@ -40,12 +34,6 @@
           "id": "platform-engineering-services",
           "title": "Platform Engineering Services",
           "description": "From design to deployment ‑ with you!",
-          "icon": null
-        },
-        {
-          "id": "backstage-consulting-services",
-          "title": "Backstage Consulting",
-          "description": "Your path to developer productivity",
           "icon": null
         },
         {
@@ -113,12 +101,6 @@
           "id": "argo-cd-consulting-services",
           "title": "Argo CD Consulting",
           "description": "Implement & support ‑ we got you!",
-          "icon": null
-        },
-        {
-          "id": "jenkins-consulting-and-professional-services",
-          "title": "Jenkins Consulting",
-          "description": "Jenkins implementation & support pros!",
           "icon": null
         }
       ]

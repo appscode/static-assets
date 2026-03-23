@@ -30,24 +30,60 @@
     "subtitle": "<a href=\"https://appscode.com/\">AppsCode</a> engineers are core contributors and maintainers of leading open-source projects that simplify and extend Kubernetes capabilities for global enterprises.",
     "technologies": [
       {
-        "name": "Crossplane",
-        "logo": "/assets/images/technical-expertise/crossplane.svg"
-      },
-      {
         "name": "Kubernetes",
         "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Red Hat OpenShift",
+        "logo": "/assets/images/technical-expertise/openshift.svg"
+      },
+      {
+        "name": "Rancher by SUSE",
+        "logo": "/assets/images/technical-expertise/rancher.svg"
+      },
+      {
+        "name": "Amazon EKS",
+        "logo": "/assets/images/technical-expertise/eks.svg"
+      },
+      {
+        "name": "Azure AKS",
+        "logo": "/assets/images/technical-expertise/aks.svg"
+      },
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      },
+      {
+        "name": "FluxCD",
+        "logo": "/assets/images/technical-expertise/fluxcd.svg"
+      },
+      {
+        "name": "Helm",
+        "logo": "/assets/images/technical-expertise/helm.svg"
+      },
+      {
+        "name": "KubeDB",
+        "logo": "/assets/images/technical-expertise/kubedb.svg"
+      },
+      {
+        "name": "KubeStash",
+        "logo": "/assets/images/technical-expertise/stash.svg"
+      },
+      {
+        "name": "Voyager Gateway",
+        "logo": "/assets/images/technical-expertise/voyager.svg"
+      },
+      {
+        "name": "OpenTelemetry",
+        "logo": "/assets/images/technical-expertise/opentelemetry.svg"
       },
       {
         "name": "Prometheus",
         "logo": "/assets/images/technical-expertise/prometheus.svg"
       },
       {
-        "name": "GraphQL",
-        "logo": "/assets/images/technical-expertise/graphql.svg"
-      },
-      {
-        "name": "Open Policy Agent",
-        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
       },
       {
         "name": "Grafana",
@@ -58,14 +94,17 @@
         "logo": "/assets/images/technical-expertise/terraform.svg"
       },
       {
-        "name": "Kasten",
-        "logo": "/assets/images/technical-expertise/kasten.svg"
+        "name": "Vault",
+        "logo": "/assets/images/technical-expertise/vault.svg"
       },
       {
-        "name": "Thanos",
-        "logo": "/assets/images/technical-expertise/thanos.svg"
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
       },
-      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+      {
+        "name": "OpenFGA",
+        "logo": "/assets/images/technical-expertise/openfga.svg"
+      }
     ]
   },
   "cta_section": {
@@ -76,41 +115,40 @@
   },
   "faq": [
     {
-    "question": "What does the “Extending Kubernetes Confidence With Our Whitepaper” cover?",
-    "answer": "Our whitepaper provides a complete roadmap for extending Kubernetes confidence across your organization — from understanding architectural best practices and security hardening to optimizing workloads for scalability, automation, and resilience in production environments."
-  },
-  {
-    "question": "Which topics and practices are explained in the Kubernetes whitepaper?",
-    "answer": "The whitepaper explores Kubernetes orchestration, microservices adoption, CI/CD pipelines, observability, infrastructure as code, and hybrid or multi-cloud deployment models. It’s designed to help teams strengthen operational excellence and build confidence running workloads on Kubernetes."
-  },
-  {
-    "question": "Is the whitepaper relevant if we already use Kubernetes in production?",
-    "answer": "Yes — even experienced teams can benefit. The 'Extending Kubernetes Confidence With Our Whitepaper' highlights advanced techniques for optimizing security, resource efficiency, and reliability, helping you identify areas for improvement in existing Kubernetes setups."
-  },
-  {
-    "question": "How is the whitepaper structured and what can we expect to learn?",
-    "answer": "It begins with foundational Kubernetes concepts, followed by practical migration strategies, automation workflows, and observability best practices. The goal is to help engineering and DevOps teams make informed decisions and build more confident Kubernetes operations."
-  },
-  {
-    "question": "Does the whitepaper address multi-cloud or hybrid Kubernetes environments?",
-    "answer": "Absolutely. It explains how to design and manage workloads across AWS, Azure, GCP, and on-premises clusters. You’ll learn about cross-cloud portability, scaling techniques, and ensuring consistent governance across multiple Kubernetes environments."
-  },
-  {
-    "question": "How does the whitepaper approach security and reliability?",
-    "answer": "Security and reliability are key themes. The whitepaper discusses container isolation, role-based access control (RBAC), secrets management, and automated recovery patterns. It helps teams confidently run production-grade Kubernetes clusters with built-in security and resilience."
-  },
-  {
-    "question": "Who should read the 'Extending Kubernetes Confidence With Our Whitepaper'?",
-    "answer": "This whitepaper is ideal for DevOps engineers, SREs, architects, and decision-makers looking to improve Kubernetes operations, scale efficiently, and adopt cloud-native best practices with confidence."
-  },
-  {
-    "question": "How can we access the Kubernetes confidence whitepaper?",
-    "answer": "You can download it directly from our website. The whitepaper is available for free and provides valuable insights into extending Kubernetes confidence through architecture design, automation, and scalable DevOps practices."
-  }
+      "question": "What does the “Extending Kubernetes Confidence With Our Whitepaper” cover?",
+      "answer": "Our whitepaper provides a complete roadmap for extending Kubernetes confidence across your organization — from understanding architectural best practices and security hardening to optimizing workloads for scalability, automation, and resilience in production environments."
+    },
+    {
+      "question": "Which topics and practices are explained in the Kubernetes whitepaper?",
+      "answer": "The whitepaper explores Kubernetes orchestration, microservices adoption, CI/CD pipelines, observability, infrastructure as code, and hybrid or multi-cloud deployment models. It’s designed to help teams strengthen operational excellence and build confidence running workloads on Kubernetes."
+    },
+    {
+      "question": "Is the whitepaper relevant if we already use Kubernetes in production?",
+      "answer": "Yes — even experienced teams can benefit. The 'Extending Kubernetes Confidence With Our Whitepaper' highlights advanced techniques for optimizing security, resource efficiency, and reliability, helping you identify areas for improvement in existing Kubernetes setups."
+    },
+    {
+      "question": "How is the whitepaper structured and what can we expect to learn?",
+      "answer": "It begins with foundational Kubernetes concepts, followed by practical migration strategies, automation workflows, and observability best practices. The goal is to help engineering and DevOps teams make informed decisions and build more confident Kubernetes operations."
+    },
+    {
+      "question": "Does the whitepaper address multi-cloud or hybrid Kubernetes environments?",
+      "answer": "Absolutely. It explains how to design and manage workloads across AWS, Azure, GCP, and on-premises clusters. You’ll learn about cross-cloud portability, scaling techniques, and ensuring consistent governance across multiple Kubernetes environments."
+    },
+    {
+      "question": "How does the whitepaper approach security and reliability?",
+      "answer": "Security and reliability are key themes. The whitepaper discusses container isolation, role-based access control (RBAC), secrets management, and automated recovery patterns. It helps teams confidently run production-grade Kubernetes clusters with built-in security and resilience."
+    },
+    {
+      "question": "Who should read the 'Extending Kubernetes Confidence With Our Whitepaper'?",
+      "answer": "This whitepaper is ideal for DevOps engineers, SREs, architects, and decision-makers looking to improve Kubernetes operations, scale efficiently, and adopt cloud-native best practices with confidence."
+    },
+    {
+      "question": "How can we access the Kubernetes confidence whitepaper?",
+      "answer": "You can download it directly from our website. The whitepaper is available for free and provides valuable insights into extending Kubernetes confidence through architecture design, automation, and scalable DevOps practices."
+    }
   ],
   "seo": {
     "meta_title": "Extend Kubernetes with Custom Controllers and CRDs | Appscode Whitepaper",
     "meta_description": "Learn how to extend Kubernetes using CRDs, custom controllers, and operators. This Appscode whitepaper offers expert guidance, real-world examples, and best practices for scalable cloud-native development."
   }
-  
 }

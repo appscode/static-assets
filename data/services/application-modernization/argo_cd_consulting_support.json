@@ -15,12 +15,30 @@
   "title_with_small_cards": {
     "title": "Key Benefits of Argo CD Consulting Services",
     "areas": [
-      { "icon": "fa fa-cogs", "title": "Declarative App Management & Environments" },
-      { "icon": "fa fa-code-fork", "title": "Version-Controlled GitOps Workflows" },
-      { "icon": "fa fa-clock-o", "title": "Continuous Delivery with Full Auditability" },
-      { "icon": "fa fa-thumbs-up", "title": "Transparent & Scalable Implementations" },
-      { "icon": "fa fa-rocket", "title": "Automated Rollouts & Rollbacks" },
-      { "icon": "fa fa-lock", "title": "Enterprise-Grade Security & Compliance" }
+      {
+        "icon": "fa fa-cogs",
+        "title": "Declarative App Management & Environments"
+      },
+      {
+        "icon": "fa fa-code-fork",
+        "title": "Version-Controlled GitOps Workflows"
+      },
+      {
+        "icon": "fa fa-clock-o",
+        "title": "Continuous Delivery with Full Auditability"
+      },
+      {
+        "icon": "fa fa-thumbs-up",
+        "title": "Transparent & Scalable Implementations"
+      },
+      {
+        "icon": "fa fa-rocket",
+        "title": "Automated Rollouts & Rollbacks"
+      },
+      {
+        "icon": "fa fa-lock",
+        "title": "Enterprise-Grade Security & Compliance"
+      }
     ]
   },
   "service_details": {
@@ -121,26 +139,62 @@
   "tech_stack": {
     "title": "Technical Expertise",
     "subtitle": "Our certified Kubernetes consultants excel in:",
-  "technologies": [
-      {
-        "name": "Crossplane",
-        "logo": "/assets/images/technical-expertise/crossplane.svg"
-      },
+    "technologies": [
       {
         "name": "Kubernetes",
         "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Red Hat OpenShift",
+        "logo": "/assets/images/technical-expertise/openshift.svg"
+      },
+      {
+        "name": "Rancher by SUSE",
+        "logo": "/assets/images/technical-expertise/rancher.svg"
+      },
+      {
+        "name": "Amazon EKS",
+        "logo": "/assets/images/technical-expertise/eks.svg"
+      },
+      {
+        "name": "Azure AKS",
+        "logo": "/assets/images/technical-expertise/aks.svg"
+      },
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      },
+      {
+        "name": "FluxCD",
+        "logo": "/assets/images/technical-expertise/fluxcd.svg"
+      },
+      {
+        "name": "Helm",
+        "logo": "/assets/images/technical-expertise/helm.svg"
+      },
+      {
+        "name": "KubeDB",
+        "logo": "/assets/images/technical-expertise/kubedb.svg"
+      },
+      {
+        "name": "KubeStash",
+        "logo": "/assets/images/technical-expertise/stash.svg"
+      },
+      {
+        "name": "Voyager Gateway",
+        "logo": "/assets/images/technical-expertise/voyager.svg"
+      },
+      {
+        "name": "OpenTelemetry",
+        "logo": "/assets/images/technical-expertise/opentelemetry.svg"
       },
       {
         "name": "Prometheus",
         "logo": "/assets/images/technical-expertise/prometheus.svg"
       },
       {
-        "name": "GraphQL",
-        "logo": "/assets/images/technical-expertise/graphql.svg"
-      },
-      {
-        "name": "Open Policy Agent",
-        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
       },
       {
         "name": "Grafana",
@@ -151,14 +205,17 @@
         "logo": "/assets/images/technical-expertise/terraform.svg"
       },
       {
-        "name": "Kasten",
-        "logo": "/assets/images/technical-expertise/kasten.svg"
+        "name": "Vault",
+        "logo": "/assets/images/technical-expertise/vault.svg"
       },
       {
-        "name": "Thanos",
-        "logo": "/assets/images/technical-expertise/thanos.svg"
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
       },
-      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+      {
+        "name": "OpenFGA",
+        "logo": "/assets/images/technical-expertise/openfga.svg"
+      }
     ]
   },
   "final_cta": {
@@ -210,36 +267,36 @@
   },
   "faq": [
     {
-    "question": "What do your Argo CD Consulting Services include?",
-    "answer": "Our Argo CD Consulting Services help organizations implement GitOps workflows for Kubernetes using Argo CD. We cover setup, configuration, pipeline automation, deployment strategies, monitoring, and rollback mechanisms to enable reliable, version-controlled, and automated application delivery."
-  },
-  {
-    "question": "Which technologies and practices are used in Argo CD consulting?",
-    "answer": "We leverage Argo CD, Git repositories as the source of truth, Kubernetes, Helm charts, Kustomize, CI/CD pipelines, and observability tools. Our approach ensures declarative deployments, automated rollouts, and seamless integration with cloud-native infrastructures."
-  },
-  {
-    "question": "Can you work with our existing Kubernetes clusters and applications?",
-    "answer": "Yes — we integrate Argo CD with your current clusters and workloads, optimize deployment processes, implement GitOps best practices, and ensure your applications are deployed consistently and safely across environments."
-  },
-  {
-    "question": "What is the typical timeline and engagement model for Argo CD Consulting Services?",
-    "answer": "Engagements typically begin with a 1–2 week assessment to evaluate your current workflows and infrastructure. Implementation follows in 4–8 week agile sprints. We offer fixed-scope projects, time-and-materials consulting, or long-term Argo CD advisory partnerships."
-  },
-  {
-    "question": "Do Argo CD Consulting Services support multi-cloud or hybrid cloud deployments?",
-    "answer": "Absolutely. Our services are designed to work across on-premises Kubernetes clusters as well as public clouds like AWS, Azure, and GCP, ensuring consistent and reliable application delivery across multiple environments."
-  },
-  {
-    "question": "How do you ensure security, reliability, and operational efficiency with Argo CD?",
-    "answer": "We enforce RBAC, secrets management, automated testing, monitoring, and rollback strategies. These measures ensure secure, reliable, and efficient GitOps-driven deployments using Argo CD."
-  },
-  {
-    "question": "What happens after Argo CD consulting and implementation?",
-    "answer": "After implementation, we provide ongoing operational guidance, monitoring, performance tuning, and training for your teams. Our Argo CD Consulting Services also include best practice documentation and continuous improvement recommendations."
-  },
-  {
-    "question": "How much do Argo CD Consulting Services cost, and what are the pricing models?",
-    "answer": "Pricing depends on cluster complexity, number of workloads, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
-  }
+      "question": "What do your Argo CD Consulting Services include?",
+      "answer": "Our Argo CD Consulting Services help organizations implement GitOps workflows for Kubernetes using Argo CD. We cover setup, configuration, pipeline automation, deployment strategies, monitoring, and rollback mechanisms to enable reliable, version-controlled, and automated application delivery."
+    },
+    {
+      "question": "Which technologies and practices are used in Argo CD consulting?",
+      "answer": "We leverage Argo CD, Git repositories as the source of truth, Kubernetes, Helm charts, Kustomize, CI/CD pipelines, and observability tools. Our approach ensures declarative deployments, automated rollouts, and seamless integration with cloud-native infrastructures."
+    },
+    {
+      "question": "Can you work with our existing Kubernetes clusters and applications?",
+      "answer": "Yes — we integrate Argo CD with your current clusters and workloads, optimize deployment processes, implement GitOps best practices, and ensure your applications are deployed consistently and safely across environments."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for Argo CD Consulting Services?",
+      "answer": "Engagements typically begin with a 1–2 week assessment to evaluate your current workflows and infrastructure. Implementation follows in 4–8 week agile sprints. We offer fixed-scope projects, time-and-materials consulting, or long-term Argo CD advisory partnerships."
+    },
+    {
+      "question": "Do Argo CD Consulting Services support multi-cloud or hybrid cloud deployments?",
+      "answer": "Absolutely. Our services are designed to work across on-premises Kubernetes clusters as well as public clouds like AWS, Azure, and GCP, ensuring consistent and reliable application delivery across multiple environments."
+    },
+    {
+      "question": "How do you ensure security, reliability, and operational efficiency with Argo CD?",
+      "answer": "We enforce RBAC, secrets management, automated testing, monitoring, and rollback strategies. These measures ensure secure, reliable, and efficient GitOps-driven deployments using Argo CD."
+    },
+    {
+      "question": "What happens after Argo CD consulting and implementation?",
+      "answer": "After implementation, we provide ongoing operational guidance, monitoring, performance tuning, and training for your teams. Our Argo CD Consulting Services also include best practice documentation and continuous improvement recommendations."
+    },
+    {
+      "question": "How much do Argo CD Consulting Services cost, and what are the pricing models?",
+      "answer": "Pricing depends on cluster complexity, number of workloads, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+    }
   ]
 }

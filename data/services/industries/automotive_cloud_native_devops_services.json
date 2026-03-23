@@ -9,11 +9,9 @@
       "alt": "Cloud Native for Automotive Industry"
     }
   },
-
   "trusted_by": {
     "title": "Trusted by Leading Automotive & Mobility Companies"
   },
-
   "title_with_small_cards": {
     "title": "Stay Ahead in the Automotive Sector",
     "subtitle": "Adopt cloud-native platforms to enhance safety, sustainability, and efficiency while maintaining compliance and competitiveness.",
@@ -36,7 +34,6 @@
       }
     ]
   },
-
   "large_preview_cards2": {
     "title": "Cloud-Native Transformation Across Automotive Ecosystem",
     "subtitle": "Automotive companies leveraging cloud-native platforms achieve faster, secure, and scalable operations, while those delaying modernization risk losing competitive advantage.",
@@ -63,7 +60,6 @@
       }
     ]
   },
-
   "service_details": {
     "title": "AppsCode Cloud-Native Services for Automotive Industry",
     "subtitle": "Accelerate automotive digital transformation using Kubernetes, DevOps, and cloud-native practices across connected vehicles, manufacturing, and services.",
@@ -120,7 +116,6 @@
       }
     ]
   },
-
   "industries": {
     "title": "Partnering With You Through Every Stage",
     "subtitle": "From cloud-native strategy to implementation, ongoing monitoring, and maintenance, AppsCode ensures seamless adoption for automotive enterprises.",
@@ -158,7 +153,6 @@
       }
     ]
   },
-
   "open_source": {
     "title": "Open Source Contributions",
     "description": "<a href=\"https://appscode.com/\">AppsCode </a> contributes to cloud-native projects like Kubernetes and Prometheus, leveraging OSS to build reliable automotive platforms.",
@@ -168,30 +162,65 @@
       "alt": "Open Source Contributions"
     }
   },
-
   "tech_stack": {
     "title": "Automotive Cloud-Native Tech Stack",
     "subtitle": "Certified engineers with expertise in Kubernetes, observability, DevSecOps, and cloud-native tools for automotive workloads.",
     "technologies": [
       {
-        "name": "Crossplane",
-        "logo": "/assets/images/technical-expertise/crossplane.svg"
-      },
-      {
         "name": "Kubernetes",
         "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Red Hat OpenShift",
+        "logo": "/assets/images/technical-expertise/openshift.svg"
+      },
+      {
+        "name": "Rancher by SUSE",
+        "logo": "/assets/images/technical-expertise/rancher.svg"
+      },
+      {
+        "name": "Amazon EKS",
+        "logo": "/assets/images/technical-expertise/eks.svg"
+      },
+      {
+        "name": "Azure AKS",
+        "logo": "/assets/images/technical-expertise/aks.svg"
+      },
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      },
+      {
+        "name": "FluxCD",
+        "logo": "/assets/images/technical-expertise/fluxcd.svg"
+      },
+      {
+        "name": "Helm",
+        "logo": "/assets/images/technical-expertise/helm.svg"
+      },
+      {
+        "name": "KubeDB",
+        "logo": "/assets/images/technical-expertise/kubedb.svg"
+      },
+      {
+        "name": "KubeStash",
+        "logo": "/assets/images/technical-expertise/stash.svg"
+      },
+      {
+        "name": "Voyager Gateway",
+        "logo": "/assets/images/technical-expertise/voyager.svg"
+      },
+      {
+        "name": "OpenTelemetry",
+        "logo": "/assets/images/technical-expertise/opentelemetry.svg"
       },
       {
         "name": "Prometheus",
         "logo": "/assets/images/technical-expertise/prometheus.svg"
       },
       {
-        "name": "GraphQL",
-        "logo": "/assets/images/technical-expertise/graphql.svg"
-      },
-      {
-        "name": "Open Policy Agent",
-        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
       },
       {
         "name": "Grafana",
@@ -202,17 +231,19 @@
         "logo": "/assets/images/technical-expertise/terraform.svg"
       },
       {
-        "name": "Kasten",
-        "logo": "/assets/images/technical-expertise/kasten.svg"
+        "name": "Vault",
+        "logo": "/assets/images/technical-expertise/vault.svg"
       },
       {
-        "name": "Thanos",
-        "logo": "/assets/images/technical-expertise/thanos.svg"
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
       },
-      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+      {
+        "name": "OpenFGA",
+        "logo": "/assets/images/technical-expertise/openfga.svg"
+      }
     ]
   },
-
   "final_cta": {
     "title": "Ready to Build Cloud-Native Automotive Platforms?",
     "subtitle": "Partner with AppsCode to accelerate digital transformation in the automotive industry with Kubernetes and DevOps best practices.",
@@ -224,7 +255,6 @@
       }
     ]
   },
-
   "cards": {
     "title": "Why Choose AppsCode for Automotive Cloud-Native Services?",
     "items": [
@@ -262,36 +292,36 @@
   },
   "faq": [
     {
-    "question": "What do your Cloud-Native Solutions for the Automotive Industry include?",
-    "answer": "Our services help automotive organizations modernize their software and IT infrastructure using cloud-native technologies. We cover connected vehicle platforms, telematics, IoT integration, microservices adoption, scalable cloud deployment, and secure application delivery."
-  },
-  {
-    "question": "Which technologies and practices are used in cloud-native solutions for the automotive industry?",
-    "answer": "We leverage Kubernetes, Docker, microservices architecture, CI/CD pipelines, DevSecOps practices, cloud providers like AWS, Azure, and GCP, as well as observability and monitoring tools. This ensures resilient, scalable, and secure automotive applications and services."
-  },
-  {
-    "question": "Can you integrate cloud-native solutions with our existing automotive systems?",
-    "answer": "Yes — we work with your existing vehicle software, telematics platforms, IoT systems, and manufacturing applications, modernize workloads, implement microservices patterns, and integrate cloud-native best practices while ensuring data security and compliance."
-  },
-  {
-    "question": "What is the typical timeline and engagement model for cloud-native solutions in automotive?",
-    "answer": "Engagements typically start with a 1–2 week assessment of your infrastructure, applications, and integration needs. Implementation follows in 4–12 week phases depending on complexity. We offer fixed-scope projects, time-and-materials consulting, or long-term advisory partnerships."
-  },
-  {
-    "question": "Do cloud-native solutions support multi-cloud or hybrid deployments for automotive organizations?",
-    "answer": "Absolutely. Our solutions are designed for multi-cloud and hybrid deployments, enabling seamless operations across AWS, Azure, GCP, and on-premises automotive infrastructure."
-  },
-  {
-    "question": "How do you ensure security, compliance, and reliability in automotive applications?",
-    "answer": "We implement encryption, access controls, secure CI/CD pipelines, monitoring, and disaster recovery. These measures ensure automotive applications are secure, reliable, and compliant with industry standards and regulations."
-  },
-  {
-    "question": "What happens after cloud-native solutions are implemented in the automotive industry?",
-    "answer": "After implementation, we provide ongoing support, monitoring, optimization, and knowledge transfer. Our services ensure automotive applications remain secure, scalable, and optimized for connected vehicle platforms and manufacturing systems."
-  },
-  {
-    "question": "How much do cloud-native solutions for the automotive industry cost, and what are the pricing models?",
-    "answer": "Pricing depends on application complexity, number of systems, and ongoing support requirements. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
-  }
+      "question": "What do your Cloud-Native Solutions for the Automotive Industry include?",
+      "answer": "Our services help automotive organizations modernize their software and IT infrastructure using cloud-native technologies. We cover connected vehicle platforms, telematics, IoT integration, microservices adoption, scalable cloud deployment, and secure application delivery."
+    },
+    {
+      "question": "Which technologies and practices are used in cloud-native solutions for the automotive industry?",
+      "answer": "We leverage Kubernetes, Docker, microservices architecture, CI/CD pipelines, DevSecOps practices, cloud providers like AWS, Azure, and GCP, as well as observability and monitoring tools. This ensures resilient, scalable, and secure automotive applications and services."
+    },
+    {
+      "question": "Can you integrate cloud-native solutions with our existing automotive systems?",
+      "answer": "Yes — we work with your existing vehicle software, telematics platforms, IoT systems, and manufacturing applications, modernize workloads, implement microservices patterns, and integrate cloud-native best practices while ensuring data security and compliance."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for cloud-native solutions in automotive?",
+      "answer": "Engagements typically start with a 1–2 week assessment of your infrastructure, applications, and integration needs. Implementation follows in 4–12 week phases depending on complexity. We offer fixed-scope projects, time-and-materials consulting, or long-term advisory partnerships."
+    },
+    {
+      "question": "Do cloud-native solutions support multi-cloud or hybrid deployments for automotive organizations?",
+      "answer": "Absolutely. Our solutions are designed for multi-cloud and hybrid deployments, enabling seamless operations across AWS, Azure, GCP, and on-premises automotive infrastructure."
+    },
+    {
+      "question": "How do you ensure security, compliance, and reliability in automotive applications?",
+      "answer": "We implement encryption, access controls, secure CI/CD pipelines, monitoring, and disaster recovery. These measures ensure automotive applications are secure, reliable, and compliant with industry standards and regulations."
+    },
+    {
+      "question": "What happens after cloud-native solutions are implemented in the automotive industry?",
+      "answer": "After implementation, we provide ongoing support, monitoring, optimization, and knowledge transfer. Our services ensure automotive applications remain secure, scalable, and optimized for connected vehicle platforms and manufacturing systems."
+    },
+    {
+      "question": "How much do cloud-native solutions for the automotive industry cost, and what are the pricing models?",
+      "answer": "Pricing depends on application complexity, number of systems, and ongoing support requirements. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+    }
   ]
 }

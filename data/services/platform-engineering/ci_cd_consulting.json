@@ -15,14 +15,38 @@
   "title_with_small_cards": {
     "title": "Benefits of Our CI/CD Consulting Services",
     "areas": [
-      { "icon": "fa fa-rocket", "title": "Accelerated Software Delivery" },
-      { "icon": "fa fa-shield", "title": "Improved System Resiliency" },
-      { "icon": "fa fa-thumbs-up", "title": "Enhanced Team Productivity" },
-      { "icon": "fa fa-cogs", "title": "Reduced Operational Overhead" },
-      { "icon": "fa fa-lock", "title": "Secure & Risk-Aware Deployments" },
-      { "icon": "fa fa-clock-o", "title": "Lower Mean Time to Resolution (MTTR)" },
-      { "icon": "fa fa-bug", "title": "Fewer Bugs & Production Incidents" },
-      { "icon": "fa fa-eye", "title": "Proactive Issue Detection" }
+      {
+        "icon": "fa fa-rocket",
+        "title": "Accelerated Software Delivery"
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Improved System Resiliency"
+      },
+      {
+        "icon": "fa fa-thumbs-up",
+        "title": "Enhanced Team Productivity"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Reduced Operational Overhead"
+      },
+      {
+        "icon": "fa fa-lock",
+        "title": "Secure & Risk-Aware Deployments"
+      },
+      {
+        "icon": "fa fa-clock-o",
+        "title": "Lower Mean Time to Resolution (MTTR)"
+      },
+      {
+        "icon": "fa fa-bug",
+        "title": "Fewer Bugs & Production Incidents"
+      },
+      {
+        "icon": "fa fa-eye",
+        "title": "Proactive Issue Detection"
+      }
     ]
   },
   "service_details": {
@@ -204,26 +228,62 @@
   "tech_stack": {
     "title": "Diverse Technical Expertise",
     "subtitle": "Serving 100+ clients, our engineers excel in:",
-     "technologies": [
-      {
-        "name": "Crossplane",
-        "logo": "/assets/images/technical-expertise/crossplane.svg"
-      },
+    "technologies": [
       {
         "name": "Kubernetes",
         "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Red Hat OpenShift",
+        "logo": "/assets/images/technical-expertise/openshift.svg"
+      },
+      {
+        "name": "Rancher by SUSE",
+        "logo": "/assets/images/technical-expertise/rancher.svg"
+      },
+      {
+        "name": "Amazon EKS",
+        "logo": "/assets/images/technical-expertise/eks.svg"
+      },
+      {
+        "name": "Azure AKS",
+        "logo": "/assets/images/technical-expertise/aks.svg"
+      },
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      },
+      {
+        "name": "FluxCD",
+        "logo": "/assets/images/technical-expertise/fluxcd.svg"
+      },
+      {
+        "name": "Helm",
+        "logo": "/assets/images/technical-expertise/helm.svg"
+      },
+      {
+        "name": "KubeDB",
+        "logo": "/assets/images/technical-expertise/kubedb.svg"
+      },
+      {
+        "name": "KubeStash",
+        "logo": "/assets/images/technical-expertise/stash.svg"
+      },
+      {
+        "name": "Voyager Gateway",
+        "logo": "/assets/images/technical-expertise/voyager.svg"
+      },
+      {
+        "name": "OpenTelemetry",
+        "logo": "/assets/images/technical-expertise/opentelemetry.svg"
       },
       {
         "name": "Prometheus",
         "logo": "/assets/images/technical-expertise/prometheus.svg"
       },
       {
-        "name": "GraphQL",
-        "logo": "/assets/images/technical-expertise/graphql.svg"
-      },
-      {
-        "name": "Open Policy Agent",
-        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
       },
       {
         "name": "Grafana",
@@ -234,14 +294,17 @@
         "logo": "/assets/images/technical-expertise/terraform.svg"
       },
       {
-        "name": "Kasten",
-        "logo": "/assets/images/technical-expertise/kasten.svg"
+        "name": "Vault",
+        "logo": "/assets/images/technical-expertise/vault.svg"
       },
       {
-        "name": "Thanos",
-        "logo": "/assets/images/technical-expertise/thanos.svg"
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
       },
-      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+      {
+        "name": "OpenFGA",
+        "logo": "/assets/images/technical-expertise/openfga.svg"
+      }
     ]
   },
   "final_cta": {
@@ -290,7 +353,7 @@
       }
     ]
   },
-    "resources": {
+  "resources": {
     "title": "Cloud-Native Product Engineering Resources",
     "items": [
       {
@@ -315,36 +378,36 @@
   },
   "faq": [
     {
-    "question": "What do your CI/CD Consulting Services include?",
-    "answer": "Our CI/CD Consulting Services cover the full lifecycle of continuous integration and delivery — from evaluating your current processes, defining pipelines, integrating DevOps best practices, to implementing automation for faster, reliable, and repeatable software releases."
-  },
-  {
-    "question": "Which technologies and practices are used in CI/CD consulting?",
-    "answer": "We leverage tools and platforms like Jenkins, GitHub Actions, GitLab CI, Kubernetes, Docker, and infrastructure as code. Our approach ensures automated testing, reliable deployments, and seamless integration with cloud-native architectures and microservices environments."
-  },
-  {
-    "question": "Can you work with our existing development and deployment workflows?",
-    "answer": "Yes — we integrate with your current tech stack and workflows. Our engineers enhance existing pipelines, implement best practices, and optimize for continuous delivery to improve speed, quality, and operational confidence."
-  },
-  {
-    "question": "What is the typical timeline and engagement model for CI/CD Consulting Services?",
-    "answer": "Engagements usually start with a 1–2 week assessment to analyze your current processes. Implementation follows in 4–8 week agile sprints. We offer flexible models including fixed-scope projects, time-and-materials engagements, or long-term consulting partnerships."
-  },
-  {
-    "question": "Do you support multi-cloud or hybrid cloud environments in CI/CD pipelines?",
-    "answer": "Absolutely. Our CI/CD Consulting Services support AWS, Azure, GCP, and on-premises Kubernetes clusters. Pipelines are designed to be portable and consistent, ensuring smooth deployments across different environments."
-  },
-  {
-    "question": "How do you ensure quality, security, and reliability in CI/CD pipelines?",
-    "answer": "We ensure quality with automated testing and code reviews, enforce security with secrets management and role-based access, and maintain reliability through robust monitoring, rollback strategies, and disaster recovery practices."
-  },
-  {
-    "question": "What happens after the CI/CD pipelines are implemented?",
-    "answer": "After implementation, we help monitor pipeline performance, optimize automation, and provide guidance for scaling. Our CI/CD Consulting Services also include continuous improvements and best practices to maintain operational efficiency and reliability."
-  },
-  {
-    "question": "How much do CI/CD Consulting Services cost and what are the pricing models?",
-    "answer": "Costs vary depending on the complexity of your pipelines, number of teams, and ongoing support needs. We offer flexible pricing models including fixed-scope projects, hourly engagements, and long-term consulting retainers. Detailed proposals are provided after the assessment phase."
-  }
+      "question": "What do your CI/CD Consulting Services include?",
+      "answer": "Our CI/CD Consulting Services cover the full lifecycle of continuous integration and delivery — from evaluating your current processes, defining pipelines, integrating DevOps best practices, to implementing automation for faster, reliable, and repeatable software releases."
+    },
+    {
+      "question": "Which technologies and practices are used in CI/CD consulting?",
+      "answer": "We leverage tools and platforms like Jenkins, GitHub Actions, GitLab CI, Kubernetes, Docker, and infrastructure as code. Our approach ensures automated testing, reliable deployments, and seamless integration with cloud-native architectures and microservices environments."
+    },
+    {
+      "question": "Can you work with our existing development and deployment workflows?",
+      "answer": "Yes — we integrate with your current tech stack and workflows. Our engineers enhance existing pipelines, implement best practices, and optimize for continuous delivery to improve speed, quality, and operational confidence."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for CI/CD Consulting Services?",
+      "answer": "Engagements usually start with a 1–2 week assessment to analyze your current processes. Implementation follows in 4–8 week agile sprints. We offer flexible models including fixed-scope projects, time-and-materials engagements, or long-term consulting partnerships."
+    },
+    {
+      "question": "Do you support multi-cloud or hybrid cloud environments in CI/CD pipelines?",
+      "answer": "Absolutely. Our CI/CD Consulting Services support AWS, Azure, GCP, and on-premises Kubernetes clusters. Pipelines are designed to be portable and consistent, ensuring smooth deployments across different environments."
+    },
+    {
+      "question": "How do you ensure quality, security, and reliability in CI/CD pipelines?",
+      "answer": "We ensure quality with automated testing and code reviews, enforce security with secrets management and role-based access, and maintain reliability through robust monitoring, rollback strategies, and disaster recovery practices."
+    },
+    {
+      "question": "What happens after the CI/CD pipelines are implemented?",
+      "answer": "After implementation, we help monitor pipeline performance, optimize automation, and provide guidance for scaling. Our CI/CD Consulting Services also include continuous improvements and best practices to maintain operational efficiency and reliability."
+    },
+    {
+      "question": "How much do CI/CD Consulting Services cost and what are the pricing models?",
+      "answer": "Costs vary depending on the complexity of your pipelines, number of teams, and ongoing support needs. We offer flexible pricing models including fixed-scope projects, hourly engagements, and long-term consulting retainers. Detailed proposals are provided after the assessment phase."
+    }
   ]
 }

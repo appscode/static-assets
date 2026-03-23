@@ -63,7 +63,9 @@
       "version": "24.4.1",
       "replicas": 1,
       "storage": {
-        "accessModes": ["ReadWriteOnce"],
+        "accessModes": [
+          "ReadWriteOnce"
+        ],
         "resources": {
           "requests": {
             "storage": "1Gi"

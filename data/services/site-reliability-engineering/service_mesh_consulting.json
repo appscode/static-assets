@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Enterprise Service Mesh Consulting & Implementation Experts",
-    "subtitle": "Accelerate your microservices journey with certified experts in Istio, Linkerd, Consul, Traefik, and OSM, ensuring security, reliability, and observability.",
+    "subtitle": "Accelerate your microservices journey with experts in Istio, ensuring security, reliability, and observability.",
     "cta_text": "Talk to Service Mesh Experts",
     "cta_url": "https://appscode.com/contact/",
     "illustration": {
@@ -15,14 +15,38 @@
   "title_with_small_cards": {
     "title": "Why Choose Service Mesh Consulting?",
     "areas": [
-      { "icon": "fa fa-shield", "title": "Zero Trust Security & Compliance" },
-      { "icon": "fa fa-undo", "title": "Built-in Failure Recovery & Resilience" },
-      { "icon": "fa fa-rocket", "title": "Intelligent Traffic Management" },
-      { "icon": "fa fa-cogs", "title": "Granular Service Routing & Policies" },
-      { "icon": "fa fa-database", "title": "Multi-Mesh, Kubernetes & VM Support" },
-      { "icon": "fa fa-eye", "title": "Unified Observability & Metrics" },
-      { "icon": "fa fa-cloud", "title": "Hybrid Cloud & Multi-Cluster Ready" },
-      { "icon": "fa fa-lock", "title": "Secure Service-to-Service Communication" }
+      {
+        "icon": "fa fa-shield",
+        "title": "Zero Trust Security & Compliance"
+      },
+      {
+        "icon": "fa fa-undo",
+        "title": "Built-in Failure Recovery & Resilience"
+      },
+      {
+        "icon": "fa fa-rocket",
+        "title": "Intelligent Traffic Management"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Granular Service Routing & Policies"
+      },
+      {
+        "icon": "fa fa-database",
+        "title": "Multi-Mesh, Kubernetes & VM Support"
+      },
+      {
+        "icon": "fa fa-eye",
+        "title": "Unified Observability & Metrics"
+      },
+      {
+        "icon": "fa fa-cloud",
+        "title": "Hybrid Cloud & Multi-Cluster Ready"
+      },
+      {
+        "icon": "fa fa-lock",
+        "title": "Secure Service-to-Service Communication"
+      }
     ]
   },
   "service_details": {
@@ -157,24 +181,60 @@
     "subtitle": "We help you evaluate, deploy, and manage the best-fit mesh for your workloads.",
     "technologies": [
       {
-        "name": "Crossplane",
-        "logo": "/assets/images/technical-expertise/crossplane.svg"
-      },
-      {
         "name": "Kubernetes",
         "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Red Hat OpenShift",
+        "logo": "/assets/images/technical-expertise/openshift.svg"
+      },
+      {
+        "name": "Rancher by SUSE",
+        "logo": "/assets/images/technical-expertise/rancher.svg"
+      },
+      {
+        "name": "Amazon EKS",
+        "logo": "/assets/images/technical-expertise/eks.svg"
+      },
+      {
+        "name": "Azure AKS",
+        "logo": "/assets/images/technical-expertise/aks.svg"
+      },
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      },
+      {
+        "name": "FluxCD",
+        "logo": "/assets/images/technical-expertise/fluxcd.svg"
+      },
+      {
+        "name": "Helm",
+        "logo": "/assets/images/technical-expertise/helm.svg"
+      },
+      {
+        "name": "KubeDB",
+        "logo": "/assets/images/technical-expertise/kubedb.svg"
+      },
+      {
+        "name": "KubeStash",
+        "logo": "/assets/images/technical-expertise/stash.svg"
+      },
+      {
+        "name": "Voyager Gateway",
+        "logo": "/assets/images/technical-expertise/voyager.svg"
+      },
+      {
+        "name": "OpenTelemetry",
+        "logo": "/assets/images/technical-expertise/opentelemetry.svg"
       },
       {
         "name": "Prometheus",
         "logo": "/assets/images/technical-expertise/prometheus.svg"
       },
       {
-        "name": "GraphQL",
-        "logo": "/assets/images/technical-expertise/graphql.svg"
-      },
-      {
-        "name": "Open Policy Agent",
-        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
       },
       {
         "name": "Grafana",
@@ -185,14 +245,17 @@
         "logo": "/assets/images/technical-expertise/terraform.svg"
       },
       {
-        "name": "Kasten",
-        "logo": "/assets/images/technical-expertise/kasten.svg"
+        "name": "Vault",
+        "logo": "/assets/images/technical-expertise/vault.svg"
       },
       {
-        "name": "Thanos",
-        "logo": "/assets/images/technical-expertise/thanos.svg"
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
       },
-      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+      {
+        "name": "OpenFGA",
+        "logo": "/assets/images/technical-expertise/openfga.svg"
+      }
     ]
   },
   "large_preview_cards": {
@@ -220,37 +283,37 @@
   },
   "faq": [
     {
-    "question": "What do your Service Mesh Consulting services include?",
-    "answer": "Our Service Mesh Consulting services help organizations design, implement, and optimize service mesh architectures for microservices. We cover service-to-service communication, traffic management, security policies, observability, and reliability to ensure resilient and secure application delivery."
-  },
-  {
-    "question": "Which technologies and practices are used in Service Mesh consulting?",
-    "answer": "We leverage Istio, Linkerd, Envoy, Kubernetes, and observability tools to implement service mesh patterns. Our approach focuses on secure communication, traffic routing, load balancing, telemetry, and fault tolerance to enhance microservices performance and reliability."
-  },
-  {
-    "question": "Can you work with our existing microservices and Kubernetes infrastructure?",
-    "answer": "Yes — we integrate the service mesh with your existing microservices and Kubernetes clusters, optimize traffic management, enforce security policies, and provide guidance on best practices to ensure smooth adoption."
-  },
-  {
-    "question": "What is the typical timeline and engagement model for Service Mesh Consulting?",
-    "answer": "Engagements usually start with a 1–2 week assessment of your microservices architecture and communication patterns. Implementation follows in 4–8 week phases. We offer fixed-scope projects, time-and-materials consulting, or long-term service mesh advisory partnerships."
-  },
-  {
-    "question": "Do Service Mesh Consulting services support multi-cloud or hybrid environments?",
-    "answer": "Absolutely. Our consulting services are designed for hybrid and multi-cloud deployments, ensuring consistent service-to-service communication, security, and observability across AWS, Azure, GCP, and on-premises Kubernetes clusters."
-  },
-  {
-    "question": "How do you ensure security, reliability, and observability in the service mesh?",
-    "answer": "We enforce secure mTLS communication, role-based access control, monitoring, logging, tracing, automated retries, and fault injection for resilience. These measures help maintain secure, reliable, and observable microservices communication."
-  },
-  {
-    "question": "What happens after Service Mesh Consulting and implementation?",
-    "answer": "After implementation, we provide ongoing guidance, monitoring, and optimization. Our services include knowledge transfer, training, best practice documentation, and continuous improvement recommendations for long-term success."
-  },
-  {
-    "question": "How much do Service Mesh Consulting services cost, and what are the pricing models?",
-    "answer": "Pricing depends on microservices complexity, number of clusters, and support requirements. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
-  }
+      "question": "What do your Service Mesh Consulting services include?",
+      "answer": "Our Service Mesh Consulting services help organizations design, implement, and optimize service mesh architectures for microservices. We cover service-to-service communication, traffic management, security policies, observability, and reliability to ensure resilient and secure application delivery."
+    },
+    {
+      "question": "Which technologies and practices are used in Service Mesh consulting?",
+      "answer": "We leverage Istio, Linkerd, Envoy, Kubernetes, and observability tools to implement service mesh patterns. Our approach focuses on secure communication, traffic routing, load balancing, telemetry, and fault tolerance to enhance microservices performance and reliability."
+    },
+    {
+      "question": "Can you work with our existing microservices and Kubernetes infrastructure?",
+      "answer": "Yes — we integrate the service mesh with your existing microservices and Kubernetes clusters, optimize traffic management, enforce security policies, and provide guidance on best practices to ensure smooth adoption."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for Service Mesh Consulting?",
+      "answer": "Engagements usually start with a 1–2 week assessment of your microservices architecture and communication patterns. Implementation follows in 4–8 week phases. We offer fixed-scope projects, time-and-materials consulting, or long-term service mesh advisory partnerships."
+    },
+    {
+      "question": "Do Service Mesh Consulting services support multi-cloud or hybrid environments?",
+      "answer": "Absolutely. Our consulting services are designed for hybrid and multi-cloud deployments, ensuring consistent service-to-service communication, security, and observability across AWS, Azure, GCP, and on-premises Kubernetes clusters."
+    },
+    {
+      "question": "How do you ensure security, reliability, and observability in the service mesh?",
+      "answer": "We enforce secure mTLS communication, role-based access control, monitoring, logging, tracing, automated retries, and fault injection for resilience. These measures help maintain secure, reliable, and observable microservices communication."
+    },
+    {
+      "question": "What happens after Service Mesh Consulting and implementation?",
+      "answer": "After implementation, we provide ongoing guidance, monitoring, and optimization. Our services include knowledge transfer, training, best practice documentation, and continuous improvement recommendations for long-term success."
+    },
+    {
+      "question": "How much do Service Mesh Consulting services cost, and what are the pricing models?",
+      "answer": "Pricing depends on microservices complexity, number of clusters, and support requirements. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+    }
   ],
   "final_cta": {
     "title": "Need Enterprise Service Mesh Support?",

@@ -9,28 +9,49 @@
       "alt": "Cloud Native Networking Services"
     }
   },
-
   "trusted_by": {
     "title": "Trusted by Innovative Enterprises Worldwide"
   },
-
   "title_with_small_cards": {
     "title": "Why Cloud-Native Networking Services Matter",
     "areas": [
-      { "icon": "fa fa-shield", "title": "Secure & Scalable Connectivity" },
-      { "icon": "fa fa-unlock", "title": "Zero-Trust Network Policies" },
-      { "icon": "fa fa-tachometer", "title": "High Throughput & Availability" },
-      { "icon": "fa fa-cogs", "title": "Intelligent Load Balancing" },
-      { "icon": "fa fa-sitemap", "title": "Multi-Cluster Networking" },
-      { "icon": "fa fa-cloud", "title": "Multi-Cloud Security" },
-      { "icon": "fa fa-lock", "title": "End-to-End Encryption" },
-      { "icon": "fa fa-chart-line", "title": "Traffic Flow Analytics & Insights" }
+      {
+        "icon": "fa fa-shield",
+        "title": "Secure & Scalable Connectivity"
+      },
+      {
+        "icon": "fa fa-unlock",
+        "title": "Zero-Trust Network Policies"
+      },
+      {
+        "icon": "fa fa-tachometer",
+        "title": "High Throughput & Availability"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Intelligent Load Balancing"
+      },
+      {
+        "icon": "fa fa-sitemap",
+        "title": "Multi-Cluster Networking"
+      },
+      {
+        "icon": "fa fa-cloud",
+        "title": "Multi-Cloud Security"
+      },
+      {
+        "icon": "fa fa-lock",
+        "title": "End-to-End Encryption"
+      },
+      {
+        "icon": "fa fa-chart-line",
+        "title": "Traffic Flow Analytics & Insights"
+      }
     ]
   },
-
   "service_details": {
     "title": "AppsCode – Your Trusted Cloud-Native Networking Partner",
-   "subtitle": "Design, deploy, and optimize secure and resilient networks for Kubernetes and cloud-native workloads with AppsCode.",
+    "subtitle": "Design, deploy, and optimize secure and resilient networks for Kubernetes and cloud-native workloads with AppsCode.",
     "sections": [
       {
         "title": "Network Assessment & Optimization",
@@ -94,7 +115,6 @@
       }
     ]
   },
-
   "cards": {
     "title": "Why Partner with AppsCode for Cloud-Native Networking?",
     "items": [
@@ -130,7 +150,6 @@
       }
     ]
   },
-
   "industries": {
     "title": "Industry Expertise That Delivers Results",
     "subtitle": "We combine deep technical knowledge with domain-specific experience to deliver secure, scalable networking for every industry.",
@@ -168,7 +187,6 @@
       }
     ]
   },
-
   "open_source": {
     "title": "We Love Open Source",
     "description": "Open source is in our DNA. <a href=\"https://appscode.com/\">AppsCode </a> actively contributes to the cloud-native ecosystem — creating, maintaining, and improving OSS projects that empower developers and enterprises globally.",
@@ -178,30 +196,65 @@
       "alt": "We Love Open Source"
     }
   },
-
   "tech_stack": {
     "title": "Deep Expertise Across Cloud-Native Networking Technologies",
     "subtitle": "Our engineers bring hands-on experience with the most popular CNIs, service meshes, and networking frameworks.",
     "technologies": [
       {
-        "name": "Crossplane",
-        "logo": "/assets/images/technical-expertise/crossplane.svg"
-      },
-      {
         "name": "Kubernetes",
         "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Red Hat OpenShift",
+        "logo": "/assets/images/technical-expertise/openshift.svg"
+      },
+      {
+        "name": "Rancher by SUSE",
+        "logo": "/assets/images/technical-expertise/rancher.svg"
+      },
+      {
+        "name": "Amazon EKS",
+        "logo": "/assets/images/technical-expertise/eks.svg"
+      },
+      {
+        "name": "Azure AKS",
+        "logo": "/assets/images/technical-expertise/aks.svg"
+      },
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      },
+      {
+        "name": "FluxCD",
+        "logo": "/assets/images/technical-expertise/fluxcd.svg"
+      },
+      {
+        "name": "Helm",
+        "logo": "/assets/images/technical-expertise/helm.svg"
+      },
+      {
+        "name": "KubeDB",
+        "logo": "/assets/images/technical-expertise/kubedb.svg"
+      },
+      {
+        "name": "KubeStash",
+        "logo": "/assets/images/technical-expertise/stash.svg"
+      },
+      {
+        "name": "Voyager Gateway",
+        "logo": "/assets/images/technical-expertise/voyager.svg"
+      },
+      {
+        "name": "OpenTelemetry",
+        "logo": "/assets/images/technical-expertise/opentelemetry.svg"
       },
       {
         "name": "Prometheus",
         "logo": "/assets/images/technical-expertise/prometheus.svg"
       },
       {
-        "name": "GraphQL",
-        "logo": "/assets/images/technical-expertise/graphql.svg"
-      },
-      {
-        "name": "Open Policy Agent",
-        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
       },
       {
         "name": "Grafana",
@@ -212,51 +265,53 @@
         "logo": "/assets/images/technical-expertise/terraform.svg"
       },
       {
-        "name": "Kasten",
-        "logo": "/assets/images/technical-expertise/kasten.svg"
+        "name": "Vault",
+        "logo": "/assets/images/technical-expertise/vault.svg"
       },
       {
-        "name": "Thanos",
-        "logo": "/assets/images/technical-expertise/thanos.svg"
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
       },
-      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+      {
+        "name": "OpenFGA",
+        "logo": "/assets/images/technical-expertise/openfga.svg"
+      }
     ]
   },
   "faq": [
     {
-    "question": "What do your Cloud-Native Networking Services include?",
-    "answer": "Our Cloud-Native Networking Services help organizations design, implement, and optimize networking for cloud-native applications. We cover service connectivity, traffic routing, load balancing, network security, observability, and scalability for modern microservices architectures."
-  },
-  {
-    "question": "Which technologies and practices are used in cloud-native networking?",
-    "answer": "We leverage Kubernetes networking, service meshes like Istio and Linkerd, Envoy proxies, CNI plugins, cloud provider networking services, and observability tools. Our approach ensures secure, reliable, and high-performance connectivity across cloud-native environments."
-  },
-  {
-    "question": "Can you work with our existing cloud infrastructure and applications?",
-    "answer": "Yes — we integrate cloud-native networking practices with your current infrastructure and workloads, optimize traffic management, enforce security policies, and provide guidance to improve network performance and reliability."
-  },
-  {
-    "question": "What is the typical timeline and engagement model for Cloud-Native Networking Services?",
-    "answer": "Engagements usually start with a 1–2 week assessment of your networking architecture and cloud environments. Implementation follows in 4–8 week phases. We offer fixed-scope projects, time-and-materials consulting, or long-term networking advisory partnerships."
-  },
-  {
-    "question": "Do Cloud-Native Networking Services support multi-cloud or hybrid deployments?",
-    "answer": "Absolutely. Our services are designed for multi-cloud and hybrid environments, ensuring consistent network connectivity, security, and performance across AWS, Azure, GCP, and on-premises Kubernetes clusters."
-  },
-  {
-    "question": "How do you ensure security, reliability, and performance in cloud-native networking?",
-    "answer": "We enforce network segmentation, mTLS encryption, traffic routing policies, monitoring, logging, and automated failover. These measures help maintain secure, reliable, and high-performance networking for cloud-native applications."
-  },
-  {
-    "question": "What happens after Cloud-Native Networking Services implementation?",
-    "answer": "After implementation, we provide ongoing guidance, monitoring, and optimization. Our services include knowledge transfer, training, best practice documentation, and continuous improvement recommendations for long-term success."
-  },
-  {
-    "question": "How much do Cloud-Native Networking Services cost, and what are the pricing models?",
-    "answer": "Pricing depends on network complexity, number of clusters, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
-  }
+      "question": "What do your Cloud-Native Networking Services include?",
+      "answer": "Our Cloud-Native Networking Services help organizations design, implement, and optimize networking for cloud-native applications. We cover service connectivity, traffic routing, load balancing, network security, observability, and scalability for modern microservices architectures."
+    },
+    {
+      "question": "Which technologies and practices are used in cloud-native networking?",
+      "answer": "We leverage Kubernetes networking, service meshes like Istio and Linkerd, Envoy proxies, CNI plugins, cloud provider networking services, and observability tools. Our approach ensures secure, reliable, and high-performance connectivity across cloud-native environments."
+    },
+    {
+      "question": "Can you work with our existing cloud infrastructure and applications?",
+      "answer": "Yes — we integrate cloud-native networking practices with your current infrastructure and workloads, optimize traffic management, enforce security policies, and provide guidance to improve network performance and reliability."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for Cloud-Native Networking Services?",
+      "answer": "Engagements usually start with a 1–2 week assessment of your networking architecture and cloud environments. Implementation follows in 4–8 week phases. We offer fixed-scope projects, time-and-materials consulting, or long-term networking advisory partnerships."
+    },
+    {
+      "question": "Do Cloud-Native Networking Services support multi-cloud or hybrid deployments?",
+      "answer": "Absolutely. Our services are designed for multi-cloud and hybrid environments, ensuring consistent network connectivity, security, and performance across AWS, Azure, GCP, and on-premises Kubernetes clusters."
+    },
+    {
+      "question": "How do you ensure security, reliability, and performance in cloud-native networking?",
+      "answer": "We enforce network segmentation, mTLS encryption, traffic routing policies, monitoring, logging, and automated failover. These measures help maintain secure, reliable, and high-performance networking for cloud-native applications."
+    },
+    {
+      "question": "What happens after Cloud-Native Networking Services implementation?",
+      "answer": "After implementation, we provide ongoing guidance, monitoring, and optimization. Our services include knowledge transfer, training, best practice documentation, and continuous improvement recommendations for long-term success."
+    },
+    {
+      "question": "How much do Cloud-Native Networking Services cost, and what are the pricing models?",
+      "answer": "Pricing depends on network complexity, number of clusters, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+    }
   ],
-
   "final_cta": {
     "subtitle": "Talk to AppsCode experts to design, deploy, or optimize your Kubernetes networking, CNIs, and service mesh automation.",
     "buttons": [
