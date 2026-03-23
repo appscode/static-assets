@@ -1,0 +1,342 @@
+{
+  "hero": {
+    "title": "Rancher by SUSE Consulting Services by Experts",
+    "subtitle": "AppsCode is a certified SUSE partner — delivering expert Rancher consulting, deployment, optimization, and managed enterprise support.",
+    "cta_text": "Talk to a Rancher Expert",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/kubernetes-consulting.png",
+      "alt": "Rancher by SUSE Consulting Services by AppsCode"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Leading Enterprises Worldwide"
+  },
+  "title_with_small_cards": {
+    "title": "Why Choose Our Rancher Consulting Services?",
+    "areas": [
+      {
+        "icon": "fa fa-lightbulb-o",
+        "title": "Agile & Scalable Rancher Architecture"
+      },
+      {
+        "icon": "fa fa-tachometer",
+        "title": "High-Performance Rancher Deployments"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Accelerated App Development on Rancher"
+      },
+      {
+        "icon": "fa fa-money",
+        "title": "Optimize Cloud & IT Infrastructure Costs"
+      },
+      {
+        "icon": "fa fa-cloud",
+        "title": "Multi-Cloud & Hybrid Rancher Flexibility"
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Self-Healing & Secure Container Environments"
+      },
+      {
+        "icon": "fa fa-arrows-alt",
+        "title": "Migrate & Containerize Legacy Applications"
+      },
+      {
+        "icon": "fa fa-repeat",
+        "title": "Automated CI/CD Rollouts & Rollbacks"
+      }
+    ]
+  },
+  "service_details": {
+    "title": "Our End-to-End Rancher Consulting Services",
+    "subtitle": "As a <a href=\"https://github.com/rancher/partner-charts\">certified SUSE partner</a> and <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member, AppsCode delivers expert Rancher consulting — from planning to production management.",
+    "sections": [
+      {
+        "title": "Rancher Advisory & Assessment",
+        "description": "Start your Rancher journey with confidence. Our experts assess your current infrastructure, plan seamless migration to Rancher-managed Kubernetes, and design a scalable architecture optimized for your environment.",
+        "offerings": [
+          "Conduct infrastructure audits and plan Rancher adoption.",
+          "Create a roadmap for efficient Rancher deployment.",
+          "Provide detailed cost analysis and workload optimization."
+        ],
+        "image": "/assets/images/services/kubernetes-advisory.png"
+      },
+      {
+        "title": "Application Development & Migration",
+        "description": "Modernize your workloads with Rancher-native applications and migrate monoliths into containerized microservices for better agility and performance.",
+        "offerings": [
+          "Develop Rancher-ready applications using Go, Java, and Python.",
+          "Break monolithic architectures into resilient microservices.",
+          "Implement centralized management across multi-cluster Rancher environments."
+        ],
+        "image": "/assets/images/services/kubernetes-application-development.png"
+      },
+      {
+        "title": "Rancher Deployment & Operations",
+        "description": "Deploy production-grade Rancher clusters on-premises or in the cloud with high availability, resilience, and observability built in.",
+        "offerings": [
+          "Provision auto-healing Kubernetes clusters using Rancher, RKE2, and K3s.",
+          "Integrate observability with Prometheus, Grafana, and Thanos.",
+          "Automate cluster scaling, upgrades, and security policies."
+        ],
+        "image": "/assets/images/services/kubernetes-deployment-partner.png"
+      },
+      {
+        "title": "DevSecOps, Security & Compliance",
+        "description": "Shift security left in your Rancher lifecycle. Our DevSecOps services ensure compliance and security at every layer of your containerized environment.",
+        "offerings": [
+          "Implement role-based access control (RBAC) and network segmentation.",
+          "Automate container image scanning with tools like Trivy and Clair.",
+          "Ensure compliance with ISO, HIPAA, and GDPR standards."
+        ],
+        "image": "/assets/images/services/kubernetes-devsecops-compliance.png"
+      },
+      {
+        "title": "Enterprise Rancher Support & Training",
+        "description": "<a href=\"https://appscode.com/\">AppsCode</a> provides continuous Rancher support, training, and managed services to ensure operational excellence and long-term stability.",
+        "offerings": [
+          "Real-time monitoring, backup, and disaster recovery using Stash.",
+          "Training for DevOps teams to manage Rancher independently.",
+          "Cost management and resource optimization for Rancher clusters."
+        ],
+        "image": "/assets/images/services/kubernetes-enterprise-support-training.png"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industry Expertise in Rancher Consulting",
+    "subtitle": "Our Rancher consulting services empower over 100 clients across regulated industries with high-performance, compliant, and reliable infrastructure.",
+    "additional_text": "We serve global enterprises and startups with deep expertise in cloud-native and Rancher solutions.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Highly available, compliant systems for secure 24/7 transactions."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology & SaaS",
+        "description": "Integrate AI and manage GPU servers for high-performance SaaS platforms."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Leverage AI & ML to meet customer expectations while ensuring safety and sustainability."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Modernize systems for inspections, monitoring, and cost reduction."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Use cloud GPU instances for fast, secure processing of patient data."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver seamless operations and instant updates with scalable systems."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "Built on Open Source, Powered by Community",
+    "description": "AppsCode actively contributes to CNCF and open-source projects such as <a href=\"https://kubedb.com/\">KubeDB</a>, <a href=\"https://kubevault.com/\">KubeVault</a>, <a href=\"https://stash.run/\">Stash</a>, and <a href=\"https://voyagermesh.com/\">Voyager</a> — all available as Rancher Partner Charts in the <a href=\"https://github.com/rancher/partner-charts\">SUSE Rancher ecosystem</a>.",
+    "cta_text": "Explore Our Open Source Projects",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Our Rancher Technology Expertise",
+    "subtitle": "We use proven cloud-native tools and frameworks to deliver enterprise-grade Rancher consulting services.",
+    "technologies": [
+      {
+        "name": "Rancher by SUSE",
+        "logo": "/assets/images/technical-expertise/rancher.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Red Hat OpenShift",
+        "logo": "/assets/images/technical-expertise/openshift.svg"
+      },
+      {
+        "name": "Amazon EKS",
+        "logo": "/assets/images/technical-expertise/eks.svg"
+      },
+      {
+        "name": "Azure AKS",
+        "logo": "/assets/images/technical-expertise/aks.svg"
+      },
+      {
+        "name": "Google GKE",
+        "logo": "/assets/images/technical-expertise/gke.svg"
+      },
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      },
+      {
+        "name": "FluxCD",
+        "logo": "/assets/images/technical-expertise/fluxcd.svg"
+      },
+      {
+        "name": "Helm",
+        "logo": "/assets/images/technical-expertise/helm.svg"
+      },
+      {
+        "name": "KubeDB",
+        "logo": "/assets/images/technical-expertise/kubedb.svg"
+      },
+      {
+        "name": "KubeStash",
+        "logo": "/assets/images/technical-expertise/stash.svg"
+      },
+      {
+        "name": "Voyager Gateway",
+        "logo": "/assets/images/technical-expertise/voyager.svg"
+      },
+      {
+        "name": "OpenTelemetry",
+        "logo": "/assets/images/technical-expertise/opentelemetry.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Vault",
+        "logo": "/assets/images/technical-expertise/vault.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "OpenFGA",
+        "logo": "/assets/images/technical-expertise/openfga.svg"
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Ready to Accelerate with Rancher Consulting Services?",
+    "subtitle": "Get expert Rancher consulting, managed support, and hands-on training to optimize your cloud-native infrastructure.",
+    "buttons": [
+      {
+        "text": "Talk to a Rancher Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why AppsCode is the Right Rancher Consulting Partner?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "SUSE Certified Partner",
+        "description": "AppsCode is a verified SUSE partner. KubeDB is available as a <a href=\"https://appscode.com/docs/en/guides/integrations/rancher-extension.html\">Rancher Extension</a> and our Helm charts are published in the <a href=\"https://github.com/rancher/partner-charts\">Rancher Partner Charts repository</a>."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "World-Class Rancher Expertise",
+        "description": "50+ engineers specializing in Rancher, Kubernetes, containers, and cloud-native platforms — helping you build, scale, and automate with confidence."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "Industry Leadership",
+        "description": "US-based pioneer in Kubernetes products and services with years of field expertise on Rancher."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Rancher Training Programs",
+        "description": "Hands-on Rancher workshops and cloud-native upskilling for DevOps teams."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Silver Member",
+        "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Scalable Dedicated Teams",
+        "description": "Easily scale your engineering teams with AppsCode's Rancher experts."
+      }
+    ]
+  },
+  "partner_listing": {
+    "title": "Our Products in the SUSE Rancher Ecosystem",
+    "subtitle": "AppsCode is a certified SUSE partner. Our products are available as Rancher Extensions and Helm charts in the Rancher Partner Charts repository.",
+    "products": [
+      {
+        "name": "KubeDB Rancher Extension",
+        "description": "Manage production-grade databases directly from the Rancher UI — deploy, monitor, and scale without leaving the dashboard.",
+        "url": "https://appscode.com/docs/en/guides/integrations/rancher-extension.html",
+        "logo": "/assets/images/technical-expertise/kubedb.svg"
+      },
+      {
+        "name": "Rancher Partner Charts",
+        "description": "AppsCode Helm charts are certified and published in the official Rancher Partner Charts repository for seamless deployment on Rancher-managed clusters.",
+        "url": "https://github.com/rancher/partner-charts",
+        "logo": "/assets/images/technical-expertise/rancher.svg"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What do your Rancher Consulting Services include?",
+      "answer": "Our Rancher Consulting Services cover the full lifecycle of designing, deploying, and managing Rancher-managed Kubernetes clusters. From architecture design, cluster provisioning, and CI/CD integration to monitoring, scaling, and optimization, we help organizations run reliable and secure containerized workloads at scale on Rancher by SUSE."
+    },
+    {
+      "question": "Is AppsCode a certified SUSE Rancher partner?",
+      "answer": "Yes — AppsCode is a certified SUSE partner. KubeDB is available as a Rancher Extension for direct integration with the Rancher UI, and our Helm charts are published in the official Rancher Partner Charts repository. Learn more at appscode.com/docs/en/guides/integrations/rancher-extension.html."
+    },
+    {
+      "question": "Which technologies and practices are used in Rancher consulting?",
+      "answer": "We leverage Rancher, RKE2, K3s, Helm charts, operators, containerization, CI/CD pipelines, infrastructure as code, observability (monitoring/logging), and hybrid/multi-cloud deployment patterns to ensure scalable and resilient Rancher environments."
+    },
+    {
+      "question": "Can you work with our existing Rancher clusters or cloud-native stack?",
+      "answer": "Yes — we integrate with your current Rancher clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable Rancher deployments."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for Rancher Consulting Services?",
+      "answer": "Engagements typically begin with a 1–2 week assessment phase to understand your environment and requirements. Implementation follows in 4–8 week agile sprints. We offer flexible engagement models including fixed-scope projects, time-and-materials consulting, or long-term Rancher advisory partnerships."
+    },
+    {
+      "question": "Do you support hybrid and multi-cloud Rancher deployments?",
+      "answer": "Absolutely. Our Rancher Consulting Services are designed for portability and consistency across on-premises clusters and public clouds such as AWS, Azure, and GCP, ensuring seamless operations and scalability across environments."
+    },
+    {
+      "question": "How do you ensure security, reliability, and operational efficiency in Rancher?",
+      "answer": "We enforce security best practices including RBAC, network policies, secrets management, and vulnerability scanning. Reliability is ensured with monitoring, backup/recovery strategies, and disaster resilience patterns. Operational efficiency is achieved through automation, CI/CD integration, and resource optimization."
+    },
+    {
+      "question": "What happens after Rancher consulting and implementation?",
+      "answer": "After deployment, we provide ongoing operational guidance, monitoring, performance tuning, and scaling recommendations. Our Rancher Consulting Services also include training, knowledge transfer, and best practice documentation for your teams."
+    },
+    {
+      "question": "How much do Rancher Consulting Services cost, and what are the pricing models?",
+      "answer": "Costs vary depending on the complexity of your clusters, number of workloads, and support needs. We offer fixed-scope projects, hourly engagements, and long-term consulting retainers. A detailed proposal is provided after the assessment phase."
+    }
+  ]
+}

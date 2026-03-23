@@ -1,0 +1,354 @@
+{
+  "hero": {
+    "title": "Red Hat OpenShift Consulting Services by Experts",
+    "subtitle": "AppsCode is a certified Red Hat partner — delivering expert OpenShift consulting, deployment, optimization, and managed enterprise support.",
+    "cta_text": "Talk to an OpenShift Expert",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/kubernetes-consulting.png",
+      "alt": "Red Hat OpenShift Consulting Services by AppsCode"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Leading Enterprises Worldwide"
+  },
+  "title_with_small_cards": {
+    "title": "Why Choose Our OpenShift Consulting Services?",
+    "areas": [
+      {
+        "icon": "fa fa-lightbulb-o",
+        "title": "Agile & Scalable OpenShift Architecture"
+      },
+      {
+        "icon": "fa fa-tachometer",
+        "title": "High-Performance OpenShift Deployments"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Accelerated App Development on OpenShift"
+      },
+      {
+        "icon": "fa fa-money",
+        "title": "Optimize Cloud & IT Infrastructure Costs"
+      },
+      {
+        "icon": "fa fa-cloud",
+        "title": "Multi-Cloud & Hybrid OpenShift Flexibility"
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Self-Healing & Secure Container Environments"
+      },
+      {
+        "icon": "fa fa-arrows-alt",
+        "title": "Migrate & Containerize Legacy Applications"
+      },
+      {
+        "icon": "fa fa-repeat",
+        "title": "Automated CI/CD Rollouts & Rollbacks"
+      }
+    ]
+  },
+  "service_details": {
+    "title": "Our End-to-End OpenShift Consulting Services",
+    "subtitle": "As a <a href=\"https://catalog.redhat.com/en/partners\">certified Red Hat partner</a> and <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member, AppsCode delivers expert OpenShift consulting — from planning to production management.",
+    "sections": [
+      {
+        "title": "OpenShift Advisory & Assessment",
+        "description": "Start your OpenShift journey with confidence. Our experts assess your current infrastructure, plan seamless migration to OpenShift, and design a scalable architecture optimized for your environment.",
+        "offerings": [
+          "Conduct infrastructure audits and plan OpenShift adoption.",
+          "Create a roadmap for efficient OpenShift deployment.",
+          "Provide detailed cost analysis and workload optimization."
+        ],
+        "image": "/assets/images/services/kubernetes-advisory.png"
+      },
+      {
+        "title": "Application Development & Migration",
+        "description": "Modernize your workloads with OpenShift-native applications and migrate monoliths into containerized microservices for better agility and performance.",
+        "offerings": [
+          "Develop OpenShift-ready applications using Go, Java, and Python.",
+          "Break monolithic architectures into resilient microservices.",
+          "Implement centralized management across multi-cluster OpenShift environments."
+        ],
+        "image": "/assets/images/services/kubernetes-application-development.png"
+      },
+      {
+        "title": "OpenShift Deployment & Operations",
+        "description": "Deploy production-grade OpenShift clusters on-premises or in the cloud with high availability, resilience, and observability built in.",
+        "offerings": [
+          "Provision auto-healing OpenShift clusters using Infrastructure-as-Code tools.",
+          "Integrate observability with Prometheus, Grafana, and Thanos.",
+          "Automate cluster scaling, upgrades, and security policies."
+        ],
+        "image": "/assets/images/services/kubernetes-deployment-partner.png"
+      },
+      {
+        "title": "DevSecOps, Security & Compliance",
+        "description": "Shift security left in your OpenShift lifecycle. Our DevSecOps services ensure compliance and security at every layer of your containerized environment.",
+        "offerings": [
+          "Implement role-based access control (RBAC) and network segmentation.",
+          "Automate container image scanning with tools like Trivy and Clair.",
+          "Ensure compliance with ISO, HIPAA, and GDPR standards."
+        ],
+        "image": "/assets/images/services/kubernetes-devsecops-compliance.png"
+      },
+      {
+        "title": "Enterprise OpenShift Support & Training",
+        "description": "<a href=\"https://appscode.com/\">AppsCode</a> provides continuous OpenShift support, training, and managed services to ensure operational excellence and long-term stability.",
+        "offerings": [
+          "Real-time monitoring, backup, and disaster recovery using Stash.",
+          "Training for DevOps teams to manage OpenShift independently.",
+          "Cost management and resource optimization for OpenShift clusters."
+        ],
+        "image": "/assets/images/services/kubernetes-enterprise-support-training.png"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industry Expertise in OpenShift Consulting",
+    "subtitle": "Our OpenShift consulting services empower over 100 clients across regulated industries with high-performance, compliant, and reliable infrastructure.",
+    "additional_text": "We serve global enterprises and startups with deep expertise in cloud-native and OpenShift solutions.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Highly available, compliant systems for secure 24/7 transactions."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology & SaaS",
+        "description": "Integrate AI and manage GPU servers for high-performance SaaS platforms."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Leverage AI & ML to meet customer expectations while ensuring safety and sustainability."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Modernize systems for inspections, monitoring, and cost reduction."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Use cloud GPU instances for fast, secure processing of patient data."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver seamless operations and instant updates with scalable systems."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "Built on Open Source, Powered by Community",
+    "description": "AppsCode actively contributes to CNCF and open-source projects such as <a href=\"https://kubedb.com/\">KubeDB</a>, <a href=\"https://kubevault.com/\">KubeVault</a>, <a href=\"https://stash.run/\">Stash</a>, and <a href=\"https://voyagermesh.com/\">Voyager</a> — all certified on Red Hat OpenShift and available in the <a href=\"https://catalog.redhat.com/en/platform/red-hat-openshift\">Red Hat Ecosystem Catalog</a>.",
+    "cta_text": "Explore Our Open Source Projects",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Our OpenShift Technology Expertise",
+    "subtitle": "We use proven cloud-native tools and frameworks to deliver enterprise-grade OpenShift consulting services.",
+    "technologies": [
+      {
+        "name": "Red Hat OpenShift",
+        "logo": "/assets/images/technical-expertise/openshift.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Rancher by SUSE",
+        "logo": "/assets/images/technical-expertise/rancher.svg"
+      },
+      {
+        "name": "Amazon EKS",
+        "logo": "/assets/images/technical-expertise/eks.svg"
+      },
+      {
+        "name": "Azure AKS",
+        "logo": "/assets/images/technical-expertise/aks.svg"
+      },
+      {
+        "name": "Google GKE",
+        "logo": "/assets/images/technical-expertise/gke.svg"
+      },
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      },
+      {
+        "name": "FluxCD",
+        "logo": "/assets/images/technical-expertise/fluxcd.svg"
+      },
+      {
+        "name": "Helm",
+        "logo": "/assets/images/technical-expertise/helm.svg"
+      },
+      {
+        "name": "KubeDB",
+        "logo": "/assets/images/technical-expertise/kubedb.svg"
+      },
+      {
+        "name": "KubeStash",
+        "logo": "/assets/images/technical-expertise/stash.svg"
+      },
+      {
+        "name": "Voyager Gateway",
+        "logo": "/assets/images/technical-expertise/voyager.svg"
+      },
+      {
+        "name": "OpenTelemetry",
+        "logo": "/assets/images/technical-expertise/opentelemetry.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Vault",
+        "logo": "/assets/images/technical-expertise/vault.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "OpenFGA",
+        "logo": "/assets/images/technical-expertise/openfga.svg"
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Ready to Accelerate with OpenShift Consulting Services?",
+    "subtitle": "Get expert OpenShift consulting, managed support, and hands-on training to optimize your cloud-native infrastructure.",
+    "buttons": [
+      {
+        "text": "Talk to an OpenShift Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why AppsCode is the Right OpenShift Consulting Partner?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "Red Hat Certified Partner",
+        "description": "AppsCode's products including <a href=\"https://catalog.redhat.com/en/software/containers/appscode/kubedb/69bd4de9354baf46f9233f44\">KubeDB</a>, <a href=\"https://catalog.redhat.com/en/software/container-stacks/detail/6970b969c26eb4c7bc646722\">KubeVault</a>, and <a href=\"https://catalog.redhat.com/software/container-stacks/detail/6970986b0be784df983675f6\">Voyager</a> are certified and listed in the Red Hat Ecosystem Catalog."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "World-Class OpenShift Expertise",
+        "description": "50+ engineers specializing in OpenShift, Kubernetes, containers, and cloud-native platforms — helping you build, scale, and automate with confidence."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "Industry Leadership",
+        "description": "US-based pioneer in Kubernetes products and services with years of field expertise on OpenShift."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "OpenShift Training Programs",
+        "description": "Hands-on OpenShift workshops and cloud-native upskilling for DevOps teams."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Silver Member",
+        "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Scalable Dedicated Teams",
+        "description": "Easily scale your engineering teams with AppsCode's OpenShift experts."
+      }
+    ]
+  },
+  "partner_listing": {
+    "title": "Our Products on Red Hat Ecosystem Catalog",
+    "subtitle": "AppsCode is a certified Red Hat partner. Our products are listed and certified on the Red Hat Ecosystem Catalog for OpenShift.",
+    "products": [
+      {
+        "name": "KubeDB",
+        "description": "Run production-grade databases on Kubernetes — Provisioning, Upgrading, Scaling, Monitoring, Backup & Restore.",
+        "url": "https://catalog.redhat.com/en/software/containers/appscode/kubedb/69bd4de9354baf46f9233f44",
+        "logo": "/assets/images/technical-expertise/kubedb.svg"
+      },
+      {
+        "name": "KubeVault",
+        "description": "Manage Secrets and Encryption on Kubernetes using HashiCorp Vault.",
+        "url": "https://catalog.redhat.com/en/software/container-stacks/detail/6970b969c26eb4c7bc646722",
+        "logo": "/assets/images/technical-expertise/vault.svg"
+      },
+      {
+        "name": "KubeStash",
+        "description": "Enterprise-grade backup and disaster recovery for Kubernetes workloads.",
+        "url": "https://catalog.redhat.com/software/containers/kubestash/manifest/695f96dfe107367e58841b99",
+        "logo": "/assets/images/technical-expertise/stash.svg"
+      },
+      {
+        "name": "Voyager Gateway",
+        "description": "HAProxy and NGINX based ingress controller for Kubernetes and OpenShift.",
+        "url": "https://catalog.redhat.com/software/container-stacks/detail/6970986b0be784df983675f6",
+        "logo": "/assets/images/technical-expertise/voyager.svg"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What do your OpenShift Consulting Services include?",
+      "answer": "Our OpenShift Consulting Services cover the full lifecycle of designing, deploying, and managing OpenShift clusters. From architecture design, cluster provisioning, and CI/CD integration to monitoring, scaling, and optimization, we help organizations run reliable and secure containerized workloads at scale on Red Hat OpenShift."
+    },
+    {
+      "question": "Is AppsCode a certified Red Hat OpenShift partner?",
+      "answer": "Yes — AppsCode is a certified Red Hat partner. Our products including KubeDB, KubeVault, KubeStash, and Voyager are certified and listed on the Red Hat Ecosystem Catalog. View our product listings at catalog.redhat.com."
+    },
+    {
+      "question": "Which technologies and practices are used in OpenShift consulting?",
+      "answer": "We leverage OpenShift operators, Helm charts, containerization, CI/CD pipelines, infrastructure as code, observability (monitoring/logging), and hybrid/multi-cloud deployment patterns to ensure scalable and resilient OpenShift environments."
+    },
+    {
+      "question": "Can you work with our existing OpenShift clusters or cloud-native stack?",
+      "answer": "Yes — we integrate with your current OpenShift clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable OpenShift deployments."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for OpenShift Consulting Services?",
+      "answer": "Engagements typically begin with a 1–2 week assessment phase to understand your environment and requirements. Implementation follows in 4–8 week agile sprints. We offer flexible engagement models including fixed-scope projects, time-and-materials consulting, or long-term OpenShift advisory partnerships."
+    },
+    {
+      "question": "Do you support hybrid and multi-cloud OpenShift deployments?",
+      "answer": "Absolutely. Our OpenShift Consulting Services are designed for portability and consistency across on-premises clusters and public clouds such as AWS, Azure, and GCP, ensuring seamless operations and scalability across environments."
+    },
+    {
+      "question": "How do you ensure security, reliability, and operational efficiency in OpenShift?",
+      "answer": "We enforce security best practices including RBAC, network policies, secrets management, and vulnerability scanning. Reliability is ensured with monitoring, backup/recovery strategies, and disaster resilience patterns. Operational efficiency is achieved through automation, CI/CD integration, and resource optimization."
+    },
+    {
+      "question": "What happens after OpenShift consulting and implementation?",
+      "answer": "After deployment, we provide ongoing operational guidance, monitoring, performance tuning, and scaling recommendations. Our OpenShift Consulting Services also include training, knowledge transfer, and best practice documentation for your teams."
+    },
+    {
+      "question": "How much do OpenShift Consulting Services cost, and what are the pricing models?",
+      "answer": "Costs vary depending on the complexity of your clusters, number of workloads, and support needs. We offer fixed-scope projects, hourly engagements, and long-term consulting retainers. A detailed proposal is provided after the assessment phase."
+    }
+  ]
+}

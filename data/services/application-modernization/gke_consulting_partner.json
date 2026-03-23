@@ -1,0 +1,342 @@
+{
+  "hero": {
+    "title": "Google GKE Consulting Services by Experts",
+    "subtitle": "AppsCode is a Google Cloud partner — delivering expert GKE consulting, deployment, optimization, and managed enterprise support.",
+    "cta_text": "Talk to a GKE Expert",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/kubernetes-consulting.png",
+      "alt": "Google GKE Consulting Services by AppsCode"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Leading Enterprises Worldwide"
+  },
+  "title_with_small_cards": {
+    "title": "Why Choose Our GKE Consulting Services?",
+    "areas": [
+      {
+        "icon": "fa fa-lightbulb-o",
+        "title": "Agile & Scalable GKE Architecture"
+      },
+      {
+        "icon": "fa fa-tachometer",
+        "title": "High-Performance GKE Deployments"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Accelerated App Development on GKE"
+      },
+      {
+        "icon": "fa fa-money",
+        "title": "Optimize Google Cloud Costs"
+      },
+      {
+        "icon": "fa fa-cloud",
+        "title": "Multi-Cloud & Hybrid Kubernetes Flexibility"
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Self-Healing & Secure Container Environments"
+      },
+      {
+        "icon": "fa fa-arrows-alt",
+        "title": "Migrate & Containerize Legacy Applications"
+      },
+      {
+        "icon": "fa fa-repeat",
+        "title": "Automated CI/CD Rollouts & Rollbacks"
+      }
+    ]
+  },
+  "service_details": {
+    "title": "Our End-to-End GKE Consulting Services",
+    "subtitle": "As a Google Cloud partner and <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member, AppsCode delivers expert GKE consulting — from planning to production management.",
+    "sections": [
+      {
+        "title": "GKE Advisory & Assessment",
+        "description": "Start your GKE journey with confidence. Our experts assess your current Google Cloud infrastructure, plan seamless migration to GKE, and design a scalable architecture optimized for your workloads.",
+        "offerings": [
+          "Conduct GCP infrastructure audits and plan GKE adoption.",
+          "Create a roadmap for efficient GKE deployment across regions.",
+          "Provide detailed cost analysis and workload optimization."
+        ],
+        "image": "/assets/images/services/kubernetes-advisory.png"
+      },
+      {
+        "title": "Application Development & Migration",
+        "description": "Modernize your workloads with GKE-native applications and migrate monoliths into containerized microservices for better agility and performance.",
+        "offerings": [
+          "Develop GKE-ready applications using Go, Java, and Python.",
+          "Break monolithic architectures into resilient microservices.",
+          "Implement centralized management across multi-cluster GKE environments."
+        ],
+        "image": "/assets/images/services/kubernetes-application-development.png"
+      },
+      {
+        "title": "GKE Deployment & Operations",
+        "description": "Deploy production-grade GKE clusters with high availability, resilience, and observability built in, leveraging native Google Cloud integrations.",
+        "offerings": [
+          "Provision auto-healing GKE clusters using Terraform, Crossplane, and Config Connector.",
+          "Integrate observability with Cloud Monitoring, Cloud Logging, Prometheus, and Grafana.",
+          "Automate cluster scaling, upgrades, and security policies."
+        ],
+        "image": "/assets/images/services/kubernetes-deployment-partner.png"
+      },
+      {
+        "title": "DevSecOps, Security & Compliance",
+        "description": "Shift security left in your GKE lifecycle. Our DevSecOps services ensure compliance and security at every layer of your containerized environment.",
+        "offerings": [
+          "Implement Workload Identity, RBAC, Binary Authorization, and VPC Service Controls.",
+          "Automate container image scanning with Artifact Analysis and Trivy.",
+          "Ensure compliance with ISO, HIPAA, SOC 2, and GDPR standards."
+        ],
+        "image": "/assets/images/services/kubernetes-devsecops-compliance.png"
+      },
+      {
+        "title": "Enterprise GKE Support & Training",
+        "description": "<a href=\"https://appscode.com/\">AppsCode</a> provides continuous GKE support, training, and managed services to ensure operational excellence and long-term stability.",
+        "offerings": [
+          "Real-time monitoring, backup, and disaster recovery using Stash.",
+          "Training for DevOps teams to manage GKE independently.",
+          "Cost management and resource optimization for GKE clusters."
+        ],
+        "image": "/assets/images/services/kubernetes-enterprise-support-training.png"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industry Expertise in GKE Consulting",
+    "subtitle": "Our GKE consulting services empower over 100 clients across regulated industries with high-performance, compliant, and reliable infrastructure.",
+    "additional_text": "We serve global enterprises and startups with deep expertise in cloud-native and GKE solutions.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Highly available, compliant systems for secure 24/7 transactions."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology & SaaS",
+        "description": "Integrate AI and manage GPU servers for high-performance SaaS platforms."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Leverage AI & ML to meet customer expectations while ensuring safety and sustainability."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Modernize systems for inspections, monitoring, and cost reduction."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Use cloud GPU instances for fast, secure processing of patient data."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver seamless operations and instant updates with scalable systems."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "Built on Open Source, Powered by Community",
+    "description": "AppsCode actively contributes to CNCF and open-source projects such as <a href=\"https://kubedb.com/\">KubeDB</a>, <a href=\"https://kubevault.com/\">KubeVault</a>, <a href=\"https://stash.run/\">Stash</a>, and <a href=\"https://voyagermesh.com/\">Voyager</a> — all deployable on Google GKE.",
+    "cta_text": "Explore Our Open Source Projects",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Our GKE Technology Expertise",
+    "subtitle": "We use proven cloud-native tools and frameworks to deliver enterprise-grade GKE consulting services.",
+    "technologies": [
+      {
+        "name": "Google GKE",
+        "logo": "/assets/images/technical-expertise/gke.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Red Hat OpenShift",
+        "logo": "/assets/images/technical-expertise/openshift.svg"
+      },
+      {
+        "name": "Rancher by SUSE",
+        "logo": "/assets/images/technical-expertise/rancher.svg"
+      },
+      {
+        "name": "Amazon EKS",
+        "logo": "/assets/images/technical-expertise/eks.svg"
+      },
+      {
+        "name": "Azure AKS",
+        "logo": "/assets/images/technical-expertise/aks.svg"
+      },
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      },
+      {
+        "name": "FluxCD",
+        "logo": "/assets/images/technical-expertise/fluxcd.svg"
+      },
+      {
+        "name": "Helm",
+        "logo": "/assets/images/technical-expertise/helm.svg"
+      },
+      {
+        "name": "KubeDB",
+        "logo": "/assets/images/technical-expertise/kubedb.svg"
+      },
+      {
+        "name": "KubeStash",
+        "logo": "/assets/images/technical-expertise/stash.svg"
+      },
+      {
+        "name": "Voyager Gateway",
+        "logo": "/assets/images/technical-expertise/voyager.svg"
+      },
+      {
+        "name": "OpenTelemetry",
+        "logo": "/assets/images/technical-expertise/opentelemetry.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Vault",
+        "logo": "/assets/images/technical-expertise/vault.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "OpenFGA",
+        "logo": "/assets/images/technical-expertise/openfga.svg"
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Ready to Accelerate with GKE Consulting Services?",
+    "subtitle": "Get expert GKE consulting, managed support, and hands-on training to optimize your cloud-native infrastructure.",
+    "buttons": [
+      {
+        "text": "Talk to a GKE Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why AppsCode is the Right GKE Consulting Partner?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "Google Cloud Partner",
+        "description": "AppsCode is a Google Cloud partner with deep expertise in GKE, Cloud Run, BigQuery, and the full Google Cloud portfolio."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "World-Class GKE Expertise",
+        "description": "50+ engineers specializing in GKE, Kubernetes, containers, and cloud-native platforms — helping you build, scale, and automate with confidence."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "Industry Leadership",
+        "description": "US-based pioneer in Kubernetes products and services with years of field expertise on GKE."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "GKE Training Programs",
+        "description": "Hands-on GKE workshops and cloud-native upskilling for DevOps teams."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Silver Member",
+        "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Scalable Dedicated Teams",
+        "description": "Easily scale your engineering teams with AppsCode's GKE experts."
+      }
+    ]
+  },
+  "partner_listing": {
+    "title": "Our Products on Google Cloud",
+    "subtitle": "AppsCode products are deployable on Google Kubernetes Engine. Get started with KubeDB, KubeStash, and Voyager on GKE.",
+    "products": [
+      {
+        "name": "KubeDB on GKE",
+        "description": "Run production-grade databases on Google Kubernetes Engine — Provisioning, Upgrading, Scaling, Monitoring, Backup & Restore for 25+ database engines.",
+        "url": "https://kubedb.com/",
+        "logo": "/assets/images/technical-expertise/kubedb.svg"
+      },
+      {
+        "name": "KubeStash on GKE",
+        "description": "Enterprise-grade backup and disaster recovery for GKE workloads with deduplication and encryption to GCS.",
+        "url": "https://kubestash.com/",
+        "logo": "/assets/images/technical-expertise/stash.svg"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What do your GKE Consulting Services include?",
+      "answer": "Our GKE Consulting Services cover the full lifecycle of designing, deploying, and managing GKE clusters. From architecture design, cluster provisioning, and CI/CD integration to monitoring, scaling, and optimization, we help organizations run reliable and secure containerized workloads at scale on Google Kubernetes Engine."
+    },
+    {
+      "question": "Is AppsCode a Google Cloud partner?",
+      "answer": "Yes — AppsCode is a Google Cloud partner with deep expertise in GKE, Cloud Run, BigQuery, and the full Google Cloud portfolio. Our products are deployable on GKE and integrated with Google Cloud services."
+    },
+    {
+      "question": "Which technologies and practices are used in GKE consulting?",
+      "answer": "We leverage GKE, Terraform, Config Connector, Helm charts, operators, containerization, CI/CD pipelines, infrastructure as code, observability (Cloud Monitoring, Prometheus, Grafana), and hybrid/multi-cloud deployment patterns to ensure scalable and resilient GKE environments."
+    },
+    {
+      "question": "Can you work with our existing GKE clusters or GCP-native stack?",
+      "answer": "Yes — we integrate with your current GKE clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable GKE deployments."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for GKE Consulting Services?",
+      "answer": "Engagements typically begin with a 1–2 week assessment phase to understand your environment and requirements. Implementation follows in 4–8 week agile sprints. We offer flexible engagement models including fixed-scope projects, time-and-materials consulting, or long-term GKE advisory partnerships."
+    },
+    {
+      "question": "Do you support hybrid and multi-cloud GKE deployments?",
+      "answer": "Absolutely. Our GKE Consulting Services are designed for portability and consistency across Google Cloud and other cloud environments, ensuring seamless operations and scalability across environments."
+    },
+    {
+      "question": "How do you ensure security, reliability, and operational efficiency in GKE?",
+      "answer": "We enforce security best practices including Workload Identity, RBAC, network policies, Binary Authorization, and vulnerability scanning. Reliability is ensured with monitoring, backup/recovery strategies, and disaster resilience patterns. Operational efficiency is achieved through automation, CI/CD integration, and resource optimization."
+    },
+    {
+      "question": "What happens after GKE consulting and implementation?",
+      "answer": "After deployment, we provide ongoing operational guidance, monitoring, performance tuning, and scaling recommendations. Our GKE Consulting Services also include training, knowledge transfer, and best practice documentation for your teams."
+    },
+    {
+      "question": "How much do GKE Consulting Services cost, and what are the pricing models?",
+      "answer": "Costs vary depending on the complexity of your clusters, number of workloads, and support needs. We offer fixed-scope projects, hourly engagements, and long-term consulting retainers. A detailed proposal is provided after the assessment phase."
+    }
+  ]
+}

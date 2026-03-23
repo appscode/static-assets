@@ -1,0 +1,312 @@
+{
+  "hero": {
+    "title": "Managed Google Cloud Platform Services by Experts",
+    "subtitle": "AppsCode's DevOps team helps you onboard to GCP, manages your cloud accounts, and keeps your applications running — so you can focus on building your product.",
+    "cta_text": "Talk to a Cloud Expert",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/kubernetes-consulting.png",
+      "alt": "Managed Google Cloud Platform Services by AppsCode"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Leading Enterprises Worldwide"
+  },
+  "title_with_small_cards": {
+    "title": "Why Choose Our Managed GCP Services?",
+    "areas": [
+      {
+        "icon": "fa fa-cloud-upload",
+        "title": "Seamless GCP Onboarding & Migration"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Infrastructure Design & Deployment"
+      },
+      {
+        "icon": "fa fa-clock-o",
+        "title": "24/7 Monitoring & Incident Response"
+      },
+      {
+        "icon": "fa fa-money",
+        "title": "Cost Optimization & FinOps"
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Security Hardening & Compliance"
+      },
+      {
+        "icon": "fa fa-code-fork",
+        "title": "CI/CD & DevOps Automation"
+      },
+      {
+        "icon": "fa fa-database",
+        "title": "Managed Databases & Storage"
+      },
+      {
+        "icon": "fa fa-lock",
+        "title": "IAM, VPC & Access Control"
+      }
+    ]
+  },
+  "service_details": {
+    "title": "Our Managed GCP Cloud Services",
+    "subtitle": "AppsCode provides end-to-end Google Cloud management — from cloud onboarding and architecture design to 24/7 operations, cost optimization, and security. Our DevOps engineers become an extension of your team.",
+    "sections": [
+      {
+        "title": "GCP Onboarding & Migration",
+        "description": "Whether you are moving to GCP for the first time or migrating workloads between projects and regions, our team plans and executes the entire migration with zero downtime.",
+        "offerings": [
+          "Assess your current infrastructure and design a cloud-ready GCP architecture.",
+          "Migrate VMs, databases, storage, and applications to GCP with minimal disruption.",
+          "Set up Organization nodes, folders, projects, and resource hierarchies."
+        ],
+        "image": "/assets/images/services/kubernetes-advisory.png"
+      },
+      {
+        "title": "Infrastructure Management & Administration",
+        "description": "We manage your GCP infrastructure day-to-day — provisioning resources, configuring networking, managing IAM policies, and ensuring everything runs smoothly.",
+        "offerings": [
+          "Manage GKE, Compute Engine, Cloud Run, Cloud SQL, BigQuery, Cloud Storage, VPC, and 100+ GCP services.",
+          "Infrastructure as Code using Terraform, Pulumi, and Google Cloud Deployment Manager.",
+          "Automated scaling, patching, and lifecycle management."
+        ],
+        "image": "/assets/images/services/kubernetes-application-development.png"
+      },
+      {
+        "title": "24/7 Monitoring, Alerting & Incident Response",
+        "description": "Our engineers monitor your GCP environment around the clock. When issues arise, we detect, diagnose, and resolve them — often before your users notice.",
+        "offerings": [
+          "Real-time monitoring with Cloud Monitoring, Cloud Logging, Prometheus, and Grafana.",
+          "Custom alerting rules with PagerDuty, OpsGenie, or Slack integrations.",
+          "Incident response with SLA-backed resolution times."
+        ],
+        "image": "/assets/images/services/kubernetes-deployment-partner.png"
+      },
+      {
+        "title": "Security, Compliance & Cost Optimization",
+        "description": "We harden your GCP environment against threats, ensure compliance with industry standards, and continuously optimize your cloud spend.",
+        "offerings": [
+          "Security audits, Security Command Center, VPC Service Controls, and Cloud Armor configuration.",
+          "Compliance with SOC 2, HIPAA, GDPR, PCI-DSS, and ISO 27001.",
+          "FinOps practices — right-sizing, Committed Use Discounts, Spot VMs, and cost anomaly detection."
+        ],
+        "image": "/assets/images/services/kubernetes-devsecops-compliance.png"
+      },
+      {
+        "title": "DevOps Automation & Application Support",
+        "description": "<a href=\"https://appscode.com/\">AppsCode</a> helps your development teams ship faster by building and maintaining CI/CD pipelines, managing containerized workloads, and automating routine operations.",
+        "offerings": [
+          "CI/CD pipelines with Cloud Build, GitHub Actions, ArgoCD, and FluxCD.",
+          "Container orchestration with GKE, Cloud Run, and Anthos.",
+          "Application performance monitoring, log aggregation, and tracing with Cloud Trace and Cloud Profiler."
+        ],
+        "image": "/assets/images/services/kubernetes-enterprise-support-training.png"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industry Expertise in Managed GCP",
+    "subtitle": "Our managed GCP services empower clients across regulated industries with secure, compliant, and cost-effective cloud operations.",
+    "additional_text": "We serve Fortune 500 companies, fast-growing startups, and everything in between.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "SOC 2 and PCI-DSS compliant GCP infrastructure for secure financial operations."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology & SaaS",
+        "description": "Scalable, multi-tenant architectures with automated deployments and cost control."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "HIPAA-compliant GCP environments with encrypted storage and audit trails."
+      },
+      {
+        "icon": "fa fa-shopping-cart",
+        "title": "E-Commerce & Retail",
+        "description": "High-availability architectures that handle traffic spikes during peak seasons."
+      },
+      {
+        "icon": "fa fa-industry",
+        "title": "Manufacturing & IoT",
+        "description": "Edge computing, IoT data pipelines, and real-time analytics on GCP."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Globally distributed applications with low latency and rapid failover."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "Built on Open Source, Powered by Community",
+    "description": "AppsCode develops and maintains open-source Kubernetes operators including <a href=\"https://kubedb.com/\">KubeDB</a>, <a href=\"https://kubestash.com/\">KubeStash</a>, and <a href=\"https://voyagermesh.com/\">Voyager</a> — all deployable on GCP. We are a <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and GKE-ready.",
+    "cta_text": "Explore Our Open Source Projects",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Our GCP Technology Expertise",
+    "subtitle": "We use the full Google Cloud ecosystem and cloud-native tools to deliver enterprise-grade managed cloud services.",
+    "technologies": [
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Red Hat OpenShift",
+        "logo": "/assets/images/technical-expertise/openshift.svg"
+      },
+      {
+        "name": "Rancher by SUSE",
+        "logo": "/assets/images/technical-expertise/rancher.svg"
+      },
+      {
+        "name": "Amazon EKS",
+        "logo": "/assets/images/technical-expertise/eks.svg"
+      },
+      {
+        "name": "Azure AKS",
+        "logo": "/assets/images/technical-expertise/aks.svg"
+      },
+      {
+        "name": "Google GKE",
+        "logo": "/assets/images/technical-expertise/gke.svg"
+      },
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      },
+      {
+        "name": "FluxCD",
+        "logo": "/assets/images/technical-expertise/fluxcd.svg"
+      },
+      {
+        "name": "Helm",
+        "logo": "/assets/images/technical-expertise/helm.svg"
+      },
+      {
+        "name": "KubeDB",
+        "logo": "/assets/images/technical-expertise/kubedb.svg"
+      },
+      {
+        "name": "KubeStash",
+        "logo": "/assets/images/technical-expertise/stash.svg"
+      },
+      {
+        "name": "Voyager Gateway",
+        "logo": "/assets/images/technical-expertise/voyager.svg"
+      },
+      {
+        "name": "OpenTelemetry",
+        "logo": "/assets/images/technical-expertise/opentelemetry.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Vault",
+        "logo": "/assets/images/technical-expertise/vault.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "OpenFGA",
+        "logo": "/assets/images/technical-expertise/openfga.svg"
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Ready to Simplify Your GCP Operations?",
+    "subtitle": "Let AppsCode's DevOps experts manage your Google Cloud infrastructure so your team can focus on building your product.",
+    "buttons": [
+      {
+        "text": "Talk to a Cloud Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why AppsCode for Managed GCP?",
+    "items": [
+      {
+        "icon": "fa fa-cloud",
+        "title": "GKE & GCP Expertise",
+        "description": "AppsCode's team has deep expertise in Google Kubernetes Engine, Cloud Run, BigQuery, and the full GCP portfolio — with experience running production workloads at scale."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "50+ DevOps Engineers",
+        "description": "Certified cloud and Kubernetes engineers with deep expertise in GCP services, infrastructure automation, and site reliability."
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Proven at Scale",
+        "description": "Experience managing GCP environments for Fortune 500 companies, governments, and high-growth startups across industries."
+      },
+      {
+        "icon": "fa fa-clock-o",
+        "title": "24/7 Support Coverage",
+        "description": "Round-the-clock monitoring and incident response with SLA-backed resolution times across multiple time zones."
+      },
+      {
+        "icon": "fa fa-money",
+        "title": "Cost Optimization Focus",
+        "description": "FinOps practices that typically reduce GCP spend by 20–40% through right-sizing, Committed Use Discounts, and waste elimination."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "CNCF Silver Member",
+        "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and regular sponsor of KubeCon + CloudNativeCon — deeply embedded in the cloud-native ecosystem."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What does your Managed GCP service include?",
+      "answer": "Our Managed GCP service covers the full lifecycle: cloud onboarding and migration, infrastructure design and provisioning, 24/7 monitoring and incident response, security hardening and compliance, cost optimization, CI/CD automation, and ongoing operational support. We become an extension of your DevOps team."
+    },
+    {
+      "question": "Can you manage our existing GCP infrastructure?",
+      "answer": "Yes — we can take over management of your existing GCP environment. We start with an assessment to understand your current setup, identify gaps and risks, and then build a management plan tailored to your needs."
+    },
+    {
+      "question": "How do you handle cloud cost optimization?",
+      "answer": "We implement FinOps practices including right-sizing instances, purchasing Committed Use Discounts, leveraging Spot VMs, eliminating unused resources, setting up billing alerts, and providing monthly cost reports with actionable recommendations."
+    },
+    {
+      "question": "What GCP services do you manage?",
+      "answer": "We manage all GCP services including GKE, Compute Engine, Cloud Run, Cloud Functions, Cloud SQL, BigQuery, Cloud Storage, Pub/Sub, Cloud CDN, VPC, IAM, Cloud Monitoring, and 100+ more."
+    },
+    {
+      "question": "What is your pricing model?",
+      "answer": "We offer flexible pricing models: fixed monthly retainers for ongoing management, time-and-materials for project-based work, and hybrid models. A detailed proposal is provided after an initial assessment."
+    },
+    {
+      "question": "How quickly can you respond to incidents?",
+      "answer": "Our incident response times are SLA-backed: critical issues within 15 minutes, high-severity within 1 hour, and medium-severity within 4 hours. We provide 24/7 coverage across multiple time zones."
+    }
+  ]
+}
