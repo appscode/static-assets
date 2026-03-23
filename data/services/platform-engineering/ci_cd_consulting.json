@@ -234,6 +234,22 @@
         "logo": "/assets/images/technical-expertise/kubernetes.svg"
       },
       {
+        "name": "Red Hat OpenShift",
+        "logo": "/assets/images/technical-expertise/openshift.svg"
+      },
+      {
+        "name": "Rancher by SUSE",
+        "logo": "/assets/images/technical-expertise/rancher.svg"
+      },
+      {
+        "name": "Amazon EKS",
+        "logo": "/assets/images/technical-expertise/eks.svg"
+      },
+      {
+        "name": "Azure AKS",
+        "logo": "/assets/images/technical-expertise/aks.svg"
+      },
+      {
         "name": "ArgoCD",
         "logo": "/assets/images/technical-expertise/argocd.svg"
       },
