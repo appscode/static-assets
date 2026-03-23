@@ -1,62 +1,6 @@
 {
   "servicesMenu": [
     {
-      "title": "Product Engineering",
-      "description": "Building faster products - MVP, launch & scale",
-      "icon": "https://img.icons8.com/00a651/external-ddara-lineal-ddara/64/external-engineering-manufacturing-ddara-lineal-ddara.png",
-      "offerings": [
-        {
-          "id": "cloud-native-product-development-services",
-          "title": "Cloud Native Product Development",
-          "description": "On‑Demand product engineers",
-          "icon": null
-        },
-        {
-          "id": "monolith-to-microservices",
-          "title": "Monolith to Microservices",
-          "description": "Migrate your legacy applications",
-          "icon": null
-        },
-        {
-          "id": "/extending-kubernetes-confidence-with-whitepaper",
-          "title": "Extending Kubernetes? Custom Resources & Controllers",
-          "description": "Learn how custom resources & controllers can enhance your Kubernetes environment — Download the 16 page whitepaper",
-          "icon": null
-        }
-      ]
-    },
-    {
-      "title": "Platform Engineering",
-      "description": "Designing & Building solid platforms for your teams",
-      "icon": "https://img.icons8.com/00a651/ios/50/laptop-settings--v2.png",
-      "offerings": [
-        {
-          "id": "platform-engineering-services",
-          "title": "Platform Engineering Services",
-          "description": "From design to deployment ‑ with you!",
-          "icon": null
-        },
-        {
-          "id": "progressive-delivery-consulting-services",
-          "title": "Progressive Delivery",
-          "description": "Roll out updates strategically",
-          "icon": null
-        },
-        {
-          "id": "ci-cd-consulting-services",
-          "title": "CI/CD & Dev Experience",
-          "description": "Bringing automation at every step",
-          "icon": null
-        },
-        {
-          "id": "bare-metal-provisioning-and-infrastructure-consulting",
-          "title": "Bare Metal Provisioning Consulting",
-          "description": "Automated provisioning for on‑prem setup",
-          "icon": null
-        }
-      ]
-    },
-    {
       "title": "Application Modernization",
       "description": "Accelerating your application modernization & microservices journey",
       "icon": "https://img.icons8.com/00a651/ios/50/lunacy-new--v2.png",
@@ -95,6 +39,62 @@
           "id": "argo-cd-consulting-services",
           "title": "Argo CD Consulting",
           "description": "Implement & support ‑ we got you!",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "title": "Platform Engineering",
+      "description": "Designing & Building solid platforms for your teams",
+      "icon": "https://img.icons8.com/00a651/ios/50/laptop-settings--v2.png",
+      "offerings": [
+        {
+          "id": "platform-engineering-services",
+          "title": "Platform Engineering Services",
+          "description": "From design to deployment ‑ with you!",
+          "icon": null
+        },
+        {
+          "id": "progressive-delivery-consulting-services",
+          "title": "Progressive Delivery",
+          "description": "Roll out updates strategically",
+          "icon": null
+        },
+        {
+          "id": "ci-cd-consulting-services",
+          "title": "CI/CD & Dev Experience",
+          "description": "Bringing automation at every step",
+          "icon": null
+        },
+        {
+          "id": "bare-metal-provisioning-and-infrastructure-consulting",
+          "title": "Bare Metal Provisioning Consulting",
+          "description": "Automated provisioning for on‑prem setup",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "title": "Product Engineering",
+      "description": "Building faster products - MVP, launch & scale",
+      "icon": "https://img.icons8.com/00a651/external-ddara-lineal-ddara/64/external-engineering-manufacturing-ddara-lineal-ddara.png",
+      "offerings": [
+        {
+          "id": "cloud-native-product-development-services",
+          "title": "Cloud Native Product Development",
+          "description": "On‑Demand product engineers",
+          "icon": null
+        },
+        {
+          "id": "monolith-to-microservices",
+          "title": "Monolith to Microservices",
+          "description": "Migrate your legacy applications",
+          "icon": null
+        },
+        {
+          "id": "/extending-kubernetes-confidence-with-whitepaper",
+          "title": "Extending Kubernetes? Custom Resources & Controllers",
+          "description": "Learn how custom resources & controllers can enhance your Kubernetes environment — Download the 16 page whitepaper",
           "icon": null
         }
       ]
