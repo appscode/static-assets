@@ -100,8 +100,8 @@
     "items": [
       {
         "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
-        "title": "CNCF Certified Provider",
-        "description": "AppsCode is a proud <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and Kubernetes Certified Service Provider (KCSP)."
+        "title": "CNCF Silver Member",
+        "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
       },
       {
         "icon": "fa fa-users",
@@ -121,7 +121,7 @@
       {
         "icon": "fa fa-graduation-cap",
         "title": "Pioneers in Kubernetes",
-        "description": "US-based pioneer in<a href=\"https://kubedb.com/\">Kubernetes service</a>, establishing early leadership across APAC."
+        "description": "US-based pioneer in Kubernetes products and services with years of field expertise."
       },
       {
         "icon": "fa fa-wrench",

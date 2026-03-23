@@ -244,7 +244,7 @@
       {
         "icon": "fa fa-trophy",
         "title": "Trusted Kubernetes & Observability Partner",
-        "description": "Among the earliest <a href=\"https://kubedb.com/\">Kubernetes Certified Service Providers</a> (KCSP) in the APAC region."
+        "description": "US-based pioneer in Kubernetes products and services with years of field expertise."
       },
       {
         "icon": "fa fa-graduation-cap",
@@ -254,7 +254,7 @@
       {
         "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
         "title": "CNCF Silver Member",
-        "description": "Active contributor to the <a href=\"https://www.cncf.io/\">CNCF</a> ecosystem, advancing open-source innovation in observability and monitoring."
+        "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
       },
       {
         "icon": "fa fa-users",

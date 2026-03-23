@@ -326,7 +326,7 @@
       {
         "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
         "title": "Certified CNCF Member",
-        "description": "Appscode is a proud CNCF Silver Member and Kubernetes Certified Service Provider (KCSP)."
+        "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
       },
       {
         "icon": "fa fa-cloud",
@@ -361,7 +361,7 @@
     },
     {
       "question": "Which technologies and practices are used in observability consulting?",
-      "answer": "We leverage tools such as Prometheus, Grafana, Loki, Jaeger, OpenTelemetry, Kubernetes, and cloud-native monitoring solutions. Our approach ensures actionable insights, performance optimization, and reliable operations across complex systems."
+      "answer": "We leverage tools such as Prometheus, Thanos, ClickHouse, Perses, Jaeger, OpenTelemetry, Kubernetes, and cloud-native monitoring solutions. Our approach ensures actionable insights, performance optimization, and reliable operations across complex systems."
     },
     {
       "question": "Can you work with our existing applications and infrastructure?",

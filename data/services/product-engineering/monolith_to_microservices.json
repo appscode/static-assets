@@ -105,7 +105,7 @@
       {
         "icon": "fa fa-trophy",
         "title": "Kubernetes & Microservices Pioneers",
-        "description": "Among the first in APAC to provide Kubernetes-based microservices and operator development."
+        "description": "US-based pioneer in Kubernetes products and services with years of field expertise."
       },
       {
         "icon": "fa fa-bullhorn",
@@ -114,8 +114,8 @@
       },
       {
         "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
-        "title": "CNCF Silver Member & KCSP",
-        "description": "Recognized Kubernetes Certified Service Provider by CNCF."
+        "title": "CNCF Silver Member",
+        "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
       },
       {
         "icon": "fa fa-globe",
@@ -270,7 +270,7 @@
     },
     {
       "question": "Which technologies and practices do you use for Monolith to Microservices migration?",
-      "answer": "We leverage Kubernetes, Docker, API gateways, service meshes, and microservices frameworks to break down monolithic systems. Our practices include continuous delivery (CI/CD), Infrastructure as Code (IaC), observability, and DevOps automation to ensure smooth, low-risk migration."
+      "answer": "We leverage Kubernetes, Docker, Envoy Gateway, service meshes, and microservices frameworks to break down monolithic systems. Our practices include continuous delivery (CI/CD), Infrastructure as Code (IaC), observability, and DevOps automation to ensure smooth, low-risk migration."
     },
     {
       "question": "Can you modernize our existing monolithic application without a full rebuild?",
