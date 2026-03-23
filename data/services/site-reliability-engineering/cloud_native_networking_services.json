@@ -141,7 +141,7 @@
       {
         "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
         "title": "CNCF Silver Member",
-        "description": "Proud member of the Cloud Native Computing Foundation and Kubernetes Certified Service Provider (KCSP)."
+        "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
       },
       {
         "icon": "fa fa-users",
@@ -285,7 +285,7 @@
     },
     {
       "question": "Which technologies and practices are used in cloud-native networking?",
-      "answer": "We leverage Kubernetes networking, service meshes like Istio and Linkerd, Envoy proxies, CNI plugins, cloud provider networking services, and observability tools. Our approach ensures secure, reliable, and high-performance connectivity across cloud-native environments."
+      "answer": "We leverage Kubernetes networking, service meshes like Istio, Envoy proxies, CNI plugins, cloud provider networking services, and observability tools. Our approach ensures secure, reliable, and high-performance connectivity across cloud-native environments."
     },
     {
       "question": "Can you work with our existing cloud infrastructure and applications?",

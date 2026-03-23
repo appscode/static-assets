@@ -246,7 +246,7 @@
       {
         "icon": "fa fa-trophy",
         "title": "Pioneer in Kubernetes Services",
-        "description": "US-based pioneer in<a href=\"https://kubedb.com/\">Kubernetes service</a>, establishing early leadership across APAC."
+        "description": "US-based pioneer in Kubernetes products and services with years of field expertise."
       },
       {
         "icon": "fa fa-graduation-cap",
@@ -256,7 +256,7 @@
       {
         "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
         "title": "CNCF Silver Member",
-        "description": "<a href=\"https://appscode.com/\">AppsCode </a> is a recognized <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and Kubernetes Certified Service Provider (KCSP)."
+        "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
       },
       {
         "icon": "fa fa-users",

@@ -123,7 +123,7 @@
       {
         "icon": "fa fa-trophy",
         "title": "Early Cloud Native Innovator",
-        "description": "Among the first in APAC to offer enterprise cloud native FaaS solutions."
+        "description": "US-based pioneer in Kubernetes products and services with years of field expertise."
       },
       {
         "icon": "fa fa-graduation-cap",
@@ -132,8 +132,8 @@
       },
       {
         "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
-        "title": "CNCF Contributor",
-        "description": "AppsCode is a proud <a href=\"https://www.cncf.io/\">CNCF</a> contributor and Kubernetes Certified Service Provider (KCSP)."
+        "title": "CNCF Silver Member",
+        "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
       },
       {
         "icon": "fa fa-users",

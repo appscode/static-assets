@@ -94,7 +94,7 @@
       {
         "icon": "fa fa-trophy",
         "title": "Pioneer in Kubernetes Services",
-        "description": "One of the earliest <a href=\"https://kubedb.com/\">Kubernetes service providers</a> in APAC with years of production-grade experience."
+        "description": "US-based pioneer in Kubernetes products and services with years of field expertise."
       },
       {
         "icon": "fa fa-bullhorn",
@@ -103,8 +103,8 @@
       },
       {
         "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
-        "title": "CNCF Certified Provider",
-        "description": "<a href=\"https://appscode.com/\">AppsCode </a> is a proud <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a Kubernetes Certified Service Provider (KCSP)."
+        "title": "CNCF Silver Member",
+        "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
       },
       {
         "icon": "fa fa-globe",
@@ -268,7 +268,7 @@
     },
     {
       "question": "Which technologies and practices are used in Kubernetes backup and disaster recovery?",
-      "answer": "We leverage tools like Velero, Stash, Kasten K10, cloud provider snapshot services, and Kubernetes-native solutions. Our approach includes automated backups, scheduled restores, data integrity verification, and failover strategies to maintain resilient and reliable clusters."
+      "answer": "We leverage tools like KubeStash, cloud provider snapshot services, and Kubernetes-native solutions. Our approach includes automated backups, scheduled restores, data integrity verification, and failover strategies to maintain resilient and reliable clusters."
     },
     {
       "question": "Can you work with our existing Kubernetes infrastructure and workloads?",
