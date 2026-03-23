@@ -200,7 +200,6 @@
       }
     ]
   },
-
   "industries": {
     "title": "Industry Expertise That Drives Results",
     "subtitle": "With experience across 100+ clients, AppsCode Inc. understands industry-specific compliance, scale, and reliability demands when building cloud-native solutions.",
@@ -302,7 +301,7 @@
       }
     ]
   },
-    "resources": {
+  "resources": {
     "title": "Cloud Native Product Development Resources",
     "items": [
       {
@@ -343,37 +342,37 @@
   },
   "faq": [
     {
-    "question": "What does your Cloud Native Product Development service include?",
-    "answer": "Our Cloud Native Product Development service covers the full product lifecycle — from idea discovery and MVP creation to DevOps, launch, and scaling. We combine Kubernetes, microservices, and agile practices to deliver secure, high-quality software faster."
-  },
-  {
-    "question": "Which technologies and best practices do you use for cloud-native development?",
-    "answer": "We use Kubernetes orchestration, microservices architecture, CI/CD pipelines, Infrastructure as Code, observability, and automated testing. These cloud-native practices help teams build scalable and reliable products efficiently."
-  },
-  {
-    "question": "Can you work with our existing roadmap or tech stack?",
-    "answer": "Yes. Whether you already have a roadmap or need to start from scratch, our engineers can modernize your stack or build a new cloud-native product that aligns with your goals and accelerates time to market."
-  },
-  {
-    "question": "What is the typical timeline and engagement model?",
-    "answer": "Most projects start with a short discovery phase (1–2 weeks) to define scope and architecture, followed by 4–8 week agile sprints. Engagements can be fixed-scope, time-and-materials, or long-term dedicated engineering support."
-  },
-  {
-    "question": "Do you support multi-cloud or hybrid cloud deployments?",
-    "answer": "Absolutely. We design every cloud-native product to run seamlessly on AWS, Google Cloud, Azure, or on-premises Kubernetes clusters. This ensures portability and operational consistency across environments."
-  },
-  {
-    "question": "How do you ensure product quality, security, and reliability?",
-    "answer": "We build quality and security into every stage through automated testing, peer reviews, CI/CD, and monitoring. Security is enforced with container isolation, RBAC, and vulnerability scanning. Our cloud-native approach ensures high reliability and resilience."
-  },
-  {
-    "question": "What happens after we launch the product?",
-    "answer": "Post-launch, we help you measure performance, optimize infrastructure, and scale efficiently. Our experts ensure your product evolves with your business while maintaining cost efficiency."
-  },
-  {
-    "question": "How much does Cloud Native Product Development cost?",
-    "answer": "Cost depends on complexity, scope, and support needs. We offer flexible pricing options — from fixed-price MVP builds to time-based engagements and long-term retainers. A detailed proposal follows our discovery phase."
-  }
+      "question": "What does your Cloud Native Product Development service include?",
+      "answer": "Our Cloud Native Product Development service covers the full product lifecycle — from idea discovery and MVP creation to DevOps, launch, and scaling. We combine Kubernetes, microservices, and agile practices to deliver secure, high-quality software faster."
+    },
+    {
+      "question": "Which technologies and best practices do you use for cloud-native development?",
+      "answer": "We use Kubernetes orchestration, microservices architecture, CI/CD pipelines, Infrastructure as Code, observability, and automated testing. These cloud-native practices help teams build scalable and reliable products efficiently."
+    },
+    {
+      "question": "Can you work with our existing roadmap or tech stack?",
+      "answer": "Yes. Whether you already have a roadmap or need to start from scratch, our engineers can modernize your stack or build a new cloud-native product that aligns with your goals and accelerates time to market."
+    },
+    {
+      "question": "What is the typical timeline and engagement model?",
+      "answer": "Most projects start with a short discovery phase (1–2 weeks) to define scope and architecture, followed by 4–8 week agile sprints. Engagements can be fixed-scope, time-and-materials, or long-term dedicated engineering support."
+    },
+    {
+      "question": "Do you support multi-cloud or hybrid cloud deployments?",
+      "answer": "Absolutely. We design every cloud-native product to run seamlessly on AWS, Google Cloud, Azure, or on-premises Kubernetes clusters. This ensures portability and operational consistency across environments."
+    },
+    {
+      "question": "How do you ensure product quality, security, and reliability?",
+      "answer": "We build quality and security into every stage through automated testing, peer reviews, CI/CD, and monitoring. Security is enforced with container isolation, RBAC, and vulnerability scanning. Our cloud-native approach ensures high reliability and resilience."
+    },
+    {
+      "question": "What happens after we launch the product?",
+      "answer": "Post-launch, we help you measure performance, optimize infrastructure, and scale efficiently. Our experts ensure your product evolves with your business while maintaining cost efficiency."
+    },
+    {
+      "question": "How much does Cloud Native Product Development cost?",
+      "answer": "Cost depends on complexity, scope, and support needs. We offer flexible pricing options — from fixed-price MVP builds to time-based engagements and long-term retainers. A detailed proposal follows our discovery phase."
+    }
   ],
   "meta_title": "Cloud-Native Product Development | AppsCode Inc. Expertise in Kubernetes, DevOps & Microservices",
   "meta_description": "Explore AppsCode Inc.'s cloud-native development services. Expert Kubernetes, DevOps, and microservices engineering to build scalable, resilient, and cost-efficient cloud-native solutions."

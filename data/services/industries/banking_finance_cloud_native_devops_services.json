@@ -206,7 +206,10 @@
         "name": "Thanos",
         "logo": "/assets/images/technical-expertise/thanos.svg"
       },
-      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      }
     ]
   },
   "final_cta": {
@@ -257,36 +260,36 @@
   },
   "faq": [
     {
-    "question": "What do your Cloud Native Solutions for the Banking & Finance Industry include?",
-    "answer": "Our services help banking and finance organizations modernize their IT infrastructure and applications using cloud-native technologies. We cover application modernization, microservices adoption, secure cloud deployment, compliance, scalability, and continuous delivery for financial workloads."
-  },
-  {
-    "question": "Which technologies and practices are used in cloud-native solutions for banking and finance?",
-    "answer": "We leverage Kubernetes, Docker, microservices architecture, CI/CD pipelines, DevSecOps practices, cloud providers like AWS, Azure, GCP, and observability tools. Our approach ensures secure, resilient, and compliant financial applications in cloud environments."
-  },
-  {
-    "question": "Can you integrate cloud-native solutions with our existing banking systems?",
-    "answer": "Yes — we work with your existing core banking, payment, and financial applications, modernize workloads, implement microservices patterns, and integrate cloud-native practices while ensuring regulatory compliance and security standards."
-  },
-  {
-    "question": "What is the typical timeline and engagement model for cloud-native solutions in banking?",
-    "answer": "Engagements typically start with a 1–2 week assessment of your infrastructure, applications, and compliance requirements. Implementation follows in 4–12 week phases depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term advisory partnerships."
-  },
-  {
-    "question": "Do cloud-native solutions support multi-cloud or hybrid deployments for banking and finance?",
-    "answer": "Absolutely. Our solutions are designed for multi-cloud and hybrid deployments, ensuring secure, resilient, and compliant workloads across AWS, Azure, GCP, and on-premises financial systems."
-  },
-  {
-    "question": "How do you ensure security, compliance, and reliability in financial applications?",
-    "answer": "We enforce encryption, access controls, DevSecOps pipelines, automated compliance checks, monitoring, and disaster recovery. These measures ensure financial applications are secure, reliable, and compliant with industry standards like PCI DSS and GDPR."
-  },
-  {
-    "question": "What happens after cloud-native solutions are implemented in banking and finance?",
-    "answer": "After implementation, we provide ongoing support, monitoring, optimization, and knowledge transfer. Our services ensure your financial applications remain secure, scalable, and optimized for continuous business growth."
-  },
-  {
-    "question": "How much do cloud-native solutions for the banking and finance industry cost, and what are the pricing models?",
-    "answer": "Pricing depends on infrastructure complexity, application scope, and ongoing support requirements. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
-  }
+      "question": "What do your Cloud Native Solutions for the Banking & Finance Industry include?",
+      "answer": "Our services help banking and finance organizations modernize their IT infrastructure and applications using cloud-native technologies. We cover application modernization, microservices adoption, secure cloud deployment, compliance, scalability, and continuous delivery for financial workloads."
+    },
+    {
+      "question": "Which technologies and practices are used in cloud-native solutions for banking and finance?",
+      "answer": "We leverage Kubernetes, Docker, microservices architecture, CI/CD pipelines, DevSecOps practices, cloud providers like AWS, Azure, GCP, and observability tools. Our approach ensures secure, resilient, and compliant financial applications in cloud environments."
+    },
+    {
+      "question": "Can you integrate cloud-native solutions with our existing banking systems?",
+      "answer": "Yes — we work with your existing core banking, payment, and financial applications, modernize workloads, implement microservices patterns, and integrate cloud-native practices while ensuring regulatory compliance and security standards."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for cloud-native solutions in banking?",
+      "answer": "Engagements typically start with a 1–2 week assessment of your infrastructure, applications, and compliance requirements. Implementation follows in 4–12 week phases depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term advisory partnerships."
+    },
+    {
+      "question": "Do cloud-native solutions support multi-cloud or hybrid deployments for banking and finance?",
+      "answer": "Absolutely. Our solutions are designed for multi-cloud and hybrid deployments, ensuring secure, resilient, and compliant workloads across AWS, Azure, GCP, and on-premises financial systems."
+    },
+    {
+      "question": "How do you ensure security, compliance, and reliability in financial applications?",
+      "answer": "We enforce encryption, access controls, DevSecOps pipelines, automated compliance checks, monitoring, and disaster recovery. These measures ensure financial applications are secure, reliable, and compliant with industry standards like PCI DSS and GDPR."
+    },
+    {
+      "question": "What happens after cloud-native solutions are implemented in banking and finance?",
+      "answer": "After implementation, we provide ongoing support, monitoring, optimization, and knowledge transfer. Our services ensure your financial applications remain secure, scalable, and optimized for continuous business growth."
+    },
+    {
+      "question": "How much do cloud-native solutions for the banking and finance industry cost, and what are the pricing models?",
+      "answer": "Pricing depends on infrastructure complexity, application scope, and ongoing support requirements. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+    }
   ]
 }

@@ -35,12 +35,36 @@
   "title_with_small_cards": {
     "title": "Why Choose Backstage Consulting & Support?",
     "areas": [
-      { "icon": "fa fa-map-o", "title": "Backstage Adoption Roadmap", "description": "Actionable roadmap for smooth Backstage implementation across your organization." },
-      { "icon": "fa fa-cogs", "title": "Expert-Led Deployment", "description": "Deployment guidance from experienced engineers to ensure production-ready Backstage instances." },
-      { "icon": "fa fa-line-chart", "title": "Boost Developer Productivity", "description": "Optimize workflows and improve collaboration through IDP best practices." },
-      { "icon": "fa fa-lightbulb-o", "title": "Accelerate Development Practices", "description": "Efficiently implement agile and DevOps principles within Backstage." },
-      { "icon": "fa fa-tasks", "title": "Workflow Optimization & Tool Integrations", "description": "Integrate Backstage with existing tools to centralize software development processes." },
-      { "icon": "fa fa-star-o", "title": "Tailored & Custom Solutions", "description": "Backstage configured and customized to meet your unique organizational requirements." }
+      {
+        "icon": "fa fa-map-o",
+        "title": "Backstage Adoption Roadmap",
+        "description": "Actionable roadmap for smooth Backstage implementation across your organization."
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Expert-Led Deployment",
+        "description": "Deployment guidance from experienced engineers to ensure production-ready Backstage instances."
+      },
+      {
+        "icon": "fa fa-line-chart",
+        "title": "Boost Developer Productivity",
+        "description": "Optimize workflows and improve collaboration through IDP best practices."
+      },
+      {
+        "icon": "fa fa-lightbulb-o",
+        "title": "Accelerate Development Practices",
+        "description": "Efficiently implement agile and DevOps principles within Backstage."
+      },
+      {
+        "icon": "fa fa-tasks",
+        "title": "Workflow Optimization & Tool Integrations",
+        "description": "Integrate Backstage with existing tools to centralize software development processes."
+      },
+      {
+        "icon": "fa fa-star-o",
+        "title": "Tailored & Custom Solutions",
+        "description": "Backstage configured and customized to meet your unique organizational requirements."
+      }
     ]
   },
   "service_details": {
@@ -108,12 +132,36 @@
     "subtitle": "With experience across 100+ clients, we address business-specific requirements, compliance, and operational challenges.",
     "additional_text": "AppsCode’s Backstage solutions are scalable and adaptable for enterprises and startups alike.",
     "sectors": [
-      { "icon": "fa fa-bank", "title": "Banking & Finance", "description": "Build compliant, highly available Backstage platforms for secure financial operations." },
-      { "icon": "fa fa-laptop", "title": "Technology & SaaS", "description": "Integrate AI and cloud-native solutions for high-performance developer platforms." },
-      { "icon": "fa fa-car", "title": "Automotive", "description": "Leverage AI/ML to enhance operational safety and software development workflows." },
-      { "icon": "fa fa-plug", "title": "Energy & Utilities", "description": "Modernize platforms to optimize monitoring, inspections, and efficiency." },
-      { "icon": "fa fa-hospital-o", "title": "Healthcare", "description": "Utilize cloud GPU and high-speed processing for healthcare data and analytics." },
-      { "icon": "fa fa-plane", "title": "Travel & Hospitality", "description": "Deliver scalable, flexible, and efficient Backstage platforms for superior operations." }
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Build compliant, highly available Backstage platforms for secure financial operations."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology & SaaS",
+        "description": "Integrate AI and cloud-native solutions for high-performance developer platforms."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Leverage AI/ML to enhance operational safety and software development workflows."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy & Utilities",
+        "description": "Modernize platforms to optimize monitoring, inspections, and efficiency."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Utilize cloud GPU and high-speed processing for healthcare data and analytics."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver scalable, flexible, and efficient Backstage platforms for superior operations."
+      }
     ]
   },
   "open_source": {
@@ -165,21 +213,48 @@
         "name": "Thanos",
         "logo": "/assets/images/technical-expertise/thanos.svg"
       },
-      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      }
     ]
   },
   "cards": {
     "title": "Why Choose AppsCode for Backstage Consulting?",
     "items": [
-      { "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png", "title": "Certified Experts", "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence." },
-      { "icon": "fa fa-briefcase", "title": "Domain Expertise", "description": "Implemented Backstage and IDP solutions for 100+ global clients." },
-      { "icon": "fa fa-trophy", "title": "First Mover Advantage", "description": "US-based pioneer in<a href=\"https://kubedb.com/\">Kubernetes service</a>, establishing early leadership across APAC." },
-      { "icon": "fa fa-graduation-cap", "title": "Training & Enablement", "description": "Practical knowledge transfer to upskill teams in Backstage and platform engineering." },
-      { "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png", "title": "CNCF Certified Provider", "description": "CNCF Silver Member and Kubernetes Certified Service Provider (KCSP)." },
-      { "icon": "fa fa-wrench", "title": "Scalable Teams", "description": "Quickly expand engineering resources without hiring delays." }
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "Certified Experts",
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+      },
+      {
+        "icon": "fa fa-briefcase",
+        "title": "Domain Expertise",
+        "description": "Implemented Backstage and IDP solutions for 100+ global clients."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "First Mover Advantage",
+        "description": "US-based pioneer in<a href=\"https://kubedb.com/\">Kubernetes service</a>, establishing early leadership across APAC."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Training & Enablement",
+        "description": "Practical knowledge transfer to upskill teams in Backstage and platform engineering."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Certified Provider",
+        "description": "CNCF Silver Member and Kubernetes Certified Service Provider (KCSP)."
+      },
+      {
+        "icon": "fa fa-wrench",
+        "title": "Scalable Teams",
+        "description": "Quickly expand engineering resources without hiring delays."
+      }
     ]
   },
-    "resources": {
+  "resources": {
     "title": "Backstage & Platform Engineering Resources",
     "items": [
       {
@@ -203,44 +278,48 @@
     ]
   },
   "faq": [
-     {
-    "question": "What do your Backstage Consulting & Support Services include?",
-    "answer": "Our Backstage Consulting & Support Services cover the full lifecycle of building and maintaining cloud-native platforms: from opportunity discovery, MVP development, engineering, and DevOps practices to deployment, monitoring, and scaling. We focus on delivering reliable, secure, and high-performing systems that support your business goals."
-  },
-  {
-    "question": "Which technologies and practices are used in your consulting and support services?",
-    "answer": "We leverage Kubernetes orchestration, microservices architecture, continuous delivery pipelines (CI/CD), automated testing, infrastructure as code, observability (monitoring/logging), and hybrid/multi-cloud deployment patterns. These practices ensure platform stability, scalability, and operational efficiency."
-  },
-  {
-    "question": "Can you work with our existing product roadmap and technology stack?",
-    "answer": "Yes — we can integrate with your current roadmap and architecture. Our engineers refine your existing platform, lift it into a containerized, cloud-native, and production-ready form, or build new components from scratch as required."
-  },
-  {
-    "question": "What is the typical timeline and engagement model for Backstage Consulting & Support Services?",
-    "answer": "We typically start with a 1–2 week discovery phase to align on goals, architecture, and MVP scope. Development continues in 4–8 week agile sprints. Engagement models include fixed-scope projects, time-and-materials with embedded engineers, or longer-term dedicated support partnerships."
-  },
-  {
-    "question": "Do you support multi-cloud or hybrid cloud environments?",
-    "answer": "Absolutely. Our Backstage Consulting & Support Services are designed to be cloud-agnostic, ready to deploy on public clouds such as AWS, Azure, GCP, or on-premises Kubernetes clusters. This ensures portability, scalability, and operational consistency across environments."
-  },
-  {
-    "question": "How do you ensure quality, security, and reliability in your services?",
-    "answer": "We ensure quality through automated testing, code reviews, and continuous integration. Security is baked in via container isolation, role-based access control (RBAC), secrets management, and vulnerability scanning. Reliability is maintained with production-grade patterns, monitoring, backup/recovery, and disaster resilience."
-  },
-  {
-    "question": "What happens after deployment?",
-    "answer": "After launch, we help monitor performance, optimize infrastructure, and scale the system. Our Backstage Consulting & Support Services also include continuous improvements, automation, and tuning to ensure long-term reliability and operational efficiency."
-  },
-  {
-    "question": "How much do Backstage Consulting & Support Services cost and what are the pricing models?",
-    "answer": "Pricing depends on project scope, complexity, number of teams, and ongoing support requirements. We offer flexible models such as fixed-price MVP builds, hourly or engagement-based workflows, and retainers for continuous consulting and platform support. A detailed proposal is provided after the discovery phase."
-  }
+    {
+      "question": "What do your Backstage Consulting & Support Services include?",
+      "answer": "Our Backstage Consulting & Support Services cover the full lifecycle of building and maintaining cloud-native platforms: from opportunity discovery, MVP development, engineering, and DevOps practices to deployment, monitoring, and scaling. We focus on delivering reliable, secure, and high-performing systems that support your business goals."
+    },
+    {
+      "question": "Which technologies and practices are used in your consulting and support services?",
+      "answer": "We leverage Kubernetes orchestration, microservices architecture, continuous delivery pipelines (CI/CD), automated testing, infrastructure as code, observability (monitoring/logging), and hybrid/multi-cloud deployment patterns. These practices ensure platform stability, scalability, and operational efficiency."
+    },
+    {
+      "question": "Can you work with our existing product roadmap and technology stack?",
+      "answer": "Yes — we can integrate with your current roadmap and architecture. Our engineers refine your existing platform, lift it into a containerized, cloud-native, and production-ready form, or build new components from scratch as required."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for Backstage Consulting & Support Services?",
+      "answer": "We typically start with a 1–2 week discovery phase to align on goals, architecture, and MVP scope. Development continues in 4–8 week agile sprints. Engagement models include fixed-scope projects, time-and-materials with embedded engineers, or longer-term dedicated support partnerships."
+    },
+    {
+      "question": "Do you support multi-cloud or hybrid cloud environments?",
+      "answer": "Absolutely. Our Backstage Consulting & Support Services are designed to be cloud-agnostic, ready to deploy on public clouds such as AWS, Azure, GCP, or on-premises Kubernetes clusters. This ensures portability, scalability, and operational consistency across environments."
+    },
+    {
+      "question": "How do you ensure quality, security, and reliability in your services?",
+      "answer": "We ensure quality through automated testing, code reviews, and continuous integration. Security is baked in via container isolation, role-based access control (RBAC), secrets management, and vulnerability scanning. Reliability is maintained with production-grade patterns, monitoring, backup/recovery, and disaster resilience."
+    },
+    {
+      "question": "What happens after deployment?",
+      "answer": "After launch, we help monitor performance, optimize infrastructure, and scale the system. Our Backstage Consulting & Support Services also include continuous improvements, automation, and tuning to ensure long-term reliability and operational efficiency."
+    },
+    {
+      "question": "How much do Backstage Consulting & Support Services cost and what are the pricing models?",
+      "answer": "Pricing depends on project scope, complexity, number of teams, and ongoing support requirements. We offer flexible models such as fixed-price MVP builds, hourly or engagement-based workflows, and retainers for continuous consulting and platform support. A detailed proposal is provided after the discovery phase."
+    }
   ],
   "final_cta": {
     "title": "Looking for Backstage Enterprise Support?",
     "subtitle": "Consult our experts for strategy, design, integration, plugins, deployment, and ongoing support to fully leverage Backstage.",
     "buttons": [
-      { "text": "Talk to a Backstage Expert", "icon": "fa fa-calendar", "type": "outlined" }
+      {
+        "text": "Talk to a Backstage Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
     ]
   }
 }

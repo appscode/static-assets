@@ -15,14 +15,38 @@
   "title_with_small_cards": {
     "title": "Why Choose Our Kubernetes Consulting Services?",
     "areas": [
-      { "icon": "fa fa-lightbulb-o", "title": "Agile & Scalable Cloud-Native Architecture" },
-      { "icon": "fa fa-tachometer", "title": "High-Performance Kubernetes Deployments" },
-      { "icon": "fa fa-cogs", "title": "Accelerated Application Development on Kubernetes" },
-      { "icon": "fa fa-money", "title": "Optimize Cloud & IT Infrastructure Costs" },
-      { "icon": "fa fa-cloud", "title": "Multi-Cloud & Hybrid Kubernetes Flexibility" },
-      { "icon": "fa fa-shield", "title": "Self-Healing & Secure Container Environments" },
-      { "icon": "fa fa-arrows-alt", "title": "Migrate & Containerize Legacy Applications" },
-      { "icon": "fa fa-repeat", "title": "Automated CI/CD Rollouts & Rollbacks" }
+      {
+        "icon": "fa fa-lightbulb-o",
+        "title": "Agile & Scalable Cloud-Native Architecture"
+      },
+      {
+        "icon": "fa fa-tachometer",
+        "title": "High-Performance Kubernetes Deployments"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Accelerated Application Development on Kubernetes"
+      },
+      {
+        "icon": "fa fa-money",
+        "title": "Optimize Cloud & IT Infrastructure Costs"
+      },
+      {
+        "icon": "fa fa-cloud",
+        "title": "Multi-Cloud & Hybrid Kubernetes Flexibility"
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Self-Healing & Secure Container Environments"
+      },
+      {
+        "icon": "fa fa-arrows-alt",
+        "title": "Migrate & Containerize Legacy Applications"
+      },
+      {
+        "icon": "fa fa-repeat",
+        "title": "Automated CI/CD Rollouts & Rollbacks"
+      }
     ]
   },
   "service_details": {
@@ -167,7 +191,10 @@
         "name": "Thanos",
         "logo": "/assets/images/technical-expertise/thanos.svg"
       },
-      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      }
     ]
   },
   "final_cta": {
@@ -218,36 +245,36 @@
   },
   "faq": [
     {
-    "question": "What do your Kubernetes Consulting Services include?",
-    "answer": "Our Kubernetes Consulting Services cover the full lifecycle of designing, deploying, and managing Kubernetes clusters. From architecture design, cluster provisioning, and CI/CD integration to monitoring, scaling, and optimization, we help organizations run reliable and secure containerized workloads at scale."
-  },
-  {
-    "question": "Which technologies and practices are used in Kubernetes consulting?",
-    "answer": "We leverage Kubernetes orchestration, Helm charts, operators, containerization with Docker, CI/CD pipelines, infrastructure as code, observability (monitoring/logging), and hybrid/multi-cloud deployment patterns to ensure scalable and resilient Kubernetes environments."
-  },
-  {
-    "question": "Can you work with our existing Kubernetes clusters or cloud-native stack?",
-    "answer": "Yes — we integrate with your current clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable Kubernetes deployments."
-  },
-  {
-    "question": "What is the typical timeline and engagement model for Kubernetes Consulting Services?",
-    "answer": "Engagements typically begin with a 1–2 week assessment phase to understand your environment and requirements. Implementation follows in 4–8 week agile sprints. We offer flexible engagement models including fixed-scope projects, time-and-materials consulting, or long-term Kubernetes advisory partnerships."
-  },
-  {
-    "question": "Do you support hybrid and multi-cloud Kubernetes deployments?",
-    "answer": "Absolutely. Our Kubernetes Consulting Services are designed for portability and consistency across on-premises clusters and public clouds such as AWS, Azure, and GCP, ensuring seamless operations and scalability across environments."
-  },
-  {
-    "question": "How do you ensure security, reliability, and operational efficiency in Kubernetes?",
-    "answer": "We enforce security best practices including RBAC, network policies, secrets management, and vulnerability scanning. Reliability is ensured with monitoring, backup/recovery strategies, and disaster resilience patterns. Operational efficiency is achieved through automation, CI/CD integration, and resource optimization."
-  },
-  {
-    "question": "What happens after Kubernetes consulting and implementation?",
-    "answer": "After deployment, we provide ongoing operational guidance, monitoring, performance tuning, and scaling recommendations. Our Kubernetes Consulting Services also include training, knowledge transfer, and best practice documentation for your teams."
-  },
-  {
-    "question": "How much do Kubernetes Consulting Services cost, and what are the pricing models?",
-    "answer": "Costs vary depending on the complexity of your clusters, number of workloads, and support needs. We offer fixed-scope projects, hourly engagements, and long-term consulting retainers. A detailed proposal is provided after the assessment phase."
-  }
+      "question": "What do your Kubernetes Consulting Services include?",
+      "answer": "Our Kubernetes Consulting Services cover the full lifecycle of designing, deploying, and managing Kubernetes clusters. From architecture design, cluster provisioning, and CI/CD integration to monitoring, scaling, and optimization, we help organizations run reliable and secure containerized workloads at scale."
+    },
+    {
+      "question": "Which technologies and practices are used in Kubernetes consulting?",
+      "answer": "We leverage Kubernetes orchestration, Helm charts, operators, containerization with Docker, CI/CD pipelines, infrastructure as code, observability (monitoring/logging), and hybrid/multi-cloud deployment patterns to ensure scalable and resilient Kubernetes environments."
+    },
+    {
+      "question": "Can you work with our existing Kubernetes clusters or cloud-native stack?",
+      "answer": "Yes — we integrate with your current clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable Kubernetes deployments."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for Kubernetes Consulting Services?",
+      "answer": "Engagements typically begin with a 1–2 week assessment phase to understand your environment and requirements. Implementation follows in 4–8 week agile sprints. We offer flexible engagement models including fixed-scope projects, time-and-materials consulting, or long-term Kubernetes advisory partnerships."
+    },
+    {
+      "question": "Do you support hybrid and multi-cloud Kubernetes deployments?",
+      "answer": "Absolutely. Our Kubernetes Consulting Services are designed for portability and consistency across on-premises clusters and public clouds such as AWS, Azure, and GCP, ensuring seamless operations and scalability across environments."
+    },
+    {
+      "question": "How do you ensure security, reliability, and operational efficiency in Kubernetes?",
+      "answer": "We enforce security best practices including RBAC, network policies, secrets management, and vulnerability scanning. Reliability is ensured with monitoring, backup/recovery strategies, and disaster resilience patterns. Operational efficiency is achieved through automation, CI/CD integration, and resource optimization."
+    },
+    {
+      "question": "What happens after Kubernetes consulting and implementation?",
+      "answer": "After deployment, we provide ongoing operational guidance, monitoring, performance tuning, and scaling recommendations. Our Kubernetes Consulting Services also include training, knowledge transfer, and best practice documentation for your teams."
+    },
+    {
+      "question": "How much do Kubernetes Consulting Services cost, and what are the pricing models?",
+      "answer": "Costs vary depending on the complexity of your clusters, number of workloads, and support needs. We offer fixed-scope projects, hourly engagements, and long-term consulting retainers. A detailed proposal is provided after the assessment phase."
+    }
   ]
 }

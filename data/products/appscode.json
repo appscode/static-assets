@@ -172,23 +172,23 @@
     "resources": [
       {
         "label": "Blog",
-        "URL": "https://appscode.com/blog/" 
+        "URL": "https://appscode.com/blog/"
       },
       {
         "label": "Docs",
-        "URL": "https://appscode.com/docs/" 
+        "URL": "https://appscode.com/docs/"
       },
       {
         "label": "Webinars",
-        "URL": "https://www.youtube.com/watch?v=4lkBt5UUEAQ&list=PLoiT1Gv2KR1hAtDDW7fHEi-s2y2H3DOgx" 
+        "URL": "https://www.youtube.com/watch?v=4lkBt5UUEAQ&list=PLoiT1Gv2KR1hAtDDW7fHEi-s2y2H3DOgx"
       },
       {
         "label": "Learn",
-        "URL": "https://learn.appscode.com/learn/" 
+        "URL": "https://learn.appscode.com/learn/"
       },
       {
         "label": "Demos",
-        "URL": "https://www.youtube.com/c/AppsCodeInc" 
+        "URL": "https://www.youtube.com/c/AppsCodeInc"
       }
     ],
     "subscription": {

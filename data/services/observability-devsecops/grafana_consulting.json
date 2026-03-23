@@ -9,23 +9,38 @@
       "alt": "Grafana Consulting and Observability Services by Appscode"
     }
   },
-
   "trusted_by": {
     "title": "Trusted by Global Enterprises and Cloud-Native Innovators"
   },
-
   "title_with_small_cards": {
     "title": "Why Choose Grafana Consulting Services?",
     "areas": [
-      { "icon": "fa fa-eye", "title": "End-to-End Observability and Metrics Visibility" },
-      { "icon": "fa fa-dashboard", "title": "Customizable, Feature-Rich Grafana Dashboards" },
-      { "icon": "fa fa-tachometer", "title": "Optimized Infrastructure and Application Performance" },
-      { "icon": "fa fa-file-text", "title": "Unified Log Management and Advanced Analytics" },
-      { "icon": "fa fa-cogs", "title": "Improved Operational Efficiency Through Automation" },
-      { "icon": "fa fa-plug", "title": "Seamless Plugin, API, and Data Source Integrations" }
+      {
+        "icon": "fa fa-eye",
+        "title": "End-to-End Observability and Metrics Visibility"
+      },
+      {
+        "icon": "fa fa-dashboard",
+        "title": "Customizable, Feature-Rich Grafana Dashboards"
+      },
+      {
+        "icon": "fa fa-tachometer",
+        "title": "Optimized Infrastructure and Application Performance"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "title": "Unified Log Management and Advanced Analytics"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Improved Operational Efficiency Through Automation"
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Seamless Plugin, API, and Data Source Integrations"
+      }
     ]
   },
-
   "service_details": {
     "title": "Grafana Consulting Services by Appscode",
     "subtitle": "Accelerate your observability journey with expert guidance — from deployment to ongoing enterprise support.",
@@ -74,7 +89,6 @@
       }
     ]
   },
-
   "industries": {
     "title": "Industry-Focused Grafana Consulting Expertise",
     "subtitle": "Appscode delivers Grafana observability solutions designed for reliability, compliance, and scalability across diverse industries.",
@@ -112,7 +126,6 @@
       }
     ]
   },
-
   "open_source": {
     "title": "Open Source & Grafana Community Contributions",
     "description": "Appscode’s engineers actively contribute to leading open-source observability projects, extending Grafana’s ecosystem with innovative integrations and solutions.",
@@ -122,7 +135,6 @@
       "alt": "Appscode Open Source Contributions"
     }
   },
-
   "tech_stack": {
     "title": "Deep Technical Expertise in the Grafana Ecosystem",
     "subtitle": "Appscode’s consulting team builds secure, scalable observability stacks using industry-leading open-source tools.",
@@ -163,10 +175,12 @@
         "name": "Thanos",
         "logo": "/assets/images/technical-expertise/thanos.svg"
       },
-      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      }
     ]
   },
-
   "final_cta": {
     "title": "Partner with Appscode for Grafana Consulting & Enterprise Support",
     "subtitle": "Empower your teams with data-driven visibility, faster issue resolution, and optimized infrastructure performance using Grafana.",
@@ -178,11 +192,10 @@
       }
     ]
   },
-
   "cards": {
     "title": "Why Appscode is the Best Grafana Consulting Partner",
     "items": [
-       {
+      {
         "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
         "title": "Certified Grafana & Cloud-Native Experts",
         "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
@@ -216,36 +229,36 @@
   },
   "faq": [
     {
-    "question": "What do your Grafana Consulting Services include?",
-    "answer": "Our Grafana Consulting Services help organizations design, implement, and optimize observability dashboards for monitoring applications and infrastructure. We cover metrics collection, visualization, alerting, and performance analysis using Grafana."
-  },
-  {
-    "question": "Which technologies and practices are used in Grafana consulting?",
-    "answer": "We leverage Grafana, Prometheus, Loki, OpenTelemetry, Kubernetes, and cloud-native monitoring tools. Our approach ensures actionable insights, performance monitoring, real-time visualization, and proactive issue detection across complex systems."
-  },
-  {
-    "question": "Can you work with our existing applications and monitoring setup?",
-    "answer": "Yes — we integrate Grafana with your current monitoring stack, configure dashboards and alerts, implement metrics collection, and provide guidance for continuous monitoring and observability improvement."
-  },
-  {
-    "question": "What is the typical timeline and engagement model for Grafana Consulting Services?",
-    "answer": "Engagements typically start with a 1–2 week assessment of your observability and monitoring setup. Implementation follows in 2–6 week phases depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term Grafana advisory partnerships."
-  },
-  {
-    "question": "Do Grafana Consulting Services support multi-cloud or hybrid environments?",
-    "answer": "Absolutely. Our services are designed for multi-cloud and hybrid environments, ensuring consistent metrics visualization, alerts, and dashboards across AWS, Azure, GCP, and on-premises systems."
-  },
-  {
-    "question": "How do you ensure reliable monitoring and actionable insights with Grafana?",
-    "answer": "We implement end-to-end metrics collection, logging, alerting, and dashboard design best practices. These measures enable real-time monitoring, rapid issue detection, and performance optimization."
-  },
-  {
-    "question": "What happens after Grafana consulting and implementation?",
-    "answer": "After implementation, we provide ongoing support, dashboard updates, alert optimization, and guidance on continuous improvement to ensure your monitoring setup remains effective and up-to-date."
-  },
-  {
-    "question": "How much do Grafana Consulting Services cost, and what are the pricing models?",
-    "answer": "Pricing depends on system complexity, number of dashboards, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
-  }
+      "question": "What do your Grafana Consulting Services include?",
+      "answer": "Our Grafana Consulting Services help organizations design, implement, and optimize observability dashboards for monitoring applications and infrastructure. We cover metrics collection, visualization, alerting, and performance analysis using Grafana."
+    },
+    {
+      "question": "Which technologies and practices are used in Grafana consulting?",
+      "answer": "We leverage Grafana, Prometheus, Loki, OpenTelemetry, Kubernetes, and cloud-native monitoring tools. Our approach ensures actionable insights, performance monitoring, real-time visualization, and proactive issue detection across complex systems."
+    },
+    {
+      "question": "Can you work with our existing applications and monitoring setup?",
+      "answer": "Yes — we integrate Grafana with your current monitoring stack, configure dashboards and alerts, implement metrics collection, and provide guidance for continuous monitoring and observability improvement."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for Grafana Consulting Services?",
+      "answer": "Engagements typically start with a 1–2 week assessment of your observability and monitoring setup. Implementation follows in 2–6 week phases depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term Grafana advisory partnerships."
+    },
+    {
+      "question": "Do Grafana Consulting Services support multi-cloud or hybrid environments?",
+      "answer": "Absolutely. Our services are designed for multi-cloud and hybrid environments, ensuring consistent metrics visualization, alerts, and dashboards across AWS, Azure, GCP, and on-premises systems."
+    },
+    {
+      "question": "How do you ensure reliable monitoring and actionable insights with Grafana?",
+      "answer": "We implement end-to-end metrics collection, logging, alerting, and dashboard design best practices. These measures enable real-time monitoring, rapid issue detection, and performance optimization."
+    },
+    {
+      "question": "What happens after Grafana consulting and implementation?",
+      "answer": "After implementation, we provide ongoing support, dashboard updates, alert optimization, and guidance on continuous improvement to ensure your monitoring setup remains effective and up-to-date."
+    },
+    {
+      "question": "How much do Grafana Consulting Services cost, and what are the pricing models?",
+      "answer": "Pricing depends on system complexity, number of dashboards, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+    }
   ]
 }

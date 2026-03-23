@@ -15,14 +15,38 @@
   "title_with_small_cards": {
     "title": "Why Choose GitOps Consulting Services?",
     "areas": [
-      { "icon": "fa fa-code", "title": "Declarative Infrastructure & Application Management" },
-      { "icon": "fa fa-users", "title": "Improved Developer Productivity & Experience" },
-      { "icon": "fa fa-clock-o", "title": "Faster, Automated Deployments & Releases" },
-      { "icon": "fa fa-bug", "title": "Quick Failure Detection & Instant Rollbacks" },
-      { "icon": "fa fa-cogs", "title": "Reduced Operational Overhead" },
-      { "icon": "fa fa-database", "title": "Git as the Single Source of Truth" },
-      { "icon": "fa fa-rocket", "title": "Continuous Deployment Automation" },
-      { "icon": "fa fa-shield", "title": "Security, Compliance & Policy Enforcement" }
+      {
+        "icon": "fa fa-code",
+        "title": "Declarative Infrastructure & Application Management"
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Improved Developer Productivity & Experience"
+      },
+      {
+        "icon": "fa fa-clock-o",
+        "title": "Faster, Automated Deployments & Releases"
+      },
+      {
+        "icon": "fa fa-bug",
+        "title": "Quick Failure Detection & Instant Rollbacks"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Reduced Operational Overhead"
+      },
+      {
+        "icon": "fa fa-database",
+        "title": "Git as the Single Source of Truth"
+      },
+      {
+        "icon": "fa fa-rocket",
+        "title": "Continuous Deployment Automation"
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Security, Compliance & Policy Enforcement"
+      }
     ]
   },
   "service_details": {
@@ -125,7 +149,7 @@
   "tech_stack": {
     "title": "Diverse Technical Expertise",
     "subtitle": "Our certified engineers excel in:",
-   "technologies": [
+    "technologies": [
       {
         "name": "Crossplane",
         "logo": "/assets/images/technical-expertise/crossplane.svg"
@@ -162,7 +186,10 @@
         "name": "Thanos",
         "logo": "/assets/images/technical-expertise/thanos.svg"
       },
-      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      }
     ]
   },
   "final_cta": {
@@ -248,36 +275,36 @@
   },
   "faq": [
     {
-    "question": "What do your CI/CD Consulting Services include?",
-    "answer": "Our CI/CD Consulting Services guide organizations through designing, implementing, and optimizing continuous integration and continuous delivery pipelines. We cover pipeline automation, testing, monitoring, and deployment strategies to accelerate software delivery while maintaining quality and reliability."
-  },
-  {
-    "question": "Which technologies and practices are used in CI/CD consulting?",
-    "answer": "We leverage tools like Jenkins, GitHub Actions, GitLab CI, ArgoCD, Docker, Kubernetes, and infrastructure as code. Our approach emphasizes automated testing, version control, CI/CD pipeline best practices, and seamless integration with cloud-native architectures."
-  },
-  {
-    "question": "Can you work with our existing development workflows?",
-    "answer": "Yes — we integrate with your current pipelines and technology stack. Our consultants optimize existing workflows, implement automation, and ensure efficient, repeatable, and reliable continuous delivery processes."
-  },
-  {
-    "question": "What is the typical timeline and engagement model for CI/CD Consulting Services?",
-    "answer": "Engagements usually begin with a 1–2 week assessment phase to analyze current processes. Implementation follows in 4–8 week agile sprints. We provide flexible engagement models including fixed-scope projects, time-and-materials consulting, or long-term advisory partnerships."
-  },
-  {
-    "question": "Do CI/CD Consulting Services support multi-cloud or hybrid cloud environments?",
-    "answer": "Absolutely. We design CI/CD pipelines to work seamlessly across AWS, Azure, GCP, and on-premises environments, ensuring consistent deployments and operational reliability across platforms."
-  },
-  {
-    "question": "How do you ensure quality, security, and reliability in CI/CD pipelines?",
-    "answer": "Quality is maintained with automated testing and code reviews, security with secrets management and access control, and reliability through monitoring, rollback strategies, and disaster recovery practices."
-  },
-  {
-    "question": "What happens after CI/CD pipeline implementation?",
-    "answer": "We provide ongoing support, monitoring, and optimization for CI/CD pipelines. This includes guidance on scaling, process improvements, and knowledge transfer to help your teams manage continuous delivery efficiently."
-  },
-  {
-    "question": "How much do CI/CD Consulting Services cost, and what are the pricing models?",
-    "answer": "Pricing varies based on pipeline complexity, number of teams, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
-  }
+      "question": "What do your CI/CD Consulting Services include?",
+      "answer": "Our CI/CD Consulting Services guide organizations through designing, implementing, and optimizing continuous integration and continuous delivery pipelines. We cover pipeline automation, testing, monitoring, and deployment strategies to accelerate software delivery while maintaining quality and reliability."
+    },
+    {
+      "question": "Which technologies and practices are used in CI/CD consulting?",
+      "answer": "We leverage tools like Jenkins, GitHub Actions, GitLab CI, ArgoCD, Docker, Kubernetes, and infrastructure as code. Our approach emphasizes automated testing, version control, CI/CD pipeline best practices, and seamless integration with cloud-native architectures."
+    },
+    {
+      "question": "Can you work with our existing development workflows?",
+      "answer": "Yes — we integrate with your current pipelines and technology stack. Our consultants optimize existing workflows, implement automation, and ensure efficient, repeatable, and reliable continuous delivery processes."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for CI/CD Consulting Services?",
+      "answer": "Engagements usually begin with a 1–2 week assessment phase to analyze current processes. Implementation follows in 4–8 week agile sprints. We provide flexible engagement models including fixed-scope projects, time-and-materials consulting, or long-term advisory partnerships."
+    },
+    {
+      "question": "Do CI/CD Consulting Services support multi-cloud or hybrid cloud environments?",
+      "answer": "Absolutely. We design CI/CD pipelines to work seamlessly across AWS, Azure, GCP, and on-premises environments, ensuring consistent deployments and operational reliability across platforms."
+    },
+    {
+      "question": "How do you ensure quality, security, and reliability in CI/CD pipelines?",
+      "answer": "Quality is maintained with automated testing and code reviews, security with secrets management and access control, and reliability through monitoring, rollback strategies, and disaster recovery practices."
+    },
+    {
+      "question": "What happens after CI/CD pipeline implementation?",
+      "answer": "We provide ongoing support, monitoring, and optimization for CI/CD pipelines. This includes guidance on scaling, process improvements, and knowledge transfer to help your teams manage continuous delivery efficiently."
+    },
+    {
+      "question": "How much do CI/CD Consulting Services cost, and what are the pricing models?",
+      "answer": "Pricing varies based on pipeline complexity, number of teams, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+    }
   ]
 }

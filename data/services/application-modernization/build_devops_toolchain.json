@@ -15,12 +15,30 @@
   "title_with_small_cards": {
     "title": "Why Invest in DevOps Toolchain Consulting?",
     "areas": [
-      { "icon": "fa fa-code", "title": "Automated CI/CD Workflows" },
-      { "icon": "fa fa-users", "title": "Improved Collaboration Between Dev & Ops" },
-      { "icon": "fa fa-clock-o", "title": "Accelerated Software Delivery" },
-      { "icon": "fa fa-bug", "title": "Enhanced Testing & Quality Assurance" },
-      { "icon": "fa fa-cogs", "title": "Reduced Deployment Risks" },
-      { "icon": "fa fa-database", "title": "Consistent & Reliable Releases" }
+      {
+        "icon": "fa fa-code",
+        "title": "Automated CI/CD Workflows"
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Improved Collaboration Between Dev & Ops"
+      },
+      {
+        "icon": "fa fa-clock-o",
+        "title": "Accelerated Software Delivery"
+      },
+      {
+        "icon": "fa fa-bug",
+        "title": "Enhanced Testing & Quality Assurance"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Reduced Deployment Risks"
+      },
+      {
+        "icon": "fa fa-database",
+        "title": "Consistent & Reliable Releases"
+      }
     ]
   },
   "service_details": {
@@ -121,7 +139,7 @@
   "tech_stack": {
     "title": "Technical Expertise",
     "subtitle": "Our certified engineers excel in:",
-  "technologies": [
+    "technologies": [
       {
         "name": "Crossplane",
         "logo": "/assets/images/technical-expertise/crossplane.svg"
@@ -158,7 +176,10 @@
         "name": "Thanos",
         "logo": "/assets/images/technical-expertise/thanos.svg"
       },
-      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      }
     ]
   },
   "final_cta": {
@@ -209,36 +230,36 @@
   },
   "faq": [
     {
-    "question": "What do your DevOps Toolchain Consulting services include?",
-    "answer": "Our DevOps Toolchain Consulting services help organizations design, implement, and optimize the full DevOps toolchain. This includes CI/CD pipelines, configuration management, monitoring, logging, containerization, and automation to improve collaboration, speed, and reliability across development and operations teams."
-  },
-  {
-    "question": "Which technologies and practices are used in DevOps toolchain consulting?",
-    "answer": "We leverage tools such as Jenkins, GitLab CI/CD, GitHub Actions, ArgoCD, Terraform, Ansible, Docker, Kubernetes, and observability platforms. Our approach ensures integrated workflows, automated processes, and efficient deployment practices aligned with DevOps principles."
-  },
-  {
-    "question": "Can you integrate with our existing DevOps toolchain?",
-    "answer": "Yes — we assess your current toolchain and workflows, integrate best practices, optimize automation, and ensure seamless interoperability between tools to improve efficiency, reduce errors, and accelerate delivery."
-  },
-  {
-    "question": "What is the typical timeline and engagement model for DevOps Toolchain Consulting?",
-    "answer": "Engagements typically start with a 1–2 week assessment phase to understand your existing processes and tools. Implementation follows in 4–8 week sprints depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term advisory partnerships."
-  },
-  {
-    "question": "Do DevOps Toolchain Consulting services support multi-cloud or hybrid environments?",
-    "answer": "Absolutely. We design DevOps toolchains that work across AWS, Azure, GCP, and on-premises environments, ensuring consistent, automated workflows and operational reliability across platforms."
-  },
-  {
-    "question": "How do you ensure security, reliability, and efficiency in the DevOps toolchain?",
-    "answer": "We enforce security best practices including access control, secrets management, and auditability. Reliability is ensured with automated testing, monitoring, and disaster recovery strategies. Efficiency is achieved through streamlined workflows, automation, and optimized integration between tools."
-  },
-  {
-    "question": "What happens after DevOps Toolchain Consulting and implementation?",
-    "answer": "After implementation, we provide ongoing guidance, monitoring, optimization, and knowledge transfer. Our services include continuous improvement recommendations to maintain a robust, automated, and efficient DevOps toolchain."
-  },
-  {
-    "question": "How much do DevOps Toolchain Consulting services cost, and what are the pricing models?",
-    "answer": "Pricing depends on toolchain complexity, number of teams, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
-  }
+      "question": "What do your DevOps Toolchain Consulting services include?",
+      "answer": "Our DevOps Toolchain Consulting services help organizations design, implement, and optimize the full DevOps toolchain. This includes CI/CD pipelines, configuration management, monitoring, logging, containerization, and automation to improve collaboration, speed, and reliability across development and operations teams."
+    },
+    {
+      "question": "Which technologies and practices are used in DevOps toolchain consulting?",
+      "answer": "We leverage tools such as Jenkins, GitLab CI/CD, GitHub Actions, ArgoCD, Terraform, Ansible, Docker, Kubernetes, and observability platforms. Our approach ensures integrated workflows, automated processes, and efficient deployment practices aligned with DevOps principles."
+    },
+    {
+      "question": "Can you integrate with our existing DevOps toolchain?",
+      "answer": "Yes — we assess your current toolchain and workflows, integrate best practices, optimize automation, and ensure seamless interoperability between tools to improve efficiency, reduce errors, and accelerate delivery."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for DevOps Toolchain Consulting?",
+      "answer": "Engagements typically start with a 1–2 week assessment phase to understand your existing processes and tools. Implementation follows in 4–8 week sprints depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term advisory partnerships."
+    },
+    {
+      "question": "Do DevOps Toolchain Consulting services support multi-cloud or hybrid environments?",
+      "answer": "Absolutely. We design DevOps toolchains that work across AWS, Azure, GCP, and on-premises environments, ensuring consistent, automated workflows and operational reliability across platforms."
+    },
+    {
+      "question": "How do you ensure security, reliability, and efficiency in the DevOps toolchain?",
+      "answer": "We enforce security best practices including access control, secrets management, and auditability. Reliability is ensured with automated testing, monitoring, and disaster recovery strategies. Efficiency is achieved through streamlined workflows, automation, and optimized integration between tools."
+    },
+    {
+      "question": "What happens after DevOps Toolchain Consulting and implementation?",
+      "answer": "After implementation, we provide ongoing guidance, monitoring, optimization, and knowledge transfer. Our services include continuous improvement recommendations to maintain a robust, automated, and efficient DevOps toolchain."
+    },
+    {
+      "question": "How much do DevOps Toolchain Consulting services cost, and what are the pricing models?",
+      "answer": "Pricing depends on toolchain complexity, number of teams, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+    }
   ]
 }

@@ -15,14 +15,38 @@
   "title_with_small_cards": {
     "title": "Benefits of SRE Consulting Services",
     "areas": [
-      { "icon": "fa fa-rocket", "title": "Accelerate Feature Delivery & Product Releases" },
-      { "icon": "fa fa-shield", "title": "Ensure Production Stability & Reliability" },
-      { "icon": "fa fa-database", "title": "Comprehensive Observability & Monitoring" },
-      { "icon": "fa fa-bug", "title": "Enhance DevOps Workflows with CI/CD Automation" },
-      { "icon": "fa fa-cogs", "title": "Automate Infrastructure Provisioning" },
-      { "icon": "fa fa-dollar", "title": "Optimize Costs & Capacity Planning" },
-      { "icon": "fa fa-server", "title": "Manage Kubernetes Clusters & Storage" },
-      { "icon": "fa fa-shield", "title": "Ensure Security, Compliance & Governance" }
+      {
+        "icon": "fa fa-rocket",
+        "title": "Accelerate Feature Delivery & Product Releases"
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Ensure Production Stability & Reliability"
+      },
+      {
+        "icon": "fa fa-database",
+        "title": "Comprehensive Observability & Monitoring"
+      },
+      {
+        "icon": "fa fa-bug",
+        "title": "Enhance DevOps Workflows with CI/CD Automation"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Automate Infrastructure Provisioning"
+      },
+      {
+        "icon": "fa fa-dollar",
+        "title": "Optimize Costs & Capacity Planning"
+      },
+      {
+        "icon": "fa fa-server",
+        "title": "Manage Kubernetes Clusters & Storage"
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Ensure Security, Compliance & Governance"
+      }
     ]
   },
   "service_details": {
@@ -181,7 +205,7 @@
   "tech_stack": {
     "title": "Diverse Technical Expertise",
     "subtitle": "Our engineers are proficient in:",
-     "technologies": [
+    "technologies": [
       {
         "name": "Crossplane",
         "logo": "/assets/images/technical-expertise/crossplane.svg"
@@ -218,42 +242,45 @@
         "name": "Thanos",
         "logo": "/assets/images/technical-expertise/thanos.svg"
       },
-      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      }
     ]
   },
   "faq": [
     {
-    "question": "What do your Site Reliability Engineering (SRE) Consulting services include?",
-    "answer": "Our Site Reliability Engineering (SRE) Consulting services help organizations improve system reliability, scalability, and performance. We cover service-level objectives (SLOs), incident management, monitoring, automation, and resilience strategies to ensure stable and efficient operations for critical applications."
-  },
-  {
-    "question": "Which technologies and practices are used in SRE consulting?",
-    "answer": "We leverage Kubernetes, cloud-native architectures, observability tools, CI/CD pipelines, infrastructure as code, incident response automation, and performance monitoring. Our approach applies SRE best practices to enhance reliability, reduce downtime, and improve system performance."
-  },
-  {
-    "question": "Can you work with our existing infrastructure and operations teams?",
-    "answer": "Yes — we integrate with your current systems and teams, assess reliability gaps, implement SRE practices, and provide guidance to optimize operational processes for improved service uptime and stability."
-  },
-  {
-    "question": "What is the typical timeline and engagement model for SRE Consulting?",
-    "answer": "Engagements typically begin with a 1–2 week assessment of your infrastructure, operations, and reliability metrics. Implementation follows in 4–8 week phases. We offer fixed-scope projects, time-and-materials consulting, or long-term SRE advisory partnerships."
-  },
-  {
-    "question": "Do SRE Consulting services support multi-cloud or hybrid environments?",
-    "answer": "Absolutely. Our SRE Consulting services are designed for hybrid and multi-cloud architectures, ensuring consistent reliability, monitoring, and incident management across AWS, Azure, GCP, and on-premises systems."
-  },
-  {
-    "question": "How do you ensure security, reliability, and efficiency in SRE practices?",
-    "answer": "We enforce best practices including automated monitoring, alerting, access control, performance tuning, disaster recovery planning, and incident response automation. These measures help maintain secure, resilient, and efficient systems."
-  },
-  {
-    "question": "What happens after SRE consulting and implementation?",
-    "answer": "After implementation, we provide ongoing guidance, monitoring, and optimization. Our services include knowledge transfer, SRE training, and recommendations for continuous reliability improvements and operational excellence."
-  },
-  {
-    "question": "How much do Site Reliability Engineering (SRE) Consulting services cost, and what are the pricing models?",
-    "answer": "Pricing depends on infrastructure complexity, number of services, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
-  }
+      "question": "What do your Site Reliability Engineering (SRE) Consulting services include?",
+      "answer": "Our Site Reliability Engineering (SRE) Consulting services help organizations improve system reliability, scalability, and performance. We cover service-level objectives (SLOs), incident management, monitoring, automation, and resilience strategies to ensure stable and efficient operations for critical applications."
+    },
+    {
+      "question": "Which technologies and practices are used in SRE consulting?",
+      "answer": "We leverage Kubernetes, cloud-native architectures, observability tools, CI/CD pipelines, infrastructure as code, incident response automation, and performance monitoring. Our approach applies SRE best practices to enhance reliability, reduce downtime, and improve system performance."
+    },
+    {
+      "question": "Can you work with our existing infrastructure and operations teams?",
+      "answer": "Yes — we integrate with your current systems and teams, assess reliability gaps, implement SRE practices, and provide guidance to optimize operational processes for improved service uptime and stability."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for SRE Consulting?",
+      "answer": "Engagements typically begin with a 1–2 week assessment of your infrastructure, operations, and reliability metrics. Implementation follows in 4–8 week phases. We offer fixed-scope projects, time-and-materials consulting, or long-term SRE advisory partnerships."
+    },
+    {
+      "question": "Do SRE Consulting services support multi-cloud or hybrid environments?",
+      "answer": "Absolutely. Our SRE Consulting services are designed for hybrid and multi-cloud architectures, ensuring consistent reliability, monitoring, and incident management across AWS, Azure, GCP, and on-premises systems."
+    },
+    {
+      "question": "How do you ensure security, reliability, and efficiency in SRE practices?",
+      "answer": "We enforce best practices including automated monitoring, alerting, access control, performance tuning, disaster recovery planning, and incident response automation. These measures help maintain secure, resilient, and efficient systems."
+    },
+    {
+      "question": "What happens after SRE consulting and implementation?",
+      "answer": "After implementation, we provide ongoing guidance, monitoring, and optimization. Our services include knowledge transfer, SRE training, and recommendations for continuous reliability improvements and operational excellence."
+    },
+    {
+      "question": "How much do Site Reliability Engineering (SRE) Consulting services cost, and what are the pricing models?",
+      "answer": "Pricing depends on infrastructure complexity, number of services, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+    }
   ],
   "final_cta": {
     "title": "Looking for Expert SRE Support?",

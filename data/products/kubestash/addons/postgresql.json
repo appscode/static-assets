@@ -58,7 +58,7 @@
       "description": "You can store your backed up data into various storage services. KubeStash supports AWS S3, Minio, Rook, Google Cloud Storage, Azure Blob Storage, OpenStack Swift, DigitalOcean Spaces, Blackbaze B2 and REST server as backend. You can also use Kubernetes persistent volumes as backend."
     }
   ],
-  "example":{
+  "example": {
     "apiVersion": "core.kubestash.com/v1alpha1",
     "kind": "BackupConfiguration",
     "metadata": {

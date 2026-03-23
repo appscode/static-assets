@@ -15,14 +15,38 @@
   "title_with_small_cards": {
     "title": "Why Choose Bare Metal Provisioning Consulting?",
     "areas": [
-      { "icon": "fa fa-rocket", "title": "Accelerate On-Prem Infrastructure Provisioning" },
-      { "icon": "fa fa-lock", "title": "Secure & Cost-Efficient On-Prem Deployments" },
-      { "icon": "fa fa-cubes", "title": "Automated & Declarative Provisioning Workflows" },
-      { "icon": "fa fa-lightbulb-o", "title": "Best Practices from Infrastructure Experts" },
-      { "icon": "fa fa-cogs", "title": "Tailored Solutions for Your Organization" },
-      { "icon": "fa fa-wrench", "title": "Proven Architectures & Recommended Tools" },
-      { "icon": "fa fa-users", "title": "Scale Resources On Demand" },
-      { "icon": "fa fa-gift", "title": "Accelerators to Boost Productivity & Efficiency" }
+      {
+        "icon": "fa fa-rocket",
+        "title": "Accelerate On-Prem Infrastructure Provisioning"
+      },
+      {
+        "icon": "fa fa-lock",
+        "title": "Secure & Cost-Efficient On-Prem Deployments"
+      },
+      {
+        "icon": "fa fa-cubes",
+        "title": "Automated & Declarative Provisioning Workflows"
+      },
+      {
+        "icon": "fa fa-lightbulb-o",
+        "title": "Best Practices from Infrastructure Experts"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Tailored Solutions for Your Organization"
+      },
+      {
+        "icon": "fa fa-wrench",
+        "title": "Proven Architectures & Recommended Tools"
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Scale Resources On Demand"
+      },
+      {
+        "icon": "fa fa-gift",
+        "title": "Accelerators to Boost Productivity & Efficiency"
+      }
     ]
   },
   "service_details": {
@@ -119,7 +143,7 @@
   "tech_stack": {
     "title": "Our Technical Expertise",
     "subtitle": "Our engineers have hands-on experience with over 100 clients in the following technologies:",
-   "technologies": [
+    "technologies": [
       {
         "name": "Crossplane",
         "logo": "/assets/images/technical-expertise/crossplane.svg"
@@ -156,7 +180,10 @@
         "name": "Thanos",
         "logo": "/assets/images/technical-expertise/thanos.svg"
       },
-      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      }
     ]
   },
   "final_cta": {
@@ -207,36 +234,36 @@
   },
   "faq": [
     {
-    "question": "What do your Bare Metal Provisioning & On-Prem Infrastructure Consulting services include?",
-    "answer": "Our Bare Metal Provisioning & On-Prem Infrastructure Consulting services cover the complete lifecycle of deploying, managing, and optimizing physical infrastructure. From initial assessment, hardware provisioning, network setup, to system integration and operational best practices, we ensure high-performance, secure, and reliable on-prem environments."
-  },
-  {
-    "question": "Which technologies and practices are used in on-prem infrastructure consulting?",
-    "answer": "We leverage server provisioning tools, virtualization platforms, Kubernetes on bare metal, storage and network configuration best practices, and monitoring/observability tools. Our approach ensures efficient resource utilization, operational resilience, and scalable infrastructure management."
-  },
-  {
-    "question": "Can you work with our existing on-prem infrastructure?",
-    "answer": "Yes — we integrate with your current setup, optimize existing hardware and network configurations, and help transition workloads to more reliable, scalable, and secure on-prem or hybrid environments as needed."
-  },
-  {
-    "question": "What is the typical timeline and engagement model for these services?",
-    "answer": "Most engagements begin with a 1–2 week discovery phase to assess your existing infrastructure and requirements. Implementation continues in 4–8 week phases depending on scope. Engagements can be fixed-scope, time-and-materials, or long-term consulting partnerships."
-  },
-  {
-    "question": "Do you support hybrid or multi-cloud integration with on-prem environments?",
-    "answer": "Absolutely. Our consulting services provide guidance for hybrid architectures, integrating on-prem systems with public clouds like AWS, Azure, or GCP, ensuring seamless operations, scalability, and consistency across environments."
-  },
-  {
-    "question": "How do you ensure quality, security, and reliability in on-prem environments?",
-    "answer": "We follow industry best practices including hardware validation, automated provisioning, monitoring, access control, and disaster recovery planning. These measures ensure secure, reliable, and high-performing on-prem infrastructure."
-  },
-  {
-    "question": "What happens after infrastructure provisioning and consulting?",
-    "answer": "After deployment, we provide operational support, monitoring, optimization, and scaling guidance. Our Bare Metal Provisioning & On-Prem Infrastructure Consulting services include ongoing recommendations to maintain performance, security, and cost efficiency."
-  },
-  {
-    "question": "How much do these consulting services cost, and what are the pricing models?",
-    "answer": "Costs depend on infrastructure scope, complexity, number of servers, and ongoing support requirements. We offer fixed-scope projects, hourly consulting, or retainers for continuous support. Detailed proposals are provided after the assessment phase."
-  }
+      "question": "What do your Bare Metal Provisioning & On-Prem Infrastructure Consulting services include?",
+      "answer": "Our Bare Metal Provisioning & On-Prem Infrastructure Consulting services cover the complete lifecycle of deploying, managing, and optimizing physical infrastructure. From initial assessment, hardware provisioning, network setup, to system integration and operational best practices, we ensure high-performance, secure, and reliable on-prem environments."
+    },
+    {
+      "question": "Which technologies and practices are used in on-prem infrastructure consulting?",
+      "answer": "We leverage server provisioning tools, virtualization platforms, Kubernetes on bare metal, storage and network configuration best practices, and monitoring/observability tools. Our approach ensures efficient resource utilization, operational resilience, and scalable infrastructure management."
+    },
+    {
+      "question": "Can you work with our existing on-prem infrastructure?",
+      "answer": "Yes — we integrate with your current setup, optimize existing hardware and network configurations, and help transition workloads to more reliable, scalable, and secure on-prem or hybrid environments as needed."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for these services?",
+      "answer": "Most engagements begin with a 1–2 week discovery phase to assess your existing infrastructure and requirements. Implementation continues in 4–8 week phases depending on scope. Engagements can be fixed-scope, time-and-materials, or long-term consulting partnerships."
+    },
+    {
+      "question": "Do you support hybrid or multi-cloud integration with on-prem environments?",
+      "answer": "Absolutely. Our consulting services provide guidance for hybrid architectures, integrating on-prem systems with public clouds like AWS, Azure, or GCP, ensuring seamless operations, scalability, and consistency across environments."
+    },
+    {
+      "question": "How do you ensure quality, security, and reliability in on-prem environments?",
+      "answer": "We follow industry best practices including hardware validation, automated provisioning, monitoring, access control, and disaster recovery planning. These measures ensure secure, reliable, and high-performing on-prem infrastructure."
+    },
+    {
+      "question": "What happens after infrastructure provisioning and consulting?",
+      "answer": "After deployment, we provide operational support, monitoring, optimization, and scaling guidance. Our Bare Metal Provisioning & On-Prem Infrastructure Consulting services include ongoing recommendations to maintain performance, security, and cost efficiency."
+    },
+    {
+      "question": "How much do these consulting services cost, and what are the pricing models?",
+      "answer": "Costs depend on infrastructure scope, complexity, number of servers, and ongoing support requirements. We offer fixed-scope projects, hourly consulting, or retainers for continuous support. Detailed proposals are provided after the assessment phase."
+    }
   ]
 }

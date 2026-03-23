@@ -9,23 +9,38 @@
       "alt": "Prometheus Consulting and Implementation Services by Appscode"
     }
   },
-
   "trusted_by": {
     "title": "Trusted by Global Enterprises and Cloud-Native Innovators"
   },
-
   "title_with_small_cards": {
     "title": "Why Choose Prometheus Consulting Services?",
     "areas": [
-      { "icon": "fa fa-eye", "title": "All-in-One Monitoring and Observability Solution" },
-      { "icon": "fa fa-dashboard", "title": "Prevent and Detect Critical Incidents Early" },
-      { "icon": "fa fa-tachometer", "title": "Build a Scalable Observability Stack with Ease" },
-      { "icon": "fa fa-file-text", "title": "Gain Complete Metrics Visibility and Control" },
-      { "icon": "fa fa-cogs", "title": "Integrate Prometheus with Leading Tools Seamlessly" },
-      { "icon": "fa fa-plug", "title": "Commercial Support, Training, and Ongoing Optimization" }
+      {
+        "icon": "fa fa-eye",
+        "title": "All-in-One Monitoring and Observability Solution"
+      },
+      {
+        "icon": "fa fa-dashboard",
+        "title": "Prevent and Detect Critical Incidents Early"
+      },
+      {
+        "icon": "fa fa-tachometer",
+        "title": "Build a Scalable Observability Stack with Ease"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "title": "Gain Complete Metrics Visibility and Control"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Integrate Prometheus with Leading Tools Seamlessly"
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Commercial Support, Training, and Ongoing Optimization"
+      }
     ]
   },
-
   "service_details": {
     "title": "Our Prometheus Consulting & Implementation Capabilities",
     "subtitle": "Accelerate your observability journey with expert Prometheus consulting, deployment, and support from Appscode.",
@@ -84,7 +99,6 @@
       }
     ]
   },
-
   "industries": {
     "title": "Industry-Specific Prometheus Observability Expertise",
     "subtitle": "Appscode’s Prometheus consulting services power reliability, compliance, and performance across industries.",
@@ -122,7 +136,6 @@
       }
     ]
   },
-
   "open_source": {
     "title": "We Build and Contribute to Open Source",
     "description": "At Appscode, open source fuels everything we do. Our engineers contribute to major cloud-native and observability projects, extending the Prometheus ecosystem for community and enterprise innovation.",
@@ -132,7 +145,6 @@
       "alt": "Appscode Prometheus Open Source Contributions"
     }
   },
-
   "tech_stack": {
     "title": "Diverse Technical Expertise",
     "subtitle": "Serving 100+ customers, our engineers have expertise across cloud-native and security tools.",
@@ -173,10 +185,12 @@
         "name": "Thanos",
         "logo": "/assets/images/technical-expertise/thanos.svg"
       },
-      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      }
     ]
   },
-
   "final_cta": {
     "title": "Looking for Prometheus Commercial Support?",
     "subtitle": "Consult our experts for an all-in-one solution from consulting and implementation to enterprise-grade 3rd party support.",
@@ -188,7 +202,6 @@
       }
     ]
   },
-
   "cards": {
     "title": "Why Appscode for Prometheus Consulting & Support?",
     "items": [
@@ -226,36 +239,36 @@
   },
   "faq": [
     {
-    "question": "What do your Prometheus Consulting Services include?",
-    "answer": "Our Prometheus Consulting Services help organizations implement, configure, and optimize Prometheus for monitoring cloud-native applications and infrastructure. We cover metrics collection, alerting, query optimization, and integration with visualization tools like Grafana."
-  },
-  {
-    "question": "Which technologies and practices are used in Prometheus consulting?",
-    "answer": "We leverage Prometheus, Alertmanager, Grafana, Kubernetes, OpenTelemetry, and cloud-native monitoring tools. Our approach ensures reliable metrics collection, accurate alerting, performance monitoring, and actionable insights across complex systems."
-  },
-  {
-    "question": "Can you work with our existing monitoring infrastructure?",
-    "answer": "Yes — we integrate Prometheus with your current monitoring setup, optimize scraping intervals, configure alerts, set up Grafana dashboards, and provide guidance for continuous monitoring and observability improvement."
-  },
-  {
-    "question": "What is the typical timeline and engagement model for Prometheus Consulting Services?",
-    "answer": "Engagements typically start with a 1–2 week assessment of your observability and monitoring architecture. Implementation follows in 2–6 week phases depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term Prometheus advisory partnerships."
-  },
-  {
-    "question": "Do Prometheus Consulting Services support multi-cloud or hybrid environments?",
-    "answer": "Absolutely. Our services are designed for multi-cloud and hybrid environments, ensuring consistent metrics collection, alerting, and dashboards across AWS, Azure, GCP, and on-premises systems."
-  },
-  {
-    "question": "How do you ensure reliability, scalability, and actionable monitoring with Prometheus?",
-    "answer": "We implement best practices for metric naming, retention policies, alerting rules, federation, and integration with visualization tools. These measures ensure reliable, scalable, and actionable monitoring of cloud-native workloads."
-  },
-  {
-    "question": "What happens after Prometheus consulting and implementation?",
-    "answer": "After implementation, we provide ongoing support, monitoring guidance, dashboard maintenance, and recommendations for continuous improvement to ensure your Prometheus setup remains effective and up-to-date."
-  },
-  {
-    "question": "How much do Prometheus Consulting Services cost, and what are the pricing models?",
-    "answer": "Pricing depends on system complexity, number of metrics, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
-  }
+      "question": "What do your Prometheus Consulting Services include?",
+      "answer": "Our Prometheus Consulting Services help organizations implement, configure, and optimize Prometheus for monitoring cloud-native applications and infrastructure. We cover metrics collection, alerting, query optimization, and integration with visualization tools like Grafana."
+    },
+    {
+      "question": "Which technologies and practices are used in Prometheus consulting?",
+      "answer": "We leverage Prometheus, Alertmanager, Grafana, Kubernetes, OpenTelemetry, and cloud-native monitoring tools. Our approach ensures reliable metrics collection, accurate alerting, performance monitoring, and actionable insights across complex systems."
+    },
+    {
+      "question": "Can you work with our existing monitoring infrastructure?",
+      "answer": "Yes — we integrate Prometheus with your current monitoring setup, optimize scraping intervals, configure alerts, set up Grafana dashboards, and provide guidance for continuous monitoring and observability improvement."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for Prometheus Consulting Services?",
+      "answer": "Engagements typically start with a 1–2 week assessment of your observability and monitoring architecture. Implementation follows in 2–6 week phases depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term Prometheus advisory partnerships."
+    },
+    {
+      "question": "Do Prometheus Consulting Services support multi-cloud or hybrid environments?",
+      "answer": "Absolutely. Our services are designed for multi-cloud and hybrid environments, ensuring consistent metrics collection, alerting, and dashboards across AWS, Azure, GCP, and on-premises systems."
+    },
+    {
+      "question": "How do you ensure reliability, scalability, and actionable monitoring with Prometheus?",
+      "answer": "We implement best practices for metric naming, retention policies, alerting rules, federation, and integration with visualization tools. These measures ensure reliable, scalable, and actionable monitoring of cloud-native workloads."
+    },
+    {
+      "question": "What happens after Prometheus consulting and implementation?",
+      "answer": "After implementation, we provide ongoing support, monitoring guidance, dashboard maintenance, and recommendations for continuous improvement to ensure your Prometheus setup remains effective and up-to-date."
+    },
+    {
+      "question": "How much do Prometheus Consulting Services cost, and what are the pricing models?",
+      "answer": "Pricing depends on system complexity, number of metrics, and ongoing support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+    }
   ]
 }

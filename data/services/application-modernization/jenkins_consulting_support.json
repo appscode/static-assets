@@ -15,12 +15,30 @@
   "title_with_small_cards": {
     "title": "Why Choose Jenkins Professional Support",
     "areas": [
-      { "icon": "fa fa-check", "title": "Implement Fail-Fast CI/CD Workflows" },
-      { "icon": "fa fa-rocket", "title": "Accelerate Software Delivery Lifecycle" },
-      { "icon": "fa fa-clock-o", "title": "Reduce Deployment & Release Time" },
-      { "icon": "fa fa-gears", "title": "Increase Automation Across Pipelines" },
-      { "icon": "fa fa-puzzle-piece", "title": "Customize Jenkins with Plugin Ecosystem" },
-      { "icon": "fa fa-cogs", "title": "Seamlessly Integrate Third-Party DevOps Tools" }
+      {
+        "icon": "fa fa-check",
+        "title": "Implement Fail-Fast CI/CD Workflows"
+      },
+      {
+        "icon": "fa fa-rocket",
+        "title": "Accelerate Software Delivery Lifecycle"
+      },
+      {
+        "icon": "fa fa-clock-o",
+        "title": "Reduce Deployment & Release Time"
+      },
+      {
+        "icon": "fa fa-gears",
+        "title": "Increase Automation Across Pipelines"
+      },
+      {
+        "icon": "fa fa-puzzle-piece",
+        "title": "Customize Jenkins with Plugin Ecosystem"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Seamlessly Integrate Third-Party DevOps Tools"
+      }
     ]
   },
   "service_details": {
@@ -164,7 +182,10 @@
         "name": "Thanos",
         "logo": "/assets/images/technical-expertise/thanos.svg"
       },
-      { "name": "ArgoCD", "logo": "/assets/images/technical-expertise/argocd.svg" }
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      }
     ]
   },
   "final_cta": {
@@ -214,37 +235,37 @@
     ]
   },
   "faq": [
-   {
-    "question": "What do your Jenkins Consulting & Professional Support Services include?",
-    "answer": "Our Jenkins Consulting & Professional Support Services help organizations implement, optimize, and maintain Jenkins-based CI/CD pipelines. We cover setup, configuration, plugin management, pipeline automation, monitoring, and best practices to ensure reliable, scalable, and maintainable continuous integration and delivery workflows."
-  },
-  {
-    "question": "Which technologies and practices are used in Jenkins consulting?",
-    "answer": "We leverage Jenkins, Jenkins X, pipeline as code, Docker, Kubernetes, Git-based workflows, automated testing, and monitoring tools. Our approach ensures efficient CI/CD pipelines, integrated DevOps workflows, and seamless deployments across cloud-native and on-premises environments."
-  },
-  {
-    "question": "Can you work with our existing Jenkins infrastructure?",
-    "answer": "Yes — we assess your current Jenkins setup, optimize pipelines, implement best practices, and provide guidance to integrate with your existing development workflows, ensuring faster, reliable, and repeatable deployments."
-  },
-  {
-    "question": "What is the typical timeline and engagement model for Jenkins Consulting & Professional Support Services?",
-    "answer": "Engagements typically start with a 1–2 week assessment of your Jenkins environment and CI/CD processes. Implementation follows in 4–8 week sprints depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term support contracts."
-  },
-  {
-    "question": "Do Jenkins Consulting Services support multi-cloud or hybrid deployments?",
-    "answer": "Absolutely. Our services enable Jenkins pipelines to work across AWS, Azure, GCP, and on-premises environments, ensuring consistent and reliable CI/CD processes across platforms."
-  },
-  {
-    "question": "How do you ensure security, reliability, and efficiency in Jenkins pipelines?",
-    "answer": "We enforce best practices including access control, plugin management, secrets handling, automated testing, monitoring, and disaster recovery strategies to maintain secure, reliable, and efficient Jenkins pipelines."
-  },
-  {
-    "question": "What happens after Jenkins consulting and implementation?",
-    "answer": "After implementation, we provide ongoing operational guidance, support, and optimization. Our services include knowledge transfer, training, and recommendations for continuous improvements to maintain robust Jenkins pipelines."
-  },
-  {
-    "question": "How much do Jenkins Consulting & Professional Support Services cost, and what are the pricing models?",
-    "answer": "Pricing depends on pipeline complexity, number of teams, and support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
-  }
+    {
+      "question": "What do your Jenkins Consulting & Professional Support Services include?",
+      "answer": "Our Jenkins Consulting & Professional Support Services help organizations implement, optimize, and maintain Jenkins-based CI/CD pipelines. We cover setup, configuration, plugin management, pipeline automation, monitoring, and best practices to ensure reliable, scalable, and maintainable continuous integration and delivery workflows."
+    },
+    {
+      "question": "Which technologies and practices are used in Jenkins consulting?",
+      "answer": "We leverage Jenkins, Jenkins X, pipeline as code, Docker, Kubernetes, Git-based workflows, automated testing, and monitoring tools. Our approach ensures efficient CI/CD pipelines, integrated DevOps workflows, and seamless deployments across cloud-native and on-premises environments."
+    },
+    {
+      "question": "Can you work with our existing Jenkins infrastructure?",
+      "answer": "Yes — we assess your current Jenkins setup, optimize pipelines, implement best practices, and provide guidance to integrate with your existing development workflows, ensuring faster, reliable, and repeatable deployments."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for Jenkins Consulting & Professional Support Services?",
+      "answer": "Engagements typically start with a 1–2 week assessment of your Jenkins environment and CI/CD processes. Implementation follows in 4–8 week sprints depending on scope. We offer fixed-scope projects, time-and-materials consulting, or long-term support contracts."
+    },
+    {
+      "question": "Do Jenkins Consulting Services support multi-cloud or hybrid deployments?",
+      "answer": "Absolutely. Our services enable Jenkins pipelines to work across AWS, Azure, GCP, and on-premises environments, ensuring consistent and reliable CI/CD processes across platforms."
+    },
+    {
+      "question": "How do you ensure security, reliability, and efficiency in Jenkins pipelines?",
+      "answer": "We enforce best practices including access control, plugin management, secrets handling, automated testing, monitoring, and disaster recovery strategies to maintain secure, reliable, and efficient Jenkins pipelines."
+    },
+    {
+      "question": "What happens after Jenkins consulting and implementation?",
+      "answer": "After implementation, we provide ongoing operational guidance, support, and optimization. Our services include knowledge transfer, training, and recommendations for continuous improvements to maintain robust Jenkins pipelines."
+    },
+    {
+      "question": "How much do Jenkins Consulting & Professional Support Services cost, and what are the pricing models?",
+      "answer": "Pricing depends on pipeline complexity, number of teams, and support needs. We offer fixed-scope projects, hourly consulting, and long-term retainers. Detailed proposals are provided after the assessment phase."
+    }
   ]
 }
