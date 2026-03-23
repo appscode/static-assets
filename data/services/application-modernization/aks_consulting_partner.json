@@ -252,12 +252,12 @@
     "title": "Why AppsCode is the Right AKS Consulting Partner?",
     "items": [
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Azure Marketplace Partner",
         "description": "AppsCode is listed on the <a href=\"https://azuremarketplace.microsoft.com/en-us/marketplace/apps/appscode.ace_payg\">Azure Marketplace</a> with AppsCode Cloud for AKS-based cluster management and database provisioning."
       },
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "World-Class AKS Expertise",
         "description": "50+ engineers specializing in AKS, Kubernetes, containers, and cloud-native platforms — helping you build, scale, and automate with confidence."
       },
@@ -272,7 +272,7 @@
         "description": "Hands-on AKS workshops and cloud-native upskilling for DevOps teams."
       },
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "CNCF Silver Member",
         "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
       },

@@ -254,7 +254,7 @@
     "title": "Why AppsCode for Managed Databases?",
     "items": [
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "KubeDB — The Database Operator",
         "description": "AppsCode develops <a href=\"https://kubedb.com/\">KubeDB</a>, the most comprehensive Kubernetes-native database operator. No third-party dependency — you work directly with the builders."
       },

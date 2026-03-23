@@ -3,7 +3,7 @@
     {
       "title": "Application Modernization",
       "description": "Accelerating your application modernization & microservices journey",
-      "icon": "https://img.icons8.com/00a651/ios/50/lunacy-new--v2.png",
+      "icon": "/assets/images/services/icons8/ios-50-lunacy.png",
       "offerings": [
         {
           "id": "monolith-to-microservices",
@@ -76,7 +76,7 @@
     {
       "title": "Managed Cloud",
       "description": "DevOps experts to onboard, manage, and optimize your cloud accounts and applications",
-      "icon": "https://img.icons8.com/00a651/ios/50/cloud--v1.png",
+      "icon": "/assets/images/services/icons8/ios-50-cloud.png",
       "offerings": [
         {
           "id": "managed-aws-services",
@@ -101,7 +101,7 @@
     {
       "title": "Managed Databases",
       "description": "Production-grade databases on Kubernetes — provisioned, monitored, and backed up by experts",
-      "icon": "https://img.icons8.com/00a651/ios/50/database--v1.png",
+      "icon": "/assets/images/services/icons8/ios-50-database.png",
       "offerings": [
         {
           "id": "managed-databases-services",
@@ -114,7 +114,7 @@
     {
       "title": "Platform Engineering",
       "description": "Designing & Building solid platforms for your teams",
-      "icon": "https://img.icons8.com/00a651/ios/50/laptop-settings--v2.png",
+      "icon": "/assets/images/services/icons8/ios-50-laptop-settings.png",
       "offerings": [
         {
           "id": "platform-engineering-services",
@@ -145,7 +145,7 @@
     {
       "title": "Product Engineering",
       "description": "Building faster products - MVP, launch & scale",
-      "icon": "https://img.icons8.com/00a651/external-ddara-lineal-ddara/64/external-engineering-manufacturing-ddara-lineal-ddara.png",
+      "icon": "/assets/images/services/icons8/external-engineering-manufacturing.png",
       "offerings": [
         {
           "id": "cloud-native-product-development-services",
@@ -170,7 +170,7 @@
     {
       "title": "Site Reliability Engineering",
       "description": "SRE Experts",
-      "icon": "https://img.icons8.com/00a651/ios/50/web-design.png",
+      "icon": "/assets/images/services/icons8/ios-50-web-design.png",
       "offerings": [
         {
           "id": "site-reliability-engineering-consulting-services",
@@ -213,7 +213,7 @@
     {
       "title": "Observability & DevSecOps",
       "description": "Build a solid observability stack that is secure too!",
-      "icon": "https://img.icons8.com/00a651/dotty/80/system-task.png",
+      "icon": "/assets/images/services/icons8/dotty-80-system-task.png",
       "offerings": [
         {
           "id": "devsecops-consulting-services-and-implementation",

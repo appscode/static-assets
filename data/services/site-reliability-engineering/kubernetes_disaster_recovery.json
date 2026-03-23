@@ -82,7 +82,7 @@
     "title": "Why Choose AppsCode for Kubernetes Backup & Disaster Recovery?",
     "items": [
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "World-Class Kubernetes Expertise",
         "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
       },
@@ -102,7 +102,7 @@
         "description": "Actively promoting and contributing to the growth of cloud-native and Kubernetes technologies across the globe."
       },
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "CNCF Silver Member",
         "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
       },
