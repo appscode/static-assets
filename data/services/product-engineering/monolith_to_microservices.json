@@ -93,7 +93,7 @@
     "subtitle": "Leverage our deep expertise in Kubernetes, DevOps, and cloud-native architecture for successful monolith to microservices migration.",
     "items": [
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Certified Cloud-Native Engineers",
         "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
       },
@@ -113,7 +113,7 @@
         "description": "Driving <a href=\"https://appscode.com/services/devops-toolchain-consulting-services/\">DevOps</a> transformation and Kubernetes adoption across industries."
       },
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "CNCF Silver Member",
         "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
       },

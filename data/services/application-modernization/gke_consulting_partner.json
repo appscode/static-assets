@@ -252,12 +252,12 @@
     "title": "Why AppsCode is the Right GKE Consulting Partner?",
     "items": [
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Google Cloud Partner",
         "description": "AppsCode is a Google Cloud partner with deep expertise in GKE, Cloud Run, BigQuery, and the full Google Cloud portfolio."
       },
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "World-Class GKE Expertise",
         "description": "50+ engineers specializing in GKE, Kubernetes, containers, and cloud-native platforms — helping you build, scale, and automate with confidence."
       },
@@ -272,7 +272,7 @@
         "description": "Hands-on GKE workshops and cloud-native upskilling for DevOps teams."
       },
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "CNCF Silver Member",
         "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
       },

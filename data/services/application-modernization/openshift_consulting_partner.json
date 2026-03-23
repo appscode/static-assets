@@ -252,12 +252,12 @@
     "title": "Why AppsCode is the Right OpenShift Consulting Partner?",
     "items": [
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Red Hat Certified Partner",
         "description": "AppsCode's products including <a href=\"https://catalog.redhat.com/en/software/containers/appscode/kubedb/69bd4de9354baf46f9233f44\">KubeDB</a>, <a href=\"https://catalog.redhat.com/en/software/container-stacks/detail/6970b969c26eb4c7bc646722\">KubeVault</a>, and <a href=\"https://catalog.redhat.com/software/container-stacks/detail/6970986b0be784df983675f6\">Voyager</a> are certified and listed in the Red Hat Ecosystem Catalog."
       },
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "World-Class OpenShift Expertise",
         "description": "50+ engineers specializing in OpenShift, Kubernetes, containers, and cloud-native platforms — helping you build, scale, and automate with confidence."
       },
@@ -272,7 +272,7 @@
         "description": "Hands-on OpenShift workshops and cloud-native upskilling for DevOps teams."
       },
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "CNCF Silver Member",
         "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
       },

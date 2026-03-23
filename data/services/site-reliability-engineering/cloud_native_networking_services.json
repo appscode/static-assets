@@ -119,7 +119,7 @@
     "title": "Why Partner with AppsCode for Cloud-Native Networking?",
     "items": [
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Certified Cloud-Native Experts",
         "description": "AppsCode engineers are <a href=\"https://www.cncf.io/\">CNCF</a>-certified specialists in Kubernetes, networking, and <a href=\"https://appscode.com/services/devops-toolchain-consulting-services/\">DevOps</a>."
       },
@@ -139,7 +139,7 @@
         "description": "We don’t just deploy; we enable your team to manage and evolve your cloud-native systems."
       },
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "CNCF Silver Member",
         "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
       },

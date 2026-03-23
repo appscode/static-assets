@@ -252,12 +252,12 @@
     "title": "Why AppsCode is the Right Rancher Consulting Partner?",
     "items": [
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "SUSE Certified Partner",
         "description": "AppsCode is a verified SUSE partner. KubeDB is available as a <a href=\"https://appscode.com/docs/en/guides/integrations/rancher-extension.html\">Rancher Extension</a> and our Helm charts are published in the <a href=\"https://github.com/rancher/partner-charts\">Rancher Partner Charts repository</a>."
       },
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "World-Class Rancher Expertise",
         "description": "50+ engineers specializing in Rancher, Kubernetes, containers, and cloud-native platforms — helping you build, scale, and automate with confidence."
       },
@@ -272,7 +272,7 @@
         "description": "Hands-on Rancher workshops and cloud-native upskilling for DevOps teams."
       },
       {
-        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "CNCF Silver Member",
         "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
       },
