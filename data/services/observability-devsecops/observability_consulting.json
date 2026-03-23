@@ -202,7 +202,7 @@
       {
         "icon": "fa fa-dashboard",
         "title": "Grafana Consulting & Customization",
-        "description": "Get tailored dashboards, data source integrations, and alert configurations designed by <a href=\"https://appscode.com/services/grafana-consulting-services-and-support/\">Grafana</a>-certified experts for real-time visibility."
+        "description": "Get tailored dashboards, data source integrations, and alert configurations designed by <a href=\"https://appscode.com/services/grafana-consulting-services-and-support/\">Grafana</a> experts for real-time visibility."
       },
       {
         "icon": "fa fa-file-text",
@@ -270,7 +270,7 @@
       {
         "icon": "fa fa-users",
         "title": "Experienced Cloud-Native Engineers",
-        "description": "Work with CNCF-certified experts who bring deep <a href=\"https://kubernetes.io/\">Kubernetes</a> and observability experience."
+        "description": "Work with experts who bring deep <a href=\"https://kubernetes.io/\">Kubernetes</a> and observability experience."
       },
       {
         "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",

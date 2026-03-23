@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "GitOps Consulting Services & Implementation Experts",
-    "subtitle": "Accelerate your <a href=\"https://appscode.com/services/ci-cd-consulting-services/\">CI/CD</a> and cloud-native deployments with enterprise-grade GitOps consulting services. Certified experts in ArgoCD, FluxCD, Helm, Kustomize, Werf & Terragrunt.",
+    "subtitle": "Accelerate your <a href=\"https://appscode.com/services/ci-cd-consulting-services/\">CI/CD</a> and cloud-native deployments with enterprise-grade GitOps consulting services. Experts in ArgoCD, FluxCD, Helm, Kustomize & Tekton.",
     "cta_text": "Consult a GitOps Expert Today",
     "cta_url": "https://appscode.com/contact/",
     "illustration": {
