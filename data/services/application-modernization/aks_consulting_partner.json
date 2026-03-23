@@ -1,0 +1,336 @@
+{
+  "hero": {
+    "title": "Azure AKS Consulting Services by Experts",
+    "subtitle": "AppsCode is an Azure Marketplace partner — delivering expert AKS consulting, deployment, optimization, and managed enterprise support.",
+    "cta_text": "Talk to an AKS Expert",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/kubernetes-consulting.png",
+      "alt": "Azure AKS Consulting Services by AppsCode"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Leading Enterprises Worldwide"
+  },
+  "title_with_small_cards": {
+    "title": "Why Choose Our AKS Consulting Services?",
+    "areas": [
+      {
+        "icon": "fa fa-lightbulb-o",
+        "title": "Agile & Scalable AKS Architecture"
+      },
+      {
+        "icon": "fa fa-tachometer",
+        "title": "High-Performance AKS Deployments"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Accelerated App Development on AKS"
+      },
+      {
+        "icon": "fa fa-money",
+        "title": "Optimize Azure Cloud Costs"
+      },
+      {
+        "icon": "fa fa-cloud",
+        "title": "Multi-Cloud & Hybrid Kubernetes Flexibility"
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Self-Healing & Secure Container Environments"
+      },
+      {
+        "icon": "fa fa-arrows-alt",
+        "title": "Migrate & Containerize Legacy Applications"
+      },
+      {
+        "icon": "fa fa-repeat",
+        "title": "Automated CI/CD Rollouts & Rollbacks"
+      }
+    ]
+  },
+  "service_details": {
+    "title": "Our End-to-End AKS Consulting Services",
+    "subtitle": "As an <a href=\"https://azuremarketplace.microsoft.com/en-us/marketplace/apps/appscode.ace_payg\">Azure Marketplace partner</a> and <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member, AppsCode delivers expert AKS consulting — from planning to production management.",
+    "sections": [
+      {
+        "title": "AKS Advisory & Assessment",
+        "description": "Start your AKS journey with confidence. Our experts assess your current Azure infrastructure, plan seamless migration to AKS, and design a scalable architecture optimized for your workloads.",
+        "offerings": [
+          "Conduct Azure infrastructure audits and plan AKS adoption.",
+          "Create a roadmap for efficient AKS deployment across regions.",
+          "Provide detailed cost analysis and workload optimization."
+        ],
+        "image": "/assets/images/services/kubernetes-advisory.png"
+      },
+      {
+        "title": "Application Development & Migration",
+        "description": "Modernize your workloads with AKS-native applications and migrate monoliths into containerized microservices for better agility and performance.",
+        "offerings": [
+          "Develop AKS-ready applications using Go, Java, and Python.",
+          "Break monolithic architectures into resilient microservices.",
+          "Implement centralized management across multi-cluster AKS environments."
+        ],
+        "image": "/assets/images/services/kubernetes-application-development.png"
+      },
+      {
+        "title": "AKS Deployment & Operations",
+        "description": "Deploy production-grade AKS clusters with high availability, resilience, and observability built in, leveraging native Azure integrations.",
+        "offerings": [
+          "Provision auto-healing AKS clusters using Terraform, Bicep, and ARM templates.",
+          "Integrate observability with Azure Monitor, Prometheus, Grafana, and Thanos.",
+          "Automate cluster scaling, upgrades, and security policies."
+        ],
+        "image": "/assets/images/services/kubernetes-deployment-partner.png"
+      },
+      {
+        "title": "DevSecOps, Security & Compliance",
+        "description": "Shift security left in your AKS lifecycle. Our DevSecOps services ensure compliance and security at every layer of your containerized environment.",
+        "offerings": [
+          "Implement Azure AD integration, RBAC, and network segmentation.",
+          "Automate container image scanning with Microsoft Defender for Containers and Trivy.",
+          "Ensure compliance with ISO, HIPAA, SOC 2, and GDPR standards."
+        ],
+        "image": "/assets/images/services/kubernetes-devsecops-compliance.png"
+      },
+      {
+        "title": "Enterprise AKS Support & Training",
+        "description": "<a href=\"https://appscode.com/\">AppsCode</a> provides continuous AKS support, training, and managed services to ensure operational excellence and long-term stability.",
+        "offerings": [
+          "Real-time monitoring, backup, and disaster recovery using Stash.",
+          "Training for DevOps teams to manage AKS independently.",
+          "Cost management and resource optimization for AKS clusters."
+        ],
+        "image": "/assets/images/services/kubernetes-enterprise-support-training.png"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industry Expertise in AKS Consulting",
+    "subtitle": "Our AKS consulting services empower over 100 clients across regulated industries with high-performance, compliant, and reliable infrastructure.",
+    "additional_text": "We serve global enterprises and startups with deep expertise in cloud-native and AKS solutions.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Highly available, compliant systems for secure 24/7 transactions."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology & SaaS",
+        "description": "Integrate AI and manage GPU servers for high-performance SaaS platforms."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Leverage AI & ML to meet customer expectations while ensuring safety and sustainability."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Modernize systems for inspections, monitoring, and cost reduction."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Use cloud GPU instances for fast, secure processing of patient data."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver seamless operations and instant updates with scalable systems."
+      }
+    ]
+  },
+  "open_source": {
+    "title": "Built on Open Source, Powered by Community",
+    "description": "AppsCode actively contributes to CNCF and open-source projects such as <a href=\"https://kubedb.com/\">KubeDB</a>, <a href=\"https://kubevault.com/\">KubeVault</a>, <a href=\"https://stash.run/\">Stash</a>, and <a href=\"https://voyagermesh.com/\">Voyager</a> — all deployable on Azure AKS and available on the <a href=\"https://azuremarketplace.microsoft.com/en-us/marketplace/apps/appscode.ace_payg\">Azure Marketplace</a>.",
+    "cta_text": "Explore Our Open Source Projects",
+    "image": {
+      "src": "/assets/images/services/open-source.png",
+      "alt": "Open Source Contributions"
+    }
+  },
+  "tech_stack": {
+    "title": "Our AKS Technology Expertise",
+    "subtitle": "We use proven cloud-native tools and frameworks to deliver enterprise-grade AKS consulting services.",
+    "technologies": [
+      {
+        "name": "Azure AKS",
+        "logo": "/assets/images/technical-expertise/aks.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Red Hat OpenShift",
+        "logo": "/assets/images/technical-expertise/openshift.svg"
+      },
+      {
+        "name": "Rancher by SUSE",
+        "logo": "/assets/images/technical-expertise/rancher.svg"
+      },
+      {
+        "name": "Amazon EKS",
+        "logo": "/assets/images/technical-expertise/eks.svg"
+      },
+      {
+        "name": "Google GKE",
+        "logo": "/assets/images/technical-expertise/gke.svg"
+      },
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      },
+      {
+        "name": "FluxCD",
+        "logo": "/assets/images/technical-expertise/fluxcd.svg"
+      },
+      {
+        "name": "Helm",
+        "logo": "/assets/images/technical-expertise/helm.svg"
+      },
+      {
+        "name": "KubeDB",
+        "logo": "/assets/images/technical-expertise/kubedb.svg"
+      },
+      {
+        "name": "KubeStash",
+        "logo": "/assets/images/technical-expertise/stash.svg"
+      },
+      {
+        "name": "Voyager Gateway",
+        "logo": "/assets/images/technical-expertise/voyager.svg"
+      },
+      {
+        "name": "OpenTelemetry",
+        "logo": "/assets/images/technical-expertise/opentelemetry.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Vault",
+        "logo": "/assets/images/technical-expertise/vault.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "OpenFGA",
+        "logo": "/assets/images/technical-expertise/openfga.svg"
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Ready to Accelerate with AKS Consulting Services?",
+    "subtitle": "Get expert AKS consulting, managed support, and hands-on training to optimize your cloud-native infrastructure.",
+    "buttons": [
+      {
+        "text": "Talk to an AKS Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why AppsCode is the Right AKS Consulting Partner?",
+    "items": [
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "Azure Marketplace Partner",
+        "description": "AppsCode is listed on the <a href=\"https://azuremarketplace.microsoft.com/en-us/marketplace/apps/appscode.ace_payg\">Azure Marketplace</a> with AppsCode Cloud for AKS-based cluster management and database provisioning."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "World-Class AKS Expertise",
+        "description": "50+ engineers specializing in AKS, Kubernetes, containers, and cloud-native platforms — helping you build, scale, and automate with confidence."
+      },
+      {
+        "icon": "fa fa-trophy",
+        "title": "Industry Leadership",
+        "description": "US-based pioneer in Kubernetes products and services with years of field expertise on AKS."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "AKS Training Programs",
+        "description": "Hands-on AKS workshops and cloud-native upskilling for DevOps teams."
+      },
+      {
+        "logo": "https://img.icons8.com/00a651/ios-glyphs/30/certificate.png",
+        "title": "CNCF Silver Member",
+        "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Scalable Dedicated Teams",
+        "description": "Easily scale your engineering teams with AppsCode's AKS experts."
+      }
+    ]
+  },
+  "partner_listing": {
+    "title": "Our Products on Azure Marketplace",
+    "subtitle": "AppsCode is an Azure Marketplace partner. Deploy and manage production-grade databases on AKS clusters directly from Azure Marketplace.",
+    "products": [
+      {
+        "name": "AppsCode Cloud on Azure",
+        "description": "Kubernetes Native Data Platform — deploy a central management console for all your AKS clusters to provision and manage production-grade databases.",
+        "url": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/appscode.ace_payg",
+        "logo": "/assets/images/technical-expertise/kubedb.svg"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What do your AKS Consulting Services include?",
+      "answer": "Our AKS Consulting Services cover the full lifecycle of designing, deploying, and managing AKS clusters. From architecture design, cluster provisioning, and CI/CD integration to monitoring, scaling, and optimization, we help organizations run reliable and secure containerized workloads at scale on Azure AKS."
+    },
+    {
+      "question": "Is AppsCode available on Azure Marketplace?",
+      "answer": "Yes — AppsCode is listed on the Azure Marketplace with AppsCode Cloud, a Kubernetes Native Data Platform for AKS-based cluster management. Visit azuremarketplace.microsoft.com/en-us/marketplace/apps/appscode.ace_payg to view our offering."
+    },
+    {
+      "question": "Which technologies and practices are used in AKS consulting?",
+      "answer": "We leverage AKS, Terraform, Bicep, Helm charts, operators, containerization, CI/CD pipelines, infrastructure as code, observability (Azure Monitor, Prometheus, Grafana), and hybrid/multi-cloud deployment patterns to ensure scalable and resilient AKS environments."
+    },
+    {
+      "question": "Can you work with our existing AKS clusters or Azure-native stack?",
+      "answer": "Yes — we integrate with your current AKS clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable AKS deployments."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for AKS Consulting Services?",
+      "answer": "Engagements typically begin with a 1–2 week assessment phase to understand your environment and requirements. Implementation follows in 4–8 week agile sprints. We offer flexible engagement models including fixed-scope projects, time-and-materials consulting, or long-term AKS advisory partnerships."
+    },
+    {
+      "question": "Do you support hybrid and multi-cloud AKS deployments?",
+      "answer": "Absolutely. Our AKS Consulting Services are designed for portability and consistency across Azure and other cloud environments, ensuring seamless operations and scalability across environments."
+    },
+    {
+      "question": "How do you ensure security, reliability, and operational efficiency in AKS?",
+      "answer": "We enforce security best practices including Azure AD integration, RBAC, network policies, secrets management, and vulnerability scanning. Reliability is ensured with monitoring, backup/recovery strategies, and disaster resilience patterns. Operational efficiency is achieved through automation, CI/CD integration, and resource optimization."
+    },
+    {
+      "question": "What happens after AKS consulting and implementation?",
+      "answer": "After deployment, we provide ongoing operational guidance, monitoring, performance tuning, and scaling recommendations. Our AKS Consulting Services also include training, knowledge transfer, and best practice documentation for your teams."
+    },
+    {
+      "question": "How much do AKS Consulting Services cost, and what are the pricing models?",
+      "answer": "Costs vary depending on the complexity of your clusters, number of workloads, and support needs. We offer fixed-scope projects, hourly engagements, and long-term consulting retainers. A detailed proposal is provided after the assessment phase."
+    }
+  ]
+}

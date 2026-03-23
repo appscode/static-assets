@@ -18,6 +18,36 @@
           "icon": null
         },
         {
+          "id": "openshift-consulting-services",
+          "title": "Red Hat OpenShift Consulting",
+          "description": "Certified Red Hat partner",
+          "icon": null
+        },
+        {
+          "id": "rancher-consulting-services",
+          "title": "Rancher by SUSE Consulting",
+          "description": "Certified SUSE partner",
+          "icon": null
+        },
+        {
+          "id": "eks-consulting-services",
+          "title": "AWS EKS Consulting",
+          "description": "AWS Marketplace partner",
+          "icon": null
+        },
+        {
+          "id": "aks-consulting-services",
+          "title": "Azure AKS Consulting",
+          "description": "Azure Marketplace partner",
+          "icon": null
+        },
+        {
+          "id": "gke-consulting-services",
+          "title": "Google GKE Consulting",
+          "description": "Google Cloud Marketplace partner",
+          "icon": null
+        },
+        {
           "id": "gitops-consulting-services",
           "title": "GitOps Consulting",
           "description": "Streamlining pipeline & deployments",
@@ -39,6 +69,44 @@
           "id": "argo-cd-consulting-services",
           "title": "Argo CD Consulting",
           "description": "Implement & support ‑ we got you!",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "title": "Managed Cloud",
+      "description": "DevOps experts to onboard, manage, and optimize your cloud accounts and applications",
+      "icon": "https://img.icons8.com/00a651/ios/50/cloud--v1.png",
+      "offerings": [
+        {
+          "id": "managed-aws-services",
+          "title": "Managed AWS",
+          "description": "Onboarding, management & 24/7 support",
+          "icon": null
+        },
+        {
+          "id": "managed-azure-services",
+          "title": "Managed Azure",
+          "description": "Onboarding, management & 24/7 support",
+          "icon": null
+        },
+        {
+          "id": "managed-gcp-services",
+          "title": "Managed GCP",
+          "description": "Onboarding, management & 24/7 support",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "title": "Managed Databases",
+      "description": "Production-grade databases on Kubernetes — provisioned, monitored, and backed up by experts",
+      "icon": "https://img.icons8.com/00a651/ios/50/database--v1.png",
+      "offerings": [
+        {
+          "id": "managed-databases-services",
+          "title": "Managed Databases",
+          "description": "25+ database engines, fully managed on Kubernetes",
           "icon": null
         }
       ]
