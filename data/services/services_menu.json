@@ -12,42 +12,6 @@
           "icon": null
         },
         {
-          "id": "kubernetes-consulting-services",
-          "title": "Kubernetes Consulting Services",
-          "description": "The Kubernetes experts",
-          "icon": null
-        },
-        {
-          "id": "openshift-consulting-services",
-          "title": "Red Hat OpenShift Consulting",
-          "description": "Certified Red Hat partner",
-          "icon": null
-        },
-        {
-          "id": "rancher-consulting-services",
-          "title": "Rancher by SUSE Consulting",
-          "description": "Certified SUSE partner",
-          "icon": null
-        },
-        {
-          "id": "eks-consulting-services",
-          "title": "AWS EKS Consulting",
-          "description": "AWS Marketplace partner",
-          "icon": null
-        },
-        {
-          "id": "aks-consulting-services",
-          "title": "Azure AKS Consulting",
-          "description": "Azure Marketplace partner",
-          "icon": null
-        },
-        {
-          "id": "gke-consulting-services",
-          "title": "Google GKE Consulting",
-          "description": "Google Cloud Marketplace partner",
-          "icon": null
-        },
-        {
           "id": "gitops-consulting-services",
           "title": "GitOps Consulting",
           "description": "Streamlining pipeline & deployments",
@@ -94,6 +58,49 @@
           "id": "managed-gcp-services",
           "title": "Managed GCP",
           "description": "Onboarding, management & 24/7 support",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "title": "Managed Kubernetes",
+      "description": "Expert-managed Kubernetes platforms across all major distributions",
+      "icon": "/assets/images/services/icons8/ios-50-cloud.png",
+      "offerings": [
+        {
+          "id": "kubernetes-consulting-services",
+          "title": "Kubernetes Consulting Services",
+          "description": "The Kubernetes experts",
+          "icon": null
+        },
+        {
+          "id": "openshift-consulting-services",
+          "title": "Red Hat OpenShift Consulting",
+          "description": "Certified Red Hat partner",
+          "icon": null
+        },
+        {
+          "id": "rancher-consulting-services",
+          "title": "Rancher by SUSE Consulting",
+          "description": "Certified SUSE partner",
+          "icon": null
+        },
+        {
+          "id": "eks-consulting-services",
+          "title": "AWS EKS Consulting",
+          "description": "AWS Marketplace partner",
+          "icon": null
+        },
+        {
+          "id": "aks-consulting-services",
+          "title": "Azure AKS Consulting",
+          "description": "Azure Marketplace partner",
+          "icon": null
+        },
+        {
+          "id": "gke-consulting-services",
+          "title": "Google GKE Consulting",
+          "description": "Google Cloud Marketplace partner",
           "icon": null
         }
       ]
