@@ -122,15 +122,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Built on Open Source Excellence",
-    "description": "Appscode is a <a href=\"https://www.cncf.io/\">CNCF</a>Silver Member and active contributor to the Kubernetes ecosystem. We believe in the power of open source to drive transparency, innovation, and long-term scalability.",
-    "cta_text": "Explore Our Open Source Contributions",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Appscode Open Source Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Our Observability Tech Stack Expertise",
     "subtitle": "We integrate leading open-source and enterprise tools to deliver robust, scalable observability platforms.",

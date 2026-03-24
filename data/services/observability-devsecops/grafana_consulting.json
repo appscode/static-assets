@@ -126,15 +126,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Open Source & Grafana Community Contributions",
-    "description": "Appscode’s engineers actively contribute to leading open-source observability projects, extending Grafana’s ecosystem with innovative integrations and solutions.",
-    "cta_text": "Explore Our Open Source Contributions",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Appscode Open Source Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Deep Technical Expertise in the Grafana Ecosystem",
     "subtitle": "Appscode’s consulting team builds secure, scalable observability stacks using industry-leading open-source tools.",

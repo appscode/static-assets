@@ -164,15 +164,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Open Source Contributions",
-    "description": "AppsCode contributes actively to cloud-native projects and leverages open-source tools to develop efficient, scalable Backstage solutions.",
-    "cta_text": "View Our OSS Contributions",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Open Source Contributions for Backstage"
-    }
-  },
   "tech_stack": {
     "title": "Technical Expertise for Backstage",
     "subtitle": "Hands-on experience with modern cloud-native technologies to build scalable and robust IDPs.",

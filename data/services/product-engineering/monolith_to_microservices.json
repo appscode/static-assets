@@ -161,15 +161,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Built on Open Source. Driven by Innovation.",
-    "description": "Appscode engineers contribute to leading Kubernetes and cloud-native open-source projects, bringing deep practical knowledge to every microservices engagement.",
-    "cta_text": "Explore Our Open Source Projects",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Open Source Microservices Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Our Cloud-Native & Microservices Tech Expertise",
     "subtitle": "Appscode engineers leverage Kubernetes, DevOps tools, and open-source frameworks to deliver modern, scalable microservices architectures.",

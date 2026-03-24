@@ -137,15 +137,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Empowering the Open Source Ecosystem",
-    "description": "AppsCode contributes to and maintains several open-source projects like <a href=\"https://kubedb.com/\">KubeDB</a>, <a href=\"https://kubevault.com/\">KubeVault,</a> <a href=\"https://stash.run/\">Stash,</a> and <a href=\"https://voyagermesh.com/\">Voyager</a> — enhancing the GitOps and Kubernetes ecosystem.",
-    "cta_text": "Explore Our Open Source Projects",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "OAppsCode Open Source GitOps Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Diverse Technical Expertise",
     "subtitle": "Our certified engineers excel in:",

@@ -210,15 +210,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Powered by Open Source",
-    "description": "We believe open source drives innovation. Our engineers actively contribute to major cloud-native projects and build new OSS tools for the community.",
-    "cta_text": "Explore Our Open Source Work",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "We Love Open Source"
-    }
-  },
   "tech_stack": {
     "title": "Our Technical Expertise",
     "subtitle": "With experience across 100+ global projects, our team masters a broad cloud-native tech stack.",

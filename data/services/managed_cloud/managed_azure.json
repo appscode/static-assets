@@ -142,15 +142,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Built on Open Source, Powered by Community",
-    "description": "AppsCode develops and maintains open-source Kubernetes operators including <a href=\"https://kubedb.com/\">KubeDB</a>, <a href=\"https://kubestash.com/\">KubeStash</a>, and <a href=\"https://voyagermesh.com/\">Voyager</a> — all deployable on Azure. We are a <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and listed on the <a href=\"https://azuremarketplace.microsoft.com/en-us/marketplace/apps/appscode.ace_payg\">Azure Marketplace</a>.",
-    "cta_text": "Explore Our Open Source Projects",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Open Source Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Our Azure Technology Expertise",
     "subtitle": "We use the full Azure ecosystem and cloud-native tools to deliver enterprise-grade managed cloud services.",

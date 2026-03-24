@@ -157,15 +157,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Proud Open Source Contributors",
-    "description": "<a href=\"https://appscode.com/\">AppsCode </a> actively contributes to <a href=\"https://www.cncf.io/\">CNCF</a> projects like <a href=\"https://kubernetes.io/\">Kubernetes</a>, <a href=\"https://appscode.com/services/prometheus-consulting-services/\">Prometheus</a>, and <a href=\"https://kubevault.com/\">KubeVault</a> — helping financial organizations build on proven, open-source technologies.",
-    "cta_text": "View Our Open Source Contributions",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Open Source Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Our Cloud-Native Tech Stack Expertise",
     "subtitle": "Certified engineers with deep experience in Kubernetes, observability, and cloud security tools for banking-grade workloads.",

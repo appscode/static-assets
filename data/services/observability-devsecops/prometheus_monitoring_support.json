@@ -136,15 +136,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "We Build and Contribute to Open Source",
-    "description": "At Appscode, open source fuels everything we do. Our engineers contribute to major cloud-native and observability projects, extending the Prometheus ecosystem for community and enterprise innovation.",
-    "cta_text": "Explore Our Open Source Contributions",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Appscode Prometheus Open Source Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Diverse Technical Expertise",
     "subtitle": "Serving 100+ customers, our engineers have expertise across cloud-native and security tools.",

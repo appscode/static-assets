@@ -237,15 +237,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Driving Cloud Native Innovation Through Open Source",
-    "description": "As a contributor to <a href=\"https://kubernetes.io/\">Kubernetes</a> and related open-source ecosystems, AppsCode Inc. helps enterprises build cloud-native solutions using community-driven innovation and proven DevOps tooling.",
-    "cta_text": "Explore Our Open Source Contributions",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Cloud Native Open Source Contributions by AppsCode"
-    }
-  },
   "tech_stack": {
     "title": "Comprehensive Cloud-Native Tech Expertise",
     "subtitle": "Our engineering teams work across the languages, frameworks, and platforms that power modern cloud-native solutions:",

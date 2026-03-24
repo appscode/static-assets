@@ -220,15 +220,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "We Love Open Source",
-    "description": "Our developers contribute to cloud-native projects and leverage OSS to build innovative solutions.",
-    "cta_text": "Sneak Peek at Our OSS Contributions",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Open Source Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Diverse Technical Expertise",
     "subtitle": "Our engineers have hands-on experience with modern cloud-native technologies to enable successful progressive delivery adoption.",

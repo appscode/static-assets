@@ -216,15 +216,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Open Source Contributions",
-    "description": "We actively contribute to cloud-native projects and leverage OSS to build innovative CI/CD solutions.",
-    "cta_text": "Explore Our Open Source Contributions",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Open Source Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Diverse Technical Expertise",
     "subtitle": "Serving 100+ clients, our engineers excel in:",
