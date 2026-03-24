@@ -133,15 +133,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Open Source Leadership",
-    "description": "AppsCode contributes to cloud-native open-source projects and leverages them to deliver innovative Jenkins automation and CI/CD solutions.",
-    "cta_text": "Explore Our Open Source Projects",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Open Source Contributions by AppsCode"
-    }
-  },
   "tech_stack": {
     "title": "Diverse Technical Expertise",
     "subtitle": "Our certified consultants are skilled in:",

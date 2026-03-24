@@ -127,15 +127,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "We Power Open Source and GitOps Innovation",
-    "description": "As active contributors to CNCF projects, our engineers help advance open-source GitOps and Kubernetes ecosystems, integrating tools like Argo CD, Crossplane, and Prometheus.",
-    "cta_text": "Explore Our Open Source Contributions",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Open Source Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Technical Expertise",
     "subtitle": "Our certified Kubernetes consultants excel in:",

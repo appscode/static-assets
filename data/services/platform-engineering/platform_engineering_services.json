@@ -178,15 +178,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Passionate About Open Source",
-    "description": "AppsCode actively contributes to cloud-native projects, leveraging open-source innovations to create better, more efficient platforms for our clients.",
-    "cta_text": "Explore Our OSS Contributions",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Open Source Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Technical Expertise for Modern Platforms",
     "subtitle": "Hands-on experience with cloud-native and Kubernetes-based tools to deliver scalable and secure platform engineering services.",

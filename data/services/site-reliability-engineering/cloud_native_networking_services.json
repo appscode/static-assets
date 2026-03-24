@@ -187,15 +187,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "We Love Open Source",
-    "description": "Open source is in our DNA. <a href=\"https://appscode.com/\">AppsCode </a> actively contributes to the cloud-native ecosystem — creating, maintaining, and improving OSS projects that empower developers and enterprises globally.",
-    "cta_text": "Explore Our OSS Contributions",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "We Love Open Source"
-    }
-  },
   "tech_stack": {
     "title": "Deep Expertise Across Cloud-Native Networking Technologies",
     "subtitle": "Our engineers bring hands-on experience with the most popular CNIs, service meshes, and networking frameworks.",

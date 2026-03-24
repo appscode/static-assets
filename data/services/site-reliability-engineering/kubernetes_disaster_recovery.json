@@ -150,15 +150,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Powered by Open Source Innovation",
-    "description": "Open source is at the heart of everything we do. Our teams contribute to leading cloud-native projects and develop OSS solutions that empower developers worldwide.",
-    "cta_text": "Explore Our Open Source Contributions",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "AppsCode Open Source Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Broad Technical Expertise Across the Cloud Native Ecosystem",
     "subtitle": "Our engineers bring hands-on experience with modern tools, platforms, and frameworks gained through 100+ production deployments.",

@@ -179,15 +179,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Innovation Through Open Source",
-    "description": "AppsCode actively contributes to Kubernetes, Knative, OpenFaaS, and cloud native ecosystems—driving FaaS innovation through community collaboration.",
-    "cta_text": "Explore Our Open Source Projects",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Cloud Native FaaS Open Source Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Technologies We Excel In",
     "subtitle": "Our engineers master modern serverless and cloud-native tools to build scalable, future-ready architectures.",

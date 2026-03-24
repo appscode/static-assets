@@ -136,15 +136,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Open Source-Driven DevSecOps Innovation",
-    "description": "<a href=\"https://appscode.com/\">AppsCode </a> actively contributes to open-source DevSecOps tools and cloud-native security frameworks, empowering teams to secure and scale faster.",
-    "cta_text": "Explore Our Open Source Work",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "AppsCode Open Source Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Expertise Across Leading DevSecOps Tools & Frameworks",
     "subtitle": "Our certified engineers bring hands-on experience with the top open-source and enterprise-grade security tools.",

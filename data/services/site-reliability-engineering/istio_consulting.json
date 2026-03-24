@@ -176,15 +176,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Built on Open Source Values",
-    "description": "We’re proud contributors to <a href=\"https://www.cncf.io/\">CNCF</a> and Istio ecosystem. Open source fuels our innovation and yours.",
-    "cta_text": "See Our OSS Contributions",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "We Love Open Source"
-    }
-  },
   "tech_stack": {
     "title": "Our Istio Tech Stack Expertise",
     "subtitle": "Certified consultants experienced with leading service mesh and observability tools.",

@@ -193,15 +193,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Open Source Contributions",
-    "description": "Our engineers actively contribute to cloud-native OSS projects and leverage open-source tools to deliver innovative SRE solutions.",
-    "cta_text": "Explore Our OSS Projects",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Open Source Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Diverse Technical Expertise",
     "subtitle": "Our engineers are proficient in:",

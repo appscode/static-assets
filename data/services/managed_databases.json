@@ -144,15 +144,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Built on Open Source, Powered by Community",
-    "description": "AppsCode develops and maintains <a href=\"https://kubedb.com/\">KubeDB</a>, <a href=\"https://kubestash.com/\">KubeStash</a>, and <a href=\"https://kubevault.com/\">KubeVault</a> — all open-core projects with Apache v2 licensed APIs. KubeDB is a <a href=\"https://operatorhub.io/operator/kubedb-installer\">certified Operator on OperatorHub</a> and a <a href=\"https://www.cncf.io/\">CNCF</a> ecosystem project.",
-    "cta_text": "Explore Our Open Source Projects",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Open Source Contributions by AppsCode"
-    }
-  },
   "tech_stack": {
     "title": "Our Database Technology Expertise",
     "subtitle": "We manage 25+ database engines on Kubernetes using KubeDB — the most comprehensive Kubernetes-native database operator.",

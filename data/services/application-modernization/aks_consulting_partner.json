@@ -142,15 +142,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "Built on Open Source, Powered by Community",
-    "description": "AppsCode actively contributes to CNCF and open-source projects such as <a href=\"https://kubedb.com/\">KubeDB</a>, <a href=\"https://kubevault.com/\">KubeVault</a>, <a href=\"https://stash.run/\">Stash</a>, and <a href=\"https://voyagermesh.com/\">Voyager</a> — all deployable on Azure AKS and available on the <a href=\"https://azuremarketplace.microsoft.com/en-us/marketplace/apps/appscode.ace_payg\">Azure Marketplace</a>.",
-    "cta_text": "Explore Our Open Source Projects",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Open Source Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Our AKS Technology Expertise",
     "subtitle": "We use proven cloud-native tools and frameworks to deliver enterprise-grade AKS consulting services.",

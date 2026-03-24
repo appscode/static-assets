@@ -167,15 +167,6 @@
       }
     ]
   },
-  "open_source": {
-    "title": "We’re Built on Open Source",
-    "description": "Our DNA is open source. We actively contribute to the cloud-native ecosystem and build new OSS tools for the community.",
-    "cta_text": "Explore Our OSS Contributions",
-    "image": {
-      "src": "/assets/images/services/open-source.png",
-      "alt": "Open Source Contributions"
-    }
-  },
   "tech_stack": {
     "title": "Choosing the Right Service Mesh — Simplified",
     "subtitle": "We help you evaluate, deploy, and manage the best-fit mesh for your workloads.",
