@@ -163,6 +163,10 @@
         "logo": "/assets/images/technical-expertise/rancher.svg"
       },
       {
+        "name": "VMware Tanzu",
+        "logo": "/assets/images/technical-expertise/tanzu.png"
+      },
+      {
         "name": "Azure AKS",
         "logo": "/assets/images/technical-expertise/aks.svg"
       },

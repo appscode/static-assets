@@ -233,6 +233,10 @@
         "logo": "/assets/images/technical-expertise/rancher.svg"
       },
       {
+        "name": "VMware Tanzu",
+        "logo": "/assets/images/technical-expertise/tanzu.png"
+      },
+      {
         "name": "Amazon EKS",
         "logo": "/assets/images/technical-expertise/eks.svg"
       },

@@ -1,0 +1,319 @@
+{
+  "hero": {
+    "title": "VMware Tanzu Kubernetes Grid (TKG) Consulting Services",
+    "subtitle": "AppsCode delivers expert VMware Tanzu Kubernetes Grid consulting — from architecture design and deployment to optimization and enterprise-grade managed support.",
+    "cta_text": "Talk to a TKG Expert",
+    "cta_url": "https://appscode.com/contact/",
+    "illustration": {
+      "src": "/assets/images/services/kubernetes-consulting.png",
+      "alt": "VMware Tanzu Kubernetes Grid Consulting Services by AppsCode"
+    }
+  },
+  "trusted_by": {
+    "title": "Trusted by Leading Enterprises Worldwide"
+  },
+  "title_with_small_cards": {
+    "title": "Why Choose Our TKG Consulting Services?",
+    "areas": [
+      {
+        "icon": "fa fa-lightbulb-o",
+        "title": "Agile & Scalable TKG Architecture"
+      },
+      {
+        "icon": "fa fa-tachometer",
+        "title": "High-Performance TKG Deployments"
+      },
+      {
+        "icon": "fa fa-cogs",
+        "title": "Accelerated App Development on TKG"
+      },
+      {
+        "icon": "fa fa-money",
+        "title": "Optimize vSphere & Cloud Infrastructure Costs"
+      },
+      {
+        "icon": "fa fa-cloud",
+        "title": "Multi-Cloud & Hybrid TKG Flexibility"
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Self-Healing & Secure Container Environments"
+      },
+      {
+        "icon": "fa fa-arrows-alt",
+        "title": "Migrate & Containerize Legacy Applications"
+      },
+      {
+        "icon": "fa fa-repeat",
+        "title": "Automated CI/CD Rollouts & Rollbacks"
+      }
+    ]
+  },
+  "service_details": {
+    "title": "Our End-to-End VMware TKG Consulting Services",
+    "subtitle": "As a <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member with deep Kubernetes expertise, AppsCode delivers expert VMware Tanzu Kubernetes Grid consulting — from planning to production management.",
+    "sections": [
+      {
+        "title": "TKG Advisory & Assessment",
+        "description": "Start your Tanzu Kubernetes Grid journey with confidence. Our experts assess your current vSphere and cloud infrastructure, plan seamless TKG adoption, and design a scalable architecture optimized for your environment.",
+        "offerings": [
+          "Conduct infrastructure audits and plan TKG adoption.",
+          "Create a roadmap for efficient TKG deployment on vSphere or public clouds.",
+          "Provide detailed cost analysis and workload optimization."
+        ],
+        "image": "/assets/images/services/kubernetes-advisory.png"
+      },
+      {
+        "title": "Application Development & Migration",
+        "description": "Modernize your workloads with TKG-native applications and migrate monoliths into containerized microservices for better agility and performance across your VMware environment.",
+        "offerings": [
+          "Develop TKG-ready applications using Go, Java, and Python.",
+          "Break monolithic architectures into resilient microservices.",
+          "Implement centralized management across multi-cluster TKG environments."
+        ],
+        "image": "/assets/images/services/kubernetes-application-development.png"
+      },
+      {
+        "title": "TKG Deployment & Operations",
+        "description": "Deploy production-grade Tanzu Kubernetes Grid clusters on vSphere or in the cloud with high availability, resilience, and observability built in.",
+        "offerings": [
+          "Provision auto-healing TKG clusters using Tanzu CLI and Infrastructure-as-Code tools.",
+          "Integrate observability with Prometheus, Grafana, and Thanos.",
+          "Automate cluster scaling, upgrades, and security policies."
+        ],
+        "image": "/assets/images/services/kubernetes-deployment-partner.png"
+      },
+      {
+        "title": "DevSecOps, Security & Compliance",
+        "description": "Shift security left in your TKG lifecycle. Our DevSecOps services ensure compliance and security at every layer of your containerized VMware environment.",
+        "offerings": [
+          "Implement role-based access control (RBAC) and network segmentation.",
+          "Automate container image scanning with tools like Trivy and Harbor.",
+          "Ensure compliance with ISO, HIPAA, and GDPR standards."
+        ],
+        "image": "/assets/images/services/kubernetes-devsecops-compliance.png"
+      },
+      {
+        "title": "Enterprise TKG Support & Training",
+        "description": "<a href=\"https://appscode.com/\">AppsCode</a> provides continuous TKG support, training, and managed services to ensure operational excellence and long-term stability.",
+        "offerings": [
+          "Real-time monitoring, backup, and disaster recovery using Stash.",
+          "Training for DevOps teams to manage TKG independently.",
+          "Cost management and resource optimization for TKG clusters."
+        ],
+        "image": "/assets/images/services/kubernetes-enterprise-support-training.png"
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industry Expertise in TKG Consulting",
+    "subtitle": "Our VMware Tanzu Kubernetes Grid consulting services empower enterprises across regulated industries with high-performance, compliant, and reliable infrastructure.",
+    "additional_text": "We serve global enterprises and startups with deep expertise in cloud-native and VMware Tanzu solutions.",
+    "sectors": [
+      {
+        "icon": "fa fa-bank",
+        "title": "Banking & Finance",
+        "description": "Highly available, compliant systems for secure 24/7 transactions on VMware infrastructure."
+      },
+      {
+        "icon": "fa fa-laptop",
+        "title": "Technology & SaaS",
+        "description": "Integrate AI and manage GPU servers for high-performance SaaS platforms on TKG."
+      },
+      {
+        "icon": "fa fa-car",
+        "title": "Automotive",
+        "description": "Leverage AI & ML workloads on TKG to meet customer expectations while ensuring safety."
+      },
+      {
+        "icon": "fa fa-plug",
+        "title": "Energy, Oil & Gas",
+        "description": "Modernize systems for inspections, monitoring, and cost reduction with TKG."
+      },
+      {
+        "icon": "fa fa-hospital-o",
+        "title": "Healthcare",
+        "description": "Use TKG for fast, secure processing of patient data with VMware-grade security."
+      },
+      {
+        "icon": "fa fa-plane",
+        "title": "Travel & Hospitality",
+        "description": "Deliver seamless operations and instant updates with scalable TKG systems."
+      }
+    ]
+  },
+  "tech_stack": {
+    "title": "Our VMware TKG Technology Expertise",
+    "subtitle": "We use proven cloud-native tools and frameworks to deliver enterprise-grade VMware Tanzu Kubernetes Grid consulting services.",
+    "technologies": [
+      {
+        "name": "VMware Tanzu",
+        "logo": "/assets/images/technical-expertise/tanzu.png"
+      },
+      {
+        "name": "Kubernetes",
+        "logo": "/assets/images/technical-expertise/kubernetes.svg"
+      },
+      {
+        "name": "Red Hat OpenShift",
+        "logo": "/assets/images/technical-expertise/openshift.svg"
+      },
+      {
+        "name": "Rancher by SUSE",
+        "logo": "/assets/images/technical-expertise/rancher.svg"
+      },
+      {
+        "name": "Amazon EKS",
+        "logo": "/assets/images/technical-expertise/eks.svg"
+      },
+      {
+        "name": "Azure AKS",
+        "logo": "/assets/images/technical-expertise/aks.svg"
+      },
+      {
+        "name": "Google GKE",
+        "logo": "/assets/images/technical-expertise/gke.svg"
+      },
+      {
+        "name": "ArgoCD",
+        "logo": "/assets/images/technical-expertise/argocd.svg"
+      },
+      {
+        "name": "FluxCD",
+        "logo": "/assets/images/technical-expertise/fluxcd.svg"
+      },
+      {
+        "name": "Helm",
+        "logo": "/assets/images/technical-expertise/helm.svg"
+      },
+      {
+        "name": "KubeDB",
+        "logo": "/assets/images/technical-expertise/kubedb.svg"
+      },
+      {
+        "name": "KubeStash",
+        "logo": "/assets/images/technical-expertise/stash.svg"
+      },
+      {
+        "name": "Voyager Gateway",
+        "logo": "/assets/images/technical-expertise/voyager.svg"
+      },
+      {
+        "name": "OpenTelemetry",
+        "logo": "/assets/images/technical-expertise/opentelemetry.svg"
+      },
+      {
+        "name": "Prometheus",
+        "logo": "/assets/images/technical-expertise/prometheus.svg"
+      },
+      {
+        "name": "Thanos",
+        "logo": "/assets/images/technical-expertise/thanos.svg"
+      },
+      {
+        "name": "Grafana",
+        "logo": "/assets/images/technical-expertise/grafana.svg"
+      },
+      {
+        "name": "Terraform",
+        "logo": "/assets/images/technical-expertise/terraform.svg"
+      },
+      {
+        "name": "Vault",
+        "logo": "/assets/images/technical-expertise/vault.svg"
+      },
+      {
+        "name": "Open Policy Agent",
+        "logo": "/assets/images/technical-expertise/open-policy-agent.png"
+      },
+      {
+        "name": "OpenFGA",
+        "logo": "/assets/images/technical-expertise/openfga.svg"
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Ready to Accelerate with VMware TKG Consulting Services?",
+    "subtitle": "Get expert VMware Tanzu Kubernetes Grid consulting, managed support, and hands-on training to optimize your cloud-native infrastructure.",
+    "buttons": [
+      {
+        "text": "Talk to a TKG Expert",
+        "icon": "fa fa-calendar",
+        "type": "outlined"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Why AppsCode is the Right TKG Consulting Partner?",
+    "items": [
+      {
+        "icon": "fa fa-trophy",
+        "title": "Deep Kubernetes Expertise",
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms — including VMware Tanzu Kubernetes Grid deployments on vSphere and public clouds."
+      },
+      {
+        "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
+        "title": "CNCF Silver Member",
+        "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and a regular sponsor of KubeCon + CloudNativeCon, ensuring alignment with upstream Kubernetes standards."
+      },
+      {
+        "icon": "fa fa-server",
+        "title": "VMware & vSphere Integration",
+        "description": "Deep expertise in integrating TKG with VMware vSphere, NSX, and vSAN for a fully unified software-defined data center."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "TKG Training Programs",
+        "description": "Hands-on VMware Tanzu workshops and cloud-native upskilling for DevOps teams."
+      },
+      {
+        "icon": "fa fa-users",
+        "title": "Scalable Dedicated Teams",
+        "description": "Easily scale your engineering teams with AppsCode's TKG and Kubernetes experts."
+      },
+      {
+        "icon": "fa fa-shield",
+        "title": "Security-First Approach",
+        "description": "Enforce RBAC, network policies, secrets management, and vulnerability scanning across your TKG clusters."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What do your VMware Tanzu Kubernetes Grid Consulting Services include?",
+      "answer": "Our TKG Consulting Services cover the full lifecycle of designing, deploying, and managing Tanzu Kubernetes Grid clusters. From architecture design, cluster provisioning, and CI/CD integration to monitoring, scaling, and optimization, we help organizations run reliable and secure containerized workloads at scale on VMware TKG."
+    },
+    {
+      "question": "What is VMware Tanzu Kubernetes Grid (TKG)?",
+      "answer": "VMware Tanzu Kubernetes Grid (TKG) is an enterprise-ready Kubernetes runtime that enables you to run Kubernetes on vSphere and public clouds. It provides a consistent, upstream-compatible Kubernetes experience with integrated networking, storage, and security powered by the VMware stack."
+    },
+    {
+      "question": "Which technologies and practices are used in TKG consulting?",
+      "answer": "We leverage Tanzu CLI, Cluster API, Helm charts, containerization, CI/CD pipelines, infrastructure as code (Terraform, Crossplane), observability (Prometheus, Grafana, OpenTelemetry), and hybrid/multi-cloud deployment patterns to ensure scalable and resilient TKG environments."
+    },
+    {
+      "question": "Can you work with our existing TKG clusters or VMware infrastructure?",
+      "answer": "Yes — we integrate with your current TKG clusters, vSphere environment, and workloads. We optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable TKG deployments."
+    },
+    {
+      "question": "What is the typical timeline and engagement model for TKG Consulting Services?",
+      "answer": "Engagements typically begin with a 1–2 week assessment phase to understand your VMware environment and requirements. Implementation follows in 4–8 week agile sprints. We offer flexible engagement models including fixed-scope projects, time-and-materials consulting, or long-term TKG advisory partnerships."
+    },
+    {
+      "question": "Do you support hybrid and multi-cloud TKG deployments?",
+      "answer": "Absolutely. Our TKG Consulting Services are designed for portability and consistency across on-premises vSphere clusters and public clouds such as AWS, Azure, and GCP, ensuring seamless operations and scalability across environments."
+    },
+    {
+      "question": "How do you ensure security, reliability, and operational efficiency in TKG?",
+      "answer": "We enforce security best practices including RBAC, network policies, secrets management, and vulnerability scanning — leveraging VMware NSX for advanced network security. Reliability is ensured with monitoring, backup/recovery strategies, and disaster resilience patterns. Operational efficiency is achieved through automation, CI/CD integration, and resource optimization."
+    },
+    {
+      "question": "What happens after TKG consulting and implementation?",
+      "answer": "After deployment, we provide ongoing operational guidance, monitoring, performance tuning, and scaling recommendations. Our TKG Consulting Services also include training, knowledge transfer, and best practice documentation for your teams."
+    },
+    {
+      "question": "How much do VMware TKG Consulting Services cost, and what are the pricing models?",
+      "answer": "Costs vary depending on the complexity of your clusters, number of workloads, and support needs. We offer fixed-scope projects, hourly engagements, and long-term consulting retainers. A detailed proposal is provided after the assessment phase."
+    }
+  ]
+}

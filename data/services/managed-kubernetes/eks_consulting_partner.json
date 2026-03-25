@@ -147,6 +147,10 @@
     "subtitle": "We use proven cloud-native tools and frameworks to deliver enterprise-grade EKS consulting services.",
     "technologies": [
       {
+        "name": "VMware Tanzu",
+        "logo": "/assets/images/technical-expertise/tanzu.png"
+      },
+      {
         "name": "Amazon EKS",
         "logo": "/assets/images/technical-expertise/eks.svg"
       },

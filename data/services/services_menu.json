@@ -74,18 +74,6 @@
           "icon": null
         },
         {
-          "id": "openshift-consulting-services",
-          "title": "Red Hat OpenShift Consulting",
-          "description": "Certified Red Hat partner",
-          "icon": null
-        },
-        {
-          "id": "rancher-consulting-services",
-          "title": "Rancher by SUSE Consulting",
-          "description": "Certified SUSE partner",
-          "icon": null
-        },
-        {
           "id": "eks-consulting-services",
           "title": "AWS EKS Consulting",
           "description": "AWS Marketplace partner",
@@ -101,6 +89,24 @@
           "id": "gke-consulting-services",
           "title": "Google GKE Consulting",
           "description": "Google Cloud Marketplace partner",
+          "icon": null
+        },
+        {
+          "id": "openshift-consulting-services",
+          "title": "Red Hat OpenShift Consulting",
+          "description": "Certified Red Hat partner",
+          "icon": null
+        },
+        {
+          "id": "rancher-consulting-services",
+          "title": "Rancher by SUSE Consulting",
+          "description": "Certified SUSE partner",
+          "icon": null
+        },
+        {
+          "id": "tanzu-consulting-services",
+          "title": "VMware Tanzu Consulting",
+          "description": "VMware Tanzu Consulting",
           "icon": null
         }
       ]
