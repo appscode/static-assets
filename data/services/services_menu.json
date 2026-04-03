@@ -4,6 +4,7 @@
       "title": "Application Modernization",
       "description": "Accelerating your application modernization & microservices journey",
       "icon": "/assets/images/services/icons8/ios-50-lunacy.png",
+      "lucide_icon": "lucide:terminal",
       "offerings": [
         {
           "id": "monolith-to-microservices",
@@ -41,6 +42,7 @@
       "title": "Managed Cloud",
       "description": "DevOps experts to onboard, manage, and optimize your cloud accounts and applications",
       "icon": "/assets/images/services/icons8/ios-50-cloud.png",
+      "lucide_icon": "lucide:cloud",
       "offerings": [
         {
           "id": "managed-aws-services",
@@ -66,6 +68,7 @@
       "title": "Managed Kubernetes",
       "description": "Expert-managed Kubernetes platforms across all major distributions",
       "icon": "/assets/images/services/icons8/ios-50-cloud.png",
+      "lucide_icon": "lucide:layers",
       "offerings": [
         {
           "id": "kubernetes-consulting-services",
@@ -115,6 +118,7 @@
       "title": "Managed Databases",
       "description": "Production-grade databases on Kubernetes — provisioned, monitored, and backed up by experts",
       "icon": "/assets/images/services/icons8/ios-50-database.png",
+      "lucide_icon": "lucide:database",
       "offerings": [
         {
           "id": "managed-databases-services",
@@ -128,6 +132,7 @@
       "title": "Platform Engineering",
       "description": "Designing & Building solid platforms for your teams",
       "icon": "/assets/images/services/icons8/ios-50-laptop-settings.png",
+      "lucide_icon": "lucide:cpu",
       "offerings": [
         {
           "id": "platform-engineering-services",
@@ -159,6 +164,7 @@
       "title": "Product Engineering",
       "description": "Building faster products - MVP, launch & scale",
       "icon": "/assets/images/services/icons8/external-engineering-manufacturing.png",
+      "lucide_icon": "lucide:box",
       "offerings": [
         {
           "id": "cloud-native-product-development-services",
@@ -184,6 +190,7 @@
       "title": "Site Reliability Engineering",
       "description": "SRE Experts",
       "icon": "/assets/images/services/icons8/ios-50-web-design.png",
+      "lucide_icon": "lucide:shield",
       "offerings": [
         {
           "id": "site-reliability-engineering-consulting-services",
@@ -227,6 +234,7 @@
       "title": "Observability & DevSecOps",
       "description": "Build a solid observability stack that is secure too!",
       "icon": "/assets/images/services/icons8/dotty-80-system-task.png",
+      "lucide_icon": "lucide:line-chart",
       "offerings": [
         {
           "id": "devsecops-consulting-services-and-implementation",
