@@ -1,0 +1,121 @@
+{
+  "hero": {
+    "tag": "Partner for Cloud Native Transformation",
+    "title_main": "Run Kubernetes.",
+    "title_highlight": "Your Way.",
+    "description": "We provide production-grade Kubernetes products and comprehensive managed services to accelerate your cloud native journey. Build, deploy, and manage with absolute confidence.",
+    "buttons": [
+      {
+        "text": "Explore Products",
+        "url": "#products-area",
+        "is_primary": true,
+        "is_white": false,
+        "lucide_icon": "lucide:arrow-right"
+      },
+      {
+        "text": "View Services",
+        "url": "#services-section",
+        "is_primary": false,
+        "is_white": true,
+        "lucide_icon": "lucide:arrow-right"
+      }
+    ],
+    "stats": [
+      {
+        "value": "99.99%",
+        "label": "Uptime SLA",
+        "lucide_icon": "lucide:activity",
+        "icon_color": "#22c55e"
+      },
+      {
+        "value": "10K+",
+        "label": "Deployments",
+        "lucide_icon": "lucide:server",
+        "icon_color": "#4b5563"
+      },
+      {
+        "value": "Multi-Cloud",
+        "label": "Supported",
+        "lucide_icon": "lucide:globe",
+        "icon_color": "#22c55e"
+      }
+    ]
+  },
+  "trusted_companies": {
+    "title_main": "Trusted by Companies",
+    "title_highlight": "Worldwide"
+  },
+  "products_area": {
+    "tag": "Our Products",
+    "title": "Kubernetes-Native Products",
+    "subtitle": "Production-ready operators and tools designed to simplify your Kubernetes operations"
+  },
+  "small_cta": {
+    "title": "Looking for Enterprise Support?",
+    "subtitle": "Use our Products standalone or combine them with our Managed Services for the best of both worlds. One vendor. Complete peace of mind.",
+    "button": {
+      "text": "Contact Sales",
+      "url": "/contact"
+    }
+  },
+  "services_area": {
+    "tag": "OUR SERVICES",
+    "title": "Comprehensive Cloud-Native Services",
+    "subtitle": "From application modernization to managed infrastructure — expert services tailored to your needs",
+    "sidebar_title": "SERVICE CATEGORIES",
+    "stats": [
+      {
+        "value": "24/7",
+        "label": "Expert Support",
+        "lucide_icon": "lucide:award",
+        "is_neutral": false
+      },
+      {
+        "value": "99.9%",
+        "label": "SLA Uptime",
+        "lucide_icon": "lucide:activity",
+        "is_neutral": true
+      },
+      {
+        "value": "500+",
+        "label": "Projects Delivered",
+        "lucide_icon": "lucide:globe",
+        "is_neutral": false
+      }
+    ]
+  },
+  "testimonials_area": {
+    "title_main": "What They Are",
+    "title_highlight": "Saying About us",
+    "subtitle": "Trusted by top engineers at the most ambitious companies"
+  },
+  "final_cta": {
+    "tag": "LET'S BUILD TOGETHER",
+    "title_main": "Ready to Transform Your",
+    "title_highlight": "Cloud Native Journey?",
+    "subtitle": "Join hundreds of companies using AppsCode products and services to build, deploy, and manage production-grade Kubernetes applications.",
+    "benefits": [
+      {
+        "text": "Enterprise Support",
+        "lucide_icon": "lucide:shield"
+      },
+      {
+        "text": "24/7 Monitoring",
+        "lucide_icon": "lucide:zap"
+      },
+      {
+        "text": "Expert Consultation",
+        "lucide_icon": "lucide:circle-check"
+      }
+    ],
+    "button_primary": {
+      "text": "Get Started Today",
+      "url": "/contact/"
+    },
+    "button_secondary": {
+      "text": "Explore Products",
+      "url": "#products-area"
+    },
+    "social_proof": "Trusted by Fortune 500 companies and innovative startups worldwide"
+  }
+}

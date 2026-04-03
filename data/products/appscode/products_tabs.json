@@ -1,0 +1,199 @@
+{
+  "productsTabs": [
+    {
+      "key": "kubedb",
+      "title": "KubeDB",
+      "tagline": "Production-grade database operator for Kubernetes",
+      "description": "KubeDB simplifies and automates routine database tasks such as provisioning, monitoring, backup, recovery, failure detection, and repair for various popular databases on private and public clouds.",
+      "lucide_icon": "lucide:database",
+      "logo": "/assets/images/products/kubedb/kubedb-512x512_1.svg",
+      "website_url": "https://kubedb.com",
+      "docs_url": "https://kubedb.com/docs",
+      "github_url": "https://github.com/kubedb",
+      "key_features": [
+        "Supports 30+ database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch",
+        "Automated provisioning, backup, and recovery",
+        "Built-in monitoring with Prometheus and Grafana",
+        "High availability with automatic failover",
+        "Vertical and horizontal scaling",
+        "TLS/SSL encryption support"
+      ],
+      "use_cases": [
+        "Database as a Service",
+        "Multi-tenant Platforms",
+        "Development & Testing",
+        "Production Workloads"
+      ],
+      "stats": [
+        {
+          "value": "30+",
+          "label": "DATABASES"
+        },
+        {
+          "value": "500+",
+          "label": "ENTERPRISES"
+        },
+        {
+          "value": "10K+",
+          "label": "DEPLOYMENTS"
+        }
+      ]
+    },
+    {
+      "key": "kubestash",
+      "title": "KubeStash",
+      "tagline": "Kubernetes native disaster recovery solution",
+      "description": "KubeStash is a cloud-native data backup and recovery solution for Kubernetes workloads, volumes, and databases. It uses Kubernetes Custom Resources to define backup and restore operations in a declarative way.",
+      "lucide_icon": "lucide:archive",
+      "logo": "/assets/images/products/kubestash/kubestash-512x512.png",
+      "website_url": "https://kubestash.com",
+      "docs_url": "https://kubestash.com/docs",
+      "github_url": "https://github.com/kubestash",
+      "key_features": [
+        "Backup Kubernetes volumes, workloads, and databases",
+        "Schedule automatic backups with retention policies",
+        "Point-in-time recovery for databases",
+        "Cross-cluster and cross-namespace restore",
+        "Encryption at rest and in transit",
+        "Support for multiple storage backends (S3, GCS, Azure, NFS)"
+      ],
+      "use_cases": [
+        "Disaster Recovery",
+        "Data Migration",
+        "Compliance & Audit",
+        "Testing & Development"
+      ],
+      "stats": [
+        {
+          "value": "1M+",
+          "label": "BACKUPS"
+        },
+        {
+          "value": "Multi-Cloud",
+          "label": "STORAGE"
+        },
+        {
+          "value": "Minutes",
+          "label": "RECOVERY"
+        }
+      ]
+    },
+    {
+      "key": "voyager",
+      "title": "Voyager",
+      "tagline": "Secure HAProxy Ingress Controller",
+      "description": "Voyager is a HAProxy-backed secure Ingress Controller for Kubernetes. It provides L7 and L4 load balancing, SSL termination, and advanced traffic management capabilities with a cloud-native API.",
+      "lucide_icon": "lucide:network",
+      "logo": "/assets/images/products/voyager/voyager-512x512.svg",
+      "website_url": "https://voyagermesh.com/",
+      "docs_url": "https://voyagermesh.com/docs",
+      "github_url": "https://github.com/voyagermesh",
+      "key_features": [
+        "HAProxy-powered ingress with 40Gbps+ throughput",
+        "Automatic SSL certificate provisioning with Let's Encrypt",
+        "TCP/UDP load balancing support",
+        "Blue-green and canary deployments",
+        "Rate limiting and authentication",
+        "Web Application Firewall (WAF) integration"
+      ],
+      "use_cases": [
+        "API Gateway",
+        "Microservices",
+        "Edge Routing",
+        "Multi-tenant Apps"
+      ],
+      "stats": [
+        {
+          "value": "40Gbps+",
+          "label": "THROUGHPUT"
+        },
+        {
+          "value": "99.99%",
+          "label": "UPTIME"
+        },
+        {
+          "value": "1B+/day",
+          "label": "REQUESTS"
+        }
+      ]
+    },
+    {
+      "key": "kubevault",
+      "title": "KubeVault",
+      "tagline": "Kubernetes native secrets management",
+      "description": "KubeVault is a Kubernetes operator for HashiCorp Vault. It provides a secure and automated way to manage secrets, tokens, passwords, certificates, and encryption keys for your Kubernetes applications.",
+      "lucide_icon": "lucide:shield-check",
+      "logo": "/assets/images/products/kubevault/kubevault-512x512.svg",
+      "website_url": "https://kubevault.com",
+      "docs_url": "https://kubevault.com/docs",
+      "github_url": "https://github.com/kubevault",
+      "key_features": [
+        "Native integration with HashiCorp Vault",
+        "Automated Vault deployment and management",
+        "Dynamic database credentials injection",
+        "PKI certificate management",
+        "Secret rotation and lifecycle management",
+        "Multi-tenancy with policy-based access control"
+      ],
+      "use_cases": [
+        "Secrets Management",
+        "Certificate Management",
+        "Credential Injection",
+        "Compliance"
+      ],
+      "stats": [
+        {
+          "value": "100K+",
+          "label": "SECRETS"
+        },
+        {
+          "value": "Automated",
+          "label": "ROTATION"
+        },
+        {
+          "value": "SOC 2",
+          "label": "COMPLIANCE"
+        }
+      ]
+    },
+    {
+      "key": "ace-platform",
+      "title": "ACE Platform",
+      "tagline": "Complete Database as a Service Platform",
+      "description": "AppsCode Container Engine (ACE) is a complete DBaaS platform that enables you to deploy, manage, and scale databases across any cloud. Built on top of KubeDB, it provides a self-service portal for database provisioning.",
+      "lucide_icon": "lucide:layout-dashboard",
+      "logo": "/assets/images/products/appscode/appscode-512x512.svg",
+      "website_url": "https://appscode.com",
+      "docs_url": "https://appscode.com/docs",
+      "github_url": "https://github.com/appscode",
+      "key_features": [
+        "Multi-cloud database deployment (AWS, GCP, Azure)",
+        "Self-service portal for developers",
+        "Automated database lifecycle management",
+        "Cost tracking and optimization",
+        "RBAC and multi-tenancy support",
+        "Enterprise-grade SLA and support"
+      ],
+      "use_cases": [
+        "Enterprise DBaaS",
+        "Cloud Migration",
+        "Dev/Test Environments",
+        "SaaS Platforms"
+      ],
+      "stats": [
+        {
+          "value": "Multi-Cloud",
+          "label": "CLOUDS"
+        },
+        {
+          "value": "Unlimited",
+          "label": "INSTANCES"
+        },
+        {
+          "value": "24/7",
+          "label": "SUPPORT"
+        }
+      ]
+    }
+  ]
+}
