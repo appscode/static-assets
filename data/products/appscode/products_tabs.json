@@ -3,7 +3,7 @@
     {
       "key": "kubedb",
       "title": "KubeDB",
-      "tagline": "Production-grade database operator for Kubernetes",
+      "tagline": "Kubernetes-native DBaaS Anywhere with Any Storage",
       "description": "KubeDB simplifies and automates routine database tasks such as provisioning, monitoring, backup, recovery, failure detection, and repair for various popular databases on private and public clouds.",
       "lucide_icon": "lucide:database",
       "logo": "/assets/images/products/kubedb/kubedb-512x512_1.svg",
@@ -11,26 +11,26 @@
       "docs_url": "https://kubedb.com/docs",
       "github_url": "https://github.com/kubedb",
       "key_features": [
-        "Supports 30+ database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch",
-        "Automated provisioning, backup, and recovery",
-        "Built-in monitoring with Prometheus and Grafana",
-        "High availability with automatic failover",
-        "Vertical and horizontal scaling",
-        "TLS/SSL encryption support"
+        "Managed DBaaS Platform Capabilities",
+        "Supports 25+ database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch",
+        "Automated Backup & Disaster Recovery",
+        "Centralized Multi-Cluster Management",
+        "Developer-Friendly Free Tier",
+        "Enterprise-grade SLA and support"
       ],
       "use_cases": [
-        "Database as a Service",
-        "Multi-tenant Platforms",
-        "Development & Testing",
-        "Production Workloads"
+        "Enterprise DBaaS",
+        "GitOps Ready",
+        "Multi-tenant Multi-Cluster",
+        "White-labeled DBaaS"
       ],
       "stats": [
         {
-          "value": "30+",
+          "value": "25+",
           "label": "DATABASES"
         },
         {
-          "value": "500+",
+          "value": "100+",
           "label": "ENTERPRISES"
         },
         {
@@ -58,10 +58,10 @@
         "Support for multiple storage backends (S3, GCS, Azure, NFS)"
       ],
       "use_cases": [
+        "Backup & Restore",
         "Disaster Recovery",
-        "Data Migration",
-        "Compliance & Audit",
-        "Testing & Development"
+        "Application Mobility",
+        "Ransomware Protection"
       ],
       "stats": [
         {
@@ -80,9 +80,9 @@
     },
     {
       "key": "voyager",
-      "title": "Voyager",
-      "tagline": "Secure HAProxy Ingress Controller",
-      "description": "Voyager is a HAProxy-backed secure Ingress Controller for Kubernetes. It provides L7 and L4 load balancing, SSL termination, and advanced traffic management capabilities with a cloud-native API.",
+      "title": "Voyager Gateway",
+      "tagline": "Secure Envoyproxy Gateway",
+      "description": "Voyager Gateway is a Envoyproxy-backed secure Gateway for Kubernetes. It provides L7 and L4 load balancing for microservices and databases, SSL termination, and advanced traffic management capabilities.",
       "lucide_icon": "lucide:network",
       "logo": "/assets/images/products/voyager/voyager-512x512.svg",
       "website_url": "https://voyagermesh.com/",
@@ -100,20 +100,20 @@
         "API Gateway",
         "Microservices",
         "Edge Routing",
-        "Multi-tenant Apps"
+        "Advanced Traffic Management"
       ],
       "stats": [
         {
-          "value": "40Gbps+",
-          "label": "THROUGHPUT"
+          "value": "Envoyproxy",
+          "label": "POWERED"
         },
         {
-          "value": "99.99%",
-          "label": "UPTIME"
+          "value": "L3 & L7",
+          "label": "TRAFFIC"
         },
         {
-          "value": "1B+/day",
-          "label": "REQUESTS"
+          "value": "Security",
+          "label": "FOCUSED"
         }
       ]
     },
@@ -151,47 +151,8 @@
           "label": "ROTATION"
         },
         {
-          "value": "SOC 2",
-          "label": "COMPLIANCE"
-        }
-      ]
-    },
-    {
-      "key": "ace-platform",
-      "title": "ACE Platform",
-      "tagline": "Complete Database as a Service Platform",
-      "description": "AppsCode Container Engine (ACE) is a complete DBaaS platform that enables you to deploy, manage, and scale databases across any cloud. Built on top of KubeDB, it provides a self-service portal for database provisioning.",
-      "lucide_icon": "lucide:layout-dashboard",
-      "logo": "/assets/images/products/appscode/appscode-512x512.svg",
-      "website_url": "https://appscode.com",
-      "docs_url": "https://appscode.com/docs",
-      "github_url": "https://github.com/appscode",
-      "key_features": [
-        "Multi-cloud database deployment (AWS, GCP, Azure)",
-        "Self-service portal for developers",
-        "Automated database lifecycle management",
-        "Cost tracking and optimization",
-        "RBAC and multi-tenancy support",
-        "Enterprise-grade SLA and support"
-      ],
-      "use_cases": [
-        "Enterprise DBaaS",
-        "Cloud Migration",
-        "Dev/Test Environments",
-        "SaaS Platforms"
-      ],
-      "stats": [
-        {
-          "value": "Multi-Cloud",
-          "label": "CLOUDS"
-        },
-        {
-          "value": "Unlimited",
-          "label": "INSTANCES"
-        },
-        {
-          "value": "24/7",
-          "label": "SUPPORT"
+          "value": "Vault & OpenBao",
+          "label": "SUPPORTED"
         }
       ]
     }

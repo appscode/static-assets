@@ -81,16 +81,6 @@
       "lucide_icon": "lucide:database"
     },
     {
-      "label": "PRODUCT",
-      "name": "ACE Platform",
-      "border_class": "border-orange",
-      "icon_bg": "has-background-warning-light",
-      "icon_color": "has-text-warning",
-      "label_color": "has-text-warning",
-      "wobble_duration": "2.1s",
-      "lucide_icon": "lucide:cloud"
-    },
-    {
       "label": "SERVICE",
       "name": "Platform Engineering",
       "border_class": "border-pink",
