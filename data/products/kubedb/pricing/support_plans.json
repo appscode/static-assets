@@ -1,0 +1,42 @@
+{
+  "title": "Support Plans",
+  "subtitle": "Choose the support level that matches your requirements",
+  "footer_note": "Business Hours: Mon - Fri 9am - 6pm in your timezone. Phone support additional conditions apply.",
+  "plans": [
+    {
+      "name": "Standard",
+      "description": "For production databases",
+      "price": "Included",
+      "period": "With license",
+      "cta": "Get Started",
+      "cta_type": "primary",
+      "features": [
+        "8x5 Support Coverage",
+        "Response Time SLA",
+        "Emergency Patches",
+        "Production Runbook",
+        "Private Discord Chat"
+      ],
+      "excluded_features": [
+        "Phone Support"
+      ]
+    },
+    {
+      "name": "Premium",
+      "description": "For business and mission-critical databases",
+      "price": "Contact Sales",
+      "period": "Minimum commitment: 500 GB/year",
+      "cta": "Contact Sales",
+      "cta_type": "secondary",
+      "features": [
+        "24x7 Support Coverage",
+        "Enhanced Response SLA",
+        "Priority Emergency Patches",
+        "Production Runbook",
+        "Private Discord Chat",
+        "Phone Support"
+      ],
+      "excluded_features": []
+    }
+  ]
+}

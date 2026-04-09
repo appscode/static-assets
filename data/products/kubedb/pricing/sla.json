@@ -1,0 +1,88 @@
+{
+  "title": "Response SLA Tables",
+  "subtitle": "Detailed response times for each support plan",
+  "labels": {
+    "severity_definitions": "Severity Definitions",
+    "severity_column": "Severity",
+    "response_column": "Response",
+    "ack": "Ack:",
+    "assessment": "Assessment:",
+    "resolution": "Resolution:"
+  },
+  "severity_definitions": [
+    {
+      "name": "CRITICAL",
+      "class": "is-sev-critical",
+      "description": "Software cannot be used at all, or disrupts systems to the extent they cannot be used."
+    },
+    {
+      "name": "HIGH",
+      "class": "is-sev-high",
+      "description": "Seriously affects functionality: software/function cannot be used, or functions are materially disabled."
+    },
+    {
+      "name": "MEDIUM",
+      "class": "is-sev-medium",
+      "description": "Intermittent defect causing inconvenience, or a usability issue with frequent minor impact."
+    },
+    {
+      "name": "LOW",
+      "class": "is-sev-low",
+      "description": "Minor defect, cosmetic or low-impact item, general questions, enhancements, or documentation issues."
+    }
+  ],
+  "tables": [
+    {
+      "name": "Standard Plan SLA",
+      "rows": [
+        {
+          "severity": "Critical, High",
+          "ack": "1 Business Day",
+          "assessment": "3 Business Days",
+          "resolution": "Reasonable effort in 3 Business Days"
+        },
+        {
+          "severity": "Medium",
+          "ack": "3 Business Days",
+          "assessment": "10 Business Days",
+          "resolution": "30 Business Days"
+        },
+        {
+          "severity": "Low",
+          "ack": "5 Business Days",
+          "assessment": "15 Business Days",
+          "resolution": "30 Business Days"
+        }
+      ]
+    },
+    {
+      "name": "Premium Plan SLA",
+      "rows": [
+        {
+          "severity": "Critical",
+          "ack": "1 Hour",
+          "assessment": "1 Hour",
+          "resolution": "Reasonable effort in 72 Hours"
+        },
+        {
+          "severity": "High",
+          "ack": "1 Business Day",
+          "assessment": "2 Business Days",
+          "resolution": "Reasonable effort in 7 Days"
+        },
+        {
+          "severity": "Medium",
+          "ack": "3 Business Days",
+          "assessment": "10 Business Days",
+          "resolution": "30 Business Days"
+        },
+        {
+          "severity": "Low",
+          "ack": "5 Business Days",
+          "assessment": "15 Business Days",
+          "resolution": "30 Business Days"
+        }
+      ]
+    }
+  ]
+}
