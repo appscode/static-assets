@@ -1,7 +1,5 @@
 {
-  "title_plain": "Kubernetes-native",
-  "title_gradient": "DBaaS",
-  "title_line2": "Anywhere with Any Storage",
+  "title_plain": "Kubernetes-native <span class=\"home-hero-title-gradient\">DBaaS</span> <br/> Anywhere with Any Storage",
   "description": "Own Your Database-as-a-Service on <strong>any Kubernetes</strong> — cloud, on-premises, edge, or air-gapped. <strong>Zero Cloud lock-in.</strong>",
   "cta_primary": "Start Free Trial",
   "cta_secondary": "View Documentation",
