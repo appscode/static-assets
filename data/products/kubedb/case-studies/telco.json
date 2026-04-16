@@ -2,8 +2,8 @@
   "title": "Orange Telecom powers its digital future with KubeDB",
   "tagline": "Orange Telecom powers its digital future with<br /><span class=\"has-text-primary\">KubeDB</span>",
   "description": "From manual legacy databases to fully automated, production-grade DBaaS on Kubernetes. Faster deployments, zero-downtime operations, enterprise-grade resilience, and complete data sovereignty.",
-  "company": "Orange Telco Cloud",
-  "industry": "KubeDB-powered DBaaS",
+  "company": "Orange Telecom",
+  "industry": "Telecommunications",
   "logo": "/assets/images/products/kubedb/kubedb.svg",
   "logo_emoji": "📡",
   "badge": "TELCO TRANSFORMATION SUCCESS",
@@ -118,7 +118,7 @@
   "challenge_title": "Legacy databases couldn't keep pace with 5G demands",
   "challenge_badge": "THE TELCO CHALLENGE",
   "challenge_key_pains": "Slow provisioning · Manual scaling · Operational risk · Backup complexity · Governance gaps",
-  "challenge_summary": "Manual provisioning, scaling, backups, and upgrades created bottlenecks for ultra-low latency, high availability, and rapid service innovation.",
+  "challenge_summary": "Legacy databases couldn't keep pace with 5G demands — manual provisioning, scaling, backups, and upgrades created bottlenecks.",
   "challenge_items": [
     {
       "icon": "lucide:database",
@@ -145,7 +145,7 @@
   "solution_features": [],
   "solution_steps": [],
   "benefits_title": "Production-grade DBaaS delivered by KubeDB",
-  "benefits_description": "KubeDB automates the full database lifecycle — provisioning, upgrades, scaling, failover, backups, and monitoring — giving Orange self-service, governed, and resilient databases directly on their Kubernetes platform.",
+  "benefits_description": "Production-grade DBaaS with KubeDB automating full database lifecycle on Kubernetes with zero-downtime operations.",
   "benefits_items_title": "Key KubeDB Benefits Realized by Orange",
   "benefits_items": [
     {
@@ -234,7 +234,7 @@
     { "icon": "lucide:shield-check", "label": "Enterprise data sovereignty" }
   ],
   "results_quote": "From manual legacy databases to fully automated, production-grade DBaaS with complete data sovereignty and enterprise resilience.",
-  "results_quote_author": "Platform Team, Orange Telecom",
+  "results_quote_author": "Platform Team",
 
   "value_props": [
     {

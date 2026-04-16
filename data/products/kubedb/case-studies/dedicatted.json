@@ -46,7 +46,11 @@
       "label": "Faster Requests",
       "sublabel": "Latency eliminated"
     },
-    { "value": "0", "label": "Downtime", "sublabel": "Zero data loss" }
+    {
+      "value": "0",
+      "label": "Downtime",
+      "sublabel": "Zero data loss"
+    }
   ],
   "hero_tags": [
     "MongoDB ReplicaSet",
@@ -66,45 +70,6 @@
     "TLS + RBAC enabled",
     "Daily backups to R2",
     "Prometheus monitoring"
-  ],
-
-  "comparison_title": "From Managed Atlas to Kubernetes-Native Control",
-  "comparison_badge": "TRANSFORMATION",
-  "comparison_description": "DEDICATTED replaced expensive external managed database operations with in-cluster, automated MongoDB powered by KubeDB.",
-  "comparison_header_aspect": "Aspect",
-  "comparison_header_previous": "Previous State (MongoDB Atlas)",
-  "comparison_header_new": "New State (KubeDB on Kubernetes)",
-  "comparison_rows": [
-    {
-      "aspect": "Cost",
-      "previous": "High managed-service and egress charges",
-      "current": "~10x lower yearly spend after migration"
-    },
-    {
-      "aspect": "Latency",
-      "previous": "Traffic crossed external network boundaries",
-      "current": "~50% faster requests inside cluster network"
-    },
-    {
-      "aspect": "Operations",
-      "previous": "Manual backup/upgrade/scaling concerns",
-      "current": "Automated lifecycle with KubeDB and OpsRequest"
-    },
-    {
-      "aspect": "Backups",
-      "previous": "Separate/manual backup workflows",
-      "current": "Daily incremental encrypted backups via KubeStash"
-    },
-    {
-      "aspect": "Migration Risk",
-      "previous": "Potential downtime and data consistency risk",
-      "current": "mongosync + controlled cutover with zero downtime"
-    },
-    {
-      "aspect": "Control",
-      "previous": "Platform lock-in constraints",
-      "current": "Full sovereignty on self-managed Kubernetes"
-    }
   ],
 
   "challenge_title": "Database costs were eating the entire Kubernetes budget",
@@ -172,52 +137,6 @@
       "title": "Enterprise security",
       "description": "TLS, RBAC, network policies, and Transparent Data Encryption."
     }
-  ],
-
-  "benefits_badge": "KUBEDB IN ACTION",
-  "benefits_title": "Production MongoDB with lower cost and higher control",
-  "benefits_description": "KubeDB transformed MongoDB operations from expensive managed service dependency to automated in-cluster reliability with full platform ownership.",
-  "benefits_items_title": "Key KubeDB benefits realized",
-  "benefits_items": [
-    {
-      "number": "01",
-      "title": "Massive cost efficiency",
-      "description": "Atlas and egress costs were eliminated, delivering approximately 10x yearly savings."
-    },
-    {
-      "number": "02",
-      "title": "Faster application performance",
-      "description": "In-cluster data path reduced request latency by about 50%."
-    },
-    {
-      "number": "03",
-      "title": "Automated backup and recovery",
-      "description": "KubeStash now runs encrypted incremental backups without manual intervention."
-    },
-    {
-      "number": "04",
-      "title": "Safe zero-downtime operations",
-      "description": "Scaling, failover, and migration workflows are executed without production outage."
-    }
-  ],
-
-  "supported_databases_title": "Databases Supported in Production",
-  "supported_databases": [
-    "MongoDB",
-    "PostgreSQL",
-    "MySQL",
-    "Redis",
-    "And more..."
-  ],
-
-  "delivered_features_title": "KubeDB Features Delivered",
-  "delivered_features": [
-    "Automated Lifecycle",
-    "MongoDB ReplicaSet HA",
-    "KubeStash Backups",
-    "OpsRequest Scaling",
-    "Prometheus + Grafana",
-    "TLS + RBAC + Policy Controls"
   ],
 
   "timeline_badge": "Seamless Migration",
