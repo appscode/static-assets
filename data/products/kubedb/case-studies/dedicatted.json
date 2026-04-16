@@ -1,6 +1,6 @@
 {
-  "title": "10× lower costs. 2× faster performance. All with KubeDB.",
-  "tagline": "10× lower costs.<br />2× faster performance.<br /><span class=\"has-text-primary\">All with KubeDB.</span>",
+  "title": "10x lower costs. 2x faster performance. All with KubeDB.",
+  "tagline": "10x lower costs.<br />2x faster performance.<br /><span class=\"has-text-primary\">All with KubeDB.</span>",
   "description": "DEDICATTED migrated from MongoDB Atlas to a self-managed MongoDB cluster on Kubernetes — powered by KubeDB. Zero downtime. Full control. Production-grade DBaaS anywhere.",
   "company": "DEDICATTED",
   "industry": "IT Service Provider",
@@ -37,7 +37,7 @@
 
   "hero_metrics": [
     {
-      "value": "10×",
+      "value": "10x",
       "label": "Cost Reduction",
       "sublabel": "Yearly database spend"
     },
@@ -55,18 +55,17 @@
     "Zero-Downtime Migration"
   ],
 
-  "hero_right_company": "DEDICATTED",
-  "hero_right_industry": "IT Service Provider",
+  "hero_right_company": "MongoDB Production Cluster",
+  "hero_right_industry": "3-node ReplicaSet • 7.0.5",
   "hero_right_metrics": [
-    { "value": "10×", "label": "COST", "sublabel": "Reduction" },
-    { "value": "50%", "label": "LATENCY", "sublabel": "Improvement" },
-    { "value": "24/7", "label": "UPTIME", "sublabel": "Production" }
+    { "value": "3", "sublabel": "Replicas" },
+    { "value": "250Gi", "sublabel": "Storage" },
+    { "value": "24/7", "sublabel": "Uptime" }
   ],
   "hero_right_tags": [
-    "MongoDB ReplicaSet",
-    "Hetzner Cloud",
-    "KubeStash Backups",
-    "Zero-Downtime Migration"
+    "TLS + RBAC enabled",
+    "Daily backups to R2",
+    "Prometheus monitoring"
   ],
 
   "comparison_title": "From Managed Atlas to Kubernetes-Native Control",
@@ -79,7 +78,7 @@
     {
       "aspect": "Cost",
       "previous": "High managed-service and egress charges",
-      "current": "~10× lower yearly spend after migration"
+      "current": "~10x lower yearly spend after migration"
     },
     {
       "aspect": "Latency",
@@ -183,7 +182,7 @@
     {
       "number": "01",
       "title": "Massive cost efficiency",
-      "description": "Atlas and egress costs were eliminated, delivering approximately 10× yearly savings."
+      "description": "Atlas and egress costs were eliminated, delivering approximately 10x yearly savings."
     },
     {
       "number": "02",
@@ -244,7 +243,7 @@
   "results_title": "Measurable Impact",
   "results_metrics": [
     {
-      "value": "10×",
+      "value": "10x",
       "label": "Lower yearly database costs",
       "note": "Eliminated Atlas managed-service + egress fees entirely"
     },
@@ -280,7 +279,7 @@
     }
   ],
 
-  "cta_title": "Ready to slash your database costs by 10×?",
+  "cta_title": "Ready to slash your database costs by 10x?",
   "cta_description": "Deploy production MongoDB, PostgreSQL, Redis, and 30+ other databases anywhere Kubernetes runs.",
   "cta_primary": "Get 30-day Enterprise Trial",
   "cta_secondary": "View MongoDB Docs →",
