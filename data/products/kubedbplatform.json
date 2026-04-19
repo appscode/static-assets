@@ -1,0 +1,21 @@
+{
+  "key": "kubedbplatform",
+  "name": "KubeDB Platform",
+  "fullname": "KubeDB by AppsCode",
+  "tagline": "Kubernetes-native DBaaS Anywhere with Any Storage",
+  "repoURL": "https://github.com/appscode-cloud/docs",
+  "docRepo": "kubedb/docs",
+  "latestVersion": "v2026.3.30",
+  "versions": [
+    {
+      "version": "master",
+      "hostDocs": false,
+      "show": true
+    },
+    {
+      "version": "v2026.3.30",
+      "hostDocs": true,
+      "show": true
+    }
+  ]
+}
