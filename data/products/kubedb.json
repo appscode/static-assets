@@ -189,7 +189,7 @@
     },
     {
       "version": "v2026.2.21-rc.1",
-      "hostDocs": true,
+      "hostDocs": false,
       "info": {
         "autoscaler": "v0.46.0-rc.1",
         "cli": "v0.61.0-rc.1",
@@ -204,7 +204,7 @@
     },
     {
       "version": "v2026.2.16-rc.0",
-      "hostDocs": true,
+      "hostDocs": false,
       "info": {
         "autoscaler": "v0.46.0-rc.0",
         "cli": "v0.61.0-rc.0",
@@ -235,7 +235,7 @@
     },
     {
       "version": "v2025.12.31-rc.1",
-      "hostDocs": true,
+      "hostDocs": false,
       "info": {
         "autoscaler": "v0.45.0-rc.1",
         "cli": "v0.60.0-rc.1",
@@ -250,7 +250,7 @@
     },
     {
       "version": "v2025.12.9-rc.0",
-      "hostDocs": true,
+      "hostDocs": false,
       "info": {
         "autoscaler": "v0.45.0-rc.0",
         "cli": "v0.60.0-rc.0",
@@ -313,7 +313,7 @@
     },
     {
       "version": "v2025.7.30-rc.0",
-      "hostDocs": true,
+      "hostDocs": false,
       "info": {
         "autoscaler": "v0.42.0-rc.0",
         "cli": "v0.57.0-rc.0",
@@ -392,7 +392,7 @@
     },
     {
       "version": "v2025.3.20-rc.1",
-      "hostDocs": true,
+      "hostDocs": false,
       "info": {
         "autoscaler": "v0.37.0-rc.1",
         "cli": "v0.53.0-rc.1",
@@ -423,7 +423,7 @@
     },
     {
       "version": "v2025.2.6-rc.0",
-      "hostDocs": true,
+      "hostDocs": false,
       "info": {
         "autoscaler": "v0.37.0-rc.0",
         "cli": "v0.52.0-rc.0",
@@ -485,7 +485,7 @@
     },
     {
       "version": "v2024.11.8-rc.0",
-      "hostDocs": true,
+      "hostDocs": false,
       "info": {
         "autoscaler": "v0.34.0-rc.0",
         "cli": "v0.49.0-rc.0",
@@ -532,7 +532,7 @@
     },
     {
       "version": "v2024.8.14-rc.3",
-      "hostDocs": true,
+      "hostDocs": false,
       "info": {
         "autoscaler": "v0.32.0-rc.3",
         "cli": "v0.47.0-rc.3",
@@ -547,7 +547,7 @@
     },
     {
       "version": "v2024.8.2-rc.2",
-      "hostDocs": true,
+      "hostDocs": false,
       "info": {
         "autoscaler": "v0.32.0-rc.2",
         "cli": "v0.47.0-rc.2",
@@ -562,7 +562,7 @@
     },
     {
       "version": "v2024.7.11-rc.1",
-      "hostDocs": true,
+      "hostDocs": false,
       "info": {
         "autoscaler": "v0.32.0-rc.1",
         "cli": "v0.47.0-rc.1",
@@ -577,7 +577,7 @@
     },
     {
       "version": "v2024.7.3-rc.0",
-      "hostDocs": true,
+      "hostDocs": false,
       "info": {
         "cli": "v0.47.0-rc.0",
         "dashboard": "v0.23.0-rc.0",
@@ -1427,12 +1427,12 @@
     },
     {
       "version": "v0.13.0-rc.0",
-      "hostDocs": true,
+      "hostDocs": false,
       "show": true
     },
     {
       "version": "0.12.0",
-      "hostDocs": true,
+      "hostDocs": false,
       "show": true
     },
     {

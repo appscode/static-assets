@@ -196,7 +196,7 @@
     },
     {
       "version": "v2026.2.16-rc.0",
-      "hostDocs": true,
+      "hostDocs": false,
       "show": true,
       "info": {
         "cli": "v0.23.0-rc.0",
@@ -214,7 +214,7 @@
     },
     {
       "version": "v2026.1.8-rc.0",
-      "hostDocs": true,
+      "hostDocs": false,
       "show": true,
       "info": {
         "cli": "v0.22.0-rc.0",
@@ -232,7 +232,7 @@
     },
     {
       "version": "v2025.12.9-rc.0",
-      "hostDocs": true,
+      "hostDocs": false,
       "show": true,
       "info": {
         "cli": "v0.21.0-rc.0",
@@ -286,7 +286,7 @@
     },
     {
       "version": "v2025.3.19-rc.0",
-      "hostDocs": true,
+      "hostDocs": false,
       "info": {
         "cli": "v0.16.0-rc.0",
         "installer": "v2025.3.19-rc.0"
@@ -303,7 +303,7 @@
     },
     {
       "version": "v2025.2.6-rc.0",
-      "hostDocs": true,
+      "hostDocs": false,
       "info": {
         "cli": "v0.15.0-rc.0",
         "installer": "v2025.2.6-rc.0"
@@ -390,7 +390,7 @@
       }
     }
   ],
-  "latestVersion": "v2026.4.13-rc.0",
+  "latestVersion": "v2026.2.26",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubestash",
