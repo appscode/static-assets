@@ -1,0 +1,56 @@
+{
+  "badge": "Customer Success Stories",
+  "title": "Proven Results Across Industries",
+  "description": "See how leading companies transformed their database operations with KubeDB",
+  "cta_button": "View All Case Studies",
+  "case_studies": [
+    {
+      "logo": "💼",
+      "company": "DEDICATTED",
+      "industry": "IT Service Provider",
+      "challenge": "MongoDB Atlas costs equal to entire 20-node Kubernetes cluster on Hetzner Cloud",
+      "solution": "Migrated to self-managed MongoDB using KubeDB operator with Stash backup solution",
+      "metric_gradient": "linear-gradient(135deg, #a855f7, #3b82f6)",
+      "metrics": [
+        { "icon": "heroicons:currency-dollar", "val": "10x Cost",        "sub": "Reduction" },
+        { "icon": "heroicons:bolt",             "val": "2x Performance", "sub": "Improvement" },
+        { "icon": "heroicons:shield-check",     "val": "Zero Downtime",  "sub": "Migration" }
+      ],
+      "quote": "We saved around 90% of our costs and improved performance by keeping traffic inside Kubernetes.",
+      "author": "Volodymyr Lysetskyy",
+      "role": "DevOps Engineer"
+    },
+    {
+      "logo": "📡",
+      "company": "Top 3 European Telco",
+      "industry": "Telecommunications",
+      "challenge": "Legacy monolithic applications with manual database operations, slow deployments, and limited scalability",
+      "solution": "Cloud-native transformation with KubeDB on Rancher, custom UI extension for self-service database provisioning",
+      "metric_gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "metrics": [
+        { "icon": "heroicons:bolt",         "val": "Automated",   "sub": "Operations" },
+        { "icon": "heroicons:circle-stack", "val": "7+ Database", "sub": "Types" },
+        { "icon": "heroicons:users",        "val": "Self-Service", "sub": "Platform" }
+      ],
+      "quote": "Successfully transitioned from monolithic infrastructure to cloud-native microservices with automated database operations.",
+      "author": "Infrastructure Team",
+      "role": "Platform Engineering"
+    },
+    {
+      "logo": "☁️",
+      "company": "Public Cloud Provider",
+      "industry": "Cloud Service Provider",
+      "challenge": "Need to launch a white-label DBaaS platform to serve 20,000+ business customers across multiple industries",
+      "solution": "Deployed KubeDB on Suse Rancher with ACE UI, supporting 10 database engines in 2 cloud regions",
+      "metric_gradient": "linear-gradient(135deg, #06b6d4, #14b8a6)",
+      "metrics": [
+        { "icon": "heroicons:clock",        "val": "3-4 Months",  "sub": "To Market" },
+        { "icon": "heroicons:circle-stack", "val": "10 Database", "sub": "Engines" },
+        { "icon": "heroicons:globe-alt",    "val": "20,000+",     "sub": "Customers" }
+      ],
+      "quote": "Launched production-ready DBaaS platform in just 3-4 months with full automation and enterprise-grade features.",
+      "author": "Platform Team",
+      "role": "Cloud Operations"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "product_name": "Self-Service DBaaS",
+  "product_color_primary": "#4948a3",
+  "cta_bg_color": "#1e1b4b",
+  "hide_database_support": true,
+  "hero_badge": "Self-Service DBaaS",
+  "hero_title_1": "Empower Teams with",
+  "hero_title_2": "Self-Service Databases",
+  "hero_description": "Build an internal database platform where teams can provision, manage, and scale databases on-demand while maintaining centralized governance and cost control.",
+  "primary_action_text": "Start Free Trial",
+  "primary_action_url": "/docs/latest/setup/",
+  "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+  "secondary_action_text": "See Demo",
+  "secondary_action_url": "/docs/latest/welcome/",
+  "product_icon": "lucide:users",
+  "hero_best_with_items": ["KubeDB Operator", "KubeDB Platform"],
+  "stats": [
+    { "label": "Faster Provisioning", "value": "10x" },
+    { "label": "Reduction in Tickets", "value": "90%" },
+    { "label": "Deploy Time", "value": "<5 min" },
+    { "label": "Team Satisfaction", "value": "98%" }
+  ],
+  "when_to_use_subtitle": "Why Self-Service DBaaS?",
+  "when_to_use_description": "Accelerate innovation while maintaining control",
+  "when_to_use": [
+    {
+      "icon": "lucide:zap",
+      "title": "Instant Provisioning",
+      "description": "Deploy databases in minutes with self-service portal.",
+      "icon_bg": "#f59e0b"
+    },
+    {
+      "icon": "lucide:users",
+      "title": "Team Autonomy",
+      "description": "Empower teams to manage their own database lifecycle.",
+      "icon_bg": "#d946ef"
+    },
+    {
+      "icon": "lucide:dollar-sign",
+      "title": "Cost Transparency",
+      "description": "Track and allocate database costs per team or project.",
+      "icon_bg": "#10b981"
+    },
+    {
+      "icon": "lucide:shield",
+      "title": "Governance & Control",
+      "description": "Centralized policies with decentralized execution.",
+      "icon_bg": "#3b82f6"
+    }
+  ],
+  "platform_built_for_scale_title": "What Platform Teams Get with KubeDB",
+  "platform_built_for_scale_subtitle": "Complete DBaaS platform software in your infrastructure.",
+  "platform_built_for_scale": [
+    {
+      "icon": "lucide:rocket",
+      "title": "Instant Self-Service",
+      "description": "Developers get production-ready databases in minutes via GitOps, CLI, or internal portal."
+    },
+    {
+      "icon": "lucide:shield",
+      "title": "Enterprise Governance",
+      "description": "Central policies for security, resource limits, multi-tenancy, and compliance."
+    },
+    {
+      "icon": "lucide:activity",
+      "title": "Built-in Observability",
+      "description": "Native Prometheus metrics and Grafana dashboards for every database instance."
+    },
+    {
+      "icon": "lucide:cloud-upload",
+      "title": "KubeStash Backups",
+      "description": "Automated, incremental, encrypted backups to any object store with PITR support."
+    },
+    {
+      "icon": "lucide:repeat",
+      "title": "Zero-Downtime Operations",
+      "description": "Automated upgrades, scaling, and failover with full lifecycle management."
+    },
+    {
+      "icon": "lucide:globe",
+      "title": "Any Kubernetes, Anywhere",
+      "description": "Works on-prem, public cloud, hybrid, air-gapped, and multi-cluster environments."
+    },
+    {
+      "icon": "lucide:users",
+      "title": "Multi-Team Support",
+      "description": "Isolated namespaces and resources for different teams with fine-grained access control."
+    },
+    {
+      "icon": "lucide:bar-chart-3",
+      "title": "Usage Metering",
+      "description": "Track resource consumption and costs per team with built-in chargeback capabilities."
+    },
+    {
+      "icon": "lucide:git-branch",
+      "title": "GitOps Integration",
+      "description": "Infrastructure as code with Git-based workflows for declarative database management."
+    }
+  ],
+  "how_it_works_title": "You Own The Infrastructure",
+  "how_it_works_subtitle": "Your teams bring the Kubernetes infrastructure. KubeDB provides the software layer that transforms it into an enterprise DBaaS platform.",
+  "platform_features_title": "What Platform Teams Get with KubeDB",
+  "platform_features_subtitle": "Complete DBaaS platform software in your infrastructure",
+  "platform_features": [
+    {
+      "title": "Instant Self-Service",
+      "description": "Developers get production-ready databases in minutes via GitOps, CLI, or internal portal.",
+      "icon": "lucide:rocket"
+    },
+    {
+      "title": "Enterprise Governance",
+      "description": "Central policies for security, resource limits, multi-tenancy, and compliance.",
+      "icon": "lucide:shield"
+    },
+    {
+      "title": "Built-in Observability",
+      "description": "Native Prometheus metrics and Grafana dashboards for every database instance.",
+      "icon": "lucide:activity"
+    },
+    {
+      "title": "KubeStash Backups",
+      "description": "Automated, incremental, encrypted backups to any object store with PITR support.",
+      "icon": "lucide:cloud-upload"
+    },
+    {
+      "title": "Zero-Downtime Operations",
+      "description": "Automated upgrades, scaling, and failover with full lifecycle management.",
+      "icon": "lucide:repeat"
+    },
+    {
+      "title": "Any Kubernetes, Anywhere",
+      "description": "Works on-prem, public cloud, hybrid, air-gapped, and multi-cluster environments.",
+      "icon": "lucide:globe"
+    },
+    {
+      "title": "Multi-Team Support",
+      "description": "Isolated namespaces and resources for different teams with fine-grained access control.",
+      "icon": "lucide:users"
+    },
+    {
+      "title": "Usage Metering",
+      "description": "Track resource consumption and costs per team with built-in chargeback capabilities.",
+      "icon": "lucide:bar-chart-3"
+    },
+    {
+      "title": "GitOps Integration",
+      "description": "Infrastructure as code with Git-based workflows for declarative database management.",
+      "icon": "lucide:git-branch"
+    }
+  ],
+  "how_it_works_infra": {
+    "title": "Your Infrastructure:",
+    "icon": "lucide:server",
+    "items": [
+      { "text": "Compute resources (K8s nodes)", "icon": "lucide:server" },
+      { "text": "Storage volumes (PV/PVC)", "icon": "lucide:database" },
+      { "text": "Network infrastructure", "icon": "lucide:cloud" },
+      { "text": "Object storage for backups", "icon": "lucide:lock" }
+    ]
+  },
+  "how_it_works_software": {
+    "title": "KubeDB Software:",
+    "icon": "lucide:sparkles",
+    "items": [
+      { "text": "DBaaS platform software layer", "icon": "lucide:zap" },
+      { "text": "Self-service portal for teams", "icon": "lucide:users" },
+      { "text": "Automated lifecycle management", "icon": "lucide:refresh-cw" },
+      { "text": "Usage metering & chargeback", "icon": "lucide:bar-chart-3" }
+    ]
+  },
+  "how_it_works_summary": "Your infrastructure • Your control • Your data sovereignty",
+  "team_benefits_title": "Benefits For Every Team",
+  "team_benefits_subtitle": "Unlock productivity across your organization.",
+  "team_benefits": [
+    {
+      "team": "Development Teams",
+      "icon": "lucide:code",
+      "benefits": [
+        "Deploy dev/test databases instantly",
+        "No dependency on infrastructure team",
+        "Clone production data safely",
+        "Experiment without approval workflows"
+      ]
+    },
+    {
+      "team": "Platform Engineering",
+      "icon": "lucide:gauge",
+      "benefits": [
+        "Reduce operational tickets by 90%",
+        "Enforce standardization",
+        "Maintain governance and compliance",
+        "Scale platform without scaling team"
+      ]
+    },
+    {
+      "team": "Product Teams",
+      "icon": "lucide:sparkles",
+      "benefits": [
+        "Faster time to market",
+        "On-demand database provisioning",
+        "Cost visibility per product",
+        "Independent scaling decisions"
+      ]
+    }
+  ],
+  "workflow_title": "How It Works",
+  "workflow_subtitle": "From request to running database in minutes.",
+  "workflow_steps": [
+    {
+      "step": "1",
+      "title": "Request Database",
+      "description": "Team member selects database type and configuration.",
+      "icon": "lucide:file-check"
+    },
+    {
+      "step": "2",
+      "title": "Auto-Approval",
+      "description": "Policy engine validates and approves within quota.",
+      "icon": "lucide:check-circle"
+    },
+    {
+      "step": "3",
+      "title": "Instant Provisioning",
+      "description": "Database deployed with HA, backups, and monitoring.",
+      "icon": "lucide:zap"
+    },
+    {
+      "step": "4",
+      "title": "Self-Management",
+      "description": "Teams manage their databases independently.",
+      "icon": "lucide:users"
+    }
+  ],
+  "cta_badge": "Developer Self-Service",
+  "cta_title": "Empower Developers.",
+  "cta_title_gradient": "Control for Platform Teams.",
+  "cta_description": "Build an internal DBaaS that developers love and platform teams trust.",
+  "cta_button_text": "Start Free Trial",
+  "cta_button_url": "/docs/latest/setup/",
+  "cta_stats": [
+    {
+      "value": "10x",
+      "label": "Faster Deploy",
+      "icon": "heroicons:chart-bar",
+      "color": "#3b82f6"
+    },
+    {
+      "value": "90%",
+      "label": "Less Tickets",
+      "icon": "heroicons:check-circle",
+      "color": "#10b981"
+    },
+    {
+      "value": "<5min",
+      "label": "Setup Time",
+      "icon": "heroicons:clock",
+      "color": "#ec4899"
+    },
+    {
+      "value": "98%",
+      "label": "Satisfaction",
+      "icon": "heroicons:users",
+      "color": "#f97316"
+    }
+  ],
+  "cta_checklist": [
+    "Instant database provisioning",
+    "Centralized governance & policies",
+    "90% reduction in tickets"
+  ]
+}
