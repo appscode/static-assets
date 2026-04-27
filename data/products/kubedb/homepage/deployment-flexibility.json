@@ -29,7 +29,7 @@
       "icon": "heroicons:server-stack",
       "icon_gradient": "linear-gradient(135deg, #8b5cf6, #ec4899)",
       "title": "Cloud, On-Prem, Air-Gapped & Multi-Cloud",
-      "desc": "Deploy in public cloud, private data centers, edge locations, or fully disconnected environments. Run consistent database operations across multiple clouds and on-premises infrastructure.",
+      "desc": "Deploy and Run consistent database operations across public cloud, private data centers, edge locations, or fully air-gapped environments.",
       "card_class": "feature-card-gradient"
     }
   ]

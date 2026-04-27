@@ -5,10 +5,12 @@
   "hero_badge": "White-Labeled DBaaS for Cloud Service Providers",
   "hero_title_1": "Launch Your Own",
   "hero_title_2": "Production-Grade DBaaS Platform",
-  "hero_description": "Built on <strong>ACE (AppsCode Cloud Engine)</strong> - a fully managed, white-labeled, production-ready Database-as-a-Service platform that exceeds public cloud offerings while maintaining complete branding control and data sovereignty.",
+  "hero_description": "A fully managed, white-labeled, production-ready Database-as-a-Service platform that exceeds public cloud offerings while maintaining complete branding control and data sovereignty.",
   "hero_best_with": "KubeDB Platform",
-  "primary_action_text": "Schedule Demo",
-  "primary_action_url": "/contact/",
+  "primary_action_text": "Try Now Free",
+  "primary_action_url": "/docs/platform/latest/selfhost-setup/",
+  "secondary_action_text": "Schedule Demo",
+  "secondary_action_url": "https://x.appscode.com/_/kubedb_inquiry",
   "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
   "product_icon": "lucide:award",
   "stats": [
@@ -323,8 +325,8 @@
   "faqs_title": "CSP & MSP FAQ",
   "faqs": [
     {
-      "question": "What is ACE (AppsCode Cloud Engine)?",
-      "answer": "ACE is a fully managed, white-labeled, production-ready Database-as-a-Service platform built on KubeDB. It provides complete infrastructure for CSPs and MSPs to offer managed database services with their own branding, billing, and data sovereignty."
+      "question": "What is KubeDB Platform?",
+      "answer": "KubeDB Platform is a fully managed, white-labeled, production-ready Database-as-a-Service platform. It provides complete infrastructure for CSPs and MSPs to offer managed database services with their own branding, billing, and data sovereignty."
     },
     {
       "question": "Which Kubernetes distributions are supported?",

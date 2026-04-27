@@ -6,10 +6,10 @@
   "hero_title_1": "Secure DBaaS for",
   "hero_title_2": "Isolated Environments",
   "hero_description": "Deploy production-grade database automation in air-gapped, disconnected, and high-security Kubernetes environments with complete offline installation support.",
-  "primary_action_text": "Request Access",
-  "primary_action_url": "https://appscode.com/contact/",
-  "secondary_action_text": "View Requirements",
-  "secondary_action_url": "/docs/latest/setup/",
+  "primary_action_text": "Try Now Free",
+  "primary_action_url": "/docs/latest/setup/",
+  "secondary_action_text": "Schedule Demo",
+  "secondary_action_url": "https://x.appscode.com/_/kubedb_inquiry",
   "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
   "product_icon": "lucide:server",
   "hero_best_with_items": [
@@ -19,8 +19,8 @@
   "stats": [
     { "label": "Security Level", "value": "Highest" },
     { "label": "Internet Access", "value": "Zero" },
-    { "label": "Package Size", "value": "~50GB" },
-    { "label": "Update Frequency", "value": "Quarterly" }
+    { "label": "DB Engines", "value": "25+" },
+    { "label": "Support", "value": "24x7" }
   ],
   "when_to_use_title": "Why Air-Gapped Deployment?",
   "when_to_use_subtitle": "Why Air-Gapped Deployment?",
@@ -193,8 +193,8 @@
     "Helm charts and manifests",
     "Backup and restore tools",
     "Monitoring stack (Prometheus/Grafana)",
-    "Documentation (PDF + offline HTML)",
-    "License server (offline mode)",
+    "Documentation (PDF + offline Markdown)",
+    "License server (offline verification)",
     "Security scan reports",
     "Installation scripts",
     "Troubleshooting tools",
@@ -207,7 +207,7 @@
   "cta_checklist": [
     "100% offline installation",
     "Maximum security compliance",
-    "Complete package ~50GB"
+    "Data sovereignty guaranteed"
   ],
   "cta_button_text": "Request Access",
   "cta_button_url": "https://appscode.com/contact/",
@@ -217,7 +217,7 @@
   "final_cta_metrics": [
     { "icon": "lucide:lock", "value": "Zero", "label": "Internet Access", "gradient": "linear-gradient(135deg, #c084fc, #ec4899)" },
     { "icon": "lucide:shield", "value": "Highest", "label": "Security Level", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
-    { "icon": "lucide:package", "value": "~50GB", "label": "Package Size", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
-    { "icon": "lucide:trending-up", "value": "Quarterly", "label": "Updates", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
+    { "icon": "lucide:package", "value": "25+", "label": "DB Engines", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
+    { "icon": "lucide:trending-up", "value": "24×7", "label": "Support", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
   ]
 }
