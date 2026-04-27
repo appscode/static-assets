@@ -197,7 +197,7 @@
         "gradient": "mke"
       }
     ],
-    "image": "/assets/images/products/kubedb/illustrations/mirantis.png",
+    "image": "/assets/images/products/kubedb/stack-diagram/mirantis.png",
     "image_alt": "KubeDB Platform Architecture on Mirantis Kubernetes Engine",
     "image_tags": ["On-premises", "Cloud", "Edge"]
   },

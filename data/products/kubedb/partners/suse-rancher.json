@@ -237,7 +237,7 @@
         "gradient": "nkp"
       }
     ],
-    "image": "/assets/images/products/kubedb/illustrations/rancher.png",
+    "image": "/assets/images/products/kubedb/stack-diagram/rancher.png",
     "image_alt": "KubeDB Platform Architecture on SUSE Rancher Prime",
     "image_tags": ["On-premises", "Cloud", "Edge"]
   },

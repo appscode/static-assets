@@ -191,7 +191,7 @@
         "gradient": "nkp"
       }
     ],
-    "image": "/assets/images/products/kubedb/illustrations/nutanix.png",
+    "image": "/assets/images/products/kubedb/stack-diagram/nutanix.png",
     "image_alt": "KubeDB Platform Architecture on Nutanix Kubernetes Platform",
     "image_tags": ["On-premises", "Cloud", "Edge"]
   },

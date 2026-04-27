@@ -197,7 +197,7 @@
         "gradient": "red"
       }
     ],
-    "image": "/assets/images/products/kubedb/illustrations/openshift.png",
+    "image": "/assets/images/products/kubedb/stack-diagram/openshift.png",
     "image_alt": "KubeDB Platform Architecture on Red Hat OpenShift",
     "image_tags": ["On-premises", "Cloud", "Edge"]
   },
