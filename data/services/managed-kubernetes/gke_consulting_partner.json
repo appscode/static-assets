@@ -284,7 +284,7 @@
     "products": [
       {
         "name": "KubeDB on GKE",
-        "description": "Run production-grade databases on Google Kubernetes Engine — Provisioning, Upgrading, Scaling, Monitoring, Backup & Restore for 25+ database engines.",
+        "description": "Run production-grade databases on Google Kubernetes Engine — Provisioning, Upgrading, Scaling, Monitoring, Backup & Restore for 20+ Database engines.",
         "url": "https://kubedb.com/",
         "logo": "/assets/images/technical-expertise/kubedb.svg"
       },

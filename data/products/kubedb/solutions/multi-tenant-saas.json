@@ -8,7 +8,7 @@
   "hero_description": "Deliver production-grade, secure, and cost-effective databases to every tenant with a single Kubernetes-native DBaaS platform.",
   "hero_subtitle_highlight": "KubeDB Platform",
   "hero_best_with": "KubeDB Platform",
-  "hero_footer_text": "Runs on any Kubernetes • 25+ database engines • Centralized Governance",
+  "hero_footer_text": "Runs on any Kubernetes • 20+ Database engines • Centralized Governance",
   "primary_action_text": "Get Started with KubeDB",
   "primary_action_url": "/docs/latest/setup/",
   "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",

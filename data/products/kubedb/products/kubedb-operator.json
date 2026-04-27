@@ -183,7 +183,7 @@
   "features_subtitle": "Eliminate manual database operations with Kubernetes-native automation",
   "features": [
     {
-      "title": "25+ Database Engines",
+      "title": "20+ Database Engines",
       "description": "PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more",
       "icon": "lucide:database",
       "gradient_class": "gradient-box-blue"

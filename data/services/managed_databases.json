@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Managed Databases on Kubernetes",
-    "subtitle": "Provision, monitor, backup, scale, and secure 25+ database engines on any Kubernetes cluster — fully managed by AppsCode's expert engineers using KubeDB.",
+    "subtitle": "Provision, monitor, backup, scale, and secure 20+ Database engines on any Kubernetes cluster — fully managed by AppsCode's expert engineers using KubeDB.",
     "cta_text": "Talk to a Database Expert",
     "cta_url": "https://appscode.com/contact/",
     "illustration": {
@@ -17,7 +17,7 @@
     "areas": [
       {
         "icon": "fa fa-database",
-        "title": "25+ Database Engines Supported"
+        "title": "20+ Database Engines Supported"
       },
       {
         "icon": "fa fa-shield",
@@ -146,7 +146,7 @@
   },
   "tech_stack": {
     "title": "Our Database Technology Expertise",
-    "subtitle": "We manage 25+ database engines on Kubernetes using KubeDB — the most comprehensive Kubernetes-native database operator.",
+    "subtitle": "We manage 20+ Database engines on Kubernetes using KubeDB — the most comprehensive Kubernetes-native database operator.",
     "technologies": [
       {
         "name": "Kubernetes",
@@ -255,7 +255,7 @@
       },
       {
         "icon": "fa fa-database",
-        "title": "25+ Database Engines",
+        "title": "20+ Database Engines",
         "description": "PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, RabbitMQ, MariaDB, Microsoft SQL Server, and many more — all under a single operator and a single contract."
       },
       {
@@ -283,7 +283,7 @@
   "faq": [
     {
       "question": "What databases does AppsCode manage?",
-      "answer": "AppsCode manages 25+ database engines using KubeDB, including PostgreSQL, MySQL, MongoDB, MariaDB, Microsoft SQL Server, Elasticsearch, OpenSearch, Redis, Valkey, Kafka, RabbitMQ, Solr, ZooKeeper, Percona XtraDB, PgBouncer, Pgpool, ProxySQL, Memcached, SingleStore, ClickHouse, Cassandra, and more."
+      "answer": "AppsCode manages 20+ Database engines using KubeDB, including PostgreSQL, MySQL, MongoDB, MariaDB, Microsoft SQL Server, Elasticsearch, OpenSearch, Redis, Valkey, Kafka, RabbitMQ, Solr, ZooKeeper, Percona XtraDB, PgBouncer, Pgpool, ProxySQL, Memcached, SingleStore, ClickHouse, Cassandra, and more."
     },
     {
       "question": "What does the managed database service include?",

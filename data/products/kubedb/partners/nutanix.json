@@ -13,7 +13,7 @@
     "stats_style": "hero-inline-metrics",
     "stats": [
       {
-        "value": "25+ Database Engines",
+        "value": "20+ Database Engines",
         "label": "vs NDB's ~8"
       },
       {
@@ -233,7 +233,7 @@
   },
   "database_support": {
     "heading": "Comprehensive Database Support",
-    "description": "25+ database engines managed with Kubernetes-native workflows",
+    "description": "20+ Database engines managed with Kubernetes-native workflows",
     "categories": [
       {
         "label": "Relational",

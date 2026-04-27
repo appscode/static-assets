@@ -123,7 +123,7 @@
         {
           "id": "managed-databases-services",
           "title": "Managed Databases",
-          "description": "25+ database engines, fully managed on Kubernetes",
+          "description": "20+ Database engines, fully managed on Kubernetes",
           "icon": null
         }
       ]

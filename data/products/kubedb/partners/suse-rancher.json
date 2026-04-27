@@ -13,7 +13,7 @@
     "stats_style": "hero-inline-metrics",
     "stats": [
       {
-        "value": "25+ Database Engines",
+        "value": "20+ Database Engines",
         "label": "PostgreSQL, MySQL, Redis, Kafka & more"
       },
       {
@@ -243,11 +243,11 @@
   },
   "capabilities": {
     "heading": "Production databases. Fully automated on Rancher.",
-    "description": "25+ database engines with HA, scaling, backup, TLS, monitoring, and GitOps support"
+    "description": "20+ Database engines with HA, scaling, backup, TLS, monitoring, and GitOps support"
   },
   "database_support": {
     "heading": "Comprehensive Database Support",
-    "description": "25+ database engines managed with Kubernetes-native workflows",
+    "description": "20+ Database engines managed with Kubernetes-native workflows",
     "categories": [
       {
         "label": "Relational",
