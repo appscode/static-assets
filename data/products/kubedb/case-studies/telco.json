@@ -27,7 +27,7 @@
   "hero_secondary_button_href": "https://github.com/kubedb",
   "value_props_badge": "Why KubeDB",
   "value_props_title": "Why teams choose KubeDB",
-  "value_props_description": "Same experience as cloud DBaaS — but with full control, any cloud, any storage, and no lock-in.",
+  "value_props_description": "Same experience as cloud DBaaS - but with full control, any cloud, any storage, and no lock-in.",
   "challenge_key_pains_label": "Key pain points",
   "solution_powered_by_label": "Powered by KubeDB",
   "supported_databases_footer_label": "Enterprise Verified",
@@ -118,7 +118,7 @@
   "challenge_title": "Legacy databases couldn't keep pace with 5G demands",
   "challenge_badge": "THE TELCO CHALLENGE",
   "challenge_key_pains": "Slow provisioning · Manual scaling · Operational risk · Backup complexity · Governance gaps",
-  "challenge_summary": "Legacy databases couldn't keep pace with 5G demands — manual provisioning, scaling, backups, and upgrades created bottlenecks.",
+  "challenge_summary": "Legacy databases couldn't keep pace with 5G demands - manual provisioning, scaling, backups, and upgrades created bottlenecks.",
   "challenge_items": [
     {
       "icon": "lucide:database",
@@ -151,7 +151,7 @@
     {
       "number": "01",
       "title": "Self-Service Provisioning",
-      "description": "Developers and teams provision production-ready databases in minutes using Kubernetes-native CRDs and a custom internal UI — no more tickets."
+      "description": "Developers and teams provision production-ready databases in minutes using Kubernetes-native CRDs and a custom internal UI, no more tickets."
     },
     {
       "number": "02",
@@ -255,7 +255,7 @@
   ],
 
   "cta_title": "Ready to modernize your database operations?",
-  "cta_description": "Deploy production-grade databases on any Kubernetes platform — with the same automation Orange relies on for its mission-critical telco services.",
+  "cta_description": "Deploy production-grade databases on any Kubernetes platform - with the same automation Orange relies on for its mission-critical telco services.",
   "cta_primary": "Get 30-day Enterprise Trial",
   "cta_secondary": "Explore KubeDB for Telco",
   "cta_secondary_href": "/features/"

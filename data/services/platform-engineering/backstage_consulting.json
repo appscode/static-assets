@@ -73,7 +73,7 @@
     "sections": [
       {
         "title": "Backstage Consulting & Adoption Strategy",
-        "description": "We guide you through the entire Backstage adoption journey — from project scoping to onboarding your team. With experience in <a href=\"https://www.cncf.io/\">CNCF’s</a> platform engineering maturity model, we know what it takes to build and deploy successful internal developer platforms.",
+        "description": "We guide you through the entire Backstage adoption journey, from project scoping to onboarding your team. With experience in <a href=\"https://www.cncf.io/\">CNCF’s</a> platform engineering maturity model, we know what it takes to build and deploy successful internal developer platforms.",
         "offerings": [
           "Expert consulting for Backstage adoption, plugins, integrations, and workflow optimization tailored to your organization.",
           "Dedicated roadmap creation to align Backstage with business objectives and developer productivity goals."
@@ -260,7 +260,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Certified Experts",
-        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms, helping you build, scale, and automate with confidence."
       },
       {
         "icon": "fa fa-briefcase",
@@ -300,13 +300,13 @@
       },
       {
         "type": "Blog",
-        "title": "Future-Proof Your Data Strategy - Why Kubernetes is the Engine Behind Stateful Workloads & Modern AI",
+        "title": "Future-Proof Your Data Strategy: Why Kubernetes is the Engine Behind Stateful Workloads & Modern AI",
         "image": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_254620_1300x650_fill_q75_box_smart1.jpg",
         "link": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/"
       },
       {
         "type": "Event",
-        "title": "KubeConNA Digest - Top Trends and Key Takeaways from This Year’s Event by AppsCode",
+        "title": "KubeConNA Digest: Top Trends and Key Takeaways from This Year’s Event by AppsCode",
         "image": "https://appscode.com/blog/post/kubecon-na-2024/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_69997_1300x650_fill_q75_box_smart1.jpg",
         "link": "https://appscode.com/blog/post/kubecon-na-2024/"
       }
@@ -323,7 +323,7 @@
     },
     {
       "question": "Can you work with our existing product roadmap and technology stack?",
-      "answer": "Yes — we can integrate with your current roadmap and architecture. Our engineers refine your existing platform, lift it into a containerized, cloud-native, and production-ready form, or build new components from scratch as required."
+      "answer": "Yes, we can integrate with your current roadmap and architecture. Our engineers refine your existing platform, lift it into a containerized, cloud-native, and production-ready form, or build new components from scratch as required."
     },
     {
       "question": "What is the typical timeline and engagement model for Backstage Consulting & Support Services?",

@@ -238,7 +238,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Certified Developers",
-        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms, helping you build, scale, and automate with confidence."
       },
       {
         "icon": "fa fa-briefcase",
@@ -278,7 +278,7 @@
     },
     {
       "question": "Can you work with our existing on-prem infrastructure?",
-      "answer": "Yes — we integrate with your current setup, optimize existing hardware and network configurations, and help transition workloads to more reliable, scalable, and secure on-prem or hybrid environments as needed."
+      "answer": "Yes, we integrate with your current setup, optimize existing hardware and network configurations, and help transition workloads to more reliable, scalable, and secure on-prem or hybrid environments as needed."
     },
     {
       "question": "What is the typical timeline and engagement model for these services?",

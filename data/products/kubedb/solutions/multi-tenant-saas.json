@@ -31,7 +31,7 @@
 
   "when_to_use_badge": "The multi-tenant challenge",
   "when_to_use_title": "The multi-tenant challenge",
-  "when_to_use_subtitle": "Modern enterprises need databases that scale with tenants — not against them.",
+  "when_to_use_subtitle": "Modern enterprises need databases that scale with tenants - not against them.",
   "when_to_use_description": "Platform teams are stuck choosing between hyperscaler lock-in or painful manual Kubernetes operations. Developers wait weeks for databases while security teams lose sleep over isolation.",
   "when_to_use": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "title": "Ticket-based provisioning",
-      "description": "Developers blocked. Platform teams overwhelmed. Delivery cycles stretched to months — slowing down customer onboarding.",
+      "description": "Developers blocked. Platform teams overwhelmed. Delivery cycles stretched to months, slowing down customer onboarding.",
       "icon": "lucide:file-clock",
       "icon_bg": "#f59e0b"
     },
@@ -55,7 +55,7 @@
   ],
 
   "numbered_features_title": "KubeDB gives you <span class='text-gradient'>enterprise multi-tenant DBaaS</span> natively inside Kubernetes.",
-  "numbered_features_subtitle": "Run production-ready databases for hundreds of teams and tenants — with complete governance, security, and self-service — on Red Hat OpenShift, SUSE Rancher Prime, or any Kubernetes.",
+  "numbered_features_subtitle": "Run production-ready databases for hundreds of teams and tenants - with complete governance, security, and self-service - on Red Hat OpenShift, SUSE Rancher Prime, or any Kubernetes.",
   "numbered_features_graphic": "/assets/images/products/kubedb/kubedb-multi-tenancy-diagram.png",
   "numbered_features": [
     {
@@ -73,7 +73,7 @@
     {
       "id": "03",
       "title": "Developer self-service",
-      "description": "Teams request databases via kubectl, GitOps, or the KubeDB Console — instantly and compliantly.",
+      "description": "Teams request databases via kubectl, GitOps, or the KubeDB Console, instantly and compliantly.",
       "icon": "lucide:zap"
     },
     {

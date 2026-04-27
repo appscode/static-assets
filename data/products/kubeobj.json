@@ -3,7 +3,7 @@
   "name": "KubeObj",
   "fullname": "KubeObj by AppsCode",
   "tagline": "Kubernetes-Native Object Storage for the Modern Cloud",
-  "summary": "Simplify data management across clouds, clusters, and environments with KubeObj — a unified, scalable, and policy-driven object storage solution powered by NooBaa.",
+  "summary": "Simplify data management across clouds, clusters, and environments with KubeObj - a unified, scalable, and policy-driven object storage solution powered by NooBaa.",
   "published": true,
   "author": "AppsCode Inc.",
   "website": {

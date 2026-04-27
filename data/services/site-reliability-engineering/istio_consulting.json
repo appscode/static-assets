@@ -110,7 +110,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Certified Experts",
-        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
+        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms, helping you build, scale, and automate with confidence"
       },
       {
         "icon": "fa fa-briefcase",
@@ -142,7 +142,7 @@
   "industries": {
     "title": "Istio Consulting Across Industries",
     "subtitle": "Decades of cloud-native and service mesh experience across regulated and high-growth industries.",
-    "additional_text": "From global enterprises to fast-growing startups — we’ve seen it all, and built for it all.",
+    "additional_text": "From global enterprises to fast-growing startups - we’ve seen it all, and built for it all.",
     "sectors": [
       {
         "icon": "fa fa-bank",
@@ -277,7 +277,7 @@
     },
     {
       "question": "Can you integrate Istio with our existing Kubernetes clusters and applications?",
-      "answer": "Yes — we integrate Istio with your current clusters and workloads, optimize service mesh configurations, enforce security policies, and implement best practices to ensure reliable and observable communication between microservices."
+      "answer": "Yes, we integrate Istio with your current clusters and workloads, optimize service mesh configurations, enforce security policies, and implement best practices to ensure reliable and observable communication between microservices."
     },
     {
       "question": "What is the typical timeline and engagement model for Istio Consulting Services?",

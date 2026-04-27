@@ -2,7 +2,7 @@
   "badge": "Security & Compliance",
   "title_plain": "Enterprise-Grade",
   "title_gradient": "Security",
-  "description": "Comprehensive security controls for regulated industries and disconnected environments—from encryption to credential management.",
+  "description": "Comprehensive security controls for regulated industries and disconnected environments, from encryption to credential management.",
   "features": [
     {
       "icon": "heroicons:lock-closed",

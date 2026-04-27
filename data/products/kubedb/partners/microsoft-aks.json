@@ -3,7 +3,7 @@
     "product_color_primary": "#0078D4",
     "product_icon": "lucide:check-circle-2",
     "hero_badge": "MICROSOFT AZURE PARTNER",
-    "hero_title_1": "Run Any Database Natively on <br>Microsoft AKS —<br><span class=\"text-gradient\">Without the Compromise.</span>",
+    "hero_title_1": "Run Any Database Natively on <br>Microsoft AKS - <br><span class=\"text-gradient\">Without the Compromise.</span>",
     "hero_description": "Deploy and manage <strong>25+ Production-grade databases</strong> as native Kubernetes resources on Microsoft AKS. Leverage Azure infrastructure with broader choice, zero extra licensing, and true GitOps agility.",
     "primary_action_text": "Start Free Trial",
     "primary_action_url": "/docs/latest/setup/",
@@ -28,7 +28,7 @@
   },
 
   "paragraph": {
-    "content": "KubeDB by AppsCode delivers a production-grade, Kubernetes-native Database-as-a-Service platform that runs seamlessly on <strong>Azure Kubernetes Service (AKS)</strong>. It enables platform teams and developers to provision, manage, scale, backup, and recover a wide range of databases using familiar Kubernetes APIs and declarative workflows—<strong>without vendor lock-in</strong> or reliance on Azure-managed database services."
+    "content": "KubeDB by AppsCode delivers a production-grade, Kubernetes-native Database-as-a-Service platform that runs seamlessly on <strong>Azure Kubernetes Service (AKS)</strong>. It enables platform teams and developers to provision, manage, scale, backup, and recover a wide range of databases using familiar Kubernetes APIs and declarative workflows - <strong>without vendor lock-in</strong> or reliance on Azure-managed database services."
   },
 
   "what_this_means": {
@@ -107,7 +107,7 @@
       {
         "icon": "lucide:layout-grid",
         "title": "Broad Database Support",
-        "description": "Manage 25+ Database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more — all with consistent Kubernetes-native workflows."
+        "description": "Manage 25+ Database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more, all with consistent Kubernetes-native workflows."
       },
       {
         "icon": "lucide:git-fork",

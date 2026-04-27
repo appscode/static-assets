@@ -47,7 +47,7 @@
     "sections": [
       {
         "title": "End-to-End Argo CD Consulting & Setup",
-        "description": "Our experts help organizations adopt Argo CD seamlessly — from environment assessment to deployment automation — ensuring consistency, visibility, and faster release cycles across all Kubernetes clusters.",
+        "description": "Our experts help organizations adopt Argo CD seamlessly, from environment assessment to deployment automation, ensuring consistency, visibility, and faster release cycles across all Kubernetes clusters.",
         "offerings": [
           "Analyze your current CI/CD ecosystem and design an Argo CD architecture tailored to your needs.",
           "Deploy and configure Argo CD for multi-cluster and hybrid environments.",
@@ -235,7 +235,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "World-Class Kubernetes Expertise",
-        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms, helping you build, scale, and automate with confidence"
       },
       {
         "icon": "fa fa-briefcase",
@@ -275,7 +275,7 @@
     },
     {
       "question": "Can you work with our existing Kubernetes clusters and applications?",
-      "answer": "Yes — we integrate Argo CD with your current clusters and workloads, optimize deployment processes, implement GitOps best practices, and ensure your applications are deployed consistently and safely across environments."
+      "answer": "Yes, we integrate Argo CD with your current clusters and workloads, optimize deployment processes, implement GitOps best practices, and ensure your applications are deployed consistently and safely across environments."
     },
     {
       "question": "What is the typical timeline and engagement model for Argo CD Consulting Services?",

@@ -15,14 +15,14 @@
       "icon": "heroicons:circle-stack",
       "icon_gradient": "linear-gradient(135deg, #22d3ee, #60a5fa)",
       "title": "Any CSI Storage",
-      "desc": "Compatible with all CSI-compliant storage providers—AWS EBS, Azure Disk, GCP PD, Ceph, Portworx, and more.",
+      "desc": "Compatible with all CSI-compliant storage providers - AWS EBS, Azure Disk, GCP PD, Ceph, Portworx, and more.",
       "card_class": "feature-card-gradient"
     },
     {
       "icon": "heroicons:shield-check",
       "icon_gradient": "linear-gradient(135deg, #fbbf24, #f97316)",
       "title": "Data Sovereignty",
-      "desc": "Full control over data locality, encryption, and storage backends—critical for regulated industries and compliance requirements.",
+      "desc": "Full control over data locality, encryption, and storage backends - critical for regulated industries and compliance requirements.",
       "card_class": "feature-card-gradient"
     },
     {

@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Azure AKS Consulting Services by Experts",
-    "subtitle": "AppsCode is an Azure Marketplace partner — delivering expert AKS consulting, deployment, optimization, and managed enterprise support.",
+    "subtitle": "AppsCode is an Azure Marketplace partner, delivering expert AKS consulting, deployment, optimization, and managed enterprise support.",
     "cta_text": "Talk to an AKS Expert",
     "cta_url": "https://appscode.com/contact/",
     "illustration": {
@@ -51,7 +51,7 @@
   },
   "service_details": {
     "title": "Our End-to-End AKS Consulting Services",
-    "subtitle": "As an <a href=\"https://azuremarketplace.microsoft.com/en-us/marketplace/apps/appscode.ace_payg\">Azure Marketplace partner</a> and <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member, AppsCode delivers expert AKS consulting — from planning to production management.",
+    "subtitle": "As an <a href=\"https://azuremarketplace.microsoft.com/en-us/marketplace/apps/appscode.ace_payg\">Azure Marketplace partner</a> and <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member, AppsCode delivers expert AKS consulting, from planning to production management.",
     "sections": [
       {
         "title": "AKS Advisory & Assessment",
@@ -254,7 +254,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "World-Class AKS Expertise",
-        "description": "50+ engineers specializing in AKS, Kubernetes, containers, and cloud-native platforms — helping you build, scale, and automate with confidence."
+        "description": "50+ engineers specializing in AKS, Kubernetes, containers, and cloud-native platforms, helping you build, scale, and automate with confidence."
       },
       {
         "icon": "fa fa-trophy",
@@ -284,7 +284,7 @@
     "products": [
       {
         "name": "AppsCode Cloud on Azure",
-        "description": "Kubernetes Native Data Platform — deploy a central management console for all your AKS clusters to provision and manage production-grade databases.",
+        "description": "Kubernetes Native Data Platform, deploy a central management console for all your AKS clusters to provision and manage production-grade databases.",
         "url": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/appscode.ace_payg",
         "logo": "/assets/images/technical-expertise/kubedb.svg"
       }
@@ -297,7 +297,7 @@
     },
     {
       "question": "Is AppsCode available on Azure Marketplace?",
-      "answer": "Yes — AppsCode is listed on the Azure Marketplace with AppsCode Cloud, a Kubernetes Native Data Platform for AKS-based cluster management. Visit azuremarketplace.microsoft.com/en-us/marketplace/apps/appscode.ace_payg to view our offering."
+      "answer": "Yes, AppsCode is listed on the Azure Marketplace with AppsCode Cloud, a Kubernetes Native Data Platform for AKS-based cluster management. Visit azuremarketplace.microsoft.com/en-us/marketplace/apps/appscode.ace_payg to view our offering."
     },
     {
       "question": "Which technologies and practices are used in AKS consulting?",
@@ -305,7 +305,7 @@
     },
     {
       "question": "Can you work with our existing AKS clusters or Azure-native stack?",
-      "answer": "Yes — we integrate with your current AKS clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable AKS deployments."
+      "answer": "Yes, we integrate with your current AKS clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable AKS deployments."
     },
     {
       "question": "What is the typical timeline and engagement model for AKS Consulting Services?",

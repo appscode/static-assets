@@ -86,7 +86,7 @@
     }
   ],
   "how_it_works_title": "Secure, Offline DBaaS",
-  "how_it_works_subtitle": "You provide the isolated infrastructure. KubeDB delivers the software—completely offline, no internet required.",
+  "how_it_works_subtitle": "You provide the isolated infrastructure. KubeDB delivers the software - completely offline, no internet required.",
   "how_it_works_infra": {
     "icon": "lucide:lock",
     "title": "Your Secure Infrastructure:",

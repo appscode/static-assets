@@ -3,7 +3,7 @@
     "product_color_primary": "#FF9900",
     "product_icon": "lucide:check-circle-2",
     "hero_badge": "AWS MARKETPLACE PARTNER",
-    "hero_title_1": "Run Any Database Natively on <br>Amazon EKS —<br><span class=\"text-gradient\">Without the Compromise.</span>",
+    "hero_title_1": "Run Any Database Natively on <br>Amazon EKS - <br><span class=\"text-gradient\">Without the Compromise.</span>",
     "hero_description": "Deploy and manage <strong>25+ Production-grade databases</strong> as native Kubernetes resources on Amazon EKS. Leverage AWS infrastructure with broader choice, zero extra licensing, and true GitOps agility.",
     "primary_action_text": "Start Free Trial",
     "primary_action_url": "/docs/latest/setup/",
@@ -28,7 +28,7 @@
   },
 
   "paragraph": {
-    "content": "KubeDB by AppsCode delivers a production-grade, Kubernetes-native Database-as-a-Service platform that runs seamlessly on <strong>Amazon Elastic Kubernetes Service (Amazon EKS)</strong>. It enables platform teams and developers to provision, manage, scale, backup, and recover a wide range of databases using familiar Kubernetes APIs and declarative workflows—<strong>without vendor lock-in</strong> or reliance on hyperscaler-managed database services."
+    "content": "KubeDB by AppsCode delivers a production-grade, Kubernetes-native Database-as-a-Service platform that runs seamlessly on <strong>Amazon Elastic Kubernetes Service (Amazon EKS)</strong>. It enables platform teams and developers to provision, manage, scale, backup, and recover a wide range of databases using familiar Kubernetes APIs and declarative workflows - <strong>without vendor lock-in</strong> or reliance on hyperscaler-managed database services."
   },
 
   "what_this_means": {
@@ -107,7 +107,7 @@
       {
         "icon": "lucide:layout-grid",
         "title": "Broad Database Support",
-        "description": "Manage 25+ Database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more — all with consistent Kubernetes-native workflows."
+        "description": "Manage 25+ Database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more, all with consistent Kubernetes-native workflows."
       },
       {
         "icon": "lucide:git-fork",
@@ -306,7 +306,7 @@
         "title": "Operational Advantages",
         "description": "",
         "benefits": [
-          "No vendor lock-in—reuse DevOps workflows on-prem or any cloud",
+          "No vendor lock-in - reuse DevOps workflows on-prem or any cloud",
           "Lower latency with databases in same cluster as apps",
           "No cross-VPC connections required",
           "Consistent Terraform/Ansible scripts across environments",

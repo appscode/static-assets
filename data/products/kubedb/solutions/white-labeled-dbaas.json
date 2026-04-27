@@ -5,7 +5,7 @@
   "hero_badge": "White-Labeled DBaaS for Cloud Service Providers",
   "hero_title_1": "Launch Your Own",
   "hero_title_2": "Production-Grade DBaaS Platform",
-  "hero_description": "Built on <strong>ACE (AppsCode Cloud Engine)</strong> — a fully managed, white-labeled, production-ready Database-as-a-Service platform that exceeds public cloud offerings while maintaining complete branding control and data sovereignty.",
+  "hero_description": "Built on <strong>ACE (AppsCode Cloud Engine)</strong> - a fully managed, white-labeled, production-ready Database-as-a-Service platform that exceeds public cloud offerings while maintaining complete branding control and data sovereignty.",
   "hero_best_with": "KubeDB Platform",
   "primary_action_text": "Schedule Demo",
   "primary_action_url": "/contact/",
@@ -199,10 +199,10 @@
     }
   ],
   "messages_title": "White-Labeled Self-Service UI + REST APIs",
-  "messages_subtitle": "Beautiful, fully branded self-service portal with complete REST APIs for native integration into your cloud console. No requirement to expose KubeDB Platform UI directly—integrate seamlessly into your existing customer experience.",
+  "messages_subtitle": "Beautiful, fully branded self-service portal with complete REST APIs for native integration into your cloud console. No requirement to expose KubeDB Platform UI directly - integrate seamlessly into your existing customer experience.",
   "message_icon": "lucide:monitor",
   "universal_access_title": "Universal Database Access",
-  "universal_access_subtitle": "Your customers' databases are accessible from anywhere—modern cloud-native apps and legacy VM-based applications alike",
+  "universal_access_subtitle": "Your customers' databases are accessible from anywhere - modern cloud-native apps and legacy VM-based applications alike",
   "universal_access_cards": [
     {
       "title": "Inside Kubernetes",
@@ -248,7 +248,7 @@
     }
   ],
   "universal_access_message_title": "Seamless Hybrid Access",
-  "universal_access_message_body": "Your customers can connect from containerized microservices, serverless functions, traditional monoliths on VMs, or external SaaS applications—all using standard database protocols. No special clients or SDKs required.",
+  "universal_access_message_body": "Your customers can connect from containerized microservices, serverless functions, traditional monoliths on VMs, or external SaaS applications - all using standard database protocols. No special clients or SDKs required.",
   "universal_access_message_icon": "lucide:sparkles",
   "universal_access_message_gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
   "universal_access_message_border": "#bfdbfe",
@@ -344,7 +344,7 @@
     },
     {
       "question": "What about data sovereignty and compliance?",
-      "answer": "ACE ensures complete data sovereignty - all customer data remains in your infrastructure. It supports encryption at rest, RBAC, network policies, audit logging, and integrations with compliance frameworks."
+      "answer": "ACE ensures complete data sovereignty, all customer data remains in your infrastructure. It supports encryption at rest, RBAC, network policies, audit logging, and integrations with compliance frameworks."
     }
   ],
   "cta_badge": "White-Label Ready",

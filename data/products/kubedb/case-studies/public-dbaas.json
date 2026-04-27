@@ -1,5 +1,5 @@
 {
-  "title": "White-label DBaaS live in 30 days — serving 20,000+ customers",
+  "title": "White-label DBaaS live in 30 days: serving 20,000+ customers",
   "tagline": "Launched a fully-featured public DBaaS in <span class=\"has-text-primary\">just 30 days</span>",
   "description": "A leading public cloud provider integrated KubeDB into their managed Kubernetes service and went live with a complete white-label Database-as-a-Service offering in record time.",
   "company": "Public Cloud Provider",
@@ -79,7 +79,7 @@
     "White-label DBaaS"
   ],
 
-  "challenge_title": "Launch a competitive public DBaaS — fast",
+  "challenge_title": "Launch a competitive public DBaaS - fast",
   "challenge_badge": "THE CHALLENGE",
   "challenge_summary": "Company X needed a fully managed, white-label Database-as-a-Service to complement their managed Kubernetes offering, without building everything from scratch.",
   "challenge_key_pains": "Rapid delivery · Multi-engine support · White-label branding · Customer self-service · Cost efficiency",
@@ -92,7 +92,7 @@
     {
       "icon": "lucide:database",
       "title": "Multiple engines required",
-      "description": "PostgreSQL, MySQL, Redis, MongoDB, Kafka, Elasticsearch, and more — all needed immediately."
+      "description": "PostgreSQL, MySQL, Redis, MongoDB, Kafka, Elasticsearch, and more, all needed immediately."
     },
     {
       "icon": "lucide:users",
@@ -115,12 +115,12 @@
     {
       "number": "2",
       "title": "Self-service customer portal",
-      "description": "Powered by ACE UI — customers can create, scale, and manage databases instantly."
+      "description": "Powered by ACE UI, customers can create, scale, and manage databases instantly."
     },
     {
       "number": "3",
       "title": "Full automation out of the box",
-      "description": "Provisioning, scaling, upgrades, failover, backups, and monitoring — all handled by KubeDB."
+      "description": "Provisioning, scaling, upgrades, failover, backups, and monitoring, all handled by KubeDB."
     },
     {
       "number": "4",
@@ -175,7 +175,7 @@
   "results_quote": "Launched fully-featured public DBaaS in just 30 days with complete automation and white-label self-service experience.",
   "results_quote_author": "Platform Team",
 
-  "cta_title": "Launch your own public or white-label DBaaS in weeks — not months",
+  "cta_title": "Launch your own public or white-label DBaaS in weeks - not months",
   "cta_description": "KubeDB gives cloud providers everything needed to offer production-grade, multi-engine Database-as-a-Service instantly.",
   "cta_primary": "Get 30-day Enterprise Trial",
   "cta_secondary": "View More Case Studies",

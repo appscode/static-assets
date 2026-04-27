@@ -4,7 +4,7 @@
     "product_icon": "lucide:server",
     "hero_badge": "FOR EXISTING MIRANTIS CUSTOMERS",
     "hero_title_1": "Run Any Database Natively on Mirantis Kubernetes Engine <span class=\"text-gradient\">Without the Compromise.</span>",
-    "hero_description": "Deploy and manage <strong>25+ Production-grade databases</strong> as native Kubernetes resources directly on your Mirantis Kubernetes Engine (MKE). Leverage Mirantis OpenStack for Kubernetes (MOSK) storage and MKE's enterprise security — with broader choice, zero extra licensing, and true GitOps agility.",
+    "hero_description": "Deploy and manage <strong>25+ Production-grade databases</strong> as native Kubernetes resources directly on your Mirantis Kubernetes Engine (MKE). Leverage Mirantis OpenStack for Kubernetes (MOSK) storage and MKE's enterprise security - with broader choice, zero extra licensing, and true GitOps agility.",
     "primary_action_text": "Why KubeDB on MKE",
     "primary_action_url": "#comparison",
     "secondary_action_text": "Deploy in Minutes on MKE",
@@ -27,9 +27,9 @@
     ]
   },
   "badge": "FOR EXISTING MIRANTIS CUSTOMERS",
-  "heading": "Run Any Database Natively on <br>Mirantis Kubernetes Engine —<br>",
+  "heading": "Run Any Database Natively on <br>Mirantis Kubernetes Engine - <br>",
   "heading_highlight": "Without the Compromise.",
-  "description": "Deploy and manage <strong>25+ Production-grade databases</strong> as native Kubernetes resources directly on your Mirantis Kubernetes Engine (MKE). Leverage Mirantis OpenStack for Kubernetes (MOSK) storage and MKE's enterprise security — with broader choice, zero extra licensing, and true GitOps agility.",
+  "description": "Deploy and manage <strong>25+ Production-grade databases</strong> as native Kubernetes resources directly on your Mirantis Kubernetes Engine (MKE). Leverage Mirantis OpenStack for Kubernetes (MOSK) storage and MKE's enterprise security, with broader choice, zero extra licensing, and true GitOps agility.",
   "cta_primary": {
     "text": "Why KubeDB on MKE",
     "href": "#comparison"
@@ -56,7 +56,7 @@
   "platform": {
     "badge": "THE PLATFORM",
     "heading": "Your Mirantis Stack is Already Perfect for KubeDB",
-    "description": "MKE delivers enterprise-grade Kubernetes. MOSK brings production OpenStack services on Kubernetes. KubeDB makes databases a first-class citizen — with no extra tools or licensing.",
+    "description": "MKE delivers enterprise-grade Kubernetes. MOSK brings production OpenStack services on Kubernetes. KubeDB makes databases a first-class citizen, with no extra tools or licensing.",
     "cards": [
       {
         "title": "Mirantis Kubernetes Engine (MKE)",
@@ -66,7 +66,7 @@
         "features": [
           "Full support for operators, Helm & CRDs",
           "Integrated observability & GitOps-ready",
-          "MKE 4 on k0s — lightweight & performant"
+          "MKE 4 on k0s - lightweight & performant"
         ]
       },
       {
@@ -74,7 +74,7 @@
         "icon": "lucide:server",
         "color": "info",
         "badge": "STORAGE POWERHOUSE",
-        "description": "Full OpenStack (Nova, Cinder, Neutron, Keystone, Ceph) running natively on MKE. Enterprise private cloud with software-defined storage and networking — all managed through Kubernetes.",
+        "description": "Full OpenStack (Nova, Cinder, Neutron, Keystone, Ceph) running natively on MKE. Enterprise private cloud with software-defined storage and networking, all managed through Kubernetes.",
         "features": [
           "Ceph CSI driver for high-performance PVCs",
           "Cinder block storage integration",
@@ -87,7 +87,7 @@
         "color": "warning",
         "legacy": true,
         "description": "VM-based databases, manual ops, or limited operators. Great for legacy, but lacks the speed, breadth, and developer agility of true Kubernetes-native databases.",
-        "note": "KubeDB fills the gap — turning MKE into a full-featured, open database platform."
+        "note": "KubeDB fills the gap - turning MKE into a full-featured, open database platform."
       }
     ]
   },
@@ -111,7 +111,7 @@
       {
         "capability": "Management Style",
         "traditional": "Console/scripts or basic operators",
-        "kubedb": "Declarative GitOps (ArgoCD/Flux) — same as your apps"
+        "kubedb": "Declarative GitOps (ArgoCD/Flux) - same as your apps"
       },
       {
         "capability": "Cost Model",
@@ -121,7 +121,7 @@
       {
         "capability": "Storage Integration",
         "traditional": "Manual or limited",
-        "kubedb": "Native MOSK Ceph CSI + Cinder — sub-ms latency, erasure coding"
+        "kubedb": "Native MOSK Ceph CSI + Cinder - sub-ms latency, erasure coding"
       },
       {
         "capability": "Security & Compliance",
@@ -142,7 +142,7 @@
       {
         "title": "Zero Extra Licensing Cost",
         "icon": "lucide:dollar-sign",
-        "description": "Maximize your existing MKE and MOSK investment — no per-core database licensing or proprietary DBaaS fees."
+        "description": "Maximize your existing MKE and MOSK investment, no per-core database licensing or proprietary DBaaS fees."
       },
       {
         "title": "True Developer Agility",
@@ -152,7 +152,7 @@
       {
         "title": "Enterprise Security & Compliance",
         "icon": "lucide:shield",
-        "description": "Built-in TLS, encryption, and seamless integration with MKE's RBAC, FIPS 140-2, and STIG-hardened policies — plus MOSK's secure networking."
+        "description": "Built-in TLS, encryption, and seamless integration with MKE's RBAC, FIPS 140-2, and STIG-hardened policies, plus MOSK's secure networking."
       },
       {
         "title": "High-Performance MOSK Storage",
@@ -162,12 +162,12 @@
       {
         "title": "Hybrid & Multi-Cloud Freedom",
         "icon": "lucide:globe",
-        "description": "Identical KubeDB manifests work across MKE on-prem, public cloud, or any CNCF Kubernetes — no vendor lock-in."
+        "description": "Identical KubeDB manifests work across MKE on-prem, public cloud, or any CNCF Kubernetes, no vendor lock-in."
       },
       {
         "title": "Unified App + Data Platform",
         "icon": "lucide:bar-chart-2",
-        "description": "Run databases alongside your microservices on MKE. Use MKE observability, policies, and fleet management for everything — apps and data in one stack."
+        "description": "Run databases alongside your microservices on MKE. Use MKE observability, policies, and fleet management for everything, apps and data in one stack."
       }
     ]
   },

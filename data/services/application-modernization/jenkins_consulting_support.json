@@ -240,7 +240,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Certified Developers",
-        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms, helping you build, scale, and automate with confidence."
       },
       {
         "icon": "fa fa-briefcase",
@@ -280,7 +280,7 @@
     },
     {
       "question": "Can you work with our existing Jenkins infrastructure?",
-      "answer": "Yes — we assess your current Jenkins setup, optimize pipelines, implement best practices, and provide guidance to integrate with your existing development workflows, ensuring faster, reliable, and repeatable deployments."
+      "answer": "Yes, we assess your current Jenkins setup, optimize pipelines, implement best practices, and provide guidance to integrate with your existing development workflows, ensuring faster, reliable, and repeatable deployments."
     },
     {
       "question": "What is the typical timeline and engagement model for Jenkins Consulting & Professional Support Services?",

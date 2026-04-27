@@ -51,7 +51,7 @@
   },
   "service_details": {
     "title": "Our End-to-End Kubernetes Consulting Services",
-    "subtitle": "As a <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and KCSP, AppsCode provides expert Kubernetes consulting services — from planning to production management.",
+    "subtitle": "As a <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and KCSP, AppsCode provides expert Kubernetes consulting services, from planning to production management.",
     "sections": [
       {
         "title": "Kubernetes Advisory & Assessment",
@@ -249,7 +249,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "World-Class Kubernetes Expertise",
-        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms, helping you build, scale, and automate with confidence"
       },
       {
         "icon": "fa fa-briefcase",
@@ -289,7 +289,7 @@
     },
     {
       "question": "Can you work with our existing Kubernetes clusters or cloud-native stack?",
-      "answer": "Yes — we integrate with your current clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable Kubernetes deployments."
+      "answer": "Yes, we integrate with your current clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable Kubernetes deployments."
     },
     {
       "question": "What is the typical timeline and engagement model for Kubernetes Consulting Services?",

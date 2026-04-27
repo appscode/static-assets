@@ -2,7 +2,7 @@
   "badge": "Core Platform",
   "title_plain": "Production-Ready",
   "title_gradient": "Database Operations",
-  "description": "Automate the complete database lifecycle—from initial provisioning to day-2 operations, scaling, and disaster recovery.",
+  "description": "Automate the complete database lifecycle, from initial provisioning to day-2 operations, scaling, and disaster recovery.",
   "features": [
     {
       "icon": "heroicons:bolt",
@@ -14,7 +14,7 @@
       "icon": "heroicons:arrow-path",
       "icon_gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)",
       "title": "Day-2 Operations",
-      "desc": "Automated backups, monitoring, scaling, patching, and upgrades—all handled by KubeDB operators."
+      "desc": "Automated backups, monitoring, scaling, patching, and upgrades - all handled by KubeDB operators."
     },
     {
       "icon": "heroicons:shield-check",

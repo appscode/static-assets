@@ -190,7 +190,7 @@
     },
     {
       "title": "Automated Operations",
-      "description": "Provisioning, scaling, patching, backup, and recovery - all automated",
+      "description": "Provisioning, scaling, patching, backup, and recovery, all automated",
       "icon": "lucide:refresh-cw",
       "gradient_class": "gradient-box-purple"
     },
@@ -202,7 +202,7 @@
     },
     {
       "title": "Multi-Cloud & Hybrid",
-      "description": "Run on any Kubernetes cluster - AWS, Azure, GCP, on-premises, or edge",
+      "description": "Run on any Kubernetes cluster, AWS, Azure, GCP, on-premises, or edge",
       "icon": "lucide:cloud",
       "gradient_class": "gradient-box-cyan"
     },

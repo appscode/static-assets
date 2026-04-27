@@ -4,7 +4,7 @@
   "cta_bg_color": "#064e3b",
   "hero_title_1": "Automate Database Operations",
   "hero_title_2": "with True GitOps",
-  "hero_description": "The only Kubernetes-native DBaaS that brings full GitOps maturity to stateful workloads — at Operator Capability Level 5",
+  "hero_description": "The only Kubernetes-native DBaaS that brings full GitOps maturity to stateful workloads - at Operator Capability Level 5",
   "hero_badge": "GitOps-First Database Automation",
   "hero_subtitle_highlight": "Operator Capability Level 5",
   "primary_action_text": "See GitOps in Action",
@@ -47,7 +47,7 @@
     "steps": [
       { "id": "1", "title": "Commit to Git", "description": "Push your desired database state using dedicated GitOps CRDs." },
       { "id": "2", "title": "Argo CD / Flux Syncs", "description": "Your favorite GitOps tool applies the change safely." },
-      { "id": "3", "title": "OpsRequest Magic", "description": "KubeDB translates your declaration into safe, auditable OpsRequests — no spec fights.", "vibrant": true }
+      { "id": "3", "title": "OpsRequest Magic", "description": "KubeDB translates your declaration into safe, auditable OpsRequests: no spec fights.", "vibrant": true }
     ]
   },
   "comparison": {

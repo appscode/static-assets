@@ -3,7 +3,7 @@
     "product_color_primary": "#7272E9",
     "product_icon": "lucide:circle-check",
     "hero_badge": "OFFICIALLY CERTIFIED OPERATOR",
-    "hero_title_1": "Run Any Database Natively on Red Hat OpenShift — <span class=\"text-gradient\">Without the Compromise.</span>",
+    "hero_title_1": "Run Any Database Natively on Red Hat OpenShift - <span class=\"text-gradient\">Without the Compromise.</span>",
     "hero_description": "Deploy and manage 25+ Production-grade databases as native Kubernetes resources on Red Hat OpenShift. Run production databases with full automation, governance, and portability across on-prem, cloud, edge, and air-gapped environments.",
     "primary_action_text": "Why KubeDB on MKE",
     "primary_action_url": "#comparison",
@@ -76,8 +76,8 @@
         "title": "Broad Database Support",
         "icon": "lucide:boxes",
         "color": "info",
-        "description": "Manage 25+ Database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more — all with consistent Kubernetes-native workflows on both containers and VMs.",
-        "note": "KubeDB fills the gap — turning MKE into a full-featured, open database platform."
+        "description": "Manage 25+ Database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more, all with consistent Kubernetes-native workflows on both containers and VMs.",
+        "note": "KubeDB fills the gap - turning MKE into a full-featured, open database platform."
       },
       {
         "title": "Automated Lifecycle Management",
@@ -147,7 +147,7 @@
       {
         "capability": "Storage Integration",
         "traditional": "External or basic PVCs",
-        "kubedb": "Native ODF Ceph CSI — high performance, snapshots, erasure coding"
+        "kubedb": "Native ODF Ceph CSI - high performance, snapshots, erasure coding"
       },
       {
         "capability": "Security & Compliance",

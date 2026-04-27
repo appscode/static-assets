@@ -153,7 +153,7 @@
   "industries": {
     "title": "Industry Expertise That Delivers Results",
     "subtitle": "We combine deep technical knowledge with domain-specific experience to deliver secure, scalable networking for every industry.",
-    "additional_text": "From enterprises with global datacenters to fast-scaling startups — we’ve got you covered.",
+    "additional_text": "From enterprises with global datacenters to fast-scaling startups - we’ve got you covered.",
     "sectors": [
       {
         "icon": "fa fa-bank",
@@ -288,7 +288,7 @@
     },
     {
       "question": "Can you work with our existing cloud infrastructure and applications?",
-      "answer": "Yes — we integrate cloud-native networking practices with your current infrastructure and workloads, optimize traffic management, enforce security policies, and provide guidance to improve network performance and reliability."
+      "answer": "Yes, we integrate cloud-native networking practices with your current infrastructure and workloads, optimize traffic management, enforce security policies, and provide guidance to improve network performance and reliability."
     },
     {
       "question": "What is the typical timeline and engagement model for Cloud-Native Networking Services?",

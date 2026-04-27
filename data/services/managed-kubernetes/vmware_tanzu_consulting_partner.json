@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "VMware Tanzu Kubernetes Grid (TKG) Consulting Services",
-    "subtitle": "AppsCode delivers expert VMware Tanzu Kubernetes Grid consulting — from architecture design and deployment to optimization and enterprise-grade managed support.",
+    "subtitle": "AppsCode delivers expert VMware Tanzu Kubernetes Grid consulting, from architecture design and deployment to optimization and enterprise-grade managed support.",
     "cta_text": "Talk to a TKG Expert",
     "cta_url": "https://appscode.com/contact/",
     "illustration": {
@@ -51,7 +51,7 @@
   },
   "service_details": {
     "title": "Our End-to-End VMware TKG Consulting Services",
-    "subtitle": "As a <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member with deep Kubernetes expertise, AppsCode delivers expert VMware Tanzu Kubernetes Grid consulting — from planning to production management.",
+    "subtitle": "As a <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member with deep Kubernetes expertise, AppsCode delivers expert VMware Tanzu Kubernetes Grid consulting, from planning to production management.",
     "sections": [
       {
         "title": "TKG Advisory & Assessment",
@@ -249,7 +249,7 @@
       {
         "icon": "fa fa-trophy",
         "title": "Deep Kubernetes Expertise",
-        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms — including VMware Tanzu Kubernetes Grid deployments on vSphere and public clouds."
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms, including VMware Tanzu Kubernetes Grid deployments on vSphere and public clouds."
       },
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
@@ -293,7 +293,7 @@
     },
     {
       "question": "Can you work with our existing TKG clusters or VMware infrastructure?",
-      "answer": "Yes — we integrate with your current TKG clusters, vSphere environment, and workloads. We optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable TKG deployments."
+      "answer": "Yes, we integrate with your current TKG clusters, vSphere environment, and workloads. We optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable TKG deployments."
     },
     {
       "question": "What is the typical timeline and engagement model for TKG Consulting Services?",
@@ -305,7 +305,7 @@
     },
     {
       "question": "How do you ensure security, reliability, and operational efficiency in TKG?",
-      "answer": "We enforce security best practices including RBAC, network policies, secrets management, and vulnerability scanning — leveraging VMware NSX for advanced network security. Reliability is ensured with monitoring, backup/recovery strategies, and disaster resilience patterns. Operational efficiency is achieved through automation, CI/CD integration, and resource optimization."
+      "answer": "We enforce security best practices including RBAC, network policies, secrets management, and vulnerability scanning, leveraging VMware NSX for advanced network security. Reliability is ensured with monitoring, backup/recovery strategies, and disaster resilience patterns. Operational efficiency is achieved through automation, CI/CD integration, and resource optimization."
     },
     {
       "question": "What happens after TKG consulting and implementation?",

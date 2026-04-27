@@ -323,7 +323,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Certified Developers",
-        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms, helping you build, scale, and automate with confidence."
       },
       {
         "icon": "fa fa-briefcase",
@@ -363,13 +363,13 @@
       },
       {
         "type": "Blog",
-        "title": "Future-Proof Your Data Strategy - Why Kubernetes is the Engine Behind Stateful Workloads & Modern AI",
+        "title": "Future-Proof Your Data Strategy: Why Kubernetes is the Engine Behind Stateful Workloads & Modern AI",
         "image": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_254620_1300x650_fill_q75_box_smart1.jpg",
         "link": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/"
       },
       {
         "type": "Event",
-        "title": "KubeConNA Digest - Top Trends and Key Takeaways from This Year’s Event by AppsCode",
+        "title": "KubeConNA Digest: Top Trends and Key Takeaways from This Year’s Event by AppsCode",
         "image": "https://appscode.com/blog/post/kubecon-na-2024/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_69997_1300x650_fill_q75_box_smart1.jpg",
         "link": "https://appscode.com/blog/post/kubecon-na-2024/"
       }
@@ -378,7 +378,7 @@
   "faq": [
     {
       "question": "What do your CI/CD Consulting Services include?",
-      "answer": "Our CI/CD Consulting Services cover the full lifecycle of continuous integration and delivery — from evaluating your current processes, defining pipelines, integrating DevOps best practices, to implementing automation for faster, reliable, and repeatable software releases."
+      "answer": "Our CI/CD Consulting Services cover the full lifecycle of continuous integration and delivery, from evaluating your current processes, defining pipelines, integrating DevOps best practices, to implementing automation for faster, reliable, and repeatable software releases."
     },
     {
       "question": "Which technologies and practices are used in CI/CD consulting?",
@@ -386,7 +386,7 @@
     },
     {
       "question": "Can you work with our existing development and deployment workflows?",
-      "answer": "Yes — we integrate with your current tech stack and workflows. Our engineers enhance existing pipelines, implement best practices, and optimize for continuous delivery to improve speed, quality, and operational confidence."
+      "answer": "Yes, we integrate with your current tech stack and workflows. Our engineers enhance existing pipelines, implement best practices, and optimize for continuous delivery to improve speed, quality, and operational confidence."
     },
     {
       "question": "What is the typical timeline and engagement model for CI/CD Consulting Services?",

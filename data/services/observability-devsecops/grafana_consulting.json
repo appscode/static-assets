@@ -43,7 +43,7 @@
   },
   "service_details": {
     "title": "Grafana Consulting Services by Appscode",
-    "subtitle": "Accelerate your observability journey with expert guidance — from deployment to ongoing enterprise support.",
+    "subtitle": "Accelerate your observability journey with expert guidance, from deployment to ongoing enterprise support.",
     "sections": [
       {
         "title": "Grafana Strategy, Advisory & Implementation",
@@ -57,7 +57,7 @@
       },
       {
         "title": "Grafana Data Integration & Visualization",
-        "description": "Our Grafana integration services help you connect multiple data sources — from <a href=\"https://appscode.com/services/prometheus-consulting-services/\">Prometheus</a> and InfluxDB to MySQL, PostgreSQL, and Elasticsearch — creating a unified observability view for your teams.",
+        "description": "Our Grafana integration services help you connect multiple data sources, from <a href=\"https://appscode.com/services/prometheus-consulting-services/\">Prometheus</a> and InfluxDB to MySQL, PostgreSQL, and Elasticsearch, creating a unified observability view for your teams.",
         "offerings": [
           "Expert consulting on Grafana data source configuration and monitoring best practices.",
           "Setup of unified, multi-source dashboards for complete system visibility.",
@@ -92,7 +92,7 @@
   "industries": {
     "title": "Industry-Focused Grafana Consulting Expertise",
     "subtitle": "Appscode delivers Grafana observability solutions designed for reliability, compliance, and scalability across diverse industries.",
-    "additional_text": "Our Grafana experts help businesses — from startups to enterprises — gain deep, actionable visibility into their infrastructure and applications.",
+    "additional_text": "Our Grafana experts help businesses - from startups to enterprises - gain deep, actionable visibility into their infrastructure and applications.",
     "sectors": [
       {
         "icon": "fa fa-bank",
@@ -233,7 +233,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Certified Grafana & Cloud-Native Experts",
-        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
+        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms, helping you build, scale, and automate with confidence"
       },
       {
         "icon": "fa fa-briefcase",
@@ -258,7 +258,7 @@
       {
         "icon": "fa fa-users",
         "title": "Flexible Engagement Models",
-        "description": "Scale your observability initiatives easily with Appscode’s on-demand Grafana experts — no long-term overhead."
+        "description": "Scale your observability initiatives easily with Appscode’s on-demand Grafana experts, no long-term overhead."
       }
     ]
   },
@@ -273,7 +273,7 @@
     },
     {
       "question": "Can you work with our existing applications and monitoring setup?",
-      "answer": "Yes — we integrate Grafana with your current monitoring stack, configure dashboards and alerts, implement metrics collection, and provide guidance for continuous monitoring and observability improvement."
+      "answer": "Yes, we integrate Grafana with your current monitoring stack, configure dashboards and alerts, implement metrics collection, and provide guidance for continuous monitoring and observability improvement."
     },
     {
       "question": "What is the typical timeline and engagement model for Grafana Consulting Services?",

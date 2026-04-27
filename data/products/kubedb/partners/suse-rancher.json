@@ -3,7 +3,7 @@
     "product_color_primary": "#7272E9",
     "product_icon": "lucide:check-circle",
     "hero_badge": "OFFICIALLY CERTIFIED PARTNERSHIP",
-    "hero_title_1": "Run Any Database Natively on SUSE Rancher Prime — <span class=\"text-gradient\">Without the Compromise.</span>",
+    "hero_title_1": "Run Any Database Natively on SUSE Rancher Prime - <span class=\"text-gradient\">Without the Compromise.</span>",
     "hero_description": "Deploy and manage 25+ Production-grade databases as native Kubernetes resources on SUSE Rancher Prime. Run production databases with full automation, governance, and portability across on-prem, cloud, edge, and air-gapped environments.",
     "primary_action_text": "Deploy Your First Database",
     "primary_action_url": "/docs/latest/setup/",
@@ -30,13 +30,13 @@
   "platform": {
     "badge": "FOR SUSE RANCHER USERS",
     "heading": "How KubeDB supercharges your Rancher environment",
-    "description": "Turn your SUSE Rancher Prime clusters into a fully governed, self-service Database-as-a-Service platform — with zero operational complexity.",
+    "description": "Turn your SUSE Rancher Prime clusters into a fully governed, self-service Database-as-a-Service platform, with zero operational complexity.",
     "cards": [
       {
         "title": "Unified DBaaS Across Any Kubernetes",
         "icon": "lucide:globe",
         "color": "info",
-        "description": "Deploy and manage databases consistently across all clusters managed by Rancher Prime — on-prem, cloud, edge, and air-gapped — without re-architecting or vendor lock-in.",
+        "description": "Deploy and manage databases consistently across all clusters managed by Rancher Prime, on-prem, cloud, edge, and air-gapped, without re-architecting or vendor lock-in.",
         "features": [
           "Portable across any Rancher cluster",
           "Zero cloud DBaaS dependency",
@@ -136,7 +136,7 @@
       {
         "capability": "Management Style",
         "traditional": "Console-driven or external tools",
-        "kubedb": "Declarative GitOps (ArgoCD/Flux) — unified with apps"
+        "kubedb": "Declarative GitOps (ArgoCD/Flux) - unified with apps"
       },
       {
         "capability": "Cost Structure",
@@ -151,7 +151,7 @@
       {
         "capability": "Storage Integration",
         "traditional": "External or basic PVCs",
-        "kubedb": "Native SUSE Longhorn — replicated, snapshots, high performance"
+        "kubedb": "Native SUSE Longhorn - replicated, snapshots, high performance"
       },
       {
         "capability": "Security & Compliance",
@@ -187,7 +187,7 @@
       {
         "title": "Developer-First Agility",
         "icon": "lucide:rocket",
-        "description": "Databases become Kubernetes objects. Enable self-service provisioning, GitOps workflows, and faster iteration — all while running alongside your microservices on NKP."
+        "description": "Databases become Kubernetes objects. Enable self-service provisioning, GitOps workflows, and faster iteration, all while running alongside your microservices on NKP."
       },
       {
         "title": "Enterprise Security & Operations",
@@ -202,7 +202,7 @@
       {
         "title": "Hybrid & Multi-Cloud Ready",
         "icon": "lucide:globe",
-        "description": "Use identical manifests across on-premises NKP, NC2 on public clouds, or any CNCF Kubernetes — avoiding vendor lock-in common with traditional DBaaS."
+        "description": "Use identical manifests across on-premises NKP, NC2 on public clouds, or any CNCF Kubernetes, avoiding vendor lock-in common with traditional DBaaS."
       },
       {
         "title": "Proven at Enterprise Scale",
