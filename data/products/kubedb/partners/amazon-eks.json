@@ -85,7 +85,7 @@
         "gradient": "mke"
       }
     ],
-    "image": "/assets/images/partners/KubeDB_Stack_Diagram.png",
+    "image": "/assets/images/products/kubedb/illustrations/generic.png",
     "image_alt": "KubeDB Platform Architecture on Amazon EKS",
     "image_tags": ["On-premises", "Cloud", "Edge"]
   },
