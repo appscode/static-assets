@@ -181,7 +181,7 @@
         "gradient": "purple"
       }
     ],
-    "image": "/assets/images/partners/KubeDB_Stack_Diagram.png",
+    "image": "/assets/images/products/kubedb/stack-diagram/vmware.png",
     "image_alt": "KubeDB Platform Architecture on VMware vSphere Kubernetes Service",
     "image_tags": ["On-premises", "Cloud", "Edge"]
   },

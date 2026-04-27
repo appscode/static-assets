@@ -85,7 +85,7 @@
         "gradient": "mke"
       }
     ],
-    "image": "/assets/images/partners/KubeDB_Stack_Diagram.png",
+    "image": "/assets/images/products/kubedb/stack-diagram/generic.png",
     "image_alt": "KubeDB Platform Architecture on Microsoft AKS",
     "image_tags": ["On-premises", "Cloud", "Edge"]
   },
