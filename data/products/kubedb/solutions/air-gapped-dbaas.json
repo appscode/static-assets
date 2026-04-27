@@ -1,0 +1,223 @@
+{
+  "product_name": "Air-Gapped / Regulated Environments",
+  "product_color_primary": "#4948A3",
+  "cta_bg_color": "#312e81",
+  "hero_badge": "Air-Gapped DBaaS",
+  "hero_title_1": "Secure DBaaS for",
+  "hero_title_2": "Isolated Environments",
+  "hero_description": "Deploy production-grade database automation in air-gapped, disconnected, and high-security Kubernetes environments with complete offline installation support.",
+  "primary_action_text": "Request Access",
+  "primary_action_url": "https://appscode.com/contact/",
+  "secondary_action_text": "View Requirements",
+  "secondary_action_url": "/docs/latest/setup/",
+  "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+  "product_icon": "lucide:server",
+  "hero_best_with_items": [
+    "KubeDB Operator",
+    "KubeDB Platform"
+  ],
+  "stats": [
+    { "label": "Security Level", "value": "Highest" },
+    { "label": "Internet Access", "value": "Zero" },
+    { "label": "Package Size", "value": "~50GB" },
+    { "label": "Update Frequency", "value": "Quarterly" }
+  ],
+  "when_to_use_title": "Why Air-Gapped Deployment?",
+  "when_to_use_subtitle": "Why Air-Gapped Deployment?",
+  "when_to_use_description": "Maximum security for your most sensitive workloads",
+  "when_to_use": [
+    {
+      "icon": "lucide:shield",
+      "title": "Maximum Security",
+      "description": "Complete isolation from public internet for highest security",
+      "icon_bg": "#8b5cf6"
+    },
+    {
+      "icon": "lucide:lock",
+      "title": "Compliance Ready",
+      "description": "Meet strict regulatory requirements for sensitive data",
+      "icon_bg": "#3b82f6"
+    },
+    {
+      "icon": "lucide:hard-drive",
+      "title": "Self-Contained",
+      "description": "All components bundled for offline installation",
+      "icon_bg": "#10b981"
+    },
+    {
+      "icon": "lucide:zap",
+      "title": "Full Automation",
+      "description": "Same automation capabilities in air-gapped environments",
+      "icon_bg": "#a855f7"
+    }
+  ],
+  "platform_built_for_scale_title": "Air-Gap Ready Features",
+  "platform_built_for_scale_subtitle": "Everything needed for offline database operations",
+  "platform_built_for_scale": [
+    {
+      "icon": "lucide:download",
+      "title": "Offline Installation",
+      "description": "Complete installation packages with all dependencies bundled"
+    },
+    {
+      "icon": "lucide:package",
+      "title": "Container Registry",
+      "description": "Private container registry with all database images"
+    },
+    {
+      "icon": "lucide:key",
+      "title": "License Management",
+      "description": "Offline license activation and management"
+    },
+    {
+      "icon": "lucide:shield",
+      "title": "Security Scanning",
+      "description": "Pre-scanned images and vulnerability reports included"
+    },
+    {
+      "icon": "lucide:file-check",
+      "title": "Documentation Bundle",
+      "description": "Complete offline documentation and troubleshooting guides"
+    },
+    {
+      "icon": "lucide:network",
+      "title": "Network Isolation",
+      "description": "Operates without external network dependencies"
+    }
+  ],
+  "how_it_works_title": "Secure, Offline DBaaS",
+  "how_it_works_subtitle": "You provide the isolated infrastructure. KubeDB delivers the software - completely offline, no internet required.",
+  "how_it_works_infra": {
+    "icon": "lucide:lock",
+    "title": "Your Secure Infrastructure:",
+    "items": [
+      { "icon": "lucide:server", "text": "Air-gapped Kubernetes clusters" },
+      { "icon": "lucide:hard-drive", "text": "Isolated storage systems" },
+      { "icon": "lucide:network", "text": "Disconnected networks" },
+      { "icon": "lucide:lock", "text": "Secure offline object storage" }
+    ]
+  },
+  "how_it_works_software": {
+    "icon": "lucide:package",
+    "title": "KubeDB Offline Package:",
+    "items": [
+      { "icon": "lucide:package", "text": "Complete offline installation bundle" },
+      { "icon": "lucide:shield", "text": "Pre-scanned container images" },
+      { "icon": "lucide:file-check", "text": "Offline documentation & tools" },
+      { "icon": "lucide:key", "text": "Offline license management" }
+    ]
+  },
+  "how_it_works_summary": "Zero internet • Maximum security • Full air-gap compliance",
+  "regulated_use_cases_title": "Industry Use Cases",
+  "regulated_use_cases_subtitle": "Trusted by organizations with the highest security requirements",
+  "regulated_use_cases": [
+    {
+      "title": "Government & Defense",
+      "icon": "lucide:building-2",
+      "description": "Meet strict security requirements for classified systems",
+      "requirements": [
+        "NIST compliance",
+        "FedRAMP requirements",
+        "Classified data handling",
+        "Secure supply chain"
+      ]
+    },
+    {
+      "title": "Financial Services",
+      "icon": "lucide:lock",
+      "description": "Protect sensitive financial data in isolated environments",
+      "requirements": [
+        "PCI-DSS compliance",
+        "Data sovereignty",
+        "Audit trail requirements",
+        "Disaster recovery"
+      ]
+    },
+    {
+      "title": "Healthcare",
+      "icon": "lucide:shield",
+      "description": "HIPAA-compliant database infrastructure",
+      "requirements": [
+        "HIPAA compliance",
+        "PHI protection",
+        "Access controls",
+        "Encryption at rest"
+      ]
+    },
+    {
+      "title": "Critical Infrastructure",
+      "icon": "lucide:server",
+      "description": "Databases for power, water, and utility systems",
+      "requirements": [
+        "ICS/SCADA security",
+        "High availability",
+        "Zero-trust architecture",
+        "Incident response"
+      ]
+    }
+  ],
+  "deployment_process_title": "Simple Deployment Process",
+  "deployment_process_subtitle": "Secure transfer and installation workflow",
+  "deployment_process": [
+    {
+      "step": 1,
+      "title": "Package Download",
+      "desc": "Download complete offline installation bundle",
+      "icon": "lucide:download"
+    },
+    {
+      "step": 2,
+      "title": "Secure Transfer",
+      "desc": "Transfer package to air-gapped environment",
+      "icon": "lucide:hard-drive"
+    },
+    {
+      "step": 3,
+      "title": "Verification",
+      "desc": "Verify checksums and digital signatures",
+      "icon": "lucide:file-check"
+    },
+    {
+      "step": 4,
+      "title": "Installation",
+      "desc": "Deploy using offline installation scripts",
+      "icon": "lucide:server"
+    }
+  ],
+  "offline_package_title": "Complete Offline Package",
+  "offline_package_subtitle": "Everything included in the air-gap installation bundle",
+  "offline_package_contents": [
+    "KubeDB Operator (all versions)",
+    "25+ Database container images",
+    "Private container registry",
+    "Helm charts and manifests",
+    "Backup and restore tools",
+    "Monitoring stack (Prometheus/Grafana)",
+    "Documentation (PDF + offline HTML)",
+    "License server (offline mode)",
+    "Security scan reports",
+    "Installation scripts",
+    "Troubleshooting tools",
+    "Update packages"
+  ],
+  "cta_badge": "Secure Air-Gapped Deployment",
+  "cta_title": "Secure Your Critical",
+  "cta_title_gradient": "Infrastructure Today",
+  "cta_description": "Deploy KubeDB in your air-gapped environment with complete offline installation",
+  "cta_checklist": [
+    "100% offline installation",
+    "Maximum security compliance",
+    "Complete package ~50GB"
+  ],
+  "cta_button_text": "Request Access",
+  "cta_button_url": "https://appscode.com/contact/",
+  "cta_secondary_button_text": "Download Spec",
+  "cta_secondary_button_url": "/docs/latest/setup/",
+  "cta_secondary_button_icon": "lucide:download",
+  "final_cta_metrics": [
+    { "icon": "lucide:lock", "value": "Zero", "label": "Internet Access", "gradient": "linear-gradient(135deg, #c084fc, #ec4899)" },
+    { "icon": "lucide:shield", "value": "Highest", "label": "Security Level", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
+    { "icon": "lucide:package", "value": "~50GB", "label": "Package Size", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
+    { "icon": "lucide:trending-up", "value": "Quarterly", "label": "Updates", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
+  ]
+}

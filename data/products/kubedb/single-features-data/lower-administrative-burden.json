@@ -6,7 +6,7 @@
     {
       "id": 1,
       "title": "Unleash Developer Velocity",
-      "description": "With KubeDB, you can launch a database instance via a simple CLI, management console or API and start developing in minutes. KubeDB eliminates lengthy deployment and management processes with on-demand provisioning, scaling, patching and updating database instances and shortens time-to-value. KubeDB gives each developer on your team their own development instance, so your team can focus on what matters most — velocity and not have to worry about stepping on each other’s toes.",
+      "description": "With KubeDB, you can launch a database instance via a simple CLI, management console or API and start developing in minutes. KubeDB eliminates lengthy deployment and management processes with on-demand provisioning, scaling, patching and updating database instances and shortens time-to-value. KubeDB gives each developer on your team their own development instance, so your team can focus on what matters most, velocity and not have to worry about stepping on each other’s toes.",
       "img": "/assets/images/features/illustrations/unleash-developer-velocity.jpg"
     },
     {

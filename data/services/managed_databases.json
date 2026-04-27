@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Managed Databases on Kubernetes",
-    "subtitle": "Provision, monitor, backup, scale, and secure 25+ database engines on any Kubernetes cluster — fully managed by AppsCode's expert engineers using KubeDB.",
+    "subtitle": "Provision, monitor, backup, scale, and secure 20+ Database engines on any Kubernetes cluster, fully managed by AppsCode's expert engineers using KubeDB.",
     "cta_text": "Talk to a Database Expert",
     "cta_url": "https://appscode.com/contact/",
     "illustration": {
@@ -17,7 +17,7 @@
     "areas": [
       {
         "icon": "fa fa-database",
-        "title": "25+ Database Engines Supported"
+        "title": "20+ Database Engines Supported"
       },
       {
         "icon": "fa fa-shield",
@@ -51,15 +51,15 @@
   },
   "service_details": {
     "title": "Our Managed Database Services",
-    "subtitle": "Powered by <a href=\"https://kubedb.com/\">KubeDB</a> — the Kubernetes Native Database Management Solution trusted by Fortune 100 companies. AppsCode handles Day 2 operations so your team can focus on building applications.",
+    "subtitle": "Powered by <a href=\"https://kubedb.com/\">KubeDB</a>, the Kubernetes Native Database Management Solution trusted by Fortune 100 companies. AppsCode handles Day 2 operations so your team can focus on building applications.",
     "sections": [
       {
         "title": "Database Provisioning & Setup",
-        "description": "Deploy production-grade databases on Kubernetes in minutes. KubeDB supports PostgreSQL, MySQL, MongoDB, MariaDB, Microsoft SQL Server, Elasticsearch, OpenSearch, Redis, Kafka, RabbitMQ, and many more — all with a single CLI or declarative YAML.",
+        "description": "Deploy production-grade databases on Kubernetes in minutes. KubeDB supports PostgreSQL, MySQL, MongoDB, MariaDB, Microsoft SQL Server, Elasticsearch, OpenSearch, Redis, Kafka, RabbitMQ, and many more, all with a single CLI or declarative YAML.",
         "offerings": [
           "Provision any supported database engine with a single Kubernetes manifest.",
           "Configure high-availability clusters with automatic failover.",
-          "Deploy on any Kubernetes distribution — EKS, AKS, GKE, OpenShift, Rancher, or on-prem."
+          "Deploy on any Kubernetes distribution - EKS, AKS, GKE, OpenShift, Rancher, or on-prem."
         ],
         "image": "/assets/images/services/kubernetes-advisory.png"
       },
@@ -85,11 +85,11 @@
       },
       {
         "title": "Scaling, Upgrades & Volume Expansion",
-        "description": "Scale databases seamlessly as your workload grows. KubeDB handles horizontal scaling (adding replicas), vertical scaling (increasing resources), volume expansion, and version upgrades — all without downtime.",
+        "description": "Scale databases seamlessly as your workload grows. KubeDB handles horizontal scaling (adding replicas), vertical scaling (increasing resources), volume expansion, and version upgrades, all without downtime.",
         "offerings": [
-          "Horizontal scaling — add or remove database replicas on demand.",
-          "Vertical scaling — adjust CPU and memory limits for database containers.",
-          "Volume expansion — grow storage volumes without downtime.",
+          "Horizontal scaling - add or remove database replicas on demand.",
+          "Vertical scaling - adjust CPU and memory limits for database containers.",
+          "Volume expansion - grow storage volumes without downtime.",
           "Major, minor, and patch version upgrades with automated rollback."
         ],
         "image": "/assets/images/services/kubernetes-devsecops-compliance.png"
@@ -146,7 +146,7 @@
   },
   "tech_stack": {
     "title": "Our Database Technology Expertise",
-    "subtitle": "We manage 25+ database engines on Kubernetes using KubeDB — the most comprehensive Kubernetes-native database operator.",
+    "subtitle": "We manage 20+ Database engines on Kubernetes using KubeDB, the most comprehensive Kubernetes-native database operator.",
     "technologies": [
       {
         "name": "Kubernetes",
@@ -236,7 +236,7 @@
   },
   "final_cta": {
     "title": "Ready to Simplify Database Management on Kubernetes?",
-    "subtitle": "Get expert managed database services powered by KubeDB — provisioning, monitoring, backup, scaling, and 24/7 support.",
+    "subtitle": "Get expert managed database services powered by KubeDB, provisioning, monitoring, backup, scaling, and 24/7 support.",
     "buttons": [
       {
         "text": "Talk to a Database Expert",
@@ -250,13 +250,13 @@
     "items": [
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
-        "title": "KubeDB — The Database Operator",
-        "description": "AppsCode develops <a href=\"https://kubedb.com/\">KubeDB</a>, the most comprehensive Kubernetes-native database operator. No third-party dependency — you work directly with the builders."
+        "title": "KubeDB: The Database Operator",
+        "description": "AppsCode develops <a href=\"https://kubedb.com/\">KubeDB</a>, the most comprehensive Kubernetes-native database operator. No third-party dependency, you work directly with the builders."
       },
       {
         "icon": "fa fa-database",
-        "title": "25+ Database Engines",
-        "description": "PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, RabbitMQ, MariaDB, Microsoft SQL Server, and many more — all under a single operator and a single contract."
+        "title": "20+ Database Engines",
+        "description": "PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, RabbitMQ, MariaDB, Microsoft SQL Server, and many more, all under a single operator and a single contract."
       },
       {
         "icon": "fa fa-briefcase",
@@ -271,7 +271,7 @@
       {
         "icon": "fa fa-trophy",
         "title": "Day 2 Operations Expertise",
-        "description": "Beyond provisioning — we handle monitoring, alerting, backup/recovery, scaling, upgrades, TLS management, and failure repair."
+        "description": "Beyond provisioning, we handle monitoring, alerting, backup/recovery, scaling, upgrades, TLS management, and failure repair."
       },
       {
         "icon": "fa fa-users",
@@ -283,7 +283,7 @@
   "faq": [
     {
       "question": "What databases does AppsCode manage?",
-      "answer": "AppsCode manages 25+ database engines using KubeDB, including PostgreSQL, MySQL, MongoDB, MariaDB, Microsoft SQL Server, Elasticsearch, OpenSearch, Redis, Valkey, Kafka, RabbitMQ, Solr, ZooKeeper, Percona XtraDB, PgBouncer, Pgpool, ProxySQL, Memcached, SingleStore, ClickHouse, Cassandra, and more."
+      "answer": "AppsCode manages 20+ Database engines using KubeDB, including PostgreSQL, MySQL, MongoDB, MariaDB, Microsoft SQL Server, Elasticsearch, OpenSearch, Redis, Valkey, Kafka, RabbitMQ, Solr, ZooKeeper, Percona XtraDB, PgBouncer, Pgpool, ProxySQL, Memcached, SingleStore, ClickHouse, Cassandra, and more."
     },
     {
       "question": "What does the managed database service include?",
@@ -291,11 +291,11 @@
     },
     {
       "question": "Which Kubernetes platforms do you support?",
-      "answer": "We support every Kubernetes distribution — Amazon EKS, Azure AKS, Google GKE, Red Hat OpenShift, Rancher by SUSE, VMware Tanzu, Equinix Metal, OpenStack, IBM Cloud, Oracle Cloud, Alibaba Cloud, DigitalOcean, and on-premises clusters."
+      "answer": "We support every Kubernetes distribution, Amazon EKS, Azure AKS, Google GKE, Red Hat OpenShift, Rancher by SUSE, VMware Tanzu, Equinix Metal, OpenStack, IBM Cloud, Oracle Cloud, Alibaba Cloud, DigitalOcean, and on-premises clusters."
     },
     {
       "question": "How is KubeDB different from using StatefulSets?",
-      "answer": "KubeDB goes far beyond StatefulSets by providing comprehensive Day 2 operations: monitoring, alerts, backup/recovery, version upgrades, scaling, failure detection, and automated repair — all through a declarative Kubernetes API."
+      "answer": "KubeDB goes far beyond StatefulSets by providing comprehensive Day 2 operations: monitoring, alerts, backup/recovery, version upgrades, scaling, failure detection, and automated repair, all through a declarative Kubernetes API."
     },
     {
       "question": "How is KubeDB different from cloud provider managed database services?",
@@ -307,11 +307,11 @@
     },
     {
       "question": "Can I try before committing?",
-      "answer": "Yes — KubeDB is free to use on any Kubernetes distribution. We offer a 30-day free trial of the fully-featured Enterprise edition. There is no up-front investment required."
+      "answer": "Yes, KubeDB is free to use on any Kubernetes distribution. We offer a 30-day free trial of the fully-featured Enterprise edition. There is no up-front investment required."
     },
     {
       "question": "Do you handle backup and disaster recovery?",
-      "answer": "Yes — we use KubeStash (Stash) for automated, deduplicated, and encrypted backups to cloud object stores (S3, GCS, Azure Blob) or local filesystems. We support scheduled backups, on-demand backups, point-in-time recovery, and cross-cluster restore."
+      "answer": "Yes, we use KubeStash (Stash) for automated, deduplicated, and encrypted backups to cloud object stores (S3, GCS, Azure Blob) or local filesystems. We support scheduled backups, on-demand backups, point-in-time recovery, and cross-cluster restore."
     }
   ]
 }

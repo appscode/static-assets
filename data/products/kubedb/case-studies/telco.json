@@ -1,0 +1,262 @@
+{
+  "title": "Orange Telecom powers its digital future with KubeDB",
+  "tagline": "Orange Telecom powers its digital future with<br /><span class=\"has-text-primary\">KubeDB</span>",
+  "description": "From manual legacy databases to fully automated, production-grade DBaaS on Kubernetes. Faster deployments, zero-downtime operations, enterprise-grade resilience, and complete data sovereignty.",
+  "company": "Orange Telecom",
+  "industry": "Telecommunications",
+  "logo": "/assets/images/products/kubedb/kubedb.svg",
+  "logo_emoji": "📡",
+  "badge": "TELCO TRANSFORMATION SUCCESS",
+  "hero_live_badge": "LIVE 24/7",
+  "hero_legacy_badge": "Legacy DBs · Production KubeDB",
+  "tag": "Telco DBaaS",
+  "company_note": "One of the world's largest telecommunications operators serving millions of customers across Europe, Africa, and the Middle East with advanced 5G, edge, and digital services.",
+  "website": "https://www.orange.com",
+  "website_label": "orange.com",
+
+  "customer_badge": "GLOBAL TELCO LEADER",
+  "customer_title": "Orange Telecom",
+  "customer_description": "One of the world's largest telecommunications operators serving millions of customers across Europe, Africa, and the Middle East with advanced 5G, edge, and digital services.",
+  "customer_website": "https://www.orange.com",
+  "customer_website_label": "orange.com",
+  "customer_status": "Production KubeDB clusters since 2023",
+  "hero_right_logo_emoji": "📡",
+  "back_link_text": "All Case Studies",
+  "hero_primary_button_text": "Read the full story",
+  "hero_secondary_button_text": "Explore on GitHub",
+  "hero_secondary_button_href": "https://github.com/kubedb",
+  "value_props_badge": "Why KubeDB",
+  "value_props_title": "Why teams choose KubeDB",
+  "value_props_description": "Same experience as cloud DBaaS - but with full control, any cloud, any storage, and no lock-in.",
+  "challenge_key_pains_label": "Key pain points",
+  "solution_powered_by_label": "Powered by KubeDB",
+  "supported_databases_footer_label": "Enterprise Verified",
+  "delivered_features_footer_label": "Powered by KubeDB",
+  "compliance_note": "Open-core · Apache 2.0 · Certified on OpenShift, Rancher, EKS, AKS, GKE & more",
+
+  "hero_metrics": [
+    {
+      "value": "100%",
+      "label": "Automated DB Lifecycle",
+      "sublabel": "Provisioning to recovery"
+    },
+    {
+      "value": "2023",
+      "label": "Production Rollout",
+      "sublabel": "KubeDB-powered DBaaS"
+    },
+    {
+      "value": "0",
+      "label": "Manual DB Operations",
+      "sublabel": "Full automation achieved"
+    }
+  ],
+  "hero_tags": [
+    "TLS + RBAC",
+    "Automated Failover",
+    "Prometheus + Grafana",
+    "Zero-Downtime Scaling"
+  ],
+
+  "hero_right_company": "Orange Telco Cloud",
+  "hero_right_industry": "KubeDB-powered DBaaS",
+  "hero_right_metrics": [
+    { "value": "3+", "label": "REPLICAS", "sublabel": "High Availability" },
+    {
+      "value": "Multi-AZ",
+      "label": "PLACEMENT",
+      "sublabel": "Telco Resilience"
+    },
+    { "value": "Daily", "label": "BACKUPS", "sublabel": "KubeStash Encrypted" }
+  ],
+  "hero_right_tags": [
+    "TLS + RBAC",
+    "Automated Failover",
+    "Prometheus + Grafana",
+    "Zero-Downtime Scaling"
+  ],
+
+  "comparison_title": "Legacy to Cloud-Native Transformation",
+  "comparison_badge": "TRANSFORMATION",
+  "comparison_description": "Orange moved from manual, on-premises database operations to fully automated Kubernetes-native DBaaS powered by KubeDB.",
+  "comparison_header_aspect": "Aspect",
+  "comparison_header_previous": "Previous State (On-Premises)",
+  "comparison_header_new": "New State (KubeDB on Kubernetes)",
+  "comparison_rows": [
+    {
+      "aspect": "Database Management",
+      "previous": "Legacy relational DBs (MySQL, Oracle, PostgreSQL) with manual ops",
+      "current": "Fully automated provisioning, scaling, backup & recovery with KubeDB"
+    },
+    {
+      "aspect": "Scalability",
+      "previous": "Limited, manual scaling",
+      "current": "Horizontal & vertical scaling without downtime via KubeDB OpsRequests"
+    },
+    {
+      "aspect": "Deployment Speed",
+      "previous": "Slow, ticket-based processes",
+      "current": "Self-service via Kubernetes-native CRDs and custom internal UI"
+    },
+    {
+      "aspect": "Operational Efficiency",
+      "previous": "High manual effort, higher costs & risk",
+      "current": "Automated lifecycle, reduced ops overhead, developer self-service"
+    },
+    {
+      "aspect": "Data Protection",
+      "previous": "Manual backups and recovery",
+      "current": "Incremental, encrypted, deduplicated backups with KubeStash"
+    },
+    {
+      "aspect": "High Availability",
+      "previous": "Limited failover capabilities",
+      "current": "Automatic failover, multi-AZ replication, and health monitoring"
+    }
+  ],
+
+  "challenge_title": "Legacy databases couldn't keep pace with 5G demands",
+  "challenge_badge": "THE TELCO CHALLENGE",
+  "challenge_key_pains": "Slow provisioning · Manual scaling · Operational risk · Backup complexity · Governance gaps",
+  "challenge_summary": "Legacy databases couldn't keep pace with 5G demands - manual provisioning, scaling, backups, and upgrades created bottlenecks.",
+  "challenge_items": [
+    {
+      "icon": "lucide:database",
+      "title": "Monolithic legacy DBs",
+      "description": "Oracle, MySQL, PostgreSQL running on bare metal or VMs with manual everything."
+    },
+    {
+      "icon": "lucide:clock",
+      "title": "Slow deployment cycles",
+      "description": "Ticket-based provisioning delayed new services and 5G network functions."
+    },
+    {
+      "icon": "lucide:shield-check",
+      "title": "Operational risk",
+      "description": "Manual backups, no automated failover, limited governance."
+    }
+  ],
+
+  "benefits_badge": "KUBEDB IN ACTION",
+  "solution_badge": "",
+  "solution_title": "",
+  "solution_description": "",
+  "solution_steps_title": "",
+  "solution_features": [],
+  "solution_steps": [],
+  "benefits_title": "Production-grade DBaaS delivered by KubeDB",
+  "benefits_description": "Production-grade DBaaS with KubeDB automating full database lifecycle on Kubernetes with zero-downtime operations.",
+  "benefits_items_title": "Key KubeDB Benefits Realized by Orange",
+  "benefits_items": [
+    {
+      "number": "01",
+      "title": "Self-Service Provisioning",
+      "description": "Developers and teams provision production-ready databases in minutes using Kubernetes-native CRDs and a custom internal UI, no more tickets."
+    },
+    {
+      "number": "02",
+      "title": "Zero-Downtime Operations",
+      "description": "Automated horizontal/vertical scaling, upgrades, and failover with KubeDB OpsRequests ensure 24/7 availability for telco workloads."
+    },
+    {
+      "number": "03",
+      "title": "Enterprise Data Protection",
+      "description": "KubeStash provides incremental, encrypted, deduplicated backups with point-in-time recovery to any object store."
+    },
+    {
+      "number": "04",
+      "title": "Full Governance & Security",
+      "description": "RBAC, TLS management, network policies, and Transparent Data Encryption give platform teams centralized control while maintaining developer agility."
+    }
+  ],
+
+  "supported_databases_title": "Databases Supported in Production",
+  "supported_databases": [
+    "PostgreSQL",
+    "MySQL",
+    "MongoDB",
+    "Redis",
+    "Elasticsearch",
+    "And more..."
+  ],
+
+  "delivered_features_title": "KubeDB Features Delivered",
+  "delivered_features": [
+    "Automated Lifecycle",
+    "High Availability & Failover",
+    "KubeStash Backups",
+    "Zero-Downtime Scaling",
+    "Prometheus Monitoring",
+    "GitOps & Declarative CRDs"
+  ],
+
+  "timeline_badge": "Journey",
+  "timeline_title": "Orange's KubeDB Journey",
+  "timeline": [
+    {
+      "period": "2020",
+      "title": "Evaluation & Selection",
+      "description": "Orange engaged AppsCode to build Database-as-a-Service on Kubernetes. KubeDB selected after rigorous evaluation."
+    },
+    {
+      "period": "2021-22",
+      "title": "Integration & Testing",
+      "description": "Lab validation, load testing, security audits, and close collaboration with KubeDB engineering team. Custom UI and Ansible automation developed."
+    },
+    {
+      "period": "2023",
+      "title": "Production Rollout",
+      "description": "KubeDB handed over to production DevOps teams. Multiple database engines now running as self-service, governed services."
+    },
+    {
+      "period": "Today",
+      "title": "Ongoing Scale",
+      "description": "KubeDB continues to power Orange's cloud-native applications with automated operations, resilience, and full governance."
+    }
+  ],
+
+  "results_title": "Transformation Results",
+  "results_metrics": [
+    {
+      "value": "100%",
+      "label": "Automated DB lifecycle",
+      "note": "Provisioning, scaling, backups, upgrades, and failover automated by KubeDB"
+    },
+    {
+      "value": "0",
+      "label": "Manual operations",
+      "note": "Manual database operations eliminated across production workloads"
+    }
+  ],
+  "results_extras": [
+    { "icon": "lucide:zap", "label": "Multi-AZ resilience" },
+    { "icon": "lucide:rotate-cw", "label": "Zero-downtime operations" },
+    { "icon": "lucide:shield-check", "label": "Enterprise data sovereignty" }
+  ],
+  "results_quote": "From manual legacy databases to fully automated, production-grade DBaaS with complete data sovereignty and enterprise resilience.",
+  "results_quote_author": "Platform Team",
+
+  "value_props": [
+    {
+      "icon": "lucide:database",
+      "title": "Kubernetes-native at carrier scale",
+      "description": "GitOps-driven database management that scales with 5G traffic demands."
+    },
+    {
+      "icon": "lucide:zap",
+      "title": "Zero-downtime everything",
+      "description": "Automated failover, rolling upgrades, and live scaling without service interruption."
+    },
+    {
+      "icon": "lucide:shield-check",
+      "title": "Enterprise compliance & sovereignty",
+      "description": "Multi-tenant RBAC, encrypted backups, and full data residency control."
+    }
+  ],
+
+  "cta_title": "Ready to modernize your database operations?",
+  "cta_description": "Deploy production-grade databases on any Kubernetes platform - with the same automation Orange relies on for its mission-critical telco services.",
+  "cta_primary": "Get 30-day Enterprise Trial",
+  "cta_secondary": "Explore KubeDB for Telco",
+  "cta_secondary_href": "/features/"
+}

@@ -1,0 +1,163 @@
+{
+  "product_name": "GitOps & Platform Engineering",
+  "product_color_primary": "#059669",
+  "cta_bg_color": "#064e3b",
+  "hero_title_1": "Automate Database Operations",
+  "hero_title_2": "with True GitOps",
+  "hero_description": "The only Kubernetes-native DBaaS that brings full GitOps maturity to stateful workloads - at Operator Capability Level 5",
+  "hero_badge": "GitOps-First Database Automation",
+  "hero_subtitle_highlight": "Operator Capability Level 5",
+  "primary_action_text": "See GitOps in Action",
+  "primary_action_url": "https://youtu.be/6kflsdAYEqw?si=1MQwpF1GlMc6eGzw",
+  "secondary_action_text": "Read the Guide",
+  "secondary_action_url": "/docs/latest/guides/",
+  "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+  "product_icon": "lucide:git-branch",
+  "challenge_title": "Traditional database operators break GitOps",
+  "challenge_badge": "The GitOps Challenge for Databases",
+  "challenges": [
+    {
+      "id": "01",
+      "title": "Spec Override Wars",
+      "description": "GitOps tools keep reverting your manual changes because the operator mutates the CR spec."
+    },
+    {
+      "id": "02",
+      "title": "Lost Hotfixes",
+      "description": "Emergency fixes applied with kubectl disappear on next reconciliation."
+    },
+    {
+      "id": "03",
+      "title": "No Audit Trail",
+      "description": "Changes made outside Git violate the single source of truth principle."
+    }
+  ],
+  "reconciliation_conflict": {
+    "command": "kubectl scale postgres prod --replicas=5",
+    "status": "Argo CD detects drift...",
+    "result": "Reverts back to 3 replicas",
+    "note": "Result: Endless fights. Downtime risk. Frustration."
+  },
+  "code_demo": {
+    "title": "One Git commit. Zero reconciliation pain.",
+    "subtitle": "KubeDB GitOps Solution",
+    "filename": "postgres-gitops.yaml",
+    "language": "yaml",
+    "code": "apiVersion: gitops.kubedb.com/v1alpha1\nkind: PostgresGitOps\nmetadata:\n  name: prod-db\nspec:\n  version: \"16.4\"\n  replicas: 5\n  storage:\n    size: \"200Gi\"\n  resources:\n    requests:\n      cpu: \"4\"\n      memory: \"16Gi\"\n  config: \n    max_connections: 500\n  tls:\n    enabled: true",
+    "steps": [
+      { "id": "1", "title": "Commit to Git", "description": "Push your desired database state using dedicated GitOps CRDs." },
+      { "id": "2", "title": "Argo CD / Flux Syncs", "description": "Your favorite GitOps tool applies the change safely." },
+      { "id": "3", "title": "OpsRequest Magic", "description": "KubeDB translates your declaration into safe, auditable OpsRequests: no spec fights.", "vibrant": true }
+    ]
+  },
+  "comparison": {
+    "title": "Avoiding the Classic Operator Reconciliation Conflict",
+    "subtitle": "A common pain point with GitOps and most database operators",
+    "problem": {
+      "title": "The Spec Override Problem",
+      "icon": "lucide:alert-triangle",
+      "steps": [
+        "Declare desired state in Custom Resource spec",
+        "Operator reconciles, injecting defaults & optimizations",
+        "GitOps detects drift and attempts to revert",
+        "Endless reconciliation fights & failed syncs"
+      ],
+      "result": "Result: Endless reconciliation fights, failed syncs, noisy alerts, and operational instability"
+    },
+    "solution": {
+      "title": "KubeDB's Solution",
+      "icon": "lucide:check-circle",
+      "steps": [
+        { "text": "Manage everything via *.GitOps Custom Resource", "color": "blue", "icon": "lucide:git-commit" },
+        { "text": "GitOps operator watches this resource", "color": "purple", "icon": "lucide:shield" },
+        { "text": "Creates appropriate OpsRequest(s) for changes", "color": "orange", "icon": "lucide:workflow" },
+        { "text": "Safe execution without spec conflicts", "color": "green", "icon": "lucide:check-circle" }
+      ],
+      "result": "Result: Clean separation, no spec fights, auditable operations, single source of truth in Git"
+    }
+  },
+  "when_to_use_subtitle": "GitOps Features",
+  "when_to_use_description": "Built from the ground up for declarative infrastructure and conflict-free reconciliation.",
+  "when_to_use": [
+    {
+      "icon": "lucide:git-branch",
+      "title": "Declarative Everything",
+      "description": "Define your entire database infrastructure as code in Git. Every change, from initial provisioning to day-2 operations, is tracked and version-controlled.",
+      "gradient": "bg-grad-blue"
+    },
+    {
+      "icon": "lucide:shield",
+      "title": "Conflict-Free Reconciliation",
+      "description": "Dedicated GitOps CRDs eliminate the classic spec override problem. No more endless reconciliation fights between GitOps tools and operators.",
+      "gradient": "bg-grad-purple"
+    },
+    {
+      "icon": "lucide:zap",
+      "title": "OpsRequest Intelligence",
+      "description": "Long-running operations are safely translated into controlled OpsRequests with validation, sequencing, progress tracking, and rollback support.",
+      "gradient": "bg-grad-orange"
+    },
+    {
+      "icon": "lucide:check-circle",
+      "title": "Production-Grade Safety",
+      "description": "All changes go through intelligent merging, prerequisite validation, and safe execution paths. No direct mutations of critical database resources.",
+      "gradient": "bg-grad-green"
+    }
+  ],
+  "why_kubedb_title": "Why KubeDB Is the Only True GitOps-Ready Kubernetes-Native DBaaS",
+  "why_kubedb_note": "Most other database operators either lack this level of GitOps maturity or force teams into imperative workarounds for day-2 operations.",
+  "why_kubedb_features": [
+    {
+      "icon": "lucide:database",
+      "title": "Broad Database Support",
+      "description": "Consistent GitOps experience across 25+ databases including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, ClickHouse, and more.",
+      "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)"
+    },
+    {
+      "icon": "lucide:workflow",
+      "title": "OpsRequest Abstraction",
+      "description": "Any change is safely translated into controlled, long-running operations with full auditability and rollback capabilities.",
+      "gradient": "linear-gradient(135deg, #a855f7, #ec4899)"
+    },
+    {
+      "icon": "lucide:check-check",
+      "title": "Conflict-Free by Design",
+      "description": "GitOps CRDs eliminate the classic spec override problem that plagues traditional database operators.",
+      "gradient": "linear-gradient(135deg, #6366f1, #a855f7)"
+    },
+    {
+      "icon": "lucide:shield",
+      "title": "Production-Grade Features",
+      "description": "High availability, automated backup/restore via KubeStash, monitoring, TLS, encryption-at-rest, and full Level 5 Auto Pilot behaviors.",
+      "gradient": "linear-gradient(135deg, #10b981, #14b8a6)"
+    },
+    {
+      "icon": "lucide:refresh-cw",
+      "title": "Native Integration",
+      "description": "Works seamlessly with Argo CD, Flux, and any CNCF-aligned GitOps tooling without proprietary lock-in.",
+      "gradient": "linear-gradient(135deg, #f97316, #ef4444)"
+    },
+    {
+      "icon": "lucide:target",
+      "title": "Single Source of Truth",
+      "description": "Git-declared GitOps resources remain the authoritative source while the operator manages operational complexity behind the scenes.",
+      "gradient": "linear-gradient(135deg, #ec4899, #f43f5e)"
+    }
+  ],
+  "final_cta_metrics": [
+    { "icon": "lucide:target", "value": "Level 5", "label": "Operator", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
+    { "icon": "lucide:git-branch", "value": "100%", "label": "GitOps Ready", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
+    { "icon": "lucide:database", "value": "25+", "label": "Databases", "gradient": "linear-gradient(135deg, #c084fc, #ec4899)" },
+    { "icon": "lucide:trending-up", "value": "10K+", "label": "Production", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
+  ],
+  "cta_title": "Ship Database Changes",
+  "cta_title_gradient": "Like Application Code",
+  "cta_description": "The only Level 5 operator with true GitOps maturity for databases",
+  "cta_checklist": [
+    "Declarative database lifecycle",
+    "No spec override conflicts",
+    "Full Argo/Flux compatibility"
+  ],
+  "cta_button_text": "Start Free Trial",
+  "cta_button_url": "/docs/latest/setup/"
+}

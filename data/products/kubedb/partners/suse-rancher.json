@@ -1,0 +1,345 @@
+{
+  "hero": {
+    "product_color_primary": "#7272E9",
+    "product_icon": "lucide:check-circle",
+    "hero_badge": "OFFICIALLY CERTIFIED PARTNERSHIP",
+    "hero_title_1": "Run Any Database Natively on SUSE Rancher Prime - <span class=\"text-gradient\">Without the Compromise.</span>",
+    "hero_description": "Deploy and manage 25+ Production-grade databases as native Kubernetes resources on SUSE Rancher Prime. Run production databases with full automation, governance, and portability across on-prem, cloud, edge, and air-gapped environments.",
+    "primary_action_text": "Deploy Your First Database",
+    "primary_action_url": "/docs/latest/setup/",
+    "secondary_action_text": "See the Architecture",
+    "secondary_action_url": "/docs/latest/welcome/",
+    "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+    "stats_style": "hero-inline-metrics",
+    "stats": [
+      {
+        "value": "25+ Database Engines",
+        "label": "PostgreSQL, MySQL, Redis, Kafka & more"
+      },
+      {
+        "value": "Zero Cloud Lock-In",
+        "label": "Day-2 operations on Auto Pilot"
+      },
+      {
+        "value": "Certified for Rancher",
+        "label": "Official partnership & support"
+      }
+    ]
+  },
+
+  "platform": {
+    "badge": "FOR SUSE RANCHER USERS",
+    "heading": "How KubeDB supercharges your Rancher environment",
+    "description": "Turn your SUSE Rancher Prime clusters into a fully governed, self-service Database-as-a-Service platform, with zero operational complexity.",
+    "cards": [
+      {
+        "title": "Unified DBaaS Across Any Kubernetes",
+        "icon": "lucide:globe",
+        "color": "info",
+        "description": "Deploy and manage databases consistently across all clusters managed by Rancher Prime, on-prem, cloud, edge, and air-gapped, without re-architecting or vendor lock-in.",
+        "features": [
+          "Portable across any Rancher cluster",
+          "Zero cloud DBaaS dependency",
+          "Move databases between environments instantly"
+        ]
+      },
+      {
+        "title": "Automated Database Lifecycle on Rancher",
+        "icon": "lucide:settings",
+        "color": "info",
+        "description": "KubeDB Operator runs natively on top of Kubernetes clusters managed by Rancher Prime and automates provisioning, scaling, upgrades, backups, and high-availability using Kubernetes-native APIs.",
+        "features": [
+          "Full automation via CRDs & GitOps",
+          "Day-2 operations simplified",
+          "Works with ArgoCD, Flux & Rancher tools"
+        ]
+      },
+      {
+        "title": "Governance, Security & Sovereignty",
+        "icon": "lucide:shield",
+        "color": "info",
+        "description": "Rancher's centralized policy engine + KubeDB's RBAC, multi-tenancy, and backup/recovery gives you enterprise-grade control while enabling developer self-service.",
+        "features": [
+          "Policy-driven access control",
+          "Air-gapped & sovereign deployments",
+          "Application-consistent backups with KubeStash"
+        ]
+      }
+    ]
+  },
+  "suse_table": {
+    "heading": "Why SUSE Rancher Prime + KubeDB wins together",
+    "reasons": [
+      {
+        "title": "Centralized Kubernetes management",
+        "description": "Rancher Prime gives you a single pane of glass for all clusters. KubeDB adds automated database operations on top."
+      },
+      {
+        "title": "Enterprise-grade security & governance",
+        "description": "Combine Rancher's policy engine with KubeDB's RBAC, TLS, encryption, and multi-tenancy."
+      },
+      {
+        "title": "Run any database anywhere",
+        "description": "25+ Production databases with the same consistent experience across all Rancher-managed environments."
+      }
+    ],
+    "table": {
+      "col_capability": "Capability",
+      "col_rancher": "SUSE Rancher Prime",
+      "col_kubedb": "+ KubeDB",
+      "rows": [
+        {
+          "capability": "Kubernetes management",
+          "rancher": "Centralized control plane",
+          "kubedb": "+ Automated DB lifecycle"
+        },
+        {
+          "capability": "Self-service for developers",
+          "rancher": "Rancher dashboard & GitOps",
+          "kubedb": "+ KubeDB CRDs & Web Console"
+        },
+        {
+          "capability": "Backup & recovery",
+          "rancher": "Basic volume snapshots",
+          "kubedb": "+ Application-consistent, incremental backups with KubeStash"
+        },
+        {
+          "capability": "Multi-tenancy & RBAC",
+          "rancher": "Namespace & project isolation",
+          "kubedb": "+ Database-level RBAC & policies"
+        },
+        {
+          "capability": "Sovereignty",
+          "rancher": "Air-gapped support",
+          "kubedb": "+ Full data placement control"
+        }
+      ]
+    }
+  },
+  "comparison": {
+    "badge": "COMPARISON",
+    "heading": "SUSE Rancher Prime with Traditional DBaaS vs SUSE Rancher Prime + KubeDB",
+    "description": "KubeDB delivers broader database support, lower cost, and true Kubernetes-native experience on your Rancher Prime platform.",
+    "col_traditional": "Traditional DBaaS",
+    "col_kubedb": "SUSE Rancher Prime + KubeDB",
+    "rows": [
+      {
+        "capability": "Supported Database Engines",
+        "traditional": "Limited (typically 5–12 engines)",
+        "kubedb": "25+ engines: PostgreSQL, MySQL, MongoDB, Redis, Kafka, Elasticsearch, ClickHouse, Cassandra, Neo4j & more"
+      },
+      {
+        "capability": "Deployment Model",
+        "traditional": "External services or fragmented operators",
+        "kubedb": "100% native Kubernetes CRDs & Operators"
+      },
+      {
+        "capability": "Management Style",
+        "traditional": "Console-driven or external tools",
+        "kubedb": "Declarative GitOps (ArgoCD/Flux) - unified with apps"
+      },
+      {
+        "capability": "Cost Structure",
+        "traditional": "Per-core/usage licensing + egress fees",
+        "kubedb": "No licensing fees • Enterprise support optional"
+      },
+      {
+        "capability": "Provisioning Speed",
+        "traditional": "Minutes to hours",
+        "kubedb": "Seconds with full self-service"
+      },
+      {
+        "capability": "Storage Integration",
+        "traditional": "External or basic PVCs",
+        "kubedb": "Native SUSE Longhorn - replicated, snapshots, high performance"
+      },
+      {
+        "capability": "Security & Compliance",
+        "traditional": "Provider-managed or manual",
+        "kubedb": "Built-in TLS + Rancher Prime RBAC & security policies"
+      },
+      {
+        "capability": "Observability",
+        "traditional": "Separate dashboards",
+        "kubedb": "Integrated with Rancher Prime observability stack"
+      },
+      {
+        "capability": "Backup & Recovery",
+        "traditional": "Provider tools or manual",
+        "kubedb": "KubeStash + Longhorn snapshots & backups"
+      },
+      {
+        "capability": "Multi-Cluster Portability",
+        "traditional": "Often vendor-specific",
+        "kubedb": "Same manifests across all Rancher-managed clusters"
+      }
+    ]
+  },
+  "benefits": {
+    "badge": "WHY KUBEDB",
+    "heading": "Why Existing SUSE Rancher Prime Customers Choose KubeDB on Rancher Prime",
+    "items": [
+      {
+        "title": "Significantly Lower TCO",
+        "icon": "lucide:dollar-sign",
+        "description": "Only pay for the amount of Managed Database Memory(GB) while maximizing your existing Nutanix investment."
+      },
+      {
+        "title": "Developer-First Agility",
+        "icon": "lucide:rocket",
+        "description": "Databases become Kubernetes objects. Enable self-service provisioning, GitOps workflows, and faster iteration, all while running alongside your microservices on NKP."
+      },
+      {
+        "title": "Enterprise Security & Operations",
+        "icon": "lucide:shield",
+        "description": "Built-in TLS, encryption, automated backups with Stash, high availability, and seamless integration with Nutanix microsegmentation and NKP security policies."
+      },
+      {
+        "title": "Full Nutanix Performance",
+        "icon": "lucide:hard-drive",
+        "description": "Nutanix CSI provides blazing-fast persistent storage. Combine with NKP's monitoring and data services for complete lifecycle management."
+      },
+      {
+        "title": "Hybrid & Multi-Cloud Ready",
+        "icon": "lucide:globe",
+        "description": "Use identical manifests across on-premises NKP, NC2 on public clouds, or any CNCF Kubernetes, avoiding vendor lock-in common with traditional DBaaS."
+      },
+      {
+        "title": "Proven at Enterprise Scale",
+        "icon": "lucide:users",
+        "description": "Trusted by organizations worldwide for production databases. Rapid innovation with commercial support, while protecting your Nutanix infrastructure investment."
+      }
+    ]
+  },
+  "architecture": {
+    "badge": "TECHNICAL ARCHITECTURE",
+    "heading": "KubeDB runs natively on SUSE Rancher Prime",
+    "description": "The KubeDB Operator sits directly on top of your Rancher-managed Kubernetes clusters, leveraging Rancher's centralized management, policy engine, and multi-cluster capabilities.",
+    "layers": [
+      {
+        "label": "KubeDB Platform",
+        "desc": "Web Console • Envoy Gateway • Hub/Spoke Model • Policy Engine",
+        "gradient": "primary"
+      },
+      {
+        "label": "KubeDB Operator",
+        "desc": "Provisioner • OpsManager • AutoScaler • KubeDB • Migrator",
+        "gradient": "purple"
+      },
+      {
+        "label": "Kubernetes Services",
+        "desc": "ArgoCD • Open Cluster Management • Cert Manager • Prometheus • Grafana",
+        "gradient": "blue"
+      },
+      {
+        "label": "SUSE Rancher Prime",
+        "desc": "SUSE Rancher Prime • RKE2 • K3s",
+        "gradient": "nkp"
+      }
+    ],
+    "image": "/assets/images/partners/KubeDB_Stack_Diagram_Rancher_Prime.png",
+    "image_alt": "KubeDB Platform Architecture on SUSE Rancher Prime",
+    "image_tags": ["On-premises", "Cloud", "Edge"]
+  },
+  "capabilities": {
+    "heading": "Production databases. Fully automated on Rancher.",
+    "description": "25+ Database engines with HA, scaling, backup, TLS, monitoring, and GitOps support"
+  },
+  "database_support": {
+    "heading": "Comprehensive Database Support",
+    "description": "25+ Database engines managed with Kubernetes-native workflows",
+    "categories": [
+      {
+        "label": "Relational",
+        "items": "PostgreSQL, MySQL, MariaDB, SQL Server, Percona XtraDB"
+      },
+      {
+        "label": "NoSQL/Document",
+        "items": "MongoDB, DocumentDB, Cassandra"
+      },
+      {
+        "label": "In-Memory/Cache",
+        "items": "Redis, Valkey, Memcached"
+      },
+      {
+        "label": "Search",
+        "items": "Elasticsearch, OpenSearch, Solr"
+      },
+      {
+        "label": "Analytics",
+        "items": "Druid, ClickHouse, SingleStore"
+      },
+      {
+        "label": "Messaging",
+        "items": "Kafka, RabbitMQ"
+      },
+      {
+        "label": "Others",
+        "items": "Hazelcast, ZooKeeper, PgBouncer, ProxySQL"
+      }
+    ]
+  },
+  "cta": {
+    "badge": "SUSE Rancher Ready",
+    "heading": "Run Databases Natively",
+    "heading_highlight": "on SUSE Rancher Prime",
+    "description": "Multi-cluster management, enterprise support, hybrid cloud deployment",
+    "features": [
+      {
+        "text": "Deploy 25+ databases in <60s",
+        "icon": "lucide:zap"
+      },
+      {
+        "text": "Manage across multiple Rancher clusters",
+        "icon": "lucide:database"
+      },
+      {
+        "text": "Run anywhere: on-prem, cloud, or edge",
+        "icon": "lucide:globe"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Start Free Trial",
+        "href": "/docs/latest/setup/",
+        "style": "white",
+        "target": "_blank",
+        "icon": "lucide:arrow-right",
+        "icon_position": "right"
+      },
+      {
+        "text": "Watch Demo",
+        "href": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+        "style": "ghost",
+        "icon": "lucide:play",
+        "icon_position": "left"
+      }
+    ],
+    "stats": [
+      {
+        "value": "Multi",
+        "label": "Cluster Mgmt",
+        "icon": "lucide:layers",
+        "color": "green"
+      },
+      {
+        "value": "<60s",
+        "label": "Provisioning",
+        "icon": "lucide:zap",
+        "color": "purple"
+      },
+      {
+        "value": "25+",
+        "label": "DB Engines",
+        "icon": "lucide:database",
+        "color": "blue"
+      },
+      {
+        "value": "10K+",
+        "label": "Deployments",
+        "icon": "lucide:trending-up",
+        "color": "red"
+      }
+    ]
+  }
+}

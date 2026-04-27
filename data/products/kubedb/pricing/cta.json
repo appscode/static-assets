@@ -1,0 +1,21 @@
+{
+  "cta_badge": "Get Started Today",
+  "cta_title": "Ready to Get Started?",
+  "cta_description": "Start with our free dev/test tier or contact sales for a custom quote.",
+  "cta_checklist": [
+    "Free for dev/test databases under 30 days",
+    "Minimum 100 GB for production",
+    "Includes Standard support"
+  ],
+  "cta_button_text": "Get Started Free",
+  "cta_button_url": "/docs/latest/setup/",
+  "cta_secondary_button_text": "Contact Sales",
+  "cta_secondary_button_url": "https://appscode.com/contact/",
+  "cta_secondary_button_icon": "lucide:phone",
+  "final_cta_metrics": [
+    { "icon": "lucide:timer", "value": "30d", "label": "Free Dev/Test", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
+    { "icon": "lucide:database", "value": "25+", "label": "DB Engines", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
+    { "icon": "lucide:shield-check", "value": "100GB", "label": "Min Production", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" },
+    { "icon": "lucide:headphones", "value": "24x7", "label": "Support Available", "gradient": "linear-gradient(135deg, #a855f7, #ec4899)" }
+  ]
+}

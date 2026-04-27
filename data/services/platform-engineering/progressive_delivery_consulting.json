@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Expert Progressive Delivery Consulting Services",
-    "subtitle": "Helping organizations adopt progressive delivery with proven strategies—from roadmap creation to implementation and enterprise-grade support.",
+    "subtitle": "Helping organizations adopt progressive delivery with proven strategies, from roadmap creation to implementation and enterprise-grade support.",
     "cta_text": "TALK TO A PROGRESSIVE DELIVERY CONSULTING EXPERT",
     "cta_url": "https://appscode.com/contact/",
     "illustration": {
@@ -327,7 +327,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Certified Developers",
-        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms, helping you build, scale, and automate with confidence."
       },
       {
         "icon": "fa fa-briefcase",
@@ -367,13 +367,13 @@
       },
       {
         "type": "Blog",
-        "title": "Future-Proof Your Data Strategy - Why Kubernetes is the Engine Behind Stateful Workloads & Modern AI",
+        "title": "Future-Proof Your Data Strategy: Why Kubernetes is the Engine Behind Stateful Workloads & Modern AI",
         "image": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_254620_1300x650_fill_q75_box_smart1.jpg",
         "link": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/"
       },
       {
         "type": "Event",
-        "title": "KubeConNA Digest - Top Trends and Key Takeaways from This Year’s Event by AppsCode",
+        "title": "KubeConNA Digest: Top Trends and Key Takeaways from This Year’s Event by AppsCode",
         "image": "https://appscode.com/blog/post/kubecon-na-2024/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_69997_1300x650_fill_q75_box_smart1.jpg",
         "link": "https://appscode.com/blog/post/kubecon-na-2024/"
       }
@@ -382,7 +382,7 @@
   "faq": [
     {
       "question": "What do your Progressive Delivery Consulting Services include?",
-      "answer": "Our Progressive Delivery Consulting Services cover the full lifecycle of cloud-native product delivery — from opportunity discovery and MVP development to engineering, DevOps, deployment, and scaling. We focus on enabling safe, controlled releases and building resilient, high-performing systems."
+      "answer": "Our Progressive Delivery Consulting Services cover the full lifecycle of cloud-native product delivery, from opportunity discovery and MVP development to engineering, DevOps, deployment, and scaling. We focus on enabling safe, controlled releases and building resilient, high-performing systems."
     },
     {
       "question": "Which technologies and practices are used in progressive delivery consulting?",
@@ -390,7 +390,7 @@
     },
     {
       "question": "Can you work with our existing product roadmap and stack?",
-      "answer": "Yes — we can integrate with your current roadmap and architecture. Our engineers refine existing systems, enable progressive delivery workflows, and lift your platform into a containerized, cloud-native, and production-ready state."
+      "answer": "Yes, we can integrate with your current roadmap and architecture. Our engineers refine existing systems, enable progressive delivery workflows, and lift your platform into a containerized, cloud-native, and production-ready state."
     },
     {
       "question": "What is the typical timeline and engagement model for Progressive Delivery Consulting Services?",

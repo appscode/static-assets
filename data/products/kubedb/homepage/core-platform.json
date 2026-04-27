@@ -1,0 +1,32 @@
+{
+  "badge": "Core Platform",
+  "title_plain": "Production-Ready",
+  "title_gradient": "Database Operations",
+  "description": "Automate the complete database lifecycle, from initial provisioning to day-2 operations, scaling, and disaster recovery.",
+  "features": [
+    {
+      "icon": "heroicons:bolt",
+      "icon_gradient": "linear-gradient(135deg, #facc15, #f97316)",
+      "title": "Automated Provisioning",
+      "desc": "Deploy production-ready databases in minutes with a single Kubernetes manifest. No manual configuration needed."
+    },
+    {
+      "icon": "heroicons:arrow-path",
+      "icon_gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)",
+      "title": "Day-2 Operations",
+      "desc": "Automated backups, monitoring, scaling, patching, and upgrades - all handled by KubeDB operators."
+    },
+    {
+      "icon": "heroicons:shield-check",
+      "icon_gradient": "linear-gradient(135deg, #4ade80, #10b981)",
+      "title": "High Availability",
+      "desc": "Built-in replication, automatic failover, and self-healing capabilities ensure maximum uptime."
+    },
+    {
+      "icon": "heroicons:chart-bar",
+      "icon_gradient": "linear-gradient(135deg, #c084fc, #ec4899)",
+      "title": "Monitoring & Observability",
+      "desc": "Integrated metrics, logging, and alerting with Prometheus, Grafana, and custom dashboards."
+    }
+  ]
+}

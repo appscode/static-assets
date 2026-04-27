@@ -52,7 +52,7 @@
   },
   "service_details": {
     "title": "Comprehensive Cloud Native FaaS Services",
-    "subtitle": "AppsCode provides end-to-end cloud native FaaS consulting—from strategy to deployment and optimization, ensuring your applications are performant, scalable, and secure.",
+    "subtitle": "AppsCode provides end-to-end cloud native FaaS consulting, from strategy to deployment and optimization, ensuring your applications are performant, scalable, and secure.",
     "sections": [
       {
         "title": "Serverless Strategy & Advisory",
@@ -86,7 +86,7 @@
       },
       {
         "title": "Managed FaaS Operations",
-        "description": "Focus on innovation while AppsCode manages your FaaS environments—ensuring uptime, performance, and cost efficiency.",
+        "description": "Focus on innovation while AppsCode manages your FaaS environments, ensuring uptime, performance, and cost efficiency.",
         "offerings": [
           "Continuous monitoring and optimization of function execution, latency, and cost.",
           "24×7 automated incident response and real-time health checks.",
@@ -96,7 +96,7 @@
       },
       {
         "title": "Managed FaaS Operations",
-        "description": "Focus on innovation while AppsCode manages your FaaS environments—ensuring uptime, performance, and cost efficiency.",
+        "description": "Focus on innovation while AppsCode manages your FaaS environments, ensuring uptime, performance, and cost efficiency.",
         "offerings": [
           "Continuous monitoring and optimization of function execution, latency, and cost.",
           "24×7 automated incident response and real-time health checks.",
@@ -113,7 +113,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Certified Cloud & FaaS Experts",
-        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms, helping you build, scale, and automate with confidence"
       },
       {
         "icon": "fa fa-briefcase",
@@ -283,11 +283,11 @@
   "faq": [
     {
       "question": "What do your Cloud Native FaaS Services include?",
-      "answer": "Our Cloud Native FaaS Services cover the complete lifecycle of building serverless, event-driven applications — from discovery and MVP design to engineering, DevOps automation, deployment, and scaling. We combine disciplined processes and cloud-native best practices to deliver secure, high-performing, and scalable solutions."
+      "answer": "Our Cloud Native FaaS Services cover the complete lifecycle of building serverless, event-driven applications, from discovery and MVP design to engineering, DevOps automation, deployment, and scaling. We combine disciplined processes and cloud-native best practices to deliver secure, high-performing, and scalable solutions."
     },
     {
       "question": "Which technologies and practices do you use for cloud-native and FaaS development?",
-      "answer": "We use Kubernetes, Knative, and other serverless frameworks to enable scalable Function-as-a-Service workloads. Our practices include CI/CD pipelines, Infrastructure as Code (IaC), automated testing, observability, and multi-cloud or hybrid deployments — ensuring flexibility and operational consistency."
+      "answer": "We use Kubernetes, Knative, and other serverless frameworks to enable scalable Function-as-a-Service workloads. Our practices include CI/CD pipelines, Infrastructure as Code (IaC), automated testing, observability, and multi-cloud or hybrid deployments, ensuring flexibility and operational consistency."
     },
     {
       "question": "Can you integrate with our existing roadmap or tech stack for FaaS development?",
@@ -311,7 +311,7 @@
     },
     {
       "question": "How much do Cloud Native FaaS Services cost?",
-      "answer": "Pricing depends on project scope, function complexity, cloud platform, and ongoing support. We offer flexible options — from fixed-price MVP builds to time-based or retainer models for continuous serverless development. A detailed estimate follows our discovery phase."
+      "answer": "Pricing depends on project scope, function complexity, cloud platform, and ongoing support. We offer flexible options, from fixed-price MVP builds to time-based or retainer models for continuous serverless development. A detailed estimate follows our discovery phase."
     }
   ]
 }

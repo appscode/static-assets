@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Rancher by SUSE Consulting Services by Experts",
-    "subtitle": "AppsCode is a certified SUSE partner — delivering expert Rancher consulting, deployment, optimization, and managed enterprise support.",
+    "subtitle": "AppsCode is a certified SUSE partner, delivering expert Rancher consulting, deployment, optimization, and managed enterprise support.",
     "cta_text": "Talk to a Rancher Expert",
     "cta_url": "https://appscode.com/contact/",
     "illustration": {
@@ -51,7 +51,7 @@
   },
   "service_details": {
     "title": "Our End-to-End Rancher Consulting Services",
-    "subtitle": "As a <a href=\"https://www.suse.com/pcsc/viewPartnerPage?partnerID=254264\">certified SUSE partner</a> and <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member, AppsCode delivers expert Rancher consulting — from planning to production management.",
+    "subtitle": "As a <a href=\"https://www.suse.com/pcsc/viewPartnerPage?partnerID=254264\">certified SUSE partner</a> and <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member, AppsCode delivers expert Rancher consulting, from planning to production management.",
     "sections": [
       {
         "title": "Rancher Advisory & Assessment",
@@ -254,7 +254,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "World-Class Rancher Expertise",
-        "description": "50+ engineers specializing in Rancher, Kubernetes, containers, and cloud-native platforms — helping you build, scale, and automate with confidence."
+        "description": "50+ engineers specializing in Rancher, Kubernetes, containers, and cloud-native platforms, helping you build, scale, and automate with confidence."
       },
       {
         "icon": "fa fa-trophy",
@@ -284,7 +284,7 @@
     "products": [
       {
         "name": "KubeDB Rancher Extension",
-        "description": "Manage production-grade databases directly from the Rancher UI — deploy, monitor, and scale without leaving the dashboard.",
+        "description": "Manage production-grade databases directly from the Rancher UI, deploy, monitor, and scale without leaving the dashboard.",
         "url": "https://appscode.com/docs/en/guides/integrations/rancher-extension.html",
         "logo": "/assets/images/technical-expertise/kubedb.svg"
       },
@@ -303,7 +303,7 @@
     },
     {
       "question": "Is AppsCode a certified SUSE Rancher partner?",
-      "answer": "Yes — AppsCode is a certified SUSE partner. KubeDB is available as a Rancher Extension for direct integration with the Rancher UI, and our Helm charts are published in the official Rancher Partner Charts repository. Learn more at appscode.com/docs/en/guides/integrations/rancher-extension.html."
+      "answer": "Yes, AppsCode is a certified SUSE partner. KubeDB is available as a Rancher Extension for direct integration with the Rancher UI, and our Helm charts are published in the official Rancher Partner Charts repository. Learn more at appscode.com/docs/en/guides/integrations/rancher-extension.html."
     },
     {
       "question": "Which technologies and practices are used in Rancher consulting?",
@@ -311,7 +311,7 @@
     },
     {
       "question": "Can you work with our existing Rancher clusters or cloud-native stack?",
-      "answer": "Yes — we integrate with your current Rancher clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable Rancher deployments."
+      "answer": "Yes, we integrate with your current Rancher clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable Rancher deployments."
     },
     {
       "question": "What is the typical timeline and engagement model for Rancher Consulting Services?",

@@ -1,0 +1,402 @@
+{
+  "hero": {
+    "product_color_primary": "#4285F4",
+    "product_icon": "lucide:check-circle-2",
+    "hero_badge": "GOOGLE CLOUD PARTNER",
+    "hero_title_1": "Run Any Database Natively on <br>Google Kubernetes Engine - <br><span class=\"text-gradient\">Without the Compromise.</span>",
+    "hero_description": "Deploy and manage <strong>25+ Production-grade databases</strong> as native Kubernetes resources on Google GKE. Leverage Google Cloud Infrastructure with broader choice, zero extra licensing, and true GitOps agility.",
+    "primary_action_text": "Start Free Trial",
+    "primary_action_url": "/docs/latest/setup/",
+    "secondary_action_text": "View on GCP Marketplace",
+    "secondary_action_url": "#",
+    "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+    "stats_style": "hero-inline-metrics",
+    "stats": [
+      {
+        "value": "25+ Database Engines",
+        "label": "PostgreSQL, MySQL, Redis, Kafka & more"
+      },
+      {
+        "value": "Level 5 Operator",
+        "label": "Day-2 operations on Auto Pilot"
+      },
+      {
+        "value": "100% GitOps Native",
+        "label": "Declarative & developer-friendly"
+      }
+    ]
+  },
+
+  "paragraph": {
+    "content": "KubeDB by AppsCode delivers a production-grade, Kubernetes-native Database-as-a-Service platform that runs seamlessly on <strong>Google Kubernetes Engine (GKE)</strong>. It enables platform teams and developers to provision, manage, scale, backup, and recover a wide range of databases using familiar Kubernetes APIs and declarative workflows - <strong>without vendor lock-in</strong> or reliance on cloud-managed database services."
+  },
+
+  "what_this_means": {
+    "heading": "What This Means for Google Cloud and GKE Users",
+    "description": "If you're running applications on Google GKE, you already enjoy scalable, managed Kubernetes. However, databases often introduce complexity through separate tooling, manual operations, or cloud-specific DBaaS services that create lock-in.",
+    "subtitle": "KubeDB changes that by making databases first-class Kubernetes resources directly inside your GKE clusters:",
+    "items": [
+      {
+        "icon": "lucide:zap",
+        "title": "Faster Time-to-Value",
+        "description": "Launch databases in minutes using kubectl, Helm, GitOps, or self-service portals."
+      },
+      {
+        "icon": "lucide:trending-up",
+        "title": "Lower Operational Burden",
+        "description": "Automate Day-2 tasks and eliminate custom scripts."
+      },
+      {
+        "icon": "lucide:dollar-sign",
+        "title": "Cost Optimization",
+        "description": "Use existing Google Cloud storage and avoid premium managed DBaaS pricing."
+      },
+      {
+        "icon": "lucide:globe",
+        "title": "Hybrid/Multi-Cloud Consistency",
+        "description": "Same workflows whether running on GKE or other clouds."
+      }
+    ]
+  },
+
+  "architecture": {
+    "badge": "TECHNICAL ARCHITECTURE",
+    "heading": "KubeDB runs natively on Google GKE",
+    "description": "The KubeDB Operator sits directly on top of your GKE clusters, leveraging GCP infrastructure, multi-zone capabilities, and Kubernetes-native patterns for database automation.",
+    "layers": [
+      {
+        "label": "KubeDB Platform",
+        "desc": "Web Console • Envoy Gateway • Hub/Spoke Model • Policy Engine",
+        "gradient": "primary"
+      },
+      {
+        "label": "KubeDB Operator",
+        "desc": "Provisioner • OpsManager • AutoScaler • KubeDB • Migrator",
+        "gradient": "purple"
+      },
+      {
+        "label": "Kubernetes Services",
+        "desc": "ArgoCD • Open Cluster Management • Cert Manager • Prometheus • Grafana",
+        "gradient": "blue"
+      },
+      {
+        "label": "Google GKE",
+        "desc": "Kubernetes • GCP Infrastructure • Multi-Zone Support",
+        "gradient": "mke"
+      }
+    ],
+    "image": "/assets/images/partners/KubeDB_Stack_Diagram.png",
+    "image_alt": "KubeDB Platform Architecture on Google GKE",
+    "image_tags": ["On-premises", "Cloud", "Edge"]
+  },
+
+  "capabilities": {
+    "heading": "Production databases. Fully automated on GKE.",
+    "description": "25+ Database engines with HA, scaling, backup, TLS, monitoring, and GitOps support",
+    "items": [
+      {
+        "icon": "lucide:cloud",
+        "title": "Run Databases Natively on GKE",
+        "description": "KubeDB integrates deeply with GKE, supporting any Kubernetes StorageClass (including Persistent Disks, Filestore, or third-party CSI drivers). Databases run inside your private pod network with full affinity and anti-affinity controls for multi-zone resiliency."
+      },
+      {
+        "icon": "lucide:unlock",
+        "title": "DBaaS Without Cloud Lock-In",
+        "description": "Complete data ownership and sovereignty with portability across clouds or on-prem. Support for air-gapped and sovereign environments with your choice of storage optimized for performance, cost, or resilience."
+      },
+      {
+        "icon": "lucide:layout-grid",
+        "title": "Broad Database Support",
+        "description": "Manage 25+ Database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more, all with consistent Kubernetes-native workflows."
+      },
+      {
+        "icon": "lucide:git-fork",
+        "title": "Automated Lifecycle Management",
+        "description": "Declarative CRDs handle provisioning, upgrades, scaling and repair with zero-downtime where possible."
+      },
+      {
+        "icon": "lucide:shield",
+        "title": "High Availability & Resiliency",
+        "description": "Multi-zone clustering, automated failover, PodDisruptionBudgets, and continuous health checks."
+      },
+      {
+        "icon": "lucide:database",
+        "title": "Backup & Recovery",
+        "description": "Integrated with KubeStash for policy-driven, incremental, encrypted backups to Google Cloud Storage. Support for point-in-time recovery."
+      },
+      {
+        "icon": "lucide:bar-chart-2",
+        "title": "Monitoring & Observability",
+        "description": "Native Prometheus + Grafana dashboards. Integrates with Google Cloud Monitoring and Operations Suite."
+      },
+      {
+        "icon": "lucide:lock",
+        "title": "Security & Governance",
+        "description": "Automated TLS, Transparent Data Encryption, RBAC integration with GKE Workload Identity, network policies, and Vault support."
+      },
+      {
+        "icon": "lucide:users",
+        "title": "Self-Service for Developers",
+        "description": "Platform teams enforce policies while developers provision databases via Kubernetes-native workflows."
+      }
+    ]
+  },
+
+  "database_support": {
+    "heading": "Comprehensive Database Support",
+    "description": "25+ Database engines managed with Kubernetes-native workflows",
+    "categories": [
+      {
+        "label": "Relational",
+        "items": "PostgreSQL, MySQL, MariaDB, SQL Server, Percona XtraDB"
+      },
+      {
+        "label": "NoSQL/Document",
+        "items": "MongoDB, DocumentDB, Cassandra"
+      },
+      {
+        "label": "In-Memory/Cache",
+        "items": "Redis, Valkey, Memcached"
+      },
+      {
+        "label": "Search",
+        "items": "Elasticsearch, OpenSearch, Solr"
+      },
+      {
+        "label": "Analytics",
+        "items": "Druid, ClickHouse, SingleStore"
+      },
+      {
+        "label": "Messaging",
+        "items": "Kafka, RabbitMQ"
+      },
+      {
+        "label": "Others",
+        "items": "Hazelcast, ZooKeeper, PgBouncer, ProxySQL"
+      }
+    ]
+  },
+
+  "aws_integration": {
+    "heading": "Seamless Google Cloud & Kubernetes Integration",
+    "description": "KubeDB leverages the full power of Google Cloud and Kubernetes to deliver a complete database platform",
+    "integrations": [
+      {
+        "icon": "lucide:box",
+        "color": "blue",
+        "title": "Google GKE & Kubernetes",
+        "description": "Deploy databases natively on Google GKE with support for Autopilot, Standard clusters, and GKE Enterprise. Full GitOps workflows with Config Sync."
+      },
+      {
+        "icon": "lucide:archive",
+        "color": "green",
+        "title": "Google Cloud Storage",
+        "description": "Automated backup and archival to GCS with lifecycle policies, versioning, cross-region replication, and Nearline/Coldline storage classes."
+      },
+      {
+        "icon": "lucide:eye",
+        "color": "yellow",
+        "title": "Google Cloud Monitoring & Operations",
+        "description": "Deep integration with Cloud Monitoring, Cloud Logging, and native Prometheus support with pre-built Grafana dashboards."
+      },
+      {
+        "icon": "lucide:user-check",
+        "color": "purple",
+        "title": "Workload Identity & IAM",
+        "description": "Use Google Cloud IAM with Workload Identity for authentication and Kubernetes RBAC for fine-grained access control."
+      },
+      {
+        "icon": "lucide:lock",
+        "color": "red",
+        "title": "VPC & Network Policies",
+        "description": "Deploy databases in your VPC with custom network configurations, VPC-native clusters, and Kubernetes NetworkPolicies."
+      }
+    ],
+    "image": "/assets/images/cloud.jpeg",
+    "image_alt": "Google Cloud & Kubernetes Integration"
+  },
+
+  "comparison": {
+    "badge": "COMPARISON",
+    "heading": "Why KubeDB on GKE Beats Cloud SQL",
+    "description": "Feature-by-feature, KubeDB on GKE delivers broader coverage, lower cost, and true portability.",
+    "col_traditional": "Cloud SQL",
+    "col_kubedb": "KubeDB on GKE",
+    "rows": [
+      {
+        "capability": "Provisioning Speed",
+        "traditional": "5-10 minutes",
+        "kubedb": "< 60 seconds"
+      },
+      {
+        "capability": "Vendor Lock-in",
+        "traditional": "Google Cloud only",
+        "kubedb": "None - portable"
+      },
+      {
+        "capability": "Database Engine Support",
+        "traditional": "PostgreSQL, MySQL only",
+        "kubedb": "25+ engines including NoSQL, search, messaging"
+      },
+      {
+        "capability": "Cost Structure",
+        "traditional": "Premium service fees",
+        "kubedb": "Pay for compute + storage only"
+      },
+      {
+        "capability": "Multi-Cloud Portability",
+        "traditional": "Not available",
+        "kubedb": "Full support"
+      }
+    ]
+  },
+
+  "additional_integrations": {
+    "heading": "Additional Google Cloud & Enterprise Integrations",
+    "items": [
+      {
+        "icon": "lucide:key",
+        "title": "Cloud KMS",
+        "description": "Encryption key management"
+      },
+      {
+        "icon": "lucide:hard-drive",
+        "title": "Persistent Disks",
+        "description": "High-performance SSD storage"
+      },
+      {
+        "icon": "lucide:globe",
+        "title": "Cloud DNS",
+        "description": "DNS management"
+      },
+      {
+        "icon": "lucide:key-round",
+        "title": "Secret Manager",
+        "description": "Credential rotation"
+      },
+      {
+        "icon": "lucide:layers",
+        "title": "Cloud Deployment Manager",
+        "description": "Infrastructure as code"
+      },
+      {
+        "icon": "lucide:shield-check",
+        "title": "Certificate Manager",
+        "description": "TLS/SSL certificates"
+      },
+      {
+        "icon": "lucide:trending-up",
+        "title": "Auto Scaling",
+        "description": "Dynamic scaling policies"
+      },
+      {
+        "icon": "lucide:activity",
+        "title": "Config Sync & Anthos",
+        "description": "Multi-cluster management"
+      }
+    ]
+  },
+
+  "cost_comparison": {
+    "badge": "60% Average Cost Savings",
+    "heading": "Why KubeDB Is More Cost-Effective Than Cloud SQL",
+    "description": "Run databases on Google Cloud at a fraction of the cost while improving performance and developer productivity",
+    "savings_cards": [
+      {
+        "title": "Better Bin Packing",
+        "description": "Run multiple databases on the same GCE host, unlike Cloud SQL which requires dedicated instances",
+        "highlight": "Up to 60% cost reduction"
+      },
+      {
+        "title": "Spot VM Support",
+        "description": "Use GCP Spot VMs for database pods, reducing compute costs by up to 90%",
+        "highlight": "70-90% compute savings"
+      },
+      {
+        "title": "Lower Management Fees",
+        "description": "Cloud SQL charges premium management fees on top of GCE costs. KubeDB fees are significantly lower",
+        "highlight": "60-70% lower fees"
+      },
+      {
+        "title": "Free for Short-Lived Workloads",
+        "description": "Use KubeDB free for any clusters running less than 30 days (dev, test, CI/CD environments)",
+        "highlight": "100% free for dev/test"
+      }
+    ],
+    "savings_cta": {
+      "heading": "Calculate Your Savings",
+      "description": "Organizations typically save 60-70% on database costs when switching from Cloud SQL to KubeDB, while improving provisioning speed and developer productivity",
+      "stats": [
+        { "value": "60%", "label": "Lower Cost Budget" },
+        { "value": "10x", "label": "Faster Provisioning" },
+        { "value": "Zero", "label": "Vendor Lock-In" }
+      ],
+      "button_text": "Get a Cost Analysis",
+      "button_url": "#"
+    }
+  },
+
+  "cta": {
+    "badge": "Google Cloud Ready",
+    "heading": "Run Databases Natively",
+    "heading_highlight": "on Google GKE",
+    "description": "60% cost savings, 10x faster provisioning, zero vendor lock-in",
+    "features": [
+      {
+        "text": "Deploy 25+ databases in <60s",
+        "icon": "lucide:zap"
+      },
+      {
+        "text": "90% savings with Spot VMs",
+        "icon": "lucide:trending-down"
+      },
+      {
+        "text": "Full GCP integration (GCS, KMS)",
+        "icon": "lucide:check"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Start Free Trial",
+        "href": "/docs/latest/setup/",
+        "style": "white",
+        "target": "_blank",
+        "icon": "lucide:arrow-right",
+        "icon_position": "right"
+      },
+      {
+        "text": "Watch Demo",
+        "href": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+        "style": "ghost",
+        "icon": "lucide:play",
+        "icon_position": "left"
+      }
+    ],
+    "stats": [
+      {
+        "value": "60%",
+        "label": "COST SAVINGS",
+        "icon": "lucide:dollar-sign",
+        "color": "green"
+      },
+      {
+        "value": "<60s",
+        "label": "PROVISIONING",
+        "icon": "lucide:zap",
+        "color": "purple"
+      },
+      {
+        "value": "25+",
+        "label": "DB ENGINES",
+        "icon": "lucide:database",
+        "color": "blue"
+      },
+      {
+        "value": "10K+",
+        "label": "DEPLOYMENTS",
+        "icon": "lucide:trending-up",
+        "color": "red"
+      }
+    ]
+  }
+}

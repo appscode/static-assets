@@ -127,7 +127,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Certified Experts",
-        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms, helping you build, scale, and automate with confidence."
       },
       {
         "icon": "fa fa-briefcase",
@@ -294,7 +294,7 @@
     },
     {
       "question": "Can you work with our existing infrastructure and operations teams?",
-      "answer": "Yes — we integrate with your current systems and teams, assess reliability gaps, implement SRE practices, and provide guidance to optimize operational processes for improved service uptime and stability."
+      "answer": "Yes, we integrate with your current systems and teams, assess reliability gaps, implement SRE practices, and provide guidance to optimize operational processes for improved service uptime and stability."
     },
     {
       "question": "What is the typical timeline and engagement model for SRE Consulting?",

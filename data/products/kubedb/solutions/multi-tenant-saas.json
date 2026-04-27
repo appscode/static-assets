@@ -1,0 +1,163 @@
+{
+  "product_name": "For SaaS Companies",
+  "product_color_primary": "#4948A3",
+  "cta_bg_color": "#1e1b4b",
+  "hero_badge": "For SaaS Companies",
+  "hero_title_1": "Multi-Tenant Database Infrastructure.",
+  "hero_title_2": "Done Right.",
+  "hero_description": "Deliver production-grade, secure, and cost-effective databases to every tenant with a single Kubernetes-native DBaaS platform.",
+  "hero_subtitle_highlight": "KubeDB Platform",
+  "hero_best_with": "KubeDB Platform",
+  "hero_footer_text": "Runs on any Kubernetes • 25+ Database engines • Centralized Governance",
+  "primary_action_text": "Get Started with KubeDB",
+  "primary_action_url": "/docs/latest/setup/",
+  "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+  "secondary_action_text": "View Documentation",
+  "secondary_action_url": "/docs/latest/welcome/",
+  "product_icon": "lucide:users",
+  "sections": [
+    "hero",
+    "when_to_use",
+    "numbered_features",
+    "comparison_table",
+    "database_support",
+    "testimonial",
+    "why_not_cloud_dbaas",
+    "platform_built_for_scale",
+    "capabilities",
+    "benefits",
+    "final_cta"
+  ],
+
+  "when_to_use_badge": "The multi-tenant challenge",
+  "when_to_use_title": "The multi-tenant challenge",
+  "when_to_use_subtitle": "Modern enterprises need databases that scale with tenants - not against them.",
+  "when_to_use_description": "Platform teams are stuck choosing between hyperscaler lock-in or painful manual Kubernetes operations. Developers wait weeks for databases while security teams lose sleep over isolation.",
+  "when_to_use": [
+    {
+      "title": "Security & Isolation",
+      "description": "Shared Databases lead to noisy neighbors, credential sprawl, and compliance nightmares. Managing separate databases for hundreds of tenants is painful.",
+      "icon": "lucide:shield",
+      "icon_bg": "#ef4444"
+    },
+    {
+      "title": "Ticket-based provisioning",
+      "description": "Developers blocked. Platform teams overwhelmed. Delivery cycles stretched to months, slowing down customer onboarding.",
+      "icon": "lucide:file-clock",
+      "icon_bg": "#f59e0b"
+    },
+    {
+      "title": "Cost Explosion",
+      "description": "Cloud DBaaS is easy but expensive and non-portable. Manual operations and over-provisioning drive up infrastructure and engineering costs.",
+      "icon": "lucide:trending-down",
+      "icon_bg": "#3b82f6"
+    }
+  ],
+
+  "numbered_features_title": "KubeDB gives you <span class='text-gradient'>enterprise multi-tenant DBaaS</span> natively inside Kubernetes.",
+  "numbered_features_subtitle": "Run production-ready databases for hundreds of teams and tenants - with complete governance, security, and self-service - on Red Hat OpenShift, SUSE Rancher Prime, or any Kubernetes.",
+  "numbered_features_graphic": "/assets/images/products/kubedb/kubedb-multi-tenancy-diagram.png",
+  "numbered_features": [
+    {
+      "id": "01",
+      "title": "Namespace-based multi-tenancy",
+      "description": "Each tenant gets isolated namespaces with RBAC, network policies, and resource quotas.",
+      "icon": "lucide:layers"
+    },
+    {
+      "id": "02",
+      "title": "Centralized policy engine",
+      "description": "Enforce security, backup schedules, version upgrades, and cost controls across all tenants from a single pane.",
+      "icon": "lucide:shield-check"
+    },
+    {
+      "id": "03",
+      "title": "Developer self-service",
+      "description": "Teams request databases via kubectl, GitOps, or the KubeDB Console, instantly and compliantly.",
+      "icon": "lucide:zap"
+    },
+    {
+      "id": "04",
+      "title": "Dramatic cost savings",
+      "description": "Run multiple tenant databases on shared infrastructure with better bin packing. Free for short-lived dev/test clusters (<30 days), support for Spot instances and dynamic scaling, with much lower management overhead vs. cloud DBaaS.",
+      "icon": "lucide:trending-down"
+    }
+  ],
+
+  "comparison_title": "KubeDB vs Traditional SaaS Database Approaches",
+  "comparison_header_1": "Requirement",
+  "comparison_header_2": "Per-Customer RDS / Cloud DBaaS",
+  "comparison_header_3": "KubeDB Multi-Tenant DBaaS",
+  "comparison_table": {
+    "rows": [
+      ["Provisioning Time", "5–10 minutes", "< 60 seconds"],
+      ["Cost Model", "Expensive per-instance pricing + high management fees", "Pay for compute/storage actually used + predictable licensing"],
+      ["Tenant Isolation", "Strong but expensive", "Kubernetes-native (namespaces/RBAC) + optional dedicated clusters"],
+      ["Portability", "Vendor lock-in", "Run anywhere Kubernetes runs (on-prem, edge, air-gapped or cloud)"],
+      ["Developer Experience", "Separate portals and tools", "Same GitOps / kubectl / Helm workflow as your applications"],
+      ["Observability", "Fragmented", "Unified Prometheus + Grafana across all tenants"]
+    ]
+  },
+
+  "everything_you_need_title": "Everything You Need for Production Multi-Tenant DBaaS",
+  "capabilities": [
+    {
+      "title": "Supported Databases",
+      "icon": "lucide:database",
+      "benefits": [
+        "SQL: PostgreSQL, MySQL, MariaDB, SQL Server",
+        "NoSQL: MongoDB, Cassandra",
+        "Cache: Redis, Valkey, Memcached",
+        "Search & Analytics: Elasticsearch, OpenSearch, ClickHouse",
+        "Messaging: Kafka, RabbitMQ"
+      ]
+    },
+    {
+      "title": "Enterprise Features",
+      "icon": "lucide:shield",
+      "benefits": [
+        "Automated High Availability & Failover",
+        "Policy-driven Backups (KubeStash) with PITR",
+        "GitOps-ready with dedicated GitOps CRDs",
+        "Automated TLS, Encryption-at-Rest, Vault integration",
+        "Centralized Dashboard + Multi-cluster visibility",
+        "Red Hat OpenShift Certified Operator"
+      ]
+    },
+    {
+      "title": "Platform Engineering Superpowers",
+      "icon": "lucide:settings",
+      "benefits": [
+        "Self-service for developers",
+        "Centralized policy & governance",
+        "Multi-tenancy at scale",
+        "Consistent experience across all environments",
+        "Lower TCO than hyperscaler DBaaS"
+      ]
+    }
+  ],
+
+  "testimonial": {
+    "quote": "KubeDB lets us give every customer their own isolated, production-ready database while keeping operations simple and costs under control. The same declarative workflows we use for applications now cover our entire data layer.",
+    "attribution": "Platform Engineering Lead, Multi-tenant SaaS Company",
+    "theme_color": "#4948A3"
+  },
+
+  "cta_badge": "Multi-Tenant Ready",
+  "cta_title": "Scale Your SaaS",
+  "cta_title_gradient": "<br/>With Every Tenant",
+  "cta_description": "Deliver secure, isolated databases to thousands of tenants on Kubernetes",
+  "cta_checklist": [
+    "Tenant isolation & security",
+    "Instant provisioning per tenant",
+    "60% lower costs vs cloud DBaaS"
+  ],
+  "cta_button_text": "Start Free Trial",
+  "cta_button_url": "/docs/latest/setup/",
+  "final_cta_metrics": [
+    { "icon": "lucide:users", "value": "1000s", "label": "Tenants", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
+    { "icon": "lucide:zap", "value": "<60s", "label": "Provisioning", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
+    { "icon": "lucide:database", "value": "25+", "label": "DB Engines", "gradient": "linear-gradient(135deg, #a78bfa, #ec4899)" },
+    { "icon": "lucide:trending-down", "value": "60%", "label": "Cost Savings", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
+  ]
+}

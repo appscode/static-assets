@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Managed Google Cloud Platform Services by Experts",
-    "subtitle": "AppsCode's DevOps team helps you onboard to GCP, manages your cloud accounts, and keeps your applications running — so you can focus on building your product.",
+    "subtitle": "AppsCode's DevOps team helps you onboard to GCP, manages your cloud accounts, and keeps your applications running, so you can focus on building your product.",
     "cta_text": "Talk to a Cloud Expert",
     "cta_url": "https://appscode.com/contact/",
     "illustration": {
@@ -51,7 +51,7 @@
   },
   "service_details": {
     "title": "Our Managed GCP Cloud Services",
-    "subtitle": "AppsCode provides end-to-end Google Cloud management — from cloud onboarding and architecture design to 24/7 operations, cost optimization, and security. Our DevOps engineers become an extension of your team.",
+    "subtitle": "AppsCode provides end-to-end Google Cloud management, from cloud onboarding and architecture design to 24/7 operations, cost optimization, and security. Our DevOps engineers become an extension of your team.",
     "sections": [
       {
         "title": "GCP Onboarding & Migration",
@@ -65,7 +65,7 @@
       },
       {
         "title": "Infrastructure Management & Administration",
-        "description": "We manage your GCP infrastructure day-to-day — provisioning resources, configuring networking, managing IAM policies, and ensuring everything runs smoothly.",
+        "description": "We manage your GCP infrastructure day-to-day, provisioning resources, configuring networking, managing IAM policies, and ensuring everything runs smoothly.",
         "offerings": [
           "Manage GKE, Compute Engine, Cloud Run, Cloud SQL, BigQuery, Cloud Storage, VPC, and 100+ GCP services.",
           "Infrastructure as Code using Terraform, Pulumi, and Google Cloud Deployment Manager.",
@@ -75,7 +75,7 @@
       },
       {
         "title": "24/7 Monitoring, Alerting & Incident Response",
-        "description": "Our engineers monitor your GCP environment around the clock. When issues arise, we detect, diagnose, and resolve them — often before your users notice.",
+        "description": "Our engineers monitor your GCP environment around the clock. When issues arise, we detect, diagnose, and resolve them, often before your users notice.",
         "offerings": [
           "Real-time monitoring with Cloud Monitoring, Cloud Logging, Prometheus, and Grafana.",
           "Custom alerting rules with PagerDuty, OpsGenie, or Slack integrations.",
@@ -89,7 +89,7 @@
         "offerings": [
           "Security audits, Security Command Center, VPC Service Controls, and Cloud Armor configuration.",
           "Compliance with SOC 2, HIPAA, GDPR, PCI-DSS, and ISO 27001.",
-          "FinOps practices — right-sizing, Committed Use Discounts, Spot VMs, and cost anomaly detection."
+          "FinOps practices - right-sizing, Committed Use Discounts, Spot VMs, and cost anomaly detection."
         ],
         "image": "/assets/images/services/kubernetes-devsecops-compliance.png"
       },
@@ -249,7 +249,7 @@
       {
         "icon": "fa fa-cloud",
         "title": "GKE & GCP Expertise",
-        "description": "AppsCode's team has deep expertise in Google Kubernetes Engine, Cloud Run, BigQuery, and the full GCP portfolio — with experience running production workloads at scale."
+        "description": "AppsCode's team has deep expertise in Google Kubernetes Engine, Cloud Run, BigQuery, and the full GCP portfolio, with experience running production workloads at scale."
       },
       {
         "icon": "fa fa-users",
@@ -274,7 +274,7 @@
       {
         "icon": "fa fa-trophy",
         "title": "CNCF Silver Member",
-        "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and regular sponsor of KubeCon + CloudNativeCon — deeply embedded in the cloud-native ecosystem."
+        "description": "A <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member and regular sponsor of KubeCon + CloudNativeCon, deeply embedded in the cloud-native ecosystem."
       }
     ]
   },
@@ -285,7 +285,7 @@
     },
     {
       "question": "Can you manage our existing GCP infrastructure?",
-      "answer": "Yes — we can take over management of your existing GCP environment. We start with an assessment to understand your current setup, identify gaps and risks, and then build a management plan tailored to your needs."
+      "answer": "Yes, we can take over management of your existing GCP environment. We start with an assessment to understand your current setup, identify gaps and risks, and then build a management plan tailored to your needs."
     },
     {
       "question": "How do you handle cloud cost optimization?",

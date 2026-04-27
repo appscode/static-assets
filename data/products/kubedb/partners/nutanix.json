@@ -1,0 +1,339 @@
+{
+  "hero": {
+    "product_color_primary": "#7272E9",
+    "product_icon": "lucide:check-circle",
+    "hero_badge": "FOR EXISTING NUTANIX CUSTOMERS",
+    "hero_title_1": "Run Any Database Natively on Nutanix Kubernetes Platform <span class=\"text-gradient\">Without the Compromise.</span>",
+    "hero_description": "Deploy and manage 25+ Production-grade databases as native Kubernetes resources on your Nutanix Kubernetes Platform. Leverage the full power of Nutanix Cloud Infrastructure (NCI) - with broader choice, lower cost, and true agility.",
+    "primary_action_text": "See full NDB vs KubeDB comparison",
+    "primary_action_url": "#comparison",
+    "secondary_action_text": "Deploy in Minutes on NKP",
+    "secondary_action_url": "/docs/latest/setup/",
+    "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+    "stats_style": "hero-inline-metrics",
+    "stats": [
+      {
+        "value": "25+ Database Engines",
+        "label": "vs NDB's ~8"
+      },
+      {
+        "value": "Level 5 Operator",
+        "label": "Day-2 operations on Auto Pilot"
+      },
+      {
+        "value": "100% GitOps Native",
+        "label": "Declarative & developer-friendly"
+      }
+    ]
+  },
+
+  "platform": {
+    "badge": "THE PLATFORM",
+    "heading": "Your Nutanix Investment is Ready for Modern Databases",
+    "description": "NCI delivers unmatched hyperconverged performance and resilience. NKP brings enterprise-grade Kubernetes. KubeDB turns your stack into a powerful, open database platform.",
+    "cards": [
+      {
+        "title": "Nutanix Cloud Infrastructure (NCI)",
+        "icon": "lucide:database",
+        "color": "info",
+        "description": "Hyperconverged foundation with AHV, AOS storage, and Prism management. Exceptional I/O performance, storage efficiency, and built-in disaster recovery.",
+        "features": [
+          "Native CSI driver for Kubernetes workloads",
+          "Up to 9× storage savings",
+          "Sub-millisecond latency for databases"
+        ]
+      },
+      {
+        "title": "Nutanix Kubernetes Platform (NKP)",
+        "icon": "lucide:cloud",
+        "color": "info",
+        "badge": "YOUR FOUNDATION",
+        "description": "Complete, production-ready Kubernetes with fleet management, GitOps, observability, and seamless integration with Nutanix storage and data services."
+      },
+      {
+        "title": "Nutanix Database Service (NDB)",
+        "icon": "lucide:database",
+        "color": "warning",
+        "legacy": true,
+        "description": "Optimized for VM-based environments, with evolving support for cloud-native Kubernetes workloads.",
+        "note": "Excellent for traditional VMs. Less ideal for cloud-native Kubernetes workloads."
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "COMPARISON",
+    "heading": "NDB vs KubeDB on NKP - Detailed Comparison",
+    "description": "See what additional capabilities KubeDB can offer to your Nutanix Kubernetes Platform",
+    "col_traditional": "Nutanix Database Service (NDB)",
+    "col_kubedb": "KubeDB on NKP + NCI",
+    "rows": [
+      {
+        "capability": "Supported Database Engines",
+        "traditional": "~8 core engines (Oracle, SQL Server, PostgreSQL, MySQL, MariaDB, MongoDB, EDB...)",
+        "kubedb": "25+ engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, Cassandra, ClickHouse, Neo4j, Milvus, Qdrant & more"
+      },
+      {
+        "capability": "Primary Deployment Model",
+        "traditional": "VM-centric DBaaS with a Kubernetes operator",
+        "kubedb": "100% Kubernetes native (CRDs + Operators) DBaaS Platform"
+      },
+      {
+        "capability": "Management & Provisioning",
+        "traditional": "Centralized console, APIs, one-click actions",
+        "kubedb": "Declarative YAML, GitOps-native (ArgoCD, Flux), kubectl/Helm"
+      },
+      {
+        "capability": "Provisioning Speed",
+        "traditional": "Minutes (VM-based)",
+        "kubedb": "Seconds for containerized instances + auto-scaling"
+      },
+      {
+        "capability": "Cost / Licensing",
+        "traditional": "Licensed add-on (per core / usage)",
+        "kubedb": "Licensed (per GB / Managed Database Memory)"
+      },
+      {
+        "capability": "High Availability & Failover",
+        "traditional": "Built-in HA clusters and replication",
+        "kubedb": "Automated HA, read replicas, intelligent failover"
+      },
+      {
+        "capability": "Backups & Point-In-Time Recovery",
+        "traditional": "Excellent fast Nutanix snapshots & thin clones",
+        "kubedb": "Stash integration + Nutanix CSI volume snapshots, encrypted & deduplicated"
+      },
+      {
+        "capability": "Cloning for Dev/Test",
+        "traditional": "Thin, space-efficient zero-byte clones in minutes",
+        "kubedb": "PVC snapshots & cloning supported"
+      },
+      {
+        "capability": "Storage Integration",
+        "traditional": "Native Nutanix storage (excellent performance)",
+        "kubedb": "Direct Nutanix CSI - sub-ms latency, erasure coding, dedup"
+      },
+      {
+        "capability": "Observability & Monitoring",
+        "traditional": "Built-in NDB console",
+        "kubedb": "Native NKP observability + Prometheus + DB-specific metrics"
+      },
+      {
+        "capability": "GitOps & CI/CD Readiness",
+        "traditional": "Limited (API/console focused)",
+        "kubedb": "Fully declarative and GitOps-first"
+      },
+      {
+        "capability": "Hybrid / Multi-Cloud Portability",
+        "traditional": "Strong within Nutanix ecosystem",
+        "kubedb": "Same manifests work on NKP, NC2, or any CNCF Kubernetes"
+      }
+    ]
+  },
+  "benefits": {
+    "badge": "WHY KUBEDB",
+    "heading": "Why Existing Nutanix Customers Choose KubeDB on NKP",
+    "items": [
+      {
+        "title": "Significantly Lower TCO",
+        "icon": "lucide:dollar-sign",
+        "description": "Only pay for the amount of Managed Database Memory(GB) while maximizing your existing Nutanix investment."
+      },
+      {
+        "title": "Developer-First Agility",
+        "icon": "lucide:rocket",
+        "description": "Databases become Kubernetes objects. Enable self-service provisioning, GitOps workflows, and faster iteration, all while running alongside your microservices on NKP."
+      },
+      {
+        "title": "Enterprise Security & Operations",
+        "icon": "lucide:shield",
+        "description": "Built-in TLS, encryption, automated backups with Stash, high availability, and seamless integration with Nutanix microsegmentation and NKP security policies."
+      },
+      {
+        "title": "Full Nutanix Performance",
+        "icon": "lucide:hard-drive",
+        "description": "Nutanix CSI provides blazing-fast persistent storage. Combine with NKP's monitoring and data services for complete lifecycle management."
+      },
+      {
+        "title": "Hybrid & Multi-Cloud Ready",
+        "icon": "lucide:globe",
+        "description": "Use identical manifests across on-premises NKP, NC2 on public clouds, or any CNCF Kubernetes, avoiding vendor lock-in common with traditional DBaaS."
+      },
+      {
+        "title": "Proven at Enterprise Scale",
+        "icon": "lucide:users",
+        "description": "Trusted by organizations worldwide for production databases. Rapid innovation with commercial support, while protecting your Nutanix infrastructure investment."
+      }
+    ]
+  },
+  "architecture": {
+    "badge": "TECHNICAL ARCHITECTURE",
+    "heading": "KubeDB runs natively on Nutanix Kubernetes Platform",
+    "description": "The KubeDB Operator sits directly on top of your Nutanix Kubernetes Platform, leveraging Nutanix's hyperconverged infrastructure and high-performance storage capabilities.",
+    "layers": [
+      {
+        "label": "KubeDB Platform",
+        "desc": "Web Console • Envoy Gateway • Hub/Spoke Model • Policy Engine",
+        "gradient": "primary"
+      },
+      {
+        "label": "KubeDB Operator",
+        "desc": "Provisioner • OpsManager • AutoScaler • KubeDB • Migrator",
+        "gradient": "purple"
+      },
+      {
+        "label": "Kubernetes Services",
+        "desc": "ArgoCD • Open Cluster Management • Cert Manager • Prometheus • Grafana",
+        "gradient": "blue"
+      },
+      {
+        "label": "Nutanix Kubernetes Platform",
+        "desc": "Kubernetes • NCI • NKP",
+        "gradient": "nkp"
+      }
+    ],
+    "image": "/assets/images/partners/KubeDB_Stack_Diagram.png",
+    "image_alt": "KubeDB Platform Architecture on Nutanix Kubernetes Platform",
+    "image_tags": ["On-premises", "Cloud", "Edge"]
+  },
+  "capabilities": {
+    "badge": "CAPABILITIES",
+    "heading": "Key Capabilities of KubeDB on NKP",
+    "items": [
+      {
+        "title": "Automated Lifecycle Management",
+        "icon": "lucide:git-fork",
+        "description": "Declarative operators handle provisioning, upgrades, scaling, and repair with zero-downtime where possible."
+      },
+      {
+        "title": "High Availability & Resiliency",
+        "icon": "lucide:shield",
+        "description": "Multi-zone clustering, automated failover, PodDisruptionBudgets, and continuous health checks with NKP integration."
+      },
+      {
+        "title": "Backup & Recovery",
+        "icon": "lucide:database",
+        "description": "Integrated with KubeStash for policy-driven, incremental, encrypted backups to S3-compatible storage. Support for point-in-time recovery."
+      },
+      {
+        "title": "Monitoring & Observability",
+        "icon": "lucide:bar-chart-2",
+        "description": "Native Prometheus + Grafana dashboards. Integrates with NKP monitoring stack for complete visibility."
+      },
+      {
+        "title": "Security & Governance",
+        "icon": "lucide:lock",
+        "description": "Automated TLS, Transparent Data Encryption, RBAC integration, network policies, and Nutanix microsegmentation support."
+      },
+      {
+        "title": "Storage Optimization",
+        "icon": "lucide:layers",
+        "description": "Nutanix CSI with sub-millisecond latency, erasure coding, deduplication, and compression for maximum performance and efficiency."
+      }
+    ]
+  },
+  "database_support": {
+    "heading": "Comprehensive Database Support",
+    "description": "25+ Database engines managed with Kubernetes-native workflows",
+    "categories": [
+      {
+        "label": "Relational",
+        "items": "PostgreSQL, MySQL, MariaDB, SQL Server, Percona XtraDB"
+      },
+      {
+        "label": "NoSQL/Document",
+        "items": "MongoDB, DocumentDB, Cassandra"
+      },
+      {
+        "label": "In-Memory/Cache",
+        "items": "Redis, Valkey, Memcached"
+      },
+      {
+        "label": "Search",
+        "items": "Elasticsearch, OpenSearch, Solr"
+      },
+      {
+        "label": "Analytics",
+        "items": "Druid, ClickHouse, SingleStore"
+      },
+      {
+        "label": "Messaging",
+        "items": "Kafka, RabbitMQ"
+      },
+      {
+        "label": "Vector/AI",
+        "items": "Milvus, Qdrant, Pgvector"
+      },
+      {
+        "label": "Graph",
+        "items": "Neo4j"
+      },
+      {
+        "label": "Others",
+        "items": "Hazelcast, ZooKeeper, PgBouncer, ProxySQL"
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Nutanix NKP Ready",
+    "heading": "Run Databases Natively",
+    "heading_highlight": "on Nutanix NKP",
+    "description": "FIPS 140-2 compliance, enterprise security, hybrid cloud deployment",
+    "features": [
+      {
+        "text": "Deploy 25+ databases in <60s",
+        "icon": "lucide:zap"
+      },
+      {
+        "text": "Sub-ms latency with Nutanix CSI",
+        "icon": "lucide:shield"
+      },
+      {
+        "text": "Run anywhere: on-prem, cloud, or hybrid",
+        "icon": "lucide:globe"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Start Free Trial",
+        "href": "/docs/latest/setup/",
+        "style": "white",
+        "target": "_blank",
+        "icon": "lucide:arrow-right",
+        "icon_position": "right"
+      },
+      {
+        "text": "Watch Demo",
+        "href": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+        "style": "ghost",
+        "icon": "lucide:play",
+        "icon_position": "left"
+      }
+    ],
+    "stats": [
+      {
+        "value": "9×",
+        "label": "Storage Efficiency",
+        "icon": "lucide:hard-drive",
+        "color": "green"
+      },
+      {
+        "value": "<1ms",
+        "label": "DB Latency",
+        "icon": "lucide:zap",
+        "color": "purple"
+      },
+      {
+        "value": "25+",
+        "label": "DB Engines",
+        "icon": "lucide:database",
+        "color": "blue"
+      },
+      {
+        "value": "100%",
+        "label": "Hybrid Ready",
+        "icon": "lucide:trending-up",
+        "color": "red"
+      }
+    ]
+  }
+}

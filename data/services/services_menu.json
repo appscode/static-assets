@@ -116,14 +116,14 @@
     },
     {
       "title": "Managed Databases",
-      "description": "Production-grade databases on Kubernetes — provisioned, monitored, and backed up by experts",
+      "description": "Production-grade databases on Kubernetes, provisioned, monitored, and backed up by experts",
       "icon": "/assets/images/services/icons8/ios-50-database.png",
       "lucide_icon": "lucide:database",
       "offerings": [
         {
           "id": "managed-databases-services",
           "title": "Managed Databases",
-          "description": "25+ database engines, fully managed on Kubernetes",
+          "description": "20+ Database engines, fully managed on Kubernetes",
           "icon": null
         }
       ]
@@ -162,7 +162,7 @@
     },
     {
       "title": "Product Engineering",
-      "description": "Building faster products - MVP, launch & scale",
+      "description": "Building faster products, MVP, launch & scale",
       "icon": "/assets/images/services/icons8/external-engineering-manufacturing.png",
       "lucide_icon": "lucide:box",
       "offerings": [
@@ -181,7 +181,7 @@
         {
           "id": "/extending-kubernetes-confidence-with-whitepaper",
           "title": "Extending Kubernetes? Custom Resources & Controllers",
-          "description": "Learn how custom resources & controllers can enhance your Kubernetes environment — Download the 16 page whitepaper",
+          "description": "Learn how custom resources & controllers can enhance your Kubernetes environment,  Download the 16 page whitepaper",
           "icon": null
         }
       ]

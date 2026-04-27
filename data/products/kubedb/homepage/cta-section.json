@@ -1,0 +1,19 @@
+{
+  "badge": "Get Started Today",
+  "title_plain": "Ready to Automate Your",
+  "title_gradient": "Database Operations?",
+  "description": "Join thousands of teams running production databases on Kubernetes with KubeDB",
+  "checklist": [
+    "Free 30-day trial",
+    "Enterprise support & 99.9% uptime SLA",
+    "Deploy in minutes • Cancel anytime"
+  ],
+  "cta_primary": "Start Free Trial",
+  "cta_secondary": "Watch Demo",
+  "trust_stats": [
+    { "icon": "heroicons:arrow-trending-up",          "icon_gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)", "val": "10K+", "label": "Active Users" },
+    { "icon": "heroicons:shield-check",               "icon_gradient": "linear-gradient(135deg, #4ade80, #10b981)", "val": "99.9%","label": "Uptime SLA" },
+    { "icon": "heroicons:circle-stack",               "icon_gradient": "linear-gradient(135deg, #c084fc, #ec4899)", "val": "25+",  "label": "Databases" },
+    { "icon": "heroicons:chat-bubble-bottom-center",  "icon_gradient": "linear-gradient(135deg, #fb923c, #ef4444)", "val": "24/7", "label": "Support" }
+  ]
+}

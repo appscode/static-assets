@@ -1,0 +1,32 @@
+{
+  "badge": "Use Cases",
+  "title_plain": "Own Your",
+  "title_gradient": "DBaaS Platform",
+  "description": "Enable infrastructure vendors, MSPs, and platform teams to deliver managed database services that compete with hyperscalers.",
+  "use_cases": [
+    {
+      "icon": "heroicons:users",
+      "icon_gradient": "linear-gradient(135deg, #8b5cf6, #a855f7)",
+      "title": "Platform Teams",
+      "desc": "Provide self-service database provisioning for development teams with governance controls."
+    },
+    {
+      "icon": "heroicons:building-office",
+      "icon_gradient": "linear-gradient(135deg, #ec4899, #f43f5e)",
+      "title": "MSPs & CSPs",
+      "desc": "Offer managed database services to customers with multi-tenant isolation and billing integration."
+    },
+    {
+      "icon": "heroicons:server-stack",
+      "icon_gradient": "linear-gradient(135deg, #22d3ee, #3b82f6)",
+      "title": "Infrastructure Vendors",
+      "desc": "Bundle KubeDB with your hardware/software stack to compete with Cloud DBaaS."
+    },
+    {
+      "icon": "heroicons:code-bracket",
+      "icon_gradient": "linear-gradient(135deg, #6366f1, #3b82f6)",
+      "title": "System Integrators",
+      "desc": "Deploy standardized database infrastructure across multiple customer environments."
+    }
+  ]
+}

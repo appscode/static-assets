@@ -22,7 +22,7 @@
       },
       {
         "icon": "fa fa-lock",
-        "title": "$14.8M — Average cost of non-compliance with data policies in automotive firms"
+        "title": "$14.8M: Average cost of non-compliance with data policies in automotive firms"
       },
       {
         "icon": "fa fa-leaf",
@@ -260,7 +260,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Certified Developers",
-        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms, helping you build, scale, and automate with confidence"
       },
       {
         "icon": "fa fa-briefcase",
@@ -300,7 +300,7 @@
     },
     {
       "question": "Can you integrate cloud-native solutions with our existing automotive systems?",
-      "answer": "Yes — we work with your existing vehicle software, telematics platforms, IoT systems, and manufacturing applications, modernize workloads, implement microservices patterns, and integrate cloud-native best practices while ensuring data security and compliance."
+      "answer": "Yes, we work with your existing vehicle software, telematics platforms, IoT systems, and manufacturing applications, modernize workloads, implement microservices patterns, and integrate cloud-native best practices while ensuring data security and compliance."
     },
     {
       "question": "What is the typical timeline and engagement model for cloud-native solutions in automotive?",

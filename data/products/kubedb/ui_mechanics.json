@@ -1,14 +1,14 @@
 {
   "section": {
-    "title": "Manage Databases Visually — From Deployment to Recovery",
-    "description": "Experience the new KubeDB UI — designed to help you deploy, manage, and monitor your favorite databases with just a few clicks. Explore a seamless visual workflow that replaces complex YAML with intuitive controls."
+    "title": "Manage Databases Visually: From Deployment to Recovery",
+    "description": "Experience the new KubeDB UI, designed to help you deploy, manage, and monitor your favorite databases with just a few clicks. Explore a seamless visual workflow that replaces complex YAML with intuitive controls."
   },
   "features": [
     {
       "id": "provisioning",
       "icon": "https://img.icons8.com/ios-filled/100/E6E7E6/deployment.png",
       "title": "1-Click Provisioning",
-      "description": "Spin up production-ready database clusters instantly — no YAML, no CLI.",
+      "description": "Spin up production-ready database clusters instantly, no YAML, no CLI.",
       "image": "/assets/images/products/kubedb/ui/provisioning.gif"
     },
     {
@@ -22,7 +22,7 @@
       "id": "managing",
       "icon": "https://img.icons8.com/ios-filled/100/E6E7E6/robot-2.png",
       "title": "Automated DBA",
-      "description": "Handle upgrades, scaling, and rolling restarts — all through the UI.",
+      "description": "Handle upgrades, scaling, and rolling restarts, all through the UI.",
       "image": "/assets/images/products/kubedb/ui/robot-2.gif"
     },
     {

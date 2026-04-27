@@ -1,0 +1,402 @@
+{
+  "hero": {
+    "product_color_primary": "#7272E9",
+    "product_icon": "lucide:file-text",
+    "hero_badge": "Deal Registration",
+    "hero_title_1": "Protect Your Deals and",
+    "hero_title_2": "Win with KubeDB",
+    "hero_description": "Register your qualified opportunities to secure exclusivity, enhanced discounts, and dedicated sales support",
+    "primary_action_text": "Register a Deal",
+    "primary_action_url": "#partner-form",
+    "primary_action_icon": "lucide:arrow-right",
+    "secondary_action_text": "Partner Login",
+    "secondary_action_url": "#",
+    "secondary_action_icon": "lucide:log-in",
+    "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+    "badge": "Deal Registration",
+    "badge_icon": "lucide:file-text",
+    "title_plain": "Protect Your Deals and",
+    "title_gradient": "Win with KubeDB",
+    "description": "Register your qualified opportunities to secure exclusivity, enhanced discounts, and dedicated sales support",
+    "cta_primary": "Register a Deal",
+    "cta_primary_href": "#partner-form",
+    "cta_secondary": "Partner Login",
+    "cta_secondary_href": "#",
+    "stats": [
+      { "icon": "lucide:shield-check", "value": "90-day", "label": "Deal Protection" },
+      { "icon": "lucide:clock", "value": "24hr", "label": "Approval Time" },
+      { "icon": "lucide:percent", "value": "Extra", "label": "Partner Discount" },
+      { "icon": "lucide:headphones", "value": "24/7", "label": "Sales Support" }
+    ]
+  },
+
+  "showcase_partners": {
+    "badge": "Cloud Infrastructure",
+    "badge_icon": "lucide:cloud",
+    "title": "Showcase Partners",
+    "description": "Run KubeDB on any major cloud platform",
+    "partners": [
+      {
+        "name": "AWS",
+        "description": "Amazon Web Services",
+        "logo": "/assets/images/partners/showcase/aws.svg",
+        "url": "https://aws.amazon.com/"
+      },
+      {
+        "name": "Azure",
+        "description": "Microsoft Azure",
+        "logo": "/assets/images/partners/showcase/azure.svg",
+        "url": "https://azure.microsoft.com/en-gb/"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Google Cloud Platform",
+        "logo": "/assets/images/partners/showcase/gcp.svg",
+        "url": "https://cloud.google.com/"
+      }
+    ]
+  },
+
+  "technology_partners": {
+    "badge": "Ecosystem",
+    "badge_icon": "lucide:code-2",
+    "title": "Technology Partners",
+    "description": "Trusted partners delivering KubeDB solutions worldwide",
+    "partners": [
+      {
+        "name": "Astrokube",
+        "logo": "/assets/images/partners/technology/astrokube.svg",
+        "url": "https://www.astrokube.com/"
+      },
+      {
+        "name": "Cartman Digital",
+        "logo": "/assets/images/partners/technology/cartman-digital.svg",
+        "url": "https://www.cartman.fi/"
+      },
+      {
+        "name": "Dedicatted",
+        "logo": "/assets/images/partners/technology/dedicatted.svg",
+        "url": "https://dedicatted.com/"
+      },
+      {
+        "name": "HongKe",
+        "logo": "/assets/images/partners/technology/hkaco.svg",
+        "url": "https://hkaco.com/"
+      },
+      {
+        "name": "itbigtec",
+        "logo": "/assets/images/partners/technology/itbigtec.png",
+        "url": "https://itbigtec.com/"
+      }
+    ]
+  },
+
+  "partnership_types": {
+    "title": "Deal Registration Benefits",
+    "description": "Why registering your deals pays off for you and your customers",
+    "types": [
+      {
+        "icon": "lucide:shield-check",
+        "gradient": "blue",
+        "title": "Deal Protection",
+        "description": "Secure 90-day exclusivity on registered opportunities to prevent channel conflict and protect your investment",
+        "benefits": [
+          "90-day exclusive protection period",
+          "Conflict resolution guarantee",
+          "Clear rules of engagement",
+          "Protection extensions available"
+        ]
+      },
+      {
+        "icon": "lucide:percent",
+        "gradient": "purple",
+        "title": "Enhanced Discounts",
+        "description": "Earn additional partner discounts on top of your standard tier pricing when you register a deal",
+        "benefits": [
+          "Incremental registration discount",
+          "Competitive pricing support",
+          "Volume and multi-year incentives",
+          "Special bid support for strategic deals"
+        ]
+      },
+      {
+        "icon": "lucide:users",
+        "gradient": "green",
+        "title": "Dedicated Sales Support",
+        "description": "Get assigned a solutions architect and sales specialist to help you navigate the deal to close",
+        "benefits": [
+          "Assigned solutions architect",
+          "Executive sponsor alignment",
+          "Proof of concept support",
+          "Proposal and pricing assistance"
+        ]
+      },
+      {
+        "icon": "lucide:trending-up",
+        "gradient": "red",
+        "title": "Pipeline Visibility",
+        "description": "Gain shared visibility into deal status, co-sell activities, and progress through the partner portal",
+        "benefits": [
+          "Real-time deal status updates",
+          "Co-sell activity tracking",
+          "Joint pipeline reviews",
+          "Forecasting collaboration"
+        ]
+      }
+    ]
+  },
+
+  "partner_benefits": {
+    "title": "Why Register Your Deals",
+    "description": "Deal registration is your single most impactful action as a KubeDB partner",
+    "benefits": [
+      {
+        "icon": "lucide:shield",
+        "title": "Exclusive Protection",
+        "description": "Prevent channel conflict with 90-day deal exclusivity that blocks competing partner engagements"
+      },
+      {
+        "icon": "lucide:dollar-sign",
+        "title": "Better Economics",
+        "description": "Unlock additional margin on top of your standard tier discounts for every registered and approved deal"
+      },
+      {
+        "icon": "lucide:users",
+        "title": "Expert Co-Sell Team",
+        "description": "Get a dedicated solutions architect and sales specialist assigned to help you close the deal faster"
+      },
+      {
+        "icon": "lucide:clock",
+        "title": "Fast Approval",
+        "description": "Receive deal approval within 24 hours so you can move quickly on active opportunities"
+      },
+      {
+        "icon": "lucide:bar-chart-3",
+        "title": "Pipeline Insights",
+        "description": "Shared deal visibility and joint pipeline reviews to keep both teams aligned on next steps"
+      },
+      {
+        "icon": "lucide:award",
+        "title": "Partner Recognition",
+        "description": "Registered deals count toward your annual tier review and unlock additional partner incentives"
+      }
+    ]
+  },
+
+  "grow_section": {
+    "badge": "Deal Registration Program",
+    "badge_icon": "lucide:file-text",
+    "title_plain": "Register, Protect,",
+    "title_gradient": "and Win Together",
+    "description": "Our deal registration program gives you the protection and support to win more competitive deals",
+    "partner_models": [
+      {
+        "icon": "lucide:shield-check",
+        "gradient": "blue",
+        "title": "New Business Deals",
+        "description": "Register net-new customer opportunities to secure exclusivity and maximum deal incentives",
+        "benefits": [
+          "Maximum partner discounts",
+          "Dedicated solutions architect",
+          "POC and evaluation support",
+          "Executive sponsorship option"
+        ]
+      },
+      {
+        "icon": "lucide:refresh-cw",
+        "gradient": "purple",
+        "title": "Renewal Opportunities",
+        "description": "Register upcoming renewals early to lock in protection and renewal incentive pricing",
+        "benefits": [
+          "Early renewal registration",
+          "Renewal incentive discounts",
+          "Customer health reviews",
+          "Upsell and expansion support"
+        ]
+      },
+      {
+        "icon": "lucide:zap",
+        "gradient": "green",
+        "title": "Expansion Deals",
+        "description": "Register add-on and expansion opportunities within existing accounts for additional coverage",
+        "benefits": [
+          "Account expansion protection",
+          "Cross-sell opportunity support",
+          "Bundled pricing assistance",
+          "Customer success alignment"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "icon": "lucide:file-text",
+        "gradient": "primary",
+        "title": "Register a Deal",
+        "description": "Submit your opportunity now and receive approval within 24 hours",
+        "benefits": [
+          "90-day deal protection guarantee",
+          "Enhanced partner discounts",
+          "Dedicated sales &amp; technical support",
+          "Joint go-to-market alignment"
+        ],
+        "cta_text": "Register a Deal",
+        "cta_href": "#partner-form",
+        "cta_style": "primary",
+        "cta_icon": "lucide:file-text"
+      },
+      {
+        "icon": "lucide:users",
+        "gradient": "purple",
+        "title": "Not Yet a Partner?",
+        "description": "Join the KubeDB partner program to access deal registration and all partner benefits",
+        "benefits": [
+          "Access to partner portal &amp; resources",
+          "Technical training &amp; certification",
+          "Co-marketing &amp; lead generation",
+          "Dedicated partner account manager"
+        ],
+        "cta_text": "Become a Partner",
+        "cta_href": "#partner-form",
+        "cta_style": "outlined",
+        "cta_icon": "lucide:users"
+      }
+    ],
+    "deal_process": {
+      "title": "Deal Registration Process",
+      "subtitle": "Simple, fast, and transparent",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Submit",
+          "description": "Register your opportunity"
+        },
+        { "number": "2", "title": "Review", "description": "24-hour approval" },
+        {
+          "number": "3",
+          "title": "Protect",
+          "description": "90-day exclusivity"
+        },
+        { "number": "4", "title": "Close", "description": "Win together" }
+      ]
+    }
+  },
+
+  "form": {
+    "badge": "Register Your Deal",
+    "badge_icon": "lucide:rocket",
+    "title": "Register a KubeDB Deal",
+    "description": "Fill out the form below and our partner team will approve your deal within 24 hours",
+    "action": "#",
+    "fields": [
+      {
+        "name": "company_name",
+        "label": "Company Name",
+        "type": "text",
+        "placeholder": "Your Company",
+        "required": true,
+        "icon": ""
+      },
+      {
+        "name": "contact_name",
+        "label": "Contact Name",
+        "type": "text",
+        "placeholder": "John Doe",
+        "required": true,
+        "icon": ""
+      },
+      {
+        "name": "email",
+        "label": "Email Address",
+        "type": "email",
+        "placeholder": "email@company.com",
+        "required": true,
+        "icon": "lucide:mail"
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "placeholder": "+1 (555) 000-0000",
+        "required": false,
+        "icon": "lucide:phone"
+      },
+      {
+        "name": "website",
+        "label": "Company Website",
+        "type": "url",
+        "placeholder": "https://company.com",
+        "required": false,
+        "icon": "lucide:globe"
+      },
+      {
+        "name": "country",
+        "label": "Country",
+        "type": "text",
+        "placeholder": "United States",
+        "required": true,
+        "icon": ""
+      }
+    ],
+    "partner_type_field": {
+      "name": "partner_type",
+      "label": "Partner Type",
+      "required": true,
+      "placeholder": "Select Type",
+      "options": [
+        { "value": "technology", "label": "Technology Partner" },
+        { "value": "reseller", "label": "Reseller Partner" },
+        { "value": "consulting", "label": "Service Integrator" },
+        { "value": "cloud", "label": "MSP / Cloud Partner" }
+      ]
+    },
+    "message_field": {
+      "name": "message",
+      "label": "Deal Details",
+      "placeholder": "Describe the opportunity, customer name, estimated value, and expected close date...",
+      "rows": 5
+    },
+    "cta_primary": "Submit Deal Registration",
+    "cta_secondary": "Contact Sales",
+    "cta_secondary_icon": "lucide:message-square",
+    "disclaimer": "By submitting this form, you agree to our partner terms and deal registration policy"
+  },
+
+  "cta_section": {
+    "cta_badge": "Deal Registration",
+    "cta_title": "Questions About Deal Registration?",
+    "cta_description": "Our partner team is here to help you register and win your next opportunity",
+    "cta_button_text": "partners@appscode.com",
+    "cta_button_url": "mailto:partners@appscode.com",
+    "cta_checklist": [
+      "Production-grade reliability",
+      "Automated lifecycle management",
+      "Multi-cloud database portability"
+    ],
+    "cta_stats": [
+      {
+        "icon": "lucide:database",
+        "value": "25+",
+        "label": "Databases",
+        "gradient": "linear-gradient(135deg, #6366f1, #a855f7)"
+      },
+      {
+        "icon": "lucide:trending-up",
+        "value": "10K+",
+        "label": "Active Users",
+        "gradient": "linear-gradient(135deg, #4ade80, #10b981)"
+      },
+      {
+        "icon": "lucide:shield-check",
+        "value": "99.9%",
+        "label": "Uptime SLA",
+        "gradient": "linear-gradient(135deg, #fb923c, #ef4444)"
+      },
+      {
+        "icon": "lucide:check-circle",
+        "value": "24/7",
+        "label": "Expert Support",
+        "gradient": "linear-gradient(135deg, #a855f7, #ec4899)"
+      }
+    ]
+  }
+}

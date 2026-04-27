@@ -1,0 +1,29 @@
+{
+  "badge": "Unified Console",
+  "title": "Unified Management Console",
+  "description": "A single pane of glass for managing your databases across all your Kubernetes clusters.",
+  "screenshots": [
+    {
+      
+      "image": "/assets/images/products/kubedb/ui/db-details-overview.png",
+      "alt": "KubeDB management console screenshot 1",
+      "kicker": "Overview",
+      "title": "Database Overview",
+      "description": "Monitor all your databases from a single dashboard."
+    },
+    {
+      "image": "/assets/images/products/kubedb/ui/db-backup-details.png",
+      "alt": "KubeDB management console screenshot 2",
+      "kicker": "Operations",
+      "title": "Backup & Recovery",
+      "description": "Track backup jobs, retention, and point-in-time recovery status."
+    },
+    {
+      "image": "/assets/images/products/kubedb/ui/db-health.png",
+      "alt": "KubeDB management console screenshot 3",
+      "kicker": "Insights",
+      "title": "Health & Observability",
+      "description": "Get a real-time view of alerts, incidents, and overall database health."
+    }
+  ]
+}

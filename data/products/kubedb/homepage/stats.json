@@ -1,0 +1,7 @@
+{
+  "stats": [
+    { "value": "10x",  "label": "Faster Deployment", "sub": "vs. manual database setup" },
+    { "value": "80%",  "label": "Cost Reduction",     "sub": "in operational overhead" },
+    { "value": "100%", "label": "Kubernetes Native",  "sub": "Cloud-native architecture" }
+  ]
+}

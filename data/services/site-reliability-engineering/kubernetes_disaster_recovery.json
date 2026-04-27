@@ -84,7 +84,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "World-Class Kubernetes Expertise",
-        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
+        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms, helping you build, scale, and automate with confidence"
       },
       {
         "icon": "fa fa-briefcase",
@@ -116,7 +116,7 @@
   "industries": {
     "title": "Industry-Specific Expertise That Delivers",
     "subtitle": "With extensive experience across 100+ organizations, we understand your operational challenges, regulatory requirements, and performance expectations.",
-    "additional_text": "From global enterprises with complex datacenters to fast-scaling startups—AppsCode ensures you stay resilient and compliant.",
+    "additional_text": "From global enterprises with complex datacenters to fast-scaling startups, AppsCode ensures you stay resilient and compliant.",
     "sectors": [
       {
         "icon": "fa fa-bank",
@@ -241,17 +241,17 @@
     ]
   },
   "large_preview_cards": {
-    "title": "Service Mesh Implementation Experts — Istio, Linkerd & Consul",
+    "title": "Service Mesh Implementation Experts: Istio, Linkerd & Consul",
     "items": [
       {
         "icon": "fa fa-rocket",
         "title": "Istio Expertise",
-        "description": "AppsCode’s certified Istio professionals help assess, architect, and implement service mesh solutions. We manage your complete Istio adoption—from setup to observability, security, and ongoing enterprise support."
+        "description": "AppsCode’s certified Istio professionals help assess, architect, and implement service mesh solutions. We manage your complete Istio adoption, from setup to observability, security, and ongoing enterprise support."
       },
       {
         "icon": "fa fa-rocket",
         "title": "Linkerd Expertise",
-        "description": "Our Linkerd-certified consultants assist with design, deployment, and managed support. From observability integration to policy configuration and automation—AppsCode ensures a seamless Linkerd experience."
+        "description": "Our Linkerd-certified consultants assist with design, deployment, and managed support. From observability integration to policy configuration and automation, AppsCode ensures a seamless Linkerd experience."
       },
       {
         "icon": "fa fa-rocket",
@@ -271,7 +271,7 @@
     },
     {
       "question": "Can you work with our existing Kubernetes infrastructure and workloads?",
-      "answer": "Yes — we assess your current clusters, backup configurations, and critical workloads. We design tailored backup and disaster recovery strategies, implement automation, and ensure seamless recovery for both stateful and stateless applications."
+      "answer": "Yes, we assess your current clusters, backup configurations, and critical workloads. We design tailored backup and disaster recovery strategies, implement automation, and ensure seamless recovery for both stateful and stateless applications."
     },
     {
       "question": "What is the typical timeline and engagement model for Kubernetes Backup & Disaster Recovery Services?",

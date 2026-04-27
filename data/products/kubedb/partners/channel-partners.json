@@ -1,0 +1,402 @@
+{
+  "hero": {
+    "product_color_primary": "#7272E9",
+    "product_icon": "lucide:store",
+    "hero_badge": "Channel Partners",
+    "hero_title_1": "Expand Your Revenue with",
+    "hero_title_2": "KubeDB",
+    "hero_description": "Join our channel partner program and resell enterprise-grade Kubernetes database solutions to your customers",
+    "primary_action_text": "Become a Channel Partner",
+    "primary_action_url": "#partner-form",
+    "primary_action_icon": "lucide:arrow-right",
+    "secondary_action_text": "Partner Login",
+    "secondary_action_url": "#",
+    "secondary_action_icon": "lucide:log-in",
+    "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+    "badge": "Channel Partners",
+    "badge_icon": "lucide:store",
+    "title_plain": "Expand Your Revenue with",
+    "title_gradient": "KubeDB",
+    "description": "Join our channel partner program and resell enterprise-grade Kubernetes database solutions to your customers",
+    "cta_primary": "Become a Channel Partner",
+    "cta_primary_href": "#partner-form",
+    "cta_secondary": "Partner Login",
+    "cta_secondary_href": "#",
+    "stats": [
+      { "icon": "lucide:globe", "value": "50+", "label": "Channel Partners" },
+      { "icon": "lucide:users", "value": "100+", "label": "Joint Customers" },
+      { "icon": "lucide:trending-up", "value": "150%", "label": "Avg Growth" },
+      { "icon": "lucide:headphones", "value": "24/7", "label": "Partner Support" }
+    ]
+  },
+
+  "showcase_partners": {
+    "badge": "Cloud Infrastructure",
+    "badge_icon": "lucide:cloud",
+    "title": "Showcase Partners",
+    "description": "Run KubeDB on any major cloud platform",
+    "partners": [
+      {
+        "name": "AWS",
+        "description": "Amazon Web Services",
+        "logo": "/assets/images/partners/showcase/aws.svg",
+        "url": "https://aws.amazon.com/"
+      },
+      {
+        "name": "Azure",
+        "description": "Microsoft Azure",
+        "logo": "/assets/images/partners/showcase/azure.svg",
+        "url": "https://azure.microsoft.com/en-gb/"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Google Cloud Platform",
+        "logo": "/assets/images/partners/showcase/gcp.svg",
+        "url": "https://cloud.google.com/"
+      }
+    ]
+  },
+
+  "technology_partners": {
+    "badge": "Ecosystem",
+    "badge_icon": "lucide:code-2",
+    "title": "Technology Partners",
+    "description": "Trusted partners delivering KubeDB solutions worldwide",
+    "partners": [
+      {
+        "name": "Astrokube",
+        "logo": "/assets/images/partners/technology/astrokube.svg",
+        "url": "https://www.astrokube.com/"
+      },
+      {
+        "name": "Cartman Digital",
+        "logo": "/assets/images/partners/technology/cartman-digital.svg",
+        "url": "https://www.cartman.fi/"
+      },
+      {
+        "name": "Dedicatted",
+        "logo": "/assets/images/partners/technology/dedicatted.svg",
+        "url": "https://dedicatted.com/"
+      },
+      {
+        "name": "HongKe",
+        "logo": "/assets/images/partners/technology/hkaco.svg",
+        "url": "https://hkaco.com/"
+      },
+      {
+        "name": "itbigtec",
+        "logo": "/assets/images/partners/technology/itbigtec.png",
+        "url": "https://itbigtec.com/"
+      }
+    ]
+  },
+
+  "partnership_types": {
+    "title": "Channel Partnership Tiers",
+    "description": "Choose the tier that matches your commitment and unlock greater rewards",
+    "types": [
+      {
+        "icon": "lucide:star",
+        "gradient": "blue",
+        "title": "Registered Partners",
+        "description": "Start your KubeDB channel journey with access to core sales and technical resources",
+        "benefits": [
+          "Access to partner portal",
+          "Sales and technical training",
+          "Deal registration eligibility",
+          "Partner badge and co-branding"
+        ]
+      },
+      {
+        "icon": "lucide:shield",
+        "gradient": "purple",
+        "title": "Silver Partners",
+        "description": "Deepen your practice with enhanced margins, dedicated support, and co-marketing funds",
+        "benefits": [
+          "Enhanced reseller discounts",
+          "Dedicated channel account manager",
+          "Marketing development funds",
+          "Priority deal registration"
+        ]
+      },
+      {
+        "icon": "lucide:award",
+        "gradient": "green",
+        "title": "Gold Partners",
+        "description": "Elite partners with the highest margins, joint go-to-market, and executive sponsorship",
+        "benefits": [
+          "Top-tier reseller margins",
+          "Executive sponsor alignment",
+          "Joint go-to-market planning",
+          "Early access to new products"
+        ]
+      },
+      {
+        "icon": "lucide:crown",
+        "gradient": "red",
+        "title": "Strategic Partners",
+        "description": "Invitation-only tier for partners driving significant business impact with custom agreements",
+        "benefits": [
+          "Custom commercial agreements",
+          "Dedicated solution architects",
+          "Joint product roadmap input",
+          "White-glove partner success"
+        ]
+      }
+    ]
+  },
+
+  "partner_benefits": {
+    "title": "Channel Partner Benefits",
+    "description": "Everything you need to build a profitable KubeDB practice",
+    "benefits": [
+      {
+        "icon": "lucide:dollar-sign",
+        "title": "Competitive Margins",
+        "description": "Earn attractive reseller discounts and recurring revenue on every KubeDB deal you close"
+      },
+      {
+        "icon": "lucide:shield-check",
+        "title": "Deal Protection",
+        "description": "Secure your pipeline with deal registration and 90-day exclusivity on registered opportunities"
+      },
+      {
+        "icon": "lucide:headphones",
+        "title": "Dedicated Support",
+        "description": "Priority technical support and a dedicated channel account manager to help you win"
+      },
+      {
+        "icon": "lucide:bar-chart-3",
+        "title": "Marketing Co-Op Funds",
+        "description": "Access marketing development funds and co-branded assets to grow your pipeline"
+      },
+      {
+        "icon": "lucide:graduation-cap",
+        "title": "Sales &amp; Technical Training",
+        "description": "Comprehensive training and certification programs to build expertise across your team"
+      },
+      {
+        "icon": "lucide:target",
+        "title": "Lead Sharing",
+        "description": "Receive qualified leads from our sales team for opportunities in your region or vertical"
+      }
+    ]
+  },
+
+  "grow_section": {
+    "badge": "Channel Partner Program",
+    "badge_icon": "lucide:store",
+    "title_plain": "Grow Your Revenue",
+    "title_gradient": "with KubeDB",
+    "description": "Join our channel ecosystem and build a profitable database practice on Kubernetes",
+    "partner_models": [
+      {
+        "icon": "lucide:building-2",
+        "gradient": "blue",
+        "title": "Value-Added Resellers",
+        "description": "Resell KubeDB with professional services to maximize customer value and your margins",
+        "benefits": [
+          "Competitive reseller margins",
+          "Pre-sales engineering support",
+          "Reference architectures",
+          "Joint customer success"
+        ]
+      },
+      {
+        "icon": "lucide:globe",
+        "gradient": "purple",
+        "title": "Distribution Partners",
+        "description": "Distribute KubeDB through your existing partner network and expand market reach",
+        "benefits": [
+          "Distribution tier pricing",
+          "Sub-reseller enablement",
+          "Territory and vertical focus",
+          "Dedicated distribution manager"
+        ]
+      },
+      {
+        "icon": "lucide:zap",
+        "gradient": "green",
+        "title": "Solution Providers",
+        "description": "Bundle KubeDB into your solutions and deliver differentiated offerings to customers",
+        "benefits": [
+          "OEM and bundle options",
+          "Solution development support",
+          "Co-marketing initiatives",
+          "Technical collaboration"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "icon": "lucide:users",
+        "gradient": "primary",
+        "title": "Channel Partner Registration",
+        "description": "Join the KubeDB channel program and start earning on every deal you bring",
+        "benefits": [
+          "Access to partner portal &amp; resources",
+          "Technical training &amp; certification",
+          "Co-marketing &amp; lead generation",
+          "Dedicated channel account manager"
+        ],
+        "cta_text": "Become a Channel Partner",
+        "cta_href": "#partner-form",
+        "cta_style": "primary",
+        "cta_icon": "lucide:store"
+      },
+      {
+        "icon": "lucide:file-text",
+        "gradient": "purple",
+        "title": "Deal Registration",
+        "description": "Register your deals for protection and enhanced discounts",
+        "benefits": [
+          "90-day deal protection guarantee",
+          "Priority technical support",
+          "Competitive partner pricing",
+          "Sales &amp; solution architect assistance"
+        ],
+        "cta_text": "Register a Deal",
+        "cta_href": "#partner-form",
+        "cta_style": "outlined",
+        "cta_icon": "lucide:file-text"
+      }
+    ],
+    "deal_process": {
+      "title": "Partner Onboarding Process",
+      "subtitle": "Simple, fast, and transparent",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Apply",
+          "description": "Submit your application"
+        },
+        { "number": "2", "title": "Review", "description": "24-hour approval" },
+        {
+          "number": "3",
+          "title": "Enable",
+          "description": "Complete onboarding"
+        },
+        { "number": "4", "title": "Sell", "description": "Start closing deals" }
+      ]
+    }
+  },
+
+  "form": {
+    "badge": "Join Our Ecosystem",
+    "badge_icon": "lucide:rocket",
+    "title": "Become a KubeDB Channel Partner",
+    "description": "Fill out the form below and our channel team will contact you within 24 hours",
+    "action": "#",
+    "fields": [
+      {
+        "name": "company_name",
+        "label": "Company Name",
+        "type": "text",
+        "placeholder": "Your Company",
+        "required": true,
+        "icon": ""
+      },
+      {
+        "name": "contact_name",
+        "label": "Contact Name",
+        "type": "text",
+        "placeholder": "John Doe",
+        "required": true,
+        "icon": ""
+      },
+      {
+        "name": "email",
+        "label": "Email Address",
+        "type": "email",
+        "placeholder": "email@company.com",
+        "required": true,
+        "icon": "lucide:mail"
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "placeholder": "+1 (555) 000-0000",
+        "required": false,
+        "icon": "lucide:phone"
+      },
+      {
+        "name": "website",
+        "label": "Company Website",
+        "type": "url",
+        "placeholder": "https://company.com",
+        "required": false,
+        "icon": "lucide:globe"
+      },
+      {
+        "name": "country",
+        "label": "Country",
+        "type": "text",
+        "placeholder": "United States",
+        "required": true,
+        "icon": ""
+      }
+    ],
+    "partner_type_field": {
+      "name": "partner_type",
+      "label": "Partner Type",
+      "required": true,
+      "placeholder": "Select Type",
+      "options": [
+        { "value": "var", "label": "Value-Added Reseller" },
+        { "value": "distributor", "label": "Distribution Partner" },
+        { "value": "solution_provider", "label": "Solution Provider" },
+        { "value": "cloud", "label": "MSP / Cloud Partner" }
+      ]
+    },
+    "message_field": {
+      "name": "message",
+      "label": "Message",
+      "placeholder": "Tell us about your business and channel partnership interests...",
+      "rows": 5
+    },
+    "cta_primary": "Submit Application",
+    "cta_secondary": "Contact Sales",
+    "cta_secondary_icon": "lucide:message-square",
+    "disclaimer": "By submitting this form, you agree to our partner terms and conditions"
+  },
+
+  "cta_section": {
+    "cta_badge": "Channel Partner Program",
+    "cta_title": "Questions About Our Channel Program?",
+    "cta_description": "Our channel team is here to help you get started and grow your practice",
+    "cta_button_text": "partners@appscode.com",
+    "cta_button_url": "mailto:partners@appscode.com",
+    "cta_checklist": [
+      "Production-grade reliability",
+      "Automated lifecycle management",
+      "Multi-cloud database portability"
+    ],
+    "cta_stats": [
+      {
+        "icon": "lucide:database",
+        "value": "25+",
+        "label": "Databases",
+        "gradient": "linear-gradient(135deg, #6366f1, #a855f7)"
+      },
+      {
+        "icon": "lucide:trending-up",
+        "value": "10K+",
+        "label": "Active Users",
+        "gradient": "linear-gradient(135deg, #4ade80, #10b981)"
+      },
+      {
+        "icon": "lucide:shield-check",
+        "value": "99.9%",
+        "label": "Uptime SLA",
+        "gradient": "linear-gradient(135deg, #fb923c, #ef4444)"
+      },
+      {
+        "icon": "lucide:check-circle",
+        "value": "24/7",
+        "label": "Expert Support",
+        "gradient": "linear-gradient(135deg, #a855f7, #ec4899)"
+      }
+    ]
+  }
+}

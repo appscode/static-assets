@@ -51,7 +51,7 @@
   },
   "service_details": {
     "title": "Comprehensive Terraform Consulting & Implementation",
-    "subtitle": "From cloud migration to IaC management, multi-cloud orchestration, and Terragrunt best practices — we ensure your Terraform journey is efficient, secure, and scalable.",
+    "subtitle": "From cloud migration to IaC management, multi-cloud orchestration, and Terragrunt best practices, we ensure your Terraform journey is efficient, secure, and scalable.",
     "sections": [
       {
         "title": "Cloud Infrastructure Migration",
@@ -84,7 +84,7 @@
       },
       {
         "title": "Adopt Terraform Cloud or Enterprise",
-        "description": "Choose and implement the right Terraform edition — Cloud or Enterprise — to maximize team efficiency.",
+        "description": "Choose and implement the right Terraform edition, Cloud or Enterprise, to maximize team efficiency.",
         "offerings": [
           "Terraform Cloud enables shared state, secrets, and policy-based controls.",
           "Terraform Enterprise provides a self-hosted, compliance-ready solution with advanced governance."
@@ -144,7 +144,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Certified Experts",
-        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
+        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms, helping you build, scale, and automate with confidence"
       },
       {
         "icon": "fa fa-briefcase",
@@ -311,7 +311,7 @@
     },
     {
       "question": "Can you work with our existing cloud infrastructure and Terraform configurations?",
-      "answer": "Yes — we assess your current Terraform configurations and cloud resources, optimize modules and workflows, implement best practices, and ensure scalable, maintainable, and secure infrastructure management."
+      "answer": "Yes, we assess your current Terraform configurations and cloud resources, optimize modules and workflows, implement best practices, and ensure scalable, maintainable, and secure infrastructure management."
     },
     {
       "question": "What is the typical timeline and engagement model for Terraform Consulting Services?",

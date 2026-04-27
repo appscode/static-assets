@@ -1,0 +1,500 @@
+{
+  "hero": {
+    "product_color_primary": "#FF9900",
+    "product_icon": "lucide:check-circle-2",
+    "hero_badge": "AWS MARKETPLACE PARTNER",
+    "hero_title_1": "Run Any Database Natively on <br>Amazon EKS - <br><span class=\"text-gradient\">Without the Compromise.</span>",
+    "hero_description": "Deploy and manage <strong>25+ Production-grade databases</strong> as native Kubernetes resources on Amazon EKS. Leverage AWS infrastructure with broader choice, zero extra licensing, and true GitOps agility.",
+    "primary_action_text": "Start Free Trial",
+    "primary_action_url": "/docs/latest/setup/",
+    "secondary_action_text": "View on AWS Marketplace",
+    "secondary_action_url": "#",
+    "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+    "stats_style": "hero-inline-metrics",
+    "stats": [
+      {
+        "value": "25+ Database Engines",
+        "label": "PostgreSQL, MySQL, Redis, Kafka & more"
+      },
+      {
+        "value": "Level 5 Operator",
+        "label": "Day-2 operations on Auto Pilot"
+      },
+      {
+        "value": "100% GitOps Native",
+        "label": "Declarative & developer-friendly"
+      }
+    ]
+  },
+
+  "paragraph": {
+    "content": "KubeDB by AppsCode delivers a production-grade, Kubernetes-native Database-as-a-Service platform that runs seamlessly on <strong>Amazon Elastic Kubernetes Service (Amazon EKS)</strong>. It enables platform teams and developers to provision, manage, scale, backup, and recover a wide range of databases using familiar Kubernetes APIs and declarative workflows - <strong>without vendor lock-in</strong> or reliance on hyperscaler-managed database services."
+  },
+
+  "what_this_means": {
+    "heading": "What This Means for AWS and EKS Users",
+    "description": "If you're running applications on Amazon EKS, you already enjoy scalable, managed Kubernetes. However, databases often introduce complexity through separate tooling, manual operations, or cloud-specific DBaaS services that create lock-in.",
+    "subtitle": "<strong class=\"has-text-primary\">KubeDB changes that</strong> by making databases first-class Kubernetes resources directly inside your EKS clusters:",
+    "items": [
+      {
+        "icon": "lucide:zap",
+        "title": "Faster Time-to-Value",
+        "description": "Launch databases in minutes instead of weeks."
+      },
+      {
+        "icon": "lucide:trending-up",
+        "title": "Lower Operational Burden",
+        "description": "Automate Day-2 tasks and eliminate custom scripts."
+      },
+      {
+        "icon": "lucide:dollar-sign",
+        "title": "Cost Optimization",
+        "description": "Use existing AWS storage and avoid premium managed DBaaS pricing."
+      },
+      {
+        "icon": "lucide:globe",
+        "title": "Hybrid/Multi-Cloud Consistency",
+        "description": "Same workflows whether running on EKS or other clouds."
+      }
+    ]
+  },
+
+  "architecture": {
+    "badge": "TECHNICAL ARCHITECTURE",
+    "heading": "KubeDB runs natively on Amazon EKS",
+    "description": "The KubeDB Operator sits directly on top of your EKS clusters, leveraging AWS infrastructure, multi-AZ capabilities, and Kubernetes-native patterns for database automation.",
+    "layers": [
+      {
+        "label": "KubeDB Platform",
+        "desc": "Web Console • Envoy Gateway • Hub/Spoke Model • Policy Engine",
+        "gradient": "primary"
+      },
+      {
+        "label": "KubeDB Operator",
+        "desc": "Provisioner • OpsManager • AutoScaler • KubeDB • Migrator",
+        "gradient": "purple"
+      },
+      {
+        "label": "Kubernetes Services",
+        "desc": "ArgoCD • Open Cluster Management • Cert Manager • Prometheus • Grafana",
+        "gradient": "blue"
+      },
+      {
+        "label": "Amazon EKS",
+        "desc": "Kubernetes • AWS Infrastructure • Multi-AZ Support",
+        "gradient": "mke"
+      }
+    ],
+    "image": "/assets/images/partners/KubeDB_Stack_Diagram.png",
+    "image_alt": "KubeDB Platform Architecture on Amazon EKS",
+    "image_tags": ["On-premises", "Cloud", "Edge"]
+  },
+
+  "capabilities": {
+    "heading": "Production databases. Fully automated on EKS.",
+    "description": "25+ Database engines with HA, scaling, backup, TLS, monitoring, and GitOps support",
+    "items": [
+      {
+        "icon": "lucide:cloud",
+        "title": "Run Databases Natively on EKS",
+        "description": "KubeDB integrates deeply with EKS, supporting any Kubernetes StorageClass (including EBS, EFS, or third-party CSI drivers). Databases run inside your private pod network with full affinity and anti-affinity controls for Multi-AZ resiliency."
+      },
+      {
+        "icon": "lucide:unlock",
+        "title": "DBaaS Without Cloud Lock-In",
+        "description": "Complete data ownership and sovereignty with portability across clouds or on-prem. Support for air-gapped and sovereign environments with your choice of storage optimized for performance, cost, or resilience."
+      },
+      {
+        "icon": "lucide:layout-grid",
+        "title": "Broad Database Support",
+        "description": "Manage 25+ Database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more, all with consistent Kubernetes-native workflows."
+      },
+      {
+        "icon": "lucide:git-fork",
+        "title": "Automated Lifecycle Management",
+        "description": "Declarative CRDs handle provisioning, upgrades, scaling and repair with zero-downtime where possible."
+      },
+      {
+        "icon": "lucide:shield",
+        "title": "High Availability & Resiliency",
+        "description": "Multi-AZ clustering, automated failover, PodDisruptionBudgets, and continuous health checks."
+      },
+      {
+        "icon": "lucide:database",
+        "title": "Backup & Recovery",
+        "description": "Integrated with KubeStash for policy-driven, incremental, encrypted backups to S3. Support for point-in-time recovery."
+      },
+      {
+        "icon": "lucide:bar-chart-2",
+        "title": "Monitoring & Observability",
+        "description": "Native Prometheus + Grafana dashboards. Integrates with Amazon Managed Service for Prometheus."
+      },
+      {
+        "icon": "lucide:lock",
+        "title": "Security & Governance",
+        "description": "Automated TLS, Transparent Data Encryption, RBAC integration with EKS IAM, network policies, and Vault support."
+      },
+      {
+        "icon": "lucide:users",
+        "title": "Self-Service for Developers",
+        "description": "Platform teams enforce policies while developers provision databases via Kubernetes-native workflows."
+      }
+    ]
+  },
+
+  "database_support": {
+    "heading": "Comprehensive Database Support",
+    "description": "25+ Database engines managed with Kubernetes-native workflows",
+    "categories": [
+      {
+        "label": "Relational",
+        "items": "PostgreSQL, MySQL, MariaDB, SQL Server, Percona XtraDB"
+      },
+      {
+        "label": "NoSQL/Document",
+        "items": "MongoDB, DocumentDB, Cassandra"
+      },
+      {
+        "label": "In-Memory/Cache",
+        "items": "Redis, Valkey, Memcached"
+      },
+      {
+        "label": "Search",
+        "items": "Elasticsearch, OpenSearch, Solr"
+      },
+      {
+        "label": "Analytics",
+        "items": "Druid, ClickHouse, SingleStore"
+      },
+      {
+        "label": "Messaging",
+        "items": "Kafka, RabbitMQ"
+      },
+      {
+        "label": "Others",
+        "items": "Hazelcast, ZooKeeper, PgBouncer, ProxySQL"
+      }
+    ]
+  },
+
+  "aws_integration": {
+    "heading": "Seamless AWS & Kubernetes Integration",
+    "description": "KubeDB leverages the full power of AWS and Kubernetes to deliver a complete database platform",
+    "integrations": [
+      {
+        "icon": "lucide:server",
+        "color": "orange",
+        "title": "Amazon EKS & Kubernetes",
+        "description": "Deploy databases natively on Amazon EKS, Red Hat OpenShift, Rancher, or any Kubernetes distribution. Full support for Kubernetes operators, Custom Resource Definitions (CRDs), and GitOps workflows."
+      },
+      {
+        "icon": "lucide:database",
+        "color": "blue",
+        "title": "Amazon S3",
+        "description": "Automated backup and archival to S3 with lifecycle policies, versioning, cross-region replication, and support for GCS, Azure Blob, and other object stores."
+      },
+      {
+        "icon": "lucide:eye",
+        "color": "green",
+        "title": "Amazon CloudWatch & Prometheus",
+        "description": "Deep integration with CloudWatch and native Prometheus support. Pre-built Grafana dashboards, custom alerts, and automated incident response."
+      },
+      {
+        "icon": "lucide:shield",
+        "color": "purple",
+        "title": "AWS IAM & Kubernetes RBAC",
+        "description": "Use AWS IAM for authentication and support for Kubernetes RBAC for fine-grained access control. Support for IAM roles, service accounts, and HashiCorp Vault for credential management."
+      },
+      {
+        "icon": "lucide:lock",
+        "color": "red",
+        "title": "AWS VPC & Network Policies",
+        "description": "Deploy databases in your VPC with custom network configurations, security groups, and private subnets. Full support for Kubernetes NetworkPolicies."
+      }
+    ],
+    "image": "/assets/images/cloud.jpeg",
+    "image_alt": "AWS & Kubernetes Integration"
+  },
+
+  "additional_integrations": {
+    "heading": "Additional AWS & Enterprise Integrations",
+    "items": [
+      {
+        "icon": "lucide:key",
+        "title": "AWS KMS",
+        "description": "Encryption key management & TDE"
+      },
+      {
+        "icon": "lucide:hard-drive",
+        "title": "EBS Volumes",
+        "description": "High-performance block storage"
+      },
+      {
+        "icon": "lucide:globe",
+        "title": "Route 53",
+        "description": "DNS management"
+      },
+      {
+        "icon": "lucide:key-round",
+        "title": "AWS Secrets Manager",
+        "description": "Credential rotation"
+      },
+      {
+        "icon": "lucide:layers",
+        "title": "CloudFormation",
+        "description": "Infrastructure as code"
+      },
+      {
+        "icon": "lucide:shield-check",
+        "title": "AWS Certificate Manager",
+        "description": "TLS/SSL certificates"
+      },
+      {
+        "icon": "lucide:trending-up",
+        "title": "Auto Scaling",
+        "description": "Dynamic scaling policies"
+      },
+      {
+        "icon": "lucide:activity",
+        "title": "Datadog & New Relic",
+        "description": "Third-party monitoring"
+      }
+    ]
+  },
+
+  "cost_comparison": {
+    "badge": "60% Average Cost Savings",
+    "heading": "Why KubeDB Is More Cost-Effective Than AWS RDS",
+    "description": "Run databases on AWS at a fraction of the cost while improving performance and developer productivity",
+    "savings_cards": [
+      {
+        "title": "Better Bin Packing",
+        "description": "Run multiple databases on the same EC2 host, unlike RDS which requires dedicated instances",
+        "highlight": "Up to 60% cost reduction"
+      },
+      {
+        "title": "Spot Instance Support",
+        "description": "Use AWS Spot Instances with Karpenter for database pods, reducing compute costs by up to 90%",
+        "highlight": "70-90% compute savings"
+      },
+      {
+        "title": "Lower Management Fees",
+        "description": "RDS charges premium management fees on top of EC2 costs. KubeDB fees are significantly lower",
+        "highlight": "60-70% lower fees"
+      },
+      {
+        "title": "Free for Short-Lived Workloads",
+        "description": "Use KubeDB free for any clusters running less than 30 days (dev, test, CI/CD environments)",
+        "highlight": "100% free for dev/test"
+      }
+    ],
+    "benefit_panels": [
+      {
+        "icon": "lucide:users",
+        "title": "Developer Productivity Benefits",
+        "description": "",
+        "benefits": [
+          "Every developer gets their own database instance",
+          "Preview environments for every pull request",
+          "Different databases for different environments",
+          "Provision databases in under 60 seconds vs 5-10 minutes",
+          "Use same tools (Helm, Prometheus) for apps and databases"
+        ]
+      },
+      {
+        "icon": "lucide:server",
+        "title": "Operational Advantages",
+        "description": "",
+        "benefits": [
+          "No vendor lock-in - reuse DevOps workflows on-prem or any cloud",
+          "Lower latency with databases in same cluster as apps",
+          "No cross-VPC connections required",
+          "Consistent Terraform/Ansible scripts across environments",
+          "Support for additional databases like Elasticsearch, Kafka, etc"
+        ]
+      }
+    ],
+    "savings_cta": {
+      "heading": "Calculate Your Savings",
+      "description": "Organizations typically save 60-70% on database costs when switching from RDS to KubeDB, while improving provisioning speed and developer productivity",
+      "stats": [
+        { "value": "60%", "label": "Lower Cost Budget" },
+        { "value": "10x", "label": "Faster Provisioning" },
+        { "value": "Zero", "label": "Vendor Lock-In" }
+      ],
+      "button_text": "Get a Cost Analysis",
+      "button_url": "#"
+    }
+  },
+
+  "comparison": {
+    "col_traditional": "AWS RDS",
+    "col_kubedb": "EKS + KubeDB",
+    "rows": [
+      { "capability": "Provisioning Speed", "traditional": "5-10 minutes", "kubedb": "< 60 seconds" },
+      { "capability": "Multiple DBs per Host", "traditional": "No", "kubedb": "Yes" },
+      { "capability": "Spot Instance Support", "traditional": "Limited", "kubedb": "Full support" },
+      { "capability": "Management Fee", "traditional": "High premium", "kubedb": "Low" },
+      { "capability": "Developer Productivity", "traditional": "Shared instances", "kubedb": "Preview environments, per-dev DBs" },
+      { "capability": "Latency", "traditional": "Cross-VPC (higher)", "kubedb": "Same cluster (low)" },
+      { "capability": "Vendor Lock-in", "traditional": "AWS only", "kubedb": "None - portable" },
+      { "capability": "Tooling", "traditional": "Separate tools", "kubedb": "Same as apps (Helm, Prometheus, etc.)" }
+    ]
+  },
+
+  "industries": {
+    "heading": "Trusted Across Industries",
+    "description": "Organizations rely on KubeDB for mission-critical databases across diverse industries and use cases",
+    "items": [
+      {
+        "title": "Financial Services & Healthcare",
+        "description": "Meet strict compliance requirements with data sovereignty, air-gapped deployments, and full control over data locality. SOC 2 and HIPAA compliant infrastructure.",
+        "stats": [
+          { "label": "Data Sovereignty", "value": "100%" },
+          { "label": "Compliance", "value": "SOC 2, HIPAA" }
+        ]
+      },
+      {
+        "title": "Multi-Tenant SaaS Applications",
+        "description": "Deliver isolated database instances for each tenant with automated provisioning, lifecycle management, and policy-driven governance at scale.",
+        "stats": [
+          { "label": "Tenant Isolation", "value": "Full" },
+          { "label": "Self-Service", "value": "Automated" }
+        ]
+      },
+      {
+        "title": "Hybrid & Multi-Cloud Deployments",
+        "description": "Run databases consistently across AWS, on-premises, and other clouds. Avoid vendor lock-in with portable Kubernetes-native infrastructure.",
+        "stats": [
+          { "label": "Portability", "value": "Any Cloud" },
+          { "label": "Lock-in", "value": "Zero" }
+        ]
+      },
+      {
+        "title": "Edge & IoT Workloads",
+        "description": "Deploy databases at the edge with automated backups to central storage. Support for disconnected operations and data synchronization.",
+        "stats": [
+          { "label": "Edge Locations", "value": "Unlimited" },
+          { "label": "Sync", "value": "Automated" }
+        ]
+      }
+    ]
+  },
+
+  "testimonial": {
+    "quote": "InterSystems was delighted to engage with KubeDB in the delicate, yet fundamental task of supporting durable, non-ephemeral workloads with Kubernetes. ... I would recommend KubeDB consulting for any Kubernetes related work.",
+    "author": "Luca Ravazzolo",
+    "role": "Product Manager, InterSystems"
+  },
+
+  "getting_started": {
+    "heading": "Getting Started on AWS EKS",
+    "description": "Deploy KubeDB on your EKS cluster in minutes",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Deploy KubeDB",
+        "description": "Via Helm or Operator Lifecycle Manager on your EKS cluster"
+      },
+      {
+        "number": 2,
+        "title": "Create Database",
+        "description": "Define a database Custom Resource with desired spec"
+      },
+      {
+        "number": 3,
+        "title": "Configure Backups",
+        "description": "Set up backups to Amazon S3 and enable monitoring"
+      },
+      {
+        "number": 4,
+        "title": "Manage Operations",
+        "description": "Scale, upgrade, or failover using Kubernetes tools"
+      }
+    ],
+    "links": [
+      {
+        "icon": "lucide:globe",
+        "title": "KubeDB Website",
+        "description": "Learn more about KubeDB",
+        "url": "https://kubedb.com"
+      },
+      {
+        "icon": "lucide:file-text",
+        "title": "Documentation",
+        "description": "Complete guides and API reference",
+        "url": "https://kubedb.com/docs"
+      },
+      {
+        "icon": "lucide:shopping-cart",
+        "title": "AWS Marketplace",
+        "description": "View our seller profile",
+        "url": "#"
+      }
+    ]
+  },
+
+  "cta": {
+    "badge": "AWS EKS Ready",
+    "heading": "Run Databases Natively",
+    "heading_highlight": "on Amazon EKS",
+    "description": "60% cost savings, 10x faster provisioning, zero vendor lock-in",
+    "features": [
+      {
+        "text": "Deploy 25+ databases in <60s",
+        "icon": "lucide:zap"
+      },
+      {
+        "text": "90% savings with Spot Instances",
+        "icon": "lucide:trending-down"
+      },
+      {
+        "text": "Full AWS integration (S3, IAM, KMS)",
+        "icon": "lucide:check"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Start Free Trial",
+        "href": "/docs/latest/setup/",
+        "style": "white",
+        "target": "_blank",
+        "icon": "lucide:arrow-right",
+        "icon_position": "right"
+      },
+      {
+        "text": "Watch Demo",
+        "href": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+        "style": "ghost",
+        "icon": "lucide:play",
+        "icon_position": "left"
+      }
+    ],
+    "stats": [
+      {
+        "value": "60%",
+        "label": "COST SAVINGS",
+        "icon": "lucide:dollar-sign",
+        "color": "green"
+      },
+      {
+        "value": "<60s",
+        "label": "PROVISIONING",
+        "icon": "lucide:zap",
+        "color": "purple"
+      },
+      {
+        "value": "25+",
+        "label": "DB ENGINES",
+        "icon": "lucide:database",
+        "color": "blue"
+      },
+      {
+        "value": "10K+",
+        "label": "DEPLOYMENTS",
+        "icon": "lucide:trending-up",
+        "color": "red"
+      }
+    ]
+  }
+}

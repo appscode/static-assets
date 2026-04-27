@@ -1,0 +1,36 @@
+{
+  "badge": "Deployment Flexibility",
+  "title_plain": "Run Anywhere",
+  "title_gradient": "No Vendor Lock-In",
+  "description": "True infrastructure freedom. Deploy on any Kubernetes distribution, any storage provider, any cloud or on-premises environment.",
+  "features": [
+    {
+      "icon": "heroicons:cloud",
+      "icon_gradient": "linear-gradient(135deg, #818cf8, #a855f7)",
+      "title": "Any Kubernetes Distribution",
+      "desc": "Works seamlessly with EKS, GKE, AKS, OpenShift, Rancher, k3s, and any CNCF-certified Kubernetes.",
+      "card_class": "feature-card-gradient"
+    },
+    {
+      "icon": "heroicons:circle-stack",
+      "icon_gradient": "linear-gradient(135deg, #22d3ee, #60a5fa)",
+      "title": "Any CSI Storage",
+      "desc": "Compatible with all CSI-compliant storage providers - AWS EBS, Azure Disk, GCP PD, Ceph, Portworx, and more.",
+      "card_class": "feature-card-gradient"
+    },
+    {
+      "icon": "heroicons:shield-check",
+      "icon_gradient": "linear-gradient(135deg, #fbbf24, #f97316)",
+      "title": "Data Sovereignty",
+      "desc": "Full control over data locality, encryption, and storage backends - critical for regulated industries and compliance requirements.",
+      "card_class": "feature-card-gradient"
+    },
+    {
+      "icon": "heroicons:server-stack",
+      "icon_gradient": "linear-gradient(135deg, #8b5cf6, #ec4899)",
+      "title": "Cloud, On-Prem, Air-Gapped & Multi-Cloud",
+      "desc": "Deploy in public cloud, private data centers, edge locations, or fully disconnected environments. Run consistent database operations across multiple clouds and on-premises infrastructure.",
+      "card_class": "feature-card-gradient"
+    }
+  ]
+}

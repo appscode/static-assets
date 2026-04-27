@@ -1,0 +1,206 @@
+{
+  "title": "10x lower costs. 2x faster performance. All with KubeDB.",
+  "tagline": "10x lower costs.<br />2x faster performance.<br /><span class=\"has-text-primary\">All with KubeDB.</span>",
+  "description": "DEDICATTED migrated from MongoDB Atlas to a self-managed MongoDB cluster on Kubernetes, powered by KubeDB. Zero downtime. Full control. Production-grade DBaaS anywhere.",
+  "company": "DEDICATTED",
+  "industry": "IT Service Provider",
+  "logo": "/assets/images/products/kubedb/kubedb.svg",
+  "logo_emoji": "💼",
+  "badge": "REAL CUSTOMER SUCCESS",
+  "hero_live_badge": "LIVE 24/7",
+  "hero_legacy_badge": "Atlas migrated · Running on KubeDB",
+  "tag": "MongoDB Migration",
+  "website": "https://dedicatted.com/",
+  "website_label": "dedicatted.com",
+  "linkedin": "https://www.linkedin.com/company/ddcttd/",
+  "company_note": "IT service provider specializing in Data, AI, Cloud, Development & Consulting. Running production workloads on Hetzner Cloud Kubernetes.",
+
+  "customer_badge": "Featured Customer",
+  "customer_title": "DEDICATTED",
+  "customer_description": "IT service provider specializing in Data, AI, Cloud, Development & Consulting. Running production workloads on Hetzner Cloud Kubernetes.",
+  "customer_website": "https://dedicatted.com/",
+  "customer_website_label": "dedicatted.com",
+  "customer_status": "Production MongoDB cluster running 24/7 since migration",
+  "hero_right_logo_emoji": "💼",
+  "back_link_text": "All Case Studies",
+  "hero_primary_button_text": "Read the full story",
+  "hero_secondary_button_text": "Explore on GitHub",
+  "hero_secondary_button_href": "https://github.com/kubedb",
+  "value_props_badge": "Why KubeDB",
+  "value_props_title": "Why teams choose KubeDB",
+  "value_props_description": "Same experience as cloud DBaaS - but with full control, any cloud, any storage, and no lock-in.",
+  "challenge_key_pains_label": "Key pain points",
+  "solution_powered_by_label": "Powered by KubeDB",
+  "supported_databases_footer_label": "Enterprise Verified",
+  "delivered_features_footer_label": "Powered by KubeDB",
+  "compliance_note": "Open-core · Apache 2.0 · Certified on OpenShift, Rancher, EKS, AKS, GKE & more",
+
+  "hero_metrics": [
+    {
+      "value": "10x",
+      "label": "Cost Reduction",
+      "sublabel": "Yearly database spend"
+    },
+    {
+      "value": "50%",
+      "label": "Faster Requests",
+      "sublabel": "Latency eliminated"
+    },
+    {
+      "value": "0",
+      "label": "Downtime",
+      "sublabel": "Zero data loss"
+    }
+  ],
+  "hero_tags": [
+    "MongoDB ReplicaSet",
+    "Hetzner Cloud",
+    "KubeStash Backups",
+    "Zero-Downtime Migration"
+  ],
+
+  "hero_right_company": "MongoDB Production Cluster",
+  "hero_right_industry": "3-node ReplicaSet • 7.0.5",
+  "hero_right_metrics": [
+    { "value": "3", "sublabel": "Replicas" },
+    { "value": "250Gi", "sublabel": "Storage" },
+    { "value": "24/7", "sublabel": "Uptime" }
+  ],
+  "hero_right_tags": [
+    "TLS + RBAC enabled",
+    "Daily backups to R2",
+    "Prometheus monitoring"
+  ],
+
+  "challenge_title": "Database costs were eating the entire Kubernetes budget",
+  "challenge_badge": "THE CHALLENGE",
+  "challenge_summary": "MongoDB Atlas costs were equal to (or higher than) the cost of their entire 25+ node Kubernetes cluster on Hetzner Cloud.",
+  "challenge_key_pains": "Data consistency · Backup & recovery · Security · Zero-downtime migration · Infrastructure reliability",
+  "challenge_items": [
+    {
+      "icon": "lucide:dollar-sign",
+      "title": "Sky-high managed DB fees",
+      "description": "Atlas pricing + egress traffic made the database the most expensive part of the infrastructure."
+    },
+    {
+      "icon": "lucide:clock",
+      "title": "High latency",
+      "description": "Every request crossed external network boundaries, adding unnecessary latency."
+    },
+    {
+      "icon": "lucide:shield",
+      "title": "Operational complexity",
+      "description": "Manual backups, scaling, upgrades, and zero-downtime migration were painful."
+    }
+  ],
+
+  "solution_badge": "THE SOLUTION",
+  "solution_title": "KubeDB: Production-grade MongoDB as Kubernetes-native DBaaS",
+  "solution_description": "KubeDB automated everything - provisioning, high availability, backups with KubeStash, scaling, upgrades, and monitoring - directly inside their Kubernetes cluster.",
+  "solution_steps_title": "How the cluster runs today",
+  "solution_features": [
+    "Automated lifecycle",
+    "Daily encrypted backups to R2",
+    "Zero-downtime vertical scaling",
+    "Prometheus monitoring",
+    "Policy-driven governance",
+    "GitOps-ready"
+  ],
+  "solution_steps": [
+    {
+      "number": "1",
+      "title": "Single-click provisioning",
+      "description": "KubeDB turned a complex MongoDB ReplicaSet into one simple Kubernetes resource."
+    },
+    {
+      "number": "2",
+      "title": "Built-in high availability",
+      "description": "Automatic failover, PodDisruptionBudgets, and multi-zone placement."
+    },
+    {
+      "number": "3",
+      "title": "KubeStash backups",
+      "description": "Incremental, encrypted daily backups to Cloudflare R2, fully automated."
+    },
+    {
+      "number": "4",
+      "title": "Zero-downtime scaling",
+      "description": "Vertical and horizontal scaling without restarting pods."
+    },
+    {
+      "number": "5",
+      "title": "Full observability",
+      "description": "Native Prometheus metrics + pre-built Grafana dashboards."
+    },
+    {
+      "number": "6",
+      "title": "Enterprise security",
+      "description": "TLS, RBAC, network policies, and Transparent Data Encryption."
+    }
+  ],
+
+  "timeline_badge": "Seamless Migration",
+  "timeline_title": "Zero-downtime cutover from Atlas using mongosync + KubeDB OpsRequest",
+  "timeline": [
+    {
+      "period": "Step 1",
+      "title": "mongosync for live replication",
+      "description": "Real-time sync between Atlas and in-cluster MongoDB with zero data loss."
+    },
+    {
+      "period": "Step 2",
+      "title": "Vertical scaling on-the-fly",
+      "description": "Used KubeDB OpsRequest to double memory during sync without restarting pods."
+    },
+    {
+      "period": "Step 3",
+      "title": "Cutover in minutes",
+      "description": "Commit sync → update connection strings → traffic resumed with zero downtime."
+    }
+  ],
+
+  "results_title": "Measurable Impact",
+  "results_metrics": [
+    {
+      "value": "10x",
+      "label": "Lower yearly database costs",
+      "note": "Eliminated Atlas managed-service + egress fees entirely"
+    },
+    {
+      "value": "50%",
+      "label": "Faster request latency",
+      "note": "All traffic now stays inside the Kubernetes cluster"
+    }
+  ],
+  "results_extras": [
+    { "icon": "lucide:shield-check", "label": "Full data sovereignty" },
+    { "icon": "lucide:rotate-cw", "label": "Daily automated backups" },
+    { "icon": "lucide:chart-line", "label": "Prometheus + Grafana monitoring" }
+  ],
+  "results_quote": "We now have production-grade MongoDB with full control, at a fraction of the cost - all running natively in Kubernetes.",
+  "results_quote_author": "DEDICATTED DevOps Team",
+
+  "value_props": [
+    {
+      "icon": "lucide:database",
+      "title": "Kubernetes-native",
+      "description": "Declare your entire database with simple Kubernetes resources. Fully GitOps ready."
+    },
+    {
+      "icon": "lucide:shield-check",
+      "title": "Enterprise-grade security & HA",
+      "description": "TLS, RBAC, automated failover, PodDisruptionBudgets, multi-AZ placement."
+    },
+    {
+      "icon": "lucide:rotate-cw",
+      "title": "KubeStash backups included",
+      "description": "Incremental, encrypted backups to any object store, S3, GCS, R2, or NFS."
+    }
+  ],
+
+  "cta_title": "Ready to slash your database costs by 10x?",
+  "cta_description": "Deploy production MongoDB, PostgreSQL, Redis, and 25+ other databases anywhere Kubernetes runs.",
+  "cta_primary": "Get 30-day Enterprise Trial",
+  "cta_secondary": "View MongoDB Docs →",
+  "cta_secondary_href": "/docs/latest/guides/mongodb/"
+}

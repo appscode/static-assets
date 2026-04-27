@@ -1,0 +1,400 @@
+{
+  "product_name": "KubeDB Operator",
+  "product_icon": "lucide:container",
+  "product_color_primary": "#9333ea",
+  "product_color_secondary": "#2563eb",
+  "product_bg_primary": "rgba(147, 51, 234, 0.1)",
+  "product_bg_secondary": "rgba(37, 99, 235, 0.08)",
+  "orb_align": "left",
+  "hero_title_1": "Run Production Databases",
+  "hero_title_2": "Natively on Kubernetes",
+  "hero_description": "KubeDB Operator extends Kubernetes with database-aware automation, enabling teams to run production databases using declarative APIs.",
+  "primary_action_text": "Get Started Free",
+  "primary_action_url": "/docs/latest/setup/",
+  "secondary_action_text": "View Documentation",
+  "secondary_action_url": "/docs/latest/welcome/",
+  "stats": [
+    {
+      "value": "25+",
+      "label": "Database Engines"
+    },
+    {
+      "value": "10K+",
+      "label": "Production Deployments"
+    },
+    {
+      "value": "<5 min",
+      "label": "Time to Deploy"
+    },
+    {
+      "value": "99.99%",
+      "label": "Uptime SLA"
+    }
+  ],
+  "benefits_title": "Why KubeDB Operator?",
+  "benefits_subtitle": "Eliminate manual database operations with Kubernetes-native automation",
+  "benefits": [
+    {
+      "title": "25+ Database Engines",
+      "description": "Support for PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and 25+ more databases, all managed through a unified platform.",
+      "icon": "lucide:database",
+      "gradient_class": "gradient-box-purple"
+    },
+    {
+      "title": "Production-Grade Security",
+      "description": "Built-in TLS/SSL encryption, RBAC integration, network policies, and security best practices enforced by default.",
+      "icon": "lucide:shield-check",
+      "gradient_class": "gradient-box-blue"
+    },
+    {
+      "title": "High Availability",
+      "description": "Automatic failover, replica management, and self-healing capabilities ensure your databases stay online 24/7.",
+      "icon": "lucide:activity",
+      "gradient_class": "gradient-box-green"
+    },
+    {
+      "title": "Automated Backup & Recovery",
+      "description": "Scheduled backups with point-in-time recovery using Stash Enterprise. Restore databases to any point within retention period.",
+      "icon": "lucide:refresh-cw",
+      "gradient_class": "gradient-box-orange"
+    },
+    {
+      "title": "Performance Monitoring",
+      "description": "Built-in Prometheus metrics, custom dashboards, and alerting to keep your databases performing at peak efficiency.",
+      "icon": "lucide:line-chart",
+      "gradient_class": "gradient-box-yellow"
+    },
+    {
+      "title": "Multi-Cloud & Hybrid",
+      "description": "Run on AWS, GCP, Azure, on-premises, or edge locations. One platform works everywhere Kubernetes runs.",
+      "icon": "lucide:cloud",
+      "gradient_class": "gradient-box-purple"
+    },
+    {
+      "title": "Air-Gapped Deployments",
+      "description": "Full support for isolated, air-gapped environments with private registries and no external dependencies.",
+      "icon": "lucide:lock",
+      "gradient_class": "gradient-box-blue"
+    },
+    {
+      "title": "Vertical & Horizontal Scaling",
+      "description": "Scale up resources or add replicas dynamically without downtime. Handle growing workloads effortlessly.",
+      "icon": "lucide:maximize",
+      "gradient_class": "gradient-box-green"
+    },
+    {
+      "title": "GitOps Ready",
+      "description": "Full declarative configuration via YAML manifests. Integrate seamlessly with ArgoCD, Flux, and other GitOps tools.",
+      "icon": "lucide:git-pull-request",
+      "gradient_class": "gradient-box-orange"
+    }
+  ],
+  "when_to_use_title": "When to Use KubeDB Operator",
+  "when_to_use_subtitle": "Perfect for teams who want database automation without platform overhead",
+  "when_to_use_bg": "white",
+  "when_to_use": [
+    {
+      "title": "Run databases for internal usage",
+      "description": "Deploy and manage databases for your internal teams and applications",
+      "icon": "lucide:database",
+      "bg_color": "#f5f3ff",
+      "border_color": "#ddd6fe",
+      "icon_bg": "#7c3aed"
+    },
+    {
+      "title": "Full control and customization",
+      "description": "Customize database configurations to meet your specific requirements",
+      "icon": "lucide:settings",
+      "bg_color": "#ecfeff",
+      "border_color": "#a5f3fc",
+      "icon_bg": "#0891b2"
+    },
+    {
+      "title": "Internal platform engineering team",
+      "description": "Empower your platform team with powerful database automation tools",
+      "icon": "lucide:users",
+      "bg_color": "#fff7ed",
+      "border_color": "#ffedd5",
+      "icon_bg": "#ea580c"
+    },
+    {
+      "title": "Integrate with existing CI/CD",
+      "description": "Seamlessly integrate with tools like ArgoCD and GitOps workflows",
+      "icon": "lucide:git-branch",
+      "bg_color": "#f0fdf4",
+      "border_color": "#dcfce7",
+      "icon_bg": "#16a34a"
+    },
+    {
+      "title": "Starting DBaaS journey on Kubernetes",
+      "description": "Begin with operator-based automation and scale up as you grow",
+      "icon": "lucide:zap",
+      "bg_color": "#fff1f2",
+      "border_color": "#ffe4e6",
+      "icon_bg": "#e11d48"
+    },
+    {
+      "title": "Use KubeDB as a building block",
+      "description": "Build custom solutions on top of KubeDB's automation capabilities",
+      "icon": "lucide:container",
+      "bg_color": "#f5f3ff",
+      "border_color": "#e0e7ff",
+      "icon_bg": "#6366f1"
+    },
+    {
+      "title": "Package KubeDB with your application",
+      "description": "Bundle KubeDB as part of your application deployment",
+      "icon": "lucide:package",
+      "bg_color": "#f0f9ff",
+      "border_color": "#e0f2fe",
+      "icon_bg": "#0ea5e9"
+    },
+    {
+      "title": "Automation without centralized platform",
+      "description": "Get powerful automation while maintaining standard Kubernetes workflows",
+      "icon": "lucide:server",
+      "bg_color": "#f8fafc",
+      "border_color": "#f1f5f9",
+      "icon_bg": "#64748b"
+    }
+  ],
+  "how_it_works_title": "How It Works?",
+  "how_it_works_subtitle": "You bring the infrastructure. We bring the software that transforms it into a DBaaS platform.",
+  "how_it_works_infra": {
+    "title": "You Bring:",
+    "items": [
+      { "text": "Compute (Kubernetes nodes)", "icon": "lucide:cpu" },
+      { "text": "Storage (Persistent volumes)", "icon": "lucide:database" },
+      { "text": "Networking (Load balancers, ingress)", "icon": "lucide:network" },
+      { "text": "Object Storage (S3-compatible backup storage)", "icon": "lucide:hard-drive" }
+    ]
+  },
+  "how_it_works_software": {
+    "title": "KubeDB Provides:",
+    "items": [
+      { "text": "Software that turns your K8s into DBaaS", "icon": "lucide:sparkles" },
+      { "text": "Automated database lifecycle management", "icon": "lucide:refresh-cw" },
+      { "text": "Production-grade HA & disaster recovery", "icon": "lucide:shield-check" },
+      { "text": "Enterprise security & compliance features", "icon": "lucide:lock" }
+    ]
+  },
+  "how_it_works_footer": "No vendor lock-in • Run on your infrastructure • Full control",
+  "features_title": "Core Features",
+  "features_subtitle": "Eliminate manual database operations with Kubernetes-native automation",
+  "features": [
+    {
+      "title": "25+ Database Engines",
+      "description": "PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more",
+      "icon": "lucide:database",
+      "gradient_class": "gradient-box-blue"
+    },
+    {
+      "title": "Automated Operations",
+      "description": "Provisioning, scaling, patching, backup, and recovery, all automated",
+      "icon": "lucide:refresh-cw",
+      "gradient_class": "gradient-box-purple"
+    },
+    {
+      "title": "Security by Default",
+      "description": "TLS encryption, RBAC integration, network policies, and secret management",
+      "icon": "lucide:lock",
+      "gradient_class": "gradient-box-green"
+    },
+    {
+      "title": "Multi-Cloud & Hybrid",
+      "description": "Run on any Kubernetes cluster, AWS, Azure, GCP, on-premises, or edge",
+      "icon": "lucide:cloud",
+      "gradient_class": "gradient-box-cyan"
+    },
+    {
+      "title": "GitOps Ready",
+      "description": "Declarative configuration with full Git integration for version control",
+      "icon": "lucide:git-branch",
+      "gradient_class": "gradient-box-orange"
+    },
+    {
+      "title": "Production Monitoring",
+      "description": "Built-in Prometheus metrics, alerts, and performance dashboards",
+      "icon": "lucide:gauge",
+      "gradient_class": "gradient-box-pink"
+    }
+  ],
+  "use_cases_title": "Perfect For Every Team",
+  "use_cases_subtitle": "From startups to enterprises, KubeDB Operator scales with you",
+  "use_cases": [
+    {
+      "title": "Development Teams",
+      "description": "Spin up dev/test databases instantly without waiting for infrastructure teams",
+      "icon": "lucide:code"
+    },
+    {
+      "title": "Platform Engineering",
+      "description": "Build internal database platforms with self-service capabilities",
+      "icon": "lucide:server"
+    },
+    {
+      "title": "Cloud-native Transformation",
+      "description": "Modernize database infrastructure by migrating to Kubernetes",
+      "icon": "lucide:cloud"
+    }
+  ],
+  "comparison_title": "Operator vs Platform: What's the Difference?",
+  "comparison_subtitle": "KubeDB Operator provides database automation inside a single cluster, while KubeDB Platform extends this into a centralized DBaaS across clusters, teams and environments.",
+  "comparison_analogy": "The Operator is the engine. The Platform is the car.",
+  "comparison_analogy_heading": "Think of it this way:",
+  "comparison_analogy_image": "/assets/images/products/kubedb/kubedb-hero.png",
+  "comparison_analogy_image_alt": "Architecture Diagram",
+  "comparison_analogy_explanation": "The Platform provides centralized control and governance, orchestrating multiple Operator instances across different clusters and environments.",
+  "comparison_summary_cards": [
+    {
+      "title": "KubeDB Operator",
+      "icon": "lucide:container",
+      "icon_color": "#c084fc",
+      "check_color": "#c084fc",
+      "bg": "rgba(88, 28, 135, 0.15)",
+      "border": "#a855f7",
+      "description": "Best for teams that want to run and automate databases inside a Kubernetes cluster using declarative APIs.",
+      "items": [
+        "Single cluster deployment",
+        "In-cluster automation",
+        "Kubectl-based management"
+      ]
+    },
+    {
+      "title": "KubeDB Platform",
+      "icon": "lucide:cloud",
+      "icon_color": "#60a5fa",
+      "check_color": "#4ade80",
+      "bg": "rgba(30, 41, 59, 0.6)",
+      "border": "#475569",
+      "description": "Designed for organizations that need to deliver a standardized, self-service DBaaS across multiple clusters, teams, and environments with centralized control and governance.",
+      "items": [
+        "Multi-cluster control plane",
+        "Self-service portal",
+        "Policy-driven governance"
+      ]
+    }
+  ],
+  "comparison_table": {
+    "headers": [
+      "Capability",
+      "KubeDB Operator",
+      "KubeDB Platform"
+    ],
+    "rows": [
+      [
+        "Scope",
+        "Single cluster",
+        "Multi-cluster"
+      ],
+      [
+        "Deployment model",
+        "In-cluster",
+        "Centralized control plane"
+      ],
+      [
+        "Database operations",
+        "Automated",
+        "Automated + governed"
+      ],
+      [
+        "Self-service DBaaS",
+        "Limited",
+        "Full self-service experience"
+      ],
+      [
+        "Multi-tenancy",
+        "Basic (K8s namespaces)",
+        "Advanced RBAC + isolation"
+      ],
+      [
+        "Visibility",
+        "Cluster-level",
+        "Global across environments"
+      ],
+      [
+        "Governance",
+        "Manual",
+        "Policy-driven"
+      ],
+      [
+        "Use case",
+        "Run databases",
+        "Deliver DBaaS"
+      ],
+      [
+        "Branding",
+        "Use as KubeDB or internal tool",
+        "Complete white-labeling"
+      ],
+      [
+        "Monetization",
+        "Internal cost allocation",
+        "Full billing & metering system"
+      ]
+    ]
+  },
+  "faqs_title": "Frequently Asked Questions",
+  "faqs_subtitle": "Everything you need to know about KubeDB Operator",
+  "faqs_contact_url": "https://appscode.com/contact/",
+  "faqs": [
+    {
+      "question": "What's the difference between KubeDB Operator and KubeDB Platform?",
+      "answer": "KubeDB Operator runs and automates databases inside a Kubernetes cluster. KubeDB Platform builds on the Operator to deliver a centralized, multi-cluster DBaaS with governance, self-service, and visibility across teams and environments."
+    },
+    {
+      "question": "Is KubeDB Platform priced separately from the Operator?",
+      "answer": "No. KubeDB provides a unified, all-inclusive platform. The Operator and Platform capabilities are part of the same solution, allowing you to start small and scale into a full DBaaS without changing products or licensing."
+    },
+    {
+      "question": "Should I choose the Operator or the Platform for KubeDB?",
+      "answer": "Start with Operator if: You're running databases in a single cluster or you want Kubernetes-native automation. Choose Platform if: You need DBaaS across teams or clusters, you require governance, RBAC, and visibility, or you are building an internal platform or managed service."
+    },
+    {
+      "question": "Where can KubeDB be deployed?",
+      "answer": "KubeDB runs on any Kubernetes distribution, including on-premises, public cloud, hybrid environments, and air-gapped deployments."
+    },
+    {
+      "question": "How is KubeDB different from cloud-managed DBaaS services?",
+      "answer": "Unlike cloud DBaaS, KubeDB runs inside Kubernetes, giving you full control over infrastructure, data placement, and operations across environments without vendor lock-in."
+    },
+    {
+      "question": "What databases does KubeDB support?",
+      "answer": "KubeDB supports a wide range of databases including PostgreSQL, MySQL, MongoDB, Redis, Kafka, Elasticsearch, Cassandra, ClickHouse, and more."
+    },
+    {
+      "question": "Do I need KubeDB Platform to use KubeDB?",
+      "answer": "No. You can start with the Operator to run databases in a single cluster. The Platform becomes valuable when you need centralized management, multi-cluster visibility, and a full DBaaS experience."
+    },
+    {
+      "question": "Does KubeDB support multi-tenancy?",
+      "answer": "Yes. KubeDB Platform includes role-based access control, namespace isolation, and policy-driven governance to support multi-team and multi-tenant environments."
+    },
+    {
+      "question": "Does KubeDB provide backup and recovery?",
+      "answer": "Yes. KubeDB includes database-aware, application-consistent backup and recovery integrated directly into database lifecycle management."
+    },
+    {
+      "question": "Can I move databases across environments with KubeDB?",
+      "answer": "Yes. KubeDB enables consistent database operations across clusters and environments, making it easier to migrate workloads across cloud, on-prem, and hybrid deployments."
+    }
+  ],
+  "cta_badge": "Get Started Today",
+  "cta_title": "Ready to Automate Your <br><span style='color: #818cf8;'>Database Operations?</span>",
+  "cta_description": "Join thousands of teams running production databases on Kubernetes with KubeDB Operator",
+  "cta_checklist": [
+    "Free 30-day trial",
+    "Enterprise support & 99.9% uptime SLA",
+    "Deploy in minutes • Cancel anytime"
+  ],
+  "final_cta_metrics": [
+    { "icon": "lucide:trending-up", "value": "10K+", "label": "Active Users", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
+    { "icon": "lucide:shield-check", "value": "99.9%", "label": "Uptime SLA", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
+    { "icon": "lucide:database", "value": "25+", "label": "Databases", "gradient": "linear-gradient(135deg, #c084fc, #ec4899)" },
+    { "icon": "lucide:check-circle", "value": "24/7", "label": "Support", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
+  ],
+  "cta_button_text": "Start Free Trial",
+  "cta_button_url": "/docs/latest/setup/",
+  "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+  "cta_bg_color": "#1e1b4b"
+}

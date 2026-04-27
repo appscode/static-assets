@@ -51,7 +51,7 @@
   },
   "service_details": {
     "title": "Comprehensive Enterprise Service Mesh Consulting Services",
-    "subtitle": "<a href=\"https://appscode.com/\">AppsCode </a> provides full lifecycle service mesh consulting — strategy, deployment, optimization, and managed support for modern <a href=\"https://appscode.com/services/monolith-to-microservices/\">microservices. </a>",
+    "subtitle": "<a href=\"https://appscode.com/\">AppsCode </a> provides full lifecycle service mesh consulting, strategy, deployment, optimization, and managed support for modern <a href=\"https://appscode.com/services/monolith-to-microservices/\">microservices. </a>",
     "sections": [
       {
         "title": "Consulting & Advisory",
@@ -59,7 +59,7 @@
         "offerings": [
           "Assess existing infrastructure for performance and security gaps.",
           "Design adoption strategy tailored to your environment and workloads.",
-          "Recommend the most suitable service mesh — Istio, Linkerd, Consul, Traefik, or OSM."
+          "Recommend the most suitable service mesh - Istio, Linkerd, Consul, Traefik, or OSM."
         ],
         "image": "/assets/images/services/service-mesh-consulting-advisory.png"
       },
@@ -106,12 +106,12 @@
       {
         "icon": "fa fa-users",
         "title": "Certified Engineering Team",
-        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes,</a> containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes,</a> containers, and cloud-native platforms, helping you build, scale, and automate with confidence."
       },
       {
         "icon": "fa fa-briefcase",
         "title": "Deep Domain Expertise",
-        "description": "90% in-house team — no outsourcing, full accountability, best practices guaranteed."
+        "description": "90% in-house team; no outsourcing, full accountability, best practices guaranteed."
       },
       {
         "icon": "fa fa-trophy",
@@ -132,7 +132,7 @@
   },
   "industries": {
     "title": "Industry Expertise that Drives Results",
-    "subtitle": "We bring proven experience from 100+ clients across sectors — understanding compliance, scalability, and reliability needs.",
+    "subtitle": "We bring proven experience from 100+ clients across sectors, understanding compliance, scalability, and reliability needs.",
     "additional_text": "Whether you’re a global enterprise or a fast-scaling startup, we help you adopt service mesh confidently and efficiently.",
     "sectors": [
       {
@@ -168,7 +168,7 @@
     ]
   },
   "tech_stack": {
-    "title": "Choosing the Right Service Mesh — Simplified",
+    "title": "Choosing the Right Service Mesh: Simplified",
     "subtitle": "We help you evaluate, deploy, and manage the best-fit mesh for your workloads.",
     "technologies": [
       {
@@ -263,13 +263,13 @@
       {
         "icon": "fa fa-rocket",
         "title": "Istio Experts",
-        "description": "As an official Istio partner, we guide you through every phase — from strategy and setup to advanced configuration, monitoring, and managed enterprise support.",
+        "description": "As an official Istio partner, we guide you through every phase, from strategy and setup to advanced configuration, monitoring, and managed enterprise support.",
         "image": "https://placehold.co/600x400?text=Istio+Experts"
       },
       {
         "icon": "fa fa-rocket",
         "title": "Linkerd Experts",
-        "description": "Deploy, optimize, and maintain Linkerd with certified consultants. From training and configuration to observability and ongoing support — we’ve got you covered.",
+        "description": "Deploy, optimize, and maintain Linkerd with certified consultants. From training and configuration to observability and ongoing support, we’ve got you covered.",
         "image": "https://placehold.co/600x400?text=Linkerd+Experts"
       },
       {
@@ -291,7 +291,7 @@
     },
     {
       "question": "Can you work with our existing microservices and Kubernetes infrastructure?",
-      "answer": "Yes — we integrate the service mesh with your existing microservices and Kubernetes clusters, optimize traffic management, enforce security policies, and provide guidance on best practices to ensure smooth adoption."
+      "answer": "Yes, we integrate the service mesh with your existing microservices and Kubernetes clusters, optimize traffic management, enforce security policies, and provide guidance on best practices to ensure smooth adoption."
     },
     {
       "question": "What is the typical timeline and engagement model for Service Mesh Consulting?",

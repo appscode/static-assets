@@ -1,0 +1,367 @@
+{
+  "product_name": "For CSPs & MSPs",
+  "product_color_primary": "#2563eb",
+  "cta_bg_color": "#1e3a8a",
+  "hero_badge": "White-Labeled DBaaS for Cloud Service Providers",
+  "hero_title_1": "Launch Your Own",
+  "hero_title_2": "Production-Grade DBaaS Platform",
+  "hero_description": "Built on <strong>ACE (AppsCode Cloud Engine)</strong> - a fully managed, white-labeled, production-ready Database-as-a-Service platform that exceeds public cloud offerings while maintaining complete branding control and data sovereignty.",
+  "hero_best_with": "KubeDB Platform",
+  "primary_action_text": "Schedule Demo",
+  "primary_action_url": "/contact/",
+  "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+  "product_icon": "lucide:award",
+  "stats": [
+    { "label": "Time to Launch", "value": "30 days", "icon": "lucide:timer" },
+    { "label": "Database Engines", "value": "25+", "icon": "lucide:database" },
+    { "label": "Support Level", "value": "24×7", "icon": "lucide:shield" },
+    { "label": "Target Go-Live", "value": "Rapid", "icon": "lucide:target" }
+  ],
+  "when_to_use_subtitle": "Key Outcomes for CSPs & MSPs",
+  "when_to_use_description": "Everything you need to compete with global hyperscalers",
+  "when_to_use": [
+    {
+      "icon": "lucide:palette",
+      "title": "Complete Branding Control",
+      "description": "Full branding with data sovereignty and white-label control",
+      "icon_bg": "#3b82f6"
+    },
+    {
+      "icon": "lucide:dollar-sign",
+      "title": "Usage-Based Licensing",
+      "description": "Predictable costs aligned to your revenue growth",
+      "icon_bg": "#10b981"
+    },
+    {
+      "icon": "lucide:zap",
+      "title": "Fastest Time-to-Market",
+      "description": "30 days from signing to production go-live",
+      "icon_bg": "#f59e0b"
+    },
+    {
+      "icon": "lucide:shield",
+      "title": "24×7 Enterprise Support",
+      "description": "Defined SLAs with comprehensive training included",
+      "icon_bg": "#a855f7"
+    }
+  ],
+  "database_engines_title": "25+ Database Engines Supported",
+  "database_engines": [
+    {
+      "category": "Relational",
+      "icon": "lucide:database",
+      "engines": ["PostgreSQL", "MySQL", "MariaDB", "Microsoft SQL Server", "Percona XtraDB"]
+    },
+    {
+      "category": "NoSQL / Document",
+      "icon": "lucide:boxes",
+      "engines": ["MongoDB", "DocumentDB", "Cassandra"]
+    },
+    {
+      "category": "In-Memory / Cache",
+      "icon": "lucide:zap",
+      "engines": ["Redis", "Valkey", "Memcached"]
+    },
+    {
+      "category": "Search",
+      "icon": "lucide:globe",
+      "engines": ["Elasticsearch", "OpenSearch", "Solr"]
+    },
+    {
+      "category": "Analytics",
+      "icon": "lucide:bar-chart-3",
+      "engines": ["Druid", "ClickHouse", "SingleStore"]
+    },
+    {
+      "category": "Messaging / Streaming",
+      "icon": "lucide:workflow",
+      "engines": ["Kafka", "RabbitMQ"]
+    }
+  ],
+  "platform_built_for_scale_title": "Key Features & Capabilities",
+  "platform_built_for_scale_subtitle": "Production-ready features that exceed public cloud offerings",
+  "platform_built_for_scale": [
+    {
+      "icon": "lucide:workflow",
+      "title": "Provisioning & Lifecycle",
+      "description": "Instant self-service launch via web portal, CLI, API, kubectl. Fully automated lifecycle: provisioning, upgrades, scaling, failover, repair, halt/resume.",
+      "color_soft": "rgba(59,130,246,0.08)",
+      "color_gradient": "linear-gradient(135deg, #2563eb, #60a5fa)",
+      "benefits": ["Self-service provisioning", "Automated upgrades", "Zero-downtime scaling", "Halt & resume operations"]
+    },
+    {
+      "icon": "lucide:shield",
+      "title": "High Availability & Resilience",
+      "description": "Multi-AZ/multi-zone clustering with automatic failover and data replication. Continuous health checks with protection against accidental deletion.",
+      "color_soft": "rgba(168,85,247,0.08)",
+      "color_gradient": "linear-gradient(135deg, #7c3aed, #c084fc)",
+      "benefits": ["Multi-AZ clustering", "Auto failover", "PodDisruptionBudgets", "Deletion protection"]
+    },
+    {
+      "icon": "lucide:trending-up",
+      "title": "Scaling & Storage",
+      "description": "Horizontal and vertical scaling with zero downtime. Dynamic volume expansion with full history tracking including initial size, expansions, and timestamps.",
+      "color_soft": "rgba(16,185,129,0.08)",
+      "color_gradient": "linear-gradient(135deg, #059669, #34d399)",
+      "benefits": ["Horizontal scaling", "Vertical scaling", "Dynamic volume expansion", "Full history tracking"]
+    },
+    {
+      "icon": "lucide:database",
+      "title": "Backup & Disaster Recovery",
+      "description": "Policy-driven scheduled & on-demand backups to S3-compatible storage. Incremental, deduplicated, encrypted backups with snapshot lifecycle management.",
+      "color_soft": "rgba(249,115,22,0.08)",
+      "color_gradient": "linear-gradient(135deg, #ea580c, #fb923c)",
+      "benefits": ["Scheduled backups", "Point-in-Time Recovery", "One-click restore", "S3-compatible storage"]
+    },
+    {
+      "icon": "lucide:eye",
+      "title": "Monitoring & Observability",
+      "description": "OpenTelemetry collectors for end-user monitoring. Metrics in Thanos, logs & tracing in ClickHouse. Tenant-isolated Grafana and Perses dashboards.",
+      "color_soft": "rgba(14,165,233,0.08)",
+      "color_gradient": "linear-gradient(135deg, #0284c7, #38bdf8)",
+      "benefits": ["OpenTelemetry integration", "Thanos metrics", "ClickHouse logs", "Tenant isolation"]
+    },
+    {
+      "icon": "lucide:lock",
+      "title": "Security & Compliance",
+      "description": "Automated TLS/SSL via cert-manager. Transparent Data Encryption (TDE). RBAC, Pod Security Policies, Network Policies, Vault integration.",
+      "color_soft": "rgba(236,72,153,0.08)",
+      "color_gradient": "linear-gradient(135deg, #db2777, #f472b6)",
+      "benefits": ["Automated TLS/SSL", "Encryption at rest", "RBAC & policies", "Vault integration"]
+    }
+  ],
+  "billing_and_metering_title": "Comprehensive Billing & Metering",
+  "billing_and_metering_subtitle": "Real-time API access for accurate monthly client invoices with detailed usage tracking",
+  "billing_features": [
+    {
+      "icon": "lucide:bar-chart-3",
+      "title": "Real-Time Metering API",
+      "description": "Access all required data with UTC timestamps"
+    },
+    {
+      "icon": "lucide:database",
+      "title": "Namespace Level Data",
+      "description": "Database type and tenant information"
+    },
+    {
+      "icon": "lucide:server",
+      "title": "Database Level Metrics",
+      "description": "Pod flavor (CPU/Memory), pod age, pod count (including autoscaling)"
+    },
+    {
+      "icon": "lucide:boxes",
+      "title": "Storage Tracking",
+      "description": "Volume name, initial size, expansion history (size + timestamp), creation/deletion timestamps"
+    },
+    {
+      "icon": "lucide:dollar-sign",
+      "title": "Usage Calculation",
+      "description": "Sustained GiB RAM (730 hours/month) for accurate billing"
+    },
+    {
+      "icon": "lucide:code",
+      "title": "Seamless Integration",
+      "description": "RESTful and gRPC APIs for your billing platform"
+    }
+  ],
+  "platform_architecture_image": "/assets/images/products/kubedb/ace-platform-architecture.png",
+  "platform_features_title": "Solution Architecture",
+  "platform_features_subtitle": "All components are containerized, CRD-driven, and designed for multi-cluster and multi-region deployments",
+  "platform_features": [
+    {
+      "title": "KubeDB Platform",
+      "description": "Web Console, Envoy Gateway, Hub/Spoke Model, and Policy Engine for complete DBaaS management",
+      "icon": "lucide:layers",
+      "color": "blue"
+    },
+    {
+      "title": "KubeDB Operator",
+      "description": "Automated provisioning, operations, autoscaling, backup/restore, and database migration",
+      "icon": "lucide:eye",
+      "color": "purple"
+    },
+    {
+      "title": "Kubernetes Services",
+      "description": "ArgoCD, Open Cluster Management, Cert Manager, Prometheus, and Grafana integration",
+      "color": "cyan"
+    },
+    {
+      "title": "Kubernetes Platform",
+      "description": "Support for OpenShift, Rancher, EKS, GKE, AKS, and any CNCF-certified Kubernetes",
+      "icon": "lucide:dollar-sign",
+      "color": "green"
+    },
+    {
+      "title": "Infrastructure",
+      "description": "Deploy on-premises, in the cloud, or at the edge with complete flexibility",
+      "icon": "lucide:globe",
+      "color": "orange"
+    }
+  ],
+  "messages_title": "White-Labeled Self-Service UI + REST APIs",
+  "messages_subtitle": "Beautiful, fully branded self-service portal with complete REST APIs for native integration into your cloud console. No requirement to expose KubeDB Platform UI directly - integrate seamlessly into your existing customer experience.",
+  "message_icon": "lucide:monitor",
+  "universal_access_title": "Universal Database Access",
+  "universal_access_subtitle": "Your customers' databases are accessible from anywhere - modern cloud-native apps and legacy VM-based applications alike",
+  "universal_access_cards": [
+    {
+      "title": "Inside Kubernetes",
+      "description": "Cloud-native applications running in the same K8s cluster",
+      "icon": "lucide:building",
+      "icon_gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+      "border_color": "#bfdbfe",
+      "check_color": "#2563eb",
+      "items": [
+        "Service discovery",
+        "ClusterIP access",
+        "Native K8s networking",
+        "Low-latency connections"
+      ]
+    },
+    {
+      "title": "Outside Kubernetes",
+      "description": "External applications via load balancers and ingress",
+      "icon": "lucide:globe",
+      "icon_gradient": "linear-gradient(135deg, #06b6d4, #14b8a6)",
+      "border_color": "#a5f3fc",
+      "check_color": "#0891b2",
+      "items": [
+        "Load balancer IPs",
+        "NodePort access",
+        "Ingress controllers",
+        "VPN connections"
+      ]
+    },
+    {
+      "title": "Legacy VM Applications",
+      "description": "Traditional applications running on virtual machines",
+      "icon": "lucide:users",
+      "icon_gradient": "linear-gradient(135deg, #22c55e, #10b981)",
+      "border_color": "#bbf7d0",
+      "check_color": "#16a34a",
+      "items": [
+        "Standard database protocols",
+        "No code changes required",
+        "Hybrid cloud support",
+        "Gradual migration path"
+      ]
+    }
+  ],
+  "universal_access_message_title": "Seamless Hybrid Access",
+  "universal_access_message_body": "Your customers can connect from containerized microservices, serverless functions, traditional monoliths on VMs, or external SaaS applications - all using standard database protocols. No special clients or SDKs required.",
+  "universal_access_message_icon": "lucide:sparkles",
+  "universal_access_message_gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
+  "universal_access_message_border": "#bfdbfe",
+  "why_kubedb_title": "Perfect For Service Providers",
+  "why_kubedb_subtitle": "Expand your portfolio with managed database services",
+  "why_kubedb_features": [
+    {
+      "icon": "lucide:cloud",
+      "title": "Cloud Service Providers",
+      "description": "Add managed database services to your cloud platform and rival global hyperscalers",
+      "benefits": [
+        "Differentiate from AWS/Azure/GCP",
+        "Complete data sovereignty",
+        "Kubernetes-native advantage",
+        "Multi-cloud capabilities",
+        "Air-gapped deployment support"
+      ]
+    },
+    {
+      "icon": "lucide:award",
+      "title": "Managed Service Providers",
+      "description": "Offer white-labeled DBaaS to enterprise clients with reduced operational burden",
+      "benefits": [
+        "Expand service portfolio",
+        "Higher margin services",
+        "Automated operations reduce costs",
+        "Scale without adding headcount",
+        "Focus on customer growth"
+      ]
+    },
+    {
+      "icon": "lucide:building",
+      "title": "System Integrators",
+      "description": "Provide branded database solutions with professional services upsell opportunities",
+      "benefits": [
+        "Recurring revenue model",
+        "Professional services upsell",
+        "Client retention tool",
+        "Competitive advantage",
+        "Multi-tenant governance"
+      ]
+    }
+  ],
+  "how_it_works_title": "Implementation & Go-Live",
+  "how_it_works_subtitle": "Target Timeline: 30 days from signing to go-live (accelerable based on your readiness)",
+  "how_it_works": [
+    {
+      "step": 1,
+      "title": "Agreement & Training",
+      "desc": "Final review and signing of Software Licence and Support Agreement. Joint kick-off meeting with comprehensive initial training.",
+      "icon": "lucide:file-text"
+    },
+    {
+      "step": 2,
+      "title": "Deployment Progression",
+      "desc": "Deploy on Dev → Staging → Production clusters with full support throughout the process.",
+      "icon": "lucide:git-branch"
+    },
+    {
+      "step": 3,
+      "title": "Go-Live Confirmation",
+      "desc": "Mutual confirmation of go-live date with readiness verification and final checks.",
+      "icon": "lucide:check-circle"
+    },
+    {
+      "step": 4,
+      "title": "Production Launch",
+      "desc": "24×7 support activation and production launch with defined SLAs.",
+      "icon": "lucide:sparkles"
+    }
+  ],
+  "faqs_title": "CSP & MSP FAQ",
+  "faqs": [
+    {
+      "question": "What is ACE (AppsCode Cloud Engine)?",
+      "answer": "ACE is a fully managed, white-labeled, production-ready Database-as-a-Service platform built on KubeDB. It provides complete infrastructure for CSPs and MSPs to offer managed database services with their own branding, billing, and data sovereignty."
+    },
+    {
+      "question": "Which Kubernetes distributions are supported?",
+      "answer": "ACE supports any CNCF-certified Kubernetes distribution including OpenShift, Rancher, EKS, GKE, AKS, and on-premises clusters. It's fully compatible with private registry deployments and air-gapped environments."
+    },
+    {
+      "question": "Can I integrate with my existing billing system?",
+      "answer": "Yes. ACE provides comprehensive real-time metering APIs (REST and gRPC) that can be integrated into any existing billing platform, ERP system, or marketplace."
+    },
+    {
+      "question": "How quickly can we go live?",
+      "answer": "The standard timeline is 30 days from signing to production go-live. This includes deployment progression through Dev, Staging, and Production environments with our expert support team."
+    },
+    {
+      "question": "Do you support white-labeled UI and documentation?",
+      "answer": "Yes. ACE is fully white-labeled including the self-service UI, CLI output, and documentation. You can customize colors, logos, and content to match your brand identity."
+    },
+    {
+      "question": "What about data sovereignty and compliance?",
+      "answer": "ACE ensures complete data sovereignty, all customer data remains in your infrastructure. It supports encryption at rest, RBAC, network policies, audit logging, and integrations with compliance frameworks."
+    }
+  ],
+  "cta_badge": "White-Label Ready",
+  "cta_title": "Launch Your Own",
+  "cta_title_gradient": "DBaaS Business",
+  "cta_description": "Compete with global hyperscalers with your own branded database services",
+  "cta_checklist": [
+    "Complete branding control",
+    "Launch in 30 days",
+    "Data sovereignty guaranteed"
+  ],
+  "cta_button_text": "Contact Sales",
+  "cta_button_url": "https://appscode.com/contact/",
+  "final_cta_metrics": [
+    { "icon": "lucide:timer", "value": "30", "label": "Days to Launch", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
+    { "icon": "lucide:database", "value": "25+", "label": "DB Engines", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
+    { "icon": "lucide:shield", "value": "24×7", "label": "Support", "gradient": "linear-gradient(135deg, #a78bfa, #ec4899)" },
+    { "icon": "lucide:target", "value": "Rapid", "label": "Go-Live", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
+  ]
+}

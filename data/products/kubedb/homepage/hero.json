@@ -1,0 +1,12 @@
+{
+  "title_plain": "Kubernetes-native <span class=\"home-hero-title-gradient\">DBaaS</span> <br/> Anywhere with Any Storage",
+  "description": "Own Your Database-as-a-Service on <strong>any Kubernetes</strong>, cloud, on-premises, edge, or air-gapped. <strong>Zero Cloud lock-in.</strong>",
+  "cta_primary": "Start Free Trial",
+  "cta_secondary": "View Documentation",
+  "differentiators": [
+    { "title": "Any Kubernetes", "desc": "EKS • AKS • GKE • OpenShift • Rancher" },
+    { "title": "Any Storage",    "desc": "Cloud • Ceph • NFS • Portworx" },
+    { "title": "Air-Gapped Ready", "desc": "Cloud • On-premises • Hybrid" }
+  ],
+  "trusted_label": "Trusted by leading organizations"
+}

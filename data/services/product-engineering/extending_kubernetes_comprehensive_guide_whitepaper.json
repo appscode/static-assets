@@ -124,7 +124,7 @@
   "faq": [
     {
       "question": "What does the \u201cExtending Kubernetes Confidence With Our Whitepaper\u201d cover?",
-      "answer": "Our whitepaper provides a complete roadmap for extending Kubernetes confidence across your organization — from understanding architectural best practices and security hardening to optimizing workloads for scalability, automation, and resilience in production environments."
+      "answer": "Our whitepaper provides a complete roadmap for extending Kubernetes confidence across your organization, from understanding architectural best practices and security hardening to optimizing workloads for scalability, automation, and resilience in production environments."
     },
     {
       "question": "Which topics and practices are explained in the Kubernetes whitepaper?",
@@ -132,7 +132,7 @@
     },
     {
       "question": "Is the whitepaper relevant if we already use Kubernetes in production?",
-      "answer": "Yes — even experienced teams can benefit. The 'Extending Kubernetes Confidence With Our Whitepaper' highlights advanced techniques for optimizing security, resource efficiency, and reliability, helping you identify areas for improvement in existing Kubernetes setups."
+      "answer": "Yes, even experienced teams can benefit. The 'Extending Kubernetes Confidence With Our Whitepaper' highlights advanced techniques for optimizing security, resource efficiency, and reliability, helping you identify areas for improvement in existing Kubernetes setups."
     },
     {
       "question": "How is the whitepaper structured and what can we expect to learn?",

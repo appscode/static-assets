@@ -1,0 +1,183 @@
+{
+  "title": "White-label DBaaS live in 30 days: serving 20,000+ customers",
+  "tagline": "Launched a fully-featured public DBaaS in <span class=\"has-text-primary\">just 30 days</span>",
+  "description": "A leading public cloud provider integrated KubeDB into their managed Kubernetes service and went live with a complete white-label Database-as-a-Service offering in record time.",
+  "company": "Public Cloud Provider",
+  "industry": "Cloud Service Provider",
+  "logo": "/assets/images/products/kubedb/kubedb.svg",
+  "logo_emoji": "☁️",
+  "badge": "PUBLIC CLOUD SUCCESS STORY",
+  "hero_live_badge": "LIVE 24/7",
+  "hero_legacy_badge": "Platform launched · Running on KubeDB",
+  "tag": "White-label DBaaS",
+  "company_note": "A leading public cloud provider with 15+ years of experience, 10+ data centers, and serving 20,000+ businesses across multiple continents.",
+
+  "customer_badge": "PUBLIC CLOUD PROVIDER",
+  "customer_title": "Company X",
+  "customer_description": "A leading public cloud provider with 15+ years of experience, 10+ data centers, and serving 20,000+ businesses across multiple continents.",
+  "customer_website": "",
+  "customer_website_label": "",
+  "customer_status": "Public DBaaS live since February 2025",
+  "hero_right_logo_emoji": "☁️",
+  "back_link_text": "All Case Studies",
+  "hero_primary_button_text": "Read the full story",
+  "hero_secondary_button_text": "Explore on GitHub",
+  "hero_secondary_button_href": "https://github.com/kubedb",
+  "challenge_key_pains_label": "Key pain points",
+  "solution_powered_by_label": "Powered by KubeDB",
+  "supported_databases_footer_label": "Enterprise Verified",
+  "delivered_features_footer_label": "Powered by KubeDB",
+  "compliance_note": "Open-core · Apache 2.0 · Certified on OpenShift, Rancher, EKS, AKS, GKE & more",
+
+  "hero_metrics": [
+    {
+      "value": "30 days",
+      "label": "To Production",
+      "sublabel": "Evaluation to public GA"
+    },
+    {
+      "value": "10+",
+      "label": "Database Engines",
+      "sublabel": "Live and self-service"
+    },
+    {
+      "value": "24/7",
+      "label": "Automated Operations",
+      "sublabel": "Zero manual DB management"
+    }
+  ],
+  "hero_tags": [
+    "SUSE Rancher",
+    "White-label DBaaS",
+    "ACE UI Self-Service",
+    "10+ Databases"
+  ],
+
+  "hero_right_company": "Public Cloud Provider",
+  "hero_right_industry": "Cloud Service Provider",
+  "hero_right_metrics": [
+    {
+      "value": "10+",
+      "label": "ENGINES",
+      "sublabel": "PostgreSQL • MySQL • Redis • MongoDB • Kafka & more"
+    },
+    {
+      "value": "Self-Service",
+      "label": "ACE UI",
+      "sublabel": "Instant database creation"
+    },
+    {
+      "value": "24/7",
+      "label": "AUTOMATED",
+      "sublabel": "Backups, scaling, failover"
+    }
+  ],
+  "hero_right_tags": [
+    "SUSE Rancher",
+    "KubeStash Backups",
+    "ACE UI Self-Service",
+    "White-label DBaaS"
+  ],
+
+  "challenge_title": "Launch a competitive public DBaaS - fast",
+  "challenge_badge": "THE CHALLENGE",
+  "challenge_summary": "Company X needed a fully managed, white-label Database-as-a-Service to complement their managed Kubernetes offering, without building everything from scratch.",
+  "challenge_key_pains": "Rapid delivery · Multi-engine support · White-label branding · Customer self-service · Cost efficiency",
+  "challenge_items": [
+    {
+      "icon": "lucide:clock",
+      "title": "Time-to-market pressure",
+      "description": "Wanted to offer production-grade databases to customers quickly to stay competitive."
+    },
+    {
+      "icon": "lucide:database",
+      "title": "Multiple engines required",
+      "description": "PostgreSQL, MySQL, Redis, MongoDB, Kafka, Elasticsearch, and more, all needed immediately."
+    },
+    {
+      "icon": "lucide:users",
+      "title": "Self-service for end customers",
+      "description": "Customers needed an easy, secure, and fully managed experience with no operational burden."
+    }
+  ],
+
+  "solution_badge": "KUBEDB SOLUTION",
+  "solution_title": "KubeDB enabled launch of a complete public DBaaS in only 30 days",
+  "solution_description": "Company X integrated KubeDB into their SUSE Rancher-based managed Kubernetes service and used the ACE UI to deliver a polished, self-service DBaaS experience to thousands of customers.",
+  "solution_steps_title": "What KubeDB delivered in record time",
+
+  "solution_steps": [
+    {
+      "number": "1",
+      "title": "10+ production databases live",
+      "description": "PostgreSQL, MySQL, Redis, MongoDB, Kafka, Elasticsearch, and more."
+    },
+    {
+      "number": "2",
+      "title": "Self-service customer portal",
+      "description": "Powered by ACE UI, customers can create, scale, and manage databases instantly."
+    },
+    {
+      "number": "3",
+      "title": "Full automation out of the box",
+      "description": "Provisioning, scaling, upgrades, failover, backups, and monitoring, all handled by KubeDB."
+    },
+    {
+      "number": "4",
+      "title": "Enterprise-grade features",
+      "description": "High availability, KubeStash backups, RBAC, TLS, network policies, and multi-tenancy support."
+    }
+  ],
+
+  "timeline_badge": "Journey",
+  "timeline_title": "From Evaluation to Public Launch in 30 days",
+  "timeline": [
+    {
+      "period": "Late 2024",
+      "title": "Evaluation & Decision",
+      "description": "Company X evaluated multiple solutions and chose KubeDB for its Kubernetes-native design and rapid integration capabilities."
+    },
+    {
+      "period": "Integration",
+      "title": "Daily Collaboration",
+      "description": "Private Discord channel established. Daily syncs with KubeDB engineering team to implement ACE UI and fine-tune features."
+    },
+    {
+      "period": "Testing",
+      "title": "Staging Validation",
+      "description": "Comprehensive load testing, performance validation, and monitoring integration completed in record time."
+    },
+    {
+      "period": "Feb 2025",
+      "title": "Public GA",
+      "description": "Full public launch of white-label DBaaS across two Indian regions. Customers now enjoy instant, managed databases."
+    }
+  ],
+
+  "results_title": "From Evaluation to Production",
+  "results_metrics": [
+    {
+      "value": "1 Mo",
+      "label": "Evaluation to public GA",
+      "note": "Late 2024 evaluation → February 2025 public launch"
+    },
+    {
+      "value": "10+",
+      "label": "Database engines live",
+      "note": "PostgreSQL, MySQL, Redis, MongoDB, Kafka, Elasticsearch & more"
+    }
+  ],
+  "results_extras": [
+    { "icon": "lucide:zap", "label": "24/7 automated operations" },
+    { "icon": "lucide:users", "label": "20,000+ customers served" },
+    { "icon": "lucide:shield-check", "label": "Enterprise-grade HA & security" }
+  ],
+  "results_quote": "Launched fully-featured public DBaaS in just 30 days with complete automation and white-label self-service experience.",
+  "results_quote_author": "Platform Team",
+
+  "cta_title": "Launch your own public or white-label DBaaS in weeks - not months",
+  "cta_description": "KubeDB gives cloud providers everything needed to offer production-grade, multi-engine Database-as-a-Service instantly.",
+  "cta_primary": "Get 30-day Enterprise Trial",
+  "cta_secondary": "View More Case Studies",
+  "cta_secondary_href": "/case-studies/"
+}

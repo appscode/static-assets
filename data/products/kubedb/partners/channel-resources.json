@@ -1,0 +1,402 @@
+{
+  "hero": {
+    "product_color_primary": "#7272E9",
+    "product_icon": "lucide:library",
+    "hero_badge": "Partner Resources",
+    "hero_title_1": "Everything You Need to",
+    "hero_title_2": "Succeed with KubeDB",
+    "hero_description": "Access the full suite of technical, sales, and marketing resources to drive successful customer outcomes",
+    "primary_action_text": "Browse Resources",
+    "primary_action_url": "#partner-form",
+    "primary_action_icon": "lucide:arrow-right",
+    "secondary_action_text": "Partner Login",
+    "secondary_action_url": "#",
+    "secondary_action_icon": "lucide:log-in",
+    "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+    "badge": "Partner Resources",
+    "badge_icon": "lucide:library",
+    "title_plain": "Everything You Need to",
+    "title_gradient": "Succeed with KubeDB",
+    "description": "Access the full suite of technical, sales, and marketing resources to drive successful customer outcomes",
+    "cta_primary": "Browse Resources",
+    "cta_primary_href": "#partner-form",
+    "cta_secondary": "Partner Login",
+    "cta_secondary_href": "#",
+    "stats": [
+      { "icon": "lucide:file-text", "value": "200+", "label": "Resource Assets" },
+      { "icon": "lucide:video", "value": "50+", "label": "Training Videos" },
+      { "icon": "lucide:refresh-cw", "value": "Weekly", "label": "Content Updates" },
+      { "icon": "lucide:headphones", "value": "24/7", "label": "Partner Support" }
+    ]
+  },
+
+  "showcase_partners": {
+    "badge": "Cloud Infrastructure",
+    "badge_icon": "lucide:cloud",
+    "title": "Showcase Partners",
+    "description": "Run KubeDB on any major cloud platform",
+    "partners": [
+      {
+        "name": "AWS",
+        "description": "Amazon Web Services",
+        "logo": "/assets/images/partners/showcase/aws.svg",
+        "url": "https://aws.amazon.com/"
+      },
+      {
+        "name": "Azure",
+        "description": "Microsoft Azure",
+        "logo": "/assets/images/partners/showcase/azure.svg",
+        "url": "https://azure.microsoft.com/en-gb/"
+      },
+      {
+        "name": "Google Cloud",
+        "description": "Google Cloud Platform",
+        "logo": "/assets/images/partners/showcase/gcp.svg",
+        "url": "https://cloud.google.com/"
+      }
+    ]
+  },
+
+  "technology_partners": {
+    "badge": "Ecosystem",
+    "badge_icon": "lucide:code-2",
+    "title": "Technology Partners",
+    "description": "Trusted partners delivering KubeDB solutions worldwide",
+    "partners": [
+      {
+        "name": "Astrokube",
+        "logo": "/assets/images/partners/technology/astrokube.svg",
+        "url": "https://www.astrokube.com/"
+      },
+      {
+        "name": "Cartman Digital",
+        "logo": "/assets/images/partners/technology/cartman-digital.svg",
+        "url": "https://www.cartman.fi/"
+      },
+      {
+        "name": "Dedicatted",
+        "logo": "/assets/images/partners/technology/dedicatted.svg",
+        "url": "https://dedicatted.com/"
+      },
+      {
+        "name": "HongKe",
+        "logo": "/assets/images/partners/technology/hkaco.svg",
+        "url": "https://hkaco.com/"
+      },
+      {
+        "name": "itbigtec",
+        "logo": "/assets/images/partners/technology/itbigtec.png",
+        "url": "https://itbigtec.com/"
+      }
+    ]
+  },
+
+  "partnership_types": {
+    "title": "Resource Categories",
+    "description": "Find the right materials for every stage of your partner journey",
+    "types": [
+      {
+        "icon": "lucide:book-open",
+        "gradient": "blue",
+        "title": "Technical Documentation",
+        "description": "In-depth guides, architecture references, and API docs to help your engineers deliver production-ready KubeDB deployments",
+        "benefits": [
+          "Deployment and configuration guides",
+          "Reference architectures by use case",
+          "API and CLI documentation",
+          "Troubleshooting runbooks"
+        ]
+      },
+      {
+        "icon": "lucide:presentation",
+        "gradient": "purple",
+        "title": "Sales Enablement",
+        "description": "Battle cards, objection handling guides, and competitive comparisons to accelerate your sales cycle",
+        "benefits": [
+          "Competitive battle cards",
+          "ROI and TCO calculators",
+          "Customer-facing pitch decks",
+          "Objection handling playbooks"
+        ]
+      },
+      {
+        "icon": "lucide:megaphone",
+        "gradient": "green",
+        "title": "Marketing Assets",
+        "description": "Co-brandable collateral, solution briefs, and campaign materials to grow your pipeline",
+        "benefits": [
+          "Co-brandable solution briefs",
+          "Email campaign templates",
+          "Social media content kits",
+          "Event and webinar materials"
+        ]
+      },
+      {
+        "icon": "lucide:graduation-cap",
+        "gradient": "red",
+        "title": "Training &amp; Certification",
+        "description": "Self-paced courses, instructor-led training, and certification exams to build your team's KubeDB expertise",
+        "benefits": [
+          "Self-paced online courses",
+          "Instructor-led training sessions",
+          "Hands-on lab environments",
+          "KubeDB certification program"
+        ]
+      }
+    ]
+  },
+
+  "partner_benefits": {
+    "title": "Why Use Channel Resources",
+    "description": "Equip your team with everything needed to win and retain customers",
+    "benefits": [
+      {
+        "icon": "lucide:zap",
+        "title": "Faster Onboarding",
+        "description": "Get your team productive quickly with structured onboarding guides and curated learning paths"
+      },
+      {
+        "icon": "lucide:bar-chart-3",
+        "title": "Higher Win Rates",
+        "description": "Use proven sales tools, ROI calculators, and battle cards to close more deals with confidence"
+      },
+      {
+        "icon": "lucide:shield-check",
+        "title": "Consistent Quality",
+        "description": "Deliver repeatable, high-quality implementations by following reference architectures and runbooks"
+      },
+      {
+        "icon": "lucide:refresh-cw",
+        "title": "Always Up to Date",
+        "description": "Resources are reviewed and updated weekly so you always have the latest product and competitive information"
+      },
+      {
+        "icon": "lucide:users",
+        "title": "Community Access",
+        "description": "Connect with other channel partners, share best practices, and collaborate in the partner community"
+      },
+      {
+        "icon": "lucide:target",
+        "title": "Demand Generation",
+        "description": "Run co-branded campaigns with ready-made templates and content to generate qualified pipeline"
+      }
+    ]
+  },
+
+  "grow_section": {
+    "badge": "Partner Enablement",
+    "badge_icon": "lucide:library",
+    "title_plain": "Build Your Practice",
+    "title_gradient": "with KubeDB Resources",
+    "description": "Use our structured resource library to ramp faster, sell smarter, and deliver with confidence",
+    "partner_models": [
+      {
+        "icon": "lucide:book-open",
+        "gradient": "blue",
+        "title": "Technical Resources",
+        "description": "Architecture guides, runbooks, and sandbox environments to develop real expertise",
+        "benefits": [
+          "Sandbox lab access",
+          "Reference architectures",
+          "Deployment runbooks",
+          "Integration guides"
+        ]
+      },
+      {
+        "icon": "lucide:presentation",
+        "gradient": "purple",
+        "title": "Sales Resources",
+        "description": "Everything your sales team needs to identify opportunities and close deals",
+        "benefits": [
+          "Battle cards &amp; playbooks",
+          "ROI &amp; TCO calculators",
+          "Customer pitch decks",
+          "Competitive comparisons"
+        ]
+      },
+      {
+        "icon": "lucide:megaphone",
+        "gradient": "green",
+        "title": "Marketing Resources",
+        "description": "Co-brandable assets and campaign materials to build your pipeline",
+        "benefits": [
+          "Co-branded collateral",
+          "Email templates",
+          "Social media kits",
+          "Webinar content"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "icon": "lucide:users",
+        "gradient": "primary",
+        "title": "Partner Resource Portal",
+        "description": "Access the full partner resource library with your registered partner credentials",
+        "benefits": [
+          "Unlimited access to all resource types",
+          "Early access to new content",
+          "Personalized learning paths",
+          "Dedicated partner success manager"
+        ],
+        "cta_text": "Access Resources",
+        "cta_href": "#partner-form",
+        "cta_style": "primary",
+        "cta_icon": "lucide:library"
+      },
+      {
+        "icon": "lucide:graduation-cap",
+        "gradient": "purple",
+        "title": "Training &amp; Certification",
+        "description": "Get certified and build credibility with your customers",
+        "benefits": [
+          "Self-paced and instructor-led options",
+          "Hands-on lab environments",
+          "KubeDB certification badge",
+          "Renewal and advanced tracks"
+        ],
+        "cta_text": "Start Training",
+        "cta_href": "#partner-form",
+        "cta_style": "outlined",
+        "cta_icon": "lucide:graduation-cap"
+      }
+    ],
+    "deal_process": {
+      "title": "Resource Onboarding Journey",
+      "subtitle": "From registration to revenue",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Register",
+          "description": "Join the partner program"
+        },
+        { "number": "2", "title": "Access", "description": "Enter the resource portal" },
+        {
+          "number": "3",
+          "title": "Enable",
+          "description": "Complete training tracks"
+        },
+        { "number": "4", "title": "Grow", "description": "Win customers together" }
+      ]
+    }
+  },
+
+  "form": {
+    "badge": "Join Our Ecosystem",
+    "badge_icon": "lucide:rocket",
+    "title": "Become a KubeDB Partner",
+    "description": "Fill out the form below and our partner team will contact you within 24 hours",
+    "action": "#",
+    "fields": [
+      {
+        "name": "company_name",
+        "label": "Company Name",
+        "type": "text",
+        "placeholder": "Your Company",
+        "required": true,
+        "icon": ""
+      },
+      {
+        "name": "contact_name",
+        "label": "Contact Name",
+        "type": "text",
+        "placeholder": "John Doe",
+        "required": true,
+        "icon": ""
+      },
+      {
+        "name": "email",
+        "label": "Email Address",
+        "type": "email",
+        "placeholder": "email@company.com",
+        "required": true,
+        "icon": "lucide:mail"
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "placeholder": "+1 (555) 000-0000",
+        "required": false,
+        "icon": "lucide:phone"
+      },
+      {
+        "name": "website",
+        "label": "Company Website",
+        "type": "url",
+        "placeholder": "https://company.com",
+        "required": false,
+        "icon": "lucide:globe"
+      },
+      {
+        "name": "country",
+        "label": "Country",
+        "type": "text",
+        "placeholder": "United States",
+        "required": true,
+        "icon": ""
+      }
+    ],
+    "partner_type_field": {
+      "name": "partner_type",
+      "label": "Partner Type",
+      "required": true,
+      "placeholder": "Select Type",
+      "options": [
+        { "value": "technology", "label": "Technology Partner" },
+        { "value": "reseller", "label": "Reseller Partner" },
+        { "value": "consulting", "label": "Service Integrator" },
+        { "value": "cloud", "label": "MSP / Cloud Partner" }
+      ]
+    },
+    "message_field": {
+      "name": "message",
+      "label": "Message",
+      "placeholder": "Tell us about your business and partnership interests...",
+      "rows": 5
+    },
+    "cta_primary": "Submit Application",
+    "cta_secondary": "Contact Sales",
+    "cta_secondary_icon": "lucide:message-square",
+    "disclaimer": "By submitting this form, you agree to our partner terms and conditions"
+  },
+
+  "cta_section": {
+    "cta_badge": "Partner Resources",
+    "cta_title": "Questions About Channel Resources?",
+    "cta_description": "Our partner enablement team is ready to help you find what you need",
+    "cta_button_text": "partners@appscode.com",
+    "cta_button_url": "mailto:partners@appscode.com",
+    "cta_checklist": [
+      "Production-grade reliability",
+      "Automated lifecycle management",
+      "Multi-cloud database portability"
+    ],
+    "cta_stats": [
+      {
+        "icon": "lucide:database",
+        "value": "25+",
+        "label": "Databases",
+        "gradient": "linear-gradient(135deg, #6366f1, #a855f7)"
+      },
+      {
+        "icon": "lucide:trending-up",
+        "value": "10K+",
+        "label": "Active Users",
+        "gradient": "linear-gradient(135deg, #4ade80, #10b981)"
+      },
+      {
+        "icon": "lucide:shield-check",
+        "value": "99.9%",
+        "label": "Uptime SLA",
+        "gradient": "linear-gradient(135deg, #fb923c, #ef4444)"
+      },
+      {
+        "icon": "lucide:check-circle",
+        "value": "24/7",
+        "label": "Expert Support",
+        "gradient": "linear-gradient(135deg, #a855f7, #ec4899)"
+      }
+    ]
+  }
+}

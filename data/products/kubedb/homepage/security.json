@@ -1,0 +1,44 @@
+{
+  "badge": "Security & Compliance",
+  "title_plain": "Enterprise-Grade",
+  "title_gradient": "Security",
+  "description": "Comprehensive security controls for regulated industries and disconnected environments, from encryption to credential management.",
+  "features": [
+    {
+      "icon": "heroicons:lock-closed",
+      "icon_gradient": "linear-gradient(135deg, #3b82f6, #4f46e5)",
+      "title": "TLS/SSL Management",
+      "desc": "Automated certificate provisioning and renewals for all database connections with zero manual intervention."
+    },
+    {
+      "icon": "heroicons:circle-stack",
+      "icon_gradient": "linear-gradient(135deg, #a855f7, #7c3aed)",
+      "title": "Transparent Data Encryption (TDE)",
+      "desc": "Encrypted storage at rest via cloud provider key management services ensuring data security."
+    },
+    {
+      "icon": "heroicons:wifi",
+      "icon_gradient": "linear-gradient(135deg, #06b6d4, #3b82f6)",
+      "title": "Network Isolation",
+      "desc": "Database pods run inside Kubernetes private pod network by default; configurable network policies restrict communication to authorized pods only."
+    },
+    {
+      "icon": "heroicons:shield-check",
+      "icon_gradient": "linear-gradient(135deg, #10b981, #16a34a)",
+      "title": "RBAC Resource-Level Permissions",
+      "desc": "Control which users and groups can act on specific database instances (e.g., developers on Dev, only DBAs on Prod)."
+    },
+    {
+      "icon": "heroicons:server",
+      "icon_gradient": "linear-gradient(135deg, #f97316, #ef4444)",
+      "title": "Private Registry & Air-Gapped Support",
+      "desc": "Runs fully offline with no internet access required; suitable for sovereign and regulated environments."
+    },
+    {
+      "icon": "heroicons:key",
+      "icon_gradient": "linear-gradient(135deg, #ec4899, #f43f5e)",
+      "title": "Database User Management",
+      "desc": "Vault integration for dynamic credential generation, custom permissions, and automated credential rotation."
+    }
+  ]
+}

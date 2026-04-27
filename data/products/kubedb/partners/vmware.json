@@ -1,0 +1,329 @@
+{
+  "hero": {
+    "product_color_primary": "#7272E9",
+    "product_icon": "lucide:check-circle",
+    "hero_badge": "FOR EXISTING NUTANIX CUSTOMERS",
+    "hero_title_1": "Run Any Database Natively on VMware vSphere Kubernetes Service - <span class=\"text-gradient\">Without the Compromise.</span>",
+    "hero_description": "Deploy and manage 25+ Production-grade databases as native Kubernetes resources on VMware vSphere Kubernetes Service (VKS). Leverage vSphere CSI, vSAN, and your existing vSphere infrastructure - with broader choice, zero extra licensing, and true GitOps agility compared to traditional DBaaS.",
+    "primary_action_text": "See full comparison",
+    "primary_action_url": "#comparison",
+    "secondary_action_text": "Deploy in Minutes on VKS",
+    "secondary_action_url": "/docs/latest/setup/",
+    "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+    "stats_style": "hero-inline-metrics",
+    "stats": [
+      {
+        "value": "25+ Database Engines",
+        "label": "PostgreSQL, MySQL, Redis, Kafka & more"
+      },
+      {
+        "value": "Level 5 Operator",
+        "label": "Day-2 operations on Auto Pilot"
+      },
+      {
+        "value": "Native vSphere CSI",
+        "label": "vSAN + High-performance storage"
+      }
+    ]
+  },
+
+  "platform": {
+    "badge": "THE PLATFORM",
+    "heading": "Your VMware vSphere Investment is Ready for Modern Databases",
+    "description": "VKS delivers enterprise Kubernetes directly on vSphere with deep integration to vCenter, vSAN, and NSX. KubeDB makes databases first-class citizens, without the cost or limitations of traditional DBaaS.",
+    "cards": [
+      {
+        "title": "VMware vSphere Kubernetes Service (VKS)",
+        "icon": "lucide:database",
+        "color": "info",
+        "description": "Enterprise-grade, CNCF-conformant Kubernetes service built into vSphere Supervisor. Self-service cluster lifecycle, centralized governance, policy enforcement, and seamless integration with vSphere infrastructure.",
+        "features": [
+          "Full Operator and CRD support",
+          "GitOps-ready with ArgoCD/Flux",
+          "Multi-cluster management via VMware Cloud Foundation"
+        ]
+      },
+      {
+        "title": "vSphere CSI + vSAN Storage",
+        "icon": "lucide:hard-drive",
+        "color": "info",
+        "badge": "STORAGE POWERHOUSE",
+        "description": "Native Container Storage Interface driver with full vSAN integration. Delivers high-performance persistent volumes, snapshots, encryption, and enterprise-grade data services.",
+        "features": [
+          "vSphere CSI driver for PVCs",
+          "Sub-millisecond latency on vSAN",
+          "Snapshots, cloning & encryption"
+        ]
+      },
+      {
+        "title": "Traditional DBaaS on vSphere",
+        "icon": "lucide:database",
+        "color": "warning",
+        "legacy": true,
+        "description": "External managed services or limited operators. Higher costs, vendor lock-in, and less agility compared to running databases natively on VKS with KubeDB.",
+        "note": "KubeDB delivers the modern database platform your vSphere environment deserves."
+      }
+    ]
+  },
+  "comparison": {
+    "badge": "COMPARISON",
+    "heading": "Traditional DBaaS vs VMware VKS + KubeDB",
+    "description": "KubeDB on VKS gives you broader database support, zero extra licensing, and deep vSphere integration.",
+    "col_traditional": "Traditional DBaaS",
+    "col_kubedb": "VKS + KubeDB",
+    "rows": [
+      {
+        "capability": "Supported Database Engines",
+        "traditional": "Limited (typically 5–12 engines)",
+        "kubedb": "25+ engines: PostgreSQL, MySQL, MongoDB, Redis, Kafka, Elasticsearch, ClickHouse, Cassandra, Neo4j & more"
+      },
+      {
+        "capability": "Deployment Model",
+        "traditional": "External console or fragmented operators",
+        "kubedb": "100% native Kubernetes CRDs on VKS"
+      },
+      {
+        "capability": "Management Style",
+        "traditional": "Console-driven or external tools",
+        "kubedb": "Declarative GitOps - unified with your apps"
+      },
+      {
+        "capability": "Cost Model",
+        "traditional": "Per-core licensing + egress fees",
+        "kubedb": "No licensing fees • Use existing vSphere resources"
+      },
+      {
+        "capability": "Provisioning Speed",
+        "traditional": "Minutes to hours",
+        "kubedb": "Seconds with full self-service"
+      },
+      {
+        "capability": "Storage Integration",
+        "traditional": "External or basic PVCs",
+        "kubedb": "Native vSphere CSI + vSAN - high-performance, snapshots, encryption"
+      },
+      {
+        "capability": "Security & Compliance",
+        "traditional": "Provider-managed",
+        "kubedb": "Built-in TLS + vSphere RBAC, NSX, and policy enforcement"
+      },
+      {
+        "capability": "Observability",
+        "traditional": "Separate tools",
+        "kubedb": "Integrated with VKS observability stack"
+      },
+      {
+        "capability": "Multi-Cluster Portability",
+        "traditional": "Vendor-specific",
+        "kubedb": "Same manifests across all VKS clusters"
+      }
+    ]
+  },
+  "benefits": {
+    "badge": "WHY KUBEDB",
+    "heading": "Why VMware vSphere Customers Choose KubeDB on VKS",
+    "items": [
+      {
+        "title": "Lower TCO",
+        "icon": "lucide:dollar-sign",
+        "description": "No external DBaaS licensing or egress fees. Run everything on your existing vSphere infrastructure and VKS clusters."
+      },
+      {
+        "title": "Developer Agility",
+        "icon": "lucide:rocket",
+        "description": "Databases become native Kubernetes objects. Enable self-service provisioning with the same GitOps workflows used for applications."
+      },
+      {
+        "title": "Enterprise Security",
+        "icon": "lucide:shield",
+        "description": "Seamless integration with vSphere RBAC, NSX networking, and policy enforcement plus built-in TLS and encryption."
+      },
+      {
+        "title": "vSphere-Optimized Storage",
+        "icon": "lucide:hard-drive",
+        "description": "Native vSphere CSI driver with vSAN delivers sub-millisecond latency, snapshots, cloning, and enterprise resilience."
+      },
+      {
+        "title": "Hybrid Cloud Freedom",
+        "icon": "lucide:globe",
+        "description": "Consistent manifests across VKS on-prem, VMware Cloud, or any CNCF Kubernetes, no lock-in."
+      },
+      {
+        "title": "Unified Operations",
+        "icon": "lucide:bar-chart-2",
+        "description": "Manage VMs, containers, and databases from a single vSphere and VKS control plane."
+      }
+    ]
+  },
+  "architecture": {
+    "badge": "TECHNICAL ARCHITECTURE",
+    "heading": "KubeDB runs natively on VMware vSphere Kubernetes Service",
+    "description": "The KubeDB Operator sits directly on top of your VKS infrastructure, leveraging vSphere's enterprise-grade security, vSAN storage, and high-performance capabilities.",
+    "layers": [
+      {
+        "label": "KubeDB Platform",
+        "desc": "Web Console • Envoy Gateway • Hub/Spoke Model • Policy Engine",
+        "gradient": "primary"
+      },
+      {
+        "label": "KubeDB Operator",
+        "desc": "Provisioner • OpsManager • AutoScaler • KubeDB • Migrator",
+        "gradient": "purple"
+      },
+      {
+        "label": "Kubernetes Services",
+        "desc": "ArgoCD • Open Cluster Management • Cert Manager • Prometheus • Grafana",
+        "gradient": "blue"
+      },
+      {
+        "label": "VMware vSphere Kubernetes Service",
+        "desc": "VKS • vSphere • vSAN • NSX",
+        "gradient": "purple"
+      }
+    ],
+    "image": "/assets/images/partners/KubeDB_Stack_Diagram.png",
+    "image_alt": "KubeDB Platform Architecture on VMware vSphere Kubernetes Service",
+    "image_tags": ["On-premises", "Cloud", "Edge"]
+  },
+  "capabilities": {
+    "badge": "CAPABILITIES",
+    "heading": "Key Capabilities of KubeDB on VKS",
+    "items": [
+      {
+        "title": "Automated Lifecycle Management",
+        "icon": "lucide:git-fork",
+        "description": "Declarative operators handle provisioning, upgrades, scaling, and repair with zero-downtime where possible."
+      },
+      {
+        "title": "High Availability & Resiliency",
+        "icon": "lucide:shield", 
+        "description": "Multi-zone clustering, automated failover, PodDisruptionBudgets, and continuous health checks with VKS integration."
+      },
+      {
+        "title": "Backup & Recovery",
+        "icon": "lucide:database",
+        "description": "Integrated with KubeStash for policy-driven, incremental, encrypted backups to S3-compatible storage. Support for point-in-time recovery."
+      },
+      {
+        "title": "Monitoring & Observability",
+        "icon": "lucide:bar-chart-2",
+        "description": "Native Prometheus + Grafana dashboards. Integrates with VKS monitoring stack for complete visibility."
+      },
+      {
+        "title": "Security & Governance",
+        "icon": "lucide:lock",
+        "description": "Automated TLS, Transparent Data Encryption, RBAC integration with vSphere, network policies, and NSX support."
+      },
+      {
+        "title": "Storage Optimization",
+        "icon": "lucide:layers",
+        "description": "vSphere CSI with sub-millisecond latency, vSAN integration, snapshots, and enterprise resilience for all databases."
+      }
+    ]
+  },
+  "database_support": {
+    "heading": "Comprehensive Database Support",
+    "description": "25+ Database engines managed with Kubernetes-native workflows",
+    "categories": [
+      {
+        "label": "Relational",
+        "items": "PostgreSQL, MySQL, MariaDB, SQL Server, Percona XtraDB"
+      },
+      {
+        "label": "NoSQL/Document",
+        "items": "MongoDB, DocumentDB, Cassandra"
+      },
+      {
+        "label": "In-Memory/Cache",
+        "items": "Redis, Valkey, Memcached"
+      },
+      {
+        "label": "Search",
+        "items": "Elasticsearch, OpenSearch, Solr"
+      },
+      {
+        "label": "Analytics",
+        "items": "Druid, ClickHouse, SingleStore"
+      },
+      {
+        "label": "Messaging",
+        "items": "Kafka, RabbitMQ"
+      },
+      {
+        "label": "Vector/AI",
+        "items": "Milvus, Qdrant, Pgvector"
+      },
+      {
+        "label": "Graph",
+        "items": "Neo4j"
+      },
+      {
+        "label": "Others",
+        "items": "Hazelcast, ZooKeeper, PgBouncer, ProxySQL"
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Nutanix NKP Ready",
+    "heading": "Run Databases Natively",
+    "heading_highlight": "on VMware VKS",
+    "description": "vSAN storage, enterprise performance, hybrid cloud flexibility",
+    "features": [
+      {
+        "text": "Deploy 25+ databases in <60s",
+        "icon": "lucide:zap"
+      },
+      {
+        "text": "Leverage vSAN for optimal performance",
+        "icon": "lucide:hard-drive"
+      },
+      {
+        "text": "Run anywhere: vSphere or VMware Cloud",
+        "icon": "lucide:globe"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Start Free Trial",
+        "href": "/docs/latest/setup/",
+        "style": "white",
+        "target": "_blank",
+        "icon": "lucide:arrow-right",
+        "icon_position": "right"
+      },
+      {
+        "text": "Watch Demo",
+        "href": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+        "style": "ghost",
+        "icon": "lucide:play",
+        "icon_position": "left"
+      }
+    ],
+    "stats": [
+      {
+        "value": "vSAN",
+        "label": "Native Storage",
+        "icon": "lucide:hard-drive",
+        "color": "green"
+      },
+      {
+        "value": "<60s",
+        "label": "Provisioning",
+        "icon": "lucide:zap",
+        "color": "purple"
+      },
+      {
+        "value": "25+",
+        "label": "DB Engines",
+        "icon": "lucide:database",
+        "color": "blue"
+      },
+      {
+        "value": "10K+",
+        "label": "Deployments",
+        "icon": "lucide:trending-up",
+        "color": "red"
+      }
+    ]
+  }
+}

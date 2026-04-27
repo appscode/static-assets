@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Red Hat OpenShift Consulting Services by Experts",
-    "subtitle": "AppsCode is a certified Red Hat partner — delivering expert OpenShift consulting, deployment, optimization, and managed enterprise support.",
+    "subtitle": "AppsCode is a certified Red Hat partner, delivering expert OpenShift consulting, deployment, optimization, and managed enterprise support.",
     "cta_text": "Talk to an OpenShift Expert",
     "cta_url": "https://appscode.com/contact/",
     "illustration": {
@@ -51,7 +51,7 @@
   },
   "service_details": {
     "title": "Our End-to-End OpenShift Consulting Services",
-    "subtitle": "As a <a href=\"https://catalog.redhat.com/en/partners\">certified Red Hat partner</a> and <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member, AppsCode delivers expert OpenShift consulting — from planning to production management.",
+    "subtitle": "As a <a href=\"https://catalog.redhat.com/en/partners\">certified Red Hat partner</a> and <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member, AppsCode delivers expert OpenShift consulting, from planning to production management.",
     "sections": [
       {
         "title": "OpenShift Advisory & Assessment",
@@ -254,7 +254,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "World-Class OpenShift Expertise",
-        "description": "50+ engineers specializing in OpenShift, Kubernetes, containers, and cloud-native platforms — helping you build, scale, and automate with confidence."
+        "description": "50+ engineers specializing in OpenShift, Kubernetes, containers, and cloud-native platforms, helping you build, scale, and automate with confidence."
       },
       {
         "icon": "fa fa-trophy",
@@ -284,7 +284,7 @@
     "products": [
       {
         "name": "KubeDB",
-        "description": "Run production-grade databases on Kubernetes — Provisioning, Upgrading, Scaling, Monitoring, Backup & Restore.",
+        "description": "Run production-grade databases on Kubernetes, Provisioning, Upgrading, Scaling, Monitoring, Backup & Restore.",
         "url": "https://catalog.redhat.com/en/software/containers/appscode/kubedb/69bd4de9354baf46f9233f44",
         "logo": "/assets/images/technical-expertise/kubedb.svg"
       },
@@ -315,7 +315,7 @@
     },
     {
       "question": "Is AppsCode a certified Red Hat OpenShift partner?",
-      "answer": "Yes — AppsCode is a certified Red Hat partner. Our products including KubeDB, KubeVault, KubeStash, and Voyager are certified and listed on the Red Hat Ecosystem Catalog. View our product listings at catalog.redhat.com."
+      "answer": "Yes, AppsCode is a certified Red Hat partner. Our products including KubeDB, KubeVault, KubeStash, and Voyager are certified and listed on the Red Hat Ecosystem Catalog. View our product listings at catalog.redhat.com."
     },
     {
       "question": "Which technologies and practices are used in OpenShift consulting?",
@@ -323,7 +323,7 @@
     },
     {
       "question": "Can you work with our existing OpenShift clusters or cloud-native stack?",
-      "answer": "Yes — we integrate with your current OpenShift clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable OpenShift deployments."
+      "answer": "Yes, we integrate with your current OpenShift clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable OpenShift deployments."
     },
     {
       "question": "What is the typical timeline and engagement model for OpenShift Consulting Services?",

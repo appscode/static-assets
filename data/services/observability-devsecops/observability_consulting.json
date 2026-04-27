@@ -51,7 +51,7 @@
   },
   "service_details": {
     "title": "Comprehensive Observability Consulting & Implementation",
-    "subtitle": "Appscode helps organizations implement observability the right way—combining monitoring, logging, and tracing into a unified, cloud-native platform for actionable insights.",
+    "subtitle": "Appscode helps organizations implement observability the right way, combining monitoring, logging, and tracing into a unified, cloud-native platform for actionable insights.",
     "sections": [
       {
         "title": "Infrastructure Monitoring with Prometheus & Grafana",
@@ -75,7 +75,7 @@
       },
       {
         "title": "Distributed Tracing with OpenTelemetry & Jaeger",
-        "description": "Our observability services integrate OpenTelemetry and Jaeger for full request traceability across microservices—enabling faster bottleneck detection and performance optimization.",
+        "description": "Our observability services integrate OpenTelemetry and Jaeger for full request traceability across microservices, enabling faster bottleneck detection and performance optimization.",
         "offerings": [
           "Trace request lifecycles across distributed systems",
           "Correlate logs, metrics, and traces for holistic observability",
@@ -225,7 +225,7 @@
   },
   "cards": {
     "title": "Our Observability Consulting & Support Services",
-    "subtitle": "<a href=\"https://appscode.com/\">AppsCode </a> provides end-to-end observability consulting—from assessment and design to deployment and managed support.",
+    "subtitle": "<a href=\"https://appscode.com/\">AppsCode </a> provides end-to-end observability consulting, from assessment and design to deployment and managed support.",
     "items": [
       {
         "icon": "fa fa-lightbulb-o",
@@ -260,7 +260,7 @@
       {
         "icon": "fa fa-file-text",
         "title": "Loki Log Management Expertise",
-        "description": "Build resilient log pipelines using Grafana Loki—designed for scale, cost efficiency, and unified visibility across multi-cluster Kubernetes setups."
+        "description": "Build resilient log pipelines using Grafana Loki, designed for scale, cost efficiency, and unified visibility across multi-cluster Kubernetes setups."
       }
     ]
   },
@@ -301,13 +301,13 @@
       },
       {
         "type": "Blog",
-        "title": "Future-Proof Your Data Strategy - Why Kubernetes is the Engine Behind Stateful Workloads & Modern AI",
+        "title": "Future-Proof Your Data Strategy: Why Kubernetes is the Engine Behind Stateful Workloads & Modern AI",
         "image": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_254620_1300x650_fill_q75_box_smart1.jpg",
         "link": "https://appscode.com/blog/post/future-proof-your-data-strategy-why-kubernetes-is-the-engine-behind-modern-ai-and-stateful-workloads/"
       },
       {
         "type": "Event",
-        "title": "KubeConNA Digest - Top Trends and Key Takeaways from This Year’s Event by AppsCode",
+        "title": "KubeConNA Digest: Top Trends and Key Takeaways from This Year’s Event by AppsCode",
         "image": "https://appscode.com/blog/post/kubecon-na-2024/hero_hu4319d5ff4a4e9c05cba253c9f6e69f4d_69997_1300x650_fill_q75_box_smart1.jpg",
         "link": "https://appscode.com/blog/post/kubecon-na-2024/"
       }
@@ -315,7 +315,7 @@
   },
   "cards2": {
     "title": "Why Appscode for Observability Consulting Services?",
-    "subtitle": "Partner with the cloud-native experts behind KubeDB, Stash, and Voyager—trusted by global enterprises for production-grade reliability.",
+    "subtitle": "Partner with the cloud-native experts behind KubeDB, Stash, and Voyager, trusted by global enterprises for production-grade reliability.",
     "items": [
       {
         "icon": "fa fa-users",
@@ -340,7 +340,7 @@
       {
         "icon": "fa fa-building",
         "title": "Full In-House Delivery",
-        "description": "Our 100% in-house engineering team ensures speed, security, and accountability—no outsourcing."
+        "description": "Our 100% in-house engineering team ensures speed, security, and accountability; no outsourcing."
       },
       {
         "icon": "fa fa-handshake-o",
@@ -364,7 +364,7 @@
     },
     {
       "question": "Can you work with our existing applications and infrastructure?",
-      "answer": "Yes — we integrate observability practices with your current applications, microservices, and infrastructure, implement metrics collection, configure dashboards and alerts, and provide guidance for continuous monitoring and optimization."
+      "answer": "Yes, we integrate observability practices with your current applications, microservices, and infrastructure, implement metrics collection, configure dashboards and alerts, and provide guidance for continuous monitoring and optimization."
     },
     {
       "question": "What is the typical timeline and engagement model for Observability Consulting Services?",

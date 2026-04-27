@@ -12,7 +12,7 @@
     {
       "id": 2,
       "title": "Reserved instances",
-      "description": "Cloud providers like AWS and Azure have the option to reserve virtual machines in advance for 1-3 year terms and provide a significant discount (up to 75% - 80%) compared to on-demand VM pricing. KubeDB operators can provision database instances on reserved instances and significantly reduce your TOC for the DB instances.",
+      "description": "Cloud providers like AWS and Azure have the option to reserve virtual machines in advance for 1-3 year terms and provide a significant discount (up to 75%, 80%) compared to on-demand VM pricing. KubeDB operators can provision database instances on reserved instances and significantly reduce your TOC for the DB instances.",
       "img": "/assets/images/features/illustrations/reserved-instances.jpg"
     },
     {

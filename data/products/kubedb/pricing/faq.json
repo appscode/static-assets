@@ -1,0 +1,47 @@
+{
+  "badge": "FAQ",
+  "title": "Frequently Asked Questions",
+  "subtitle": "Everything you need to know about KubeDB pricing",
+  "items": [
+    {
+      "question": "How is KubeDB Enterprise priced?",
+      "answer": "KubeDB Enterprise is charged based on the memory limit set for database containers managed by KubeDB (not the memory of Kubernetes worker nodes or database storage size). The SKU is 50 GB blocks, with a minimum purchase of 100 GB (2 SKUs). Additional capacity is purchased in 50 GB increments."
+    },
+    {
+      "question": "How is memory calculated for clustered databases?",
+      "answer": "For clustered database instances, the total billable memory is calculated as: number of replicas × memory per replica. For example, a 3-replica PostgreSQL where each replica has 8 GB memory limit will be billed for 24 GB total memory (3 × 8 GB)."
+    },
+    {
+      "question": "Does KubeDB support multiple database types?",
+      "answer": "Yes. KubeDB supports unlimited databases across 25+ database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more. The same memory-based pricing model applies across all supported database types."
+    },
+    {
+      "question": "Can I use my license across multiple clusters?",
+      "answer": "Yes. Purchased capacity can be used across one or more clusters, and you can distribute licensed memory across your infrastructure as needed."
+    },
+    {
+      "question": "Is there a free tier for development and testing?",
+      "answer": "Yes. If databases are created and destroyed within 30 days (for example, dev or CI/CD clusters), you can use the fully featured Enterprise version free of charge."
+    },
+    {
+      "question": "What if I need more than 1 TB of memory?",
+      "answer": "For memory usage beyond 1 TB, contact the sales team or your channel partner for a custom quote. Multi-year contracts are also available with custom pricing."
+    },
+    {
+      "question": "What's included with the Standard support plan?",
+      "answer": "Standard support is included with your license and provides 8x5 business hours coverage, quarterly updates, emergency patches, production runbook guidance, and private Discord chat access."
+    },
+    {
+      "question": "When should I consider Premium support?",
+      "answer": "Premium support is recommended for business-critical or mission-critical databases that require 24x7 coverage, including 1-hour response for critical issues and phone support."
+    },
+    {
+      "question": "Is database backup and restore included?",
+      "answer": "Yes. KubeDB Enterprise includes a complimentary KubeStash (Stash 2.0) Enterprise license for backup and restoration."
+    },
+    {
+      "question": "Do you offer professional services?",
+      "answer": "Yes. Professional services are available for implementation and productization directly and via channel partners. Contact sales for a custom quote."
+    }
+  ]
+}

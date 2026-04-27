@@ -243,7 +243,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Certified Developers",
-        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+        "description": "50+ engineers specializing in <a href=\"https://kubernetes.io/\">Kubernetes</a>, containers, and cloud-native platforms, helping you build, scale, and automate with confidence."
       },
       {
         "icon": "fa fa-briefcase",
@@ -283,7 +283,7 @@
     },
     {
       "question": "Can you work with our existing monitoring infrastructure?",
-      "answer": "Yes — we integrate Prometheus with your current monitoring setup, optimize scraping intervals, configure alerts, set up Grafana dashboards, and provide guidance for continuous monitoring and observability improvement."
+      "answer": "Yes, we integrate Prometheus with your current monitoring setup, optimize scraping intervals, configure alerts, set up Grafana dashboards, and provide guidance for continuous monitoring and observability improvement."
     },
     {
       "question": "What is the typical timeline and engagement model for Prometheus Consulting Services?",

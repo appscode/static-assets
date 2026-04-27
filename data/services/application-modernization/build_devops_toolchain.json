@@ -58,7 +58,7 @@
       },
       {
         "title": "DevOps Toolchain Design & Implementation",
-        "description": "We build or optimize your toolchain architecture—integrating the best tools like Jenkins, ArgoCD, GitLab CI/CD, and Terraform to streamline workflows.",
+        "description": "We build or optimize your toolchain architecture, integrating the best tools like Jenkins, ArgoCD, GitLab CI/CD, and Terraform to streamline workflows.",
         "offerings": [
           "Custom DevOps toolchain design aligned with your cloud strategy.",
           "Integrate open-source and enterprise-grade DevOps tools seamlessly.",
@@ -79,7 +79,7 @@
       },
       {
         "title": "Managed DevOps Toolchain Services",
-        "description": "We handle your DevOps toolchain operations end-to-end — from configuration and monitoring to optimization and updates.",
+        "description": "We handle your DevOps toolchain operations end-to-end, from configuration and monitoring to optimization and updates.",
         "offerings": [
           "24/7 toolchain monitoring and maintenance.",
           "Proactive updates and patch management to minimize disruptions.",
@@ -239,7 +239,7 @@
       {
         "icon": "fa fa-users",
         "title": "Certified DevOps Engineers",
-        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms, helping you build, scale, and automate with confidence."
       },
       {
         "icon": "fa fa-briefcase",
@@ -274,7 +274,7 @@
     },
     {
       "question": "Can you integrate with our existing DevOps toolchain?",
-      "answer": "Yes — we assess your current toolchain and workflows, integrate best practices, optimize automation, and ensure seamless interoperability between tools to improve efficiency, reduce errors, and accelerate delivery."
+      "answer": "Yes, we assess your current toolchain and workflows, integrate best practices, optimize automation, and ensure seamless interoperability between tools to improve efficiency, reduce errors, and accelerate delivery."
     },
     {
       "question": "What is the typical timeline and engagement model for DevOps Toolchain Consulting?",

@@ -12,7 +12,7 @@
       "github_url": "https://github.com/kubedb",
       "key_features": [
         "Managed DBaaS Platform Capabilities",
-        "Supports 25+ database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch",
+        "Supports 25+ Database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch",
         "Automated Backup & Disaster Recovery",
         "Centralized Multi-Cluster Management",
         "Developer-Friendly Free Tier",

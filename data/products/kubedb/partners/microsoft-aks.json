@@ -1,0 +1,402 @@
+{
+  "hero": {
+    "product_color_primary": "#0078D4",
+    "product_icon": "lucide:check-circle-2",
+    "hero_badge": "MICROSOFT AZURE PARTNER",
+    "hero_title_1": "Run Any Database Natively on <br>Microsoft AKS - <br><span class=\"text-gradient\">Without the Compromise.</span>",
+    "hero_description": "Deploy and manage <strong>25+ Production-grade databases</strong> as native Kubernetes resources on Microsoft AKS. Leverage Azure infrastructure with broader choice, zero extra licensing, and true GitOps agility.",
+    "primary_action_text": "Start Free Trial",
+    "primary_action_url": "/docs/latest/setup/",
+    "secondary_action_text": "View on Azure Marketplace",
+    "secondary_action_url": "#",
+    "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+    "stats_style": "hero-inline-metrics",
+    "stats": [
+      {
+        "value": "25+ Database Engines",
+        "label": "PostgreSQL, MySQL, Redis, Kafka & more"
+      },
+      {
+        "value": "Level 5 Operator",
+        "label": "Day-2 operations on Auto Pilot"
+      },
+      {
+        "value": "100% GitOps Native",
+        "label": "Declarative & developer-friendly"
+      }
+    ]
+  },
+
+  "paragraph": {
+    "content": "KubeDB by AppsCode delivers a production-grade, Kubernetes-native Database-as-a-Service platform that runs seamlessly on <strong>Azure Kubernetes Service (AKS)</strong>. It enables platform teams and developers to provision, manage, scale, backup, and recover a wide range of databases using familiar Kubernetes APIs and declarative workflows - <strong>without vendor lock-in</strong> or reliance on Azure-managed database services."
+  },
+
+  "what_this_means": {
+    "heading": "What This Means for Azure and AKS Users",
+    "description": "If you're running applications on Azure AKS, you already enjoy scalable, managed Kubernetes. However, databases often introduce complexity through separate tooling, manual operations, or cloud-specific DBaaS services that create lock-in.",
+    "subtitle": "KubeDB changes that by making databases first-class Kubernetes resources directly inside your AKS clusters:",
+    "items": [
+      {
+        "icon": "lucide:zap",
+        "title": "Faster Time-to-Value",
+        "description": "Launch databases in minutes using kubectl, Helm, GitOps, or self-service portals."
+      },
+      {
+        "icon": "lucide:trending-up",
+        "title": "Lower Operational Burden",
+        "description": "Automate Day-2 tasks and eliminate custom scripts."
+      },
+      {
+        "icon": "lucide:dollar-sign",
+        "title": "Cost Optimization",
+        "description": "Use existing Azure storage and avoid premium managed DBaaS pricing."
+      },
+      {
+        "icon": "lucide:globe",
+        "title": "Hybrid/Multi-Cloud Consistency",
+        "description": "Same workflows whether running on AKS or other clouds."
+      }
+    ]
+  },
+
+  "architecture": {
+    "badge": "TECHNICAL ARCHITECTURE",
+    "heading": "KubeDB runs natively on Microsoft AKS",
+    "description": "The KubeDB Operator sits directly on top of your AKS clusters, leveraging Azure infrastructure, availability zone capabilities, and Kubernetes-native patterns for database automation.",
+    "layers": [
+      {
+        "label": "KubeDB Platform",
+        "desc": "Web Console • Envoy Gateway • Hub/Spoke Model • Policy Engine",
+        "gradient": "primary"
+      },
+      {
+        "label": "KubeDB Operator",
+        "desc": "Provisioner • OpsManager • AutoScaler • KubeDB • Migrator",
+        "gradient": "purple"
+      },
+      {
+        "label": "Kubernetes Services",
+        "desc": "ArgoCD • Open Cluster Management • Cert Manager • Prometheus • Grafana",
+        "gradient": "blue"
+      },
+      {
+        "label": "Microsoft AKS",
+        "desc": "Kubernetes • Azure Infrastructure • Availability Zone Support",
+        "gradient": "mke"
+      }
+    ],
+    "image": "/assets/images/partners/KubeDB_Stack_Diagram.png",
+    "image_alt": "KubeDB Platform Architecture on Microsoft AKS",
+    "image_tags": ["On-premises", "Cloud", "Edge"]
+  },
+
+  "capabilities": {
+    "heading": "Production databases. Fully automated on AKS.",
+    "description": "25+ Database engines with HA, scaling, backup, TLS, monitoring, and GitOps support",
+    "items": [
+      {
+        "icon": "lucide:cloud",
+        "title": "Run Databases Natively on AKS",
+        "description": "KubeDB integrates deeply with AKS, supporting any Kubernetes StorageClass (including Azure Disks, Azure Files, or third-party CSI drivers). Databases run inside your private pod network with full affinity and anti-affinity controls for availability zone resiliency."
+      },
+      {
+        "icon": "lucide:unlock",
+        "title": "DBaaS Without Cloud Lock-In",
+        "description": "Complete data ownership and sovereignty with portability across clouds or on-prem. Support for air-gapped and sovereign environments with your choice of storage optimized for performance, cost, or resilience."
+      },
+      {
+        "icon": "lucide:layout-grid",
+        "title": "Broad Database Support",
+        "description": "Manage 25+ Database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more, all with consistent Kubernetes-native workflows."
+      },
+      {
+        "icon": "lucide:git-fork",
+        "title": "Automated Lifecycle Management",
+        "description": "Declarative CRDs handle provisioning, upgrades, scaling and repair with zero-downtime where possible."
+      },
+      {
+        "icon": "lucide:shield",
+        "title": "High Availability & Resiliency",
+        "description": "Multi-zone clustering, automated failover, PodDisruptionBudgets, and continuous health checks."
+      },
+      {
+        "icon": "lucide:database",
+        "title": "Backup & Recovery",
+        "description": "Integrated with KubeStash for policy-driven, incremental, encrypted backups to Azure Blob Storage. Support for point-in-time recovery."
+      },
+      {
+        "icon": "lucide:bar-chart-2",
+        "title": "Monitoring & Observability",
+        "description": "Native Prometheus + Grafana dashboards. Integrates with Azure Monitor and Application Insights."
+      },
+      {
+        "icon": "lucide:lock",
+        "title": "Security & Governance",
+        "description": "Automated TLS, Transparent Data Encryption, RBAC integration with Azure AD, network policies, and Vault support."
+      },
+      {
+        "icon": "lucide:users",
+        "title": "Self-Service for Developers",
+        "description": "Platform teams enforce policies while developers provision databases via Kubernetes-native workflows."
+      }
+    ]
+  },
+
+  "database_support": {
+    "heading": "Comprehensive Database Support",
+    "description": "25+ Database engines managed with Kubernetes-native workflows",
+    "categories": [
+      {
+        "label": "Relational",
+        "items": "PostgreSQL, MySQL, MariaDB, SQL Server, Percona XtraDB"
+      },
+      {
+        "label": "NoSQL/Document",
+        "items": "MongoDB, DocumentDB, Cassandra"
+      },
+      {
+        "label": "In-Memory/Cache",
+        "items": "Redis, Valkey, Memcached"
+      },
+      {
+        "label": "Search",
+        "items": "Elasticsearch, OpenSearch, Solr"
+      },
+      {
+        "label": "Analytics",
+        "items": "Druid, ClickHouse, SingleStore"
+      },
+      {
+        "label": "Messaging",
+        "items": "Kafka, RabbitMQ"
+      },
+      {
+        "label": "Others",
+        "items": "Hazelcast, ZooKeeper, PgBouncer, ProxySQL"
+      }
+    ]
+  },
+
+  "aws_integration": {
+    "heading": "Seamless Azure & Kubernetes Integration",
+    "description": "KubeDB leverages the full power of Azure and Kubernetes to deliver a complete database platform",
+    "integrations": [
+      {
+        "icon": "lucide:box",
+        "color": "blue",
+        "title": "Azure AKS & Kubernetes",
+        "description": "Deploy databases natively on Azure AKS with support for availability zones, Azure CNI, and Azure Policy. Full GitOps workflows with Flux."
+      },
+      {
+        "icon": "lucide:archive",
+        "color": "green",
+        "title": "Azure Blob Storage",
+        "description": "Automated backup and archival to Azure Blob Storage with lifecycle policies, versioning, geo-replication, and hot/cool/archive tiers."
+      },
+      {
+        "icon": "lucide:eye",
+        "color": "yellow",
+        "title": "Azure Monitor & Application Insights",
+        "description": "Deep integration with Azure Monitor, Log Analytics, and native Prometheus support with pre-built Grafana dashboards."
+      },
+      {
+        "icon": "lucide:user-check",
+        "color": "purple",
+        "title": "Azure AD & Managed Identities",
+        "description": "Use Azure Active Directory for authentication and Azure Managed Identities for secure credential management without secrets."
+      },
+      {
+        "icon": "lucide:lock",
+        "color": "red",
+        "title": "Azure Virtual Networks & Network Security",
+        "description": "Deploy databases in your VNet with custom network configurations, NSGs, and private endpoints. Full Kubernetes NetworkPolicy support."
+      }
+    ],
+    "image": "/assets/images/cloud.jpeg",
+    "image_alt": "Azure & Kubernetes Integration"
+  },
+
+  "comparison": {
+    "badge": "COMPARISON",
+    "heading": "Why KubeDB on AKS Beats Azure Database Services",
+    "description": "Feature-by-feature, KubeDB on AKS delivers broader coverage, lower cost, and true portability.",
+    "col_traditional": "Azure Database Services",
+    "col_kubedb": "KubeDB on AKS",
+    "rows": [
+      {
+        "capability": "Provisioning Speed",
+        "traditional": "5-10 minutes",
+        "kubedb": "< 60 seconds"
+      },
+      {
+        "capability": "Vendor Lock-in",
+        "traditional": "Azure only",
+        "kubedb": "None - portable"
+      },
+      {
+        "capability": "Database Engine Support",
+        "traditional": "Limited per service",
+        "kubedb": "25+ engines including NoSQL, search, messaging"
+      },
+      {
+        "capability": "Cost Structure",
+        "traditional": "Premium service fees",
+        "kubedb": "Pay for compute + storage only"
+      },
+      {
+        "capability": "Multi-Cloud Portability",
+        "traditional": "Not available",
+        "kubedb": "Full support"
+      }
+    ]
+  },
+
+  "additional_integrations": {
+    "heading": "Additional Azure & Enterprise Integrations",
+    "items": [
+      {
+        "icon": "lucide:key",
+        "title": "Azure Key Vault",
+        "description": "Encryption key management"
+      },
+      {
+        "icon": "lucide:hard-drive",
+        "title": "Azure Disks",
+        "description": "Premium SSD storage"
+      },
+      {
+        "icon": "lucide:globe",
+        "title": "Azure DNS",
+        "description": "DNS management"
+      },
+      {
+        "icon": "lucide:layers",
+        "title": "ARM Templates",
+        "description": "Infrastructure as code"
+      },
+      {
+        "icon": "lucide:shield-check",
+        "title": "Azure Policy",
+        "description": "Governance & compliance"
+      },
+      {
+        "icon": "lucide:trending-up",
+        "title": "VMSS Autoscaling",
+        "description": "Dynamic scaling"
+      },
+      {
+        "icon": "lucide:activity",
+        "title": "Azure Arc",
+        "description": "Hybrid cloud management"
+      },
+      {
+        "icon": "lucide:folder",
+        "title": "Azure Files",
+        "description": "Shared file storage"
+      }
+    ]
+  },
+
+  "cost_comparison": {
+    "badge": "60% Average Cost Savings",
+    "heading": "Why KubeDB Is More Cost-Effective Than Azure Database Services",
+    "description": "Run databases on Azure at a fraction of the cost while improving performance and developer productivity",
+    "savings_cards": [
+      {
+        "title": "Better Bin Packing",
+        "description": "Run multiple databases on the same Azure VM, unlike Azure Database Services which requires dedicated instances",
+        "highlight": "Up to 60% cost reduction"
+      },
+      {
+        "title": "Spot VM Support",
+        "description": "Use Azure Spot VMs for database pods, reducing compute costs by up to 90%",
+        "highlight": "70-90% compute savings"
+      },
+      {
+        "title": "Lower Management Fees",
+        "description": "Azure Database Services charges premium management fees on top of VM costs. KubeDB fees are significantly lower",
+        "highlight": "60-70% lower fees"
+      },
+      {
+        "title": "Free for Short-Lived Workloads",
+        "description": "Use KubeDB free for any clusters running less than 30 days (dev, test, CI/CD environments)",
+        "highlight": "100% free for dev/test"
+      }
+    ],
+    "savings_cta": {
+      "heading": "Calculate Your Savings",
+      "description": "Organizations typically save 60-70% on database costs when switching from Azure Database Services to KubeDB",
+      "stats": [
+        { "value": "60%", "label": "Lower Cost Budget" },
+        { "value": "10x", "label": "Faster Provisioning" },
+        { "value": "Zero", "label": "Vendor Lock-In" }
+      ],
+      "button_text": "Get a Cost Analysis",
+      "button_url": "#"
+    }
+  },
+
+  "cta": {
+    "badge": "Azure AKS Ready",
+    "heading": "Run Databases Natively",
+    "heading_highlight": "on Microsoft AKS",
+    "description": "60% cost savings, 10x faster provisioning, zero vendor lock-in",
+    "features": [
+      {
+        "text": "Deploy 25+ databases in <60s",
+        "icon": "lucide:zap"
+      },
+      {
+        "text": "90% savings with Spot VMs",
+        "icon": "lucide:trending-down"
+      },
+      {
+        "text": "Full Azure integration (Blob, AD, Key Vault)",
+        "icon": "lucide:check"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Start Free Trial",
+        "href": "/docs/latest/setup/",
+        "style": "white",
+        "target": "_blank",
+        "icon": "lucide:arrow-right",
+        "icon_position": "right"
+      },
+      {
+        "text": "Watch Demo",
+        "href": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+        "style": "ghost",
+        "icon": "lucide:play",
+        "icon_position": "left"
+      }
+    ],
+    "stats": [
+      {
+        "value": "60%",
+        "label": "COST SAVINGS",
+        "icon": "lucide:dollar-sign",
+        "color": "green"
+      },
+      {
+        "value": "<60s",
+        "label": "PROVISIONING",
+        "icon": "lucide:zap",
+        "color": "purple"
+      },
+      {
+        "value": "25+",
+        "label": "DB ENGINES",
+        "icon": "lucide:database",
+        "color": "blue"
+      },
+      {
+        "value": "10K+",
+        "label": "DEPLOYMENTS",
+        "icon": "lucide:trending-up",
+        "color": "red"
+      }
+    ]
+  }
+}

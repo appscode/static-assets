@@ -1,0 +1,19 @@
+{
+  "title": "Pricing Model",
+  "subtitle": "Your annual cost is calculated from database memory requirements",
+  "labels": {
+    "note": "Note:",
+    "sku": "SKU:"
+  },
+  "included_items": [
+    "Managed DBaaS Platform Capabilities",
+    "Automated Backup and Disaster Recovery",
+    "Centralized Multi-Cluster Management",
+    "Developer-Friendly Free Tier",
+    "Includes Standard Support (8×5)"
+  ],
+  "note": "For memory over 1 TB or multi-year contracts, contact sales for custom pricing.",
+  "sku": "50 GB blocks. Minimum purchase: 100 GB (2 SKUs).",
+  "cta_primary": "Get Started",
+  "cta_secondary": "Contact Sales"
+}

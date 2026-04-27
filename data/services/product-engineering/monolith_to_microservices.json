@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Transform Your Monolith into Scalable Microservices",
-    "subtitle": "Empower your business with <a href=\"https://www.cncf.io/\">cloud-native architecture</a> that drives agility, scalability, and innovation — guided by Appscode’s proven monolith to microservices expertise.",
+    "subtitle": "Empower your business with <a href=\"https://www.cncf.io/\">cloud-native architecture</a> that drives agility, scalability, and innovation, guided by Appscode’s proven monolith to microservices expertise.",
     "cta_text": "TALK TO OUR MICROservices EXPERTS",
     "cta_url": "https://appscode.com/contact/",
     "illustration": {
@@ -54,7 +54,7 @@
   },
   "service_details": {
     "title": "Comprehensive Monolith to Microservices Transformation Services",
-    "subtitle": "<a href=\"https://appscode.com\">AppsCode</a> provides end-to-end services for microservices adoption—from assessment and migration to integration, monitoring, and optimization.",
+    "subtitle": "<a href=\"https://appscode.com\">AppsCode</a> provides end-to-end services for microservices adoption, from assessment and migration to integration, monitoring, and optimization.",
     "sections": [
       {
         "title": "Microservices Consulting & Strategy",
@@ -95,7 +95,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Certified Cloud-Native Engineers",
-        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence"
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms, helping you build, scale, and automate with confidence"
       },
       {
         "icon": "fa fa-briefcase",
@@ -265,7 +265,7 @@
   "faq": [
     {
       "question": "What does your Monolith to Microservices service include?",
-      "answer": "Our Monolith to Microservices service covers the complete transformation journey — from assessing your existing monolithic application, defining migration strategy, refactoring architecture, and implementing CI/CD pipelines, to deploying containerized microservices on Kubernetes. We focus on building scalable, resilient, and maintainable systems."
+      "answer": "Our Monolith to Microservices service covers the complete transformation journey, from assessing your existing monolithic application, defining migration strategy, refactoring architecture, and implementing CI/CD pipelines, to deploying containerized microservices on Kubernetes. We focus on building scalable, resilient, and maintainable systems."
     },
     {
       "question": "Which technologies and practices do you use for Monolith to Microservices migration?",
@@ -293,7 +293,7 @@
     },
     {
       "question": "How much does Monolith to Microservices migration cost?",
-      "answer": "The cost depends on factors such as the size and complexity of your monolithic system, the number of services to extract, cloud platform preferences, and ongoing support needs. We provide flexible pricing models — from fixed-scope projects to long-term retainers — after the discovery phase."
+      "answer": "The cost depends on factors such as the size and complexity of your monolithic system, the number of services to extract, cloud platform preferences, and ongoing support needs. We provide flexible pricing models, from fixed-scope projects to long-term retainers, after the discovery phase."
     }
   ],
   "seo": {

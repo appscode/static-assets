@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Google GKE Consulting Services by Experts",
-    "subtitle": "AppsCode is a Google Cloud partner — delivering expert GKE consulting, deployment, optimization, and managed enterprise support.",
+    "subtitle": "AppsCode is a Google Cloud partner, delivering expert GKE consulting, deployment, optimization, and managed enterprise support.",
     "cta_text": "Talk to a GKE Expert",
     "cta_url": "https://appscode.com/contact/",
     "illustration": {
@@ -51,7 +51,7 @@
   },
   "service_details": {
     "title": "Our End-to-End GKE Consulting Services",
-    "subtitle": "As a Google Cloud partner and <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member, AppsCode delivers expert GKE consulting — from planning to production management.",
+    "subtitle": "As a Google Cloud partner and <a href=\"https://www.cncf.io/\">CNCF</a> Silver Member, AppsCode delivers expert GKE consulting, from planning to production management.",
     "sections": [
       {
         "title": "GKE Advisory & Assessment",
@@ -254,7 +254,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "World-Class GKE Expertise",
-        "description": "50+ engineers specializing in GKE, Kubernetes, containers, and cloud-native platforms — helping you build, scale, and automate with confidence."
+        "description": "50+ engineers specializing in GKE, Kubernetes, containers, and cloud-native platforms, helping you build, scale, and automate with confidence."
       },
       {
         "icon": "fa fa-trophy",
@@ -284,7 +284,7 @@
     "products": [
       {
         "name": "KubeDB on GKE",
-        "description": "Run production-grade databases on Google Kubernetes Engine — Provisioning, Upgrading, Scaling, Monitoring, Backup & Restore for 25+ database engines.",
+        "description": "Run production-grade databases on Google Kubernetes Engine, Provisioning, Upgrading, Scaling, Monitoring, Backup & Restore for 20+ Database engines.",
         "url": "https://kubedb.com/",
         "logo": "/assets/images/technical-expertise/kubedb.svg"
       },
@@ -303,7 +303,7 @@
     },
     {
       "question": "Is AppsCode a Google Cloud partner?",
-      "answer": "Yes — AppsCode is a Google Cloud partner with deep expertise in GKE, Cloud Run, BigQuery, and the full Google Cloud portfolio. Our products are deployable on GKE and integrated with Google Cloud services."
+      "answer": "Yes, AppsCode is a Google Cloud partner with deep expertise in GKE, Cloud Run, BigQuery, and the full Google Cloud portfolio. Our products are deployable on GKE and integrated with Google Cloud services."
     },
     {
       "question": "Which technologies and practices are used in GKE consulting?",
@@ -311,7 +311,7 @@
     },
     {
       "question": "Can you work with our existing GKE clusters or GCP-native stack?",
-      "answer": "Yes — we integrate with your current GKE clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable GKE deployments."
+      "answer": "Yes, we integrate with your current GKE clusters and workloads, optimize performance, implement best practices, and guide teams in building production-ready, secure, and maintainable GKE deployments."
     },
     {
       "question": "What is the typical timeline and engagement model for GKE Consulting Services?",

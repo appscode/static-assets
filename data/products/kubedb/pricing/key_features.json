@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "title": "Memory-Based Pricing",
+      "description": "Pay only for database container memory, not node or storage size"
+    },
+    {
+      "title": "KubeDB Platform",
+      "description": "Unified, self-service platform for deploying, managing, and scaling databases"
+    },
+    {
+      "title": "Enterprise Backup",
+      "description": "Built-in resilience with automated backup, recovery, and policy-driven governance"
+    },
+    {
+      "title": "Multi-DB & Multi-Cluster",
+      "description": "Use your capacity across all databases in one or more Kubernetes clusters"
+    }
+  ]
+}

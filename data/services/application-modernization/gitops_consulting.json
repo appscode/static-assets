@@ -51,7 +51,7 @@
   },
   "service_details": {
     "title": "Comprehensive GitOps Consulting & Implementation Services",
-    "subtitle": "<a href=\"https://appscode.com/\">AppsCode </a> provides end-to-end GitOps consulting services — from strategy and framework selection to deployment, automation, and training for your teams.",
+    "subtitle": "<a href=\"https://appscode.com/\">AppsCode </a> provides end-to-end GitOps consulting services, from strategy and framework selection to deployment, automation, and training for your teams.",
     "sections": [
       {
         "title": "GitOps Strategy, Consulting & Advisory",
@@ -65,7 +65,7 @@
         "image": "/assets/images/services/consulting-advisory.png"
       },
       {
-        "title": "GitOps Implementation — From Dev to Production",
+        "title": "GitOps Implementation: From Dev to Production",
         "description": "Transform your software delivery pipeline with a GitOps-based approach. Automate deployments, manage clusters declaratively, and ensure consistent environments across Dev, QA, and Production.",
         "offerings": [
           "Implement GitOps frameworks using ArgoCD, FluxCD, Helm, and Kustomize.",
@@ -284,7 +284,7 @@
       {
         "logo": "/assets/images/services/icons8/ios-glyphs-30-certificate.png",
         "title": "Certified Team",
-        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms—helping you build, scale, and automate with confidence."
+        "description": "50+ engineers specializing in Kubernetes, containers, and cloud-native platforms, helping you build, scale, and automate with confidence."
       },
       {
         "icon": "fa fa-users",
@@ -319,7 +319,7 @@
     },
     {
       "question": "Can you work with our existing development workflows?",
-      "answer": "Yes — we integrate with your current pipelines and technology stack. Our consultants optimize existing workflows, implement automation, and ensure efficient, repeatable, and reliable continuous delivery processes."
+      "answer": "Yes, we integrate with your current pipelines and technology stack. Our consultants optimize existing workflows, implement automation, and ensure efficient, repeatable, and reliable continuous delivery processes."
     },
     {
       "question": "What is the typical timeline and engagement model for CI/CD Consulting Services?",
