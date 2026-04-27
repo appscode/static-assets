@@ -4,7 +4,7 @@
     "product_icon": "lucide:circle-check",
     "hero_badge": "OFFICIALLY CERTIFIED OPERATOR",
     "hero_title_1": "Run Any Database Natively on Red Hat OpenShift — <span class=\"text-gradient\">Without the Compromise.</span>",
-    "hero_description": "Deploy and manage 25+ production-grade databases as native Kubernetes resources on Red Hat OpenShift. Run production databases with full automation, governance, and portability across on-prem, cloud, edge, and air-gapped environments.",
+    "hero_description": "Deploy and manage 20+ Production-grade databases as native Kubernetes resources on Red Hat OpenShift. Run production databases with full automation, governance, and portability across on-prem, cloud, edge, and air-gapped environments.",
     "primary_action_text": "Why KubeDB on MKE",
     "primary_action_url": "#comparison",
     "secondary_action_text": "Deploy in Minutes on MKE",
