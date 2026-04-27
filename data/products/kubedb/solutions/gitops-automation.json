@@ -110,7 +110,7 @@
     {
       "icon": "lucide:database",
       "title": "Broad Database Support",
-      "description": "Consistent GitOps experience across 20+ databases including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, ClickHouse, and more.",
+      "description": "Consistent GitOps experience across 25+ databases including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, ClickHouse, and more.",
       "gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)"
     },
     {
@@ -147,7 +147,7 @@
   "final_cta_metrics": [
     { "icon": "lucide:target", "value": "Level 5", "label": "Operator", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
     { "icon": "lucide:git-branch", "value": "100%", "label": "GitOps Ready", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
-    { "icon": "lucide:database", "value": "30+", "label": "Databases", "gradient": "linear-gradient(135deg, #c084fc, #ec4899)" },
+    { "icon": "lucide:database", "value": "25+", "label": "Databases", "gradient": "linear-gradient(135deg, #c084fc, #ec4899)" },
     { "icon": "lucide:trending-up", "value": "10K+", "label": "Production", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
   ],
   "cta_title": "Ship Database Changes",

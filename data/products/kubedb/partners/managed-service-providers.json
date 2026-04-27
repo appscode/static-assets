@@ -23,8 +23,8 @@
     "cta_secondary": "Partner Login",
     "cta_secondary_href": "#",
     "stats": [
-      { "icon": "lucide:globe", "value": "30+", "label": "MSP Partners" },
-      { "icon": "lucide:database", "value": "30+", "label": "Supported DBs" },
+      { "icon": "lucide:globe", "value": "25+", "label": "MSP Partners" },
+      { "icon": "lucide:database", "value": "25+", "label": "Supported DBs" },
       { "icon": "lucide:trending-up", "value": "200%", "label": "Avg Growth" },
       { "icon": "lucide:headphones", "value": "24/7", "label": "Partner Support" }
     ]
@@ -375,7 +375,7 @@
     "cta_stats": [
       {
         "icon": "lucide:database",
-        "value": "30+",
+        "value": "25+",
         "label": "Databases",
         "gradient": "linear-gradient(135deg, #6366f1, #a855f7)"
       },

@@ -379,7 +379,7 @@
     "cta_stats": [
       {
         "icon": "lucide:database",
-        "value": "30+",
+        "value": "25+",
         "label": "Databases",
         "gradient": "linear-gradient(135deg, #6366f1, #a855f7)"
       },

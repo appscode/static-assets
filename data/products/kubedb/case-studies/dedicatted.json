@@ -74,7 +74,7 @@
 
   "challenge_title": "Database costs were eating the entire Kubernetes budget",
   "challenge_badge": "THE CHALLENGE",
-  "challenge_summary": "MongoDB Atlas costs were equal to (or higher than) the cost of their entire 20+ node Kubernetes cluster on Hetzner Cloud.",
+  "challenge_summary": "MongoDB Atlas costs were equal to (or higher than) the cost of their entire 25+ node Kubernetes cluster on Hetzner Cloud.",
   "challenge_key_pains": "Data consistency · Backup & recovery · Security · Zero-downtime migration · Infrastructure reliability",
   "challenge_items": [
     {
@@ -199,7 +199,7 @@
   ],
 
   "cta_title": "Ready to slash your database costs by 10x?",
-  "cta_description": "Deploy production MongoDB, PostgreSQL, Redis, and 30+ other databases anywhere Kubernetes runs.",
+  "cta_description": "Deploy production MongoDB, PostgreSQL, Redis, and 25+ other databases anywhere Kubernetes runs.",
   "cta_primary": "Get 30-day Enterprise Trial",
   "cta_secondary": "View MongoDB Docs →",
   "cta_secondary_href": "/docs/latest/guides/mongodb/"

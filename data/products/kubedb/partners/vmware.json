@@ -4,7 +4,7 @@
     "product_icon": "lucide:check-circle",
     "hero_badge": "FOR EXISTING NUTANIX CUSTOMERS",
     "hero_title_1": "Run Any Database Natively on VMware vSphere Kubernetes Service — <span class=\"text-gradient\">Without the Compromise.</span>",
-    "hero_description": "Deploy and manage 20+ Production-grade databases as native Kubernetes resources on VMware vSphere Kubernetes Service (VKS). Leverage vSphere CSI, vSAN, and your existing vSphere infrastructure — with broader choice, zero extra licensing, and true GitOps agility compared to traditional DBaaS.",
+    "hero_description": "Deploy and manage 25+ Production-grade databases as native Kubernetes resources on VMware vSphere Kubernetes Service (VKS). Leverage vSphere CSI, vSAN, and your existing vSphere infrastructure — with broader choice, zero extra licensing, and true GitOps agility compared to traditional DBaaS.",
     "primary_action_text": "See full comparison",
     "primary_action_url": "#comparison",
     "secondary_action_text": "Deploy in Minutes on VKS",
@@ -13,7 +13,7 @@
     "stats_style": "hero-inline-metrics",
     "stats": [
       {
-        "value": "20+ Database Engines",
+        "value": "25+ Database Engines",
         "label": "PostgreSQL, MySQL, Redis, Kafka & more"
       },
       {
@@ -223,7 +223,7 @@
   },
   "database_support": {
     "heading": "Comprehensive Database Support",
-    "description": "20+ Database engines managed with Kubernetes-native workflows",
+    "description": "25+ Database engines managed with Kubernetes-native workflows",
     "categories": [
       {
         "label": "Relational",

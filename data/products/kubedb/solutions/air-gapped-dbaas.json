@@ -188,7 +188,7 @@
   "offline_package_subtitle": "Everything included in the air-gap installation bundle",
   "offline_package_contents": [
     "KubeDB Operator (all versions)",
-    "30+ Database container images",
+    "25+ Database container images",
     "Private container registry",
     "Helm charts and manifests",
     "Backup and restore tools",

@@ -35,7 +35,7 @@
   "benefits_subtitle": "Eliminate manual database operations with Kubernetes-native automation",
   "benefits": [
     {
-      "title": "30+ Database Engines",
+      "title": "25+ Database Engines",
       "description": "Support for PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and 25+ more databases, all managed through a unified platform.",
       "icon": "lucide:database",
       "gradient_class": "gradient-box-purple"
@@ -183,7 +183,7 @@
   "features_subtitle": "Eliminate manual database operations with Kubernetes-native automation",
   "features": [
     {
-      "title": "20+ Database Engines",
+      "title": "25+ Database Engines",
       "description": "PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more",
       "icon": "lucide:database",
       "gradient_class": "gradient-box-blue"
@@ -390,7 +390,7 @@
   "final_cta_metrics": [
     { "icon": "lucide:trending-up", "value": "10K+", "label": "Active Users", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
     { "icon": "lucide:shield-check", "value": "99.9%", "label": "Uptime SLA", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
-    { "icon": "lucide:database", "value": "30+", "label": "Databases", "gradient": "linear-gradient(135deg, #c084fc, #ec4899)" },
+    { "icon": "lucide:database", "value": "25+", "label": "Databases", "gradient": "linear-gradient(135deg, #c084fc, #ec4899)" },
     { "icon": "lucide:check-circle", "value": "24/7", "label": "Support", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
   ],
   "cta_button_text": "Start Free Trial",

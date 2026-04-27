@@ -4,7 +4,7 @@
     "product_icon": "lucide:server",
     "hero_badge": "FOR EXISTING MIRANTIS CUSTOMERS",
     "hero_title_1": "Run Any Database Natively on Mirantis Kubernetes Engine <span class=\"text-gradient\">Without the Compromise.</span>",
-    "hero_description": "Deploy and manage <strong>20+ Production-grade databases</strong> as native Kubernetes resources directly on your Mirantis Kubernetes Engine (MKE). Leverage Mirantis OpenStack for Kubernetes (MOSK) storage and MKE's enterprise security — with broader choice, zero extra licensing, and true GitOps agility.",
+    "hero_description": "Deploy and manage <strong>25+ Production-grade databases</strong> as native Kubernetes resources directly on your Mirantis Kubernetes Engine (MKE). Leverage Mirantis OpenStack for Kubernetes (MOSK) storage and MKE's enterprise security — with broader choice, zero extra licensing, and true GitOps agility.",
     "primary_action_text": "Why KubeDB on MKE",
     "primary_action_url": "#comparison",
     "secondary_action_text": "Deploy in Minutes on MKE",
@@ -13,7 +13,7 @@
     "stats_style": "hero-inline-metrics",
     "stats": [
       {
-        "value": "20+ Database Engines",
+        "value": "25+ Database Engines",
         "label": "PostgreSQL, MySQL, Redis, Kafka & more"
       },
       {
@@ -29,7 +29,7 @@
   "badge": "FOR EXISTING MIRANTIS CUSTOMERS",
   "heading": "Run Any Database Natively on <br>Mirantis Kubernetes Engine —<br>",
   "heading_highlight": "Without the Compromise.",
-  "description": "Deploy and manage <strong>20+ Production-grade databases</strong> as native Kubernetes resources directly on your Mirantis Kubernetes Engine (MKE). Leverage Mirantis OpenStack for Kubernetes (MOSK) storage and MKE's enterprise security — with broader choice, zero extra licensing, and true GitOps agility.",
+  "description": "Deploy and manage <strong>25+ Production-grade databases</strong> as native Kubernetes resources directly on your Mirantis Kubernetes Engine (MKE). Leverage Mirantis OpenStack for Kubernetes (MOSK) storage and MKE's enterprise security — with broader choice, zero extra licensing, and true GitOps agility.",
   "cta_primary": {
     "text": "Why KubeDB on MKE",
     "href": "#comparison"
@@ -40,7 +40,7 @@
   },
   "features": [
     {
-      "title": "20+ Database Engines",
+      "title": "25+ Database Engines",
       "desc": "PostgreSQL, MySQL, Redis, Kafka & more"
     },
     {
@@ -101,7 +101,7 @@
       {
         "capability": "Supported Databases",
         "traditional": "Limited (manual installs or basic operators)",
-        "kubedb": "20+ Production-grade engines (PostgreSQL, Redis, Kafka, Elasticsearch, ClickHouse, Cassandra, Neo4j & more)"
+        "kubedb": "25+ Production-grade engines (PostgreSQL, Redis, Kafka, Elasticsearch, ClickHouse, Cassandra, Neo4j & more)"
       },
       {
         "capability": "Deployment Model",
@@ -239,7 +239,7 @@
   },
   "database_support": {
     "heading": "Comprehensive Database Support",
-    "description": "20+ Database engines managed with Kubernetes-native workflows",
+    "description": "25+ Database engines managed with Kubernetes-native workflows",
     "categories": [
       {
         "label": "Relational",

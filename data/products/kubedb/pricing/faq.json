@@ -13,7 +13,7 @@
     },
     {
       "question": "Does KubeDB support multiple database types?",
-      "answer": "Yes. KubeDB supports unlimited databases across 30+ database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more. The same memory-based pricing model applies across all supported database types."
+      "answer": "Yes. KubeDB supports unlimited databases across 25+ database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more. The same memory-based pricing model applies across all supported database types."
     },
     {
       "question": "Can I use my license across multiple clusters?",

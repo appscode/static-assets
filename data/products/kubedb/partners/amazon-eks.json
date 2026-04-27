@@ -4,7 +4,7 @@
     "product_icon": "lucide:check-circle-2",
     "hero_badge": "AWS MARKETPLACE PARTNER",
     "hero_title_1": "Run Any Database Natively on <br>Amazon EKS —<br><span class=\"text-gradient\">Without the Compromise.</span>",
-    "hero_description": "Deploy and manage <strong>20+ Production-grade databases</strong> as native Kubernetes resources on Amazon EKS. Leverage AWS infrastructure with broader choice, zero extra licensing, and true GitOps agility.",
+    "hero_description": "Deploy and manage <strong>25+ Production-grade databases</strong> as native Kubernetes resources on Amazon EKS. Leverage AWS infrastructure with broader choice, zero extra licensing, and true GitOps agility.",
     "primary_action_text": "Start Free Trial",
     "primary_action_url": "/docs/latest/setup/",
     "secondary_action_text": "View on AWS Marketplace",
@@ -13,7 +13,7 @@
     "stats_style": "hero-inline-metrics",
     "stats": [
       {
-        "value": "20+ Database Engines",
+        "value": "25+ Database Engines",
         "label": "PostgreSQL, MySQL, Redis, Kafka & more"
       },
       {
@@ -92,7 +92,7 @@
 
   "capabilities": {
     "heading": "Production databases. Fully automated on EKS.",
-    "description": "20+ Database engines with HA, scaling, backup, TLS, monitoring, and GitOps support",
+    "description": "25+ Database engines with HA, scaling, backup, TLS, monitoring, and GitOps support",
     "items": [
       {
         "icon": "lucide:cloud",
@@ -107,7 +107,7 @@
       {
         "icon": "lucide:layout-grid",
         "title": "Broad Database Support",
-        "description": "Manage 20+ Database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more — all with consistent Kubernetes-native workflows."
+        "description": "Manage 25+ Database engines including PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch, Kafka, and more — all with consistent Kubernetes-native workflows."
       },
       {
         "icon": "lucide:git-fork",
@@ -144,7 +144,7 @@
 
   "database_support": {
     "heading": "Comprehensive Database Support",
-    "description": "20+ Database engines managed with Kubernetes-native workflows",
+    "description": "25+ Database engines managed with Kubernetes-native workflows",
     "categories": [
       {
         "label": "Relational",

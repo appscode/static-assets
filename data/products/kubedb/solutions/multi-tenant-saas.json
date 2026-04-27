@@ -8,7 +8,7 @@
   "hero_description": "Deliver production-grade, secure, and cost-effective databases to every tenant with a single Kubernetes-native DBaaS platform.",
   "hero_subtitle_highlight": "KubeDB Platform",
   "hero_best_with": "KubeDB Platform",
-  "hero_footer_text": "Runs on any Kubernetes • 20+ Database engines • Centralized Governance",
+  "hero_footer_text": "Runs on any Kubernetes • 25+ Database engines • Centralized Governance",
   "primary_action_text": "Get Started with KubeDB",
   "primary_action_url": "/docs/latest/setup/",
   "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
@@ -157,7 +157,7 @@
   "final_cta_metrics": [
     { "icon": "lucide:users", "value": "1000s", "label": "Tenants", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
     { "icon": "lucide:zap", "value": "<60s", "label": "Provisioning", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
-    { "icon": "lucide:database", "value": "30+", "label": "DB Engines", "gradient": "linear-gradient(135deg, #a78bfa, #ec4899)" },
+    { "icon": "lucide:database", "value": "25+", "label": "DB Engines", "gradient": "linear-gradient(135deg, #a78bfa, #ec4899)" },
     { "icon": "lucide:trending-down", "value": "60%", "label": "Cost Savings", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
   ]
 }
