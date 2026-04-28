@@ -37,19 +37,16 @@
 
   "hero_metrics": [
     {
-      "value": "10x",
-      "label": "Cost Reduction",
-      "sublabel": "Yearly database spend"
+      "value": "10x Cost",
+      "label": "Reduction"
     },
     {
-      "value": "50%",
-      "label": "Faster Requests",
-      "sublabel": "Latency eliminated"
+      "value": "2x Performance",
+      "label": "Improvement"
     },
     {
-      "value": "0",
-      "label": "Downtime",
-      "sublabel": "Zero data loss"
+      "value": "Zero Downtime",
+      "label": "Migration"
     }
   ],
   "hero_tags": [
@@ -74,7 +71,7 @@
 
   "challenge_title": "Database costs were eating the entire Kubernetes budget",
   "challenge_badge": "THE CHALLENGE",
-  "challenge_summary": "MongoDB Atlas costs were equal to (or higher than) the cost of their entire 25+ node Kubernetes cluster on Hetzner Cloud.",
+  "challenge_summary": "MongoDB Atlas costs equal to entire 20-node Kubernetes cluster on Hetzner Cloud",
   "challenge_key_pains": "Data consistency · Backup & recovery · Security · Zero-downtime migration · Infrastructure reliability",
   "challenge_items": [
     {
@@ -96,7 +93,7 @@
 
   "solution_badge": "THE SOLUTION",
   "solution_title": "KubeDB: Production-grade MongoDB as Kubernetes-native DBaaS",
-  "solution_description": "KubeDB automated everything - provisioning, high availability, backups with KubeStash, scaling, upgrades, and monitoring - directly inside their Kubernetes cluster.",
+  "solution_description": "Migrated to self-managed MongoDB using KubeDB operator with Stash backup solution",
   "solution_steps_title": "How the cluster runs today",
   "solution_features": [
     "Automated lifecycle",
@@ -177,8 +174,9 @@
     { "icon": "lucide:rotate-cw", "label": "Daily automated backups" },
     { "icon": "lucide:chart-line", "label": "Prometheus + Grafana monitoring" }
   ],
-  "results_quote": "We now have production-grade MongoDB with full control, at a fraction of the cost - all running natively in Kubernetes.",
-  "results_quote_author": "DEDICATTED DevOps Team",
+  "results_quote": "We saved around 90% of our costs and improved performance by keeping traffic inside Kubernetes.",
+  "results_quote_author": "Volodymyr Lysetskyy",
+  "results_quote_author_role": "DevOps Engineer",
 
   "value_props": [
     {
