@@ -137,6 +137,8 @@
     }
   ],
 
+  
+
   "testimonial": {
     "quote": "KubeDB lets us give every customer their own isolated, production-ready database while keeping operations simple and costs under control. The same declarative workflows we use for applications now cover our entire data layer.",
     "attribution": "Platform Engineering Lead, Multi-tenant SaaS Company",
