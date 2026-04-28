@@ -15,6 +15,12 @@
   "secondary_action_url": "https://x.appscode.com/_/kubedb_inquiry",
   "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
   "product_icon": "lucide:users",
+  "stats": [
+    { "label": "Faster Provisioning", "value": "<60s" },
+    { "label": "Tenant Isolation", "value": "100%" },
+    { "label": "Database Engines", "value": "25+" },
+    { "label": "Cost vs Cloud DBaaS", "value": "60% less" }
+  ],
   "sections": [
     "hero",
     "when_to_use",
@@ -136,8 +142,6 @@
       ]
     }
   ],
-
-  
 
   "testimonial": {
     "quote": "KubeDB lets us give every customer their own isolated, production-ready database while keeping operations simple and costs under control. The same declarative workflows we use for applications now cover our entire data layer.",

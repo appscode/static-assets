@@ -245,14 +245,16 @@
   "comparison_analogy_image": "/assets/images/products/kubedb/stack-diagram/generic.png",
   "comparison_analogy_image_alt": "Architecture Diagram",
   "comparison_analogy_explanation": "The Platform provides centralized control and governance, orchestrating multiple Operator instances across different clusters and environments.",
+  "comparison_active_col": "operator",
   "comparison_summary_cards": [
     {
       "title": "KubeDB Operator",
       "icon": "lucide:container",
       "icon_color": "#c084fc",
       "check_color": "#c084fc",
-      "bg": "rgba(88, 28, 135, 0.15)",
+      "bg": "rgba(88, 28, 135, 0.25)",
       "border": "#a855f7",
+      "active": true,
       "description": "Best for teams that want to run and automate databases inside a Kubernetes cluster using declarative APIs.",
       "items": [
         "Single cluster deployment",
@@ -265,8 +267,9 @@
       "icon": "lucide:cloud",
       "icon_color": "#60a5fa",
       "check_color": "#4ade80",
-      "bg": "rgba(30, 41, 59, 0.6)",
+      "bg": "rgba(30, 41, 59, 0.4)",
       "border": "#475569",
+      "active": false,
       "description": "Designed for organizations that need to deliver a standardized, self-service DBaaS across multiple clusters, teams, and environments with centralized control and governance.",
       "items": [
         "Multi-cluster control plane",
