@@ -7,18 +7,18 @@
   "hero_title_1": "Empower Teams with",
   "hero_title_2": "Self-Service Databases",
   "hero_description": "Build an internal database platform where teams can provision, manage, and scale databases on-demand while maintaining centralized governance and cost control.",
-  "primary_action_text": "Start Free Trial",
+  "primary_action_text": "Try Now Free",
   "primary_action_url": "/docs/latest/setup/",
+  "secondary_action_text": "Schedule Demo",
+  "secondary_action_url": "https://x.appscode.com/_/kubedb_inquiry",
   "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
-  "secondary_action_text": "See Demo",
-  "secondary_action_url": "/docs/latest/welcome/",
   "product_icon": "lucide:users",
   "hero_best_with_items": ["KubeDB Operator", "KubeDB Platform"],
   "stats": [
     { "label": "Faster Provisioning", "value": "10x" },
     { "label": "Reduction in Tickets", "value": "90%" },
-    { "label": "Deploy Time", "value": "<5 min" },
-    { "label": "Team Satisfaction", "value": "98%" }
+    { "label": "Deploy Time", "value": "<1 min" },
+    { "label": "Team Satisfaction", "value": "100%" }
   ],
   "when_to_use_subtitle": "Why Self-Service DBaaS?",
   "when_to_use_description": "Accelerate innovation while maintaining control",
@@ -257,7 +257,7 @@
       "color": "#ec4899"
     },
     {
-      "value": "98%",
+      "value": "100%",
       "label": "Satisfaction",
       "icon": "heroicons:users",
       "color": "#f97316"

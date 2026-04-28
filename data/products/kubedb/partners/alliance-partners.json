@@ -386,13 +386,13 @@
       {
         "icon": "lucide:trending-up",
         "value": "10K+",
-        "label": "Active Users",
+        "label": "Active Databases",
         "gradient": "linear-gradient(135deg, #4ade80, #10b981)"
       },
       {
         "icon": "lucide:shield-check",
         "value": "99.9%",
-        "label": "Uptime SLA",
+        "label": "Response SLA",
         "gradient": "linear-gradient(135deg, #fb923c, #ef4444)"
       },
       {

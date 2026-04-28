@@ -1,8 +1,10 @@
 {
   "title_plain": "Kubernetes-native <span class=\"home-hero-title-gradient\">DBaaS</span> <br/> Anywhere with Any Storage",
   "description": "Own Your Database-as-a-Service on <strong>any Kubernetes</strong>, cloud, on-premises, edge, or air-gapped. <strong>Zero Cloud lock-in.</strong>",
-  "cta_primary": "Start Free Trial",
-  "cta_secondary": "View Documentation",
+  "cta_primary": "Try Now Free",
+  "cta_primary_url": "/docs/latest/setup/",
+  "cta_secondary": "Schedule Demo",
+  "cta_secondary_url": "https://x.appscode.com/_/kubedb_inquiry",
   "differentiators": [
     { "title": "Any Kubernetes", "desc": "EKS • AKS • GKE • OpenShift • Rancher" },
     { "title": "Any Storage",    "desc": "Cloud • Ceph • NFS • Portworx" },

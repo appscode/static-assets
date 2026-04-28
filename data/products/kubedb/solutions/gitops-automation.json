@@ -9,8 +9,8 @@
   "hero_subtitle_highlight": "Operator Capability Level 5",
   "primary_action_text": "See GitOps in Action",
   "primary_action_url": "https://youtu.be/6kflsdAYEqw?si=1MQwpF1GlMc6eGzw",
-  "secondary_action_text": "Read the Guide",
-  "secondary_action_url": "/docs/latest/guides/",
+  "secondary_action_text": "Schedule Demo",
+  "secondary_action_url": "https://x.appscode.com/_/kubedb_inquiry",
   "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
   "product_icon": "lucide:git-branch",
   "challenge_title": "Traditional database operators break GitOps",
@@ -148,7 +148,7 @@
     { "icon": "lucide:target", "value": "Level 5", "label": "Operator", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
     { "icon": "lucide:git-branch", "value": "100%", "label": "GitOps Ready", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
     { "icon": "lucide:database", "value": "25+", "label": "Databases", "gradient": "linear-gradient(135deg, #c084fc, #ec4899)" },
-    { "icon": "lucide:trending-up", "value": "10K+", "label": "Production", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
+    { "icon": "lucide:trending-up", "value": "10K+", "label": "Active DBs", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
   ],
   "cta_title": "Ship Database Changes",
   "cta_title_gradient": "Like Application Code",

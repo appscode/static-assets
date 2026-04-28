@@ -9,10 +9,10 @@
   "hero_title_1": "Run Production Databases",
   "hero_title_2": "Natively on Kubernetes",
   "hero_description": "KubeDB Operator extends Kubernetes with database-aware automation, enabling teams to run production databases using declarative APIs.",
-  "primary_action_text": "Get Started Free",
+  "primary_action_text": "Try Now Free",
   "primary_action_url": "/docs/latest/setup/",
-  "secondary_action_text": "View Documentation",
-  "secondary_action_url": "/docs/latest/welcome/",
+  "secondary_action_text": "Schedule Demo",
+  "secondary_action_url": "https://x.appscode.com/_/kubedb_inquiry",
   "stats": [
     {
       "value": "25+",
@@ -23,12 +23,12 @@
       "label": "Production Deployments"
     },
     {
-      "value": "<5 min",
+      "value": "<1 min",
       "label": "Time to Deploy"
     },
     {
-      "value": "99.99%",
-      "label": "Uptime SLA"
+      "value": "99.9%",
+      "label": "Response SLA"
     }
   ],
   "benefits_title": "Why KubeDB Operator?",
@@ -324,7 +324,7 @@
       ],
       [
         "Branding",
-        "Use as KubeDB or internal tool",
+        "Use as internal tool",
         "Complete white-labeling"
       ],
       [
@@ -384,12 +384,12 @@
   "cta_description": "Join thousands of teams running production databases on Kubernetes with KubeDB Operator",
   "cta_checklist": [
     "Free 30-day trial",
-    "Enterprise support & 99.9% uptime SLA",
+    "Enterprise support & 99.9% response SLA",
     "Deploy in minutes • Cancel anytime"
   ],
   "final_cta_metrics": [
-    { "icon": "lucide:trending-up", "value": "10K+", "label": "Active Users", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
-    { "icon": "lucide:shield-check", "value": "99.9%", "label": "Uptime SLA", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
+    { "icon": "lucide:trending-up", "value": "10K+", "label": "Active Databases", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
+    { "icon": "lucide:shield-check", "value": "99.9%", "label": "Response SLA", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
     { "icon": "lucide:database", "value": "25+", "label": "Databases", "gradient": "linear-gradient(135deg, #c084fc, #ec4899)" },
     { "icon": "lucide:check-circle", "value": "24/7", "label": "Support", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
   ],
