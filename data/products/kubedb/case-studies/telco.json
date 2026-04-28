@@ -37,18 +37,15 @@
   "hero_metrics": [
     {
       "value": "100%",
-      "label": "Automated DB Lifecycle",
-      "sublabel": "Provisioning to recovery"
+      "label": "Automated"
     },
     {
-      "value": "2023",
-      "label": "Production Rollout",
-      "sublabel": "KubeDB-powered DBaaS"
+      "value": "Multi-AZ",
+      "label": "Resilience"
     },
     {
-      "value": "0",
-      "label": "Manual DB Operations",
-      "sublabel": "Full automation achieved"
+      "value": "Zero-Downtime",
+      "label": "Operations"
     }
   ],
   "hero_tags": [
@@ -137,17 +134,11 @@
     }
   ],
 
-  "benefits_badge": "KUBEDB IN ACTION",
-  "solution_badge": "",
-  "solution_title": "",
-  "solution_description": "",
-  "solution_steps_title": "",
-  "solution_features": [],
-  "solution_steps": [],
-  "benefits_title": "Production-grade DBaaS delivered by KubeDB",
-  "benefits_description": "Production-grade DBaaS with KubeDB automating full database lifecycle on Kubernetes with zero-downtime operations.",
-  "benefits_items_title": "Key KubeDB Benefits Realized by Orange",
-  "benefits_items": [
+  "solution_badge": "KUBEDB IN ACTION",
+  "solution_title": "Production-grade DBaaS delivered by KubeDB",
+  "solution_description": "Production-grade DBaaS with KubeDB automating full database lifecycle on Kubernetes with zero-downtime operations.",
+  "solution_items_title": "Key KubeDB Benefits Realized by Orange",
+  "solution_items": [
     {
       "number": "01",
       "title": "Self-Service Provisioning",
@@ -235,6 +226,7 @@
   ],
   "results_quote": "From manual legacy databases to fully automated, production-grade DBaaS with complete data sovereignty and enterprise resilience.",
   "results_quote_author": "Platform Team",
+  "results_quote_author_role": "Orange Telecom",
 
   "value_props": [
     {

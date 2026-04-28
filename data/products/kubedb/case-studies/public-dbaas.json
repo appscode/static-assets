@@ -31,19 +31,16 @@
 
   "hero_metrics": [
     {
-      "value": "30 days",
-      "label": "To Production",
-      "sublabel": "Evaluation to public GA"
+      "value": "1 Month",
+      "label": "To Production"
     },
     {
-      "value": "10+",
-      "label": "Database Engines",
-      "sublabel": "Live and self-service"
+      "value": "10+ Database",
+      "label": "Engines"
     },
     {
       "value": "24/7",
-      "label": "Automated Operations",
-      "sublabel": "Zero manual DB management"
+      "label": "Automated"
     }
   ],
   "hero_tags": [
@@ -81,7 +78,7 @@
 
   "challenge_title": "Launch a competitive public DBaaS - fast",
   "challenge_badge": "THE CHALLENGE",
-  "challenge_summary": "Company X needed a fully managed, white-label Database-as-a-Service to complement their managed Kubernetes offering, without building everything from scratch.",
+  "challenge_summary": "Need to launch a white-label DBaaS platform to serve 20,000+ business customers with extreme time-to-market pressure",
   "challenge_key_pains": "Rapid delivery · Multi-engine support · White-label branding · Customer self-service · Cost efficiency",
   "challenge_items": [
     {
@@ -103,7 +100,7 @@
 
   "solution_badge": "KUBEDB SOLUTION",
   "solution_title": "KubeDB enabled launch of a complete public DBaaS in only 30 days",
-  "solution_description": "Company X integrated KubeDB into their SUSE Rancher-based managed Kubernetes service and used the ACE UI to deliver a polished, self-service DBaaS experience to thousands of customers.",
+  "solution_description": "Integrated KubeDB with SUSE Rancher-based Kubernetes service and ACE UI for self-service DBaaS",
   "solution_steps_title": "What KubeDB delivered in record time",
 
   "solution_steps": [
@@ -172,8 +169,9 @@
     { "icon": "lucide:users", "label": "20,000+ customers served" },
     { "icon": "lucide:shield-check", "label": "Enterprise-grade HA & security" }
   ],
-  "results_quote": "Launched fully-featured public DBaaS in just 30 days with complete automation and white-label self-service experience.",
+  "results_quote": "Launched fully-featured public DBaaS in just 1 month with complete automation and white-label self-service experience.",
   "results_quote_author": "Platform Team",
+  "results_quote_author_role": "Company X",
 
   "cta_title": "Launch your own public or white-label DBaaS in weeks - not months",
   "cta_description": "KubeDB gives cloud providers everything needed to offer production-grade, multi-engine Database-as-a-Service instantly.",
