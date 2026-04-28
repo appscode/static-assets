@@ -8,7 +8,7 @@
   "orb_align": "left",
   "hero_title_1": "Run Production Databases",
   "hero_title_2": "Natively on Kubernetes",
-  "hero_description": "KubeDB Operator extends Kubernetes with database-aware automation, enabling teams to run production databases using declarative APIs.",
+  "hero_description": "KubeDB Operator extends Kubernetes with database-aware automation,<br> enabling teams to run production databases using declarative APIs.",
   "primary_action_text": "Try Now Free",
   "primary_action_url": "/docs/latest/setup/",
   "secondary_action_text": "Schedule Demo",
@@ -159,7 +159,7 @@
     }
   ],
   "how_it_works_title": "How It Works?",
-  "how_it_works_subtitle": "You bring the infrastructure. We bring the software that transforms it into a DBaaS platform.",
+  "how_it_works_subtitle": "You bring the infrastructure. We bring the software that transforms it<br> into a DBaaS platform.",
   "how_it_works_infra": {
     "title": "You Bring:",
     "items": [
@@ -239,7 +239,7 @@
     }
   ],
   "comparison_title": "Operator vs Platform: What's the Difference?",
-  "comparison_subtitle": "KubeDB Operator provides database automation inside a single cluster, while KubeDB Platform extends this into a centralized DBaaS across clusters, teams and environments.",
+  "comparison_subtitle": "KubeDB Operator provides database automation inside a single kubernetes cluster, while KubeDB Platform extends this into a centralized DBaaS across clusters, teams and environments.",
   "comparison_analogy": "The Operator is the engine. The Platform is the car.",
   "comparison_analogy_heading": "Think of it this way:",
   "comparison_analogy_image": "/assets/images/products/kubedb/stack-diagram/generic.png",
@@ -308,7 +308,7 @@
       [
         "Multi-tenancy",
         "Basic (K8s namespaces)",
-        "Advanced RBAC + isolation"
+        "Advanced RBAC + tenant isolation"
       ],
       [
         "Visibility",
@@ -384,7 +384,7 @@
   ],
   "cta_badge": "Get Started Today",
   "cta_title": "Ready to Automate Your <br><span style='color: #818cf8;'>Database Operations?</span>",
-  "cta_description": "Join thousands of teams running production databases on Kubernetes with KubeDB Operator",
+  "cta_description": "Join thousands of teams running production databases on<br> Kubernetes with KubeDB Operator",
   "cta_checklist": [
     "Free 30-day trial",
     "Enterprise support & 99.9% response SLA",

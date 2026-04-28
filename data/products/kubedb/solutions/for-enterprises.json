@@ -150,7 +150,7 @@
   ],
   "how_it_works_infra": {
     "title": "Your Infrastructure:",
-    "icon": "lucide:server",
+    "icon": "lucide:inbox",
     "items": [
       { "text": "Compute resources (K8s nodes)", "icon": "lucide:server" },
       { "text": "Storage volumes (PV/PVC)", "icon": "lucide:database" },

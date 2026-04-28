@@ -8,7 +8,7 @@
   "hero_description": "Deliver production-grade, secure, and cost-effective databases to every tenant with a single Kubernetes-native DBaaS platform.",
   "hero_subtitle_highlight": "KubeDB Platform",
   "hero_best_with": "KubeDB Platform",
-  "hero_footer_text": "Runs on any Kubernetes • 25+ Database engines • Centralized Governance",
+  "hero_footer_text": "<strong>Runs on any Kubernetes</strong> • 25+ Database engines • Centralized Governance",
   "primary_action_text": "Try Now Free",
   "primary_action_url": "/docs/platform/latest/selfhost-setup/",
   "secondary_action_text": "Schedule Demo",
@@ -37,8 +37,8 @@
 
   "when_to_use_badge": "The multi-tenant challenge",
   "when_to_use_title": "The multi-tenant challenge",
-  "when_to_use_subtitle": "Modern enterprises need databases that scale with tenants - not against them.",
-  "when_to_use_description": "Platform teams are stuck choosing between hyperscaler lock-in or painful manual Kubernetes operations. Developers wait weeks for databases while security teams lose sleep over isolation.",
+  "when_to_use_subtitle": "Modern enterprises need databases that scale with tenants — not against them.",
+  "when_to_use_description": "Platform teams are stuck choosing between hyperscaler lock-in or painful manual Kubernetes operations. Developers wait weeks for databases while<br> security teams lose sleep over isolation.",
   "when_to_use": [
     {
       "title": "Security & Isolation",
@@ -60,8 +60,8 @@
     }
   ],
 
-  "numbered_features_title": "KubeDB gives you <span class='text-gradient'>enterprise multi-tenant DBaaS</span> natively inside Kubernetes.",
-  "numbered_features_subtitle": "Run production-ready databases for hundreds of teams and tenants - with complete governance, security, and self-service - on Red Hat OpenShift, SUSE Rancher Prime, or any Kubernetes.",
+  "numbered_features_title": "KubeDB gives you<br> <span class='text-gradient'>enterprise multi-tenant<br> DBaaS</span> natively inside<br> Kubernetes.",
+  "numbered_features_subtitle": "Run production-ready databases for hundreds of teams and tenants —<br> with complete governance, security, and self-service — on Red Hat<br> OpenShift, SUSE Rancher Prime, or any Kubernetes.",
   "numbered_features_graphic": "/assets/images/products/kubedb/kubedb-multi-tenancy-diagram.png",
   "numbered_features": [
     {
@@ -79,7 +79,7 @@
     {
       "id": "03",
       "title": "Developer self-service",
-      "description": "Teams request databases via kubectl, GitOps, or the KubeDB Console, instantly and compliantly.",
+      "description": "Teams request databases via kubectl, GitOps, or the KubeDB Console — instantly and compliantly.",
       "icon": "lucide:zap"
     },
     {
@@ -105,7 +105,7 @@
     ]
   },
 
-  "everything_you_need_title": "Everything You Need for Production Multi-Tenant DBaaS",
+  "everything_you_need_title": "Everything You Need for Production<br> Multi-Tenant DBaaS",
   "capabilities": [
     {
       "title": "Supported Databases",
