@@ -13,6 +13,13 @@
   "secondary_action_url": "https://x.appscode.com/_/kubedb_inquiry",
   "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
   "product_icon": "lucide:git-branch",
+  "stats_color": "#4948a3",
+  "stats": [
+    { "label": "GitOps Maturity", "value": "Level 5" },
+    { "label": "Databases Supported", "value": "25+" },
+    { "label": "Reconciliation Conflicts", "value": "Zero" },
+    { "label": "Argo/Flux Compatible", "value": "100%" }
+  ],
   "challenge_title": "Traditional database operators break GitOps",
   "challenge_badge": "The GitOps Challenge for Databases",
   "challenges": [

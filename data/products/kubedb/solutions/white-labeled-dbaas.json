@@ -13,11 +13,12 @@
   "secondary_action_url": "https://x.appscode.com/_/kubedb_inquiry",
   "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
   "product_icon": "lucide:award",
+  "stats_color": "#4948a3",
   "stats": [
-    { "label": "Time to Launch", "value": "30 days", "icon": "lucide:timer" },
-    { "label": "Database Engines", "value": "25+", "icon": "lucide:database" },
-    { "label": "Support Level", "value": "24×7", "icon": "lucide:shield" },
-    { "label": "Target Go-Live", "value": "Rapid", "icon": "lucide:target" }
+    { "label": "Time to Launch", "value": "30 days" },
+    { "label": "Database Engines", "value": "25+" },
+    { "label": "Support Level", "value": "24×7" },
+    { "label": "Target Go-Live", "value": "Rapid" }
   ],
   "when_to_use_subtitle": "Key Outcomes for CSPs & MSPs",
   "when_to_use_description": "Everything you need to compete with global hyperscalers",
