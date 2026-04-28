@@ -5,7 +5,7 @@
   "hero_badge": "White-Labeled DBaaS for Cloud Service Providers",
   "hero_title_1": "Launch Your Own",
   "hero_title_2": "Production-Grade DBaaS Platform",
-  "hero_description": "A fully managed, white-labeled, production-ready Database-as-a-Service platform that exceeds public cloud offerings while maintaining complete branding control and data sovereignty.",
+  "hero_description": "Built on <strong>ACE (AppsCode Cloud Engine)</strong> — a fully managed, white-labeled, production-ready Database-as-a-Service platform that exceeds public cloud offerings while maintaining complete branding control and data sovereignty.",
   "hero_best_with": "KubeDB Platform",
   "primary_action_text": "Try Now Free",
   "primary_action_url": "/docs/platform/latest/selfhost-setup/",
@@ -168,6 +168,7 @@
     }
   ],
   "platform_architecture_image": "/assets/images/products/kubedb/ace-platform-architecture.png",
+  "platform_architecture_title": "ACE Platform Architecture Overview",
   "platform_features_title": "Solution Architecture",
   "platform_features_subtitle": "All components are containerized, CRD-driven, and designed for multi-cluster and multi-region deployments",
   "platform_features": [
@@ -186,6 +187,7 @@
     {
       "title": "Kubernetes Services",
       "description": "ArgoCD, Open Cluster Management, Cert Manager, Prometheus, and Grafana integration",
+      "icon": "lucide:card-sim",
       "color": "cyan"
     },
     {
@@ -205,7 +207,7 @@
   "messages_subtitle": "Beautiful, fully branded self-service portal with complete REST APIs for native integration into your cloud console. No requirement to expose KubeDB Platform UI directly - integrate seamlessly into your existing customer experience.",
   "message_icon": "lucide:monitor",
   "universal_access_title": "Universal Database Access",
-  "universal_access_subtitle": "Your customers' databases are accessible from anywhere - modern cloud-native apps and legacy VM-based applications alike",
+  "universal_access_subtitle": "Your customers' databases are accessible from anywhere — modern cloud-native apps and legacy VM-based applications alike",
   "universal_access_cards": [
     {
       "title": "Inside Kubernetes",
@@ -251,7 +253,7 @@
     }
   ],
   "universal_access_message_title": "Seamless Hybrid Access",
-  "universal_access_message_body": "Your customers can connect from containerized microservices, serverless functions, traditional monoliths on VMs, or external SaaS applications - all using standard database protocols. No special clients or SDKs required.",
+  "universal_access_message_body": "Your customers can connect from containerized microservices, serverless functions, traditional monoliths on VMs, or external SaaS applications — all using standard database protocols. No special clients or SDKs required.",
   "universal_access_message_icon": "lucide:sparkles",
   "universal_access_message_gradient": "linear-gradient(135deg, #3b82f6, #06b6d4)",
   "universal_access_message_border": "#bfdbfe",
@@ -296,7 +298,7 @@
     }
   ],
   "how_it_works_title": "Implementation & Go-Live",
-  "how_it_works_subtitle": "Target Timeline: 30 days from signing to go-live (accelerable based on your readiness)",
+  "how_it_works_subtitle": "<strong>Target Timeline:</strong> 30 days from signing to go-live (accelerable based on your readiness)",
   "how_it_works": [
     {
       "step": 1,
@@ -351,7 +353,7 @@
     }
   ],
   "cta_badge": "White-Label Ready",
-  "cta_title": "Launch Your Own",
+  "cta_title": "Launch Your Own<br>",
   "cta_title_gradient": "DBaaS Business",
   "cta_description": "Compete with global hyperscalers with your own branded database services",
   "cta_checklist": [
@@ -362,7 +364,7 @@
   "cta_button_text": "Contact Sales",
   "cta_button_url": "https://appscode.com/contact/",
   "final_cta_metrics": [
-    { "icon": "lucide:timer", "value": "30", "label": "Days to Launch", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
+    { "icon": "lucide:timer", "value": "30 Days", "label": "Time to Launch", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
     { "icon": "lucide:database", "value": "25+", "label": "DB Engines", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
     { "icon": "lucide:shield", "value": "24×7", "label": "Support", "gradient": "linear-gradient(135deg, #a78bfa, #ec4899)" },
     { "icon": "lucide:target", "value": "Rapid", "label": "Go-Live", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }

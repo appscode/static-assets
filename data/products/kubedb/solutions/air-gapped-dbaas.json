@@ -5,7 +5,7 @@
   "hero_badge": "Air-Gapped DBaaS",
   "hero_title_1": "Secure DBaaS for",
   "hero_title_2": "Isolated Environments",
-  "hero_description": "Deploy production-grade database automation in air-gapped, disconnected, and high-security Kubernetes environments with complete offline installation support.",
+  "hero_description": "Deploy production-grade database automation in air-gapped, disconnected, and high-security Kubernetes environments with complete offline installation<br> support.",
   "primary_action_text": "Try Now Free",
   "primary_action_url": "/docs/latest/setup/",
   "secondary_action_text": "Schedule Demo",
@@ -86,7 +86,7 @@
     }
   ],
   "how_it_works_title": "Secure, Offline DBaaS",
-  "how_it_works_subtitle": "You provide the isolated infrastructure. KubeDB delivers the software - completely offline, no internet required.",
+  "how_it_works_subtitle": "You provide the isolated infrastructure. KubeDB delivers the software —completely offline, no internet required.",
   "how_it_works_infra": {
     "icon": "lucide:lock",
     "title": "Your Secure Infrastructure:",
@@ -101,7 +101,7 @@
     "icon": "lucide:package",
     "title": "KubeDB Offline Package:",
     "items": [
-      { "icon": "lucide:package", "text": "Complete offline installation bundle" },
+      { "icon": "lucide:package-2", "text": "Complete offline installation bundle" },
       { "icon": "lucide:shield", "text": "Pre-scanned container images" },
       { "icon": "lucide:file-check", "text": "Offline documentation & tools" },
       { "icon": "lucide:key", "text": "Offline license management" }

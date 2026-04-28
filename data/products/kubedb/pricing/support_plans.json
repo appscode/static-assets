@@ -1,7 +1,7 @@
 {
   "title": "Support Plans",
   "subtitle": "Choose the support level that matches your requirements",
-  "footer_note": "Business Hours: Mon - Fri 9am - 6pm in your timezone. Phone support additional conditions apply.",
+  "footer_note": "⏰ Business Hours: Mon - Fri 9am - 6pm in your timezone<br> ☎ Phone support additional conditions apply. Please contact us for details.",
   "plans": [
     {
       "name": "Standard",
@@ -25,7 +25,7 @@
       "name": "Premium",
       "description": "For business and mission-critical databases",
       "price": "Contact Sales",
-      "period": "Minimum commitment: 500 GB/year",
+      "period": "Minimum: 500 GB/year",
       "cta": "Contact Sales",
       "cta_type": "secondary",
       "features": [
@@ -34,7 +34,7 @@
         "Priority Emergency Patches",
         "Production Runbook",
         "Private Discord Chat",
-        "Phone Support"
+        "Phone Support ☎"
       ],
       "excluded_features": []
     }

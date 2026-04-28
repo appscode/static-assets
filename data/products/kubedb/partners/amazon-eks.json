@@ -323,7 +323,7 @@
         { "value": "Zero", "label": "Vendor Lock-In" }
       ],
       "button_text": "Get a Cost Analysis",
-      "button_url": "#"
+      "button_url": "/pricing/"
     }
   },
 

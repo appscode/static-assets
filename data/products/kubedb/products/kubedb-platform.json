@@ -137,28 +137,28 @@
     }
   ],
   "how_it_works_title": "How It Works?",
-  "how_it_works_subtitle": "You bring the infrastructure. We bring the software that transforms it into a DBaaS platform.",
+  "how_it_works_subtitle": "You bring the infrastructure. We bring the software that transforms it<br> into a DBaaS platform.",
   "how_it_works_infra": {
     "title": "You Bring:",
     "items": [
-      { "text": "Compute (Kubernetes nodes)" },
-      { "text": "Storage (Persistent volumes)" },
-      { "text": "Networking (Load balancers, ingress)" },
-      { "text": "Object Storage (S3-compatible backup storage)" }
+      { "text": "Compute (Kubernetes nodes)", "icon": "lucide:cpu" },
+      { "text": "Storage (Persistent volumes)", "icon": "lucide:database" },
+      { "text": "Networking (Load balancers, ingress)", "icon": "lucide:network" },
+      { "text": "Object Storage (S3-compatible backup storage)", "icon": "lucide:hard-drive" }
     ]
   },
   "how_it_works_software": {
     "title": "KubeDB Provides:",
     "items": [
-      { "text": "Software that turns your K8s into DBaaS" },
-      { "text": "Automated database lifecycle management" },
-      { "text": "Production-grade HA & disaster recovery" },
-      { "text": "Enterprise security & compliance features" }
+      { "text": "Software that turns your K8s into DBaaS", "icon": "lucide:zap" },
+      { "text": "Automated database lifecycle management", "icon": "lucide:refresh-cw" },
+      { "text": "Production-grade HA & disaster recovery", "icon": "lucide:shield-check" },
+      { "text": "Enterprise security & compliance features", "icon": "lucide:lock" }
     ]
   },
-  "how_it_works_summary": "No vendor lock-in • Run on your infrastructure • Full control",
+  "how_it_works_footer": "No vendor lock-in • Run on your infrastructure • Full control",
   "features_title": "Platform Features",
-  "features_subtitle": "Centralized Control Plane for Database Operations",
+  "features_subtitle": "Centralized Control Plane for Database Operations across Kubernetes environments",
   "features": [
     {
       "title": "Central Dashboard",
@@ -244,7 +244,7 @@
     }
   ],
   "comparison_title": "Operator vs Platform: What's the Difference?",
-  "comparison_subtitle": "KubeDB Operator provides database automation inside a single cluster, while KubeDB Platform extends this into a centralized DBaaS across clusters, teams and environments.",
+  "comparison_subtitle": "KubeDB Operator provides database automation inside a single kubernetes cluster, while KubeDB Platform extends this into a centralized DBaaS across clusters, teams and environments.",
   "comparison_analogy": "The Operator is the engine. The Platform is the car.",
   "comparison_analogy_heading": "Think of it this way:",
   "comparison_analogy_image": "/assets/images/products/kubedb/stack-diagram/generic.png",
@@ -313,7 +313,7 @@
       [
         "Multi-tenancy",
         "Basic (K8s namespaces)",
-        "Advanced RBAC + isolation"
+        "Advanced RBAC + tenant isolation"
       ],
       [
         "Visibility",
@@ -389,7 +389,7 @@
   ],
   "cta_badge": "Launch Your Platform",
   "cta_title": "Ready to Launch Your <br><span style='color: #818cf8;'>DBaaS Platform?</span>",
-  "cta_description": "Join leading cloud providers offering managed database services with KubeDB Platform",
+  "cta_description": "Join leading cloud providers offering managed database services<br> with KubeDB Platform",
   "cta_checklist": [
     "Free 30-day trial",
     "Enterprise support & 99.9% response SLA",
