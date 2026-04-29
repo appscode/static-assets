@@ -49,73 +49,76 @@ Parameters:
   KeyPair:
     Description: "Name of an existing EC2 KeyPair to enable SSH access to the instance."
     Type: 'AWS::EC2::KeyPair::KeyName'
+  LatestAmiId:
+    Type: 'AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>'
+    Default: '/aws/service/ami-amazon-linux-latest/al2023-ami-kernel-default-x86_64'  
   DomainWhiteList:
     Description: "Provide a valid and existing domain with an MX record for domain whitelisting. This domain will be used to validate users' email addresses during signup. For example: gmail.com, appscode.com etc."
     Type: String
     AllowedPattern: '^(?!:\/\/)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,63}$'
 
-Mappings:
-  InstanceMap:
-    af-south-1:
-      AMI: ami-02698500b0725a8f3
-    ap-east-1:
-      AMI: ami-0db309d325cb5e640
-    ap-northeast-1:
-      AMI: ami-0265dc69e8de144d3
-    ap-northeast-2:
-      AMI: ami-061fdbe1769e05459
-    ap-northeast-3:
-      AMI: ami-051ec687ccec0d381
-    ap-south-1:
-      AMI: ami-03edbe403ec8522ed
-    ap-south-2:
-      AMI: ami-0f48205ec8e2235e8
-    ap-southeast-1:
-      AMI: ami-00dc6910e7d33c5f8
-    ap-southeast-2:
-      AMI: ami-02b231863b9573c37
-    ap-southeast-3:
-      AMI: ami-05fb6555a25318aba
-    ap-southeast-4:
-      AMI: ami-032a351da1f26fbb2
-    ap-southeast-5:
-      AMI: ami-07edb670a221b50d1
-    ca-central-1:
-      AMI: ami-01eb85f71f0b45be6
-    ca-west-1:
-      AMI: ami-0f484dd94433f4908
-    eu-central-1:
-      AMI: ami-06d4d7b82ed5acff1
-    eu-central-2:
-      AMI: ami-0a29285b9198efb93
-    eu-north-1:
-      AMI: ami-03328aeec917a844b
-    eu-south-1:
-      AMI: ami-09c2055f9ded02869
-    eu-south-2:
-      AMI: ami-0f5dc5dfd3680af1a
-    eu-west-1:
-      AMI: ami-09c39a45aca52b2d6
-    eu-west-2:
-      AMI: ami-0c2dcd6caa6a07643
-    eu-west-3:
-      AMI: ami-0f637d6de571fb4dd
-    il-central-1:
-      AMI: ami-0d7d24b1d0bec0982
-    me-central-1:
-      AMI: ami-077e1619b58cf8bb6
-    me-south-1:
-      AMI: ami-07914deb7dde5b7df
-    sa-east-1:
-      AMI: ami-05dbef44625409d15
-    us-east-1:
-      AMI: ami-085386e29e44dacd7
-    us-east-2:
-      AMI: ami-096af71d77183c8f8
-    us-west-1:
-      AMI: ami-06fe18c7144382cfb
-    us-west-2:
-      AMI: ami-0ab69690991408217
+# Mappings:
+#   InstanceMap:
+#     af-south-1:
+#       AMI: ami-02698500b0725a8f3
+#     ap-east-1:
+#       AMI: ami-0db309d325cb5e640
+#     ap-northeast-1:
+#       AMI: ami-0265dc69e8de144d3
+#     ap-northeast-2:
+#       AMI: ami-061fdbe1769e05459
+#     ap-northeast-3:
+#       AMI: ami-051ec687ccec0d381
+#     ap-south-1:
+#       AMI: ami-03edbe403ec8522ed
+#     ap-south-2:
+#       AMI: ami-0f48205ec8e2235e8
+#     ap-southeast-1:
+#       AMI: ami-00dc6910e7d33c5f8
+#     ap-southeast-2:
+#       AMI: ami-02b231863b9573c37
+#     ap-southeast-3:
+#       AMI: ami-05fb6555a25318aba
+#     ap-southeast-4:
+#       AMI: ami-032a351da1f26fbb2
+#     ap-southeast-5:
+#       AMI: ami-07edb670a221b50d1
+#     ca-central-1:
+#       AMI: ami-01eb85f71f0b45be6
+#     ca-west-1:
+#       AMI: ami-0f484dd94433f4908
+#     eu-central-1:
+#       AMI: ami-06d4d7b82ed5acff1
+#     eu-central-2:
+#       AMI: ami-0a29285b9198efb93
+#     eu-north-1:
+#       AMI: ami-03328aeec917a844b
+#     eu-south-1:
+#       AMI: ami-09c2055f9ded02869
+#     eu-south-2:
+#       AMI: ami-0f5dc5dfd3680af1a
+#     eu-west-1:
+#       AMI: ami-09c39a45aca52b2d6
+#     eu-west-2:
+#       AMI: ami-0c2dcd6caa6a07643
+#     eu-west-3:
+#       AMI: ami-0f637d6de571fb4dd
+#     il-central-1:
+#       AMI: ami-0d7d24b1d0bec0982
+#     me-central-1:
+#       AMI: ami-077e1619b58cf8bb6
+#     me-south-1:
+#       AMI: ami-07914deb7dde5b7df
+#     sa-east-1:
+#       AMI: ami-05dbef44625409d15
+#     us-east-1:
+#       AMI: ami-085386e29e44dacd7
+#     us-east-2:
+#       AMI: ami-096af71d77183c8f8
+#     us-west-1:
+#       AMI: ami-06fe18c7144382cfb
+#     us-west-2:
+#       AMI: ami-0ab69690991408217
 Resources:
   VPC:
     Type: AWS::EC2::VPC
@@ -511,7 +514,7 @@ Resources:
   Instance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: !FindInMap [InstanceMap, !Ref 'AWS::Region', AMI]
+      ImageId: !Ref LatestAmiId
       InstanceType: !Ref InstanceType
       KeyName: !Ref KeyPair
       Tags:
