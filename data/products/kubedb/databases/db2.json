@@ -60,15 +60,15 @@
       "namespace": "demo"
     },
     "spec": {
-      "version": "11.5.9",
-      "replicas": 3,
+      "version": "11.5.8.0",
+      "replicas": 1,
       "storage": {
         "accessModes": [
           "ReadWriteOnce"
         ],
         "resources": {
           "requests": {
-            "storage": "2Gi"
+            "storage": "5Gi"
           }
         }
       },

@@ -60,7 +60,7 @@
       "namespace": "demo"
     },
     "spec": {
-      "version": "8.5.7",
+      "version": "8.9.3",
       "licenseSecret": {
         "name": "license-secret"
       },

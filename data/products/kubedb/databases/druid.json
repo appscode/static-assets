@@ -60,7 +60,7 @@
       "namespace": "demo"
     },
     "spec": {
-      "version": "28.0.1",
+      "version": "35.0.1",
       "deepStorage": {
         "type": "s3",
         "configSecret": {

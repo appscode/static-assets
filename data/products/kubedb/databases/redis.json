@@ -61,7 +61,7 @@
     },
     "spec": {
       "replicas": 1,
-      "version": "7.2.3",
+      "version": "8.2.2",
       "storageType": "Durable",
       "storage": {
         "storageClassName": "standard",

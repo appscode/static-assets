@@ -60,15 +60,15 @@
       "namespace": "demo"
     },
     "spec": {
-      "version": "5.0",
-      "replicas": 3,
+      "version": "pg17-0.109.0",
+      "replicas": 1,
       "storage": {
         "accessModes": [
           "ReadWriteOnce"
         ],
         "resources": {
           "requests": {
-            "storage": "2Gi"
+            "storage": "5Gi"
           }
         }
       },
