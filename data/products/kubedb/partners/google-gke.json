@@ -5,10 +5,10 @@
     "hero_badge": "GOOGLE CLOUD PARTNER",
     "hero_title_1": "Run Any Database Natively on <br>Google Kubernetes Engine - <br><span class=\"text-gradient\">Without the Compromise.</span>",
     "hero_description": "Deploy and manage <strong>25+ Production-grade databases</strong> as native Kubernetes resources on Google GKE. Leverage Google Cloud Infrastructure with broader choice, zero extra licensing, and true GitOps agility.",
-    "primary_action_text": "Start Free Trial",
+    "primary_action_text": "Why KubeDB on GKE",
     "primary_action_url": "/docs/latest/setup/",
-    "secondary_action_text": "View on GCP Marketplace",
-    "secondary_action_url": "#",
+    "secondary_action_text": "Deploy Your First Database",
+    "secondary_action_url": "#comparison",
     "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
     "stats_style": "hero-inline-metrics",
     "stats": [
@@ -332,7 +332,7 @@
         { "value": "Zero", "label": "Vendor Lock-In" }
       ],
       "button_text": "Get a Cost Analysis",
-      "button_url": "#"
+      "button_url": "https://x.appscode.com/_/kubedb_inquiry"
     }
   },
 
