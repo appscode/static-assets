@@ -3,7 +3,7 @@
     "product_color_primary": "#7272E9",
     "product_icon": "lucide:server",
     "hero_badge": "FOR EXISTING MIRANTIS CUSTOMERS",
-    "hero_title_1": "Run Any Database Natively on Mirantis Kubernetes Engine <span class=\"text-gradient\">Without the Compromise.</span>",
+    "hero_title_1": "Run Any Database Natively on <br>Mirantis Kubernetes Engine —<br><span class=\"text-gradient\">Without the Compromise</span>",
     "hero_description": "Deploy and manage <strong>25+ Production-grade databases</strong> as native Kubernetes resources directly on your Mirantis Kubernetes Engine (MKE). Leverage Mirantis OpenStack for Kubernetes (MOSK) storage and MKE's enterprise security - with broader choice, zero extra licensing, and true GitOps agility.",
     "primary_action_text": "Why KubeDB on MKE",
     "primary_action_url": "#comparison",
