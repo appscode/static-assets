@@ -6,9 +6,9 @@
   "cta_secondary": "Schedule Demo",
   "cta_secondary_url": "https://x.appscode.com/_/kubedb_inquiry",
   "differentiators": [
-    { "title": "Any Kubernetes", "desc": "EKS • AKS • GKE • OpenShift • Rancher" },
-    { "title": "Any Storage",    "desc": "Cloud • Ceph • NFS • Portworx" },
-    { "title": "Air-Gapped Ready", "desc": "Cloud • On-premises • Hybrid" }
+    { "title": "Any Kubernetes", "desc": "EKS • AKS • GKE • OpenShift • Rancher • Nutanix" },
+    { "title": "Any Storage",    "desc": "Cloud • Ceph • Dell • NetApp • HPE • Portworx" },
+    { "title": "Air-Gapped Ready", "desc": "Cloud • On-premises • Edge • Hybrid" }
   ],
   "trusted_label": "Trusted by leading organizations"
 }
