@@ -49,16 +49,11 @@
     },
     "spec": {
       "version": "3.0.1-debian",
-      "replicas": 1,
-      "mode": "GroupReplication",
+      "replicas": 3,
       "backend": {
-        "ref": {
-          "apiGroup": "kubedb.com",
-          "kind": "MySQL",
-          "name": "my-group"
-        },
-        "replicas": 3
+        "name": "mysql-group-repl"
       },
+      "syncUsers": true,
       "deletionPolicy": "Delete"
     }
   }
