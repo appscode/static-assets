@@ -6,11 +6,11 @@
     "hero_title_1": "Everything You Need to",
     "hero_title_2": "Succeed with KubeDB",
     "hero_description": "Access the full suite of technical, sales, and marketing resources to drive successful customer outcomes",
-    "primary_action_text": "Browse Resources",
+    "primary_action_text": "Become a Partner",
     "primary_action_url": "#partner-form",
     "primary_action_icon": "lucide:arrow-right",
-    "secondary_action_text": "Partner Login",
-    "secondary_action_url": "#",
+    "secondary_action_text": "Register Deal",
+    "secondary_action_url": "https://x.appscode.com/_/deal_registration",
     "secondary_action_icon": "lucide:log-in",
     "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
     "badge": "Partner Resources",
@@ -134,7 +134,7 @@
       {
         "icon": "lucide:graduation-cap",
         "gradient": "red",
-        "title": "Training &amp; Certification",
+        "title": "Training & Certification",
         "description": "Self-paced courses, instructor-led training, and certification exams to build your team's KubeDB expertise",
         "benefits": [
           "Self-paced online courses",
@@ -208,8 +208,8 @@
         "title": "Sales Resources",
         "description": "Everything your sales team needs to identify opportunities and close deals",
         "benefits": [
-          "Battle cards &amp; playbooks",
-          "ROI &amp; TCO calculators",
+          "Battle cards & playbooks",
+          "ROI & TCO calculators",
           "Customer pitch decks",
           "Competitive comparisons"
         ]
@@ -247,7 +247,7 @@
       {
         "icon": "lucide:graduation-cap",
         "gradient": "purple",
-        "title": "Training &amp; Certification",
+        "title": "Training & Certification",
         "description": "Get certified and build credibility with your customers",
         "benefits": [
           "Self-paced and instructor-led options",

@@ -7,10 +7,10 @@
     "hero_title_2": "Win with KubeDB",
     "hero_description": "Register your qualified opportunities to secure exclusivity, enhanced discounts, and dedicated sales support",
     "primary_action_text": "Register a Deal",
-    "primary_action_url": "#partner-form",
+    "primary_action_url": "https://x.appscode.com/_/deal_registration",
     "primary_action_icon": "lucide:arrow-right",
-    "secondary_action_text": "Partner Login",
-    "secondary_action_url": "#",
+    "secondary_action_text": "Become a Partner",
+    "secondary_action_url": "#partner-form",
     "secondary_action_icon": "lucide:log-in",
     "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
     "badge": "Deal Registration",
@@ -236,7 +236,7 @@
         "benefits": [
           "90-day deal protection guarantee",
           "Enhanced partner discounts",
-          "Dedicated sales &amp; technical support",
+          "Dedicated sales & technical support",
           "Joint go-to-market alignment"
         ],
         "cta_text": "Register a Deal",
@@ -250,9 +250,9 @@
         "title": "Not Yet a Partner?",
         "description": "Join the KubeDB partner program to access deal registration and all partner benefits",
         "benefits": [
-          "Access to partner portal &amp; resources",
-          "Technical training &amp; certification",
-          "Co-marketing &amp; lead generation",
+          "Access to partner portal & resources",
+          "Technical training & certification",
+          "Co-marketing & lead generation",
           "Dedicated partner account manager"
         ],
         "cta_text": "Become a Partner",
