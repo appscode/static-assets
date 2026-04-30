@@ -5,7 +5,7 @@
   "items": [
     {
       "question": "How is KubeDB Enterprise priced?",
-      "answer": "KubeDB Enterprise is charged based on the memory limit set for database containers managed by KubeDB (not the memory of Kubernetes worker nodes or database storage size). The SKU is 50 GB blocks, with a minimum purchase of 100 GB (2 SKUs). Additional capacity is purchased in 50 GB increments."
+      "answer": "KubeDB Enterprise is charged based on the memory limit set for database containers managed by KubeDB (not the memory of Kubernetes worker nodes or database storage size)."
     },
     {
       "question": "How is memory calculated for clustered databases?",
