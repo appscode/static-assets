@@ -1,81 +1,78 @@
 {
   "name": "Oracle",
   "id": "oracle",
-  "title": "Run and Manage Oracle Database on Kubernetes",
+  "title": "KubeDB Operator for Oracle Database Workloads on Kubernetes",
   "hero": "/assets/images/databases/illustrations/kc-bg.png",
-  "summary": "Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup & Restore, Security for Oracle Databases in Kubernetes on any Public & Private Cloud",
-  "description": "As the world’s enterprises rapidly move to the cloud, and containers are taking over the world of software development, Kubernetes is the platform that lets users seamlessly deploy, scale, run containers, and manage their application life-cycle.  <br />  <br />But, running databases and stateful applications in Kubernetes has always been a challenge. And it is really difficult to **Run and Manage Production-Grade Databases on Kubernetes**. Every Enterprise needs a Production-Grade operator to deploy its databases and manage its life cycle on Kubernetes. <br />   <br />KubeDB is the leader in Kubernetes Native Database Management Solutions which simplifies and automates routine database tasks such as **Provisioning, Monitoring, Upgrading, Patching, Scaling, Volume Expansion, Backup & Restore, Failure detection, and Recovery** for various popular databases on private and public clouds. KubeDB developed the first-ever Production-Grade **Kubernetes operator for Elasticsearch and it's distributions** to manage its Day-2 operations. KubeDB is a managed DBaaS that allows developers to run their databases alongside the respective application. You can simply deploy a Oracle server on Kubernetes and manage its Day-2 operations via KubeDB Elasticsearch Operator.",
+  "summary": "Lifecycle Management for Oracle Database in Kubernetes on Public & Private Cloud",
+  "description": "This operator provides automation for provisioning, scaling, backup, and recovery of Oracle Database within Kubernetes environments. It is designed for users who already hold valid Oracle licenses and wish to deploy Oracle Database on Kubernetes while remaining responsible for compliance with Oracle's licensing terms. KubeDB offers Kubernetes-native database management for various database systems.",
   "keywords": [
-    "Provision",
-    "Failure Detection",
-    "Upgrade",
-    "Scaling",
-    "Volume Expansion",
-    "Backup & Recovery",
-    "Monitor",
-    "Data Protection for Oracle Databases in Kubernetes on Public and Private Cloud"
+    "Oracle Database",
+    "Kubernetes operator",
+    "Database provisioning",
+    "Backup and recovery",
+    "Volume expansion"
   ],
   "features": [
     {
-      "title": "Provisioning",
+      "title": "Provisioning Oracle Database",
       "image": "/assets/images/databases/illustrations/colud-chair.png",
-      "description": "If you can run Kubernetes, you can simply provision Oracle databases using KubeDB. You don’t need to worry about all of the knowledge of Kubernetes Concept, Helm, and Oracle server side setup. KubeDB simplifies the whole process for you. You just have to use standard Kubernetes CLI and API to provision Oracle databases."
+      "description": "Provision Oracle Database workloads on Kubernetes using standard Kubernetes CLI and API. Users must supply their own validly licensed Oracle container images (e.g., from Oracle Container Registry with proper credentials) and are solely responsible for ensuring full compliance with Oracle's licensing terms, including container/Kubernetes-specific rules."
     },
     {
       "title": "Version Upgrade",
       "image": "/assets/images/databases/illustrations/version-control.png",
-      "description": "Upgrading the database version in Kubernetes is complicated. Upgrade operation should follow a specific order. KubeDB allows you to upgrade your running Oracle database version without any downtime. You can upgrade your database to any major or minor update of the Oracle version."
+      "description": "Orchestrate version upgrades for Oracle Database containers following user-defined maintenance windows. Note: Upgrades must comply with Oracle's support policies for containerized deployments."
     },
     {
       "title": "Scaling",
       "image": "/assets/images/databases/illustrations/scalling.png",
-      "description": "To improve your database performance you have to make sure that your database is scalable. KubeDB offers both Vertical and Horizontal Scaling of Oracle databases in Kubernetes. You can simply scale your Oracle cluster in Kubernetes using KubeDB."
+      "description": "Scale Oracle Database deployments vertically or horizontally within Kubernetes cluster constraints. Scaling depends on Oracle-specific configurations (e.g., Oracle RAC) and licensing."
     },
     {
       "title": "Volume Expansion",
       "image": "/assets/images/databases/illustrations/expansion.png",
-      "description": "Having options of increasing database volume ensures your database high availability and performance. You can expand your storage capacity of Oracle Database in Kubernetes by using KubeDB."
+      "description": "Expand persistent volume claims for Oracle Database storage using Kubernetes-native volume expansion features."
     },
     {
       "title": "Backup & Restore",
       "image": "/assets/images/databases/illustrations/backup.png",
-      "description": "To protect your database from any kind of accidental data loss, you will need a disaster recovery solution for your database. KubeDB offers you to Backup & Restore your Oracle Database in Kubernetes via Stash. Stash is seemingly integrated with KubeDB. You can automate this feature to backup your Oracle database in Kubernetes by using Stash."
+      "description": "Configure backup and restore operations using Stash. Users are responsible for validating backup integrity and recovery procedures with their Oracle Database version."
     },
     {
       "title": "Monitoring",
       "image": "/assets/images/databases/illustrations/overview.png",
-      "description": "KubeDB comes with native support for monitoring via Prometheus. You can use builtin Prometheus scrapper or CoreOS Prometheus Operator to monitor your Oracle database in Kubernetes. You can use the Grafana to view key operational metrics, including compute/memory/storage capacity utilization, I/O activity, and instance connections."
+      "description": "Monitor Oracle Database workloads using Prometheus-compatible metrics and visualize them with Grafana dashboards."
     },
     {
-      "title": "Security",
+      "title": "TLS Security",
       "image": "/assets/images/databases/illustrations/security.png",
-      "description": "To secure a database your data needs to go through a cryptographic protocol that provides end-to-end security of the data transmission over the network. You can secure your Oracle Database with TLS using KubeDB. Also, KubeDB allows you to use encrypted storage for your databases using keys you manage through your cloud provider’s key management service."
+      "description": "Enable TLS encryption for Oracle Database network traffic and configure encrypted storage volumes."
     }
   ],
   "example": {
     "apiVersion": "kubedb.com/v1",
     "kind": "Oracle",
     "metadata": {
-      "name": "oracle-demo",
+      "name": "oracledb-demo",
       "namespace": "demo"
     },
     "spec": {
-      "version": "oracle-19c",
-      "enableSSL": true,
-      "replicas": 3,
+      "version": "21.3.0",
+      "edition": "enterprise",
+      "replicas": 1,
       "storageType": "Durable",
       "storage": {
         "storageClassName": "standard",
-        "accessModes": [
-          "ReadWriteOnce"
-        ],
+        "accessModes": ["ReadWriteOnce"],
         "resources": {
           "requests": {
-            "storage": "1Gi"
+            "storage": "10Gi"
           }
         }
       },
+      "imagePullSecrets": ["oracle-registry-cred"],
       "deletionPolicy": "Delete"
     }
-  }
+  },
+  "legalNotice": "Oracle® and Oracle Database® are registered trademarks of Oracle Corporation. KubeDB is not affiliated with, endorsed by, or sponsored by Oracle Corporation. \n\nKubeDB provides only orchestration and management tooling for Kubernetes. It does not distribute, bundle, ship, or include any Oracle Database software or binaries. \n\nUsers must provide their own Oracle container images and hold valid Oracle licenses. Users are solely responsible for compliance with Oracle's licensing terms, including all rules regarding containers, Docker, and Kubernetes environments. \n\nKubeDB makes no representations or warranties regarding Oracle licensing compliance."
 }
