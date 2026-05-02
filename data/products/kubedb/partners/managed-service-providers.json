@@ -1,344 +1,194 @@
 {
   "hero": {
-    "product_color_primary": "#7272E9",
-    "product_icon": "lucide:server",
     "hero_badge": "MSP Program",
-    "hero_title_1": "Deliver Managed Databases",
-    "hero_title_2": "Powered by KubeDB",
-    "hero_description": "Build and operate managed database services on Kubernetes with the full power of KubeDB automation behind you",
-    "primary_action_text": "Become an MSP Partner",
+    "hero_badge_sub": "White-Label • Recurring Revenue • Production Grade",
+    "hero_title_1": "Deliver <span class=\"text-gradient\">Managed DBaaS</span> <br/> on Any Kubernetes",
+    "hero_description": "Give your customers production-grade databases across 25+ engines with full automation, data sovereignty, and white-label branding.",
+    "primary_action_text": "Join the MSP Partner Program",
     "primary_action_url": "#partner-form",
-    "primary_action_icon": "lucide:arrow-right",
-    "secondary_action_text": "Register Deal",
-    "secondary_action_url": "https://x.appscode.com/_/deal_registration",
-    "secondary_action_icon": "lucide:log-in",
-    "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
-    "badge": "MSP Program",
+    "secondary_action_text": "View Technical Overview",
+    "secondary_action_url": "#core-features",
     "badge_icon": "lucide:server",
-    "title_plain": "Deliver Managed Databases",
-    "title_gradient": "Powered by KubeDB",
-    "description": "Build and operate managed database services on Kubernetes with the full power of KubeDB automation behind you",
-    "cta_primary": "Become an MSP Partner",
-    "cta_primary_href": "#partner-form",
-    "cta_secondary": "Partner Login",
-    "cta_secondary_href": "#",
-    "stats": [
-      { "icon": "lucide:globe", "value": "25+", "label": "MSP Partners" },
-      { "icon": "lucide:database", "value": "25+", "label": "Supported DBs" },
-      { "icon": "lucide:trending-up", "value": "200%", "label": "Avg Growth" },
-      { "icon": "lucide:headphones", "value": "24/7", "label": "Partner Support" }
+    "trust_items": [
+      { "icon": "lucide:check-circle-2", "text": "OpenShift Certified" },
+      { "icon": "lucide:check-circle-2", "text": "Rancher Partner" },
+      { "icon": "lucide:award", "text": "Trusted by leading MSPs & CSPs", "highlight": true }
     ]
   },
 
-  "showcase_partners": {
-    "badge": "Cloud Infrastructure",
-    "badge_icon": "lucide:cloud",
-    "title": "Showcase Partners",
-    "description": "Run KubeDB on any major cloud platform",
-    "partners": [
-      {
-        "name": "AWS",
-        "description": "Amazon Web Services",
-        "logo": "/assets/images/partners/showcase/aws.svg",
-        "url": "https://aws.amazon.com/"
-      },
-      {
-        "name": "Azure",
-        "description": "Microsoft Azure",
-        "logo": "/assets/images/partners/showcase/azure.svg",
-        "url": "https://azure.microsoft.com/en-gb/"
-      },
-      {
-        "name": "Google Cloud",
-        "description": "Google Cloud Platform",
-        "logo": "/assets/images/partners/showcase/gcp.svg",
-        "url": "https://cloud.google.com/"
-      }
-    ]
-  },
+  "platform_logos": [
+    {
+      "name": "Red Hat OpenShift",
+      "logo": "/assets/images/products/kubedb/partners/red-hat-openshift.svg"
+    },
+    {
+      "name": "SUSE Rancher",
+      "logo": "/assets/images/products/kubedb/partners/rancher.svg"
+    },
+    {
+      "name": "Nutanix",
+      "logo": "/assets/images/products/kubedb/partners/nutanix.svg"
+    },
+    {
+      "name": "VMware",
+      "logo": "/assets/images/products/kubedb/partners/vmware.svg"
+    },
+    {
+      "name": "Any Kubernetes",
+      "logo": "/assets/images/products/kubedb/partners/kubernetese.svg"
+    }
+  ],
 
-  "technology_partners": {
-    "badge": "Ecosystem",
-    "badge_icon": "lucide:code-2",
-    "title": "Technology Partners",
-    "description": "Trusted partners delivering KubeDB solutions worldwide",
-    "partners": [
+  "why_msp": {
+    "title": "Built for Managed Service Providers",
+    "description": "Offer hyperscaler-grade Database-as-a-Service while keeping full control, branding, and higher margins.",
+    "features": [
       {
-        "name": "Astrokube",
-        "logo": "/assets/images/partners/technology/astrokube.svg",
-        "url": "https://www.astrokube.com/"
-      },
-      {
-        "name": "Cartman Digital",
-        "logo": "/assets/images/partners/technology/cartman-digital.svg",
-        "url": "https://www.cartman.fi/"
-      },
-      {
-        "name": "Dedicatted",
-        "logo": "/assets/images/partners/technology/dedicatted.svg",
-        "url": "https://dedicatted.com/"
-      },
-      {
-        "name": "HongKe",
-        "logo": "/assets/images/partners/technology/hkaco.svg",
-        "url": "https://hkaco.com/"
-      },
-      {
-        "name": "itbigtec",
-        "logo": "/assets/images/partners/technology/itbigtec.png",
-        "url": "https://itbigtec.com/"
-      }
-    ]
-  },
-
-  "partnership_types": {
-    "title": "MSP Partnership Models",
-    "description": "Choose the engagement model that fits your managed service business",
-    "types": [
-      {
-        "icon": "lucide:cloud",
-        "gradient": "blue",
-        "title": "Fully Managed DBaaS",
-        "description": "Offer a white-label database-as-a-service using KubeDB's full lifecycle automation on your cloud infrastructure",
-        "benefits": [
-          "White-label deployment options",
-          "Automated provisioning & scaling",
-          "Built-in backup and restore",
-          "Self-service customer portal"
-        ]
-      },
-      {
-        "icon": "lucide:settings",
-        "gradient": "purple",
-        "title": "Managed Operations",
-        "description": "Take over database operations for your customers using KubeDB tooling to deliver SLA-backed managed services",
-        "benefits": [
-          "Automated day-2 operations",
-          "SLA-backed uptime commitments",
-          "Monitoring and alerting stack",
-          "Incident response playbooks"
-        ]
-      },
-      {
-        "icon": "lucide:layers",
-        "gradient": "green",
-        "title": "Multi-Tenant Platform",
-        "description": "Build a multi-tenant database platform for your customers with KubeDB's enterprise isolation and governance features",
-        "benefits": [
-          "Namespace-level isolation",
-          "Role-based access control",
-          "Resource quota management",
-          "Tenant billing integration"
-        ]
-      },
-      {
-        "icon": "lucide:zap",
-        "gradient": "red",
-        "title": "Hybrid & Edge Managed",
-        "description": "Extend managed database services to customer on-premises and edge environments with consistent KubeDB tooling",
-        "benefits": [
-          "On-premises deployment support",
-          "Edge and air-gapped clusters",
-          "Unified management plane",
-          "Consistent operational tooling"
-        ]
-      }
-    ]
-  },
-
-  "partner_benefits": {
-    "title": "MSP Partner Benefits",
-    "description": "Everything you need to build a profitable managed database service practice",
-    "benefits": [
-      {
-        "icon": "lucide:refresh-cw",
-        "title": "Recurring Revenue",
-        "description": "Build predictable, recurring revenue streams by delivering managed database services month over month"
-      },
-      {
-        "icon": "lucide:cpu",
-        "title": "Full Automation",
-        "description": "Automate provisioning, scaling, backup, restore, and upgrades so your team can focus on value-added services"
-      },
-      {
-        "icon": "lucide:shield-check",
-        "title": "White-Label Options",
-        "description": "Brand the managed database experience as your own with white-label deployment and portal customization"
-      },
-      {
-        "icon": "lucide:headphones",
-        "title": "24/7 Partner Support",
-        "description": "Dedicated technical support and a partner success manager to back your managed service SLAs"
-      },
-      {
-        "icon": "lucide:graduation-cap",
-        "title": "Operational Expertise",
-        "description": "Access deep technical training, runbooks, and architecture guidance to run production-grade database services"
-      },
-      {
-        "icon": "lucide:bar-chart-3",
-        "title": "Business Enablement",
-        "description": "Go-to-market support, pricing guidance, and co-marketing funds to grow your managed services pipeline"
-      }
-    ]
-  },
-
-  "grow_section": {
-    "badge": "MSP Partner Program",
-    "badge_icon": "lucide:server",
-    "title_plain": "Build Your Managed Service",
-    "title_gradient": "with KubeDB",
-    "description": "Leverage KubeDB's automation engine to power your managed database offerings and grow recurring revenue",
-    "partner_models": [
-      {
-        "icon": "lucide:building-2",
-        "gradient": "blue",
-        "title": "Service Delivery",
-        "description": "Use KubeDB's full lifecycle automation to deliver consistent, reliable managed database services at scale",
-        "benefits": [
-          "Automated provisioning",
-          "Day-2 operations automation",
-          "Backup and disaster recovery",
-          "Multi-database support"
-        ]
-      },
-      {
-        "icon": "lucide:cloud",
-        "gradient": "purple",
-        "title": "Platform Operations",
-        "description": "Build a scalable multi-tenant database platform powered by KubeDB's enterprise features",
-        "benefits": [
-          "Multi-tenant isolation",
-          "Centralized management",
-          "Unified monitoring & alerting",
-          "Policy-based governance"
-        ]
+        "icon": "lucide:award",
+        "title": "White-Label Ready",
+        "description": "Deliver fully branded DBaaS to your customers. Your logo, your portal, your pricing.",
+        "gradient": "bg-grad-purple"
       },
       {
         "icon": "lucide:trending-up",
-        "gradient": "green",
-        "title": "Revenue Growth",
-        "description": "Monetize your managed database services with flexible pricing models and upsell opportunities",
-        "benefits": [
-          "Recurring monthly revenue",
-          "Usage-based billing options",
-          "Upsell and expansion motions",
-          "White-label branding"
-        ]
-      }
-    ],
-    "registrations": [
-      {
-        "icon": "lucide:server",
-        "gradient": "primary",
-        "title": "MSP Partner Registration",
-        "description": "Join the KubeDB MSP program and start building your managed database service",
-        "benefits": [
-          "Access to MSP resource portal",
-          "Technical onboarding & training",
-          "White-label deployment options",
-          "Dedicated MSP success manager"
-        ],
-        "cta_text": "Become an MSP Partner",
-        "cta_href": "#partner-form",
-        "cta_style": "primary",
-        "cta_icon": "lucide:server"
+        "title": "Recurring Revenue",
+        "description": "Usage-based metering (RAM/GB) makes it easy to bill customers monthly with predictable margins.",
+        "gradient": "bg-grad-green"
       },
       {
-        "icon": "lucide:file-text",
-        "gradient": "purple",
-        "title": "Deal Registration",
-        "description": "Register your deals for protection and enhanced MSP pricing",
-        "benefits": [
-          "90-day deal protection guarantee",
-          "Priority technical support",
-          "Competitive MSP pricing",
-          "Sales & solution architect assistance"
-        ],
-        "cta_text": "Register a Deal",
-        "cta_href": "#partner-form",
-        "cta_style": "outlined",
-        "cta_icon": "lucide:file-text"
+        "icon": "lucide:lock",
+        "title": "Data Sovereignty",
+        "description": "Run databases anywhere — on-prem, edge, air-gapped, or sovereign clouds — perfect for regulated clients.",
+        "gradient": "bg-grad-orange"
       }
-    ],
-    "deal_process": {
-      "title": "MSP Onboarding Process",
-      "subtitle": "Simple, fast, and transparent",
-      "steps": [
-        {
-          "number": "1",
-          "title": "Apply",
-          "description": "Submit your MSP application"
-        },
-        { "number": "2", "title": "Onboard", "description": "Technical setup & training" },
-        {
-          "number": "3",
-          "title": "Launch",
-          "description": "Go live with first customers"
-        },
-        { "number": "4", "title": "Scale", "description": "Grow recurring revenue" }
-      ]
+    ]
+  },
+
+  "benefits": {
+    "title": "Everything You Need to Succeed",
+    "description": "Complete platform to build and scale your managed database business",
+    "items": [
+      {
+        "icon": "lucide:sparkles",
+        "title": "Complete Platform",
+        "description": "Everything needed to run production DBaaS — monitoring, backups, HA, security, and billing APIs built-in.",
+        "gradient": "bg-grad-blue"
+      },
+      {
+        "icon": "lucide:dollar-sign",
+        "title": "Flexible Monetization",
+        "description": "Built-in metering APIs for RAM, storage, and usage tracking. Bill customers your way with transparent cost allocation.",
+        "gradient": "bg-grad-green"
+      },
+      {
+        "icon": "lucide:target",
+        "title": "Rapid Time-to-Market",
+        "description": "Launch your managed DBaaS offering in weeks, not months. Full technical onboarding and documentation included.",
+        "gradient": "bg-grad-purple"
+      },
+      {
+        "icon": "lucide:shield",
+        "title": "Enterprise Support",
+        "description": "24×7 enterprise support, SLAs, dedicated technical account management, and co-marketing opportunities.",
+        "gradient": "bg-grad-orange"
+      }
+    ]
+  },
+
+  "core_features": {
+    "title": "One Platform. 25+ Databases.",
+    "description": "Full lifecycle automation for production databases",
+    "items": [
+      {
+        "title": "Self-Service Provisioning",
+        "description": "Developers deploy databases instantly via Kubernetes CRDs, CLI, or your branded portal."
+      },
+      {
+        "title": "Automated HA & Failover",
+        "description": "Built-in replication, leader election, and self-healing across any environment."
+      },
+      {
+        "title": "Database-Aware Backups",
+        "description": "Powered by KubeStash — consistent, incremental, encrypted backups to any storage."
+      },
+      {
+        "title": "Multi-Tenancy & RBAC",
+        "description": "Secure tenant isolation, fine-grained access control, and centralized governance."
+      },
+      {
+        "title": "Unified Observability",
+        "description": "Prometheus metrics, Grafana dashboards, and centralized logging for all databases."
+      },
+      {
+        "title": "GitOps & Automation",
+        "description": "Native support for ArgoCD, Flux, and declarative management."
+      }
+    ]
+  },
+
+  "databases": {
+    "title": "Comprehensive Database Support",
+    "description": "25+ database engines managed with Kubernetes-native workflows",
+    "categories": [
+      { "category": "Relational", "engines": "PostgreSQL, MySQL, MariaDB, SQL Server, Percona XtraDB" },
+      { "category": "NoSQL/Document", "engines": "MongoDB, DocumentDB, Cassandra" },
+      { "category": "In-Memory/Cache", "engines": "Redis, Valkey, Memcached" },
+      { "category": "Search", "engines": "Elasticsearch, OpenSearch, Solr" },
+      { "category": "Analytics", "engines": "Druid, ClickHouse, SingleStore" },
+      { "category": "Messaging", "engines": "Kafka, RabbitMQ" },
+      { "category": "Others", "engines": "Hazelcast, ZooKeeper, PgBouncer, ProxySQL" }
+    ]
+  },
+
+  "testimonials": {
+    "title": "Proven MSP Success",
+    "items": [
+      {
+        "quote": "Launched white-label DBaaS for 20,000+ customers in under a month with KubeDB.",
+        "author": "Public Cloud Provider"
+      },
+      {
+        "quote": "10× cost reduction vs MongoDB Atlas while offering better control to our enterprise clients.",
+        "author": "DEDICATTED (IT MSP)"
+      },
+      {
+        "quote": "Telco-grade automation across our entire Kubernetes fleet.",
+        "author": "Orange Telecom"
+      }
+    ]
+  },
+
+  "cta_section": {
+    "left": {
+      "title": "Join the KubeDB MSP Family",
+      "description": "Get Started Today. Try KubeDB for free to learn how you can elevate your MSP offerings with KubeDB's advanced Kubernetes database automation and white-label DBaaS platform.",
+      "cta_text": "Try it Now",
+      "cta_url": "https://kubedb.com/docs/latest/setup/"
+    },
+    "right": {
+      "title": "Connect with us to Learn More",
+      "description": "Reach out for a personalized consultation to request a demo. Learn how KubeDB can be integrated into your service portfolio, and how leading MSPs use KubeDB to deliver value to their clients.",
+      "cta_text": "Contact Us",
+      "cta_url": "https://appscode.com/contact/"
     }
   },
 
   "form": {
-    "badge": "Join Our Ecosystem",
+    "badge": "Join Our MSP Program",
     "badge_icon": "lucide:rocket",
     "title": "Become a KubeDB MSP Partner",
-    "description": "Fill out the form below and our MSP team will contact you within 24 hours",
+    "description": "Fill out the form below and our MSP team will contact you within 24 hours.",
     "action": "#",
     "fields": [
-      {
-        "name": "company_name",
-        "label": "Company Name",
-        "type": "text",
-        "placeholder": "Your Company",
-        "required": true,
-        "icon": ""
-      },
-      {
-        "name": "contact_name",
-        "label": "Contact Name",
-        "type": "text",
-        "placeholder": "John Doe",
-        "required": true,
-        "icon": ""
-      },
-      {
-        "name": "email",
-        "label": "Email Address",
-        "type": "email",
-        "placeholder": "email@company.com",
-        "required": true,
-        "icon": "lucide:mail"
-      },
-      {
-        "name": "phone",
-        "label": "Phone Number",
-        "type": "tel",
-        "placeholder": "+1 (555) 000-0000",
-        "required": false,
-        "icon": "lucide:phone"
-      },
-      {
-        "name": "website",
-        "label": "Company Website",
-        "type": "url",
-        "placeholder": "https://company.com",
-        "required": false,
-        "icon": "lucide:globe"
-      },
-      {
-        "name": "country",
-        "label": "Country",
-        "type": "text",
-        "placeholder": "United States",
-        "required": true,
-        "icon": ""
-      }
+      { "name": "company_name", "label": "Company Name", "type": "text", "placeholder": "Your Company", "required": true, "icon": "" },
+      { "name": "contact_name", "label": "Contact Name", "type": "text", "placeholder": "John Doe", "required": true, "icon": "" },
+      { "name": "email", "label": "Email Address", "type": "email", "placeholder": "email@company.com", "required": true, "icon": "lucide:mail" },
+      { "name": "phone", "label": "Phone Number", "type": "tel", "placeholder": "+1 (555) 000-0000", "required": false, "icon": "lucide:phone" },
+      { "name": "website", "label": "Company Website", "type": "url", "placeholder": "https://company.com", "required": false, "icon": "lucide:globe" },
+      { "name": "country", "label": "Country", "type": "text", "placeholder": "United States", "required": true, "icon": "" }
     ],
     "partner_type_field": {
-      "name": "partner_type",
+      "name": "msp_type",
       "label": "MSP Type",
       "required": true,
       "placeholder": "Select Type",
@@ -353,50 +203,8 @@
       "name": "message",
       "label": "Message",
       "placeholder": "Tell us about your managed service practice and what you'd like to build with KubeDB...",
-      "rows": 5
+      "rows": 4
     },
-    "cta_primary": "Submit Application",
-    "cta_secondary": "Contact Sales",
-    "cta_secondary_icon": "lucide:message-square",
-    "disclaimer": "By submitting this form, you agree to our partner terms and conditions"
-  },
-
-  "cta_section": {
-    "cta_badge": "MSP Program",
-    "cta_title": "Questions About the MSP Program?",
-    "cta_description": "Our MSP team is here to help you design and launch your managed database service",
-    "cta_button_text": "partners@appscode.com",
-    "cta_button_url": "mailto:partners@appscode.com",
-    "cta_checklist": [
-      "Production-grade reliability",
-      "Automated lifecycle management",
-      "Multi-cloud database portability"
-    ],
-    "cta_stats": [
-      {
-        "icon": "lucide:database",
-        "value": "25+",
-        "label": "Databases",
-        "gradient": "linear-gradient(135deg, #6366f1, #a855f7)"
-      },
-      {
-        "icon": "lucide:trending-up",
-        "value": "10K+",
-        "label": "Active Databases",
-        "gradient": "linear-gradient(135deg, #4ade80, #10b981)"
-      },
-      {
-        "icon": "lucide:shield-check",
-        "value": "99.9%",
-        "label": "Response SLA",
-        "gradient": "linear-gradient(135deg, #fb923c, #ef4444)"
-      },
-      {
-        "icon": "lucide:check-circle",
-        "value": "24/7",
-        "label": "Expert Support",
-        "gradient": "linear-gradient(135deg, #a855f7, #ec4899)"
-      }
-    ]
+    "cta_primary": "Submit Application"
   }
 }
