@@ -82,7 +82,7 @@
     "title": "Deal Registration",
     "description": "Register opportunities early and get protected deal status, priority support, and special pricing.",
     "cta_text": "Register a Deal Now",
-    "cta_url": "https://x.appscode.com/_/deal_registration"
+    "cta_url": "https://x.appscode.com/_/deal_registration?p=kubedb"
   },
 
   "featured_partners": {
