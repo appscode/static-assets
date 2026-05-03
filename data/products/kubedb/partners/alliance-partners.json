@@ -94,24 +94,124 @@
       "type": "storage",
       "partners": [
         {
-          "name": "Rook / Ceph",
-          "description": "Cloud-Native Storage",
-          "icon": "lucide:layers"
+          "name": "AWS EBS",
+          "url": "https://github.com/kubernetes-sigs/aws-ebs-csi-driver",
+          "logo": "/assets/images/products/kubedb/storage/aws-ebs.png",
+          "description": "AWS Elastic Block Store CSI driver for high-performance block storage on AWS."
         },
         {
-          "name": "Portworx",
-          "description": "Enterprise Storage",
-          "icon": "lucide:database"
+          "name": "AWS EFS",
+          "url": "https://github.com/aws/aws-efs-csi-driver",
+          "logo": "/assets/images/products/kubedb/storage/aws-efs.png",
+          "description": "AWS Elastic File System CSI driver for scalable shared file storage."
+        },
+        {
+          "name": "Azure Disk",
+          "url": "https://github.com/kubernetes-sigs/azuredisk-csi-driver",
+          "logo": "/assets/images/products/kubedb/storage/azure-disk.svg",
+          "description": "Azure managed disks CSI driver for block storage."
+        },
+        {
+          "name": "Azure File",
+          "url": "https://github.com/kubernetes-sigs/azurefile-csi-driver",
+          "logo": "/assets/images/products/kubedb/storage/azure-file.svg",
+          "description": "Azure Files CSI driver for SMB/NFS shared file storage."
+        },
+        {
+          "name": "Google Persistent Disk",
+          "url": "https://github.com/kubernetes-sigs/gcp-compute-persistent-disk-csi-driver",
+          "logo": "/assets/images/products/kubedb/storage/google-persistent-disk.svg",
+          "description": "Google Compute Engine Persistent Disk CSI driver for block storage on GCP."
+        },
+        {
+          "name": "Ceph",
+          "url": "https://github.com/ceph/ceph-csi",
+          "logo": "/assets/images/products/kubedb/storage/ceph.svg",
+          "description": "Highly scalable open-source distributed storage (RBD block + CephFS file) via Rook or ceph-csi."
+        },
+        {
+          "name": "Rook",
+          "url": "https://rook.io/",
+          "logo": "/assets/images/products/kubedb/storage/rook.svg",
+          "description": "Kubernetes-native orchestrator for Ceph and other storage systems."
+        },
+        {
+          "name": "Longhorn",
+          "url": "https://longhorn.io/",
+          "logo": "/assets/images/products/kubedb/storage/longhorn.png",
+          "description": "Cloud-native distributed block storage built for Kubernetes with easy replication and backups."
         },
         {
           "name": "OpenEBS",
-          "description": "Local & Distributed PVs",
-          "icon": "lucide:hard-drive"
+          "url": "https://openebs.io/",
+          "logo": "/assets/images/products/kubedb/storage/openebs.svg",
+          "description": "Container Attached Storage with multiple engines (LocalPV, Mayastor, etc.)."
         },
         {
-          "name": "Any CSI Storage",
-          "description": "Full Flexibility",
-          "icon": "lucide:plug"
+          "name": "Portworx",
+          "url": "https://portworx.com/",
+          "logo": "/assets/images/products/kubedb/storage/portworx.png",
+          "description": "Enterprise-grade Kubernetes storage with data services, high availability, and security."
+        },
+        {
+          "name": "vSphere CSI (VMware)",
+          "url": "https://github.com/kubernetes-sigs/vsphere-csi-driver",
+          "logo": "/assets/images/products/kubedb/storage/vsphere-csi-vmware.svg",
+          "description": "Official CSI driver for VMware vSphere datastores."
+        },
+        {
+          "name": "Alibaba Cloud",
+          "url": "https://github.com/kubernetes-sigs/alibaba-cloud-csi-driver",
+          "logo": "/assets/images/products/kubedb/storage/alibaba-cloud.svg",
+          "description": "Disk, NAS, and OSS storage for Alibaba Cloud."
+        },
+        {
+          "name": "NFS CSI",
+          "url": "https://github.com/kubernetes-csi/csi-driver-nfs",
+          "logo": "/assets/images/products/kubedb/storage/nfs-csi.svg",
+          "description": "CSI driver for mounting existing NFS servers."
+        },
+        {
+          "name": "LINBIT (DRBD / LINSTOR)",
+          "url": "https://linbit.com/",
+          "logo": "/assets/images/products/kubedb/storage/linbit-drbd-linstor.svg",
+          "description": "High-availability block storage using DRBD and LINSTOR for Kubernetes."
+        },
+        {
+          "name": "Lightbits Labs",
+          "url": "https://www.lightbitslabs.com/",
+          "logo": "/assets/images/products/kubedb/storage/lightbits-labs.svg",
+          "description": "NVMe over TCP disaggregated block storage optimized for Kubernetes and cloud-native workloads."
+        },
+        {
+          "name": "SimplyBlock",
+          "url": "https://simplyblock.io/",
+          "logo": "/assets/images/products/kubedb/storage/simplyblock.svg",
+          "description": "High-performance NVMe-over-TCP cloud-native block storage for Kubernetes."
+        },
+        {
+          "name": "NetApp",
+          "url": "https://www.netapp.com/",
+          "logo": "/assets/images/products/kubedb/storage/netapp.svg",
+          "description": "Enterprise storage with Trident CSI driver for ONTAP, SolidFire, etc."
+        },
+        {
+          "name": "Nutanix",
+          "url": "https://www.nutanix.com/",
+          "logo": "/assets/images/products/kubedb/storage/nutanix.svg",
+          "description": "Hyperconverged infrastructure with native CSI support for block and file storage."
+        },
+        {
+          "name": "Dell Technologies",
+          "url": "https://www.dell.com/",
+          "logo": "/assets/images/products/kubedb/storage/dell-technologies.svg",
+          "description": "CSI drivers for PowerStore, PowerScale, PowerMax, Unity, and PowerFlex."
+        },
+        {
+          "name": "HPE",
+          "url": "https://www.hpe.com/",
+          "logo": "/assets/images/products/kubedb/storage/hpe.svg",
+          "description": "CSI drivers for Alletra, Nimble, Primera, 3PAR, and more."
         }
       ]
     }
