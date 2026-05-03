@@ -100,12 +100,6 @@
           "description": "AWS Elastic Block Store CSI driver for high-performance block storage on AWS."
         },
         {
-          "name": "AWS EFS",
-          "url": "https://github.com/aws/aws-efs-csi-driver",
-          "logo": "/assets/images/products/kubedb/storage/aws-efs.png",
-          "description": "AWS Elastic File System CSI driver for scalable shared file storage."
-        },
-        {
           "name": "Azure Disk",
           "url": "https://github.com/kubernetes-sigs/azuredisk-csi-driver",
           "logo": "/assets/images/products/kubedb/storage/azure-disk.svg",
