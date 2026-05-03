@@ -89,11 +89,11 @@
     "title": "Featured Channel Partners",
     "partners": [
       {
-        "name": "Converge Technology Solutions",
-        "logo": "/assets/images/partners/technology/converge.svg",
+        "name": "Pellera",
+        "logo": "/assets/images/partners/technology/pellera.png",
         "logo_bg": "transparent",
         "logo_padding": "0",
-        "url": "https://convergetp.com/"
+        "url": "https://pellera.com/"
       },
       {
         "name": "SHI",
