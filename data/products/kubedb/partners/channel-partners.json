@@ -89,11 +89,11 @@
     "title": "Featured Channel Partners",
     "partners": [
       {
-        "name": "SoftwareOne",
-        "logo": "/assets/images/products/kubedb/partners/softwareone.svg",
-        "logo_bg": "#253746",
-        "logo_padding": "0.5rem 0.75rem",
-        "url": "https://www.softwareone.com/en"
+        "name": "Converge Technology Solutions",
+        "logo": "/assets/images/partners/technology/converge.svg",
+        "logo_bg": "transparent",
+        "logo_padding": "0",
+        "url": "https://convergetp.com/"
       },
       {
         "name": "SHI",
@@ -101,6 +101,27 @@
         "logo_bg": "transparent",
         "logo_padding": "0",
         "url": "https://www.shi.com/"
+      },
+      {
+        "name": "SoftwareOne",
+        "logo": "/assets/images/products/kubedb/partners/softwareone.svg",
+        "logo_bg": "#253746",
+        "logo_padding": "0.5rem 0.75rem",
+        "url": "https://www.softwareone.com/en"
+      },
+      {
+        "name": "HongKe",
+        "logo": "/assets/images/partners/technology/hkaco.svg",
+        "logo_bg": "transparent",
+        "logo_padding": "0",
+        "url": "https://hkaco.com/"
+      },
+      {
+        "name": "itbigtec",
+        "logo": "/assets/images/partners/technology/itbigtec.png",
+        "logo_bg": "transparent",
+        "logo_padding": "0",
+        "url": "https://itbigtec.com/"
       }
     ]
   },
