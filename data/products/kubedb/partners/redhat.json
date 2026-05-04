@@ -7,7 +7,7 @@
     "hero_description": "Deploy and manage 25+ Production-grade databases as native Kubernetes resources on Red Hat OpenShift. Run production databases with full automation, governance, and portability across on-prem, cloud, edge, and air-gapped environments.",
     "primary_action_text": "View on Red Hat Ecosystem Catalog",
     "primary_action_url": "https://catalog.redhat.com/en/software/container-stacks/detail/6867c6a358efc229b095b8ee",
-    "secondary_action_text": "Joint Solution Brief",
+    "secondary_action_text": "Read the Joint Solution Brief",
     "secondary_action_url": "/solutions-brief/redhat-openshift/",
     "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
     "stats_style": "hero-inline-metrics",
