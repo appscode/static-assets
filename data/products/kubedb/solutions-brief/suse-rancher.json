@@ -1,7 +1,7 @@
 {
-  "title": "KubeDB for SUSE Rancher Joint Solution Brief",
+  "title": "KubeDB for SUSE Rancher<br>Joint Solution Brief",
   "description": "Solutions brief for running KubeDB on SUSE Rancher",
-  "subtitle": "Delivering DBaaS Across Hybrid, Multi-Cloud, and Sovereign Kubernetes Environments",
+  "subtitle": "Multi-Tenant DBaaS for SUSE Rancher Prime • RKE2 • K3s",
   "intro": "KubeDB by AppsCode and SUSE Rancher Prime deliver a Kubernetes-native Database-as-a-Service (DBaaS) platform that enables organizations to run production databases anywhere Kubernetes runs—on-prem, cloud, edge, and air-gapped environments. This joint solution combines SUSE's centralized Kubernetes management with KubeDB's automated database lifecycle management, including provisioning, scaling, high availability, backup, and recovery.",
   "download": {
     "label": "Download PDF",

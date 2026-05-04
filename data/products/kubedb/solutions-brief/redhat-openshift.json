@@ -1,7 +1,7 @@
 {
-  "title": "KubeDB for Red Hat OpenShift Joint Solution Brief",
+  "title": "KubeDB for Red Hat OpenShift<br>Joint Solution Brief",
   "description": "Solutions brief for running KubeDB on Red Hat OpenShift",
-  "subtitle": "Multi-Tenant DBaaS for Red Hat OpenShift",
+  "subtitle": "Multi-Tenant DBaaS for OCP • ROSA • ARO • OSD • OKE • OCP+",
   "intro": "Enterprises running modern applications on Red Hat OpenShift struggle to deliver databases quickly. They must maintain security, governance, and operational control, but are often forced to choose between restrictive cloud-managed services or complex manual Kubernetes operations",
   "download": {
     "label": "Download PDF",
