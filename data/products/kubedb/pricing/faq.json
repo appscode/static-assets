@@ -24,10 +24,6 @@
       "answer": "Yes. If databases are created and destroyed within 30 days (for example, dev or CI/CD clusters), you can use the fully featured Enterprise version free of charge."
     },
     {
-      "question": "What if I need more than 1 TB of memory?",
-      "answer": "For memory usage beyond 1 TB, contact the sales team or your channel partner for a custom quote. Multi-year contracts are also available with custom pricing."
-    },
-    {
       "question": "What's included with the Standard support plan?",
       "answer": "Standard support is included with your license and provides 8x5 business hours coverage, quarterly updates, emergency patches, production runbook guidance, and private Discord chat access."
     },
