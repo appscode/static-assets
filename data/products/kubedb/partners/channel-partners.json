@@ -122,6 +122,13 @@
         "logo_bg": "transparent",
         "logo_padding": "0",
         "url": "https://itbigtec.com/"
+      },
+      {
+        "name": "TSG",
+        "logo": "/assets/images/products/kubedb/partners/tsg-soft365.png",
+        "logo_bg": "transparent",
+        "logo_padding": "0",
+        "url": "https://tsg.net.vn/"
       }
     ]
   },
