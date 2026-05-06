@@ -5,7 +5,7 @@
   "intro": "Enterprises running modern applications on Red Hat OpenShift struggle to deliver databases quickly. They must maintain security, governance, and operational control, but are often forced to choose between restrictive cloud-managed services or complex manual Kubernetes operations",
   "download": {
     "label": "Download PDF",
-    "url": "/files/solutions-brief/rh-openshift-kubedb-solution-brief.pdf",
+    "url": "/files/solution-briefs/rh-openshift-kubedb-solution-brief.pdf",
     "external": false
   },
   "benefits": {
