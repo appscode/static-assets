@@ -8,7 +8,7 @@
     "primary_action_text": "View on SUSE Solutions Catalog",
     "primary_action_url": "https://www.suse.com/pcsc/viewVersionPage?versionID=26551",
     "secondary_action_text": "Read the Joint Solution Brief",
-    "secondary_action_url": "/solutions-brief/suse-rancher/",
+    "secondary_action_url": "/solution-briefs/suse-rancher/",
     "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
     "stats_style": "hero-inline-metrics",
     "stats": [
