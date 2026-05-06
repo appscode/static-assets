@@ -294,7 +294,7 @@
         "icon": "lucide:database"
       },
       {
-        "text": "Run anywhere: SUSE Rancher Prime, RKE2, K3s, SUSE Virtualization",
+        "text": "Run anywhere: SUSE Rancher Prime, RKE2, K3s",
         "icon": "lucide:globe"
       }
     ],
