@@ -55,4 +55,4 @@ parse_url $RELEASE_TRACKER
 api_url="repos/${RELEASE_TRACKER_OWNER}/${RELEASE_TRACKER_REPO}/issues/${RELEASE_TRACKER_PR}/comments"
 # This is the only remote tagged message. We do NOT really tag. We are faking it to the release automaton.
 msg="/tagged github.com/${GITHUB_REPOSITORY}"
-hub api "$api_url" -f body="$msg"
+gh api "$api_url" -f body="$msg"
