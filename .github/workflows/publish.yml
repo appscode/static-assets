@@ -4,58 +4,56 @@ on:
   push:
     branches:
       - master
-
   workflow_dispatch:
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.ref }}
   cancel-in-progress: true
+
+permissions:
+  contents: read
+
 jobs:
   build:
     name: Build
     runs-on: ubuntu-24.04
+    env:
+      GITHUB_USER: 1gtm
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
       - name: Configure S3 CLI
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
-          AWS_S3_ENDPOINT: ${{ secrets.CLOUDFLARE_R2_ENDPOINT }}
         run: |
           echo "install aws cli"
           sudo apt-get -qq update || true
-          sudo apt-get install -y python3-pip
-          pip3 install awscli
+          sudo apt-get install -y awscli
           echo
           echo "configure aws credentials"
           aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
           aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
           aws configure set region us-east-1
           aws configure set s3.signature_version s3v4
-          aws configure set endpoint_url $AWS_S3_ENDPOINT
 
       - name: Prepare git
         env:
-          GITHUB_USER: 1gtm
           GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
         run: |
           git config --global user.name "${GITHUB_USER}"
           git config --global user.email "${GITHUB_USER}@appscode.com"
           git remote set-url origin https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 
-      - name: Install GitHub CLI
-        run: |
-          curl -fsSL https://github.com/github/hub/raw/master/script/get | bash -s 2.14.1
-          sudo mv bin/hub /usr/local/bin
-
       - name: Publish
+        env:
+          AWS_ENDPOINT_URL: ${{ secrets.CLOUDFLARE_R2_ENDPOINT }}
         run: |
           make publish
 
       - name: Update release tracker
         env:
-          GITHUB_USER: 1gtm
           GITHUB_TOKEN: ${{ secrets.LGTM_GITHUB_TOKEN }}
         run: |
           ./hack/scripts/update-release-tracker.sh
