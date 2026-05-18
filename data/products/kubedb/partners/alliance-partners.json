@@ -96,7 +96,7 @@
         {
           "name": "AWS EBS",
           "url": "https://github.com/kubernetes-sigs/aws-ebs-csi-driver",
-          "logo": "/assets/images/products/kubedb/storage/aws-ebs.png",
+          "logo": "/assets/images/products/kubedb/storage/amazon-ebs.svg",
           "description": "AWS Elastic Block Store CSI driver for high-performance block storage on AWS."
         },
         {
@@ -132,7 +132,7 @@
         {
           "name": "Longhorn",
           "url": "https://longhorn.io/",
-          "logo": "/assets/images/products/kubedb/storage/longhorn.png",
+          "logo": "/assets/images/products/kubedb/storage/longhorn.svg",
           "description": "Cloud-native distributed block storage built for Kubernetes with easy replication and backups."
         },
         {
@@ -144,7 +144,7 @@
         {
           "name": "Portworx",
           "url": "https://portworx.com/",
-          "logo": "/assets/images/products/kubedb/storage/portworx.png",
+          "logo": "/assets/images/products/kubedb/storage/portworx.svg",
           "description": "Enterprise-grade Kubernetes storage with data services, high availability, and security."
         },
         {
@@ -162,7 +162,7 @@
         {
           "name": "NFS CSI",
           "url": "https://github.com/kubernetes-csi/csi-driver-nfs",
-          "logo": "/assets/images/products/kubedb/storage/nfs-csi.svg",
+          "logo": "/assets/images/products/kubedb/storage/nfs-csi.png",
           "description": "CSI driver for mounting existing NFS servers."
         },
         {
@@ -186,7 +186,7 @@
         {
           "name": "NetApp",
           "url": "https://www.netapp.com/",
-          "logo": "/assets/images/products/kubedb/storage/netapp.svg",
+          "logo": "/assets/images/products/kubedb/storage/netapp.png",
           "description": "Enterprise storage with Trident CSI driver for ONTAP, SolidFire, etc."
         },
         {
