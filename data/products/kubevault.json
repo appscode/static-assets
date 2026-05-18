@@ -235,8 +235,8 @@
     },
     {
       "version": "v2026.5.14-rc.0",
-      "hostDocs": true,
-      "show": true,
+      "hostDocs": false,
+      "show": false,
       "info": {
         "cli": "v0.25.0-rc.0",
         "installer": "v2026.5.14-rc.0",
@@ -257,8 +257,8 @@
     },
     {
       "version": "v2026.1.8-rc.0",
-      "hostDocs": true,
-      "show": true,
+      "hostDocs": false,
+      "show": false,
       "info": {
         "cli": "v0.24.0-rc.0",
         "installer": "v2026.1.8-rc.0",
