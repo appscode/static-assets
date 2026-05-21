@@ -11,12 +11,6 @@
     "logo": "/assets/images/customers/logos/nokia.png",
     "show": true
   },
-  "greenhouse": {
-    "name": "greenhouse",
-    "website": "#",
-    "logo": "/assets/images/customers/logos/greenhouse.png",
-    "show": true
-  },
   "orange": {
     "name": "Orange",
     "website": "#",
@@ -57,12 +51,6 @@
     "name": "asurion",
     "website": "#",
     "logo": "/assets/images/customers/logos/asurion.png",
-    "show": true
-  },
-  "huma": {
-    "name": "HUMA",
-    "website": "#",
-    "logo": "/assets/images/customers/logos/huma.png",
     "show": true
   },
   "course-hero": {
