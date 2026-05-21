@@ -1,20 +1,8 @@
 {
-  "100-fortune": {
-    "name": "100 Fortune",
-    "website": "#",
-    "logo": "/assets/images/customers/logos/100-fortune.png",
-    "show": true
-  },
   "nokia": {
     "name": "NOKIA",
     "website": "#",
     "logo": "/assets/images/customers/logos/nokia.png",
-    "show": true
-  },
-  "greenhouse": {
-    "name": "greenhouse",
-    "website": "#",
-    "logo": "/assets/images/customers/logos/greenhouse.png",
     "show": true
   },
   "orange": {
@@ -57,12 +45,6 @@
     "name": "asurion",
     "website": "#",
     "logo": "/assets/images/customers/logos/asurion.png",
-    "show": true
-  },
-  "huma": {
-    "name": "HUMA",
-    "website": "#",
-    "logo": "/assets/images/customers/logos/huma.png",
     "show": true
   },
   "course-hero": {
