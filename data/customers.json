@@ -1,4 +1,10 @@
 {
+  "100-fortune": {
+    "name": "100 Fortune",
+    "website": "#",
+    "logo": "/assets/images/customers/logos/100-fortune.png",
+    "show": true
+  },
   "nokia": {
     "name": "NOKIA",
     "website": "#",
@@ -9,12 +15,6 @@
     "name": "Orange",
     "website": "#",
     "logo": "/assets/images/customers/logos/orange.png",
-    "show": true
-  },
-  "umd": {
-    "name": "University of Maryland",
-    "website": "#",
-    "logo": "/assets/images/customers/logos/umd.png",
     "show": true
   },
   "bank-al-etihad": {
