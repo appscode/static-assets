@@ -1,0 +1,78 @@
+{
+  "name": "Oracle",
+  "id": "oracle",
+  "title": "KubeDB Operator for Oracle Database Workloads on Kubernetes",
+  "hero": "/assets/images/databases/illustrations/kc-bg.png",
+  "summary": "Lifecycle Management for Oracle Database in Kubernetes on Public & Private Cloud",
+  "description": "This operator provides automation for provisioning, scaling, backup, and recovery of Oracle Database within Kubernetes environments. It is designed for users who already hold valid Oracle licenses and wish to deploy Oracle Database on Kubernetes while remaining responsible for compliance with Oracle's licensing terms. KubeDB offers Kubernetes-native database management for various database systems.",
+  "keywords": [
+    "Oracle Database",
+    "Kubernetes operator",
+    "Database provisioning",
+    "Backup and recovery",
+    "Volume expansion"
+  ],
+  "features": [
+    {
+      "title": "Provisioning Oracle Database",
+      "image": "/assets/images/databases/illustrations/provisioning.png",
+      "description": "Provision Oracle Database workloads on Kubernetes using standard Kubernetes CLI and API. Users must supply their own validly licensed Oracle container images (e.g., from Oracle Container Registry with proper credentials) and are solely responsible for ensuring full compliance with Oracle's licensing terms, including container/Kubernetes-specific rules."
+    },
+    {
+      "title": "Version Upgrade",
+      "image": "/assets/images/databases/illustrations/version-upgrade.png",
+      "description": "Orchestrate version upgrades for Oracle Database containers following user-defined maintenance windows. Note: Upgrades must comply with Oracle's support policies for containerized deployments."
+    },
+    {
+      "title": "Scaling",
+      "image": "/assets/images/databases/illustrations/scaling.png",
+      "description": "Scale Oracle Database deployments vertically or horizontally within Kubernetes cluster constraints. Scaling depends on Oracle-specific configurations (e.g., Oracle RAC) and licensing."
+    },
+    {
+      "title": "Volume Expansion",
+      "image": "/assets/images/databases/illustrations/volume-expansion.png",
+      "description": "Expand persistent volume claims for Oracle Database storage using Kubernetes-native volume expansion features."
+    },
+    {
+      "title": "Backup & Restore",
+      "image": "/assets/images/databases/illustrations/backup-restore.png",
+      "description": "Configure backup and restore operations using Stash. Users are responsible for validating backup integrity and recovery procedures with their Oracle Database version."
+    },
+    {
+      "title": "Monitoring",
+      "image": "/assets/images/databases/illustrations/monitoring.png",
+      "description": "Monitor Oracle Database workloads using Prometheus-compatible metrics and visualize them with Grafana dashboards."
+    },
+    {
+      "title": "TLS Security",
+      "image": "/assets/images/databases/illustrations/security.png",
+      "description": "Enable TLS encryption for Oracle Database network traffic and configure encrypted storage volumes."
+    }
+  ],
+  "example": {
+    "apiVersion": "kubedb.com/v1",
+    "kind": "Oracle",
+    "metadata": {
+      "name": "oracledb-demo",
+      "namespace": "demo"
+    },
+    "spec": {
+      "version": "21.3.0",
+      "edition": "enterprise",
+      "replicas": 1,
+      "storageType": "Durable",
+      "storage": {
+        "storageClassName": "standard",
+        "accessModes": ["ReadWriteOnce"],
+        "resources": {
+          "requests": {
+            "storage": "10Gi"
+          }
+        }
+      },
+      "imagePullSecrets": ["oracle-registry-cred"],
+      "deletionPolicy": "Delete"
+    }
+  },
+  "legalNotice": "Oracle® and Oracle Database® are registered trademarks of Oracle Corporation. KubeDB is not affiliated with, endorsed by, or sponsored by Oracle Corporation. \n\nKubeDB provides only orchestration and management tooling for Kubernetes. It does not distribute, bundle, ship, or include any Oracle Database software or binaries. \n\nUsers must provide their own Oracle container images and hold valid Oracle licenses. Users are solely responsible for compliance with Oracle's licensing terms, including all rules regarding containers, Docker, and Kubernetes environments. \n\nKubeDB makes no representations or warranties regarding Oracle licensing compliance."
+}

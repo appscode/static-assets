@@ -18,32 +18,32 @@
   "features": [
     {
       "title": "Provisioning",
-      "image": "/assets/images/databases/illustrations/colud-chair.png",
+      "image": "/assets/images/databases/illustrations/provisioning.png",
       "description": "If you can run Kubernetes, you can simply provision Valkey databases using KubeDB. You don’t need to worry about all of the knowledge of Kubernetes Concept, Helm, and Valkey server side setup. KubeDB simplifies the whole process for you. You just have to use standard Kubernetes CLI and API to provision Valkey databases."
     },
     {
       "title": "Version Upgrade",
-      "image": "/assets/images/databases/illustrations/version-control.png",
+      "image": "/assets/images/databases/illustrations/version-upgrade.png",
       "description": "Upgrading the database version in Kubernetes is complicated. Upgrade operation should follow a specific order. KubeDB allows you to upgrade your running Valkey database version without any downtime. You can upgrade your database to any major or minor update of the Redis version"
     },
     {
       "title": "Scaling",
-      "image": "/assets/images/databases/illustrations/scalling.png",
+      "image": "/assets/images/databases/illustrations/scaling.png",
       "description": "To improve your database performance you have to make sure that your database is scalable. KubeDB offers both Vertical and Horizontal Scaling of Valkey databases in Kubernetes. You can simply scale your Valkey cluster in Kubernetes using KubeDB."
     },
     {
       "title": "Volume Expansion",
-      "image": "/assets/images/databases/illustrations/expansion.png",
+      "image": "/assets/images/databases/illustrations/volume-expansion.png",
       "description": "Having options of increasing database volume ensures your database high availability and performance. You can expand your storage capacity of Valkey Database in Kubernetes by using KubeDB."
     },
     {
       "title": "Backup & Restore",
-      "image": "/assets/images/databases/illustrations/backup.png",
+      "image": "/assets/images/databases/illustrations/backup-restore.png",
       "description": "To protect your database from any kind of accidental data loss, you will need a disaster recovery solution for your database. KubeDB offers you to Backup & Restore your Valkey Database in Kubernetes via Stash. Stash is seemingly integrated with KubeDB. You can automate this feature to backup your Valkey database in Kubernetes by using Stash."
     },
     {
       "title": "Monitoring",
-      "image": "/assets/images/databases/illustrations/overview.png",
+      "image": "/assets/images/databases/illustrations/monitoring.png",
       "description": "KubeDB comes with native support for monitoring via Prometheus. You can use builtin Prometheus scrapper or CoreOS Prometheus Operator to monitor your Valkey database in Kubernetes. You can use the Grafana to view key operational metrics, including compute/memory/storage capacity utilization, I/O activity, and instance connections."
     },
     {
