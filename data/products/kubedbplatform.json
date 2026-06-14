@@ -157,12 +157,17 @@
       "show": true
     },
     {
+      "version": "v2026.5.22",
+      "hostDocs": true,
+      "show": true
+    },
+    {
       "version": "v2026.3.30",
       "hostDocs": true,
       "show": true
     }
   ],
-  "latestVersion": "v2026.3.30",
+  "latestVersion": "v2026.5.22",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubedb",
