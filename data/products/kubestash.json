@@ -177,6 +177,15 @@
       "show": true
     },
     {
+      "version": "v2026.6.18-rc.2",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "cli": "v0.27.0-rc.2",
+        "installer": "v2026.6.18-rc.2"
+      }
+    },
+    {
       "version": "v2026.5.18-rc.0",
       "hostDocs": true,
       "show": true,
@@ -408,7 +417,7 @@
       }
     }
   ],
-  "latestVersion": "v2026.5.18-rc.0",
+  "latestVersion": "v2026.4.27",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubestash",
