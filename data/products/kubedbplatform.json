@@ -157,6 +157,15 @@
       "show": true
     },
     {
+      "version": "v2026.6.19",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "kubedb-installer": "v2026.6.19",
+        "kubeops-installer": "v2026.6.19"
+      }
+    },
+    {
       "version": "v2026.5.22",
       "hostDocs": true,
       "show": true
@@ -167,7 +176,7 @@
       "show": true
     }
   ],
-  "latestVersion": "v2026.5.22",
+  "latestVersion": "v2026.6.19",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubedb",
