@@ -38,6 +38,10 @@
     {
       "question": "Do you offer professional services?",
       "answer": "Yes. Professional services are available for implementation and productization directly and via channel partners. Contact sales for a custom quote."
+    },
+    {
+      "question": "How is pricing calculated for air-gapped clusters with no external monitoring?",
+      "answer": "Air-gapped clusters are supported. Contact sales@appscode.com to discuss custom pricing options."
     }
   ]
 }
