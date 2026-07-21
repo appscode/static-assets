@@ -1,0 +1,26 @@
+{
+  "title": "Backup in <em>4 steps</em>",
+  "subtitle": "From zero to automated, encrypted, verified Kubernetes backups — without rewriting your operational runbooks.",
+  "steps": [
+    {
+      "title": "Install the Operator",
+      "description": "Deploy KubeStash via Helm into any Kubernetes cluster — EKS, GKE, AKS, or on-prem. One command, three minutes.",
+      "code": "helm install kubestash …"
+    },
+    {
+      "title": "Define BackupConfiguration",
+      "description": "A single Kubernetes-native CRD declares what to back up, the schedule, retention policy, and which storage backend to use.",
+      "code": "kind: BackupConfiguration"
+    },
+    {
+      "title": "Monitor Sessions",
+      "description": "BackupSession objects give you real-time status, per-component snapshots, and structured events — query with kubectl or your existing observability stack.",
+      "code": "✓ Snapshot verified"
+    },
+    {
+      "title": "Restore Anytime",
+      "description": "Create a RestoreSession for full, granular, or point-in-time recovery. Works across namespaces and clusters.",
+      "code": "kubectl restore --pitr …"
+    }
+  ]
+}

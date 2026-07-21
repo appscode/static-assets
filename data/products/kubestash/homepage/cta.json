@@ -1,0 +1,12 @@
+{
+  "headline": "Ready to protect your Kubernetes workloads?",
+  "description": "KubeStash is free to use on any supported Kubernetes cluster. Deploy in minutes with a 30-day free license.",
+  "cta_primary": "Start Free Trial",
+  "cta_secondary": "Contact Us",
+  "trust_points": [
+    "No credit card required",
+    "Works on any Kubernetes distribution",
+    "Open source core",
+    "Enterprise support available"
+  ]
+}
