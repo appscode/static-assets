@@ -51,8 +51,8 @@
       "title": "Vault Kubernetes Deployment",
       "url": "vault-kubernetes-deployment",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-1.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/vault-kubernetes-deployment.svg",
+        "alt": "Vault Kubernetes Deployment"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/vaultserverversions.svg",
@@ -65,8 +65,8 @@
       "title": "Auto Initialization & Unsealing",
       "url": "auto-initialization-and-unsealing",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-1.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/auto-initialization-and-unsealing.svg",
+        "alt": "Auto Initialization and Unsealing"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/automated-unsealing.svg",
@@ -79,8 +79,8 @@
       "title": "Vault Backup & Restore",
       "url": "vault-backup-restore",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-6.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/vault-backup-restore.svg",
+        "alt": "Vault Backup and Restore"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/vault-backup-restore.svg",
@@ -93,8 +93,8 @@
       "title": "Consume KubeVault Secrets with CSI",
       "url": "consume-kubevault-secrets-with-csi",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-5.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/consume-kubevault-secrets-with-csi.svg",
+        "alt": "Consume KubeVault Secrets with CSI"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/secrets.svg",
@@ -107,8 +107,8 @@
       "title": "Manage DB Users Privileges",
       "url": "manage-db-users-privileges",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/manage-db-users-privileges.svg",
+        "alt": "Manage DB Users Privileges"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/database-users.svg",
@@ -121,8 +121,8 @@
       "title": "Storage Backend",
       "url": "storage-backend",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-2.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/storage-backend.svg",
+        "alt": "Storage Backend"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/storageclasses.svg",
@@ -135,8 +135,8 @@
       "title": "Authentication Method",
       "url": "authentication-method",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-3.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/authentication-method.svg",
+        "alt": "Authentication Method"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/auth.svg",
@@ -149,8 +149,8 @@
       "title": "Database Secret Engine",
       "url": "database-secret-engine",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/database-secret-engine.svg",
+        "alt": "Database Secret Engine"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/database-view.png",
@@ -163,8 +163,8 @@
       "title": "Azure Secret Engine",
       "url": "azure-secret-engine",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/azure-secret-engine.svg",
+        "alt": "Azure Secret Engine"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/azure.png",
@@ -177,8 +177,8 @@
       "title": "AWS Secret Engine",
       "url": "aws-secret-engine",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/aws-secret-engine.svg",
+        "alt": "AWS Secret Engine"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/aws.png",
@@ -191,8 +191,8 @@
       "title": "GCP Secret Engine",
       "url": "gcp-secret-engine",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/gcp-secret-engine.svg",
+        "alt": "GCP Secret Engine"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/google-cloud.png",
@@ -205,8 +205,8 @@
       "title": "Kubectl Plugin",
       "url": "kubectl-plugin",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-6.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/kubectl-plugin.svg",
+        "alt": "Kubectl Plugin"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/plugin.svg",
