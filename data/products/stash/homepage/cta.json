@@ -1,0 +1,12 @@
+{
+  "headline": "Run and manage backups on Kubernetes — free!",
+  "description": "Stash is free to use on any supported Kubernetes cluster, with a 30-day complimentary license available for trial.",
+  "cta_primary": "Try Now Free",
+  "cta_secondary": "Contact Us",
+  "trust_points": [
+    "No credit card required",
+    "Works on any public or private cloud",
+    "Open source core",
+    "Enterprise support available"
+  ]
+}

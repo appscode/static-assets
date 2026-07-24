@@ -1,0 +1,5 @@
+{
+  "title": "Built for <em>Kubernetes-native</em> disaster recovery",
+  "subtitle": "A complete disaster recovery solution for backing up and restoring volumes and databases in Kubernetes, on any public or private cloud.",
+  "tags": ["Core", "Volumes", "Databases", "Storage", "Performance", "Security"]
+}

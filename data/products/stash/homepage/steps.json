@@ -1,0 +1,26 @@
+{
+  "title": "Backup in <em>4 steps</em>",
+  "subtitle": "A complete Kubernetes-native disaster recovery workflow for your volumes and databases, on any public or private cloud.",
+  "steps": [
+    {
+      "title": "Install the Operator",
+      "description": "Deploy Stash via Helm into any Kubernetes cluster — EKS, GKE, AKS, or on-prem. One command, a few minutes.",
+      "code": "helm install stash …"
+    },
+    {
+      "title": "Define BackupConfiguration",
+      "description": "A single Kubernetes-native CRD declares the target workload or database, the backup schedule, retention policy, and which storage Repository to use.",
+      "code": "kind: BackupConfiguration"
+    },
+    {
+      "title": "Monitor Sessions",
+      "description": "BackupSession objects give you real-time status, per-host snapshots, and structured events — query with kubectl or your existing Prometheus/Grafana stack.",
+      "code": "✓ Backup completed"
+    },
+    {
+      "title": "Restore Anytime",
+      "description": "Create a RestoreSession for full or selective recovery of databases and volumes. Works across namespaces and clusters.",
+      "code": "kind: RestoreSession"
+    }
+  ]
+}
