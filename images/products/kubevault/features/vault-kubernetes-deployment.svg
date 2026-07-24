@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 360" fill="none" role="img" aria-label="Vault Kubernetes Deployment">
+  <defs>
+    <radialGradient id="kvGlowTR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#CFE0FB" stop-opacity="0.9"/><stop offset="40%" stop-color="#DCE8FD" stop-opacity="0.5"/>
+      <stop offset="75%" stop-color="#EAF1FE" stop-opacity="0.14"/><stop offset="100%" stop-color="#EAF1FE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kvGlowBL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#BFD6FA" stop-opacity="0.85"/><stop offset="40%" stop-color="#D3E1FC" stop-opacity="0.45"/>
+      <stop offset="75%" stop-color="#E6EFFE" stop-opacity="0.12"/><stop offset="100%" stop-color="#E6EFFE" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="kvSoften" x="-120" y="-120" width="720" height="620" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="22"/></filter>
+    <radialGradient id="spotBlue" cx="50%" cy="46%" r="52%">
+      <stop offset="0%" stop-color="#8FB6FA" stop-opacity="0.55"/><stop offset="55%" stop-color="#B9D2FB" stop-opacity="0.22"/><stop offset="100%" stop-color="#B9D2FB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spotWhite" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/><stop offset="60%" stop-color="#FFFFFF" stop-opacity="0.3"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="vframe" x1="0.2" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#4C7CE8"/><stop offset="100%" stop-color="#173A82"/>
+    </linearGradient>
+    <linearGradient id="vface" x1="0.15" y1="0" x2="0.55" y2="1">
+      <stop offset="0%" stop-color="#6EA0F9"/><stop offset="50%" stop-color="#3F73E4"/><stop offset="100%" stop-color="#254FAC"/>
+    </linearGradient>
+    <linearGradient id="vsheen" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="30%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="vdoor" x1="0.1" y1="0" x2="0.4" y2="1">
+      <stop offset="0%" stop-color="#CBDCF7"/><stop offset="34%" stop-color="#E9F1FE"/><stop offset="100%" stop-color="#FAFCFF"/>
+    </linearGradient>
+    <linearGradient id="vdoorTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7191CE" stop-opacity="0.6"/><stop offset="100%" stop-color="#7191CE" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="vglass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vdial" cx="36%" cy="28%" r="82%">
+      <stop offset="0%" stop-color="#FFFFFF"/><stop offset="50%" stop-color="#E1EBFA"/><stop offset="100%" stop-color="#AEC6ED"/>
+    </radialGradient>
+    <radialGradient id="dialGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4C84F1" stop-opacity="0.4"/><stop offset="100%" stop-color="#4C84F1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="vshield" x1="0.2" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#3BDC74"/><stop offset="100%" stop-color="#0E8A43"/>
+    </linearGradient>
+    <radialGradient id="shieldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22C55E" stop-opacity="0.6"/><stop offset="100%" stop-color="#22C55E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="vnode" x1="0.2" y1="0" x2="0.6" y2="1">
+      <stop offset="0%" stop-color="#6EA0F9"/><stop offset="100%" stop-color="#2A5FCF"/>
+    </linearGradient>
+    <filter id="dropBig" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#14337A" flood-opacity="0.34"/></filter>
+    <filter id="dropSm" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#14337A" flood-opacity="0.3"/></filter>
+    <filter id="blurS" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+
+  <!-- background -->
+  <circle cx="402" cy="46" r="188" fill="url(#kvGlowTR)" filter="url(#kvSoften)"/>
+  <circle cx="52" cy="322" r="150" fill="url(#kvGlowBL)" filter="url(#kvSoften)"/>
+  <circle cx="420" cy="300" r="4" fill="#BFD6FA"/><circle cx="34" cy="66" r="3" fill="#8FB4F2"/>
+
+  <!-- layered spotlight behind subject -->
+  <ellipse cx="228" cy="188" rx="170" ry="156" fill="url(#spotWhite)"/>
+  <ellipse cx="228" cy="190" rx="120" ry="118" fill="url(#spotBlue)"/>
+
+  <!-- k8s helm wheel watermark -->
+  <g opacity="0.4" transform="translate(230 172)" stroke="#A2C1F5" stroke-width="3" stroke-linejoin="round">
+    <polygon points="0,-116 100,-58 100,58 0,116 -100,58 -100,-58" fill="none"/>
+    <circle r="29" fill="none"/>
+    <g stroke-linecap="round">
+      <line x1="0" y1="-29" x2="0" y2="-102"/><line x1="25" y1="15" x2="88" y2="51"/><line x1="-25" y1="15" x2="-88" y2="51"/>
+      <line x1="26" y1="-8" x2="90" y2="-44"/><line x1="-26" y1="-8" x2="-90" y2="-44"/><line x1="0" y1="29" x2="0" y2="70"/>
+    </g>
+  </g>
+
+  <!-- sparkles -->
+  <g fill="#7FB0F5"><circle cx="360" cy="118" r="2.6"/><circle cx="120" cy="150" r="2"/></g>
+  <path d="M336 86 l0 12 M330 92 l12 0" stroke="#9DBBF0" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="150" cy="98" r="6" fill="none" stroke="#B9D2FB" stroke-width="2"/>
+
+  <!-- contact shadow -->
+  <ellipse cx="230" cy="300" rx="102" ry="17" fill="#1A3E92" opacity="0.22" filter="url(#blurS)"/>
+
+  <!-- vault with 3D bevel -->
+  <g filter="url(#dropBig)">
+    <rect x="164" y="280" width="22" height="20" rx="5" fill="#12306E"/>
+    <rect x="274" y="280" width="22" height="20" rx="5" fill="#12306E"/>
+    <!-- outer frame (darker, gives thickness) -->
+    <rect x="148" y="114" width="164" height="172" rx="24" fill="url(#vframe)"/>
+    <!-- inner front face (raised bevel) -->
+    <rect x="156" y="122" width="148" height="156" rx="18" fill="url(#vface)"/>
+    <rect x="156" y="122" width="148" height="156" rx="18" fill="url(#vsheen)"/>
+    <!-- top rim light -->
+    <rect x="160" y="123" width="140" height="4" rx="2" fill="#9CC0FB" opacity="0.7"/>
+  </g>
+
+  <!-- door -->
+  <rect x="172" y="138" width="116" height="124" rx="14" fill="url(#vdoor)" filter="url(#dropSm)"/>
+  <rect x="172" y="138" width="116" height="28" rx="14" fill="url(#vdoorTop)"/>
+  <rect x="172.5" y="138.5" width="115" height="123" rx="13.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1"/>
+  <!-- glass reflection streak -->
+  <path d="M182 138 h26 l-40 124 h-24 Z" fill="url(#vglass)" opacity="0.5"/>
+  <!-- corner bolts -->
+  <g><circle cx="186" cy="152" r="4.6" fill="#B7CCEE"/><circle cx="184.6" cy="150.6" r="1.7" fill="#FFFFFF"/></g>
+  <g><circle cx="274" cy="152" r="4.6" fill="#B7CCEE"/><circle cx="272.6" cy="150.6" r="1.7" fill="#FFFFFF"/></g>
+  <g><circle cx="186" cy="248" r="4.6" fill="#B7CCEE"/><circle cx="184.6" cy="246.6" r="1.7" fill="#FFFFFF"/></g>
+  <g><circle cx="274" cy="248" r="4.6" fill="#B7CCEE"/><circle cx="272.6" cy="246.6" r="1.7" fill="#FFFFFF"/></g>
+
+  <!-- dial -->
+  <circle cx="230" cy="200" r="42" fill="url(#dialGlow)"/>
+  <circle cx="230" cy="200" r="36" fill="url(#vdial)"/>
+  <circle cx="230" cy="200" r="36" fill="none" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="1.5"/>
+  <circle cx="230" cy="200" r="25" fill="none" stroke="#3F73E4" stroke-width="5"/>
+  <path d="M211 181 A26 26 0 0 1 251 184" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="3.2" stroke-linecap="round"/>
+  <g stroke="#9FB8E2" stroke-width="2.4" stroke-linecap="round">
+    <line x1="230" y1="168" x2="230" y2="177"/><line x1="230" y1="223" x2="230" y2="232"/>
+    <line x1="198" y1="200" x2="207" y2="200"/><line x1="253" y1="200" x2="262" y2="200"/>
+  </g>
+  <circle cx="230" cy="200" r="9.5" fill="#2A5FCF"/><circle cx="226.6" cy="196.6" r="2.8" fill="#9BBAF3"/>
+  <rect x="224" y="197" width="48" height="6.5" rx="3.25" fill="#2A5FCF" transform="rotate(45 230 200)"/>
+
+  <!-- TLS shield -->
+  <g transform="translate(300 212)">
+    <ellipse cx="27" cy="31" rx="38" ry="33" fill="url(#shieldGlow)"/>
+    <g filter="url(#dropSm)">
+      <path d="M27 -3 L54 8 V29 C54 47 41 58 27 63 C13 58 0 47 0 29 V8 Z" fill="url(#vshield)"/>
+    </g>
+    <path d="M27 -3 L54 8 V29 C54 47 41 58 27 63 C13 58 0 47 0 29 V8 Z" fill="none" stroke="#FFFFFF" stroke-opacity="0.6" stroke-width="1.5"/>
+    <path d="M27 -3 L54 8 V23 C41 14 22 12 7 21 L1 12 V8 Z" fill="#FFFFFF" opacity="0.16"/>
+    <path d="M16 30 l8 8 l14 -16" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- deployment nodes -->
+  <line x1="152" y1="327" x2="308" y2="327" stroke="#A7C6F5" stroke-width="2.5"/>
+  <g filter="url(#dropSm)">
+    <rect x="130" y="316" width="23" height="23" rx="7" fill="url(#vnode)"/>
+    <rect x="218" y="316" width="23" height="23" rx="7" fill="url(#vnode)"/>
+    <rect x="307" y="316" width="23" height="23" rx="7" fill="url(#vnode)"/>
+  </g>
+  <g fill="#FFFFFF"><circle cx="141.5" cy="327.5" r="3.2"/><circle cx="229.5" cy="327.5" r="3.2"/><circle cx="318.5" cy="327.5" r="3.2"/></g>
+  <g fill="#FFFFFF" opacity="0.4"><rect x="134" y="319" width="10" height="3" rx="1.5"/><rect x="222" y="319" width="10" height="3" rx="1.5"/><rect x="311" y="319" width="10" height="3" rx="1.5"/></g>
+</svg>

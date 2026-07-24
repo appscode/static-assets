@@ -1,0 +1,26 @@
+{
+  "title": "Ingress in <em>4 steps</em>",
+  "subtitle": "A Kubernetes-native ingress workflow built on HAProxy — with automatic TLS and load balancing out of the box.",
+  "steps": [
+    {
+      "title": "Install the Operator",
+      "description": "Deploy Voyager via Helm into any Kubernetes cluster — EKS, GKE, AKS, or bare metal. One command, a few minutes.",
+      "code": "helm install voyager …"
+    },
+    {
+      "title": "Define an Ingress",
+      "description": "A single Ingress CRD declares your HTTP and TCP routing rules, backend services, and load balancer type — provisioned automatically as HAProxy.",
+      "code": "kind: Ingress"
+    },
+    {
+      "title": "Issue TLS Certificates",
+      "description": "Create a Certificate resource to get free SSL certificates from Let's Encrypt via HTTP or DNS challenge, or bring your own SANS/ACM certificates.",
+      "code": "kind: Certificate"
+    },
+    {
+      "title": "Monitor & Scale",
+      "description": "Built-in Prometheus metrics expose HAProxy stats out of the box — query with kubectl or your existing observability stack.",
+      "code": "✓ Ingress healthy"
+    }
+  ]
+}

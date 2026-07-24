@@ -1,0 +1,12 @@
+{
+  "headline": "Keep configs in sync — free!",
+  "description": "Config Syncer is free to use on any supported Kubernetes cluster, with a 30-day complimentary license available for trial.",
+  "cta_primary": "Try Now Free",
+  "cta_secondary": "Contact Us",
+  "trust_points": [
+    "No credit card required",
+    "Works across namespaces and clusters",
+    "Open source core",
+    "Enterprise support available"
+  ]
+}

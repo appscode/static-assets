@@ -1,0 +1,5 @@
+{
+  "title": "Built for <em>production-grade</em> ingress",
+  "subtitle": "A secure, Kubernetes-native ingress controller built on HAProxy — with automatic TLS, load balancing, and observability out of the box.",
+  "tags": ["Core", "Security", "Deployment", "Performance", "Observability", "Certificates"]
+}

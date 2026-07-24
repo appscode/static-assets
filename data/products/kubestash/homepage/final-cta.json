@@ -1,0 +1,19 @@
+{
+  "badge": "Start Protecting Today",
+  "title_plain": "Ready to Safeguard Your",
+  "title_gradient": "Kubernetes Workloads?",
+  "description": "Join platform teams running encrypted, verified, disaster-recovery-ready backups for databases and volumes on Kubernetes with KubeStash.",
+  "checklist": [
+    "Encrypted, deduplicated backups by default",
+    "Multi-cloud & on-prem storage portability",
+    "Point-in-time recovery for databases & volumes"
+  ],
+  "cta_primary": "Start Free Trial",
+  "cta_secondary": "Talk to Sales",
+  "stats": [
+    { "icon": "lucide:hard-drive-download", "value": "12+", "label": "Storage Backends", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
+    { "icon": "lucide:shield-check", "value": "AES-256", "label": "Backup Encryption", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
+    { "icon": "lucide:history", "value": "PITR", "label": "Point-in-Time Recovery", "gradient": "linear-gradient(135deg, #c084fc, #ec4899)" },
+    { "icon": "lucide:life-buoy", "value": "24/7", "label": "Expert Support", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
+  ]
+}

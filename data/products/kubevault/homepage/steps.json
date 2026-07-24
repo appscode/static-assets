@@ -1,0 +1,26 @@
+{
+  "title": "Vault on Kubernetes in <em>4 steps</em>",
+  "subtitle": "A Git-Ops-ready workflow for deploying, unsealing, and operating HashiCorp Vault — declared entirely with Kubernetes-native CRDs.",
+  "steps": [
+    {
+      "title": "Install the Operator",
+      "description": "Deploy KubeVault via Helm into any Kubernetes cluster — EKS, GKE, AKS, or on-prem. One command, a few minutes.",
+      "code": "helm install kubevault …"
+    },
+    {
+      "title": "Deploy a VaultServer",
+      "description": "A single VaultServer CRD provisions a TLS-secured HashiCorp Vault that is automatically initialized and unsealed using your cloud KMS or a Kubernetes secret.",
+      "code": "kind: VaultServer"
+    },
+    {
+      "title": "Enable Secret Engines",
+      "description": "Declare SecretEngine and role CRDs to issue short-lived, dynamic credentials for AWS, Azure, GCP, and databases — no static secrets to rotate.",
+      "code": "kind: SecretEngine"
+    },
+    {
+      "title": "Request Secrets Securely",
+      "description": "Workloads get scoped, audited access through SecretAccessRequest and the Secrets Store CSI Driver — secrets are delivered straight into pods.",
+      "code": "kind: SecretAccessRequest"
+    }
+  ]
+}

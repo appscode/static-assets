@@ -1,0 +1,65 @@
+<svg viewBox="0 0 500 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A database being copied into a point-in-time backup, marked by a clock">
+  <!-- soft background depth -->
+  <defs>
+    <radialGradient id="illGlowTR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E9DCFF" stop-opacity="0.85"/>
+      <stop offset="20%" stop-color="#EBDFFF" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#EEE5FF" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#F1EAFF" stop-opacity="0.3"/>
+      <stop offset="80%" stop-color="#F4F0FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F5F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="illGlowBL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DBC8FF" stop-opacity="0.75"/>
+      <stop offset="20%" stop-color="#DFCEFF" stop-opacity="0.62"/>
+      <stop offset="40%" stop-color="#E4D6FF" stop-opacity="0.44"/>
+      <stop offset="60%" stop-color="#E9DEFF" stop-opacity="0.26"/>
+      <stop offset="80%" stop-color="#EDE5FF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#EDE5FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="illSoften" x="-100" y="-100" width="700" height="480" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <circle cx="424" cy="60" r="165" fill="url(#illGlowTR)" filter="url(#illSoften)"/>
+  <circle cx="55" cy="248" r="135" fill="url(#illGlowBL)" filter="url(#illSoften)"/>
+  <circle cx="472" cy="238" r="4" fill="#D9CCFF"/>
+  <circle cx="26" cy="64" r="3" fill="#B899F7"/>
+
+  <!-- ground shadow -->
+  <ellipse cx="150" cy="224" rx="72" ry="12" fill="#1E0D42" opacity="0.05"/>
+
+  <!-- the database: tall, slender, tabular (distinct from the wide layered volume icon) -->
+  <ellipse cx="150" cy="85" rx="27" ry="10" fill="#8355D6"/>
+  <path d="M123 85V210A27 10 0 0 0 177 210V85" fill="#6633BB"/>
+  <path d="M123 112A27 10 0 0 0 177 112" stroke="#FFFFFF" stroke-width="1.2" fill="none" opacity="0.3"/>
+  <path d="M123 134A27 10 0 0 0 177 134" stroke="#FFFFFF" stroke-width="1.2" fill="none" opacity="0.3"/>
+  <path d="M123 156A27 10 0 0 0 177 156" stroke="#FFFFFF" stroke-width="1.2" fill="none" opacity="0.3"/>
+  <path d="M123 178A27 10 0 0 0 177 178" stroke="#FFFFFF" stroke-width="1.2" fill="none" opacity="0.3"/>
+  <path d="M123 200A27 10 0 0 0 177 200" stroke="#FFFFFF" stroke-width="1.2" fill="none" opacity="0.3"/>
+
+  <!-- flow: point-in-time copies leaving the database -->
+  <path d="M181 128Q290 93 348 128" stroke="#C4B5FD" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-dasharray="1 7"/>
+  <path d="M341 120l10 8-8 10" stroke="#C4B5FD" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="225" y="98" width="7" height="7" rx="1.6" fill="#C4B5FD" opacity="0.85" transform="rotate(20 228.5 101.5)"/>
+  <rect x="288" y="90" width="6" height="6" rx="1.4" fill="#A78BFA" opacity="0.85" transform="rotate(-15 291 93)"/>
+
+  <!-- an earlier snapshot, peeking behind the latest one -->
+  <ellipse cx="378" cy="100" rx="24" ry="8" fill="#C4B5FD" opacity="0.6"/>
+  <path d="M354 100V138A24 8 0 0 0 402 138V100" fill="#A78BFA" opacity="0.6"/>
+
+  <!-- the backup itself: an explicit icon, not just a checkmark -->
+  <!-- a saved copy of the database ... -->
+  <ellipse cx="400" cy="118" rx="30" ry="11" fill="#8355D6"/>
+  <path d="M370 118V172A30 11 0 0 0 430 172V118" fill="#6633BB"/>
+  <path d="M370 145A30 11 0 0 0 430 145" stroke="#FFFFFF" stroke-width="1.3" fill="none" opacity="0.3"/>
+
+  <!-- ... taken at a point in time: the clock is the backup signifier -->
+  <circle cx="428" cy="172" r="19" fill="#6633BB" stroke="#FFFFFF" stroke-width="3"/>
+  <path d="M428 172V163" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M428 172L435 168" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- sparkle accents -->
+  <path d="M452 95l1.4 4.6 4.6 1.4-4.6 1.4-1.4 4.6-1.4-4.6-4.6-1.4 4.6-1.4Z" fill="#C4B5FD"/>
+  <path d="M30 45l1 3.2 3.2 1-3.2 1-1 3.2-1-3.2-3.2-1 3.2-1Z" fill="#D9CCFF"/>
+</svg>

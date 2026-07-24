@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "number": "10+",   "label": "Database Engines" },
+    { "number": "10+",   "label": "Storage Backends" },
+    { "number": "1.4K+", "label": "GitHub Stars" },
+    { "number": "11M+",  "label": "Docker Pulls" }
+  ]
+}

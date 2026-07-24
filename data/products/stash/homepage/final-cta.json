@@ -1,0 +1,19 @@
+{
+  "badge": "Start Protecting Today",
+  "title_plain": "Ready to Safeguard Your",
+  "title_gradient": "Databases & Volumes?",
+  "description": "Join platform teams at Asurion, Emerson, Nokia, and Orange running encrypted, deduplicated, disaster-recovery-ready backups for databases and volumes on Kubernetes with Stash.",
+  "checklist": [
+    "Encrypted (AES-256), deduplicated backups by default",
+    "Multi-cloud & on-prem storage portability",
+    "30-day free license, no credit card required"
+  ],
+  "cta_primary": "Try Now Free",
+  "cta_secondary": "Get in Touch",
+  "stats": [
+    { "icon": "lucide:hard-drive-download", "value": "10+", "label": "Storage Backends", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
+    { "icon": "lucide:shield-check", "value": "AES-256", "label": "Backup Encryption", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
+    { "icon": "lucide:git-compare", "value": "CDC", "label": "Deduplication", "gradient": "linear-gradient(135deg, #c084fc, #ec4899)" },
+    { "icon": "lucide:life-buoy", "value": "24/7", "label": "Expert Support", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
+  ]
+}

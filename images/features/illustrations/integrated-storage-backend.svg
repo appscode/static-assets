@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 360" fill="none" role="img" aria-label="Integrated Storage Backend">
+  <defs>
+    <radialGradient id="kvGlowTR" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#CFE0FB" stop-opacity="0.9"/><stop offset="40%" stop-color="#DCE8FD" stop-opacity="0.5"/><stop offset="75%" stop-color="#EAF1FE" stop-opacity="0.14"/><stop offset="100%" stop-color="#EAF1FE" stop-opacity="0"/></radialGradient>
+    <radialGradient id="kvGlowBL" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#BFD6FA" stop-opacity="0.85"/><stop offset="40%" stop-color="#D3E1FC" stop-opacity="0.45"/><stop offset="75%" stop-color="#E6EFFE" stop-opacity="0.12"/><stop offset="100%" stop-color="#E6EFFE" stop-opacity="0"/></radialGradient>
+    <filter id="kvSoften" x="-120" y="-120" width="720" height="620" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="22"/></filter>
+    <radialGradient id="spotWhite" cx="50%" cy="46%" r="55%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/><stop offset="62%" stop-color="#FFFFFF" stop-opacity="0.25"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="node" x1="0.2" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#6EA0F9"/><stop offset="100%" stop-color="#254FAC"/></linearGradient>
+    <linearGradient id="nodeLead" x1="0.2" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#FFD463"/><stop offset="100%" stop-color="#E39A00"/></linearGradient>
+    <radialGradient id="leadGlow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FBC63F" stop-opacity="0.6"/><stop offset="100%" stop-color="#FBC63F" stop-opacity="0"/></radialGradient>
+    <filter id="dropBig" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#14337A" flood-opacity="0.28"/></filter>
+  </defs>
+  <circle cx="402" cy="46" r="188" fill="url(#kvGlowTR)" filter="url(#kvSoften)"/>
+  <circle cx="52" cy="322" r="150" fill="url(#kvGlowBL)" filter="url(#kvSoften)"/>
+  <circle cx="420" cy="300" r="4" fill="#BFD6FA"/><circle cx="34" cy="66" r="3" fill="#8FB4F2"/>
+  <ellipse cx="230" cy="196" rx="184" ry="150" fill="url(#spotWhite)"/>
+
+  <!-- replication ring connecting 5 vault nodes -->
+  <circle cx="230" cy="196" r="112" fill="none" stroke="#9DBBF0" stroke-width="2.6" stroke-dasharray="1 9"/>
+
+  <!-- leader node (top, amber) -->
+  <g transform="translate(230 84)">
+    <circle r="42" fill="url(#leadGlow)"/>
+    <g filter="url(#dropBig)"><rect x="-30" y="-26" width="60" height="52" rx="14" fill="url(#nodeLead)"/></g>
+    <rect x="-30" y="-26" width="60" height="18" rx="9" fill="#FFFFFF" opacity="0.22"/>
+    <circle cx="0" cy="4" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+    <text x="0" y="34" font-family="'Segoe UI',system-ui,sans-serif" font-size="10" font-weight="800" fill="#254FAC" text-anchor="middle">LEADER</text>
+  </g>
+
+  <!-- 4 follower nodes -->
+  <g transform="translate(340 152)">
+    <g filter="url(#dropBig)"><rect x="-26" y="-22" width="52" height="46" rx="13" fill="url(#node)"/></g>
+    <circle cx="0" cy="2" r="9" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="2.6"/>
+  </g>
+  <g transform="translate(340 250)">
+    <g filter="url(#dropBig)"><rect x="-26" y="-22" width="52" height="46" rx="13" fill="url(#node)"/></g>
+    <circle cx="0" cy="2" r="9" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="2.6"/>
+  </g>
+  <g transform="translate(120 250)">
+    <g filter="url(#dropBig)"><rect x="-26" y="-22" width="52" height="46" rx="13" fill="url(#node)"/></g>
+    <circle cx="0" cy="2" r="9" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="2.6"/>
+  </g>
+  <g transform="translate(120 152)">
+    <g filter="url(#dropBig)"><rect x="-26" y="-22" width="52" height="46" rx="13" fill="url(#node)"/></g>
+    <circle cx="0" cy="2" r="9" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="2.6"/>
+  </g>
+
+  <!-- data replication pulses from leader -->
+  <g stroke="#FBC63F" stroke-width="2.4" stroke-linecap="round" opacity="0.85">
+    <path d="M258 100 L322 138"/><path d="M258 292 L322 264"/><path d="M202 292 L138 264"/><path d="M202 100 L138 138"/>
+  </g>
+  <text x="230" y="330" font-family="'DejaVu Sans Mono','Courier New',monospace" font-size="12" font-weight="700" fill="#254FAC" text-anchor="middle">Raft Consensus</text>
+</svg>

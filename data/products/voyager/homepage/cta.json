@@ -1,0 +1,12 @@
+{
+  "headline": "Run a secure ingress on Kubernetes — free!",
+  "description": "Voyager is free to use on any supported Kubernetes cluster, with a 30-day complimentary license available for trial.",
+  "cta_primary": "Try Now Free",
+  "cta_secondary": "Contact Us",
+  "trust_points": [
+    "No credit card required",
+    "Works in cloud or bare metal clusters",
+    "Built on battle-tested HAProxy",
+    "Enterprise support available"
+  ]
+}
