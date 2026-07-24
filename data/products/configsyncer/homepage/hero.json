@@ -1,0 +1,10 @@
+{
+  "headline": "Kubernetes <strong>Configuration Syncer</strong>",
+  "cta_primary": "Try Now Free",
+  "cta_secondary": "Get in Touch",
+  "trust_items": [
+    { "icon": "heroicons:shield-check", "label": "Enterprise Ready" },
+    { "icon": "heroicons:calendar-days", "label": "30-Day Free License" },
+    { "icon": "heroicons:arrow-path-rounded-square", "label": "Cross-Cluster Sync" }
+  ]
+}

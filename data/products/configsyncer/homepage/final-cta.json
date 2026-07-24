@@ -1,0 +1,19 @@
+{
+  "badge": "Start Syncing Today",
+  "title_plain": "Ready to Keep Configs",
+  "title_gradient": "In Sync?",
+  "description": "Join platform teams at Asurion, Emerson, Nokia, and Orange keeping ConfigMaps and Secrets synchronized across namespaces and clusters with Config Syncer.",
+  "checklist": [
+    "Automatic sync across namespaces or clusters",
+    "Label-selector targeting for fine-grained control",
+    "30-day free license, no credit card required"
+  ],
+  "cta_primary": "Try Now Free",
+  "cta_secondary": "Get in Touch",
+  "stats": [
+    { "icon": "lucide:folder-sync", "value": "ConfigMaps", "label": "& Secrets Synced", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
+    { "icon": "lucide:git-branch", "value": "Multi-Cluster", "label": "Sync Support", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
+    { "icon": "lucide:filter", "value": "Label", "label": "Selector Targeting", "gradient": "linear-gradient(135deg, #c084fc, #ec4899)" },
+    { "icon": "lucide:life-buoy", "value": "24/7", "label": "Expert Support", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
+  ]
+}

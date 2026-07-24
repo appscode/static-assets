@@ -44,8 +44,8 @@
     {
       "title": "Configuration Syncer",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/configsyncer/features/configuration-syncer.jpg",
-        "alt": "configuration-syncer"
+        "src": "https://cdn.appscode.com/images/products/configsyncer/features/configuration-syncer.svg",
+        "alt": "Configuration Syncer"
       },
       "icon": {
         "src": "https://cdn.appscode.com/images/products/configsyncer/features/configuration.svg",

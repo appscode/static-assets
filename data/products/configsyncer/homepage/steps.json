@@ -1,0 +1,26 @@
+{
+  "title": "Config sync in <em>4 steps</em>",
+  "subtitle": "Annotate a ConfigMap or Secret and let Config Syncer keep every copy in sync — across namespaces or entire clusters.",
+  "steps": [
+    {
+      "title": "Install the Operator",
+      "description": "Deploy Config Syncer via Helm into any Kubernetes cluster — EKS, GKE, AKS, or on-prem. One command, a few minutes.",
+      "code": "helm install config-syncer …"
+    },
+    {
+      "title": "Annotate Your Config",
+      "description": "Add the kubed.appscode.com/sync annotation to any ConfigMap or Secret to opt it into syncing — to all namespaces, or a label-selected subset.",
+      "code": "kubed.appscode.com/sync"
+    },
+    {
+      "title": "Sync Across Clusters",
+      "description": "Point at remote cluster contexts in a kubeconfig with the sync-contexts annotation to replicate the same ConfigMap or Secret into other clusters.",
+      "code": "sync-contexts: ctx1,ctx2"
+    },
+    {
+      "title": "Stay in Sync Automatically",
+      "description": "Updates to the source propagate to every copy instantly. Remove the annotation or delete the source, and the copies clean themselves up.",
+      "code": "✓ Config synced"
+    }
+  ]
+}

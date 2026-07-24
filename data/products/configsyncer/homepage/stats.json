@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "number": "1K+",    "label": "GitHub Stars" },
+    { "number": "2",      "label": "Resource Kinds Synced" },
+    { "number": "2",      "label": "Sync Modes" },
+    { "number": "30-Day", "label": "Free Trial License" }
+  ]
+}
