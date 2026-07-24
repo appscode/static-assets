@@ -1,0 +1,10 @@
+{
+  "headline": "Run Production-Grade <strong>Vault</strong> on Kubernetes",
+  "cta_primary": "Try Now Free",
+  "cta_secondary": "Get in Touch",
+  "trust_items": [
+    { "icon": "heroicons:shield-check", "label": "Production-Grade Security" },
+    { "icon": "heroicons:calendar-days", "label": "30-Day Free License" },
+    { "icon": "heroicons:server-stack", "label": "Any Kubernetes Distribution" }
+  ]
+}

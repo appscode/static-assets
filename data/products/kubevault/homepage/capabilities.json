@@ -1,0 +1,5 @@
+{
+  "title": "Built for <em>production-grade</em> Vault",
+  "subtitle": "A Git-Ops-ready solution for deploying and configuring HashiCorp Vault on Kubernetes — with automated unsealing, dynamic secrets, and fine-grained access control.",
+  "tags": ["Deploy", "Automation", "Backup", "Secrets", "Access", "Storage"]
+}

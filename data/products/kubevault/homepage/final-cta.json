@@ -1,0 +1,19 @@
+{
+  "badge": "Start Securing Today",
+  "title_plain": "Ready to Run Vault on",
+  "title_gradient": "Kubernetes?",
+  "description": "Join platform teams at Asurion, Emerson, Nokia, and Orange running TLS-secured, auto-unsealed HashiCorp Vault with dynamic secrets on Kubernetes using KubeVault.",
+  "checklist": [
+    "TLS-secured, automatically unsealed Vault by default",
+    "Dynamic secrets for AWS, Azure, GCP & databases",
+    "30-day free license, no credit card required"
+  ],
+  "cta_primary": "Try Now Free",
+  "cta_secondary": "Get in Touch",
+  "stats": [
+    { "icon": "lucide:database", "value": "4+", "label": "Secret Engines", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
+    { "icon": "lucide:key-round", "value": "5+", "label": "Auth Methods", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
+    { "icon": "lucide:hard-drive", "value": "9+", "label": "Storage Backends", "gradient": "linear-gradient(135deg, #c084fc, #ec4899)" },
+    { "icon": "lucide:life-buoy", "value": "24/7", "label": "Expert Support", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "number": "300K+",  "label": "Docker Pulls" },
+    { "number": "9+",     "label": "Storage Backends" },
+    { "number": "5+",     "label": "Authentication Methods" },
+    { "number": "30-Day", "label": "Free Trial License" }
+  ]
+}
