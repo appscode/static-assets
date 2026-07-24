@@ -73,7 +73,7 @@
     {
       "title": "Backup Kubernetes Volumes",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/backup-kubernetes-volumes.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/backup-kubernetes-volumes.svg",
         "alt": "http"
       },
       "icon": {
@@ -138,11 +138,11 @@
     {
       "title": "Volume Snapshot",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/volume-snapshot.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/volume-snapshot.svg",
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/volume-snapshot.png",
+        "src": "https://cdn.appscode.com/images/products/stash/features/volume-snapshot.svg",
         "alt": "http"
       },
       "summary": "",

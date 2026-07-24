@@ -137,7 +137,7 @@
         "alt": "A single BackupConfiguration automatically creating a VolumeSnapshot for every volume of a workload"
       },
       "icon": {
-        "src": "/assets/images/products/stash/features/volume-snapshot.png",
+        "src": "/assets/images/products/stash/features/volume-snapshot.svg",
         "alt": "http"
       },
       "summary": "",

@@ -68,7 +68,7 @@
     {
       "title": "Multi-Cloud Federation",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/backup-kubernetes-volumes.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/backup-kubernetes-volumes.svg",
         "alt": "Multi-Cloud Federation"
       },
       "icon": {
@@ -133,7 +133,7 @@
     {
       "title": "Policy-Based Data Management",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/volume-snapshot.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/volume-snapshot.svg",
         "alt": "Policy-Based Data Management"
       },
       "icon": {
