@@ -1,0 +1,19 @@
+{
+  "badge": "Start Routing Securely",
+  "title_plain": "Ready to Secure Your",
+  "title_gradient": "Kubernetes Ingress?",
+  "description": "Join platform teams at Asurion, Emerson, Nokia, and Orange running HAProxy-backed, TLS-secured ingress on Kubernetes with Voyager.",
+  "checklist": [
+    "Free SSL via Let's Encrypt, HTTP or DNS challenge",
+    "Works in any cloud or bare-metal cluster",
+    "30-day free license, no credit card required"
+  ],
+  "cta_primary": "Try Now Free",
+  "cta_secondary": "Get in Touch",
+  "stats": [
+    { "icon": "lucide:route", "value": "HTTP/TCP", "label": "Load Balancing", "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)" },
+    { "icon": "lucide:shield-check", "value": "Let's Encrypt", "label": "Free SSL Certificates", "gradient": "linear-gradient(135deg, #4ade80, #10b981)" },
+    { "icon": "lucide:activity", "value": "Prometheus", "label": "Built-in Metrics", "gradient": "linear-gradient(135deg, #c084fc, #ec4899)" },
+    { "icon": "lucide:life-buoy", "value": "24/7", "label": "Expert Support", "gradient": "linear-gradient(135deg, #fb923c, #ef4444)" }
+  ]
+}

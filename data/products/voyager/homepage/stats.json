@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "number": "1.3K+",  "label": "GitHub Stars" },
+    { "number": "3.6M+",  "label": "Docker Pulls" },
+    { "number": "6+",     "label": "Core Features" },
+    { "number": "30-Day", "label": "Free Trial License" }
+  ]
+}
