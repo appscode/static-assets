@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "headline": "Kubernetes-Native <strong>Authentication</strong> Webhook",
+    "cta_primary": "Get Started Free",
+    "cta_secondary": "Talk to Sales",
+    "trust_items": [
+      {
+        "icon": "heroicons:finger-print",
+        "label": "7+ Identity Providers"
+      },
+      {
+        "icon": "heroicons:shield-check",
+        "label": "RBAC Group Mapping"
+      },
+      {
+        "icon": "heroicons:server-stack",
+        "label": "Any Kubernetes Distribution"
+      }
+    ]
+  },
+  "steps": {
+    "title": "Secure cluster access in <em>4 steps</em>",
+    "subtitle": "From zero to a production-ready Kubernetes authentication webhook \u2014 backed by the identity provider you already trust.",
+    "steps": [
+      {
+        "title": "Install Guard",
+        "description": "Deploy the Guard webhook server into any Kubernetes cluster \u2014 EKS, GKE, AKS, or on-prem \u2014 via the CLI installer or Helm.",
+        "code": "helm install guard \u2026"
+      },
+      {
+        "title": "Initialize PKI & Provider",
+        "description": "Generate a self-signed CA and TLS client certificates bound to your identity provider \u2014 GitHub, GitLab, Google, Azure, LDAP, or static tokens.",
+        "code": "guard init client -o github"
+      },
+      {
+        "title": "Wire Up the API Server",
+        "description": "Point your Kubernetes API server's authentication-token-webhook-config-file at the generated kubeconfig so every token review routes through Guard.",
+        "code": "guard get webhook-config \u2026"
+      },
+      {
+        "title": "Authenticate & Enforce RBAC",
+        "description": "Users log in with their existing provider credentials. Guard maps their identity and groups so your existing Kubernetes RBAC rules just work.",
+        "code": "kubectl auth can-i get pods"
+      }
+    ]
+  },
+  "capabilities": {
+    "title": "Built for <em>secure cluster access</em>",
+    "subtitle": "A lightweight, Kubernetes-native webhook server that authenticates and authorizes every request against the identity provider you already run.",
+    "tags": [
+      "Authentication",
+      "Tooling",
+      "Authorization",
+      "Security",
+      "Identity",
+      "Deployment"
+    ]
+  },
+  "stats": {
+    "items": [
+      {
+        "number": "7+",
+        "label": "Identity Providers Supported"
+      },
+      {
+        "number": "v1.9+",
+        "label": "Kubernetes Compatibility"
+      },
+      {
+        "number": "RBAC",
+        "label": "Native Group Mapping"
+      },
+      {
+        "number": "Apache 2.0",
+        "label": "Open Source License"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Ready to secure access to your Kubernetes clusters?",
+    "description": "Guard is free and open source. Deploy the webhook server in minutes and authenticate with the identity provider you already trust.",
+    "cta_primary": "Get Started Free",
+    "cta_secondary": "Contact Us",
+    "trust_points": [
+      "No credit card required",
+      "Works on any Kubernetes distribution",
+      "Open source core",
+      "Enterprise support available"
+    ]
+  },
+  "final-cta": {
+    "badge": "Start Securing Today",
+    "title_plain": "Ready to Lock Down Access to Your",
+    "title_gradient": "Kubernetes Clusters?",
+    "description": "Join platform teams authenticating Kubernetes API access through the identity provider they already run \u2014 GitHub, GitLab, Google, Azure, or LDAP \u2014 with Guard.",
+    "checklist": [
+      "TLS-secured webhook authentication",
+      "Native RBAC group mapping",
+      "Works with your existing identity provider"
+    ],
+    "cta_primary": "Get Started Free",
+    "cta_secondary": "Talk to Sales",
+    "stats": [
+      {
+        "icon": "lucide:fingerprint",
+        "value": "7+",
+        "label": "Identity Providers",
+        "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)"
+      },
+      {
+        "icon": "lucide:shield-check",
+        "value": "TLS",
+        "label": "Mutual Client Auth",
+        "gradient": "linear-gradient(135deg, #4ade80, #10b981)"
+      },
+      {
+        "icon": "lucide:users",
+        "value": "RBAC",
+        "label": "Group-Based Access",
+        "gradient": "linear-gradient(135deg, #c084fc, #ec4899)"
+      },
+      {
+        "icon": "lucide:life-buoy",
+        "value": "24/7",
+        "label": "Expert Support",
+        "gradient": "linear-gradient(135deg, #fb923c, #ef4444)"
+      }
+    ]
+  }
+}

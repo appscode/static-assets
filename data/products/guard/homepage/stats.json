@@ -1,8 +1,0 @@
-{
-  "items": [
-    { "number": "7+",        "label": "Identity Providers Supported" },
-    { "number": "v1.9+",     "label": "Kubernetes Compatibility" },
-    { "number": "RBAC",      "label": "Native Group Mapping" },
-    { "number": "Apache 2.0", "label": "Open Source License" }
-  ]
-}

@@ -1,5 +1,0 @@
-{
-  "title": "Built for <em>seamless</em> config sync",
-  "subtitle": "Keep ConfigMaps and Secrets synchronized across namespaces or clusters — automatically, the Kubernetes-native way.",
-  "tags": ["Core"]
-}

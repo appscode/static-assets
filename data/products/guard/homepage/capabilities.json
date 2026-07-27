@@ -1,5 +1,0 @@
-{
-  "title": "Built for <em>secure cluster access</em>",
-  "subtitle": "A lightweight, Kubernetes-native webhook server that authenticates and authorizes every request against the identity provider you already run.",
-  "tags": ["Authentication", "Tooling", "Authorization", "Security", "Identity", "Deployment"]
-}

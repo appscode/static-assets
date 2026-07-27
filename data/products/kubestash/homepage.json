@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "headline": "Kubernetes-Native <strong>Backup & Recovery</strong>",
+    "cta_primary": "Get Started Free",
+    "cta_secondary": "Talk to Sales",
+    "trust_items": [
+      {
+        "icon": "heroicons:shield-check",
+        "label": "Enterprise Ready"
+      },
+      {
+        "icon": "heroicons:calendar-days",
+        "label": "30-Day Free License"
+      },
+      {
+        "icon": "heroicons:server-stack",
+        "label": "Any Kubernetes Distribution"
+      }
+    ]
+  },
+  "steps": {
+    "title": "Backup in <em>4 steps</em>",
+    "subtitle": "From zero to automated, encrypted, verified Kubernetes backups \u2014 without rewriting your operational runbooks.",
+    "steps": [
+      {
+        "title": "Install the Operator",
+        "description": "Deploy KubeStash via Helm into any Kubernetes cluster \u2014 EKS, GKE, AKS, or on-prem. One command, three minutes.",
+        "code": "helm install kubestash \u2026"
+      },
+      {
+        "title": "Define BackupConfiguration",
+        "description": "A single Kubernetes-native CRD declares what to back up, the schedule, retention policy, and which storage backend to use.",
+        "code": "kind: BackupConfiguration"
+      },
+      {
+        "title": "Monitor Sessions",
+        "description": "BackupSession objects give you real-time status, per-component snapshots, and structured events \u2014 query with kubectl or your existing observability stack.",
+        "code": "\u2713 Snapshot verified"
+      },
+      {
+        "title": "Restore Anytime",
+        "description": "Create a RestoreSession for full, granular, or point-in-time recovery. Works across namespaces and clusters.",
+        "code": "kubectl restore --pitr \u2026"
+      }
+    ]
+  },
+  "capabilities": {
+    "title": "Built for <em>production reliability</em>",
+    "subtitle": "Enterprise-grade features for encrypted, policy-driven, and verified Kubernetes backup at scale.",
+    "tags": [
+      "Core",
+      "Recovery",
+      "Security",
+      "Storage",
+      "Performance",
+      "Deployment"
+    ]
+  },
+  "stats": {
+    "items": [
+      {
+        "number": "25+",
+        "label": "Database Engines"
+      },
+      {
+        "number": "10K+",
+        "label": "Active Databases Protected"
+      },
+      {
+        "number": "30-Day",
+        "label": "Free Trial License"
+      },
+      {
+        "number": "99.9%",
+        "label": "Uptime SLA"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Ready to protect your Kubernetes workloads?",
+    "description": "KubeStash is free to use on any supported Kubernetes cluster. Deploy in minutes with a 30-day free license.",
+    "cta_primary": "Start Free Trial",
+    "cta_secondary": "Contact Us",
+    "trust_points": [
+      "No credit card required",
+      "Works on any Kubernetes distribution",
+      "Open source core",
+      "Enterprise support available"
+    ]
+  },
+  "final-cta": {
+    "badge": "Start Protecting Today",
+    "title_plain": "Ready to Safeguard Your",
+    "title_gradient": "Kubernetes Workloads?",
+    "description": "Join platform teams running encrypted, verified, disaster-recovery-ready backups for databases and volumes on Kubernetes with KubeStash.",
+    "checklist": [
+      "Encrypted, deduplicated backups by default",
+      "Multi-cloud & on-prem storage portability",
+      "Point-in-time recovery for databases & volumes"
+    ],
+    "cta_primary": "Start Free Trial",
+    "cta_secondary": "Talk to Sales",
+    "stats": [
+      {
+        "icon": "lucide:hard-drive-download",
+        "value": "12+",
+        "label": "Storage Backends",
+        "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)"
+      },
+      {
+        "icon": "lucide:shield-check",
+        "value": "AES-256",
+        "label": "Backup Encryption",
+        "gradient": "linear-gradient(135deg, #4ade80, #10b981)"
+      },
+      {
+        "icon": "lucide:history",
+        "value": "PITR",
+        "label": "Point-in-Time Recovery",
+        "gradient": "linear-gradient(135deg, #c084fc, #ec4899)"
+      },
+      {
+        "icon": "lucide:life-buoy",
+        "value": "24/7",
+        "label": "Expert Support",
+        "gradient": "linear-gradient(135deg, #fb923c, #ef4444)"
+      }
+    ]
+  }
+}
