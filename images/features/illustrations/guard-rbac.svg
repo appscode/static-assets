@@ -1,0 +1,98 @@
+<svg viewBox="0 0 500 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="An authenticated user mapped to group roles, unlocking specific cells in a permissions grid while the rest stay locked">
+  <defs>
+    <radialGradient id="illGlowTR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FBE0CE" stop-opacity="0.85"/>
+      <stop offset="20%" stop-color="#FCE3D3" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#FDE7DA" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#FEEEE3" stop-opacity="0.3"/>
+      <stop offset="80%" stop-color="#FEF3EC" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FEF5EF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="illGlowBL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F8D3B8" stop-opacity="0.75"/>
+      <stop offset="20%" stop-color="#F9D8C0" stop-opacity="0.62"/>
+      <stop offset="40%" stop-color="#FBDECB" stop-opacity="0.44"/>
+      <stop offset="60%" stop-color="#FCE6D8" stop-opacity="0.26"/>
+      <stop offset="80%" stop-color="#FDEEE6" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#FDEEE6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="illSoften" x="-100" y="-100" width="700" height="480" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <circle cx="424" cy="60" r="165" fill="url(#illGlowTR)" filter="url(#illSoften)"/>
+  <circle cx="55" cy="248" r="135" fill="url(#illGlowBL)" filter="url(#illSoften)"/>
+  <circle cx="472" cy="238" r="4" fill="#F6BFA0"/>
+  <circle cx="26" cy="64" r="3" fill="#EE9B6C"/>
+
+  <!-- ground shadow -->
+  <ellipse cx="250" cy="248" rx="190" ry="12" fill="#3A1607" opacity="0.05"/>
+
+  <!-- authenticated user -->
+  <circle cx="86" cy="150" r="32" fill="#B23D1B"/>
+  <circle cx="86" cy="140" r="9" fill="#FFFFFF"/>
+  <path d="M67 168a19 14 0 0 1 38 0Z" fill="#FFFFFF"/>
+
+  <!-- group/role mapping lines -->
+  <path d="M116 138Q140 118 158 108" stroke="#F5C1A0" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="1 6"/>
+  <path d="M118 150Q140 150 158 150" stroke="#F5C1A0" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="1 6"/>
+  <path d="M116 162Q140 182 158 192" stroke="#F5C1A0" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="1 6"/>
+
+  <!-- role nodes -->
+  <circle cx="172" cy="100" r="15" fill="#D84E27"/>
+  <path d="M172 92l2.6 5.4 5.9.9-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9-4.3-4.1 5.9-.9Z" fill="#FFFFFF"/>
+
+  <circle cx="180" cy="150" r="15" fill="#E67A45"/>
+  <path d="M180 142l2.6 5.4 5.9.9-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9-4.3-4.1 5.9-.9Z" fill="#FFFFFF"/>
+
+  <circle cx="172" cy="200" r="15" fill="#EF9D6E"/>
+  <path d="M172 192l2.6 5.4 5.9.9-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9-4.3-4.1 5.9-.9Z" fill="#FFFFFF"/>
+
+  <!-- flow toward the permission grid -->
+  <path d="M196 130Q216 118 236 112" stroke="#F5C1A0" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="1 6"/>
+  <path d="M196 150Q216 138 236 130" stroke="#F5C1A0" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="1 6"/>
+  <path d="M196 170Q216 178 236 184" stroke="#F5C1A0" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="1 6"/>
+
+  <!-- permission grid: some cells allowed, some locked -->
+  <g>
+    <!-- row 1 -->
+    <rect x="242" y="85" width="34" height="34" rx="9" fill="#B23D1B"/>
+    <path d="M251 102l4.5 4.5L268 95" stroke="#FFFFFF" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="284" y="85" width="34" height="34" rx="9" fill="none" stroke="#EDE2D8" stroke-width="2"/>
+    <path d="M296 100v-4a5 5 0 0 1 10 0v4" stroke="#EDE2D8" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <rect x="294" y="100" width="12" height="9" rx="2" fill="#EDE2D8"/>
+    <rect x="326" y="85" width="34" height="34" rx="9" fill="#D84E27"/>
+    <path d="M335 102l4.5 4.5L352 95" stroke="#FFFFFF" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="368" y="85" width="34" height="34" rx="9" fill="none" stroke="#EDE2D8" stroke-width="2"/>
+    <path d="M380 100v-4a5 5 0 0 1 10 0v4" stroke="#EDE2D8" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <rect x="378" y="100" width="12" height="9" rx="2" fill="#EDE2D8"/>
+
+    <!-- row 2 -->
+    <rect x="242" y="127" width="34" height="34" rx="9" fill="none" stroke="#EDE2D8" stroke-width="2"/>
+    <path d="M254 142v-4a5 5 0 0 1 10 0v4" stroke="#EDE2D8" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <rect x="252" y="142" width="12" height="9" rx="2" fill="#EDE2D8"/>
+    <rect x="284" y="127" width="34" height="34" rx="9" fill="#E67A45"/>
+    <path d="M293 144l4.5 4.5L310 137" stroke="#FFFFFF" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="326" y="127" width="34" height="34" rx="9" fill="#D84E27"/>
+    <path d="M335 144l4.5 4.5L352 137" stroke="#FFFFFF" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="368" y="127" width="34" height="34" rx="9" fill="none" stroke="#EDE2D8" stroke-width="2"/>
+    <path d="M380 142v-4a5 5 0 0 1 10 0v4" stroke="#EDE2D8" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <rect x="378" y="142" width="12" height="9" rx="2" fill="#EDE2D8"/>
+
+    <!-- row 3 -->
+    <rect x="242" y="169" width="34" height="34" rx="9" fill="#B23D1B"/>
+    <path d="M251 186l4.5 4.5L268 179" stroke="#FFFFFF" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="284" y="169" width="34" height="34" rx="9" fill="none" stroke="#EDE2D8" stroke-width="2"/>
+    <path d="M296 184v-4a5 5 0 0 1 10 0v4" stroke="#EDE2D8" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <rect x="294" y="184" width="12" height="9" rx="2" fill="#EDE2D8"/>
+    <rect x="326" y="169" width="34" height="34" rx="9" fill="none" stroke="#EDE2D8" stroke-width="2"/>
+    <path d="M338 184v-4a5 5 0 0 1 10 0v4" stroke="#EDE2D8" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <rect x="336" y="184" width="12" height="9" rx="2" fill="#EDE2D8"/>
+    <rect x="368" y="169" width="34" height="34" rx="9" fill="#EF9D6E"/>
+    <path d="M377 186l4.5 4.5L394 179" stroke="#FFFFFF" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- sparkle accents -->
+  <path d="M440 200l1.4 4.6 4.6 1.4-4.6 1.4-1.4 4.6-1.4-4.6-4.6-1.4 4.6-1.4Z" fill="#F5C1A0"/>
+  <path d="M420 70l1 3.2 3.2 1-3.2 1-1 3.2-1-3.2-3.2-1 3.2-1Z" fill="#FAD9C1"/>
+</svg>
