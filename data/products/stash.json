@@ -97,6 +97,19 @@
       "description": "Backup your databases deployed in Kubernetes. Stash supports backup of MariaDB, Redis, PostgreSQL, MySQL, MongoDB, Elasticsearch and Percona XtraDB, Etcd databases. It seemingly integrates with KubeDB. It is now a recommended method to backup KubeDB supported databases."
     },
     {
+      "title": "Backup Virtual Machines",
+      "image": {
+        "src": "https://cdn.appscode.com/images/features/illustrations/backup-virtual-machines.svg",
+        "alt": "Several virtual machines running on a host being captured into a scheduled, restorable backup"
+      },
+      "icon": {
+        "src": "https://cdn.appscode.com/images/products/stash/features/kub-workload.svg",
+        "alt": "http"
+      },
+      "summary": "",
+      "description": "Protect virtual machines running on Kubernetes with the same policy-driven workflow used for your databases and volumes. Stash schedules backups, verifies snapshots, and restores VMs on demand — no separate tooling required."
+    },
+    {
       "title": "Multiple Storage Support",
       "image": {
         "src": "https://cdn.appscode.com/images/addons/illustrations/multiple-storage-support.svg",
@@ -142,7 +155,7 @@
         "alt": "http"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/volume-snapshot.svg",
+        "src": "https://cdn.appscode.com/images/products/stash/features/volume-snapshot.png",
         "alt": "http"
       },
       "summary": "",
