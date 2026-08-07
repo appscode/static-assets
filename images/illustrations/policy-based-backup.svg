@@ -1,0 +1,70 @@
+<svg viewBox="0 0 500 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="One backup template governing many differently annotated workloads across the cluster">
+  <!-- soft background depth -->
+  <defs>
+    <radialGradient id="illGlowTR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E9DCFF" stop-opacity="0.85"/>
+      <stop offset="20%" stop-color="#EBDFFF" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#EEE5FF" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#F1EAFF" stop-opacity="0.3"/>
+      <stop offset="80%" stop-color="#F4F0FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F5F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="illGlowBL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DBC8FF" stop-opacity="0.75"/>
+      <stop offset="20%" stop-color="#DFCEFF" stop-opacity="0.62"/>
+      <stop offset="40%" stop-color="#E4D6FF" stop-opacity="0.44"/>
+      <stop offset="60%" stop-color="#E9DEFF" stop-opacity="0.26"/>
+      <stop offset="80%" stop-color="#EDE5FF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#EDE5FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="illSoften" x="-100" y="-100" width="700" height="480" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <circle cx="424" cy="60" r="165" fill="url(#illGlowTR)" filter="url(#illSoften)"/>
+  <circle cx="55" cy="248" r="135" fill="url(#illGlowBL)" filter="url(#illSoften)"/>
+  <circle cx="472" cy="238" r="4" fill="#D9CCFF"/>
+  <circle cx="26" cy="64" r="3" fill="#B899F7"/>
+
+  <!-- one common template -->
+  <rect x="65" y="90" width="70" height="92" rx="10" fill="#FFFFFF" stroke="#E4E2ED" stroke-width="1.5"/>
+  <rect x="78" y="108" width="44" height="6" rx="3" fill="#8B5CF6"/>
+  <rect x="78" y="124" width="36" height="6" rx="3" fill="#E4E2ED"/>
+  <rect x="78" y="140" width="40" height="6" rx="3" fill="#E4E2ED"/>
+  <rect x="78" y="156" width="30" height="6" rx="3" fill="#E4E2ED"/>
+  <circle cx="100" cy="182" r="16" fill="#6633BB"/>
+  <path d="M92 182l6 6 12-12" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- governs every annotated workload across the cluster -->
+  <path d="M139 128Q190 108 230 118" stroke="#C4B5FD" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-dasharray="1 7"/>
+  <path d="M222 111l9 7-7 10" stroke="#C4B5FD" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- different workload kinds: Deployments, StatefulSets, DaemonSets ... each opted in by an annotation tag -->
+  <path d="M340 73L359.05 84V106L340 117L320.95 106V84Z" fill="#6633BB"/>
+  <rect x="332" y="87" width="16" height="16" rx="3.5" stroke="#FFFFFF" stroke-width="1.8" fill="none"/>
+  <circle cx="361" cy="80" r="11" fill="#FFFFFF" stroke="#E4E2ED" stroke-width="1.3"/>
+  <path d="M357 80L361 76H366V84H361Z" fill="#6633BB"/>
+  <circle cx="363" cy="80" r="1.1" fill="#FFFFFF"/>
+
+  <path d="M422 53L434.99 60.5V75.5L422 83L409.01 75.5V60.5Z" fill="#8355D6"/>
+  <rect x="416.5" y="62.5" width="11" height="11" rx="2.5" stroke="#FFFFFF" stroke-width="1.4" fill="none"/>
+  <circle cx="437" cy="57" r="8" fill="#FFFFFF" stroke="#E4E2ED" stroke-width="1.2"/>
+  <path d="M434 57L437 54H440V60H437Z" fill="#6633BB"/>
+  <circle cx="438.5" cy="57" r="0.9" fill="#FFFFFF"/>
+
+  <path d="M432 139L448.45 148.5V167.5L432 177L415.55 167.5V148.5Z" fill="#A78BFA"/>
+  <rect x="425" y="151" width="14" height="14" rx="3" stroke="#FFFFFF" stroke-width="1.6" fill="none"/>
+  <circle cx="450" cy="145" r="10" fill="#FFFFFF" stroke="#E4E2ED" stroke-width="1.3"/>
+  <path d="M446.5 145L450 141.5H454V148.5H450Z" fill="#6633BB"/>
+  <circle cx="452" cy="145" r="1" fill="#FFFFFF"/>
+
+  <path d="M352 188L364.12 195V209L352 216L339.88 209V195Z" fill="#C4B5FD"/>
+  <rect x="347" y="197" width="10" height="10" rx="2.2" stroke="#FFFFFF" stroke-width="1.3" fill="none"/>
+  <circle cx="366" cy="192" r="7.5" fill="#FFFFFF" stroke="#E4E2ED" stroke-width="1.1"/>
+  <path d="M363 192L366 189H369V195H366Z" fill="#6633BB"/>
+  <circle cx="367.3" cy="192" r="0.85" fill="#FFFFFF"/>
+
+  <!-- sparkle accents -->
+  <path d="M470 210l1.4 4.6 4.6 1.4-4.6 1.4-1.4 4.6-1.4-4.6-4.6-1.4 4.6-1.4Z" fill="#C4B5FD"/>
+  <path d="M35 45l1 3.2 3.2 1-3.2 1-1 3.2-1-3.2-3.2-1 3.2-1Z" fill="#D9CCFF"/>
+</svg>

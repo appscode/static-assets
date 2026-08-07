@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 360" fill="none" role="img" aria-label="Database Storage Backend">
+  <defs>
+    <radialGradient id="kvGlowTR" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#CFE0FB" stop-opacity="0.9"/><stop offset="40%" stop-color="#DCE8FD" stop-opacity="0.5"/><stop offset="75%" stop-color="#EAF1FE" stop-opacity="0.14"/><stop offset="100%" stop-color="#EAF1FE" stop-opacity="0"/></radialGradient>
+    <radialGradient id="kvGlowBL" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#BFD6FA" stop-opacity="0.85"/><stop offset="40%" stop-color="#D3E1FC" stop-opacity="0.45"/><stop offset="75%" stop-color="#E6EFFE" stop-opacity="0.12"/><stop offset="100%" stop-color="#E6EFFE" stop-opacity="0"/></radialGradient>
+    <filter id="kvSoften" x="-120" y="-120" width="720" height="620" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="22"/></filter>
+    <radialGradient id="spotWhite" cx="50%" cy="46%" r="55%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/><stop offset="62%" stop-color="#FFFFFF" stop-opacity="0.25"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="vframe" x1="0.2" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#4C7CE8"/><stop offset="100%" stop-color="#173A82"/></linearGradient>
+    <linearGradient id="vface" x1="0.15" y1="0" x2="0.55" y2="1"><stop offset="0%" stop-color="#6EA0F9"/><stop offset="50%" stop-color="#3F73E4"/><stop offset="100%" stop-color="#254FAC"/></linearGradient>
+    <linearGradient id="vsheen" x1="0" y1="0" x2="0.8" y2="1"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/><stop offset="30%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="vdoor" x1="0.1" y1="0" x2="0.4" y2="1"><stop offset="0%" stop-color="#CBDCF7"/><stop offset="34%" stop-color="#E9F1FE"/><stop offset="100%" stop-color="#FAFCFF"/></linearGradient>
+    <linearGradient id="cyl" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2A5FCF"/><stop offset="42%" stop-color="#5488F3"/><stop offset="100%" stop-color="#2149A8"/></linearGradient>
+    <linearGradient id="cylTop" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#6EA0F9"/><stop offset="100%" stop-color="#8FB6FA"/></linearGradient>
+    <filter id="dropBig" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#14337A" flood-opacity="0.30"/></filter>
+    <filter id="dropSm" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#14337A" flood-opacity="0.26"/></filter>
+  </defs>
+  <circle cx="402" cy="46" r="188" fill="url(#kvGlowTR)" filter="url(#kvSoften)"/>
+  <circle cx="52" cy="322" r="150" fill="url(#kvGlowBL)" filter="url(#kvSoften)"/>
+  <circle cx="420" cy="300" r="4" fill="#BFD6FA"/><circle cx="34" cy="66" r="3" fill="#8FB4F2"/>
+  <ellipse cx="228" cy="196" rx="184" ry="148" fill="url(#spotWhite)"/>
+
+  <ellipse cx="128" cy="286" rx="66" ry="12" fill="#1A3E92" opacity="0.20"/>
+  <g filter="url(#dropBig)">
+    <rect x="78" y="272" width="16" height="14" rx="3" fill="#12306E"/><rect x="162" y="272" width="16" height="14" rx="3" fill="#12306E"/>
+    <rect x="64" y="142" width="124" height="134" rx="18" fill="url(#vframe)"/>
+    <rect x="71" y="149" width="110" height="120" rx="13" fill="url(#vface)"/>
+    <rect x="71" y="149" width="110" height="120" rx="13" fill="url(#vsheen)"/>
+  </g>
+  <rect x="82" y="160" width="88" height="98" rx="10" fill="url(#vdoor)" filter="url(#dropSm)"/>
+  <circle cx="126" cy="209" r="27" fill="#F3F8FF" stroke="#B7CCEE" stroke-width="2"/>
+  <circle cx="126" cy="209" r="18" fill="none" stroke="#3F73E4" stroke-width="4.5"/>
+  <circle cx="126" cy="209" r="6.5" fill="#2A5FCF"/>
+
+  <g stroke="#9DBBF0" stroke-width="2.6" stroke-dasharray="1 8" stroke-linecap="round" fill="none">
+    <path d="M192 190 C226 172 254 158 284 152"/>
+    <path d="M192 228 C226 246 254 258 284 262"/>
+  </g>
+
+  <!-- two DB cylinders (MySQL / PostgreSQL) -->
+  <g filter="url(#dropBig)">
+    <ellipse cx="330" cy="292" rx="42" ry="11" fill="#1A3E92" opacity="0.16"/>
+    <path d="M296 208 v70 a34 11 0 0 0 68 0 v-70 Z" fill="url(#cyl)"/>
+    <ellipse cx="330" cy="256" rx="34" ry="11" fill="#2149A8"/>
+    <ellipse cx="330" cy="208" rx="34" ry="12" fill="url(#cylTop)"/>
+  </g>
+  <g filter="url(#dropBig)">
+    <ellipse cx="330" cy="128" rx="34" ry="9" fill="#1A3E92" opacity="0.14"/>
+    <path d="M304 78 v42 a26 9 0 0 0 52 0 v-42 Z" fill="url(#cyl)"/>
+    <ellipse cx="330" cy="120" rx="26" ry="9" fill="#2149A8"/>
+    <ellipse cx="330" cy="78" rx="26" ry="9.5" fill="url(#cylTop)"/>
+  </g>
+  <g fill="#7FB0F5"><circle cx="228" cy="110" r="2.4"/><circle cx="230" cy="320" r="2"/></g>
+</svg>

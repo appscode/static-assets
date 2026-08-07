@@ -43,7 +43,7 @@
     },
     {
       "title": "Monitoring",
-      "image": "/assets/images/databases/illustrations/monitoring.png",
+      "image": "/assets/images/databases/illustrations/monitoring.svg",
       "description": "KubeDB comes with native support for monitoring via Prometheus. You can use builtin Prometheus scrapper or CoreOS Prometheus Operator to monitor your Qdrant database in Kubernetes. You can use the Grafana to view key operational metrics, including compute/memory/storage capacity utilization, I/O activity, and instance connections."
     },
     {

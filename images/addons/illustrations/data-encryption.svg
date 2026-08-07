@@ -1,0 +1,72 @@
+<svg viewBox="0 0 500 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Plain data passing through an AES-256 lock and becoming unreadable ciphertext in storage">
+  <!-- soft background depth -->
+  <defs>
+    <radialGradient id="illGlowTR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E9DCFF" stop-opacity="0.85"/>
+      <stop offset="20%" stop-color="#EBDFFF" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#EEE5FF" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#F1EAFF" stop-opacity="0.3"/>
+      <stop offset="80%" stop-color="#F4F0FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F5F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="illGlowBL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DBC8FF" stop-opacity="0.75"/>
+      <stop offset="20%" stop-color="#DFCEFF" stop-opacity="0.62"/>
+      <stop offset="40%" stop-color="#E4D6FF" stop-opacity="0.44"/>
+      <stop offset="60%" stop-color="#E9DEFF" stop-opacity="0.26"/>
+      <stop offset="80%" stop-color="#EDE5FF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#EDE5FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="illSoften" x="-100" y="-100" width="700" height="480" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <circle cx="424" cy="60" r="165" fill="url(#illGlowTR)" filter="url(#illSoften)"/>
+  <circle cx="55" cy="248" r="135" fill="url(#illGlowBL)" filter="url(#illSoften)"/>
+  <circle cx="472" cy="238" r="4" fill="#D9CCFF"/>
+  <circle cx="26" cy="64" r="3" fill="#B899F7"/>
+
+  <!-- ground shadow -->
+  <ellipse cx="250" cy="205" rx="200" ry="10" fill="#1E0D42" opacity="0.04"/>
+
+  <!-- source: your data, still readable -->
+  <rect x="68" y="95" width="64" height="82" rx="10" fill="#EDE5FF"/>
+  <rect x="60" y="105" width="64" height="82" rx="10" fill="#FFFFFF" stroke="#E4E2ED" stroke-width="1.5"/>
+  <rect x="72" y="122" width="40" height="6" rx="3" fill="#8B5CF6"/>
+  <rect x="72" y="137" width="32" height="6" rx="3" fill="#E4E2ED"/>
+  <rect x="72" y="152" width="36" height="6" rx="3" fill="#E4E2ED"/>
+  <rect x="72" y="167" width="28" height="6" rx="3" fill="#E4E2ED"/>
+
+  <path d="M136 140Q185 130 236 138" stroke="#C4B5FD" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-dasharray="1 7"/>
+  <path d="M228 131l9 7-7 10" stroke="#C4B5FD" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- the AES-256 lock: the whole process passes through here -->
+  <path d="M252 118V104A18 18 0 0 1 288 104V118" stroke="#6633BB" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <rect x="242" y="118" width="56" height="50" rx="10" fill="#6633BB"/>
+  <circle cx="270" cy="136" r="5" fill="#FFFFFF"/>
+  <rect x="267.5" y="140" width="5" height="10" rx="2" fill="#FFFFFF"/>
+
+  <path d="M302 140Q345 155 372 145" stroke="#C4B5FD" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-dasharray="1 7"/>
+  <path d="M364 140l9 5-6 10" stroke="#C4B5FD" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- destination: encrypted at rest, meaningless without the key -->
+  <ellipse cx="400" cy="132" rx="28" ry="10" fill="#8355D6"/>
+  <path d="M372 132V172A28 10 0 0 0 428 172V132" fill="#6633BB"/>
+  <g stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" opacity="0.7">
+    <line x1="380" y1="148" x2="386" y2="152"/>
+    <line x1="392" y1="145" x2="396" y2="151"/>
+    <line x1="402" y1="150" x2="407" y2="146"/>
+    <line x1="412" y1="152" x2="417" y2="147"/>
+    <line x1="386" y1="160" x2="391" y2="164"/>
+    <line x1="400" y1="162" x2="406" y2="158"/>
+  </g>
+
+  <!-- still locked, even here -->
+  <circle cx="424" cy="172" r="14" fill="#FFFFFF" stroke="#E4E2ED" stroke-width="1.5"/>
+  <path d="M421 172v-3a3 3 0 0 1 6 0v3" stroke="#6633BB" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <rect x="419" y="172" width="10" height="8" rx="2" fill="#6633BB"/>
+
+  <!-- sparkle accents -->
+  <path d="M455 55l1.4 4.6 4.6 1.4-4.6 1.4-1.4 4.6-1.4-4.6-4.6-1.4 4.6-1.4Z" fill="#C4B5FD"/>
+  <path d="M35 220l1 3.2 3.2 1-3.2 1-1 3.2-1-3.2-3.2-1 3.2-1Z" fill="#D9CCFF"/>
+</svg>

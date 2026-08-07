@@ -1,0 +1,62 @@
+<svg viewBox="0 0 500 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A database backing up to storage and restoring back, shown as two opposite arcs">
+  <!-- soft background depth -->
+  <defs>
+    <radialGradient id="illGlowTR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E9DCFF" stop-opacity="0.85"/>
+      <stop offset="20%" stop-color="#EBDFFF" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#EEE5FF" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#F1EAFF" stop-opacity="0.3"/>
+      <stop offset="80%" stop-color="#F4F0FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F5F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="illGlowBL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DBC8FF" stop-opacity="0.75"/>
+      <stop offset="20%" stop-color="#DFCEFF" stop-opacity="0.62"/>
+      <stop offset="40%" stop-color="#E4D6FF" stop-opacity="0.44"/>
+      <stop offset="60%" stop-color="#E9DEFF" stop-opacity="0.26"/>
+      <stop offset="80%" stop-color="#EDE5FF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#EDE5FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="illSoften" x="-100" y="-100" width="700" height="480" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <circle cx="424" cy="60" r="165" fill="url(#illGlowTR)" filter="url(#illSoften)"/>
+  <circle cx="55" cy="248" r="135" fill="url(#illGlowBL)" filter="url(#illSoften)"/>
+  <circle cx="472" cy="238" r="4" fill="#D9CCFF"/>
+  <circle cx="26" cy="64" r="3" fill="#B899F7"/>
+
+  <!-- ground shadow -->
+  <ellipse cx="250" cy="212" rx="200" ry="10" fill="#1E0D42" opacity="0.04"/>
+
+  <!-- backup: database to storage -->
+  <path d="M150 118Q260 58 360 95" stroke="#C4B5FD" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-dasharray="1 7"/>
+  <path d="M352 88l9 7-6 10" stroke="#C4B5FD" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="255" cy="76" r="11" fill="#6633BB"/>
+  <path d="M255 82v-11M250 76l5-5 5 5" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- restore: storage back to database -->
+  <path d="M360 165Q260 222 150 175" stroke="#A78BFA" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-dasharray="1 7"/>
+  <path d="M158 182l-10-7 9-8" stroke="#A78BFA" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="255" cy="198" r="11" fill="#8355D6"/>
+  <path d="M255 192v11M250 198l5 5 5-5" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- the database -->
+  <ellipse cx="130" cy="110" rx="26" ry="9" fill="#8355D6"/>
+  <path d="M104 110V170A26 9 0 0 0 156 170V110" fill="#6633BB"/>
+  <path d="M104 140A26 9 0 0 0 156 140" stroke="#FFFFFF" stroke-width="1.3" fill="none" opacity="0.3"/>
+
+  <!-- the storage backend -->
+  <g fill="#8355D6">
+    <circle cx="352" cy="118" r="15"/>
+    <circle cx="370" cy="106" r="19"/>
+    <circle cx="388" cy="118" r="15"/>
+    <rect x="350" y="114" width="40" height="24" rx="12"/>
+  </g>
+  <circle cx="364" cy="126" r="2.4" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="374" cy="126" r="2.4" fill="#FFFFFF" opacity="0.9"/>
+
+  <!-- sparkle accents -->
+  <path d="M445 55l1.4 4.6 4.6 1.4-4.6 1.4-1.4 4.6-1.4-4.6-4.6-1.4 4.6-1.4Z" fill="#C4B5FD"/>
+  <path d="M45 190l1 3.2 3.2 1-3.2 1-1 3.2-1-3.2-3.2-1 3.2-1Z" fill="#D9CCFF"/>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 360" fill="none" role="img" aria-label="Storage Backend">
+  <defs>
+    <radialGradient id="kvGlowTR" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#CFE0FB" stop-opacity="0.9"/><stop offset="40%" stop-color="#DCE8FD" stop-opacity="0.5"/><stop offset="75%" stop-color="#EAF1FE" stop-opacity="0.14"/><stop offset="100%" stop-color="#EAF1FE" stop-opacity="0"/></radialGradient>
+    <radialGradient id="kvGlowBL" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#BFD6FA" stop-opacity="0.85"/><stop offset="40%" stop-color="#D3E1FC" stop-opacity="0.45"/><stop offset="75%" stop-color="#E6EFFE" stop-opacity="0.12"/><stop offset="100%" stop-color="#E6EFFE" stop-opacity="0"/></radialGradient>
+    <filter id="kvSoften" x="-120" y="-120" width="720" height="620" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="22"/></filter>
+    <radialGradient id="spotWhite" cx="50%" cy="46%" r="55%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/><stop offset="62%" stop-color="#FFFFFF" stop-opacity="0.25"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="vframe" x1="0.2" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#4C7CE8"/><stop offset="100%" stop-color="#173A82"/></linearGradient>
+    <linearGradient id="vface" x1="0.15" y1="0" x2="0.55" y2="1"><stop offset="0%" stop-color="#6EA0F9"/><stop offset="50%" stop-color="#3F73E4"/><stop offset="100%" stop-color="#254FAC"/></linearGradient>
+    <linearGradient id="vsheen" x1="0" y1="0" x2="0.8" y2="1"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/><stop offset="30%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="vdoor" x1="0.1" y1="0" x2="0.4" y2="1"><stop offset="0%" stop-color="#CBDCF7"/><stop offset="34%" stop-color="#E9F1FE"/><stop offset="100%" stop-color="#FAFCFF"/></linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#EDF3FD"/></linearGradient>
+    <filter id="dropBig" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#14337A" flood-opacity="0.32"/></filter>
+    <filter id="dropSm" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#14337A" flood-opacity="0.26"/></filter>
+  </defs>
+  <circle cx="402" cy="46" r="188" fill="url(#kvGlowTR)" filter="url(#kvSoften)"/>
+  <circle cx="52" cy="322" r="150" fill="url(#kvGlowBL)" filter="url(#kvSoften)"/>
+  <circle cx="420" cy="300" r="4" fill="#BFD6FA"/><circle cx="34" cy="66" r="3" fill="#8FB4F2"/>
+  <ellipse cx="228" cy="196" rx="184" ry="148" fill="url(#spotWhite)"/>
+
+  <ellipse cx="112" cy="276" rx="60" ry="11" fill="#1A3E92" opacity="0.20"/>
+  <g filter="url(#dropBig)">
+    <rect x="64" y="262" width="14" height="12" rx="3" fill="#12306E"/><rect x="146" y="262" width="14" height="12" rx="3" fill="#12306E"/>
+    <rect x="54" y="150" width="116" height="118" rx="17" fill="url(#vframe)"/>
+    <rect x="61" y="157" width="102" height="104" rx="12" fill="url(#vface)"/>
+    <rect x="61" y="157" width="102" height="104" rx="12" fill="url(#vsheen)"/>
+  </g>
+  <rect x="72" y="167" width="80" height="84" rx="9" fill="url(#vdoor)" filter="url(#dropSm)"/>
+  <circle cx="112" cy="209" r="23" fill="#F3F8FF" stroke="#B7CCEE" stroke-width="2"/>
+  <circle cx="112" cy="209" r="15" fill="none" stroke="#3F73E4" stroke-width="4"/>
+  <circle cx="112" cy="209" r="5.5" fill="#2A5FCF"/>
+
+  <g stroke="#9DBBF0" stroke-width="2.6" stroke-dasharray="1 7" stroke-linecap="round" fill="none">
+    <path d="M170 198 C214 172 250 150 294 143"/><path d="M170 220 C214 246 250 262 294 265"/>
+    <path d="M366 140 H372"/><path d="M366 268 H372"/>
+  </g>
+
+  <!-- generic storage tiles: disk, cloud, database, cluster -->
+  <g transform="translate(330 140)">
+    <g filter="url(#dropSm)"><rect x="-34" y="-32" width="68" height="64" rx="15" fill="url(#tile)"/></g>
+    <rect x="-18" y="-16" width="36" height="32" rx="6" fill="#DDE9FD"/>
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#2A5FCF" stroke-width="3"/><circle cx="0" cy="0" r="2.5" fill="#2A5FCF"/><circle cx="12" cy="12" r="2.5" fill="#4C84F1"/>
+  </g>
+  <g transform="translate(402 140)">
+    <g filter="url(#dropSm)"><rect x="-34" y="-32" width="68" height="64" rx="15" fill="url(#tile)"/></g>
+    <g fill="#4C84F1"><circle cx="-9" cy="2" r="10"/><circle cx="7" cy="-6" r="13"/><circle cx="20" cy="4" r="9"/><rect x="-9" y="2" width="29" height="12" rx="6"/></g>
+  </g>
+  <g transform="translate(330 268)">
+    <g filter="url(#dropSm)"><rect x="-34" y="-32" width="68" height="64" rx="15" fill="url(#tile)"/></g>
+    <g><path d="M-16 -14 v28 a16 6 0 0 0 32 0 v-28 Z" fill="#326CE5"/><ellipse cx="0" cy="-14" rx="16" ry="6" fill="#6EA0F9"/><ellipse cx="0" cy="0" rx="16" ry="6" fill="#4C84F1"/></g>
+  </g>
+  <g transform="translate(402 268)">
+    <g filter="url(#dropSm)"><rect x="-34" y="-32" width="68" height="64" rx="15" fill="url(#tile)"/></g>
+    <g fill="#DDE9FD" stroke="#2A5FCF" stroke-width="2"><rect x="-18" y="-16" width="36" height="14" rx="3"/><rect x="-18" y="2" width="36" height="14" rx="3"/></g>
+    <circle cx="-11" cy="-9" r="2.5" fill="#22C55E"/><circle cx="-11" cy="9" r="2.5" fill="#22C55E"/>
+  </g>
+  <g fill="#7FB0F5"><circle cx="228" cy="118" r="2.4"/><circle cx="230" cy="300" r="2"/></g>
+</svg>

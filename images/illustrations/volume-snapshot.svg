@@ -1,0 +1,77 @@
+<svg viewBox="0 0 500 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A single BackupConfiguration automatically creating a VolumeSnapshot for every volume of a workload">
+  <!-- soft background depth -->
+  <defs>
+    <radialGradient id="illGlowTR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E9DCFF" stop-opacity="0.85"/>
+      <stop offset="20%" stop-color="#EBDFFF" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#EEE5FF" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#F1EAFF" stop-opacity="0.3"/>
+      <stop offset="80%" stop-color="#F4F0FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F5F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="illGlowBL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DBC8FF" stop-opacity="0.75"/>
+      <stop offset="20%" stop-color="#DFCEFF" stop-opacity="0.62"/>
+      <stop offset="40%" stop-color="#E4D6FF" stop-opacity="0.44"/>
+      <stop offset="60%" stop-color="#E9DEFF" stop-opacity="0.26"/>
+      <stop offset="80%" stop-color="#EDE5FF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#EDE5FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="illSoften" x="-100" y="-100" width="700" height="480" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <circle cx="424" cy="60" r="165" fill="url(#illGlowTR)" filter="url(#illSoften)"/>
+  <circle cx="55" cy="248" r="135" fill="url(#illGlowBL)" filter="url(#illSoften)"/>
+  <circle cx="472" cy="238" r="4" fill="#D9CCFF"/>
+  <circle cx="26" cy="64" r="3" fill="#B899F7"/>
+
+  <!-- a single BackupConfiguration -->
+  <rect x="55" y="118" width="44" height="44" rx="10" fill="#8355D6"/>
+  <rect x="65" y="132" width="24" height="5" rx="2.5" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="65" y="142" width="18" height="5" rx="2.5" fill="#FFFFFF" opacity="0.6"/>
+  <rect x="65" y="152" width="20" height="5" rx="2.5" fill="#FFFFFF" opacity="0.6"/>
+
+  <!-- drives one workload -->
+  <path d="M99 140Q140 140 176 140" stroke="#C4B5FD" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-dasharray="1 7"/>
+  <path d="M168 133l9 7-7 10" stroke="#C4B5FD" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M200 116L220.78 128V152L200 164L179.22 152V128Z" fill="#6633BB"/>
+  <rect x="192" y="132" width="16" height="16" rx="3.5" stroke="#FFFFFF" stroke-width="1.8" fill="none"/>
+
+  <!-- ... with several volumes, each snapshotted automatically (no manual VolumeSnapshot per volume) -->
+  <line x1="220.78" y1="128" x2="318" y2="80" stroke="#C4B5FD" stroke-width="1.8"/>
+  <line x1="220.78" y1="140" x2="343" y2="140" stroke="#C4B5FD" stroke-width="1.8"/>
+  <line x1="220.78" y1="152" x2="318" y2="216" stroke="#C4B5FD" stroke-width="1.8"/>
+
+  <ellipse cx="335" cy="68" rx="17" ry="6.5" fill="#8355D6"/>
+  <path d="M318 68V98A17 6.5 0 0 0 352 98V68" fill="#6633BB"/>
+  <circle cx="349" cy="94" r="10" fill="#FFFFFF" stroke="#E4E2ED" stroke-width="1.3"/>
+  <path d="M344.5 92.5V89.5H347.5" stroke="#6633BB" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M350.5 89.5H353.5V92.5" stroke="#6633BB" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M344.5 95.5V98.5H347.5" stroke="#6633BB" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M350.5 98.5H353.5V95.5" stroke="#6633BB" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="349" cy="94" r="1.5" fill="#6633BB"/>
+
+  <ellipse cx="360" cy="136" rx="17" ry="6.5" fill="#8355D6"/>
+  <path d="M343 136V166A17 6.5 0 0 0 377 166V136" fill="#6633BB"/>
+  <circle cx="374" cy="162" r="10" fill="#FFFFFF" stroke="#E4E2ED" stroke-width="1.3"/>
+  <path d="M369.5 160.5V157.5H372.5" stroke="#6633BB" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M375.5 157.5H378.5V160.5" stroke="#6633BB" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M369.5 163.5V166.5H372.5" stroke="#6633BB" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M375.5 166.5H378.5V163.5" stroke="#6633BB" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="374" cy="162" r="1.5" fill="#6633BB"/>
+
+  <ellipse cx="335" cy="204" rx="17" ry="6.5" fill="#8355D6"/>
+  <path d="M318 204V234A17 6.5 0 0 0 352 234V204" fill="#6633BB"/>
+  <circle cx="349" cy="230" r="10" fill="#FFFFFF" stroke="#E4E2ED" stroke-width="1.3"/>
+  <path d="M344.5 228.5V225.5H347.5" stroke="#6633BB" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M350.5 225.5H353.5V228.5" stroke="#6633BB" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M344.5 231.5V234.5H347.5" stroke="#6633BB" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M350.5 234.5H353.5V231.5" stroke="#6633BB" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="349" cy="230" r="1.5" fill="#6633BB"/>
+
+  <!-- sparkle accents -->
+  <path d="M452 45l1.4 4.6 4.6 1.4-4.6 1.4-1.4 4.6-1.4-4.6-4.6-1.4 4.6-1.4Z" fill="#C4B5FD"/>
+  <path d="M30 240l1 3.2 3.2 1-3.2 1-1 3.2-1-3.2-3.2-1 3.2-1Z" fill="#D9CCFF"/>
+</svg>

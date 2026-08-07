@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 360" fill="none" role="img" aria-label="Role">
+  <defs>
+    <radialGradient id="kvGlowTR" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#CFE0FB" stop-opacity="0.9"/><stop offset="40%" stop-color="#DCE8FD" stop-opacity="0.5"/><stop offset="75%" stop-color="#EAF1FE" stop-opacity="0.14"/><stop offset="100%" stop-color="#EAF1FE" stop-opacity="0"/></radialGradient>
+    <radialGradient id="kvGlowBL" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#BFD6FA" stop-opacity="0.85"/><stop offset="40%" stop-color="#D3E1FC" stop-opacity="0.45"/><stop offset="75%" stop-color="#E6EFFE" stop-opacity="0.12"/><stop offset="100%" stop-color="#E6EFFE" stop-opacity="0"/></radialGradient>
+    <filter id="kvSoften" x="-120" y="-120" width="720" height="620" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="22"/></filter>
+    <radialGradient id="spotWhite" cx="50%" cy="46%" r="55%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/><stop offset="62%" stop-color="#FFFFFF" stop-opacity="0.25"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="badge" x1="0.2" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#6EA0F9"/><stop offset="100%" stop-color="#254FAC"/></linearGradient>
+    <radialGradient id="badgeGlow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#4C84F1" stop-opacity="0.45"/><stop offset="100%" stop-color="#4C84F1" stop-opacity="0"/></radialGradient>
+    <linearGradient id="cardG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#EDF3FD"/></linearGradient>
+    <filter id="dropBig" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#14337A" flood-opacity="0.28"/></filter>
+    <filter id="dropSm" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#14337A" flood-opacity="0.24"/></filter>
+  </defs>
+  <circle cx="402" cy="46" r="188" fill="url(#kvGlowTR)" filter="url(#kvSoften)"/>
+  <circle cx="52" cy="322" r="150" fill="url(#kvGlowBL)" filter="url(#kvSoften)"/>
+  <circle cx="420" cy="300" r="4" fill="#BFD6FA"/><circle cx="34" cy="66" r="3" fill="#8FB4F2"/>
+  <ellipse cx="230" cy="192" rx="184" ry="148" fill="url(#spotWhite)"/>
+
+  <!-- role badge (left) -->
+  <g transform="translate(150 196)">
+    <ellipse cx="0" cy="10" rx="66" ry="60" fill="url(#badgeGlow)"/>
+    <g filter="url(#dropBig)"><path d="M0 -58 L48 -36 V10 C48 42 28 62 0 72 C-28 62 -48 42 -48 10 V-36 Z" fill="url(#badge)"/></g>
+    <path d="M0 -58 L48 -36 V10 C48 42 28 62 0 72 C-28 62 -48 42 -48 10 V-36 Z" fill="none" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5"/>
+    <path d="M0 -58 L48 -36 V-14 C28 -26 -4 -26 -32 -14 L-42 -30 V-36 Z" fill="#FFFFFF" opacity="0.16"/>
+    <!-- id / role glyph -->
+    <circle cy="-10" r="13" fill="#FFFFFF"/>
+    <path d="M-18 24 a18 16 0 0 1 36 0 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- permission list card (right) -->
+  <path d="M226 196 C256 194 276 194 300 196" stroke="#9DBBF0" stroke-width="2.6" stroke-dasharray="1 8" stroke-linecap="round" fill="none"/>
+  <g transform="translate(346 196)">
+    <g filter="url(#dropBig)"><rect x="-64" y="-70" width="128" height="140" rx="18" fill="url(#cardG)"/></g>
+    <rect x="-63.5" y="-69.5" width="127" height="139" rx="17.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1"/>
+    <text x="-44" y="-42" font-family="'Segoe UI',system-ui,sans-serif" font-size="13" font-weight="700" fill="#254FAC">Permissions</text>
+    <g transform="translate(-44 -14)"><circle r="9" fill="#22C55E"/><path d="M-4 0 l3 3 l6 -6" stroke="#FFFFFF" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <rect x="-26" y="-19" width="66" height="8" rx="4" fill="#DDE9FD"/>
+    <g transform="translate(-44 14)"><circle r="9" fill="#22C55E"/><path d="M-4 0 l3 3 l6 -6" stroke="#FFFFFF" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <rect x="-26" y="9" width="80" height="8" rx="4" fill="#DDE9FD"/>
+    <g transform="translate(-44 42)"><circle r="9" fill="#22C55E"/><path d="M-4 0 l3 3 l6 -6" stroke="#FFFFFF" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <rect x="-26" y="37" width="58" height="8" rx="4" fill="#DDE9FD"/>
+  </g>
+  <g fill="#7FB0F5"><circle cx="230" cy="110" r="2.4"/><circle cx="150" cy="290" r="2"/></g>
+</svg>

@@ -61,7 +61,7 @@
           "Create Prometheus alerts to detect failures early",
           "Enable predictive monitoring for smarter capacity planning"
         ],
-        "image": "/assets/images/services/observability-infrastructure-monitoring.png"
+        "image": "/assets/images/services/observability-infrastructure-monitoring.svg"
       },
       {
         "title": "Centralized Logging with Loki, Fluentd & Elastic",

@@ -55,7 +55,7 @@
     {
       "title": "Unified Data Access",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/declarative-api.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/declarative-api.svg",
         "alt": "Unified Data Access"
       },
       "icon": {
@@ -68,7 +68,7 @@
     {
       "title": "Multi-Cloud Federation",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/backup-kubernetes-volumes.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/backup-kubernetes-volumes.svg",
         "alt": "Multi-Cloud Federation"
       },
       "icon": {
@@ -81,7 +81,7 @@
     {
       "title": "Scalability",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/backup-restore-databases.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/backup-restore-databases.svg",
         "alt": "Scalability"
       },
       "icon": {
@@ -94,7 +94,7 @@
     {
       "title": "Data Replication Policy",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/multiple-storage-support.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/multiple-storage-support.svg",
         "alt": "Data Replication Policy"
       },
       "icon": {
@@ -107,7 +107,7 @@
     {
       "title": "High Availability",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/deduplication.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/deduplication.svg",
         "alt": "High Availability"
       },
       "icon": {
@@ -120,7 +120,7 @@
     {
       "title": "Data Migration",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/data-encryption.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/data-encryption.svg",
         "alt": "Data Migration"
       },
       "icon": {
@@ -133,7 +133,7 @@
     {
       "title": "Policy-Based Data Management",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/volume-snapshot.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/volume-snapshot.svg",
         "alt": "Policy-Based Data Management"
       },
       "icon": {
@@ -146,7 +146,7 @@
     {
       "title": "Monitoring and Analytics",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/policy-based-backup.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/policy-based-backup.svg",
         "alt": "Monitoring and Analytics"
       },
       "icon": {
@@ -159,7 +159,7 @@
     {
       "title": "Kubernetes Native",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/monitoring.png",
+        "src": "https://cdn.appscode.com/images/addons/illustrations/monitoring.svg",
         "alt": "Kubernetes Native"
       },
       "icon": {

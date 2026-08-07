@@ -1,0 +1,125 @@
+{
+  "hero": {
+    "headline": "Kubernetes <strong>Configuration Syncer</strong>",
+    "cta_primary": "Try Now Free",
+    "cta_secondary": "Get in Touch",
+    "trust_items": [
+      {
+        "icon": "heroicons:shield-check",
+        "label": "Enterprise Ready"
+      },
+      {
+        "icon": "heroicons:calendar-days",
+        "label": "30-Day Free License"
+      },
+      {
+        "icon": "heroicons:arrow-path-rounded-square",
+        "label": "Cross-Cluster Sync"
+      }
+    ]
+  },
+  "steps": {
+    "title": "Config sync in <em>4 steps</em>",
+    "subtitle": "Annotate a ConfigMap or Secret and let Config Syncer keep every copy in sync \u2014 across namespaces or entire clusters.",
+    "steps": [
+      {
+        "title": "Install the Operator",
+        "description": "Deploy Config Syncer via Helm into any Kubernetes cluster \u2014 EKS, GKE, AKS, or on-prem. One command, a few minutes.",
+        "code": "helm install config-syncer \u2026"
+      },
+      {
+        "title": "Annotate Your Config",
+        "description": "Add the kubed.appscode.com/sync annotation to any ConfigMap or Secret to opt it into syncing \u2014 to all namespaces, or a label-selected subset.",
+        "code": "kubed.appscode.com/sync"
+      },
+      {
+        "title": "Sync Across Clusters",
+        "description": "Point at remote cluster contexts in a kubeconfig with the sync-contexts annotation to replicate the same ConfigMap or Secret into other clusters.",
+        "code": "sync-contexts: ctx1,ctx2"
+      },
+      {
+        "title": "Stay in Sync Automatically",
+        "description": "Updates to the source propagate to every copy instantly. Remove the annotation or delete the source, and the copies clean themselves up.",
+        "code": "\u2713 Config synced"
+      }
+    ]
+  },
+  "capabilities": {
+    "title": "Built for <em>seamless</em> config sync",
+    "subtitle": "Keep ConfigMaps and Secrets synchronized across namespaces or clusters \u2014 automatically, the Kubernetes-native way.",
+    "tags": [
+      "Core"
+    ]
+  },
+  "stats": {
+    "items": [
+      {
+        "number": "1K+",
+        "label": "GitHub Stars"
+      },
+      {
+        "number": "2",
+        "label": "Resource Kinds Synced"
+      },
+      {
+        "number": "2",
+        "label": "Sync Modes"
+      },
+      {
+        "number": "30-Day",
+        "label": "Free Trial License"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Keep configs in sync \u2014 free!",
+    "description": "Config Syncer is free to use on any supported Kubernetes cluster, with a 30-day complimentary license available for trial.",
+    "cta_primary": "Try Now Free",
+    "cta_secondary": "Contact Us",
+    "trust_points": [
+      "No credit card required",
+      "Works across namespaces and clusters",
+      "Open source core",
+      "Enterprise support available"
+    ]
+  },
+  "final-cta": {
+    "badge": "Start Syncing Today",
+    "title_plain": "Ready to Keep Configs",
+    "title_gradient": "In Sync?",
+    "description": "Join platform teams at Asurion, Emerson, Nokia, and Orange keeping ConfigMaps and Secrets synchronized across namespaces and clusters with Config Syncer.",
+    "checklist": [
+      "Automatic sync across namespaces or clusters",
+      "Label-selector targeting for fine-grained control",
+      "30-day free license, no credit card required"
+    ],
+    "cta_primary": "Try Now Free",
+    "cta_secondary": "Get in Touch",
+    "stats": [
+      {
+        "icon": "lucide:folder-sync",
+        "value": "ConfigMaps",
+        "label": "& Secrets Synced",
+        "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)"
+      },
+      {
+        "icon": "lucide:git-branch",
+        "value": "Multi-Cluster",
+        "label": "Sync Support",
+        "gradient": "linear-gradient(135deg, #4ade80, #10b981)"
+      },
+      {
+        "icon": "lucide:filter",
+        "value": "Label",
+        "label": "Selector Targeting",
+        "gradient": "linear-gradient(135deg, #c084fc, #ec4899)"
+      },
+      {
+        "icon": "lucide:life-buoy",
+        "value": "24/7",
+        "label": "Expert Support",
+        "gradient": "linear-gradient(135deg, #fb923c, #ef4444)"
+      }
+    ]
+  }
+}

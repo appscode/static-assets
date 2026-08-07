@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 360" fill="none" role="img" aria-label="Kubectl Plugin">
+  <defs>
+    <radialGradient id="kvGlowTR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#CFE0FB" stop-opacity="0.9"/><stop offset="40%" stop-color="#DCE8FD" stop-opacity="0.5"/>
+      <stop offset="75%" stop-color="#EAF1FE" stop-opacity="0.14"/><stop offset="100%" stop-color="#EAF1FE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kvGlowBL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#BFD6FA" stop-opacity="0.85"/><stop offset="40%" stop-color="#D3E1FC" stop-opacity="0.45"/>
+      <stop offset="75%" stop-color="#E6EFFE" stop-opacity="0.12"/><stop offset="100%" stop-color="#E6EFFE" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="kvSoften" x="-120" y="-120" width="720" height="620" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="22"/></filter>
+    <radialGradient id="spotWhite" cx="50%" cy="46%" r="55%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.85"/><stop offset="62%" stop-color="#FFFFFF" stop-opacity="0.22"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="term" x1="0.2" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#2C3D59"/><stop offset="100%" stop-color="#16202F"/></linearGradient>
+    <linearGradient id="header" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3A4C6B"/><stop offset="100%" stop-color="#2E3F5B"/></linearGradient>
+    <linearGradient id="termGloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12"/><stop offset="45%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#EDF3FD"/></linearGradient>
+    <filter id="dropBig" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0E1B33" flood-opacity="0.42"/></filter>
+    <filter id="dropSm" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#14337A" flood-opacity="0.28"/></filter>
+  </defs>
+
+  <circle cx="402" cy="46" r="188" fill="url(#kvGlowTR)" filter="url(#kvSoften)"/>
+  <circle cx="52" cy="322" r="150" fill="url(#kvGlowBL)" filter="url(#kvSoften)"/>
+  <circle cx="420" cy="300" r="4" fill="#BFD6FA"/><circle cx="34" cy="66" r="3" fill="#8FB4F2"/>
+  <ellipse cx="230" cy="188" rx="188" ry="146" fill="url(#spotWhite)"/>
+
+  <!-- terminal window -->
+  <g filter="url(#dropBig)"><rect x="64" y="86" width="332" height="188" rx="18" fill="url(#term)"/></g>
+  <path d="M64 104 a18 18 0 0 1 18 -18 h296 a18 18 0 0 1 18 18 v18 H64 Z" fill="url(#header)"/>
+  <rect x="64" y="86" width="332" height="188" rx="18" fill="url(#termGloss)"/>
+  <rect x="64.5" y="86.5" width="331" height="187" rx="17.5" fill="none" stroke="#5A6E90" stroke-opacity="0.5" stroke-width="1"/>
+  <circle cx="84" cy="104" r="5.5" fill="#FF5F57"/><circle cx="104" cy="104" r="5.5" fill="#FEBC2E"/><circle cx="124" cy="104" r="5.5" fill="#28C840"/>
+  <text x="230" y="108" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="600" fill="#94A7C6" text-anchor="middle">kubevault-cli</text>
+
+  <g font-family="'DejaVu Sans Mono','Courier New',monospace" font-size="14">
+    <text x="84" y="152"><tspan fill="#3BE06A">$</tspan><tspan fill="#E6EDF7"> kubectl vault </tspan><tspan fill="#FFC63F">version</tspan></text>
+    <text x="84" y="180"><tspan fill="#8FA3C2">KubeVault CLI v0.20.0</tspan></text>
+    <text x="84" y="214"><tspan fill="#3BE06A">$</tspan><tspan fill="#E6EDF7"> kubectl vault </tspan><tspan fill="#7FB2FF">root-token get</tspan></text>
+    <text x="84" y="242"><tspan fill="#E6EDF7"> </tspan><tspan fill="#FFC63F">vaultserver</tspan><tspan fill="#E6EDF7">/vault -n demo</tspan><tspan fill="#E6EDF7"> ▋</tspan></text>
+  </g>
+
+  <!-- kubectl badge -->
+  <g transform="translate(362 90)">
+    <g filter="url(#dropSm)"><circle r="27" fill="url(#badge)"/></g>
+    <circle r="27" fill="none" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.5"/>
+    <polygon points="0,-15 13,-7.5 13,7.5 0,15 -13,7.5 -13,-7.5" fill="none" stroke="#2A5FCF" stroke-width="2.4"/>
+    <circle r="5" fill="none" stroke="#2A5FCF" stroke-width="2.4"/><line x1="0" y1="-5" x2="0" y2="-10" stroke="#2A5FCF" stroke-width="2.4"/>
+  </g>
+</svg>
