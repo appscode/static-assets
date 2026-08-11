@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 360" fill="none" role="img" aria-label="Auto Initialization">
+  <defs>
+    <radialGradient id="kvGlowTR" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#CFE0FB" stop-opacity="0.9"/><stop offset="40%" stop-color="#DCE8FD" stop-opacity="0.5"/><stop offset="75%" stop-color="#EAF1FE" stop-opacity="0.14"/><stop offset="100%" stop-color="#EAF1FE" stop-opacity="0"/></radialGradient>
+    <radialGradient id="kvGlowBL" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#BFD6FA" stop-opacity="0.85"/><stop offset="40%" stop-color="#D3E1FC" stop-opacity="0.45"/><stop offset="75%" stop-color="#E6EFFE" stop-opacity="0.12"/><stop offset="100%" stop-color="#E6EFFE" stop-opacity="0"/></radialGradient>
+    <filter id="kvSoften" x="-120" y="-120" width="720" height="620" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="22"/></filter>
+    <radialGradient id="spotWhite" cx="50%" cy="46%" r="55%"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/><stop offset="62%" stop-color="#FFFFFF" stop-opacity="0.25"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="vframe" x1="0.2" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#4C7CE8"/><stop offset="100%" stop-color="#173A82"/></linearGradient>
+    <linearGradient id="vface" x1="0.15" y1="0" x2="0.55" y2="1"><stop offset="0%" stop-color="#6EA0F9"/><stop offset="50%" stop-color="#3F73E4"/><stop offset="100%" stop-color="#254FAC"/></linearGradient>
+    <linearGradient id="vsheen" x1="0" y1="0" x2="0.8" y2="1"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/><stop offset="30%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="vdoor" x1="0.1" y1="0" x2="0.4" y2="1"><stop offset="0%" stop-color="#CBDCF7"/><stop offset="34%" stop-color="#E9F1FE"/><stop offset="100%" stop-color="#FAFCFF"/></linearGradient>
+    <linearGradient id="gear" x1="0.2" y1="0" x2="0.7" y2="1"><stop offset="0%" stop-color="#C7DBFA"/><stop offset="100%" stop-color="#8FB3EC"/></linearGradient>
+    <radialGradient id="grnGlow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#22C55E" stop-opacity="0.5"/><stop offset="100%" stop-color="#22C55E" stop-opacity="0"/></radialGradient>
+    <filter id="dropBig" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#14337A" flood-opacity="0.30"/></filter>
+    <filter id="dropSm" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#14337A" flood-opacity="0.26"/></filter>
+  </defs>
+  <circle cx="402" cy="46" r="188" fill="url(#kvGlowTR)" filter="url(#kvSoften)"/>
+  <circle cx="52" cy="322" r="150" fill="url(#kvGlowBL)" filter="url(#kvSoften)"/>
+  <circle cx="420" cy="300" r="4" fill="#BFD6FA"/><circle cx="34" cy="66" r="3" fill="#8FB4F2"/>
+  <ellipse cx="230" cy="196" rx="180" ry="148" fill="url(#spotWhite)"/>
+
+  <!-- vault (beveled) center-left -->
+  <ellipse cx="188" cy="284" rx="66" ry="12" fill="#1A3E92" opacity="0.20"/>
+  <g filter="url(#dropBig)">
+    <rect x="138" y="270" width="16" height="14" rx="3" fill="#12306E"/><rect x="222" y="270" width="16" height="14" rx="3" fill="#12306E"/>
+    <rect x="128" y="158" width="120" height="126" rx="18" fill="url(#vframe)"/>
+    <rect x="135" y="165" width="106" height="112" rx="13" fill="url(#vface)"/>
+    <rect x="135" y="165" width="106" height="112" rx="13" fill="url(#vsheen)"/>
+  </g>
+  <rect x="146" y="175" width="84" height="92" rx="10" fill="url(#vdoor)" filter="url(#dropSm)"/>
+  <circle cx="188" cy="221" r="24" fill="#F3F8FF" stroke="#B7CCEE" stroke-width="2"/>
+  <circle cx="188" cy="221" r="16" fill="none" stroke="#3F73E4" stroke-width="4"/>
+  <path d="M174 208 A16 16 0 0 1 203 210" fill="none" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="188" cy="221" r="6" fill="#2A5FCF"/>
+
+  <!-- automation gear with success -->
+  <g transform="translate(320 150)">
+    <circle r="46" fill="url(#grnGlow)"/>
+    <g filter="url(#dropBig)">
+      <g fill="url(#gear)">
+        <circle r="36"/>
+        <g><rect x="-7" y="-49" width="14" height="15" rx="2"/><rect x="-7" y="34" width="14" height="15" rx="2"/>
+          <rect x="-49" y="-7" width="15" height="14" rx="2"/><rect x="34" y="-7" width="15" height="14" rx="2"/>
+          <rect x="-7" y="-49" width="14" height="15" rx="2" transform="rotate(45)"/><rect x="-7" y="34" width="14" height="15" rx="2" transform="rotate(45)"/>
+          <rect x="-49" y="-7" width="15" height="14" rx="2" transform="rotate(45)"/><rect x="34" y="-7" width="15" height="14" rx="2" transform="rotate(45)"/>
+        </g>
+      </g>
+    </g>
+    <circle r="18" fill="#FFFFFF"/>
+    <path d="M-8 0 l6 7 l10 -13" fill="none" stroke="#16A34A" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M254 200 C272 186 288 172 296 160" stroke="#9DBBF0" stroke-width="2.6" stroke-dasharray="1 8" stroke-linecap="round" fill="none"/>
+  <g fill="#7FB0F5"><circle cx="230" cy="110" r="2.4"/><circle cx="120" cy="130" r="2"/></g>
+</svg>

@@ -1,0 +1,73 @@
+<svg viewBox="0 0 500 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A single backup fanning out to a cloud storage service, a REST server, and a Kubernetes persistent volume">
+  <!-- soft background depth -->
+  <defs>
+    <radialGradient id="illGlowTR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E9DCFF" stop-opacity="0.85"/>
+      <stop offset="20%" stop-color="#EBDFFF" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#EEE5FF" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#F1EAFF" stop-opacity="0.3"/>
+      <stop offset="80%" stop-color="#F4F0FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F5F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="illGlowBL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DBC8FF" stop-opacity="0.75"/>
+      <stop offset="20%" stop-color="#DFCEFF" stop-opacity="0.62"/>
+      <stop offset="40%" stop-color="#E4D6FF" stop-opacity="0.44"/>
+      <stop offset="60%" stop-color="#E9DEFF" stop-opacity="0.26"/>
+      <stop offset="80%" stop-color="#EDE5FF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#EDE5FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="illSoften" x="-100" y="-100" width="700" height="480" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <circle cx="424" cy="60" r="165" fill="url(#illGlowTR)" filter="url(#illSoften)"/>
+  <circle cx="55" cy="248" r="135" fill="url(#illGlowBL)" filter="url(#illSoften)"/>
+  <circle cx="472" cy="238" r="4" fill="#D9CCFF"/>
+  <circle cx="26" cy="64" r="3" fill="#B899F7"/>
+
+  <!-- the backup: one artifact, ready to be stored anywhere -->
+  <ellipse cx="100" cy="138" rx="22" ry="8" fill="#8355D6"/>
+  <path d="M78 138V160A22 8 0 0 0 122 160V138" fill="#6633BB"/>
+  <circle cx="120" cy="158" r="13" fill="#6633BB" stroke="#FFFFFF" stroke-width="2.6"/>
+  <path d="M120 158V152" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M120 158L125 155" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- it can flow to any one of several interchangeable backends -->
+  <path d="M126 132Q240 60 345 72" stroke="#C4B5FD" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-dasharray="1 7"/>
+  <path d="M338 65l10 6-6 11" stroke="#C4B5FD" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M126 148Q240 148 348 150" stroke="#C4B5FD" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-dasharray="1 7"/>
+  <path d="M341 142l9 8-8 9" stroke="#C4B5FD" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M122 166Q240 230 338 222" stroke="#C4B5FD" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-dasharray="1 7"/>
+  <path d="M330 214l10 6-5 11" stroke="#C4B5FD" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- cloud object storage: S3, GCS, Azure Blob, Minio, Rook, Swift, Spaces, B2 ... -->
+  <g fill="#8355D6">
+    <circle cx="378" cy="74" r="15"/>
+    <circle cx="395" cy="63" r="19"/>
+    <circle cx="412" cy="74" r="15"/>
+    <rect x="376" y="70" width="40" height="24" rx="12"/>
+  </g>
+  <circle cx="384" cy="76" r="2.6" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="396" cy="76" r="2.6" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="408" cy="76" r="2.6" fill="#FFFFFF" opacity="0.9"/>
+
+  <!-- REST server backend -->
+  <rect x="378" y="128" width="44" height="44" rx="8" fill="#A78BFA"/>
+  <line x1="378" y1="143" x2="422" y2="143" stroke="#FFFFFF" stroke-width="1.4" opacity="0.35"/>
+  <line x1="378" y1="158" x2="422" y2="158" stroke="#FFFFFF" stroke-width="1.4" opacity="0.35"/>
+  <circle cx="387" cy="135.5" r="2" fill="#FFFFFF"/>
+  <circle cx="387" cy="150.5" r="2" fill="#FFFFFF"/>
+  <circle cx="387" cy="165" r="2" fill="#FFFFFF"/>
+
+  <!-- Kubernetes persistent volume backend -->
+  <ellipse cx="390" cy="208" rx="26" ry="9" fill="#8355D6"/>
+  <path d="M364 208V232A26 9 0 0 0 416 232V208" fill="#6633BB"/>
+  <path d="M364 220A26 9 0 0 0 416 220" stroke="#FFFFFF" stroke-width="1.2" fill="none" opacity="0.3"/>
+
+  <!-- sparkle accents -->
+  <path d="M440 40l1.4 4.6 4.6 1.4-4.6 1.4-1.4 4.6-1.4-4.6-4.6-1.4 4.6-1.4Z" fill="#C4B5FD"/>
+  <path d="M40 210l1 3.2 3.2 1-3.2 1-1 3.2-1-3.2-3.2-1 3.2-1Z" fill="#D9CCFF"/>
+</svg>

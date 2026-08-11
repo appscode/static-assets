@@ -1,0 +1,62 @@
+<svg viewBox="0 0 500 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A database's live metrics pulsing into a Grafana-style dashboard of charts and gauges">
+  <!-- soft background depth -->
+  <defs>
+    <radialGradient id="illGlowTR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E9DCFF" stop-opacity="0.85"/>
+      <stop offset="20%" stop-color="#EBDFFF" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#EEE5FF" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#F1EAFF" stop-opacity="0.3"/>
+      <stop offset="80%" stop-color="#F4F0FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F5F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="illGlowBL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DBC8FF" stop-opacity="0.75"/>
+      <stop offset="20%" stop-color="#DFCEFF" stop-opacity="0.62"/>
+      <stop offset="40%" stop-color="#E4D6FF" stop-opacity="0.44"/>
+      <stop offset="60%" stop-color="#E9DEFF" stop-opacity="0.26"/>
+      <stop offset="80%" stop-color="#EDE5FF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#EDE5FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="illSoften" x="-100" y="-100" width="700" height="480" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <circle cx="424" cy="60" r="165" fill="url(#illGlowTR)" filter="url(#illSoften)"/>
+  <circle cx="55" cy="248" r="135" fill="url(#illGlowBL)" filter="url(#illSoften)"/>
+  <circle cx="472" cy="238" r="4" fill="#D9CCFF"/>
+  <circle cx="26" cy="64" r="3" fill="#B899F7"/>
+
+  <!-- ground shadow -->
+  <ellipse cx="250" cy="242" rx="190" ry="10" fill="#1E0D42" opacity="0.04"/>
+
+  <!-- the database being monitored -->
+  <ellipse cx="110" cy="120" rx="26" ry="9" fill="#8355D6"/>
+  <path d="M84 120V170A26 9 0 0 0 136 170V120" fill="#6633BB"/>
+  <path d="M84 145A26 9 0 0 0 136 145" stroke="#FFFFFF" stroke-width="1.3" fill="none" opacity="0.3"/>
+
+  <!-- live metrics, scraped continuously -->
+  <path d="M140 145H175L182 125L192 165L200 145H262" stroke="#C4B5FD" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M254 138l9 7-9 7" stroke="#C4B5FD" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- the dashboard: Grafana-style panels for capacity, I/O, connections -->
+  <rect x="270" y="70" width="160" height="160" rx="14" fill="#FFFFFF" stroke="#E4E2ED" stroke-width="1.5"/>
+  <circle cx="286" cy="90" r="7" stroke="#C4B5FD" stroke-width="1.2" fill="none" opacity="0.6"/>
+  <circle cx="286" cy="90" r="4" fill="#6633BB"/>
+  <rect x="298" y="87" width="50" height="6" rx="3" fill="#E4E2ED"/>
+  <line x1="282" y1="104" x2="418" y2="104" stroke="#F1F0F5" stroke-width="1.5"/>
+
+  <!-- capacity utilization bars -->
+  <line x1="282" y1="205" x2="364" y2="205" stroke="#E4E2ED" stroke-width="1.5"/>
+  <rect x="286" y="175" width="14" height="30" rx="3" fill="#C4B5FD"/>
+  <rect x="306" y="155" width="14" height="50" rx="3" fill="#A78BFA"/>
+  <rect x="326" y="140" width="14" height="65" rx="3" fill="#8355D6"/>
+  <rect x="346" y="165" width="14" height="40" rx="3" fill="#C4B5FD"/>
+
+  <!-- connections / utilization gauge -->
+  <circle cx="395" cy="170" r="22" stroke="#E4E2ED" stroke-width="8" fill="none"/>
+  <circle cx="395" cy="170" r="22" stroke="#6633BB" stroke-width="8" fill="none" stroke-dasharray="97 138" stroke-linecap="round" transform="rotate(-90 395 170)"/>
+
+  <!-- sparkle accents -->
+  <path d="M455 55l1.4 4.6 4.6 1.4-4.6 1.4-1.4 4.6-1.4-4.6-4.6-1.4 4.6-1.4Z" fill="#C4B5FD"/>
+  <path d="M35 220l1 3.2 3.2 1-3.2 1-1 3.2-1-3.2-3.2-1 3.2-1Z" fill="#D9CCFF"/>
+</svg>

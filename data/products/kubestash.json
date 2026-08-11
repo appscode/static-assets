@@ -14,31 +14,31 @@
   "keywords": "kubernetes appscode backup disaster recovery volume",
   "heroSlider": [
     {
-      "src": "https://cdn.appscode.com/images/products/stash/slider/applications.jpg",
+      "src": "/assets/images/products/stash/slider/applications.jpg",
       "alt": "Supported Applications"
     },
     {
-      "src": "https://cdn.appscode.com/images/products/stash/slider/platforms.jpg",
+      "src": "/assets/images/products/stash/slider/platforms.jpg",
       "alt": "Supported Platforms"
     },
     {
-      "src": "https://cdn.appscode.com/images/products/stash/slider/storage.jpg",
+      "src": "/assets/images/products/stash/slider/storage.jpg",
       "alt": "Supported Storage"
     }
   ],
   "logo": {
-    "src": "https://cdn.appscode.com/images/products/kubestash/kubestash.png",
+    "src": "/assets/images/products/kubestash/kubestash.png",
     "alt": "kubestash"
   },
   "logoWhite": {
-    "src": "https://cdn.appscode.com/images/products/kubestash/kubestash-white.png",
+    "src": "/assets/images/products/kubestash/kubestash-white.png",
     "alt": "kubestash"
   },
   "icon": {
-    "src": "https://cdn.appscode.com/images/products/stash/stash-icon.svg",
+    "src": "/assets/images/products/stash/stash-icon.svg",
     "alt": "Stash",
     "sizes": {
-      "192x192": "https://cdn.appscode.com/images/products/stash/icons/android-icon-192x192.png"
+      "192x192": "/assets/images/products/stash/icons/android-icon-192x192.png"
     }
   },
   "repoURL": "https://github.com/kubestash/docs",
@@ -54,12 +54,13 @@
   "features": [
     {
       "title": "Declarative API",
+      "tag": "Core",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/declarative-api.png",
-        "alt": "http"
+        "src": "/assets/images/features/illustrations/declarative-api.svg",
+        "alt": "A declarative YAML configuration card being applied and reconciled"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/declarative-api.svg",
+        "src": "/assets/images/products/stash/features/declarative-api.svg",
         "alt": "http"
       },
       "summary": "",
@@ -67,12 +68,13 @@
     },
     {
       "title": "Backup Kubernetes Volumes",
+      "tag": "Recovery",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/backup-kubernetes-volumes.png",
-        "alt": "http"
+        "src": "/assets/images/features/illustrations/backup-kubernetes-volumes.svg",
+        "alt": "Multiple Kubernetes workloads mounting a shared volume that is continuously backed up"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/vol.svg",
+        "src": "/assets/images/products/stash/features/vol.svg",
         "alt": "http"
       },
       "summary": "",
@@ -80,25 +82,41 @@
     },
     {
       "title": "Backup Database",
+      "tag": "Recovery",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/backup-restore-databases.png",
-        "alt": "http"
+        "src": "/assets/images/features/illustrations/backup-database.svg",
+        "alt": "A database being copied into a point-in-time backup, marked by a clock"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/backup-icon.png",
+        "src": "/assets/images/products/stash/features/backup-icon.png",
         "alt": "http"
       },
       "summary": "",
       "description": "Backup your databases deployed in Kubernetes. Stash supports backup of MariaDB, Redis, PostgreSQL, MySQL, MongoDB, Elasticsearch and Percona XtraDB, Etcd databases. It seemingly integrates with KubeDB. It is now a recommended method to backup KubeDB supported databases."
     },
     {
-      "title": "Multiple Storage Support",
+      "title": "Backup Virtual Machines",
+      "tag": "Recovery",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/multiple-storage-support.png",
-        "alt": "http"
+        "src": "/assets/images/features/illustrations/backup-virtual-machines.svg",
+        "alt": "Several virtual machines running on a host being captured into a scheduled, restorable backup"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/storage-icon.png",
+        "src": "/assets/images/products/kubestash/features/kub-workload.svg",
+        "alt": "http"
+      },
+      "summary": "",
+      "description": "Protect virtual machines running on Kubernetes with the same policy-driven workflow used for your databases and volumes. Schedule backups, verify snapshots, and restore VMs on demand — no separate tooling required."
+    },
+    {
+      "title": "Multiple Storage Support",
+      "tag": "Storage",
+      "image": {
+        "src": "/assets/images/features/illustrations/multiple-storage-support.svg",
+        "alt": "A single backup fanning out to a cloud storage service, a REST server, and a Kubernetes persistent volume"
+      },
+      "icon": {
+        "src": "/assets/images/products/stash/features/storage-icon.png",
         "alt": "http"
       },
       "summary": "",
@@ -106,12 +124,13 @@
     },
     {
       "title": "Deduplication",
+      "tag": "Performance",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/deduplication.png",
-        "alt": "http"
+        "src": "/assets/images/features/illustrations/deduplication.svg",
+        "alt": "A file split into chunks where only the changed blobs, marked with a delta, are uploaded"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/compare-icon.png",
+        "src": "/assets/images/products/stash/features/compare-icon.png",
         "alt": "http"
       },
       "summary": "",
@@ -119,12 +138,13 @@
     },
     {
       "title": "Data Encryption",
+      "tag": "Security",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/data-encryption.png",
-        "alt": "http"
+        "src": "/assets/images/features/illustrations/data-encryption.svg",
+        "alt": "Plain data passing through an AES-256 lock and becoming unreadable ciphertext in storage"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/encryption-icon.png",
+        "src": "/assets/images/products/stash/features/encryption-icon.png",
         "alt": "http"
       },
       "summary": "",
@@ -132,12 +152,13 @@
     },
     {
       "title": "Volume Snapshot",
+      "tag": "Recovery",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/volume-snapshot.png",
-        "alt": "http"
+        "src": "/assets/images/features/illustrations/volume-snapshot.svg",
+        "alt": "A single BackupConfiguration automatically creating a VolumeSnapshot for every volume of a workload"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/volume-snapshot.png",
+        "src": "/assets/images/products/stash/features/volume-snapshot.png",
         "alt": "http"
       },
       "summary": "",
@@ -145,12 +166,13 @@
     },
     {
       "title": "Policy Based Backup",
+      "tag": "Automation",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/policy-based-backup.png",
-        "alt": "http"
+        "src": "/assets/images/features/illustrations/policy-based-backup.svg",
+        "alt": "One backup template governing many differently annotated workloads across the cluster"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/policy-based-icon.png",
+        "src": "/assets/images/products/stash/features/policy-based-icon.png",
         "alt": "http"
       },
       "summary": "",
@@ -158,12 +180,13 @@
     },
     {
       "title": "Monitoring",
+      "tag": "Observability",
       "image": {
-        "src": "https://cdn.appscode.com/images/addons/illustrations/monitoring.png",
-        "alt": "http"
+        "src": "/assets/images/features/illustrations/monitoring.svg",
+        "alt": "A database's live metrics pulsing into a Grafana-style dashboard of charts and gauges"
       },
       "icon": {
-        "src": "https://cdn.appscode.com/images/products/stash/features/prometheus.svg",
+        "src": "/assets/images/products/stash/features/prometheus.svg",
         "alt": "http"
       },
       "summary": "",

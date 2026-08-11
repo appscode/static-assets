@@ -13,22 +13,22 @@
   },
   "keywords": "kubernetes, hashicorp vault, vault kubernetes, appscode, vault secret, certificates, security, access tokens, tls, secret engines, user management",
   "heroImage": {
-    "src": "https://cdn.appscode.com/images/products/kubevault/kubevault-hero.png",
+    "src": "/assets/images/products/kubevault/kubevault-hero.png",
     "alt": "KubeVault"
   },
   "logo": {
-    "src": "https://cdn.appscode.com/images/products/kubevault/kubevault.png",
+    "src": "/assets/images/products/kubevault/kubevault.png",
     "alt": "KubeVault"
   },
   "logoWhite": {
-    "src": "https://cdn.appscode.com/images/products/kubevault/kubevault-white.png",
+    "src": "/assets/images/products/kubevault/kubevault-white.png",
     "alt": "KubeVault"
   },
   "icon": {
-    "src": "https://cdn.appscode.com/images/products/kubevault/kubevault-icon.svg",
+    "src": "/assets/images/products/kubevault/kubevault-icon.svg",
     "alt": "KubeVault",
     "sizes": {
-      "192x192": "https://cdn.appscode.com/images/products/kubevault/icons/android-icon-192x192.png"
+      "192x192": "/assets/images/products/kubevault/icons/android-icon-192x192.png"
     }
   },
   "repoURL": "https://github.com/kubevault/kubevault",
@@ -51,13 +51,14 @@
       "title": "Vault Kubernetes Deployment",
       "url": "vault-kubernetes-deployment",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-1.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/vault-kubernetes-deployment.svg",
+        "alt": "Vault Kubernetes Deployment"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/vaultserverversions.svg",
         "alt": "vaultserverversions"
       },
+      "tag": "Deployment",
       "summary": "",
       "description": "You can deploy TLS secured Vault Servers on Kubernetes using KubeVault. You can manage TLS with self-signed or cert-manager managed TLS. Running & managing Vault & it’s resources has never been easier."
     },
@@ -65,13 +66,14 @@
       "title": "Auto Initialization & Unsealing",
       "url": "auto-initialization-and-unsealing",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-1.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/auto-initialization-and-unsealing.svg",
+        "alt": "Auto Initialization and Unsealing"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/automated-unsealing.svg",
         "alt": "http"
       },
+      "tag": "Security",
       "summary": "",
       "description": "KubeVault provides various ways to automatically initialize & unseal your Vault Servers. You can use your choice of cloud providers among GCP, AWS, Azure, etc. or even K8s secret to store unseal keys & vault token."
     },
@@ -79,13 +81,14 @@
       "title": "Vault Backup & Restore",
       "url": "vault-backup-restore",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-6.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/vault-backup-restore.svg",
+        "alt": "Vault Backup and Restore"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/vault-backup-restore.svg",
         "alt": "vault-backup-restore"
       },
+      "tag": "Recovery",
       "summary": "",
       "description": "You can Backup & Restore your Vault cluster managed by KubeVault or deployed with Helm-charts using Stash. Stash simplifies & generalizes the process for Vault regardless of the Storage Backend used by the Vault. It protects your Vault cluster against data corruption or sabotage."
     },
@@ -93,13 +96,14 @@
       "title": "Consume KubeVault Secrets with CSI",
       "url": "consume-kubevault-secrets-with-csi",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-5.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/consume-kubevault-secrets-with-csi.svg",
+        "alt": "Consume KubeVault Secrets with CSI"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/secrets.svg",
         "alt": "secrets"
       },
+      "tag": "Secrets",
       "summary": "",
       "description": "KubeVault works seamlessly with the Secrets Store CSI Driver. Consuming Vault secrets in K8s resources is way more simpler with the automation provided by KubeVault. "
     },
@@ -107,13 +111,14 @@
       "title": "Manage DB Users Privileges",
       "url": "manage-db-users-privileges",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/manage-db-users-privileges.svg",
+        "alt": "Manage DB Users Privileges"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/database-users.svg",
         "alt": "http"
       },
+      "tag": "Access Control",
       "summary": "",
       "description": "Managing DB user privileges is a complicated task which is made simple with KubeVault. KubeVault works seamlessly with KubeDB managed DBs. CRDs like SecretAccessRequest, SecretRoleBinding, etc. make grant, revoke, audit user privileges extremely convenient. "
     },
@@ -121,13 +126,14 @@
       "title": "Storage Backend",
       "url": "storage-backend",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-2.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/storage-backend.svg",
+        "alt": "Storage Backend"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/storageclasses.svg",
         "alt": "storageclasses"
       },
+      "tag": "Storage",
       "summary": "",
       "description": "KubeVault lets you choose your preferred way to store & persist Vault data. Each Storage Backend has its own pros and cons. GCS, AWS S3, Azure, Consul, Raft, Etcd, MySQL, Postgres, DynanoDB, etc. to name a few."
     },
@@ -135,13 +141,14 @@
       "title": "Authentication Method",
       "url": "authentication-method",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-3.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/authentication-method.svg",
+        "alt": "Authentication Method"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/auth.svg",
         "alt": "http"
       },
+      "tag": "Security",
       "summary": "",
       "description": "You can authenticate to Vault using numerous ways using KubeVault. Each of them has their own use-cases. Kubernetes Service Account token, AWS IAM, Azure, Userpass, JWT/OIDC, etc. to name a few."
     },
@@ -149,13 +156,14 @@
       "title": "Database Secret Engine",
       "url": "database-secret-engine",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/database-secret-engine.svg",
+        "alt": "Database Secret Engine"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/database-view.png",
         "alt": "http"
       },
+      "tag": "Secrets",
       "summary": "",
       "description": "PostgreSQL, MySQL, Elasticsearch & MongoDB database secret engine in Vault generates database credentials dynamically based on configured roles. Using Vault, you can configure Secret Engine, Create Role and issue dynamic credentials. "
     },
@@ -163,13 +171,14 @@
       "title": "Azure Secret Engine",
       "url": "azure-secret-engine",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/azure-secret-engine.svg",
+        "alt": "Azure Secret Engine"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/azure.png",
         "alt": "http"
       },
+      "tag": "Cloud",
       "summary": "",
       "description": "Azure Secrets Engine dynamically generates Azure service principals and role assignments. Vault roles can be mapped to one or more Azure roles, providing a simple way to manage the permissions granted to generated service principals."
     },
@@ -177,13 +186,14 @@
       "title": "AWS Secret Engine",
       "url": "aws-secret-engine",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/aws-secret-engine.svg",
+        "alt": "AWS Secret Engine"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/aws.png",
         "alt": "http"
       },
+      "tag": "Cloud",
       "summary": "",
       "description": "AWS Secret Engine in Vault generates AWS access credentials dynamically based on IAM policies. Using Vault operator, you can configure AWS secret engine and issue AWS access credentials."
     },
@@ -191,13 +201,14 @@
       "title": "GCP Secret Engine",
       "url": "gcp-secret-engine",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-4.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/gcp-secret-engine.svg",
+        "alt": "GCP Secret Engine"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/google-cloud.png",
         "alt": "http"
       },
+      "tag": "Cloud",
       "summary": "",
       "description": "Google Cloud Vault secrets engine dynamically generates Google Cloud service account keys and OAuth tokens based on IAM policies. By using Vault user can easily configure vault GCP Secret Engine and make request to generate Google Cloud account keys and OAuth tokens based on IAM policies."
     },
@@ -205,13 +216,14 @@
       "title": "Kubectl Plugin",
       "url": "kubectl-plugin",
       "image": {
-        "src": "/assets/images/products/kubevault/features/feature-6.png",
-        "alt": "http"
+        "src": "/assets/images/products/kubevault/features/kubectl-plugin.svg",
+        "alt": "Kubectl Plugin"
       },
       "icon": {
         "src": "/assets/images/products/kubevault/features/plugin.svg",
         "alt": "http"
       },
+      "tag": "Tooling",
       "summary": "",
       "description": "KubeVault CLI is a kubectl plugin that supports various handy features while using KubeVault. It automates numerous tedious tasks & provides simpler ways to interact with Vault. It’s possible to do CRUD operations on Vault unseal keys, root token stored in different clouds, generate SecretProviderClass, etc. with KubeVault CLI. "
     }

@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "headline": "Run Production-Grade <strong>Vault</strong> on Kubernetes",
+    "cta_primary": "Try Now Free",
+    "cta_secondary": "Get in Touch",
+    "trust_items": [
+      {
+        "icon": "heroicons:shield-check",
+        "label": "Production-Grade Security"
+      },
+      {
+        "icon": "heroicons:calendar-days",
+        "label": "30-Day Free License"
+      },
+      {
+        "icon": "heroicons:server-stack",
+        "label": "Any Kubernetes Distribution"
+      }
+    ]
+  },
+  "steps": {
+    "title": "Vault on Kubernetes in <em>4 steps</em>",
+    "subtitle": "A Git-Ops-ready workflow for deploying, unsealing, and operating HashiCorp Vault \u2014 declared entirely with Kubernetes-native CRDs.",
+    "steps": [
+      {
+        "title": "Install the Operator",
+        "description": "Deploy KubeVault via Helm into any Kubernetes cluster \u2014 EKS, GKE, AKS, or on-prem. One command, a few minutes.",
+        "code": "helm install kubevault \u2026"
+      },
+      {
+        "title": "Deploy a VaultServer",
+        "description": "A single VaultServer CRD provisions a TLS-secured HashiCorp Vault that is automatically initialized and unsealed using your cloud KMS or a Kubernetes secret.",
+        "code": "kind: VaultServer"
+      },
+      {
+        "title": "Enable Secret Engines",
+        "description": "Declare SecretEngine and role CRDs to issue short-lived, dynamic credentials for AWS, Azure, GCP, and databases \u2014 no static secrets to rotate.",
+        "code": "kind: SecretEngine"
+      },
+      {
+        "title": "Request Secrets Securely",
+        "description": "Workloads get scoped, audited access through SecretAccessRequest and the Secrets Store CSI Driver \u2014 secrets are delivered straight into pods.",
+        "code": "kind: SecretAccessRequest"
+      }
+    ]
+  },
+  "capabilities": {
+    "title": "Built for <em>production-grade</em> Vault",
+    "subtitle": "A Git-Ops-ready solution for deploying and configuring HashiCorp Vault on Kubernetes \u2014 with automated unsealing, dynamic secrets, and fine-grained access control.",
+    "tags": [
+      "Deploy",
+      "Automation",
+      "Backup",
+      "Secrets",
+      "Access",
+      "Storage"
+    ]
+  },
+  "stats": {
+    "items": [
+      {
+        "number": "300K+",
+        "label": "Docker Pulls"
+      },
+      {
+        "number": "9+",
+        "label": "Storage Backends"
+      },
+      {
+        "number": "5+",
+        "label": "Authentication Methods"
+      },
+      {
+        "number": "30-Day",
+        "label": "Free Trial License"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Run and manage Vault on Kubernetes \u2014 free!",
+    "description": "KubeVault is free to use on any supported Kubernetes engine, with a 30-day complimentary license available for trial.",
+    "cta_primary": "Try Now Free",
+    "cta_secondary": "Contact Us",
+    "trust_points": [
+      "No credit card required",
+      "Works on any Kubernetes distribution",
+      "Built on HashiCorp Vault",
+      "Enterprise support available"
+    ]
+  },
+  "final-cta": {
+    "badge": "Start Securing Today",
+    "title_plain": "Ready to Run Vault on",
+    "title_gradient": "Kubernetes?",
+    "description": "Join platform teams at Asurion, Emerson, Nokia, and Orange running TLS-secured, auto-unsealed HashiCorp Vault with dynamic secrets on Kubernetes using KubeVault.",
+    "checklist": [
+      "TLS-secured, automatically unsealed Vault by default",
+      "Dynamic secrets for AWS, Azure, GCP & databases",
+      "30-day free license, no credit card required"
+    ],
+    "cta_primary": "Try Now Free",
+    "cta_secondary": "Get in Touch",
+    "stats": [
+      {
+        "icon": "lucide:database",
+        "value": "4+",
+        "label": "Secret Engines",
+        "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)"
+      },
+      {
+        "icon": "lucide:key-round",
+        "value": "5+",
+        "label": "Auth Methods",
+        "gradient": "linear-gradient(135deg, #4ade80, #10b981)"
+      },
+      {
+        "icon": "lucide:hard-drive",
+        "value": "9+",
+        "label": "Storage Backends",
+        "gradient": "linear-gradient(135deg, #c084fc, #ec4899)"
+      },
+      {
+        "icon": "lucide:life-buoy",
+        "value": "24/7",
+        "label": "Expert Support",
+        "gradient": "linear-gradient(135deg, #fb923c, #ef4444)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+<svg viewBox="0 0 500 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Multiple Kubernetes workloads mounting a shared volume that is continuously backed up">
+  <!-- soft background depth -->
+  <defs>
+    <radialGradient id="illGlowTR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E9DCFF" stop-opacity="0.85"/>
+      <stop offset="20%" stop-color="#EBDFFF" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#EEE5FF" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#F1EAFF" stop-opacity="0.3"/>
+      <stop offset="80%" stop-color="#F4F0FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F5F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="illGlowBL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DBC8FF" stop-opacity="0.75"/>
+      <stop offset="20%" stop-color="#DFCEFF" stop-opacity="0.62"/>
+      <stop offset="40%" stop-color="#E4D6FF" stop-opacity="0.44"/>
+      <stop offset="60%" stop-color="#E9DEFF" stop-opacity="0.26"/>
+      <stop offset="80%" stop-color="#EDE5FF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#EDE5FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="illSoften" x="-100" y="-100" width="700" height="480" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <circle cx="424" cy="60" r="165" fill="url(#illGlowTR)" filter="url(#illSoften)"/>
+  <circle cx="55" cy="248" r="135" fill="url(#illGlowBL)" filter="url(#illSoften)"/>
+  <circle cx="472" cy="238" r="4" fill="#D9CCFF"/>
+  <circle cx="26" cy="64" r="3" fill="#B899F7"/>
+
+  <!-- ground shadow -->
+  <ellipse cx="175" cy="248" rx="95" ry="13" fill="#1E0D42" opacity="0.05"/>
+
+  <!-- workloads (Deployment / StatefulSet / DaemonSet ... any kind) mounting the volume -->
+  <line x1="65" y1="75" x2="140" y2="110" stroke="#C4B5FD" stroke-width="2"/>
+  <line x1="55" y1="165" x2="133" y2="165" stroke="#C4B5FD" stroke-width="2"/>
+  <line x1="100" y1="232" x2="150" y2="195" stroke="#C4B5FD" stroke-width="2"/>
+
+  <path d="M65 58L79.72 66.5V83.5L65 92L50.28 83.5V66.5Z" fill="#8355D6"/>
+  <rect x="59" y="69" width="12" height="12" rx="2.5" stroke="#FFFFFF" stroke-width="1.6" fill="none"/>
+
+  <path d="M55 148L69.72 156.5V173.5L55 182L40.28 173.5V156.5Z" fill="#A78BFA"/>
+  <rect x="49" y="159" width="12" height="12" rx="2.5" stroke="#FFFFFF" stroke-width="1.6" fill="none"/>
+
+  <path d="M100 217L113 224.5V239.5L100 247L87 239.5V224.5Z" fill="#C4B5FD"/>
+  <rect x="95" y="227" width="10" height="10" rx="2.2" stroke="#FFFFFF" stroke-width="1.6" fill="none"/>
+
+  <!-- the volume: a shared, layered persistent volume -->
+  <path d="M131 100V195A44 15 0 0 0 219 195V100" fill="#6633BB"/>
+  <path d="M131 128A44 15 0 0 0 219 128" stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.25"/>
+  <path d="M131 160A44 15 0 0 0 219 160" stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.25"/>
+  <ellipse cx="175" cy="100" rx="44" ry="15" fill="#8355D6"/>
+
+  <!-- flow: the volume is continuously backed up -->
+  <path d="M223 130Q300 100 372 135" stroke="#C4B5FD" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-dasharray="1 7"/>
+  <path d="M365 127l10 8-8 10" stroke="#C4B5FD" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- backed-up copy, protected -->
+  <circle cx="410" cy="150" r="46" stroke="#C4B5FD" stroke-width="1.5" stroke-dasharray="3 6" opacity="0.55"/>
+  <circle cx="410" cy="150" r="34" fill="#6633BB"/>
+  <path d="M396 151l9 9 18-19" stroke="#FFFFFF" stroke-width="3.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- sparkle accents -->
+  <path d="M452 95l1.4 4.6 4.6 1.4-4.6 1.4-1.4 4.6-1.4-4.6-4.6-1.4 4.6-1.4Z" fill="#C4B5FD"/>
+  <path d="M30 45l1 3.2 3.2 1-3.2 1-1 3.2-1-3.2-3.2-1 3.2-1Z" fill="#D9CCFF"/>
+</svg>

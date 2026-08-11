@@ -40,7 +40,7 @@
     },
     {
       "title": "Monitoring",
-      "image": "/assets/images/databases/illustrations/monitoring.png",
+      "image": "/assets/images/databases/illustrations/monitoring.svg",
       "description": "Monitor Oracle Database workloads using Prometheus-compatible metrics and visualize them with Grafana dashboards."
     },
     {

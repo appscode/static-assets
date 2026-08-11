@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "headline": "Secure Ingress Controller for <strong>Kubernetes</strong>",
+    "cta_primary": "Try Now Free",
+    "cta_secondary": "Get in Touch",
+    "trust_items": [
+      {
+        "icon": "heroicons:shield-check",
+        "label": "Enterprise Ready"
+      },
+      {
+        "icon": "heroicons:calendar-days",
+        "label": "30-Day Free License"
+      },
+      {
+        "icon": "heroicons:server-stack",
+        "label": "Cloud or Bare Metal"
+      }
+    ]
+  },
+  "steps": {
+    "title": "Ingress in <em>4 steps</em>",
+    "subtitle": "A Kubernetes-native ingress workflow built on HAProxy \u2014 with automatic TLS and load balancing out of the box.",
+    "steps": [
+      {
+        "title": "Install the Operator",
+        "description": "Deploy Voyager via Helm into any Kubernetes cluster \u2014 EKS, GKE, AKS, or bare metal. One command, a few minutes.",
+        "code": "helm install voyager \u2026"
+      },
+      {
+        "title": "Define an Ingress",
+        "description": "A single Ingress CRD declares your HTTP and TCP routing rules, backend services, and load balancer type \u2014 provisioned automatically as HAProxy.",
+        "code": "kind: Ingress"
+      },
+      {
+        "title": "Issue TLS Certificates",
+        "description": "Create a Certificate resource to get free SSL certificates from Let's Encrypt via HTTP or DNS challenge, or bring your own SANS/ACM certificates.",
+        "code": "kind: Certificate"
+      },
+      {
+        "title": "Monitor & Scale",
+        "description": "Built-in Prometheus metrics expose HAProxy stats out of the box \u2014 query with kubectl or your existing observability stack.",
+        "code": "\u2713 Ingress healthy"
+      }
+    ]
+  },
+  "capabilities": {
+    "title": "Built for <em>production-grade</em> ingress",
+    "subtitle": "A secure, Kubernetes-native ingress controller built on HAProxy \u2014 with automatic TLS, load balancing, and observability out of the box.",
+    "tags": [
+      "Core",
+      "Security",
+      "Deployment",
+      "Performance",
+      "Observability",
+      "Certificates"
+    ]
+  },
+  "stats": {
+    "items": [
+      {
+        "number": "1.3K+",
+        "label": "GitHub Stars"
+      },
+      {
+        "number": "3.6M+",
+        "label": "Docker Pulls"
+      },
+      {
+        "number": "6+",
+        "label": "Core Features"
+      },
+      {
+        "number": "30-Day",
+        "label": "Free Trial License"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Run a secure ingress on Kubernetes \u2014 free!",
+    "description": "Voyager is free to use on any supported Kubernetes cluster, with a 30-day complimentary license available for trial.",
+    "cta_primary": "Try Now Free",
+    "cta_secondary": "Contact Us",
+    "trust_points": [
+      "No credit card required",
+      "Works in cloud or bare metal clusters",
+      "Built on battle-tested HAProxy",
+      "Enterprise support available"
+    ]
+  },
+  "final-cta": {
+    "badge": "Start Routing Securely",
+    "title_plain": "Ready to Secure Your",
+    "title_gradient": "Kubernetes Ingress?",
+    "description": "Join platform teams at Asurion, Emerson, Nokia, and Orange running HAProxy-backed, TLS-secured ingress on Kubernetes with Voyager.",
+    "checklist": [
+      "Free SSL via Let's Encrypt, HTTP or DNS challenge",
+      "Works in any cloud or bare-metal cluster",
+      "30-day free license, no credit card required"
+    ],
+    "cta_primary": "Try Now Free",
+    "cta_secondary": "Get in Touch",
+    "stats": [
+      {
+        "icon": "lucide:route",
+        "value": "HTTP/TCP",
+        "label": "Load Balancing",
+        "gradient": "linear-gradient(135deg, #60a5fa, #06b6d4)"
+      },
+      {
+        "icon": "lucide:shield-check",
+        "value": "Let's Encrypt",
+        "label": "Free SSL Certificates",
+        "gradient": "linear-gradient(135deg, #4ade80, #10b981)"
+      },
+      {
+        "icon": "lucide:activity",
+        "value": "Prometheus",
+        "label": "Built-in Metrics",
+        "gradient": "linear-gradient(135deg, #c084fc, #ec4899)"
+      },
+      {
+        "icon": "lucide:life-buoy",
+        "value": "24/7",
+        "label": "Expert Support",
+        "gradient": "linear-gradient(135deg, #fb923c, #ef4444)"
+      }
+    ]
+  }
+}

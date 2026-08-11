@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 360" fill="none" role="img" aria-label="TLS Management">
+  <defs>
+    <radialGradient id="kvGlowTR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#CFE0FB" stop-opacity="0.9"/><stop offset="40%" stop-color="#DCE8FD" stop-opacity="0.5"/>
+      <stop offset="75%" stop-color="#EAF1FE" stop-opacity="0.14"/><stop offset="100%" stop-color="#EAF1FE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="kvGlowBL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#BFD6FA" stop-opacity="0.85"/><stop offset="40%" stop-color="#D3E1FC" stop-opacity="0.45"/>
+      <stop offset="75%" stop-color="#E6EFFE" stop-opacity="0.12"/><stop offset="100%" stop-color="#E6EFFE" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="kvSoften" x="-120" y="-120" width="720" height="620" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="22"/></filter>
+    <radialGradient id="spotWhite" cx="50%" cy="46%" r="55%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/><stop offset="62%" stop-color="#FFFFFF" stop-opacity="0.24"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rack" x1="0.15" y1="0" x2="0.5" y2="1"><stop offset="0%" stop-color="#6EA0F9"/><stop offset="55%" stop-color="#3F73E4"/><stop offset="100%" stop-color="#254FAC"/></linearGradient>
+    <linearGradient id="rackTop" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.5"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="shield" x1="0.2" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#3BDC74"/><stop offset="100%" stop-color="#0E8A43"/></linearGradient>
+    <radialGradient id="shieldGlow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#22C55E" stop-opacity="0.55"/><stop offset="100%" stop-color="#22C55E" stop-opacity="0"/></radialGradient>
+    <linearGradient id="cardG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#EDF3FD"/></linearGradient>
+    <filter id="dropBig" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#14337A" flood-opacity="0.28"/></filter>
+    <filter id="dropSm" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#14337A" flood-opacity="0.26"/></filter>
+  </defs>
+
+  <circle cx="402" cy="46" r="188" fill="url(#kvGlowTR)" filter="url(#kvSoften)"/>
+  <circle cx="52" cy="322" r="150" fill="url(#kvGlowBL)" filter="url(#kvSoften)"/>
+  <circle cx="420" cy="300" r="4" fill="#BFD6FA"/><circle cx="34" cy="66" r="3" fill="#8FB4F2"/>
+  <ellipse cx="230" cy="192" rx="184" ry="148" fill="url(#spotWhite)"/>
+
+  <!-- server rack (3 units, left) -->
+  <g filter="url(#dropBig)">
+    <ellipse cx="128" cy="290" rx="70" ry="12" fill="#1A3E92" opacity="0.16"/>
+    <rect x="66" y="128" width="124" height="46" rx="12" fill="url(#rack)"/>
+    <rect x="66" y="182" width="124" height="46" rx="12" fill="url(#rack)"/>
+    <rect x="66" y="236" width="124" height="46" rx="12" fill="url(#rack)"/>
+    <rect x="66" y="128" width="124" height="46" rx="12" fill="url(#rackTop)"/>
+    <rect x="66" y="182" width="124" height="46" rx="12" fill="url(#rackTop)"/>
+    <rect x="66" y="236" width="124" height="46" rx="12" fill="url(#rackTop)"/>
+  </g>
+  <g fill="#EAF1FE"><circle cx="86" cy="151" r="6"/><circle cx="106" cy="151" r="6"/><circle cx="86" cy="205" r="6"/><circle cx="106" cy="205" r="6"/><circle cx="86" cy="259" r="6"/><circle cx="106" cy="259" r="6"/></g>
+  <g fill="#4C84F1"><circle cx="86" cy="151" r="2.5"/><circle cx="106" cy="151" r="2.5"/><circle cx="86" cy="205" r="2.5"/><circle cx="106" cy="205" r="2.5"/><circle cx="86" cy="259" r="2.5"/><circle cx="106" cy="259" r="2.5"/></g>
+  <g fill="#FFFFFF" opacity="0.85"><rect x="150" y="146" width="26" height="6" rx="3"/><rect x="150" y="200" width="26" height="6" rx="3"/><rect x="150" y="254" width="26" height="6" rx="3"/></g>
+
+  <!-- TLS shield with checkmark, overlapping rack -->
+  <g transform="translate(196 196)">
+    <ellipse cx="0" cy="6" rx="42" ry="44" fill="url(#shieldGlow)"/>
+    <g filter="url(#dropBig)"><path d="M0 -36 L32 -24 V6 C32 26 18 40 0 48 C-18 40 -32 26 -32 6 V-24 Z" fill="url(#shield)"/></g>
+    <path d="M0 -36 L32 -24 V6 C32 26 18 40 0 48 C-18 40 -32 26 -32 6 V-24 Z" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.5"/>
+    <path d="M0 -36 L32 -24 V-8 C18 -17 -4 -17 -20 -8 L-26 -18 V-24 Z" fill="#FFFFFF" opacity="0.16"/>
+    <path d="M-16 6 l9 9 l16 -19" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- cert-manager badge (right) -->
+  <path d="M266 196 C296 194 316 194 340 196" stroke="#9DBBF0" stroke-width="2.6" stroke-dasharray="1 8" stroke-linecap="round" fill="none"/>
+  <g transform="translate(372 196)">
+    <g filter="url(#dropSm)"><rect x="-60" y="-32" width="120" height="64" rx="16" fill="url(#cardG)"/></g>
+    <rect x="-59.5" y="-31.5" width="119" height="63" rx="15.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1"/>
+    <!-- certificate icon -->
+    <g transform="translate(0 -6)">
+      <rect x="-20" y="-16" width="40" height="28" rx="4" fill="#DDE9FD" stroke="#4C84F1" stroke-width="2"/>
+      <line x1="-13" y1="-8" x2="13" y2="-8" stroke="#4C84F1" stroke-width="2.2" stroke-linecap="round"/>
+      <line x1="-13" y1="-1" x2="6" y2="-1" stroke="#9DBBF0" stroke-width="2.2" stroke-linecap="round"/>
+      <circle cx="10" cy="9" r="9" fill="#22C55E"/>
+      <path d="M6 9 l3 3 l6 -6" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="0" y="26" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" font-weight="700" fill="#254FAC" text-anchor="middle">cert-manager</text>
+  </g>
+  <g fill="#7FB0F5"><circle cx="230" cy="110" r="2.4"/><circle cx="370" cy="120" r="2"/></g>
+</svg>

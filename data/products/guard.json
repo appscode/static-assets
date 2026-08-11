@@ -49,8 +49,8 @@
     {
       "title": "Identity Providers",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/guard/features/identify-providers.jpg",
-        "alt": "identify-providers"
+        "src": "https://cdn.appscode.com/images/features/illustrations/guard-identity-providers.svg",
+        "alt": "Four identity provider badges converging through a verification gate into one authenticated Kubernetes identity"
       },
       "icon": {
         "src": "https://cdn.appscode.com/images/products/guard/features/identity-providers.svg",
@@ -62,8 +62,8 @@
     {
       "title": "CLI",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/guard/features/cli.jpg",
-        "alt": "cli"
+        "src": "https://cdn.appscode.com/images/features/illustrations/guard-cli.svg",
+        "alt": "A terminal generating signed certificates and a webhook install manifest that deploys onto a Kubernetes cluster"
       },
       "icon": {
         "src": "https://cdn.appscode.com/images/products/guard/features/cli.svg",
@@ -75,15 +75,15 @@
     {
       "title": "RBAC",
       "image": {
-        "src": "https://cdn.appscode.com/images/products/guard/features/rbac.jpg",
-        "alt": "rbac"
+        "src": "https://cdn.appscode.com/images/features/illustrations/guard-rbac.svg",
+        "alt": "An authenticated user mapped to group roles, unlocking specific cells in a permissions grid while the rest stay locked"
       },
       "icon": {
         "src": "https://cdn.appscode.com/images/products/guard/features/rbac.svg",
         "alt": "rbac"
       },
       "summary": "",
-      "description": "This tutorial will show you how to use KubeDB in a RBAC enabled cluster."
+      "description": "Guard maps authenticated users and their groups so cluster admins can enforce fine-grained RBAC policies out of the box."
     }
   ],
   "versions": [
