@@ -87,7 +87,7 @@
     "badge": "Start Syncing Today",
     "title_plain": "Ready to Keep Configs",
     "title_gradient": "In Sync?",
-    "description": "Join platform teams at Asurion, Emerson, Nokia, and Orange keeping ConfigMaps and Secrets synchronized across namespaces and clusters with Config Syncer.",
+    "description": "Join platform teams at Emerson, Nokia, and Orange keeping ConfigMaps and Secrets synchronized across namespaces and clusters with Config Syncer.",
     "checklist": [
       "Automatic sync across namespaces or clusters",
       "Label-selector targeting for fine-grained control",

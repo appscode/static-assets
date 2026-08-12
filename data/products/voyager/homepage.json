@@ -92,7 +92,7 @@
     "badge": "Start Routing Securely",
     "title_plain": "Ready to Secure Your",
     "title_gradient": "Kubernetes Ingress?",
-    "description": "Join platform teams at Asurion, Emerson, Nokia, and Orange running HAProxy-backed, TLS-secured ingress on Kubernetes with Voyager.",
+    "description": "Join platform teams at Emerson, Nokia, and Orange running HAProxy-backed, TLS-secured ingress on Kubernetes with Voyager.",
     "checklist": [
       "Free SSL via Let's Encrypt, HTTP or DNS challenge",
       "Works in any cloud or bare-metal cluster",

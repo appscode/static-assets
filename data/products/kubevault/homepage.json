@@ -92,7 +92,7 @@
     "badge": "Start Securing Today",
     "title_plain": "Ready to Run Vault on",
     "title_gradient": "Kubernetes?",
-    "description": "Join platform teams at Asurion, Emerson, Nokia, and Orange running TLS-secured, auto-unsealed HashiCorp Vault with dynamic secrets on Kubernetes using KubeVault.",
+    "description": "Join platform teams at Emerson, Nokia, and Orange running TLS-secured, auto-unsealed HashiCorp Vault with dynamic secrets on Kubernetes using KubeVault.",
     "checklist": [
       "TLS-secured, automatically unsealed Vault by default",
       "Dynamic secrets for AWS, Azure, GCP & databases",
