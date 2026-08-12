@@ -54,7 +54,6 @@
   "features": [
     {
       "title": "Declarative API",
-      "tag": "Core",
       "image": {
         "src": "/assets/images/features/illustrations/declarative-api.svg",
         "alt": "A declarative YAML configuration card being applied and reconciled"
@@ -68,7 +67,6 @@
     },
     {
       "title": "Backup Kubernetes Volumes",
-      "tag": "Recovery",
       "image": {
         "src": "/assets/images/features/illustrations/backup-kubernetes-volumes.svg",
         "alt": "Multiple Kubernetes workloads mounting a shared volume that is continuously backed up"
@@ -82,7 +80,6 @@
     },
     {
       "title": "Backup Database",
-      "tag": "Recovery",
       "image": {
         "src": "/assets/images/features/illustrations/backup-database.svg",
         "alt": "A database being copied into a point-in-time backup, marked by a clock"
@@ -96,7 +93,6 @@
     },
     {
       "title": "Backup Virtual Machines",
-      "tag": "Recovery",
       "image": {
         "src": "/assets/images/features/illustrations/backup-virtual-machines.svg",
         "alt": "Several virtual machines running on a host being captured into a scheduled, restorable backup"
@@ -110,7 +106,6 @@
     },
     {
       "title": "Multiple Storage Support",
-      "tag": "Storage",
       "image": {
         "src": "/assets/images/features/illustrations/multiple-storage-support.svg",
         "alt": "A single backup fanning out to a cloud storage service, a REST server, and a Kubernetes persistent volume"
@@ -124,7 +119,6 @@
     },
     {
       "title": "Deduplication",
-      "tag": "Performance",
       "image": {
         "src": "/assets/images/features/illustrations/deduplication.svg",
         "alt": "A file split into chunks where only the changed blobs, marked with a delta, are uploaded"
@@ -138,7 +132,6 @@
     },
     {
       "title": "Data Encryption",
-      "tag": "Security",
       "image": {
         "src": "/assets/images/features/illustrations/data-encryption.svg",
         "alt": "Plain data passing through an AES-256 lock and becoming unreadable ciphertext in storage"
@@ -152,7 +145,6 @@
     },
     {
       "title": "Volume Snapshot",
-      "tag": "Recovery",
       "image": {
         "src": "/assets/images/features/illustrations/volume-snapshot.svg",
         "alt": "A single BackupConfiguration automatically creating a VolumeSnapshot for every volume of a workload"
@@ -166,7 +158,6 @@
     },
     {
       "title": "Policy Based Backup",
-      "tag": "Automation",
       "image": {
         "src": "/assets/images/features/illustrations/policy-based-backup.svg",
         "alt": "One backup template governing many differently annotated workloads across the cluster"
@@ -180,7 +171,6 @@
     },
     {
       "title": "Monitoring",
-      "tag": "Observability",
       "image": {
         "src": "/assets/images/features/illustrations/monitoring.svg",
         "alt": "A database's live metrics pulsing into a Grafana-style dashboard of charts and gauges"
@@ -198,6 +188,15 @@
       "version": "master",
       "hostDocs": false,
       "show": true
+    },
+    {
+      "version": "v2026.8.12-rc.0",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "cli": "v0.28.0-rc.0",
+        "installer": "v2026.8.12-rc.0"
+      }
     },
     {
       "version": "v2026.7.10",
