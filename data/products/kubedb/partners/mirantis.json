@@ -275,7 +275,7 @@
       },
       {
         "label": "Others",
-        "items": "Hazelcast, ZooKeeper, PgBouncer, ProxySQL"
+        "items": "Hazelcast, ZooKeeper, PgBouncer, ProxySQL, Etcd"
       }
     ]
   },

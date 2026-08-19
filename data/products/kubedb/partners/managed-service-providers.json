@@ -136,7 +136,7 @@
       { "category": "Search", "engines": "Elasticsearch, OpenSearch, Solr" },
       { "category": "Analytics", "engines": "Druid, ClickHouse, SingleStore" },
       { "category": "Messaging", "engines": "Kafka, RabbitMQ" },
-      { "category": "Others", "engines": "Hazelcast, ZooKeeper, PgBouncer, ProxySQL" }
+      { "category": "Others", "engines": "Hazelcast, ZooKeeper, PgBouncer, ProxySQL, Etcd" }
     ]
   },
 
