@@ -1,0 +1,79 @@
+{
+  "name": "Aerospike",
+  "id": "aerospike",
+  "title": "Run and Manage Aerospike on Kubernetes",
+  "hero": "/assets/images/databases/illustrations/kc-bg.png",
+  "summary": "Provision, Upgrade, Scaling, Volume Expansion, Monitor, Backup & Restore, Security for Aerospike Databases in Kubernetes on any Public & Private Cloud",
+  "description": "As the world's enterprises rapidly move to the cloud, and containers are taking over the world of software development, Kubernetes is the platform that lets users seamlessly deploy, scale, run containers, and manage their application life-cycle.  <br />  <br />But, running databases and stateful applications in Kubernetes has always been a challenge. And it is really difficult to **Run and Manage Production-Grade Databases on Kubernetes**. Every enterprise needs a production-grade operator to deploy databases and manage their life cycle on Kubernetes. <br />   <br />KubeDB simplifies and automates routine database tasks such as **Provisioning, Monitoring, Upgrading, Patching, Scaling, Volume Expansion, Backup & Restore, Failure detection, and Recovery** for popular databases on private and public clouds. You can deploy an Aerospike database on Kubernetes and manage Day-2 operations through KubeDB workflows.",
+  "keywords": [
+    "Provision",
+    "Failure Detection",
+    "Upgrade",
+    "Scaling",
+    "Volume Expansion",
+    "Backup & Recovery",
+    "Monitor",
+    "Data Protection for Aerospike Databases in Kubernetes on Public and Private Cloud"
+  ],
+  "features": [
+    {
+      "title": "Provisioning",
+      "image": "/assets/images/databases/illustrations/colud-chair.png",
+      "description": "If you can run Kubernetes, you can provision Aerospike databases using KubeDB workflows. You can use standard Kubernetes CLI and API patterns to define and operate database resources."
+    },
+    {
+      "title": "Version Upgrade",
+      "image": "/assets/images/databases/illustrations/version-control.png",
+      "description": "Database upgrades in Kubernetes require careful orchestration. KubeDB workflows help streamline Aerospike version upgrade processes with operational guardrails."
+    },
+    {
+      "title": "Scaling",
+      "image": "/assets/images/databases/illustrations/scalling.png",
+      "description": "To improve performance, your database should scale predictably. KubeDB workflows support scaling patterns for Aerospike on Kubernetes environments."
+    },
+    {
+      "title": "Volume Expansion",
+      "image": "/assets/images/databases/illustrations/expansion.png",
+      "description": "Expanding storage capacity helps maintain performance and availability. KubeDB workflows support storage growth operations for Aerospike deployments in Kubernetes."
+    },
+    {
+      "title": "Backup & Restore",
+      "image": "/assets/images/databases/illustrations/backup.png",
+      "description": "Disaster recovery is essential for production systems. KubeDB workflows integrate with backup solutions to support backup and restore for Aerospike workloads."
+    },
+    {
+      "title": "Monitoring",
+      "image": "/assets/images/databases/illustrations/overview.png",
+      "description": "KubeDB provides observability integrations so you can monitor database health and key runtime metrics in Kubernetes environments."
+    },
+    {
+      "title": "Security",
+      "image": "/assets/images/databases/illustrations/security.png",
+      "description": "Secure deployments with encryption in transit and at rest are critical. KubeDB workflows support security best practices for Aerospike on Kubernetes."
+    }
+  ],
+  "example": {
+    "apiVersion": "kubedb.com/v1alpha2",
+    "kind": "Aerospike",
+    "metadata": {
+      "name": "aerospike-quickstart",
+      "namespace": "demo"
+    },
+    "spec": {
+      "version": "7.0.0",
+      "replicas": 1,
+      "storageType": "Durable",
+      "storage": {
+        "accessModes": [
+          "ReadWriteOnce"
+        ],
+        "resources": {
+          "requests": {
+            "storage": "2Gi"
+          }
+        }
+      },
+      "deletionPolicy": "WipeOut"
+    }
+  }
+}
