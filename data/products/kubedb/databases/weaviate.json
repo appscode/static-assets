@@ -60,7 +60,7 @@
       "namespace": "demo"
     },
     "spec": {
-      "version": "1.33.1",
+      "version": "1.37.12",
       "replicas": 1,
       "storage": {
         "accessModes": [
