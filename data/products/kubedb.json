@@ -157,6 +157,21 @@
       "show": true
     },
     {
+      "version": "v2026.10.12",
+      "hostDocs": true,
+      "info": {
+        "autoscaler": "v0.53.0",
+        "cli": "v0.68.0",
+        "dashboard": "v0.44.0",
+        "installer": "v2026.10.12",
+        "ops-manager": "v0.55.0",
+        "provisioner": "v0.68.0",
+        "schema-manager": "v0.44.0",
+        "ui-server": "v0.44.0",
+        "webhook-server": "v0.44.0"
+      }
+    },
+    {
       "version": "v2026.8.26-rc.2",
       "hostDocs": true,
       "info": {

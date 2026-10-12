@@ -65,7 +65,7 @@
           "name": "minio-secret"
         }
       },
-      "version": "2.6.11",
+      "version": "3.0.0",
       "storage": {
         "accessModes": [
           "ReadWriteOnce"

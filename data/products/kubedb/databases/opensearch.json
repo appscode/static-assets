@@ -60,7 +60,7 @@
       "namespace": "demo"
     },
     "spec": {
-      "version": "opensearch-3.4.0",
+      "version": "opensearch-3.8.0",
       "enableSSL": true,
       "replicas": 3,
       "storageType": "Durable",
