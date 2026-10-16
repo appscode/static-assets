@@ -159,6 +159,7 @@
     {
       "version": "v2026.10.12",
       "hostDocs": true,
+      "show": true,
       "info": {
         "autoscaler": "v0.53.0",
         "cli": "v0.68.0",
@@ -1622,7 +1623,7 @@
       "hostDocs": false
     }
   ],
-  "latestVersion": "v2026.7.10",
+  "latestVersion": "v2026.10.12",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubedb",
