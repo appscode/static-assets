@@ -1,0 +1,234 @@
+{
+  "title": "TeleCash runs its Mobile Financial Services platform on KubeDB with HA and DR",
+  "tagline": "TeleCash runs its mobile financial services on<br /><span class=\"has-text-primary\">KubeDB</span> with HA and DR",
+  "description": "A regulated mobile financial services provider in Bangladesh now runs its core PostgreSQL layer on Kubernetes: a highly available primary cluster at the data center and a live disaster recovery replica at a geographically separate site.",
+  "company": "TeleCash Limited",
+  "industry": "Mobile Financial Services",
+  "logo_emoji": "💳",
+  "badge": "MFS PRODUCTION SUCCESS",
+  "hero_live_badge": "LIVE IN PRODUCTION",
+  "hero_legacy_badge": "Regulated MFS platform · Production KubeDB",
+  "tag": "Financial Services HA + DR",
+  "hero_powered_by_html": "Powered by <strong class=\"has-text-heading\">KubeDB</strong> &middot; 24x7x365 Enterprise Support",
+
+  "customer_badge": "MOBILE FINANCIAL SERVICES",
+  "customer_title": "TeleCash Limited",
+  "customer_description": "TeleCash operates in the Mobile Financial Services (MFS) arena in Bangladesh, bringing unbanked segments of society into the formal banking channel through financial inclusion. A subsidiary of Southeast Bank PLC, it offers person-to-person and business transfers, bill and merchant payments through Bangla QR, remittance disbursement, and mobile top-up.",
+  "customer_status": "Live in production since September 2026",
+  "customer_highlights": [
+    { "icon": "lucide:database", "color": "primary", "text": "PostgreSQL on Kubernetes, managed by KubeDB" },
+    { "icon": "lucide:server", "color": "secondary", "text": "HA primary cluster plus a live DR replica" },
+    { "icon": "lucide:life-buoy", "color": "success", "text": "OEM 24x7x365 production support" }
+  ],
+  "back_link_text": "All Case Studies",
+  "hero_primary_button_text": "Read the full story",
+  "value_props_badge": "Why KubeDB",
+  "value_props_title": "Why regulated teams choose KubeDB",
+  "value_props_description": "Enterprise HA and DR for PostgreSQL, with Kubernetes-native operations and OEM-backed support.",
+  "challenge_key_pains_label": "Key requirements",
+  "solution_powered_by_label": "Powered by KubeDB",
+  "supported_databases_footer_label": "In Production",
+  "delivered_features_footer_label": "Powered by KubeDB",
+  "compliance_note": "Running production workloads for a Bangladesh Bank regulated MFS platform",
+
+  "hero_metrics": [
+    { "value": "HA + DR", "label": "Across two sites" },
+    { "value": "9", "label": "Production instances" },
+    { "value": "24x7x365", "label": "OEM support" }
+  ],
+  "hero_tags": [
+    "High Availability",
+    "Disaster Recovery",
+    "PgPool Connection Pooling",
+    "24x7x365 Support"
+  ],
+
+  "hero_right_company": "TeleCash MFS Platform",
+  "hero_right_industry": "KubeDB-powered PostgreSQL",
+  "hero_right_logo_emoji": "💳",
+  "hero_right_metrics": [
+    { "value": "2", "label": "CLUSTERS", "sublabel": "DC primary + DR replica" },
+    { "value": "280 GiB", "label": "MEMORY", "sublabel": "PostgreSQL + PgPool" },
+    { "value": "84", "label": "CORES", "sublabel": "Across production" }
+  ],
+  "hero_right_tags": [
+    "High Availability",
+    "Disaster Recovery",
+    "PgPool Connection Pooling",
+    "24x7x365 Support"
+  ],
+
+  "comparison_badge": "REQUIREMENT TO PRODUCTION",
+  "comparison_title": "From TeleCash requirements to a live deployment",
+  "comparison_description": "TeleCash asked for an enterprise-grade, cloud-native PostgreSQL platform on Kubernetes, with HA inside the data center and DR at a separate site. This is what is running today.",
+  "comparison_header_aspect": "Area",
+  "comparison_header_previous": "TeleCash requirement",
+  "comparison_header_new": "Delivered with KubeDB",
+  "comparison_rows": [
+    {
+      "aspect": "Core database",
+      "previous": "Enterprise-grade, cloud-native PostgreSQL on Kubernetes as the core database layer for the MFS platform",
+      "current": "KubeDB-managed PostgreSQL clusters running in production on Kubernetes"
+    },
+    {
+      "aspect": "High availability",
+      "previous": "A highly available, self-healing PostgreSQL cluster at the primary data center",
+      "current": "HA primary cluster with 3 PostgreSQL and 2 PgPool instances (208 GiB, 60 cores)"
+    },
+    {
+      "aspect": "Disaster recovery",
+      "previous": "A replica cluster at a geographically separate site, ready for promotion after a data center level disaster",
+      "current": "Live DR replica cluster with 2 PostgreSQL and 2 PgPool instances (72 GiB, 24 cores)"
+    },
+    {
+      "aspect": "Support",
+      "previous": "OEM-backed production support, around the clock, for the full subscription term",
+      "current": "24x7x365 OEM production support, active September 2026 to August 2027"
+    },
+    {
+      "aspect": "Delivery",
+      "previous": "Design, implementation, and deployment of both clusters",
+      "current": "Designed, implemented, and deployed by AppsCode Ltd., confirmed by a work completion certificate"
+    }
+  ],
+
+  "challenge_badge": "THE MFS CHALLENGE",
+  "challenge_title": "A financial platform cannot afford a fragile database layer",
+  "challenge_key_pains": "Site-level resilience · Automated failover · Recoverability · Regulatory alignment · Vendor-backed support",
+  "challenge_summary": "A regulated mobile financial services platform needed an enterprise-grade PostgreSQL layer on Kubernetes, with HA inside the data center and DR at a separate site.",
+  "challenge_items": [
+    {
+      "icon": "lucide:database",
+      "title": "A core database for money movement",
+      "description": "Person-to-person transfers, merchant payments, bill payments, and remittances all depend on one database layer that must stay available."
+    },
+    {
+      "icon": "lucide:server",
+      "title": "HA and DR, treated separately",
+      "description": "Automated failover inside the primary data center, plus a geographically separate DR site that can be promoted after a site-level disaster."
+    },
+    {
+      "icon": "lucide:shield-check",
+      "title": "Regulated, supported, recoverable",
+      "description": "Security and recoverability aligned with Bangladesh Bank ICT guidance for MFS operators, backed by OEM production support."
+    }
+  ],
+
+  "solution_badge": "KUBEDB IN ACTION",
+  "solution_title": "HA at the data center, a live replica at the DR site",
+  "solution_description": "AppsCode Ltd. designed and deployed two KubeDB clusters on Kubernetes, one per site, each paired with PgPool connection pooling.",
+  "solution_items_title": "What was deployed for TeleCash",
+  "solution_items": [
+    {
+      "number": "01",
+      "title": "HA primary cluster at the data center",
+      "description": "A KubeDB-managed PostgreSQL cluster of 3 instances, fronted by 2 PgPool instances. The data center side totals 208 GiB of memory and 60 cores."
+    },
+    {
+      "number": "02",
+      "title": "Live DR replica at a separate site",
+      "description": "A second KubeDB cluster at a geographically separate site, with 2 PostgreSQL and 2 PgPool instances, continuously replicating from the primary (72 GiB, 24 cores)."
+    },
+    {
+      "number": "03",
+      "title": "Operator-managed lifecycle",
+      "description": "The KubeDB operator manages both clusters on Kubernetes, so database operations follow the same declarative model as the rest of the platform."
+    },
+    {
+      "number": "04",
+      "title": "OEM support and certified delivery",
+      "description": "24x7x365 OEM production support is active for the one-year term. Smart Data Technologies Ltd., AppsCode's authorized distributor in Bangladesh, issued a work completion certificate on September 22, 2026."
+    }
+  ],
+
+  "supported_databases_title": "Running in Production",
+  "supported_databases": [
+    "PostgreSQL",
+    "PgPool"
+  ],
+
+  "delivered_features_title": "KubeDB Capabilities in Use",
+  "delivered_features": [
+    "High Availability Cluster",
+    "Cross-Site DR Replica",
+    "PgPool Connection Pooling",
+    "Operator-Managed Lifecycle",
+    "OEM 24x7x365 Support"
+  ],
+
+  "timeline_badge": "Journey",
+  "timeline_title": "TeleCash's KubeDB Journey",
+  "timeline": [
+    {
+      "period": "July 2026",
+      "title": "Requirements and RFP",
+      "description": "TeleCash called for an enterprise-grade, cloud-native PostgreSQL platform with HA at the data center and DR at a separate site for its MFS platform."
+    },
+    {
+      "period": "September 2026",
+      "title": "Design, deployment, and go-live",
+      "description": "AppsCode Ltd. designed, implemented, and deployed the DC and DR KubeDB clusters. The project went live and a work completion certificate was issued on September 22, 2026."
+    },
+    {
+      "period": "Sep 2026 to Aug 2027",
+      "title": "Production support",
+      "description": "24x7x365 OEM production support is active for the one-year subscription term."
+    },
+    {
+      "period": "Next",
+      "title": "QA environment",
+      "description": "A reduced-scale QA environment mirroring production's PostgreSQL and PgPool setup is planned."
+    }
+  ],
+
+  "results_title": "Results",
+  "results_metrics": [
+    {
+      "value": "2",
+      "label": "Live KubeDB clusters",
+      "note": "An HA primary at the data center and a replica at a geographically separate DR site"
+    },
+    {
+      "value": "9",
+      "label": "Production instances",
+      "note": "PostgreSQL and PgPool, 280 GiB of memory and 84 cores in total"
+    }
+  ],
+  "results_extras": [
+    { "icon": "lucide:server", "label": "HA plus DR" },
+    { "icon": "lucide:life-buoy", "label": "24x7x365 OEM support" },
+    { "icon": "lucide:shield-check", "label": "Regulated MFS workload" }
+  ],
+
+  "value_props": [
+    {
+      "icon": "lucide:server",
+      "title": "HA and DR in one operating model",
+      "description": "A highly available primary cluster and a live replica at a separate site, both managed by the KubeDB operator."
+    },
+    {
+      "icon": "lucide:shield-check",
+      "title": "Proven in a regulated industry",
+      "description": "Running production workloads for a Bangladesh Bank regulated mobile financial services platform."
+    },
+    {
+      "icon": "lucide:cloud",
+      "title": "Runs on private cloud infrastructure",
+      "description": "KubeDB deploys the same way it does on any Kubernetes distribution, so no custom rework was needed."
+    }
+  ],
+
+  "cta_badge": "Get Started Today",
+  "cta_title": "Need HA and DR for a regulated workload?",
+  "cta_description": "Run PostgreSQL on Kubernetes with a highly available primary and a live DR replica, the same pattern TeleCash runs in production.",
+  "cta_checklist": [
+    "HA primary cluster plus DR replica",
+    "Operator-managed database lifecycle",
+    "OEM 24x7x365 production support"
+  ],
+  "cta_button_text": "Get Started",
+  "cta_button_url": "/docs/latest/setup/",
+  "cta_secondary_button_text": "Schedule a Demo",
+  "cta_secondary_button_url": "https://x.appscode.com/_/kubedb_inquiry",
+  "cta_secondary_button_icon": "lucide:calendar"
+}
