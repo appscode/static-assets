@@ -2,54 +2,10 @@
   "badge": "New Capabilities",
   "title_plain": "Move, Branch, and Protect",
   "title_gradient": "Your Databases",
-  "description": "Courier, Cloning, Migration, and BCDR extend KubeDB from running databases to moving, copying, and protecting them across clusters and data centers.",
+  "description": "Migration, Cloning, and BCDR, powered by KubeDB Courier, extend KubeDB from running databases to moving, copying, and protecting them across clusters and data centers.",
   "section_title": "Move, Branch, and Protect Your Databases",
-  "section_subtitle": "Courier, Cloning, Migration, and BCDR extend KubeDB from running databases to moving, copying, and protecting them across clusters and data centers.",
+  "section_subtitle": "Migration, Cloning, and BCDR, powered by KubeDB Courier, extend KubeDB from running databases to moving, copying, and protecting them across clusters and data centers.",
   "capabilities": [
-    {
-      "id": "courier",
-      "title": "KubeDB Courier",
-      "description": "The data movement engine of KubeDB. Courier runs live database migration declaratively through Kubernetes custom resources, so every data move is versioned, observable, and repeatable.",
-      "icon": "lucide:truck",
-      "icon_gradient": "linear-gradient(135deg, #8b5cf6, #6366f1)",
-      "benefits": [
-        "One operator for data movement workflows, starting with live migration",
-        "Declarative CRDs with status you can watch with kubectl",
-        "Moves data from external databases into KubeDB-managed ones",
-        "Enabled with a single Helm flag: kubedb-courier.enabled=true"
-      ],
-      "cta_text": "Enable Courier",
-      "cta_href": "/docs/latest/operatormanual/migration/"
-    },
-    {
-      "id": "branching-cloning",
-      "title": "Database Cloning and Branching",
-      "description": "Clone production data safely for development and testing, on the same Kubernetes platform that runs your databases. Isolated, refreshable branches are on the roadmap.",
-      "icon": "lucide:git-branch",
-      "icon_gradient": "linear-gradient(135deg, #06b6d4, #2563eb)",
-      "benefits": [
-        "Safe copies of production data for dev, test, and upgrade rehearsal",
-        "Same declarative operating model as every other KubeDB database",
-        "Branching, with isolated writable copies, is on the roadmap"
-      ],
-      "cta_text": "Request a Demo",
-      "cta_href": "https://x.appscode.com/_/kubedb_inquiry"
-    },
-    {
-      "id": "migration",
-      "title": "Live Database Migration",
-      "description": "Move an existing database from AWS RDS, another cloud, or an on-premises host into a KubeDB-managed database while the source keeps serving traffic.",
-      "icon": "lucide:arrow-right-left",
-      "icon_gradient": "linear-gradient(135deg, #f59e0b, #ea580c)",
-      "benefits": [
-        "Schema copy, initial snapshot, then continuous change data capture",
-        "No maintenance window, the source stays live until cutover",
-        "Cut over once streaming lag reaches zero, typically within minutes",
-        "Supports PostgreSQL, MySQL, MariaDB, MongoDB, and MSSQL Server"
-      ],
-      "cta_text": "Read the Migration Guide",
-      "cta_href": "/docs/latest/operatormanual/migration/"
-    },
     {
       "id": "bcdr",
       "title": "BCDR: Near-Zero RPO and RTO for Databases",
@@ -62,9 +18,34 @@
         "Cross-data-center DR for PostgreSQL, Redis, Kafka, MongoDB, and OpenSearch, plus active-active distributed SQL",
         "Planned switchover with zero data loss, then failback with pg_rewind or re-seed",
         "Integrated backup with point-in-time recovery"
-      ],
-      "cta_text": "Explore DR Options",
-      "cta_href": "/solutions/bcdr/"
+      ]
+    },
+    {
+      "id": "migration",
+      "title": "Live Database Migration",
+      "description": "Move an existing database from AWS RDS, another cloud, or an on-premises host into a KubeDB-managed database while the source keeps serving traffic.",
+      "icon": "lucide:arrow-right-left",
+      "icon_gradient": "linear-gradient(135deg, #f59e0b, #ea580c)",
+      "benefits": [
+        "Powered by KubeDB Courier, enabled with kubedb-courier.enabled=true",
+        "Schema copy, initial snapshot, then continuous change data capture",
+        "No maintenance window, the source stays live until cutover",
+        "Cut over once streaming lag reaches zero, typically within minutes",
+        "Supports PostgreSQL, MySQL, MariaDB, MongoDB, and MSSQL Server"
+      ]
+    },
+    {
+      "id": "branching-cloning",
+      "title": "Database Cloning and Branching",
+      "description": "Clone production data safely for development and testing, on the same Kubernetes platform that runs your databases. Isolated, refreshable branches are on the roadmap.",
+      "icon": "lucide:git-branch",
+      "icon_gradient": "linear-gradient(135deg, #06b6d4, #2563eb)",
+      "benefits": [
+        "Built on KubeDB Courier, the data movement engine behind migration and branching",
+        "Safe copies of production data for dev, test, and upgrade rehearsal",
+        "Same declarative operating model as every other KubeDB database",
+        "Branching, with isolated writable copies, is on the roadmap"
+      ]
     }
   ]
 }
