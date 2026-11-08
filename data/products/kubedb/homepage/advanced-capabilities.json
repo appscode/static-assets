@@ -8,45 +8,41 @@
   "capabilities": [
     {
       "id": "bcdr",
-      "title": "BCDR: Near-Zero Data Loss, Near-Zero Downtime",
-      "description": "Keep your applications running when an entire data center goes down. KubeDB fails over automatically or on your command, and zero data loss is available for your most critical workloads.",
+      "title": "BCDR: Near-Zero Downtime",
+      "description": "Keep applications running when an entire data center goes down, with automatic or approved failover and zero data loss for your most critical workloads.",
       "icon": "lucide:shield-check",
       "icon_gradient": "linear-gradient(135deg, #10b981, #059669)",
       "benefits": [
-        "Automatic failover with nobody to page, or manual control when you want to approve every move",
-        "Zero data loss available for your most critical workloads",
-        "Planned switchovers for maintenance and drills, with no data lost",
-        "Safe by design: only one site is ever in charge, even when the network splits",
-        "Built-in backup and point-in-time recovery for the mistakes replication cannot undo",
-        "One operating model across every supported database"
+        "Automatic failover, or manual control when you prefer",
+        "Planned switchovers for maintenance and drills, no data lost",
+        "Only one site in charge, even when the network splits",
+        "Backup and point-in-time recovery built in, for added safety"
       ]
     },
     {
       "id": "migration",
-      "title": "Live Migration",
-      "description": "Move to KubeDB from another cloud or an on-premises environment without stopping your applications. Your current system keeps serving traffic until you are ready to switch.",
+      "title": "Zero-Downtime Migration",
+      "description": "Move to KubeDB from another cloud or on-premises while your applications keep running. Your current system serves traffic until you decide to switch.",
       "icon": "lucide:arrow-right-left",
       "icon_gradient": "linear-gradient(135deg, #f59e0b, #ea580c)",
       "benefits": [
-        "Powered by KubeDB Courier, enabled with a single Helm flag",
-        "No maintenance window: your users stay online during the move",
-        "Continuous sync keeps the new environment current until cutover",
-        "Cut over in minutes, as soon as the two sides are in step",
-        "Every move is declarative, versioned, and easy to track"
+        "Powered by KubeDB Courier, enabled with one Helm flag",
+        "No maintenance window: your users stay online throughout",
+        "Continuous sync keeps both sides in step until cutover",
+        "Cut over in minutes, with every step versioned and tracked"
       ]
     },
     {
       "id": "branching-cloning",
       "title": "Cloning and Branching",
-      "description": "Give developers and test pipelines realistic data without putting production at risk. Isolated, refreshable branches are coming next.",
+      "description": "Give developers and test pipelines realistic production data without putting production at risk. Isolated, refreshable branches are coming next.",
       "icon": "lucide:git-branch",
       "icon_gradient": "linear-gradient(135deg, #06b6d4, #2563eb)",
       "benefits": [
-        "Built on KubeDB Courier, the engine behind migration and branching",
-        "Realistic data for development, testing, and upgrade rehearsals",
-        "Production stays untouched and protected",
-        "The same simple, declarative experience as the rest of KubeDB",
-        "Isolated, writable branches are coming next"
+        "Built on KubeDB Courier, the engine behind migration",
+        "Realistic data for development, testing, and upgrades",
+        "Production stays untouched, protected, and fully isolated",
+        "Same simple, declarative experience as all of KubeDB"
       ]
     }
   ]
