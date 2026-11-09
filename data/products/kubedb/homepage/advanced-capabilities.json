@@ -1,27 +1,27 @@
 {
   "badge": "New Capabilities",
-  "title_plain": "Move, Branch, and Protect",
-  "title_gradient": "Your Databases",
+  "title_plain": "Database Migration, Cloning,",
+  "title_gradient": "and Disaster Recovery",
   "description": "Zero-downtime migration, database cloning, and disaster recovery extend KubeDB from running databases to moving, copying, and protecting them across clusters and data centers.",
-  "section_title": "Move, Branch, and Protect Your Databases",
+  "section_title": "Database Migration, Cloning, and Disaster Recovery",
   "section_subtitle": "Zero-downtime migration, database cloning, and disaster recovery extend KubeDB from running databases to moving, copying, and protecting them across clusters and data centers.",
   "capabilities": [
     {
       "id": "bcdr",
-      "title": "Disaster Recovery (BCDR)",
-      "description": "Business continuity and disaster recovery (BCDR) for your databases. Keep applications running through the loss of a data center, with near-zero data loss.",
+      "title": "Database Disaster Recovery with Near-Zero Downtime",
+      "description": "Protect Kubernetes databases against data center failures with automated failover and recovery, with near-zero data loss for critical workloads.",
       "icon": "lucide:shield-check",
       "icon_gradient": "linear-gradient(135deg, #10b981, #059669)",
       "benefits": [
         "Automatic database failover, or manual if you prefer",
         "Zero data loss with synchronous replication when needed",
         "Planned switchover for maintenance and recovery drills",
-        "Built-in backup with point-in-time recovery to undo errors"
+        "Automated Database Backup and Point-in-Time Recovery (PITR)"
       ]
     },
     {
       "id": "migration",
-      "title": "Zero-Downtime Migration",
+      "title": "Live Database Migration with Zero Downtime",
       "description": "Move to KubeDB from another cloud or on-premises while your applications keep running. Your current database serves traffic until you decide to switch.",
       "icon": "lucide:arrow-right-left",
       "icon_gradient": "linear-gradient(135deg, #f59e0b, #ea580c)",
@@ -34,7 +34,7 @@
     },
     {
       "id": "branching-cloning",
-      "title": "Cloning and Branching",
+      "title": "Database Cloning and Branching for Dev/Test",
       "description": "Give developers and test pipelines realistic copies of production databases without putting production at risk. Isolated branches are coming next.",
       "icon": "lucide:git-branch",
       "icon_gradient": "linear-gradient(135deg, #06b6d4, #2563eb)",
