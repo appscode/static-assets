@@ -3,9 +3,9 @@
   "product_color_primary": "#7c3aed",
   "cta_bg_color": "#2e1065",
   "product_icon": "lucide:brain-circuit",
-  "hero_badge": "AI and Vector Search",
-  "hero_title_1": "Production-Grade Data Infrastructure",
-  "hero_title_2": "for AI and RAG Applications",
+  "hero_badge": "Vector Database on Kubernetes",
+  "hero_title_1": "Kubernetes-Native RAG and",
+  "hero_title_2": "Vector Database Infrastructure",
   "hero_description": "Run Qdrant, Milvus, Weaviate, and PostgreSQL with pgvector on Kubernetes, next to your models and applications. KubeDB provisions, scales, secures, backs up, and monitors the data layer behind retrieval-augmented generation, semantic search, and AI agents.",
   "primary_action_text": "Explore Vector Databases",
   "primary_action_url": "/docs/latest/guides/qdrant/",
@@ -34,8 +34,8 @@
       "value": "24x7"
     }
   ],
-  "when_to_use_title": "Why AI Workloads Need an Operator-Grade Data Layer",
-  "when_to_use_subtitle": "Why AI Workloads Need an Operator-Grade Data Layer",
+  "when_to_use_title": "Why Production AI Applications Need Kubernetes-Native Vector Databases",
+  "when_to_use_subtitle": "Why Production AI Applications Need Kubernetes-Native Vector Databases",
   "when_to_use_description": "Embeddings, indexes, and metadata are stateful data. Treat them with the same care as any production database.",
   "when_to_use_column_class": "is-3-desktop",
   "when_to_use": [
@@ -65,7 +65,7 @@
     }
   ],
   "engine_table": {
-    "title": "Four Ways to Run Vector Search, One Operating Model",
+    "title": "Manage Qdrant, Milvus, Weaviate, and pgvector on Kubernetes",
     "subtitle": "Pick the engine that fits your workload. KubeDB gives each one the same declarative, Kubernetes-native lifecycle.",
     "headers": [
       "Engine",
