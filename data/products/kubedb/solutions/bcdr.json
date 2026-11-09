@@ -3,7 +3,7 @@
   "product_color_primary": "#0e7490",
   "cta_bg_color": "#083344",
   "product_icon": "lucide:shield-alert",
-  "hero_badge": "Near-Zero RPO and RTO for Databases",
+  "hero_badge": "Business Continuity and Disaster Recovery (BCDR)",
   "hero_title_1": "Near-Zero RPO and RTO",
   "hero_title_2": "for Your Databases",
   "hero_description": "Lose a data center without losing committed data or waiting for a war room. KubeDB moves the primary across data centers in about a lease period, supports zero data loss with synchronous replication, and covers PostgreSQL, Redis, Kafka, MongoDB, OpenSearch, and active-active distributed SQL.",

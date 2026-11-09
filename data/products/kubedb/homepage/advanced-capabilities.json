@@ -2,27 +2,27 @@
   "badge": "New Capabilities",
   "title_plain": "Move, Branch, and Protect",
   "title_gradient": "Your Databases",
-  "description": "Migration, Cloning, and BCDR, powered by KubeDB Courier, extend KubeDB from running databases to moving, copying, and protecting them across clusters and data centers.",
+  "description": "Zero-downtime migration, database cloning, and disaster recovery extend KubeDB from running databases to moving, copying, and protecting them across clusters and data centers.",
   "section_title": "Move, Branch, and Protect Your Databases",
-  "section_subtitle": "Migration, Cloning, and BCDR, powered by KubeDB Courier, extend KubeDB from running databases to moving, copying, and protecting them across clusters and data centers.",
+  "section_subtitle": "Zero-downtime migration, database cloning, and disaster recovery extend KubeDB from running databases to moving, copying, and protecting them across clusters and data centers.",
   "capabilities": [
     {
       "id": "bcdr",
-      "title": "BCDR: Near-Zero Downtime",
-      "description": "Keep applications running when an entire data center goes down, with automatic or approved failover and zero data loss for your most critical workloads.",
+      "title": "Disaster Recovery (BCDR)",
+      "description": "Business continuity and disaster recovery (BCDR) for your databases. Keep applications running through the loss of a data center, with near-zero data loss.",
       "icon": "lucide:shield-check",
       "icon_gradient": "linear-gradient(135deg, #10b981, #059669)",
       "benefits": [
-        "Automatic failover, or manual control when you prefer",
-        "Planned switchovers for maintenance and drills, no data lost",
-        "Only one site in charge, even when the network splits",
-        "Backup and point-in-time recovery built in, for added safety"
+        "Automatic database failover, or manual if you prefer",
+        "Zero data loss with synchronous replication when needed",
+        "Planned switchover for maintenance and recovery drills",
+        "Built-in backup with point-in-time recovery to undo errors"
       ]
     },
     {
       "id": "migration",
       "title": "Zero-Downtime Migration",
-      "description": "Move to KubeDB from another cloud or on-premises while your applications keep running. Your current system serves traffic until you decide to switch.",
+      "description": "Move to KubeDB from another cloud or on-premises while your applications keep running. Your current database serves traffic until you decide to switch.",
       "icon": "lucide:arrow-right-left",
       "icon_gradient": "linear-gradient(135deg, #f59e0b, #ea580c)",
       "benefits": [
@@ -35,7 +35,7 @@
     {
       "id": "branching-cloning",
       "title": "Cloning and Branching",
-      "description": "Give developers and test pipelines realistic production data without putting production at risk. Isolated, refreshable branches are coming next.",
+      "description": "Give developers and test pipelines realistic copies of production databases without putting production at risk. Isolated branches are coming next.",
       "icon": "lucide:git-branch",
       "icon_gradient": "linear-gradient(135deg, #06b6d4, #2563eb)",
       "benefits": [
