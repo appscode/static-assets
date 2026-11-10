@@ -8,7 +8,7 @@
   "hero_title_2": "Vector Database Infrastructure",
   "hero_description": "Run Qdrant, Milvus, Weaviate, and PostgreSQL with pgvector on Kubernetes, next to your models and applications. KubeDB provisions, scales, secures, backs up, and monitors the data layer behind retrieval-augmented generation, semantic search, and AI agents.",
   "primary_action_text": "Explore Vector Databases",
-  "primary_action_url": "/docs/latest/guides/qdrant/",
+  "primary_action_url": "/docs/latest/guides/milvus/",
   "secondary_action_text": "Schedule Demo",
   "secondary_action_url": "https://x.appscode.com/_/kubedb_inquiry",
   "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
@@ -22,8 +22,8 @@
       "value": "4"
     },
     {
-      "label": "Deployment Modes",
-      "value": "Standalone and Distributed"
+      "label": "GitOps Support",
+      "value": "Every Engine"
     },
     {
       "label": "Day-2 Operations",
@@ -78,13 +78,13 @@
         "Qdrant",
         "High-performance similarity search with payload filtering",
         "Standalone, or distributed with Raft consensus",
-        "TLS, logical backup, volume snapshots, monitoring, scaling, and autoscaling"
+        "TLS, logical backup, volume snapshots, monitoring, scaling, autoscaling, and GitOps"
       ],
       [
         "Milvus",
         "Embedding search over very large collections, RAG, and recommendations",
         "Standalone or distributed, with external object storage and KubeDB-managed or external etcd",
-        "Backup with volume snapshots and PITR, scaling, volume expansion, storage migration, TLS, auth rotation, version updates, and autoscaling"
+        "Backup with volume snapshots and PITR, scaling, volume expansion, storage migration, TLS, auth rotation, version updates, autoscaling, and GitOps"
       ],
       [
         "Weaviate",
@@ -96,7 +96,7 @@
         "PostgreSQL with pgvector",
         "Embeddings next to relational data, queried with SQL",
         "Standalone or HA cluster, with cross-data-center DR",
-        "HNSW and IVFFlat indexes, automatic failover, backup with point-in-time recovery, and monitoring"
+        "HNSW and IVFFlat indexes, automatic failover, backup with point-in-time recovery, monitoring, and GitOps"
       ]
     ]
   },
@@ -157,7 +157,7 @@
       "benefits": [
         "Qdrant, Milvus, Weaviate, and pgvector",
         "Standalone and distributed topologies",
-        "GitOps support for Milvus and Weaviate"
+        "GitOps support for every engine"
       ]
     },
     {
@@ -333,7 +333,7 @@
     },
     {
       "question": "Can I manage vector databases with GitOps?",
-      "answer": "Yes. KubeDB provides GitOps support for Milvus and Weaviate, in addition to its other engines, so you can keep database definitions in Git. See the GitOps solution for the workflow."
+      "answer": "Yes. KubeDB provides GitOps support for all of its databases, including Qdrant, Milvus, Weaviate, and PostgreSQL with pgvector, so you can keep database definitions in Git. See the GitOps solution for the workflow."
     }
   ],
   "cta_badge": "Build AI on Solid Ground",
