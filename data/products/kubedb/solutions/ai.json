@@ -23,7 +23,7 @@
     },
     {
       "label": "GitOps Support",
-      "value": "Every Engine"
+      "value": "Any Engine"
     },
     {
       "label": "Day-2 Operations",
@@ -157,7 +157,7 @@
       "benefits": [
         "Qdrant, Milvus, Weaviate, and pgvector",
         "Standalone and distributed topologies",
-        "GitOps support for every engine"
+        "GitOps support for any engine"
       ]
     },
     {
