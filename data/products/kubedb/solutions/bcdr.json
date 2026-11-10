@@ -6,7 +6,7 @@
   "hero_badge": "Business Continuity and Disaster Recovery (BCDR)",
   "hero_title_1": "Kubernetes Database Disaster Recovery",
   "hero_title_2": "with Near-Zero RPO and RTO",
-  "hero_description": "Lose a data center without losing committed data or waiting for a war room. KubeDB moves the primary across data centers in about a lease period, supports zero data loss with synchronous replication, and covers PostgreSQL, Redis, Kafka, MongoDB, OpenSearch, and active-active distributed SQL.",
+  "hero_description": "Lose a data center without losing your data or waiting on a war room. KubeDB fails your databases over to a second data center in about a minute, supports zero data loss with synchronous replication, and protects PostgreSQL, Redis, Kafka, MongoDB, OpenSearch, and active-active distributed SQL.",
   "primary_action_text": "Explore DR Options",
   "primary_action_url": "/docs/latest/guides/postgres/remote-replica/",
   "secondary_action_text": "Schedule Demo",
@@ -22,7 +22,7 @@
       "value": "Zero"
     },
     {
-      "label": "Default Failover Lease",
+      "label": "Default Failover Timer",
       "value": "45 s"
     },
     {
@@ -34,101 +34,91 @@
       "value": "PITR"
     }
   ],
-  "when_to_use_title": "What Near-Zero Means in Practice",
-  "when_to_use_subtitle": "What Near-Zero Means in Practice",
-  "when_to_use_description": "RPO is how much committed data you can lose. RTO is how long the database is unavailable. KubeDB lets you pick the point on that curve that fits each database, and then prove it.",
+  "when_to_use_title": "Why Database Disaster Recovery Matters",
+  "when_to_use_subtitle": "Why Database Disaster Recovery Matters",
+  "when_to_use_description": "When a data center goes down, the database decides how long the business stays down and how much it loses. These are the pains KubeDB removes.",
   "when_to_use_column_class": "is-3-desktop",
   "when_to_use": [
     {
-      "icon": "lucide:shield-check",
-      "title": "Near-Zero Data Loss",
-      "description": "About 5 seconds of RPO with asynchronous replication, and zero with synchronous mode at the cost of one WAN round trip per commit.",
+      "icon": "lucide:server-off",
+      "title": "Outages Stop the Business",
+      "description": "When a data center goes dark, every application that depends on its databases goes dark with it.",
       "icon_bg": "#0e7490"
     },
     {
-      "icon": "lucide:timer",
-      "title": "Failover Without a Human Decision",
-      "description": "With automatic failover, a lease expiry (45 seconds by default) plus promotion is all it takes. No pager, no runbook.",
+      "icon": "lucide:database-zap",
+      "title": "Lost Data Is Lost Trust",
+      "description": "The orders, payments, and records written just before an outage are the hardest to get back.",
       "icon_bg": "#3b82f6"
     },
     {
-      "icon": "lucide:layers",
-      "title": "One Operator for Every Engine",
-      "description": "The same operating model covers PostgreSQL, Redis, Kafka, MongoDB, and OpenSearch, each with its native cross-DC mechanism.",
+      "icon": "lucide:clock",
+      "title": "Manual Recovery Is Slow",
+      "description": "Runbooks, war rooms, and late-night decisions turn a short outage into a long one.",
       "icon_bg": "#10b981"
     },
     {
       "icon": "lucide:flask-conical",
-      "title": "Drill and Prove It",
-      "description": "Run planned switchovers and quarterly DR drills to measure the RPO and RTO you actually get, not the one on paper.",
+      "title": "Untested Plans Fail",
+      "description": "A recovery plan nobody has rehearsed is a hope, not a plan. KubeDB makes drills routine.",
       "icon_bg": "#a855f7"
     }
   ],
-  "comparison_title": "Choose Who Moves the Primary",
+  "comparison_title": "Choose How Failover Happens",
   "comparison_header_1": "Aspect",
-  "comparison_header_2": "Option A: Automatic",
-  "comparison_header_3": "Option B: Manual",
+  "comparison_header_2": "Automatic Failover",
+  "comparison_header_3": "Manual Failover",
   "comparison_table": {
     "rows": [
       [
-        "Who moves the primary",
-        "The 3-site etcd quorum, through the dr-controlplane addon",
-        "A person, following a runbook"
+        "Who triggers it",
+        "The system, with no human in the loop",
+        "Your team, after approving the move"
       ],
       [
-        "Database shape",
-        "Active/Standby, one writable primary",
-        "Active/Standby, one writable primary"
+        "Best for",
+        "Many databases, and teams that cannot wait on a person",
+        "Teams that approve every move, or run only two sites"
       ],
       [
-        "Failover time (RTO)",
-        "Lease expiry (45 s by default) plus promotion, with no human in the loop",
-        "Detection plus human response plus runbook"
+        "Recovery time (RTO)",
+        "About a minute by default",
+        "Detection plus your team's response"
       ],
       [
         "Data loss (RPO)",
-        "About 5 s asynchronous (bounded by a lag guard), or zero with synchronous mode. Planned switchover is zero.",
-        "Async: the unshipped tail. Synchronous mode: zero."
-      ],
-      [
-        "Split-brain protection",
-        "etcd majority plus a fail-closed marker on each spoke",
-        "The operator fences the old primary before promoting"
+        "A few seconds at most, or zero with synchronous replication",
+        "Zero with synchronous replication, or the last few seconds without"
       ],
       [
         "Planned switchover",
-        "One command: quiesce, catch up, move",
-        "Stop writes, wait for zero lag, promote"
+        "One command, with no data lost",
+        "One command, with no data lost"
       ],
       [
-        "Failback",
-        "Automatic re-sync with pg_rewind or re-seed",
-        "remote-config plus recreate, with pg_rewind in place"
-      ],
-      [
-        "Infrastructure",
-        "3, 5, or 7 VMs including a tie-breaker site, a stretched-etcd OCM hub, spokes, and the dr-controlplane addon",
-        "Two clusters, a LoadBalancer, and a shared CA"
+        "Footprint",
+        "Two data centers plus a small tie-breaker site",
+        "Two data centers"
       ]
     ]
   },
-  "how_it_works_title": "Option A: Automatic Data Center Failover",
-  "how_it_works_subtitle": "A 3-site etcd quorum decides which data center is primary. Each site follows it, fail-closed, so a failover never waits for a person and never creates two writable primaries.",
+  "how_it_works_title": "Disaster Recovery, Built In",
+  "how_it_works_subtitle": "KubeDB protects your databases across data centers and moves them when you need it to, so failover becomes a routine operation instead of an emergency.",
   "how_it_works_infra": {
     "icon": "lucide:building-2",
     "title": "You Provide:",
     "items": [
       {
         "icon": "lucide:server",
-        "text": "Two data centers running Kubernetes"
-      },
-      {
-        "icon": "lucide:cpu",
-        "text": "One small VM in a third site for the tie-breaking etcd vote"
+        "text": "Kubernetes in two data centers"
       },
       {
         "icon": "lucide:network",
-        "text": "Routable networking between all sites"
+        "text": "A network path between them"
+      },
+      {
+        "icon": "lucide:vote",
+        "text": "A small third site to break ties, for automatic failover"
       },
       {
         "icon": "lucide:hard-drive",
@@ -141,75 +131,75 @@
     "title": "KubeDB Provides:",
     "items": [
       {
-        "icon": "lucide:vote",
-        "text": "Decide: the hub's etcd holds the primary data center lease (45 s by default)"
-      },
-      {
-        "icon": "lucide:send",
-        "text": "Project: an addon agent writes a fail-closed marker on each site"
-      },
-      {
-        "icon": "lucide:lock",
-        "text": "Enforce: a cut-off site fences itself, and the coordinator promotes only when the marker names its site and is fresh"
+        "icon": "lucide:zap",
+        "text": "Automatic failover, or failover your team approves"
       },
       {
         "icon": "lucide:refresh-cw",
-        "text": "HA inside each site, WAL streaming across sites over TLS, and no run-time dependency on the hub for running databases"
+        "text": "Continuous replication to your standby site"
+      },
+      {
+        "icon": "lucide:lock",
+        "text": "Only one site in charge at any time, even during a network split"
+      },
+      {
+        "icon": "lucide:database-backup",
+        "text": "Backup with point-in-time recovery"
       }
     ]
   },
-  "how_it_works_summary": "No human in the loop • Fail-closed • Planned switchover is one command",
-  "platform_built_for_scale_title": "Everything Near-Zero RPO and RTO Needs, in One Operating Model",
-  "platform_built_for_scale_subtitle": "Failover, replication, switchover, and recovery, operated the same way for every engine",
+  "how_it_works_summary": "Automatic or manual • One site in charge at all times • Planned switchover is one command",
+  "platform_built_for_scale_title": "Everything You Need to Recover with Confidence",
+  "platform_built_for_scale_subtitle": "Failover, replication, switchover, and backup, operated the same way for every database",
   "platform_built_for_scale": [
     {
       "icon": "lucide:zap",
-      "title": "Option A: Automatic Failover",
-      "description": "Failover that does not wait for a person, for teams running many databases.",
+      "title": "Automatic Failover",
+      "description": "Recovery that does not wait for a person, built for teams running many databases.",
       "benefits": [
-        "Decided by a 3-site etcd quorum",
-        "Fail-closed enforcement on every site",
-        "One small VM in a third site"
+        "No pager call to start recovery",
+        "Only one site in charge, even during network splits",
+        "Same experience for every database"
       ]
     },
     {
       "icon": "lucide:user-check",
-      "title": "Option B: Manual Failover",
-      "description": "Every data center move needs approval. Two independent clusters, the smallest footprint.",
+      "title": "Manual Failover",
+      "description": "Every data center move needs your approval, with the smallest footprint.",
       "benefits": [
-        "Remote Replica across two clusters",
-        "Promote by re-applying the spec",
-        "Synchronous mode for zero data loss"
+        "Your team stays in control",
+        "Fits two-site environments",
+        "Zero data loss with synchronous replication"
       ]
     },
     {
       "icon": "lucide:shield-check",
-      "title": "Synchronous Replication (RPO Zero)",
+      "title": "Synchronous Replication",
       "description": "Acknowledge a commit only after the standby has it, so a lost data center loses nothing.",
       "benefits": [
         "Zero data loss on unplanned failover",
-        "Cost: one WAN round trip per commit",
-        "Enable per database where it matters"
+        "Cost: one network round trip per write",
+        "Turn it on only where it matters"
       ]
     },
     {
       "icon": "lucide:network",
-      "title": "Active-Active with Distributed SQL",
-      "description": "For the strictest targets, run a distributed SQL database that keeps serving through a data center loss.",
+      "title": "Active-Active",
+      "description": "For the strictest targets, distributed SQL such as YugabyteDB keeps serving through a data center loss.",
       "benefits": [
-        "YugabyteDB with Raft consensus, RPO zero",
-        "Metro latency (around 5 ms) between sites",
-        "Needs application changes, best for new services"
+        "Zero data loss and near-zero downtime",
+        "Designed in from day one for new services",
+        "Works best with sites close together"
       ]
     },
     {
       "icon": "lucide:arrow-right-left",
       "title": "Planned Switchover",
-      "description": "Move the primary on purpose for maintenance or testing, with no data loss.",
+      "description": "Move the primary on purpose for maintenance or drills, with no data loss.",
       "benefits": [
-        "Quiesce, catch up, then move",
-        "Progress visible from the command line",
-        "Abort at any point to resume writes"
+        "One command, with visible progress",
+        "Abort at any point to resume writes",
+        "Rehearse recovery without risk"
       ]
     },
     {
@@ -223,56 +213,32 @@
       ]
     }
   ],
-  "deployment_process_title": "Option A Bring-Up Order",
-  "deployment_process_subtitle": "Each layer depends on the one before it, from bare VMs to PostgreSQL in DC/DR mode. Once both sites have joined, every PostgreSQL deployed in DC/DR mode gets automatic failover.",
+  "deployment_process_title": "From Setup to Protected",
+  "deployment_process_subtitle": "Four steps to a database estate that survives the loss of a data center.",
   "deployment_process": [
     {
       "step": 1,
-      "title": "Provision VMs",
-      "desc": "3, 5, or 7 VMs across DC A, DC B, and the tie-breaker site, with routable IPs",
-      "icon": "lucide:server"
-    },
-    {
-      "step": 2,
-      "title": "Form etcd",
-      "desc": "One etcd cluster over all VMs, including the tie-breaker site",
-      "icon": "lucide:database"
-    },
-    {
-      "step": 3,
-      "title": "Build the hub",
-      "desc": "Kubernetes with external etcd. Control plane and nodes on DC A and DC B VMs only",
+      "title": "Connect Your Data Centers",
+      "desc": "Run Kubernetes in two sites with a network path between them",
       "icon": "lucide:network"
     },
     {
-      "step": 4,
-      "title": "HA add-ons",
-      "desc": "Install KubeDB and KubeStash in HA mode",
-      "icon": "lucide:package"
+      "step": 2,
+      "title": "Choose How Failover Happens",
+      "desc": "Automatic or manual, to match how your team works",
+      "icon": "lucide:scale"
     },
     {
-      "step": 5,
-      "title": "OCM hub",
-      "desc": "Turn the cluster into an OCM hub, with all components in HA",
-      "icon": "lucide:git-fork"
-    },
-    {
-      "step": 6,
-      "title": "dr-controlplane",
-      "desc": "Deploy the dr-controlplane OCM addon on the hub",
+      "step": 3,
+      "title": "Protect Your Databases",
+      "desc": "Deploy databases in disaster recovery mode, with backups switched on",
       "icon": "lucide:shield-check"
     },
     {
-      "step": 7,
-      "title": "Join the sites",
-      "desc": "Register both site clusters. The addon agent lands on each",
-      "icon": "lucide:link"
-    },
-    {
-      "step": 8,
-      "title": "Deploy PostgreSQL",
-      "desc": "PostgreSQL in DC/DR mode across both sites, with automatic failover",
-      "icon": "lucide:rocket"
+      "step": 4,
+      "title": "Rehearse and Prove It",
+      "desc": "Run planned switchovers and drills to measure your real recovery numbers",
+      "icon": "lucide:flask-conical"
     }
   ],
   "faqs_title": "BCDR Frequently Asked Questions",
@@ -281,55 +247,47 @@
   "faqs": [
     {
       "question": "What RPO and RTO can I expect?",
-      "answer": "With automatic failover, RTO is the lease expiry (45 seconds by default) plus promotion. With asynchronous PostgreSQL replication, RPO is about 5 seconds, bounded by a lag guard. With synchronous replication, RPO is zero. Planned switchovers are always zero data loss. Your actual numbers depend on your network and workload, so measure them in a drill."
+      "answer": "With automatic failover, recovery typically takes about a minute by default. With asynchronous replication, data loss is a few seconds at most, and with synchronous replication it is zero. Planned switchovers are always zero data loss. Your actual numbers depend on your network and workload, so measure them in a drill."
     },
     {
-      "question": "Which option should I choose?",
-      "answer": "Choose Option A (automatic) when a data center failover must not wait for a person, you run many databases, and you can host one small VM in a third site for the tie-breaking vote. Choose Option B (manual) when a human must approve every data center move, you have only two sites, you are migrating into KubeDB, or you want the smallest footprint. Choose active-active distributed SQL for new services that need zero loss and zero downtime and can tolerate the application changes."
+      "question": "Which failover style should I choose?",
+      "answer": "Choose automatic failover when a data center failover must not wait for a person, you run many databases, and you can host a small third site to break ties. Choose manual failover when your team must approve every move, you have only two sites, or you want the smallest footprint. Choose active-active distributed SQL for new services that need zero loss and near-zero downtime and can accept the application changes."
     },
     {
       "question": "What does synchronous replication cost?",
-      "answer": "Each commit waits for the standby, so write latency grows by one WAN round trip between the data centers. In exchange, a lost data center loses no committed data. Many teams enable it only for the databases that need it."
+      "answer": "Each write waits for the standby, so write latency grows by one network round trip between the data centers. In exchange, a lost data center loses no committed data. Many teams turn it on only for the databases that need it."
     },
     {
       "question": "When should I use active-active?",
-      "answer": "When you need RPO zero and near-zero RTO and can keep data centers within metro latency (around 5 ms). Distributed SQL such as YugabyteDB replicates with Raft, and each data center holds a full copy. It requires application changes, so it is best suited to new services."
+      "answer": "When you need zero data loss and near-zero downtime and can keep your data centers close together. Distributed SQL such as YugabyteDB keeps a full copy in each data center. It requires application changes, so it suits new services best."
     },
     {
       "question": "Is there always only one writable primary?",
-      "answer": "For PostgreSQL, yes. Both options are Active/Standby, because PostgreSQL allows one writable primary. They differ only in how a data center failover is triggered. Active-active distributed SQL is the exception, by design."
+      "answer": "For PostgreSQL, yes. KubeDB keeps one data center in charge at a time, and the other follows. Active-active distributed SQL is the exception, by design."
     },
     {
       "question": "Does this cover databases other than PostgreSQL?",
-      "answer": "Yes. Redis uses DR replicas with a cluster takeover, Kafka uses MirrorMaker 2 on a ConnectCluster, MongoDB uses non-voting DR members, and OpenSearch uses cross-cluster replication. Cross-DC replication for these engines is asynchronous, so RPO equals replication lag."
+      "answer": "Yes. KubeDB protects PostgreSQL, Redis, Kafka, MongoDB, and OpenSearch across data centers, using the best mechanism for each engine. For those engines replication is asynchronous, so data loss equals the replication delay."
     },
     {
-      "question": "How does failover avoid a split brain?",
-      "answer": "Option A uses an etcd majority plus a fail-closed marker on each site. A site that loses contact fences itself, and a coordinator promotes only when the marker names its site and is fresh. In Option B, the operator fences the old primary before promoting the new one."
+      "question": "How do you prevent two sites from acting as primary?",
+      "answer": "KubeDB makes sure only one data center is in charge at any moment, even during a network split. A site that loses contact stops accepting writes until it is safe to continue."
     },
     {
-      "question": "What if the hub is unavailable?",
-      "answer": "Running databases do not depend on the hub at run time. Each site keeps serving under its last fail-closed marker, and the hub's etcd quorum is only needed to move the primary."
+      "question": "What happens when the failed data center comes back?",
+      "answer": "It rejoins as a standby and KubeDB brings it back in sync. When you are ready, a planned switchover returns the primary role with no data lost."
     },
     {
-      "question": "How many VMs does the Option A hub need?",
-      "answer": "Three VMs for development, five for production, and seven for production with availability zones. Every VM needs a routable IP to every other VM, and the tie-breaker site never joins the Kubernetes cluster or runs workloads."
-    },
-    {
-      "question": "What happens when the old primary comes back?",
-      "answer": "It returns as a standby. Option A re-syncs it automatically with pg_rewind or a re-seed. In Option B, you recreate it as a Remote Replica, and with a Halt deletion policy the volumes survive so pg_rewind can repair it in place. Failback repeats the process with the roles swapped."
-    },
-    {
-      "question": "Does BCDR include backup and point-in-time recovery?",
+      "question": "Does this include backup and point-in-time recovery?",
       "answer": "Yes. KubeDB provides encrypted, incremental backups with point-in-time recovery, so you can recover from failures that replication would copy to the standby, such as an accidental delete."
     },
     {
       "question": "How do I know my targets are met?",
-      "answer": "Run planned switchovers and scheduled DR drills, for example quarterly, and record the RPO and RTO each drill measures. The kubectl dba dc-dr command shows status and progress during every step."
+      "answer": "Run planned switchovers and scheduled disaster recovery drills, for example quarterly, and record the RPO and RTO each drill measures. KubeDB shows status and progress at every step."
     },
     {
       "question": "Is this running in production?",
-      "answer": "Yes. KubeDB runs a highly available primary cluster with a live DR replica at a geographically separate site for a regulated mobile financial services platform. Read the TeleCash case study for details."
+      "answer": "Yes. KubeDB runs a highly available primary cluster with a live disaster recovery replica at a geographically separate site for a regulated mobile financial services platform. Read the TeleCash case study for details."
     }
   ],
   "cta_badge": "Protect Your Data",
@@ -350,7 +308,7 @@
     {
       "icon": "lucide:timer",
       "value": "45 s",
-      "label": "Default Failover Lease",
+      "label": "Default Failover Timer",
       "gradient": "linear-gradient(135deg, #22d3ee, #3b82f6)"
     },
     {
@@ -373,48 +331,48 @@
     }
   ],
   "engine_dr": {
-    "title": "Near-Zero RPO and RTO, Engine by Engine",
-    "subtitle": "KubeDB uses the cross-data-center mechanism each database does best, and operates all of them the same way.",
+    "title": "Protection for Every Database You Run",
+    "subtitle": "KubeDB uses the right cross-data-center protection for each engine, and operates all of them the same way.",
     "headers": [
       "Database",
-      "Cross-DC mechanism",
+      "How it is protected",
       "When a data center is lost",
-      "RPO"
+      "Data loss"
     ],
     "rows": [
       [
         "PostgreSQL",
-        "WAL streaming to a standby cluster, in Active/Standby mode",
-        "Automatic (3-site quorum) or manual promotion of the standby",
-        "About 5 s async, <strong>zero</strong> with synchronous mode"
+        "Continuous replication to a standby data center",
+        "The standby takes over automatically or on your command",
+        "A few seconds at most, <strong>zero</strong> with synchronous replication"
       ],
       [
         "Redis",
-        "DR replicas in the second data center",
-        "Cluster takeover promotes the DR replicas",
-        "Replication lag (async)"
+        "Replicas in the second data center",
+        "The replicas take over",
+        "Replication delay (asynchronous)"
       ],
       [
         "Kafka",
-        "MirrorMaker 2 running on a ConnectCluster",
-        "Clients switch to the mirrored cluster",
-        "Mirroring lag (async)"
+        "Topic mirroring to a second cluster",
+        "Applications switch to the mirrored cluster",
+        "Mirroring delay (asynchronous)"
       ],
       [
         "MongoDB",
-        "Non-voting DR members in the second data center",
-        "Reconfigure the replica set to promote the DR members",
-        "Replication lag (async)"
+        "Extra members in the second data center",
+        "They are promoted to take over",
+        "Replication delay (asynchronous)"
       ],
       [
         "OpenSearch",
-        "Cross-cluster replication (CCR)",
-        "Promote the follower indices",
-        "Replication lag (async)"
+        "Cross-cluster replication",
+        "The follower cluster takes over",
+        "Replication delay (asynchronous)"
       ],
       [
         "YugabyteDB (active-active)",
-        "Raft consensus across data centers",
+        "Data replicated across data centers by consensus",
         "Surviving data centers keep serving reads and writes",
         "<strong>Zero</strong>"
       ]
