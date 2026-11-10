@@ -347,7 +347,7 @@
   ],
   "cta_button_text": "Schedule a Demo",
   "cta_button_url": "https://x.appscode.com/_/kubedb_inquiry",
-  "cta_secondary_button_text": "Read the Vector Database Docs",
+  "cta_secondary_button_text": "Read Docs",
   "cta_secondary_button_url": "/docs/latest/guides/qdrant/",
   "cta_secondary_button_icon": "lucide:book-open",
   "final_cta_metrics": [
