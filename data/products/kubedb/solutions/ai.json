@@ -1,0 +1,379 @@
+{
+  "product_name": "AI + KubeDB",
+  "product_color_primary": "#7c3aed",
+  "cta_bg_color": "#2e1065",
+  "product_icon": "lucide:brain-circuit",
+  "hero_badge": "Vector Database on Kubernetes",
+  "hero_title_1": "Kubernetes-Native RAG and",
+  "hero_title_2": "Vector Database Infrastructure",
+  "hero_description": "Run Qdrant, Milvus, Weaviate, and PostgreSQL with pgvector on Kubernetes, next to your models and applications. KubeDB provisions, scales, secures, backs up, and monitors the data layer behind retrieval-augmented generation, semantic search, and AI agents.",
+  "primary_action_text": "Explore Vector Databases",
+  "primary_action_url": "/docs/latest/guides/milvus/",
+  "secondary_action_text": "Schedule Demo",
+  "secondary_action_url": "https://x.appscode.com/_/kubedb_inquiry",
+  "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+  "hero_best_with_items": [
+    "KubeDB Operator",
+    "KubeDB Platform"
+  ],
+  "stats": [
+    {
+      "label": "Vector Engines",
+      "value": "4"
+    },
+    {
+      "label": "GitOps Support",
+      "value": "Any Engine"
+    },
+    {
+      "label": "Day-2 Operations",
+      "value": "Automated"
+    },
+    {
+      "label": "Support",
+      "value": "24x7"
+    }
+  ],
+  "when_to_use_title": "Why Production AI Applications Need Kubernetes-Native Vector Databases",
+  "when_to_use_subtitle": "Why Production AI Applications Need Kubernetes-Native Vector Databases",
+  "when_to_use_description": "Embeddings, indexes, and metadata are stateful data. Treat them with the same care as any production database.",
+  "when_to_use_column_class": "is-3-desktop",
+  "when_to_use": [
+    {
+      "icon": "lucide:database",
+      "title": "Vector Data Is Stateful",
+      "description": "Embeddings and indexes live on disk. Losing them means re-embedding your corpus, so storage, backup, and upgrades matter.",
+      "icon_bg": "#7c3aed"
+    },
+    {
+      "icon": "lucide:lock",
+      "title": "Your Data Stays Yours",
+      "description": "Run the vector store in your own cluster, VPC, data center, or air-gapped site, next to your models and applications.",
+      "icon_bg": "#3b82f6"
+    },
+    {
+      "icon": "lucide:layers",
+      "title": "The Right Engine for Each Workload",
+      "description": "Choose Qdrant, Milvus, Weaviate, or PostgreSQL with pgvector, and operate them all the same way.",
+      "icon_bg": "#10b981"
+    },
+    {
+      "icon": "lucide:wrench",
+      "title": "Day-2 Without Custom Scripts",
+      "description": "Scaling, TLS, auth rotation, reconfiguration, and monitoring are Kubernetes resources, not runbooks.",
+      "icon_bg": "#a855f7"
+    }
+  ],
+  "engine_table": {
+    "title": "Manage Qdrant, Milvus, Weaviate, and pgvector on Kubernetes",
+    "subtitle": "Pick the engine that fits your workload. KubeDB gives each one the same declarative, Kubernetes-native lifecycle.",
+    "headers": [
+      "Engine",
+      "Best for",
+      "Topologies",
+      "What KubeDB automates"
+    ],
+    "rows": [
+      [
+        "Qdrant",
+        "High-performance similarity search with payload filtering",
+        "Standalone, or distributed with Raft consensus",
+        "TLS, logical backup, volume snapshots, monitoring, scaling, autoscaling, and GitOps"
+      ],
+      [
+        "Milvus",
+        "Embedding search over very large collections, RAG, and recommendations",
+        "Standalone or distributed, with external object storage and KubeDB-managed or external etcd",
+        "Backup with volume snapshots and PITR, scaling, volume expansion, storage migration, TLS, auth rotation, version updates, autoscaling, and GitOps"
+      ],
+      [
+        "Weaviate",
+        "Objects and vectors together, with semantic and hybrid search",
+        "Multi-node cluster",
+        "Backup and restore, API key auth, TLS, scaling, volume expansion, storage migration, autoscaling, and GitOps"
+      ],
+      [
+        "PostgreSQL with pgvector",
+        "Embeddings next to relational data, queried with SQL",
+        "Standalone or HA cluster, with cross-data-center DR",
+        "HNSW and IVFFlat indexes, automatic failover, backup with point-in-time recovery, monitoring, and GitOps"
+      ]
+    ]
+  },
+  "how_it_works_title": "RAG Infrastructure, Operated for You",
+  "how_it_works_subtitle": "Your application and models stay where they are. KubeDB runs and protects the data layer they depend on.",
+  "how_it_works_infra": {
+    "icon": "lucide:building-2",
+    "title": "You Provide:",
+    "items": [
+      {
+        "icon": "lucide:server",
+        "text": "A Kubernetes cluster, in the cloud, on-prem, or air-gapped"
+      },
+      {
+        "icon": "lucide:cpu",
+        "text": "Your embedding model and LLM, hosted wherever you choose"
+      },
+      {
+        "icon": "lucide:hard-drive",
+        "text": "A StorageClass for vector data, and object storage for backups"
+      },
+      {
+        "icon": "lucide:code",
+        "text": "Your RAG service, search API, or agent"
+      }
+    ]
+  },
+  "how_it_works_software": {
+    "icon": "lucide:shield-check",
+    "title": "KubeDB Provides:",
+    "items": [
+      {
+        "icon": "lucide:rocket",
+        "text": "Provisioning of Qdrant, Milvus, Weaviate, or PostgreSQL with pgvector from one manifest"
+      },
+      {
+        "icon": "lucide:lock",
+        "text": "TLS, authentication secrets, and rotation"
+      },
+      {
+        "icon": "lucide:trending-up",
+        "text": "Scaling and autoscaling as your corpus grows"
+      },
+      {
+        "icon": "lucide:database-backup",
+        "text": "Backup, monitoring, and version updates"
+      }
+    ]
+  },
+  "how_it_works_summary": "Declarative • Self-hosted • Same operator as your other databases",
+  "platform_built_for_scale_title": "Everything Your Vector Databases Need in Production",
+  "platform_built_for_scale_subtitle": "Provisioning to recovery, handled by the same operator you use for your other databases",
+  "platform_built_for_scale": [
+    {
+      "icon": "lucide:rocket",
+      "title": "Declarative Provisioning",
+      "description": "Deploy a vector database with one Kubernetes manifest, standalone or distributed.",
+      "benefits": [
+        "Qdrant, Milvus, Weaviate, and pgvector",
+        "Standalone and distributed topologies",
+        "GitOps support for any engine"
+      ]
+    },
+    {
+      "icon": "lucide:trending-up",
+      "title": "Scale With Your Corpus",
+      "description": "Grow compute and storage through ops requests, or let the autoscaler do it.",
+      "benefits": [
+        "Vertical and horizontal scaling",
+        "Volume expansion and storage migration",
+        "Compute and storage autoscaling"
+      ]
+    },
+    {
+      "icon": "lucide:shield-check",
+      "title": "Security and Access Control",
+      "description": "Encrypt traffic and control who can reach your embeddings.",
+      "benefits": [
+        "TLS, with certificate reconfiguration",
+        "Authentication secrets you can rotate",
+        "API key authentication for Weaviate"
+      ]
+    },
+    {
+      "icon": "lucide:database-backup",
+      "title": "Backup and Recovery",
+      "description": "Protect the data you spent compute to create, on every supported engine.",
+      "benefits": [
+        "Backup and restore for Qdrant, Milvus, Weaviate, and pgvector",
+        "Volume snapshots, logical backups, and PITR where the engine supports them",
+        "Any S3-compatible object store"
+      ]
+    },
+    {
+      "icon": "lucide:activity",
+      "title": "Observability",
+      "description": "See how your vector stores behave under real query load.",
+      "benefits": [
+        "Prometheus and Grafana monitoring",
+        "Metrics for Qdrant, Milvus, and Weaviate",
+        "One approach across all your databases"
+      ]
+    },
+    {
+      "icon": "lucide:network",
+      "title": "Resilience",
+      "description": "Keep retrieval available through node and site failures.",
+      "benefits": [
+        "Qdrant distributed mode with Raft consensus",
+        "Automatic failover for PostgreSQL with pgvector",
+        "Cross-data-center DR for pgvector databases, see BCDR"
+      ]
+    }
+  ],
+  "use_cases_title": "What Teams Build with KubeDB and Vector Search",
+  "use_cases_subtitle": "From a first RAG prototype to a regulated production system",
+  "use_cases": [
+    {
+      "icon": "lucide:message-square",
+      "title": "Retrieval-Augmented Generation",
+      "description": "Ground LLM answers in your own documents with a vector store that runs next to your application.",
+      "icon_bg": "#7c3aed"
+    },
+    {
+      "icon": "lucide:search",
+      "title": "Semantic Search",
+      "description": "Search by meaning across documents, tickets, code, and product catalogs.",
+      "icon_bg": "#3b82f6"
+    },
+    {
+      "icon": "lucide:thumbs-up",
+      "title": "Recommendations",
+      "description": "Match users and items by embedding similarity, with an engine built for large collections.",
+      "icon_bg": "#10b981"
+    },
+    {
+      "icon": "lucide:bot",
+      "title": "AI Agents with Memory",
+      "description": "Give agents long-term memory backed by a managed, backed-up vector store.",
+      "icon_bg": "#a855f7"
+    },
+    {
+      "icon": "lucide:shield",
+      "title": "Private and Regulated AI",
+      "description": "Keep embeddings and source data inside your network, including on-prem and air-gapped sites.",
+      "icon_bg": "#0e7490"
+    },
+    {
+      "icon": "lucide:table",
+      "title": "Hybrid Relational and Vector",
+      "description": "Store embeddings beside transactional data with pgvector, and query both with SQL.",
+      "icon_bg": "#f59e0b"
+    }
+  ],
+  "deployment_process_title": "From Manifest to Production",
+  "deployment_process_subtitle": "A vector database is a Kubernetes resource. Declare it, connect your application, and add protection as you grow.",
+  "deployment_process": [
+    {
+      "step": 1,
+      "title": "Install KubeDB",
+      "desc": "Install the operator on any Kubernetes cluster, including air-gapped ones",
+      "icon": "lucide:package"
+    },
+    {
+      "step": 2,
+      "title": "Choose an Engine",
+      "desc": "Qdrant, Milvus, Weaviate, or PostgreSQL with pgvector, standalone or distributed",
+      "icon": "lucide:layers"
+    },
+    {
+      "step": 3,
+      "title": "Apply One Manifest",
+      "desc": "Declare version, topology, storage, and TLS in a custom resource",
+      "icon": "lucide:file-code"
+    },
+    {
+      "step": 4,
+      "title": "Connect Your App",
+      "desc": "Use the generated service and auth secret from your RAG service or agent",
+      "icon": "lucide:link"
+    },
+    {
+      "step": 5,
+      "title": "Load Embeddings",
+      "desc": "Ingest vectors with your own pipeline and the engine's native client",
+      "icon": "lucide:upload"
+    },
+    {
+      "step": 6,
+      "title": "Protect and Scale",
+      "desc": "Add backup, monitoring, and autoscaling as the workload grows",
+      "icon": "lucide:shield-check"
+    }
+  ],
+  "faqs_title": "AI + KubeDB Frequently Asked Questions",
+  "faqs_subtitle": "Everything you need to know about running vector databases with KubeDB",
+  "faqs_contact_url": "https://appscode.com/contact/",
+  "faqs": [
+    {
+      "question": "Which vector databases does KubeDB support?",
+      "answer": "KubeDB provides operators for Qdrant, Milvus, and Weaviate, and supports the pgvector extension on PostgreSQL. The documentation lists the supported versions for each engine."
+    },
+    {
+      "question": "Should I use a dedicated vector database or pgvector?",
+      "answer": "Use pgvector when embeddings belong next to relational data and you want to query both with SQL in one database. Use Qdrant, Milvus, or Weaviate when vector search is its own workload, especially for large or fast-growing collections. KubeDB lets you run both side by side."
+    },
+    {
+      "question": "Can I run these databases in a distributed topology?",
+      "answer": "Yes. Qdrant supports distributed mode with Raft consensus, Milvus supports standalone and distributed topologies with external object storage and KubeDB-managed or external etcd, and Weaviate runs as a multi-node cluster."
+    },
+    {
+      "question": "How do I back up my embeddings?",
+      "answer": "KubeDB provides backup and restore for every vector engine it supports. Qdrant supports logical backup and volume snapshots, Milvus supports base backup, volume snapshots, and point-in-time recovery, and PostgreSQL with pgvector has encrypted, incremental backups with point-in-time recovery. Backups go to any S3-compatible object store."
+    },
+    {
+      "question": "How do I enable pgvector?",
+      "answer": "Deploy PostgreSQL with an extension-enabled PostgresVersion, then run CREATE EXTENSION vector in your database. You can then create vector columns and HNSW or IVFFlat indexes."
+    },
+    {
+      "question": "Does KubeDB host my embedding model or LLM?",
+      "answer": "No. KubeDB runs the data layer: vector and relational databases. Your embedding model and LLM run wherever you choose, such as your own inference service or a provider API."
+    },
+    {
+      "question": "Can I keep everything inside my own network?",
+      "answer": "Yes. KubeDB is self-hosted, so vector data stays in your cluster, and it supports air-gapped installation for isolated environments. See the air-gapped solution for details."
+    },
+    {
+      "question": "How do I scale as my corpus grows?",
+      "answer": "Use ops requests for vertical and horizontal scaling and volume expansion, or enable the autoscaler for compute and storage. Scaling support varies by engine, so check the engine guide for details."
+    },
+    {
+      "question": "What about disaster recovery for pgvector databases?",
+      "answer": "Because pgvector runs on PostgreSQL, it inherits KubeDB PostgreSQL high availability and cross-data-center disaster recovery, with near-zero RPO and RTO. See the BCDR solution for options."
+    },
+    {
+      "question": "Can I manage vector databases with GitOps?",
+      "answer": "Yes. KubeDB provides GitOps support for all of its databases, including Qdrant, Milvus, Weaviate, and PostgreSQL with pgvector, so you can keep database definitions in Git. See the GitOps solution for the workflow."
+    }
+  ],
+  "cta_badge": "Build AI on Solid Ground",
+  "cta_title": "Give Your AI Applications",
+  "cta_title_gradient": "a Production-Grade Data Layer",
+  "cta_description": "Run vector search where your models and data already live, and operate it like every other database.",
+  "cta_checklist": [
+    "Qdrant, Milvus, Weaviate, and pgvector",
+    "Standalone and distributed deployments",
+    "Backup, monitoring, and autoscaling"
+  ],
+  "cta_button_text": "Schedule a Demo",
+  "cta_button_url": "https://x.appscode.com/_/kubedb_inquiry",
+  "cta_secondary_button_text": "Read Docs",
+  "cta_secondary_button_url": "/docs/latest/guides/qdrant/",
+  "cta_secondary_button_icon": "lucide:book-open",
+  "final_cta_metrics": [
+    {
+      "icon": "lucide:database",
+      "value": "4",
+      "label": "Vector Engines",
+      "gradient": "linear-gradient(135deg, #a78bfa, #7c3aed)"
+    },
+    {
+      "icon": "lucide:trending-up",
+      "value": "Auto",
+      "label": "Compute and Storage Scaling",
+      "gradient": "linear-gradient(135deg, #4ade80, #10b981)"
+    },
+    {
+      "icon": "lucide:lock",
+      "value": "TLS",
+      "label": "Encryption in Transit",
+      "gradient": "linear-gradient(135deg, #22d3ee, #3b82f6)"
+    },
+    {
+      "icon": "lucide:headphones",
+      "value": "24x7",
+      "label": "Expert Support",
+      "gradient": "linear-gradient(135deg, #fb923c, #ef4444)"
+    }
+  ]
+}

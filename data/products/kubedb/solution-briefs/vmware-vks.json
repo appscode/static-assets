@@ -1,0 +1,132 @@
+{
+  "title": "KubeDB on VMware vSphere Kubernetes Service (VKS)<br>Joint Solution Brief",
+  "description": "Solution brief for running KubeDB on VMware vSphere Kubernetes Service (VKS) in VMware Cloud Foundation (VCF)",
+  "subtitle": "Validated Private-Cloud DBaaS for VMware Cloud Foundation 9.0 • VKS • vSAN • NSX",
+  "intro": "KubeDB by AppsCode is validated to run on VMware vSphere Kubernetes Service (VKS), the Kubernetes runtime of VMware Cloud Foundation (VCF). Together they give platform teams a private-cloud Database-as-a-Service (DBaaS): application teams get self-service databases through Kubernetes APIs, while vSphere administrators keep governance, data ownership, and cost control. AppsCode and Broadcom published the validated stack as a reference architecture, and KubeDB is listed among Broadcom's Kubernetes Ecosystem Partners.",
+  "download": {
+    "label": "Read the Reference Architecture",
+    "url": "https://www.vmware.com/docs/isv-kubedb-vks-vcf",
+    "external": true
+  },
+  "benefits": {
+    "title": "Key Benefits",
+    "items": [
+      {
+        "name": "Self-Service Inside vSphere Controls",
+        "description": "Application teams provision production databases with a single Kubernetes object or a few clicks in the KubeDB console. Everything stays inside the quotas, storage policies, and permissions that vSphere administrators set through vSphere Namespaces and vCenter Single Sign-On."
+      },
+      {
+        "name": "Private-Cloud DBaaS for Regulated and Air-Gapped Sites",
+        "description": "Hyperscaler database services rarely fit regulated, sovereign, edge, or air-gapped environments. KubeDB delivers a DBaaS operating model on your own VCF estate, with images mirrored to Harbor for disconnected sites."
+      },
+      {
+        "name": "One Database API Across Hybrid Estates",
+        "description": "KubeDB runs on any conformant Kubernetes cluster, so teams use the same database API on VKS and everywhere else, without provider-specific tooling or unpredictable costs."
+      },
+      {
+        "name": "Built on the VCF Services You Already Run",
+        "description": "Storage comes from vSAN ESA through the vSphere CSI driver, networking from NSX, and identity from vCenter Single Sign-On. KubeDB reuses them instead of introducing parallel infrastructure."
+      },
+      {
+        "name": "Layered Resilience",
+        "description": "Each layer handles its own failures. vSphere HA restarts virtual machines, VKS replaces failed worker nodes, KubeDB promotes a standby when a primary fails, and backups are stored off-cluster."
+      },
+      {
+        "name": "An Audit Trail Instead of Runbooks",
+        "description": "Day-2 changes such as scaling, volume expansion, and certificate rotation run as OpsRequests. The operator executes each one step by step and records its status, so every change is visible and repeatable."
+      }
+    ]
+  },
+  "capabilities": {
+    "title": "Validated on VKS: What Was Tested",
+    "items": [
+      {
+        "name": "Provisioning",
+        "description": "A three-member PostgreSQL 18.3 cluster with TLS, created from one Postgres object, was ready in 71 seconds with one primary, two standbys, and three vSAN volumes."
+      },
+      {
+        "name": "Automatic Failover",
+        "description": "After the primary pod was deleted, a standby was promoted in 31 seconds and the old primary rejoined as a standby in 47 seconds. Writes continued without client changes."
+      },
+      {
+        "name": "Online Volume Expansion",
+        "description": "Volumes grew from 50Gi to 100Gi in 2 minutes 28 seconds, with no pod restarts."
+      },
+      {
+        "name": "Horizontal and Vertical Scaling",
+        "description": "The database scaled from three to four members in 68 seconds and back in 1 minute 51 seconds while staying available. Vertical scaling completed in 3 minutes 8 seconds as a rolling restart, standbys first."
+      },
+      {
+        "name": "TLS Certificate Rotation",
+        "description": "Server certificates were re-issued and applied in 5 minutes 3 seconds, with data intact."
+      },
+      {
+        "name": "Backup and Restore",
+        "description": "A KubeStash backup to S3-compatible storage took 9 seconds, and restoring into a new database took 37 seconds, with every row recovered, including rows written after the failover."
+      },
+      {
+        "name": "Monitoring",
+        "description": "Prometheus scraped all targets and the KubeDB Grafana dashboard populated as expected."
+      },
+      {
+        "name": "About These Results",
+        "description": "All eight tests passed on KubeDB v2026.10.12, VCF 9.0, and VKS 3.7. They ran on a single-zone cluster smaller than the recommended production size, so production timings may differ."
+      }
+    ]
+  },
+  "highlights": {
+    "title": "Reference Architecture at a Glance",
+    "subtitle": "Layered Availability. vSAN Storage. NSX Isolation. Full Control.",
+    "items": [
+      {
+        "name": "Infrastructure",
+        "description": "VMware Cloud Foundation 9.0 with vCenter Server 9.0.2 and VKS 3.7 provide CNCF-conformant Kubernetes clusters. A vSphere Namespace holds quotas, VM classes, storage policies, and permissions for each environment."
+      },
+      {
+        "name": "Storage",
+        "description": "vSAN ESA through the vSphere CSI driver, with each vSAN policy exposed as a StorageClass and one volume per database member. RAID-5 suits general-purpose databases, and RAID-6 suits mission-critical and regulated workloads."
+      },
+      {
+        "name": "Networking and Security",
+        "description": "NSX VPCs and the distributed firewall isolate database traffic. TLS certificates come from cert-manager, vSAN encrypts data at rest, and KubeStash encrypts backups before they leave the cluster. Pinniped connects Kubernetes RBAC to vCenter Single Sign-On."
+      },
+      {
+        "name": "High Availability and Placement",
+        "description": "Members spread across worker nodes with anti-affinity, PodDisruptionBudgets protect quorum during drains and upgrades, and an arbiter pod keeps elections safe when the member count is even. The primary Service always follows the current primary."
+      },
+      {
+        "name": "Data Protection and Disaster Recovery",
+        "description": "KubeStash provides database-aware backups, cluster-object backups, and point-in-time recovery for PostgreSQL, MySQL, MariaDB, and MongoDB. Writing repositories to a second-site object store lets a standby VKS cluster restore your databases after a site loss."
+      },
+      {
+        "name": "Day-2 Operations",
+        "description": "Version updates, scaling, volume expansion, reconfiguration, and credential rotation run as OpsRequests. Compute and storage autoscaling, per-engine Grafana dashboards, and GitOps with Argo CD or Flux are built in."
+      },
+      {
+        "name": "Run Any Database",
+        "description": "KubeDB supports more than 30 engines, including PostgreSQL, MySQL, MariaDB, MongoDB, Redis, Kafka, Elasticsearch, OpenSearch, Microsoft SQL Server, Oracle, and the Qdrant, Milvus, and Weaviate vector databases. PostgreSQL was the engine validated on VKS, and the same operating model applies to the others."
+      },
+      {
+        "name": "Get Started",
+        "description": "Request a license, then install the full KubeDB Platform with the AppsCode installer, or install KubeDB and KubeStash only with Helm. We recommend a proof of value on one contained workload, measuring provisioning time, restore time, and operational effort before you scale."
+      }
+    ]
+  },
+  "resources": {
+    "title": "Learn More",
+    "items": [
+      {
+        "label": "KubeDB on vSphere Kubernetes Service on VMware Cloud Foundation: Reference Architecture",
+        "url": "https://www.vmware.com/docs/isv-kubedb-vks-vcf"
+      },
+      {
+        "label": "KubeDB by AppsCode on VMware vSphere Kubernetes Service (VKS): AppsCode Blog",
+        "url": "https://appscode.com/blog/post/kubedb-on-vmware-vks/"
+      },
+      {
+        "label": "Empowering Platform Teams with VMware vSphere Kubernetes Service Validations: VMware Blog",
+        "url": "https://blogs.vmware.com/cloud-foundation/2026/11/09/empowering-platform-teams-vmware-vsphere-kubernetes-service-validations/"
+      }
+    ]
+  }
+}
