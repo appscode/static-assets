@@ -6,7 +6,7 @@
   "hero_badge": "Business Continuity and Disaster Recovery (BCDR)",
   "hero_title_1": "Kubernetes Database Disaster Recovery",
   "hero_title_2": "with Near-Zero RPO and RTO",
-  "hero_description": "Lose a data center without losing your data or waiting on a war room. KubeDB fails your databases over to a second data center in about a minute, supports zero data loss with synchronous replication, and protects PostgreSQL, Redis, Kafka, MongoDB, OpenSearch, and active-active distributed SQL.",
+  "hero_description": "Lose a data center without losing your data or waiting on a war room. KubeDB fails your databases over to a second data center in about a minute, supports zero data loss with synchronous replication, and protects the engines you run with the right approach for each.",
   "primary_action_text": "Explore DR Options",
   "primary_action_url": "/docs/latest/guides/postgres/remote-replica/",
   "secondary_action_text": "Schedule Demo",
@@ -185,7 +185,7 @@
     {
       "icon": "lucide:network",
       "title": "Active-Active",
-      "description": "For the strictest targets, distributed SQL such as YugabyteDB keeps serving through a data center loss.",
+      "description": "For the strictest targets, a distributed SQL database keeps serving through a data center loss.",
       "benefits": [
         "Zero data loss and near-zero downtime",
         "Designed in from day one for new services",
@@ -259,15 +259,15 @@
     },
     {
       "question": "When should I use active-active?",
-      "answer": "When you need zero data loss and near-zero downtime and can keep your data centers close together. Distributed SQL such as YugabyteDB keeps a full copy in each data center. It requires application changes, so it suits new services best."
+      "answer": "When you need zero data loss and near-zero downtime and can keep your data centers close together. A distributed SQL database keeps a full copy in each data center. It requires application changes, so it suits new services best."
     },
     {
       "question": "Is there always only one writable primary?",
-      "answer": "For PostgreSQL, yes. KubeDB keeps one data center in charge at a time, and the other follows. Active-active distributed SQL is the exception, by design."
+      "answer": "In standard active/standby setups, yes. KubeDB keeps one data center in charge at a time, and the other follows. Active-active distributed SQL is the exception, by design."
     },
     {
-      "question": "Does this cover databases other than PostgreSQL?",
-      "answer": "Yes. KubeDB protects PostgreSQL, Redis, Kafka, MongoDB, and OpenSearch across data centers, using the best mechanism for each engine. For those engines replication is asynchronous, so data loss equals the replication delay."
+      "question": "Which databases does this cover?",
+      "answer": "KubeDB protects many of the popular relational, NoSQL, streaming, and search engines across data centers, using the best mechanism for each one. For some engines replication is asynchronous, so data loss equals the replication delay. See the documentation for the full list."
     },
     {
       "question": "How do you prevent two sites from acting as primary?",
@@ -329,53 +329,5 @@
       "label": "Expert Support",
       "gradient": "linear-gradient(135deg, #fb923c, #ef4444)"
     }
-  ],
-  "engine_dr": {
-    "title": "Protection for Every Database You Run",
-    "subtitle": "KubeDB uses the right cross-data-center protection for each engine, and operates all of them the same way.",
-    "headers": [
-      "Database",
-      "How it is protected",
-      "When a data center is lost",
-      "Data loss"
-    ],
-    "rows": [
-      [
-        "PostgreSQL",
-        "Continuous replication to a standby data center",
-        "The standby takes over automatically or on your command",
-        "A few seconds at most, <strong>zero</strong> with synchronous replication"
-      ],
-      [
-        "Redis",
-        "Replicas in the second data center",
-        "The replicas take over",
-        "Replication delay (asynchronous)"
-      ],
-      [
-        "Kafka",
-        "Topic mirroring to a second cluster",
-        "Applications switch to the mirrored cluster",
-        "Mirroring delay (asynchronous)"
-      ],
-      [
-        "MongoDB",
-        "Extra members in the second data center",
-        "They are promoted to take over",
-        "Replication delay (asynchronous)"
-      ],
-      [
-        "OpenSearch",
-        "Cross-cluster replication",
-        "The follower cluster takes over",
-        "Replication delay (asynchronous)"
-      ],
-      [
-        "YugabyteDB (active-active)",
-        "Data replicated across data centers by consensus",
-        "Surviving data centers keep serving reads and writes",
-        "<strong>Zero</strong>"
-      ]
-    ]
-  }
+  ]
 }
