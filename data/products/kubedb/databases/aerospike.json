@@ -18,32 +18,32 @@
   "features": [
     {
       "title": "Provisioning",
-      "image": "/assets/images/databases/illustrations/colud-chair.png",
+      "image": "/assets/images/databases/illustrations/provisioning.png",
       "description": "If you can run Kubernetes, you can provision Aerospike databases using KubeDB workflows. You can use standard Kubernetes CLI and API patterns to define and operate database resources."
     },
     {
       "title": "Version Upgrade",
-      "image": "/assets/images/databases/illustrations/version-control.png",
+      "image": "/assets/images/databases/illustrations/version-upgrade.png",
       "description": "Database upgrades in Kubernetes require careful orchestration. KubeDB workflows help streamline Aerospike version upgrade processes with operational guardrails."
     },
     {
       "title": "Scaling",
-      "image": "/assets/images/databases/illustrations/scalling.png",
+      "image": "/assets/images/databases/illustrations/scaling.png",
       "description": "To improve performance, your database should scale predictably. KubeDB workflows support scaling patterns for Aerospike on Kubernetes environments."
     },
     {
       "title": "Volume Expansion",
-      "image": "/assets/images/databases/illustrations/expansion.png",
+      "image": "/assets/images/databases/illustrations/volume-expansion.png",
       "description": "Expanding storage capacity helps maintain performance and availability. KubeDB workflows support storage growth operations for Aerospike deployments in Kubernetes."
     },
     {
       "title": "Backup & Restore",
-      "image": "/assets/images/databases/illustrations/backup.png",
+      "image": "/assets/images/databases/illustrations/backup-restore.png",
       "description": "Disaster recovery is essential for production systems. KubeDB workflows integrate with backup solutions to support backup and restore for Aerospike workloads."
     },
     {
       "title": "Monitoring",
-      "image": "/assets/images/databases/illustrations/overview.png",
+      "image": "/assets/images/databases/illustrations/monitoring.png",
       "description": "KubeDB provides observability integrations so you can monitor database health and key runtime metrics in Kubernetes environments."
     },
     {
