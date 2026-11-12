@@ -383,6 +383,22 @@
       "answer": "Yes. KubeDB includes database-aware, application-consistent backup and recovery integrated directly into database lifecycle management."
     },
     {
+      "question": "What is KubeDB Courier?",
+      "answer": "Courier is the KubeDB component that moves data. It powers live database migration into KubeDB, and you drive it declaratively through Kubernetes custom resources. Enable it with the kubedb-courier.enabled Helm flag."
+    },
+    {
+      "question": "Can I migrate an existing database into KubeDB without downtime?",
+      "answer": "Yes. KubeDB Migration copies the schema, takes an initial snapshot, and then streams ongoing changes while your source database keeps serving traffic. You stop writes on the source only when the lag is near zero, then switch your application to the KubeDB-managed database. PostgreSQL, MySQL, MariaDB, MongoDB, and MSSQL Server are supported."
+    },
+    {
+      "question": "Can I clone production data for development and testing?",
+      "answer": "Yes. KubeDB lets you clone production data safely for development and testing, using the same declarative model as the rest of your databases. Branching, which adds isolated, writable copies, is on the roadmap."
+    },
+    {
+      "question": "How does KubeDB handle business continuity and disaster recovery (BCDR)?",
+      "answer": "KubeDB combines encrypted, incremental backup and point-in-time recovery with cross data center disaster recovery for PostgreSQL. DR is always Active/Standby with one writable primary, and you choose who moves it: Option A is automatic failover decided by a 3-site etcd quorum, and Option B is manual failover across two independent clusters using Remote Replica, with synchronous mode for zero data loss. Planned switchover is zero data loss in both."
+    },
+    {
       "question": "Can I move databases across environments with KubeDB?",
       "answer": "Yes. KubeDB enables consistent database operations across clusters and environments, making it easier to migrate workloads across cloud, on-prem, and hybrid deployments."
     }

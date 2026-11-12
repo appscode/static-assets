@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 360" fill="none" role="img" aria-label="Configuration Syncer">
+  <defs>
+    <radialGradient id="csGlowTR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#CFE0FB" stop-opacity="0.9"/><stop offset="40%" stop-color="#DCE8FD" stop-opacity="0.5"/>
+      <stop offset="75%" stop-color="#EAF1FE" stop-opacity="0.14"/><stop offset="100%" stop-color="#EAF1FE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="csGlowBL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#BFD6FA" stop-opacity="0.85"/><stop offset="40%" stop-color="#D3E1FC" stop-opacity="0.45"/>
+      <stop offset="75%" stop-color="#E6EFFE" stop-opacity="0.12"/><stop offset="100%" stop-color="#E6EFFE" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="csSoften" x="-120" y="-120" width="720" height="620" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="22"/></filter>
+    <radialGradient id="csSpot" cx="50%" cy="46%" r="55%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/><stop offset="62%" stop-color="#FFFFFF" stop-opacity="0.25"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="csDoc" x1="0.15" y1="0" x2="0.55" y2="1"><stop offset="0%" stop-color="#6EA0F9"/><stop offset="50%" stop-color="#3F73E4"/><stop offset="100%" stop-color="#254FAC"/></linearGradient>
+    <linearGradient id="csDocSheen" x1="0" y1="0" x2="0.8" y2="1"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/><stop offset="30%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="csCard" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#EDF3FD"/></linearGradient>
+    <linearGradient id="csTile" x1="0.2" y1="0" x2="0.6" y2="1"><stop offset="0%" stop-color="#6EA0F9"/><stop offset="100%" stop-color="#254FAC"/></linearGradient>
+    <radialGradient id="csGrnGlow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#22C55E" stop-opacity="0.5"/><stop offset="100%" stop-color="#22C55E" stop-opacity="0"/></radialGradient>
+    <filter id="csDropBig" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#14337A" flood-opacity="0.30"/></filter>
+    <filter id="csDropSm" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#14337A" flood-opacity="0.26"/></filter>
+  </defs>
+
+  <circle cx="402" cy="46" r="188" fill="url(#csGlowTR)" filter="url(#csSoften)"/>
+  <circle cx="52" cy="322" r="150" fill="url(#csGlowBL)" filter="url(#csSoften)"/>
+  <circle cx="420" cy="300" r="4" fill="#BFD6FA"/><circle cx="34" cy="66" r="3" fill="#8FB4F2"/>
+  <ellipse cx="150" cy="196" rx="150" ry="150" fill="url(#csSpot)"/>
+
+  <!-- source ConfigMap/Secret document (left) -->
+  <ellipse cx="128" cy="292" rx="66" ry="12" fill="#1A3E92" opacity="0.18"/>
+  <g filter="url(#csDropBig)">
+    <rect x="70" y="120" width="116" height="150" rx="16" fill="url(#csDoc)"/>
+    <rect x="70" y="120" width="116" height="150" rx="16" fill="url(#csDocSheen)"/>
+  </g>
+  <rect x="70.5" y="120.5" width="115" height="149" rx="15.5" fill="none" stroke="#8FB4F5" stroke-opacity="0.5" stroke-width="1"/>
+  <!-- key:value lines -->
+  <rect x="88" y="144" width="60" height="7" rx="3.5" fill="#FFFFFF" opacity="0.85"/>
+  <rect x="88" y="164" width="80" height="7" rx="3.5" fill="#FFFFFF" opacity="0.55"/>
+  <rect x="88" y="184" width="48" height="7" rx="3.5" fill="#FFFFFF" opacity="0.55"/>
+  <rect x="88" y="204" width="70" height="7" rx="3.5" fill="#FFFFFF" opacity="0.55"/>
+  <!-- annotation chip on the document -->
+  <g transform="translate(128 240)">
+    <rect x="-46" y="-13" width="92" height="26" rx="13" fill="#FFFFFF" opacity="0.16"/>
+    <rect x="-46" y="-13" width="92" height="26" rx="13" fill="none" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1"/>
+    <text x="0" y="4" font-family="'DejaVu Sans Mono','Courier New',monospace" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">sync: true</text>
+  </g>
+
+  <!-- source label badge -->
+  <g transform="translate(128 92)">
+    <g filter="url(#csDropSm)"><rect x="-58" y="-16" width="116" height="32" rx="16" fill="url(#csCard)"/></g>
+    <text x="0" y="5" font-family="'Segoe UI',system-ui,sans-serif" font-size="12" font-weight="700" fill="#254FAC" text-anchor="middle">ConfigMap / Secret</text>
+  </g>
+
+  <!-- connectors fanning out to synced targets -->
+  <g stroke="#9DBBF0" stroke-width="2.6" stroke-dasharray="1 8" stroke-linecap="round" fill="none">
+    <path d="M188 158 C230 138 268 122 306 116"/>
+    <path d="M188 195 C240 195 270 195 306 195"/>
+    <path d="M188 232 C230 254 268 270 306 276"/>
+  </g>
+
+  <!-- 3 synced namespace/cluster targets, each with a success check -->
+  <g transform="translate(346 116)">
+    <g filter="url(#csDropSm)"><rect x="-40" y="-28" width="80" height="56" rx="14" fill="url(#csTile)"/></g>
+    <polygon points="0,-13 12,-6 12,6 0,13 -12,6 -12,-6" fill="none" stroke="#FFFFFF" stroke-width="2.4"/>
+    <circle cx="18" cy="16" r="11" fill="#22C55E" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M13 16 l3 3 l6 -7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(346 195)">
+    <g filter="url(#csDropSm)"><rect x="-40" y="-28" width="80" height="56" rx="14" fill="url(#csTile)"/></g>
+    <polygon points="0,-13 12,-6 12,6 0,13 -12,6 -12,-6" fill="none" stroke="#FFFFFF" stroke-width="2.4"/>
+    <circle cx="18" cy="16" r="11" fill="#22C55E" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M13 16 l3 3 l6 -7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(346 276)">
+    <g filter="url(#csDropSm)"><rect x="-40" y="-28" width="80" height="56" rx="14" fill="url(#csTile)"/></g>
+    <polygon points="0,-13 12,-6 12,6 0,13 -12,6 -12,-6" fill="none" stroke="#FFFFFF" stroke-width="2.4"/>
+    <circle cx="18" cy="16" r="11" fill="#22C55E" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M13 16 l3 3 l6 -7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- sync pulse glow near source -->
+  <circle cx="200" cy="195" r="20" fill="url(#csGrnGlow)"/>
+  <g fill="#7FB0F5"><circle cx="230" cy="70" r="2.4"/><circle cx="150" cy="330" r="2"/></g>
+</svg>

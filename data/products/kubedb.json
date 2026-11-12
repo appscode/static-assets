@@ -157,6 +157,129 @@
       "show": true
     },
     {
+      "version": "v2026.10.12",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "autoscaler": "v0.53.0",
+        "cli": "v0.68.0",
+        "dashboard": "v0.44.0",
+        "installer": "v2026.10.12",
+        "ops-manager": "v0.55.0",
+        "provisioner": "v0.68.0",
+        "schema-manager": "v0.44.0",
+        "ui-server": "v0.44.0",
+        "webhook-server": "v0.44.0"
+      }
+    },
+    {
+      "version": "v2026.8.26-rc.2",
+      "hostDocs": true,
+      "info": {
+        "autoscaler": "v0.52.0-rc.2",
+        "cli": "v0.67.0-rc.2",
+        "dashboard": "v0.43.0-rc.2",
+        "installer": "v2026.8.26-rc.2",
+        "ops-manager": "v0.54.0-rc.2",
+        "provisioner": "v0.67.0-rc.2",
+        "schema-manager": "v0.43.0-rc.2",
+        "ui-server": "v0.43.0-rc.2",
+        "webhook-server": "v0.43.0-rc.2"
+      }
+    },
+    {
+      "version": "v2026.8.14-rc.0",
+      "hostDocs": true,
+      "info": {
+        "autoscaler": "v0.52.0-rc.0",
+        "cli": "v0.67.0-rc.0",
+        "dashboard": "v0.43.0-rc.0",
+        "installer": "v2026.8.14-rc.0",
+        "ops-manager": "v0.54.0-rc.0",
+        "provisioner": "v0.67.0-rc.0",
+        "schema-manager": "v0.43.0-rc.0",
+        "ui-server": "v0.43.0-rc.0",
+        "webhook-server": "v0.43.0-rc.0"
+      }
+    },
+    {
+      "version": "v2026.7.10",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "autoscaler": "v0.51.0",
+        "cli": "v0.66.0",
+        "dashboard": "v0.42.0",
+        "installer": "v2026.7.10",
+        "ops-manager": "v0.53.0",
+        "provisioner": "v0.66.0",
+        "schema-manager": "v0.42.0",
+        "ui-server": "v0.42.0",
+        "webhook-server": "v0.42.0"
+      }
+    },
+    {
+      "version": "v2026.6.19",
+      "hostDocs": true,
+      "show": true,
+      "info": {
+        "autoscaler": "v0.50.0",
+        "cli": "v0.65.0",
+        "dashboard": "v0.41.0",
+        "installer": "v2026.6.19",
+        "ops-manager": "v0.52.0",
+        "provisioner": "v0.65.0",
+        "schema-manager": "v0.41.0",
+        "ui-server": "v0.41.0",
+        "webhook-server": "v0.41.0"
+      }
+    },
+    {
+      "version": "v2026.6.18-rc.2",
+      "hostDocs": false,
+      "info": {
+        "autoscaler": "v0.50.0-rc.2",
+        "cli": "v0.65.0-rc.2",
+        "dashboard": "v0.41.0-rc.2",
+        "installer": "v2026.6.18-rc.2",
+        "ops-manager": "v0.52.0-rc.2",
+        "provisioner": "v0.65.0-rc.2",
+        "schema-manager": "v0.41.0-rc.2",
+        "ui-server": "v0.41.0-rc.2",
+        "webhook-server": "v0.41.0-rc.2"
+      }
+    },
+    {
+      "version": "v2026.6.5-rc.1",
+      "hostDocs": false,
+      "info": {
+        "autoscaler": "v0.50.0-rc.1",
+        "cli": "v0.65.0-rc.1",
+        "dashboard": "v0.41.0-rc.1",
+        "installer": "v2026.6.5-rc.1",
+        "ops-manager": "v0.52.0-rc.1",
+        "provisioner": "v0.65.0-rc.1",
+        "schema-manager": "v0.41.0-rc.1",
+        "ui-server": "v0.41.0-rc.1",
+        "webhook-server": "v0.41.0-rc.1"
+      }
+    },
+    {
+      "version": "v2026.5.18-rc.0",
+      "hostDocs": false,
+      "info": {
+        "autoscaler": "v0.50.0-rc.0",
+        "cli": "v0.65.0-rc.0",
+        "dashboard": "v0.41.0-rc.0",
+        "installer": "v2026.5.18-rc.0",
+        "ops-manager": "v0.52.0-rc.0",
+        "provisioner": "v0.65.0-rc.0",
+        "schema-manager": "v0.41.0-rc.0",
+        "ui-server": "v0.41.0-rc.0",
+        "webhook-server": "v0.41.0-rc.0"
+      }
+    },
+    {
       "version": "v2026.4.27",
       "hostDocs": true,
       "show": true,
@@ -175,7 +298,6 @@
     {
       "version": "v2026.4.13-rc.0",
       "hostDocs": false,
-      "show": false,
       "info": {
         "autoscaler": "v0.49.0-rc.0",
         "cli": "v0.64.0-rc.0",
@@ -1501,7 +1623,7 @@
       "hostDocs": false
     }
   ],
-  "latestVersion": "v2026.4.27",
+  "latestVersion": "v2026.10.12",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubedb",

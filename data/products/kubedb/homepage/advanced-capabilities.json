@@ -1,0 +1,49 @@
+{
+  "badge": "New Capabilities",
+  "title_plain": "Database Migration, Cloning,",
+  "title_gradient": "and Disaster Recovery",
+  "description": "Zero-downtime migration, database cloning, and disaster recovery extend KubeDB from running databases to moving, copying, and protecting them across clusters and data centers.",
+  "section_title": "Database Migration, Cloning, and Disaster Recovery",
+  "section_subtitle": "Zero-downtime migration, database cloning, and disaster recovery extend KubeDB from running databases to moving, copying, and protecting them across clusters and data centers.",
+  "capabilities": [
+    {
+      "id": "bcdr",
+      "title": "Database Disaster Recovery with Near-Zero Downtime",
+      "description": "Protect Kubernetes databases against data center failures with automated failover and recovery, with near-zero data loss for critical workloads.",
+      "icon": "lucide:shield-check",
+      "icon_gradient": "linear-gradient(135deg, #10b981, #059669)",
+      "benefits": [
+        "Automatic database failover, or manual if you prefer",
+        "Zero data loss with synchronous replication when needed",
+        "Planned switchover for maintenance and recovery drills",
+        "Automated Database Backup and Point-in-Time Recovery (PITR)"
+      ]
+    },
+    {
+      "id": "migration",
+      "title": "Live Database Migration with Zero Downtime",
+      "description": "Move to KubeDB from another cloud or on-premises while your applications keep running. Your current database serves traffic until you decide to switch.",
+      "icon": "lucide:arrow-right-left",
+      "icon_gradient": "linear-gradient(135deg, #f59e0b, #ea580c)",
+      "benefits": [
+        "Powered by KubeDB Courier, enabled with one Helm flag",
+        "No maintenance window: your users stay online throughout",
+        "Continuous sync keeps both sides in step until cutover",
+        "Cut over in minutes, with every step versioned and tracked"
+      ]
+    },
+    {
+      "id": "branching-cloning",
+      "title": "Database Cloning and Branching for Dev/Test",
+      "description": "Give developers and test pipelines realistic copies of production databases without putting production at risk. Isolated branches are coming next.",
+      "icon": "lucide:git-branch",
+      "icon_gradient": "linear-gradient(135deg, #06b6d4, #2563eb)",
+      "benefits": [
+        "Built on KubeDB Courier, the engine behind migration",
+        "Realistic data for development, testing, and upgrades",
+        "Production stays untouched, protected, and fully isolated",
+        "Same simple, declarative experience as all of KubeDB"
+      ]
+    }
+  ]
+}

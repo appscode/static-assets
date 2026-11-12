@@ -1,0 +1,333 @@
+{
+  "product_name": "BCDR",
+  "product_color_primary": "#0e7490",
+  "cta_bg_color": "#083344",
+  "product_icon": "lucide:shield-alert",
+  "hero_badge": "Business Continuity and Disaster Recovery (BCDR)",
+  "hero_title_1": "Kubernetes Database Disaster Recovery",
+  "hero_title_2": "with Near-Zero RPO and RTO",
+  "hero_description": "Lose a data center without losing your data or waiting on a war room. KubeDB fails your databases over to a second data center in about a minute, supports zero data loss with synchronous replication, and protects the engines you run with the right approach for each.",
+  "primary_action_text": "Explore DR Options",
+  "primary_action_url": "/docs/latest/guides/postgres/remote-replica/",
+  "secondary_action_text": "Schedule Demo",
+  "secondary_action_url": "https://x.appscode.com/_/kubedb_inquiry",
+  "watch_demo_url": "https://www.youtube.com/watch?v=hBHxMtSjKo4",
+  "hero_best_with_items": [
+    "KubeDB Operator",
+    "KubeDB Platform"
+  ],
+  "stats": [
+    {
+      "label": "RPO with Synchronous Mode",
+      "value": "Zero"
+    },
+    {
+      "label": "Default Failover Timer",
+      "value": "45 s"
+    },
+    {
+      "label": "Engines with Cross-DC DR",
+      "value": "5+"
+    },
+    {
+      "label": "Backup",
+      "value": "PITR"
+    }
+  ],
+  "when_to_use_title": "Why Database Disaster Recovery Matters",
+  "when_to_use_subtitle": "Why Database Disaster Recovery Matters",
+  "when_to_use_description": "When a data center goes down, the database decides how long the business stays down and how much it loses. These are the pains KubeDB removes.",
+  "when_to_use_column_class": "is-3-desktop",
+  "when_to_use": [
+    {
+      "icon": "lucide:server-off",
+      "title": "Outages Stop the Business",
+      "description": "When a data center goes dark, every application that depends on its databases goes dark with it.",
+      "icon_bg": "#0e7490"
+    },
+    {
+      "icon": "lucide:database-zap",
+      "title": "Lost Data Is Lost Trust",
+      "description": "The orders, payments, and records written just before an outage are the hardest to get back.",
+      "icon_bg": "#3b82f6"
+    },
+    {
+      "icon": "lucide:clock",
+      "title": "Manual Recovery Is Slow",
+      "description": "Runbooks, war rooms, and late-night decisions turn a short outage into a long one.",
+      "icon_bg": "#10b981"
+    },
+    {
+      "icon": "lucide:flask-conical",
+      "title": "Untested Plans Fail",
+      "description": "A recovery plan nobody has rehearsed is a hope, not a plan. KubeDB makes drills routine.",
+      "icon_bg": "#a855f7"
+    }
+  ],
+  "comparison_title": "Choose How Failover Happens",
+  "comparison_header_1": "Aspect",
+  "comparison_header_2": "Automatic Failover",
+  "comparison_header_3": "Manual Failover",
+  "comparison_table": {
+    "rows": [
+      [
+        "Who triggers it",
+        "The system, with no human in the loop",
+        "Your team, after approving the move"
+      ],
+      [
+        "Best for",
+        "Many databases, and teams that cannot wait on a person",
+        "Teams that approve every move, or run only two sites"
+      ],
+      [
+        "Recovery time (RTO)",
+        "About a minute by default",
+        "Detection plus your team's response"
+      ],
+      [
+        "Data loss (RPO)",
+        "A few seconds at most, or zero with synchronous replication",
+        "Zero with synchronous replication, or the last few seconds without"
+      ],
+      [
+        "Planned switchover",
+        "One command, with no data lost",
+        "One command, with no data lost"
+      ],
+      [
+        "Footprint",
+        "Two data centers plus a small tie-breaker site",
+        "Two data centers"
+      ]
+    ]
+  },
+  "how_it_works_title": "Disaster Recovery, Built In",
+  "how_it_works_subtitle": "KubeDB protects your databases across data centers and moves them when you need it to, so failover becomes a routine operation instead of an emergency.",
+  "how_it_works_infra": {
+    "icon": "lucide:building-2",
+    "title": "You Provide:",
+    "items": [
+      {
+        "icon": "lucide:server",
+        "text": "Kubernetes in two data centers"
+      },
+      {
+        "icon": "lucide:network",
+        "text": "A network path between them"
+      },
+      {
+        "icon": "lucide:vote",
+        "text": "A small third site to break ties, for automatic failover"
+      },
+      {
+        "icon": "lucide:hard-drive",
+        "text": "Object storage for backups"
+      }
+    ]
+  },
+  "how_it_works_software": {
+    "icon": "lucide:shield-check",
+    "title": "KubeDB Provides:",
+    "items": [
+      {
+        "icon": "lucide:zap",
+        "text": "Automatic failover, or failover your team approves"
+      },
+      {
+        "icon": "lucide:refresh-cw",
+        "text": "Continuous replication to your standby site"
+      },
+      {
+        "icon": "lucide:lock",
+        "text": "Only one site in charge at any time, even during a network split"
+      },
+      {
+        "icon": "lucide:database-backup",
+        "text": "Backup with point-in-time recovery"
+      }
+    ]
+  },
+  "how_it_works_summary": "Automatic or manual • One site in charge at all times • Planned switchover is one command",
+  "platform_built_for_scale_title": "Everything You Need to Recover with Confidence",
+  "platform_built_for_scale_subtitle": "Failover, replication, switchover, and backup, operated the same way for every database",
+  "platform_built_for_scale": [
+    {
+      "icon": "lucide:zap",
+      "title": "Automatic Failover",
+      "description": "Recovery that does not wait for a person, built for teams running many databases.",
+      "benefits": [
+        "No pager call to start recovery",
+        "Only one site in charge, even during network splits",
+        "Same experience for every database"
+      ]
+    },
+    {
+      "icon": "lucide:user-check",
+      "title": "Manual Failover",
+      "description": "Every data center move needs your approval, with the smallest footprint.",
+      "benefits": [
+        "Your team stays in control",
+        "Fits two-site environments",
+        "Zero data loss with synchronous replication"
+      ]
+    },
+    {
+      "icon": "lucide:shield-check",
+      "title": "Synchronous Replication",
+      "description": "Acknowledge a commit only after the standby has it, so a lost data center loses nothing.",
+      "benefits": [
+        "Zero data loss on unplanned failover",
+        "Cost: one network round trip per write",
+        "Turn it on only where it matters"
+      ]
+    },
+    {
+      "icon": "lucide:network",
+      "title": "Active-Active",
+      "description": "For the strictest targets, a distributed SQL database keeps serving through a data center loss.",
+      "benefits": [
+        "Zero data loss and near-zero downtime",
+        "Designed in from day one for new services",
+        "Works best with sites close together"
+      ]
+    },
+    {
+      "icon": "lucide:arrow-right-left",
+      "title": "Planned Switchover",
+      "description": "Move the primary on purpose for maintenance or drills, with no data loss.",
+      "benefits": [
+        "One command, with visible progress",
+        "Abort at any point to resume writes",
+        "Rehearse recovery without risk"
+      ]
+    },
+    {
+      "icon": "lucide:database-backup",
+      "title": "Backup and PITR",
+      "description": "Encrypted, incremental backups with point-in-time recovery, for the failures replication cannot undo.",
+      "benefits": [
+        "Encrypted, incremental backups",
+        "Point-in-time recovery",
+        "Any S3-compatible object store"
+      ]
+    }
+  ],
+  "deployment_process_title": "From Setup to Protected",
+  "deployment_process_subtitle": "Four steps to a database estate that survives the loss of a data center.",
+  "deployment_process": [
+    {
+      "step": 1,
+      "title": "Connect Your Data Centers",
+      "desc": "Run Kubernetes in two sites with a network path between them",
+      "icon": "lucide:network"
+    },
+    {
+      "step": 2,
+      "title": "Choose How Failover Happens",
+      "desc": "Automatic or manual, to match how your team works",
+      "icon": "lucide:scale"
+    },
+    {
+      "step": 3,
+      "title": "Protect Your Databases",
+      "desc": "Deploy databases in disaster recovery mode, with backups switched on",
+      "icon": "lucide:shield-check"
+    },
+    {
+      "step": 4,
+      "title": "Rehearse and Prove It",
+      "desc": "Run planned switchovers and drills to measure your real recovery numbers",
+      "icon": "lucide:flask-conical"
+    }
+  ],
+  "faqs_title": "BCDR Frequently Asked Questions",
+  "faqs_subtitle": "Everything you need to know about disaster recovery with KubeDB",
+  "faqs_contact_url": "https://appscode.com/contact/",
+  "faqs": [
+    {
+      "question": "What RPO and RTO can I expect?",
+      "answer": "With automatic failover, recovery typically takes about a minute by default. With asynchronous replication, data loss is a few seconds at most, and with synchronous replication it is zero. Planned switchovers are always zero data loss. Your actual numbers depend on your network and workload, so measure them in a drill."
+    },
+    {
+      "question": "Which failover style should I choose?",
+      "answer": "Choose automatic failover when a data center failover must not wait for a person, you run many databases, and you can host a small third site to break ties. Choose manual failover when your team must approve every move, you have only two sites, or you want the smallest footprint. Choose active-active distributed SQL for new services that need zero loss and near-zero downtime and can accept the application changes."
+    },
+    {
+      "question": "What does synchronous replication cost?",
+      "answer": "Each write waits for the standby, so write latency grows by one network round trip between the data centers. In exchange, a lost data center loses no committed data. Many teams turn it on only for the databases that need it."
+    },
+    {
+      "question": "When should I use active-active?",
+      "answer": "When you need zero data loss and near-zero downtime and can keep your data centers close together. A distributed SQL database keeps a full copy in each data center. It requires application changes, so it suits new services best."
+    },
+    {
+      "question": "Is there always only one writable primary?",
+      "answer": "In standard active/standby setups, yes. KubeDB keeps one data center in charge at a time, and the other follows. Active-active distributed SQL is the exception, by design."
+    },
+    {
+      "question": "Which databases does this cover?",
+      "answer": "KubeDB protects many of the popular relational, NoSQL, streaming, and search engines across data centers, using the best mechanism for each one. For some engines replication is asynchronous, so data loss equals the replication delay. See the documentation for the full list."
+    },
+    {
+      "question": "How do you prevent two sites from acting as primary?",
+      "answer": "KubeDB makes sure only one data center is in charge at any moment, even during a network split. A site that loses contact stops accepting writes until it is safe to continue."
+    },
+    {
+      "question": "What happens when the failed data center comes back?",
+      "answer": "It rejoins as a standby and KubeDB brings it back in sync. When you are ready, a planned switchover returns the primary role with no data lost."
+    },
+    {
+      "question": "Does this include backup and point-in-time recovery?",
+      "answer": "Yes. KubeDB provides encrypted, incremental backups with point-in-time recovery, so you can recover from failures that replication would copy to the standby, such as an accidental delete."
+    },
+    {
+      "question": "How do I know my targets are met?",
+      "answer": "Run planned switchovers and scheduled disaster recovery drills, for example quarterly, and record the RPO and RTO each drill measures. KubeDB shows status and progress at every step."
+    },
+    {
+      "question": "Is this running in production?",
+      "answer": "Yes. KubeDB runs a highly available primary cluster with a live disaster recovery replica at a geographically separate site for a regulated mobile financial services platform. Read the TeleCash case study for details."
+    }
+  ],
+  "cta_badge": "Protect Your Data",
+  "cta_title": "Set Your RPO and RTO",
+  "cta_title_gradient": "Before You Need Them",
+  "cta_description": "Pick automatic or manual failover, add synchronous replication or active-active where zero loss matters, and prove it in a drill.",
+  "cta_checklist": [
+    "Near-zero RPO and RTO across data centers",
+    "Planned switchover with zero data loss",
+    "Backup with point-in-time recovery"
+  ],
+  "cta_button_text": "Schedule a Demo",
+  "cta_button_url": "https://x.appscode.com/_/kubedb_inquiry",
+  "cta_secondary_button_text": "Read the TeleCash Case Study",
+  "cta_secondary_button_url": "/case-studies/telecash/",
+  "cta_secondary_button_icon": "lucide:file-text",
+  "final_cta_metrics": [
+    {
+      "icon": "lucide:timer",
+      "value": "45 s",
+      "label": "Default Failover Timer",
+      "gradient": "linear-gradient(135deg, #22d3ee, #3b82f6)"
+    },
+    {
+      "icon": "lucide:shield-check",
+      "value": "Zero",
+      "label": "RPO, Synchronous Mode",
+      "gradient": "linear-gradient(135deg, #4ade80, #10b981)"
+    },
+    {
+      "icon": "lucide:database-backup",
+      "value": "PITR",
+      "label": "Backup Recovery",
+      "gradient": "linear-gradient(135deg, #a855f7, #ec4899)"
+    },
+    {
+      "icon": "lucide:headphones",
+      "value": "24x7",
+      "label": "Expert Support",
+      "gradient": "linear-gradient(135deg, #fb923c, #ef4444)"
+    }
+  ]
+}
