@@ -201,8 +201,8 @@
     },
     {
       "version": "v2026.11.10",
-      "hostDocs": true,
-      "show": true,
+      "hostDocs": false,
+      "show": false,
       "info": {
         "cli": "v0.30.0",
         "installer": "v2026.11.10",
