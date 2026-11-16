@@ -168,7 +168,7 @@
     {
       "version": "v2026.10.30",
       "hostDocs": true,
-      "show": false,
+      "show": true,
       "info": {
         "kubedb-installer": "v2026.10.30",
         "kubeops-installer": "v2026.10.30"
@@ -221,7 +221,7 @@
       "show": true
     }
   ],
-  "latestVersion": "v2026.10.12",
+  "latestVersion": "v2026.10.30",
   "socialLinks": {
     "facebook": "https://facebook.com/appscode",
     "github": "https://github.com/kubedb",
