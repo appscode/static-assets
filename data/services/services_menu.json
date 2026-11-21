@@ -199,6 +199,12 @@
           "icon": null
         },
         {
+          "id": "ceph-support",
+          "title": "Ceph Support",
+          "description": "Ceph deployment, operations & recovery",
+          "icon": null
+        },
+        {
           "id": "service-mesh-consulting-support",
           "title": "Service Mesh Consulting",
           "description": "Onboarding Service Mesh? we got you!",

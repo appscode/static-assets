@@ -1,0 +1,163 @@
+{
+  "hero": {
+    "title": "Ceph Support for Your Storage, Your Way",
+    "subtitle": "Get practical help with Ceph incidents, operations, and improvements, from an existing cluster to a new Kubernetes storage platform.",
+    "cta_text": "Discuss Your Cluster",
+    "cta_url": "/contact/",
+    "illustration": {
+      "src": "/assets/images/services/enterprise-support-services.png",
+      "alt": "Ceph support and operations"
+    }
+  },
+  "title_with_small_cards": {
+    "title": "Storage for Diverse Workloads",
+    "subtitle": "Support for Ceph storage interfaces and Kubernetes applications across the cluster lifecycle.",
+    "areas": [
+      { "icon": "fa fa-database", "title": "Block Storage with RBD" },
+      { "icon": "fa fa-folder-open", "title": "Shared Files with CephFS" },
+      { "icon": "fa fa-cloud", "title": "Object Storage with RGW" },
+      { "icon": "fa fa-cubes", "title": "Kubernetes Persistent Storage" }
+    ]
+  },
+  "cards": {
+    "title": "How We Can Help",
+    "subtitle": "Choose the support and consulting services that fit your environment.",
+    "items": [
+      {
+        "icon": "fa fa-wrench",
+        "title": "Troubleshooting and Recovery",
+        "description": "Investigate cluster health warnings, unavailable services, degraded placement groups, and OSD failures. Plan recovery steps with data safety in mind."
+      },
+      {
+        "icon": "fa fa-search",
+        "title": "Health and Configuration Review",
+        "description": "Review cluster configuration, failure domains, capacity headroom, and operational risks, with recommendations tailored to your workloads."
+      },
+      {
+        "icon": "fa fa-tachometer",
+        "title": "Performance Optimization",
+        "description": "Examine storage, network, and workload bottlenecks and identify tuning opportunities for block, file, and object storage."
+      },
+      {
+        "icon": "fa fa-refresh",
+        "title": "Upgrade Planning",
+        "description": "Prepare for Ceph upgrades and infrastructure changes with compatibility checks, rollout planning, and recovery considerations."
+      },
+      {
+        "icon": "fa fa-bell",
+        "title": "Monitoring and Operations",
+        "description": "Improve visibility with health checks, alerts, operational procedures, and guidance for capacity and maintenance."
+      },
+      {
+        "icon": "fa fa-graduation-cap",
+        "title": "Team Enablement",
+        "description": "Help your operators understand Ceph architecture, routine maintenance, and incident workflows."
+      }
+    ]
+  },
+  "service_details": {
+    "title": "From Architecture to Operations",
+    "subtitle": "Build a new storage platform or get help with an existing cluster.",
+    "sections": [
+      {
+        "title": "Design and Sizing",
+        "description": "Start with your capacity, performance, and availability requirements. We help evaluate the trade-offs before choosing a cluster design.",
+        "offerings": [
+          "Assess workloads, storage interfaces, and growth projections.",
+          "Plan hardware, networking, failure domains, and capacity headroom.",
+          "Evaluate replication and erasure coding for appropriate workloads."
+        ],
+        "image": "/assets/images/services/strategic-consulting-architecture-design.png"
+      },
+      {
+        "title": "Deployment and Integration",
+        "description": "Plan and implement Ceph for your infrastructure and the applications that depend on it.",
+        "offerings": [
+          "Discuss deployment with cephadm or Rook on Kubernetes.",
+          "Configure RBD, CephFS, and the RADOS Gateway as appropriate.",
+          "Integrate Kubernetes workloads using Ceph CSI and storage classes."
+        ],
+        "image": "/assets/images/services/integration-deployment.png"
+      },
+      {
+        "title": "Existing and New Clusters",
+        "description": "Discuss your current deployment, planned infrastructure, or a specific storage problem. We can scope an engagement around your environment and priorities.",
+        "offerings": [
+          "Ceph block, file, and object storage use cases.",
+          "On-premises, cloud, and hybrid environments.",
+          "Ceph deployed with cephadm or with Rook on Kubernetes."
+        ],
+        "image": "/assets/images/services/consulting-advisory.png"
+      },
+      {
+        "title": "A Practical Path to Resolution",
+        "description": "Share the symptoms and business impact with us. We will discuss the scope, investigate with your team, and agree on the next steps.",
+        "offerings": [
+          "Assess cluster health and identify contributing factors.",
+          "Coordinate proposed changes and access with your team.",
+          "Document findings and recommendations for follow-up."
+        ],
+        "image": "/assets/images/services/sre-consulting-incident-management.png"
+      }
+    ]
+  },
+  "cards2": {
+    "title": "Plan Your Engagement",
+    "subtitle": "Every environment is different. Contact us to agree on scope, coverage, response targets, and pricing.",
+    "items": [
+      {
+        "icon": "fa fa-life-ring",
+        "title": "Incident Assistance",
+        "description": "Discuss a specific Ceph issue and the help your team needs to investigate and recover."
+      },
+      {
+        "icon": "fa fa-calendar",
+        "title": "Ongoing Support",
+        "description": "Define a support engagement around your clusters, operational needs, and desired coverage."
+      },
+      {
+        "icon": "fa fa-cubes",
+        "title": "Design and Implementation",
+        "description": "Plan a new Ceph platform with assistance for architecture, deployment, and integration."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is Ceph?",
+      "answer": "Ceph is an open-source distributed storage platform that provides block, file, and object storage from a cluster of storage nodes."
+    },
+    {
+      "question": "Can you help with an existing Ceph cluster?",
+      "answer": "Yes. Tell us how your cluster was deployed, which Ceph version you run, and the issue or outcome you want to address so we can discuss the scope."
+    },
+    {
+      "question": "Do you support Ceph on Kubernetes?",
+      "answer": "We can discuss support for Rook-managed Ceph and its integration with Kubernetes workloads, including persistent storage through Ceph CSI."
+    },
+    {
+      "question": "What response times and coverage are available?",
+      "answer": "Coverage, response targets, and escalation procedures are agreed as part of your engagement. Contact us with your requirements for a proposal."
+    },
+    {
+      "question": "Can AppsCode help with an urgent issue?",
+      "answer": "Contact us with the symptoms, impact, and your cluster details. We will discuss availability and the scope of assistance for your incident."
+    },
+    {
+      "question": "Can we use existing hardware?",
+      "answer": "Existing hardware may be suitable, depending on its capacity, performance, networking, and reliability. We can review it against your workload and availability requirements."
+    },
+    {
+      "question": "How much usable capacity will we need?",
+      "answer": "Usable capacity depends on the protection scheme, failure domains, workload, and operational headroom. We can help size the cluster for your requirements."
+    },
+    {
+      "question": "Is Ceph replication a replacement for backup?",
+      "answer": "No. Replication and erasure coding help protect against certain infrastructure failures, but they do not replace independent backups and tested recovery procedures."
+    }
+  ],
+  "final_cta": {
+    "title": "Let's Talk About Your Ceph Cluster",
+    "subtitle": "Tell us about your environment, challenges, and support requirements. We will work with you on the next steps."
+  }
+}
